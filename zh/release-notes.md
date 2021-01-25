@@ -1,8 +1,8 @@
 
-## CloudTrail > ReleaseNotes
+## CloudTrail > Release Notes
 ### 2021. 01. 26.
-#### 기능 변경
-* 이름 검색 검색 조건에서 **이름 검색**이 **아이디 검색**으로 변경되었습니다.
+#### Feature Updates
+* In name search conditions, **Search Name** has been changed to **Search ID**.
 
 ### 2020. 12. 29.
 #### Feature Updates
@@ -15,45 +15,45 @@
 #### More Events
 * System Monitoring 서비스 관련 이벤트가 추가되었습니다.
     * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/CloudTrail/ko/event-list/)
-* Added events related to Certificate Manager.
-    * Refer to the manual for more details : [Link](/CloudTrail/zh/event-list/)
+* Added events related to Certificate Manager Service.
+    * Refer to the manual for more details : [Link](/CloudTrail/en/event-list/)
 
 ### 2020. 10. 27.
 #### More Events
 * Added events related to CDN Service.
-    * Refer to the manual for more details : [Link](/CloudTrail/zh/event-list/)
-    
+    * Refer to the manual for more details : [Link](/CloudTrail/en/event-list/)
+
 ### 2020. 09. 22.
 #### More Events
 * Added events related to DNS Plus Service.
-    * Refer to the manual for more details : [Link](/CloudTrail/zh/event-list/)
+    * Refer to the manual for more details : [Link](/CloudTrail/en/event-list/)
 
 ### 2020. 08. 25.
 #### More Events
 * Added events related to Default Infrastructure Service.
 * Added events related to Backup Service.
-    * Refer to the manual for more details : [Link](/CloudTrail/zh/event-list/)
+    * Refer to the manual for more details : [Link](/CloudTrail/en/event-list/)
     
 ### 2020. 07. 28.
 #### More Events
 * Added events related to Object Storage.  
 * Added events related to Role Group.  
-    * Refer to the manual for more details : [Link](/CloudTrail/zh/event-list/)
+    * Refer to the manual for more details : [Link](/CloudTrail/en/event-list/)
  
 ### 2019. 12. 10.
 #### More Events
 * Added events related to RDS for MySQL.  
-    * Refer to the manual for more details : [Link](/CloudTrail/zh/event-list/)
+    * Refer to the manual for more details : [Link](/CloudTrail/en/event-list/)
 
 ### 2019. 10. 29.
 #### More Features
 * Updated, for the query of CloudTrail events, the search conditions of users who occurred events.
-    * Refer to the manual for more details : [Link](/CloudTrail/zh/api-guide/)
+    * Refer to the manual for more details : [Link](/CloudTrail/en/api-guide/)
 
-### 2019. 09. 24.
+### 2019. 09. 24. 
 #### More Features 
 * Restul API is provided for query of events. 
-    * See manual for more details: [Link](/CloudTrail/zh/api-guide/)
+    * See manual for more details: [Link](/CloudTrail/en/api-guide/)
     
 #### Feature Updates
 * Search by name (ID) allows not only the search of existing organization members but user-defined IAM members.
