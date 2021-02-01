@@ -110,6 +110,7 @@
 |수신 그룹 생성|event_id.rds_for_mysql.receiver_group.create|RDS for MySQL|
 |수신 그룹 변경|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL|
 |수신 그룹 삭제|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL|
+|DB 정의 정보 변경|event_id.rds_for_mysql.instance.db_definition.update|RDS for MySQL|
 |IAM Login|event_id.iam.login|Console|
 |Change Authority for IAM Members|event_id.iam.member.role.update|Console|
 |Add Organization Domain|event_id.org.domain.add|Console|

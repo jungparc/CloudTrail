@@ -1,5 +1,10 @@
 
 ## CloudTrail > Release Notes
+### 2021. 02. 09.
+#### More Events
+* Added events related to RDS for MySQL.
+  * Refer to the manual for more details : [Link](/CloudTrail/en/event-list/)
+
 ### 2021. 01. 26.
 #### Feature Updates
 * In name search conditions, **Search Name** has been changed to **Search ID**.
