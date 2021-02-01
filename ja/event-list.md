@@ -110,6 +110,7 @@
 |受信グループの作成|event_id.rds_for_mysql.receiver_group.create|RDS for MySQL|
 |受信グループの変更|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL|
 |受信グループの削除|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL|
+|DB 정의 정보 변경|event_id.rds_for_mysql.instance.db_definition.update|RDS for MySQL|
 |キー保存場所 作成|event_id.skm.keystore.create|Secure Key Manger|
 |キー保存場所 削除|event_id.skm.keystore.delete|Secure Key Manger|
 |キー保存場所 変更|event_id.skm.keystore.update|Secure Key Manger|
