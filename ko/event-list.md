@@ -111,6 +111,8 @@
 |수신 그룹 변경|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL|
 |수신 그룹 삭제|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL|
 |DB 정의 정보 변경|event_id.rds_for_mysql.instance.db_definition.update|RDS for MySQL|
+|DB 스키마 동기화|event_id.rds_for_mysql.instance.db_definition.schema.sync|RDS for MySQL|
+|DB User 동기화|event_id.rds_for_mysql.instance.db_definition.user.sync|RDS for MySQL|
 |키 저장소 생성|event_id.skm.keystore.create|Secure Key Manager
 |키 저장소 삭제|event_id.skm.keystore.delete|Secure Key Manager
 |키 저장소 정보 변경|event_id.skm.keystore.update|Secure Key Manager
