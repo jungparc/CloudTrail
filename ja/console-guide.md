@@ -26,7 +26,7 @@ CloudTrailサービスを選択すると、次のような画面が現れます�
     - USER_CONSOLE：組織内部会員ユーザーコンソールで発生したイベント
 3. サービス単位で検索します。 
     - サービスは複数の項目を検索できます。
-    - [参考]サービスはTOASTクラウドサービス単位です。
+    - [参考]サービスはNHN Cloudクラウドサービス単位です。
 4. イベント単位で検索します。
     - イベントは複数の項目を検索できます。
 5. ユーザーを検索します。
@@ -54,7 +54,7 @@ CloudTrailサービスを選択すると、次のような画面が現れます�
 
 ![cloudtrail_05](https://static.toastoven.net/prod_cloudtrail/IMG05_JA.png)
 
-* 以下では[TOAST Object Storage](/Storage/Object%20Storage/ko/Overview/)を利用したログ保存/ダウンロード方法を説明します。
+* 以下では[NHN Cloud Object Storage](/Storage/Object%20Storage/ko/Overview/)を利用したログ保存/ダウンロード方法を説明します。
    * **アクセスキー**、**シークレットキー**は[AWS S3 API](/Storage/Object%20Storage/ko/s3-api-guide/#_1)を利用した**EC2資格証明登録および照会**で確認できます。
    * **バケット名**はログが保存されるObject Storageコンテナの名前です。
    * **エンドポイント**、**リージョン**はログを保存するObject Storageを管理する情報で、[Amazon S3互換APIガイド - AWS SDK](/Storage/Object%20Storage/ko/s3-api-guide#aws-sdk)で確認できます。

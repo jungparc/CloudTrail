@@ -73,7 +73,7 @@ Read the header at Response Body for more details of the response result.
 } 
 ```
 * In order not to specify event-incurring user, member must not exist. 
-* For TOAST memberType, emailAddress is required, while userCode must not exist. 
+* For NHN Cloud memberType, emailAddress is required, while userCode must not exist. 
 * By contrast, for IAM memberType, userCode is required, while emailAddress must not exist. 
 * idNO, if available, is to be applied beforehand, regardless of userCode or emailAddress. 
 * Refer to the manual for more details on event IDs. : [link](/CloudTrail/en/event-list/)
@@ -152,7 +152,7 @@ Read the header at Response Body for more details of the response result.
 | eventTime | Date | Time when event is incurred |
 | userIdNo | Object | UUID of event-incurring member |
 | userName | String | Name of event-incurring member |
-| UserId | String | ID of event-incurring member (email format for TOAST account) |
+| UserId | String | ID of event-incurring member (email format for NHN Cloud account) |
 | userIp | String | IP of event-incurring member |
 | userAgent | String | Agent of event-incurring member |
 | eventSourceType | String | Type of event-incurring subject |
@@ -171,4 +171,4 @@ Read the header at Response Body for more details of the response result.
 | targetMembers.idNo | String | UUID of target member incurred with event |
 | targetMembers.name | String | Name of target member incurred with event |
 | targetMembers.userCode | Integer | ID of target member incurred with event (for IAM members) |
-| targetMembers.emailAddress | String | Email address of target member incurred with event (for TOAST members) |
+| targetMembers.emailAddress | String | Email address of target member incurred with event (for NHN Cloud members) |

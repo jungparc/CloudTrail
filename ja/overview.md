@@ -1,6 +1,6 @@
 ## CloudTrail > 概要
 
-TOAST CloudTrailは、ユーザーのTOASTクラウド使用履歴を確認できるサービスです。
+NHN Cloud CloudTrailは、ユーザーのNHN Cloudクラウド使用履歴を確認できるサービスです。
 組織単位で提供し、別途有効化の作業をしなくても、すぐに使用できます。
 
 ## 特徴および機能

@@ -72,7 +72,7 @@ RESTful API를 사용하려면 AppKey가 필요합니다.
 } 
 ```
 * member에 값을 지정하지 않으면 전체 이벤트 목록을 조회할 수 있습니다.
-* TOAST memberType일 경우, emailAddress의 값은 필수이고, userCode의 값은 존재하지 않아야 합니다. 
+* NHN Cloud memberType일 경우, emailAddress의 값은 필수이고, userCode의 값은 존재하지 않아야 합니다. 
 * 반대로 IAM memberType일 경우, userCode의 값은 필수이고, emailAddress의 값은 존재하지 않아야 합니다.
 * idNo 값이 있을 경우, memberType과 userCode, emailAddress 값과 관계없이 우선으로 적용됩니다.
 * 이벤트 ID에 대한 자세한 정보는 매뉴얼을 참고합니다 : [링크](/CloudTrail/zh/event-list/)
@@ -81,9 +81,9 @@ RESTful API를 사용하려면 AppKey가 필요합니다.
 | --- | --- | --- | --- |
 | idNo | String | X | 이벤트를 발생시킨 회원 아이디 번호(uuid) |
 | member | Object | X | 이벤트를 발생시킨 회원 |
-| member.memberType | String | X | 이벤트를 발생시킨 회원의 타입(TOAST, IAM) |
+| member.memberType | String | X | 이벤트를 발생시킨 회원의 타입(NHN Cloud, IAM) |
 | member.userCode | String | X | 이벤트를 발생시킨 회원의 userCode(IAM 회원일 경우) |
-| member.emailAddress | String | X | 이벤트를 발생시킨 회원의 이메일 주소(TOAST 회원일 경우)|
+| member.emailAddress | String | X | 이벤트를 발생시킨 회원의 이메일 주소(NHN Cloud 회원일 경우)|
 | member.idNo | String | X | 이벤트를 발생시킨 회원 IdNo (uuid) |
 | eventId | String | O | 조회할 이벤트의 ID |
 | startDate | Date | O | 조회할 기간의 시작 날짜 |
@@ -142,7 +142,7 @@ RESTful API를 사용하려면 AppKey가 필요합니다.
 | eventTime | Date | 이벤트 발생 시간 |
 | userIdNo | Object | 이벤트를 발생시킨 회원의 uuid |
 | userName | String |  이벤트를 발생시킨 회원의 이름|
-| UserId | String | 이벤트를 발생시킨 회원의 ID (Toast 계정일 경우, 이메일 형식) |
+| UserId | String | 이벤트를 발생시킨 회원의 ID (NHN Cloud 계정일 경우, 이메일 형식) |
 | userIp | String | 이벤트를 발생시킨 회원의 IP |
 | userAgent | String | 이벤트를 발생시킨 회원의 에이전트 |
 | eventSourceType | String | 이벤트를 발생시킨 주체의 타입 |
@@ -161,4 +161,4 @@ RESTful API를 사용하려면 AppKey가 필요합니다.
 | targetMembers.idNo | String | 발생한 이벤트의 대상 회원의 uuid |
 | targetMembers.name | String | 발생한 이벤트의 대상 회원의 이름 |
 | targetMembers.userCode | Integer | 발생한 이벤트의 대상 회원의 ID (IAM 회원일 경우) |
-| targetMembers.emailAddress | String | 발생한 이벤트의 대상 회원의 이메일 주소 (TOAST 회원일 경우) |
+| targetMembers.emailAddress | String | 발생한 이벤트의 대상 회원의 이메일 주소 (NHN Cloud 회원일 경우) |
