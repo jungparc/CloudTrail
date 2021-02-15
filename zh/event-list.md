@@ -285,3 +285,184 @@
 |Edit Domain|event_id.certificate_manager.domain.update|Certificate Manager|
 |Edit Receiving Group|event_id.certificate_manager.alarm_group_user.update|Certificate Manager|
 |Edit User Data|event_id.certificate_manager.user_data.update|Certificate Manager|
+|CSR 생성|event_id.iaas.cluster.certificate_signing_request.create|Kubernetes|
+|CSR 삭제|event_id.iaas.cluster.certificate_signing_request.delete|Kubernetes|
+|CSR 수정|event_id.iaas.cluster.certificate_signing_request.update|Kubernetes|
+|CSR 승인|event_id.iaas.cluster.certificate_signing_request.approval|Kubernetes|
+|CSR 상태 수정|event_id.iaas.cluster.certificate_signing_request.update_status|Kubernetes|
+|클러스터 롤 바인딩 생성|event_id.iaas.cluster.cluster_role_binding.create|Kubernetes|
+|클러스터 롤 바인딩 삭제|event_id.iaas.cluster.cluster_role_binding.delete|Kubernetes|
+|클러스터 롤 바인딩 수정|event_id.iaas.cluster.cluster_role_binding.update|Kubernetes|
+|클러스터 롤 생성|event_id.iaas.cluster.cluster_role.create|Kubernetes|
+|클러스터 롤 삭제|event_id.iaas.cluster.cluster_role.delete|Kubernetes|
+|클러스터 롤 수정|event_id.iaas.cluster.cluster_role.update|Kubernetes|
+|컨피그 맵 생성|event_id.iaas.cluster.configmap.create|Kubernetes|
+|컨피그 맵 삭제|event_id.iaas.cluster.configmap.delete|Kubernetes|
+|컨피그 맵 수정|event_id.iaas.cluster.configmap.update|Kubernetes|
+|컨트롤러 리비전 생성|event_id.iaas.cluster.controller_revision.create|Kubernetes|
+|컨트롤러 리비전 삭제|event_id.iaas.cluster.controller_revision.delete|Kubernetes|
+|컨트롤러 리비전 수정|event_id.iaas.cluster.controller_revision.update|Kubernetes|
+|크론잡 생성|event_id.iaas.cluster.cronjob.create|Kubernetes|
+|크론잡 삭제|event_id.iaas.cluster.cronjob.delete|Kubernetes|
+|크론잡 수정|event_id.iaas.cluster.cronjob.update|Kubernetes|
+|크론잡 상태 수정|event_id.iaas.cluster.cronjob.update_status|Kubernetes|
+|CSI 드라이버 생성|event_id.iaas.cluster.csidriver.create|Kubernetes|
+|CSI 드라이버 삭제|event_id.iaas.cluster.csidriver.delete|Kubernetes|
+|CSI 드라이버 수정|event_id.iaas.cluster.csidriver.update|Kubernetes|
+|CSI 노드 생성|event_id.iaas.cluster.csinode.create|Kubernetes|
+|CSI 노드 삭제|event_id.iaas.cluster.csinode.delete|Kubernetes|
+|CSI 노드 수정|event_id.iaas.cluster.csinode.update|Kubernetes|
+|사용자 리소스 정의 생성|event_id.iaas.cluster.custom_resource_definition.create|Kubernetes|
+|사용자 리소스 정의 삭제|event_id.iaas.cluster.custom_resource_definition.delete|Kubernetes|
+|사용자 리소스 정의 수정|event_id.iaas.cluster.custom_resource_definition.update|Kubernetes|
+|사용자 리소스 정의 상태 수정|event_id.iaas.cluster.custom_resource_definition.update_status|Kubernetes|
+|Daemon Set 생성|event_id.iaas.cluster.daemon_set.create|Kubernetes|
+|Daemon Set 삭제|event_id.iaas.cluster.daemon_set.delete|Kubernetes|
+|Daemon Set 수정|event_id.iaas.cluster.daemon_set.update|Kubernetes|
+|Daemon Set 상태 수정|event_id.iaas.cluster.daemon_set.update_status|Kubernetes|
+|Deployment 생성|event_id.iaas.cluster.deployment.create|Kubernetes|
+|Deployment 삭제|event_id.iaas.cluster.deployment.delete|Kubernetes|
+|Deployment 수정|event_id.iaas.cluster.deployment.update|Kubernetes|
+|Deployment 롤백|event_id.iaas.cluster.deployment.rollback|Kubernetes|
+|Deployment 스케일 조정|event_id.iaas.cluster.deployment.update_scale|Kubernetes|
+|Deployment 상태 수정|event_id.iaas.cluster.deployment.update_status|Kubernetes|
+|Endpoint 생성|event_id.iaas.cluster.endpoint.create|Kubernetes|
+|Endpoint 삭제|event_id.iaas.cluster.endpoint.delete|Kubernetes|
+|Endpoint 수정|event_id.iaas.cluster.endpoint.update|Kubernetes|
+|Endpoint Slice 생성|event_id.iaas.cluster.endpoint_slice.create|Kubernetes|
+|Endpoint Slice 삭제|event_id.iaas.cluster.endpoint_slice.delete|Kubernetes|
+|Endpoint Slice 수정|event_id.iaas.cluster.endpoint_slice.update|Kubernetes|
+|Events 생성|event_id.iaas.cluster.events.create|Kubernetes|
+|Events 삭제|event_id.iaas.cluster.events.delete|Kubernetes|
+|Events 수정|event_id.iaas.cluster.events.update|Kubernetes|
+|Frontend Config 생성|event_id.iaas.cluster.frontend_config.create|Kubernetes|
+|Frontend Config 삭제|event_id.iaas.cluster.frontend_config.delete|Kubernetes|
+|Frontend Config 수정|event_id.iaas.cluster.frontend_config.update|Kubernetes|
+|Horizontal Pod Autoscaler 생성|event_id.iaas.cluster.horizontal_pod_autoscaler.create|Kubernetes|
+|Horizontal Pod Autoscaler 삭제|event_id.iaas.cluster.horizontal_pod_autoscaler.delete|Kubernetes|
+|Horizontal Pod Autoscaler 수정|event_id.iaas.cluster.horizontal_pod_autoscaler.update|Kubernetes|
+|Horizontal Pod Autoscaler 상태 수정|event_id.iaas.cluster.horizontal_pod_autoscaler.update_status|Kubernetes|
+|Ingress 생성|event_id.iaas.cluster.ingress.create|Kubernetes|
+|Ingress 삭제|event_id.iaas.cluster.ingress.delete|Kubernetes|
+|Ingress 수정|event_id.iaas.cluster.ingress.update|Kubernetes|
+|Ingress 상태 수정|event_id.iaas.cluster.ingress.update_status|Kubernetes|
+|Job 생성|event_id.iaas.cluster.job.create|Kubernetes|
+|Job 삭제|event_id.iaas.cluster.job.delete|Kubernetes|
+|Job 수정|event_id.iaas.cluster.job.update|Kubernetes|
+|Job 상태 수정|event_id.iaas.cluster.job.update_status|Kubernetes|
+|Lease 생성|event_id.iaas.cluster.lease.create|Kubernetes|
+|Lease 삭제|event_id.iaas.cluster.lease.delete|Kubernetes|
+|Lease 수정|event_id.iaas.cluster.lease.update|Kubernetes|
+|Limit Range 생성|event_id.iaas.cluster.limit_range.create|Kubernetes|
+|Limit Range 삭제|event_id.iaas.cluster.limit_range.delete|Kubernetes|
+|Limit Range 수정|event_id.iaas.cluster.limit_range.update|Kubernetes|
+|Local Subject Access Review 수정|event_id.iaas.cluster.local_subject_access_review.create|Kubernetes|
+|Managed Certificate 생성|event_id.iaas.cluster.managed_certificate.create|Kubernetes|
+|Managed Certificate 삭제|event_id.iaas.cluster.managed_certificate.delete|Kubernetes|
+|Managed Certificate 수정|event_id.iaas.cluster.managed_certificate.update|Kubernetes|
+|Mutating Webhook Configuration 생성|event_id.iaas.cluster.mutating_webhook_configuration.create|Kubernetes|
+|Mutating Webhook Configuration 삭제|event_id.iaas.cluster.mutating_webhook_configuration.delete|Kubernetes|
+|Mutating Webhook Configuration 수정|event_id.iaas.cluster.mutating_webhook_configuration.update|Kubernetes|
+|Namespace 생성|event_id.iaas.cluster.namespace.create|Kubernetes|
+|Namespace 삭제|event_id.iaas.cluster.namespace.delete|Kubernetes|
+|Namespace 수정|event_id.iaas.cluster.namespace.update|Kubernetes|
+|Namespace 상태 수정|event_id.iaas.cluster.namespace.update_status|Kubernetes|
+|Network Policy 생성|event_id.iaas.cluster.network_policy.create|Kubernetes|
+|Network Policy 삭제|event_id.iaas.cluster.network_policy.delete|Kubernetes|
+|Network Policy 수정|event_id.iaas.cluster.network_policy.update|Kubernetes|
+|Node 생성|event_id.iaas.cluster.node.create|Kubernetes|
+|Node 삭제|event_id.iaas.cluster.node.delete|Kubernetes|
+|Node 수정|event_id.iaas.cluster.node.update|Kubernetes|
+|Node 상태 수정|event_id.iaas.cluster.node.update_status|Kubernetes|
+|Persistent Volume Claim 생성|event_id.iaas.cluster.persistent_volume_claim.create|Kubernetes|
+|Persistent Volume Claim 삭제|event_id.iaas.cluster.persistent_volume_claim.delete|Kubernetes|
+|Persistent Volume Claim 수정|event_id.iaas.cluster.persistent_volume_claim.update|Kubernetes|
+|Persistent Volume Claim 상태 수정|event_id.iaas.cluster.persistent_volume_claim.update_status|Kubernetes|
+|Persistent Volume 생성|event_id.iaas.cluster.persistent_volume.create|Kubernetes|
+|Persistent Volume 삭제|event_id.iaas.cluster.persistent_volume.delete|Kubernetes|
+|Persistent Volume 수정|event_id.iaas.cluster.persistent_volume.update|Kubernetes|
+|Persistent Volume 상태 수정|event_id.iaas.cluster.persistent_volume.update_status|Kubernetes|
+|Pod Disruption Budget 생성|event_id.iaas.cluster.pod_disruption_budget.create|Kubernetes|
+|Pod Disruption Budget 삭제|event_id.iaas.cluster.pod_disruption_budget.delete|Kubernetes|
+|Pod Disruption Budget 수정|event_id.iaas.cluster.pod_disruption_budget.update|Kubernetes|
+|Pod Disruption Budget 상태 수정|event_id.iaas.cluster.pod_disruption_budget.update_status|Kubernetes|
+|Pod 생성|event_id.iaas.cluster.pod.create|Kubernetes|
+|Pod 삭제|event_id.iaas.cluster.pod.delete|Kubernetes|
+|Pod 수정|event_id.iaas.cluster.pod.update|Kubernetes|
+|Pod 연결|event_id.iaas.cluster.pod.attach|Kubernetes|
+|Pod 추출|event_id.iaas.cluster.pod.evict|Kubernetes|
+|Pod 실행|event_id.iaas.cluster.pod.exec|Kubernetes|
+|Pod 포트포워딩 설정|event_id.iaas.cluster.pod.port_forward|Kubernetes|
+|Pod 상태 수정|event_id.iaas.cluster.pod.update_status|Kubernetes|
+|Pod Security Policy 생성|event_id.iaas.cluster.pod_security_policy.create|Kubernetes|
+|Pod Security Policy 삭제|event_id.iaas.cluster.pod_security_policy.delete|Kubernetes|
+|Pod Security Policy 수정|event_id.iaas.cluster.pod_security_policy.update|Kubernetes|
+|Pod Template 생성|event_id.iaas.cluster.pod_template.create|Kubernetes|
+|Pod Template 삭제|event_id.iaas.cluster.pod_template.delete|Kubernetes|
+|Pod Template 수정|event_id.iaas.cluster.pod_template.update|Kubernetes|
+|Priority Class 생성|event_id.iaas.cluster.priority_class.create|Kubernetes|
+|Priority Class 삭제|event_id.iaas.cluster.priority_class.delete|Kubernetes|
+|Priority Class 수정|event_id.iaas.cluster.priority_class.update|Kubernetes|
+|Replica Set 생성|event_id.iaas.cluster.replica_set.create|Kubernetes|
+|Replica Set 삭제|event_id.iaas.cluster.replica_set.delete|Kubernetes|
+|Replica Set 수정|event_id.iaas.cluster.replica_set.update|Kubernetes|
+|Replica Set 스케일 조정|event_id.iaas.cluster.replica_set.update_scale|Kubernetes|
+|Replica Set 상태 수정|event_id.iaas.cluster.replica_set.update_status|Kubernetes|
+|Replication Controller 생성|event_id.iaas.cluster.replication_controller.create|Kubernetes|
+|Replication Controller 삭제|event_id.iaas.cluster.replication_controller.delete|Kubernetes|
+|Replication Controller 수정|event_id.iaas.cluster.replication_controller.update|Kubernetes|
+|Replication Controller 스케일 조정|event_id.iaas.cluster.replication_controller.update_scale|Kubernetes|
+|Replication Controller 상태 수정|event_id.iaas.cluster.replication_controller.update_status|Kubernetes|
+|Resource Quota 생성|event_id.iaas.cluster.resource_quota.create|Kubernetes|
+|Resource Quota 삭제|event_id.iaas.cluster.resource_quota.delete|Kubernetes|
+|Resource Quota 수정|event_id.iaas.cluster.resource_quota.update|Kubernetes|
+|Resource Quota 상태 수정|event_id.iaas.cluster.resource_quota.update_status|Kubernetes|
+|Role Binding 생성|event_id.iaas.cluster.role_binding.create|Kubernetes|
+|Role Binding 삭제|event_id.iaas.cluster.role_binding.delete|Kubernetes|
+|Role Binding 수정|event_id.iaas.cluster.role_binding.update|Kubernetes|
+|Role 생성|event_id.iaas.cluster.role.create|Kubernetes|
+|Role 삭제|event_id.iaas.cluster.role.delete|Kubernetes|
+|Role 수정|event_id.iaas.cluster.role.update|Kubernetes|
+|Runtime Class 생성|event_id.iaas.cluster.runtime_class.create|Kubernetes|
+|Runtime Class 삭제|event_id.iaas.cluster.runtime_class.delete|Kubernetes|
+|Runtime Class 수정|event_id.iaas.cluster.runtime_class.update|Kubernetes|
+|Secret 생성|event_id.iaas.cluster.secret.create|Kubernetes|
+|Secret 삭제|event_id.iaas.cluster.secret.delete|Kubernetes|
+|Secret 수정|event_id.iaas.cluster.secret.update|Kubernetes|
+|Self Subject Access Review 생성|event_id.iaas.cluster.self_subject_access_review.create|Kubernetes|
+|Self Subject Rule Review 생성|event_id.iaas.cluster.self_subject_rules_review.create|Kubernetes|
+|Service Account 생성|event_id.iaas.cluster.service_account.create|Kubernetes|
+|Service Account 삭제|event_id.iaas.cluster.service_account.delete|Kubernetes|
+|Service Account 수정|event_id.iaas.cluster.service_account.update|Kubernetes|
+|Service 생성|event_id.iaas.cluster.service.create|Kubernetes|
+|Service 삭제|event_id.iaas.cluster.service.delete|Kubernetes|
+|Service 수정|event_id.iaas.cluster.service.update|Kubernetes|
+|Service 상태 수정|event_id.iaas.cluster.service.update_status|Kubernetes|
+|Stateful Set 생성|event_id.iaas.cluster.stateful_set.create|Kubernetes|
+|Stateful Set 삭제|event_id.iaas.cluster.stateful_set.delete|Kubernetes|
+|Stateful Set 수정|event_id.iaas.cluster.stateful_set.update|Kubernetes|
+|Stateful Set 스케일 조정|event_id.iaas.cluster.stateful_set.update_scale|Kubernetes|
+|Stateful Set 상태 수정|event_id.iaas.cluster.stateful_set.update_status|Kubernetes|
+|Storage Class 생성|event_id.iaas.cluster.storage_class.create|Kubernetes|
+|Storage Class 삭제|event_id.iaas.cluster.storage_class.delete|Kubernetes|
+|Storage Class 수정|event_id.iaas.cluster.storage_class.update|Kubernetes|
+|Subject Access Review 생성|event_id.iaas.cluster.subject_access_review.create|Kubernetes|
+|Token Review 생성|event_id.iaas.cluster.token_review.create|Kubernetes|
+|Validating Webhook Configuration 생성|event_id.iaas.cluster.validating_webhook_configuration.create|Kubernetes|
+|Validating Webhook Configuration 삭제|event_id.iaas.cluster.validating_webhook_configuration.delete|Kubernetes|
+|Validating Webhook Configuration 수정|event_id.iaas.cluster.validating_webhook_configuration.update|Kubernetes|
+|Volume Attachment 생성|event_id.iaas.cluster.volume_attachment.create|Kubernetes|
+|Volume Attachment 삭제|event_id.iaas.cluster.volume_attachment.delete|Kubernetes|
+|Volume Attachment 수정|event_id.iaas.cluster.volume_attachment.update|Kubernetes|
+|Volume Attachment 상태 수정|event_id.iaas.cluster.volume_attachment.update_status|Kubernetes|
+|Volume Snapshot Class 생성|event_id.iaas.cluster.volume_snapshot_class.create|Kubernetes|
+|Volume Snapshot Class 삭제|event_id.iaas.cluster.volume_snapshot_class.delete|Kubernetes|
+|Volume Snapshot Class 수정|event_id.iaas.cluster.volume_snapshot_class.update|Kubernetes|
+|Volume Snapshot Content 생성|event_id.iaas.cluster.volume_snapshot_content.create|Kubernetes|
+|Volume Snapshot Content 삭제|event_id.iaas.cluster.volume_snapshot_content.delete|Kubernetes|
+|Volume Snapshot Content 수정|event_id.iaas.cluster.volume_snapshot_content.update|Kubernetes|
+|Volume Snapshot Content 상태 수정|event_id.iaas.cluster.volume_snapshot_content.update_status|Kubernetes|
+|Volume Snapshot 생성|event_id.iaas.cluster.volume_snapshot.create|Kubernetes|
+|Volume Snapshot 삭제|event_id.iaas.cluster.volume_snapshot.delete|Kubernetes|
+|Volume Snapshot 수정|event_id.iaas.cluster.volume_snapshot.update|Kubernetes|
+|Volume Snapshot 상태 수정|event_id.iaas.cluster.volume_snapshot.update_status|Kubernetes|
