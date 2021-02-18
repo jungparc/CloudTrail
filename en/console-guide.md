@@ -27,7 +27,7 @@ User events are logged in the organization and users can view them.
     - USER_CONSOLE: Events occurred in the console of an insider member
 3. Searches by service.
     - Multiple services can be searched for.
-    - [Note] Service is the unit of the TOAST cloud service.
+    - [Note] Service is the unit of the NHN Cloud service.
 4. Searches by event.
     - Multiple events can be searched for.
 5. Searches for users.
@@ -54,7 +54,7 @@ Shows requests and response results so that users can see the history of attempt
 
 ![cloudtrail_05](https://static.toastoven.net/prod_cloudtrail/IMG05_EN.png)
 
-* 아래부터는 [TOAST Object Storage](/Storage/Object%20Storage/ko/Overview/)를 이용한 로그 저장/다운로드 방법을 설명합니다.
+* 아래부터는 [NHN Cloud Object Storage](/Storage/Object%20Storage/ko/Overview/)를 이용한 로그 저장/다운로드 방법을 설명합니다.
    * **액세스 키**, **비밀 키**는 [AWS S3 API](/Storage/Object%20Storage/ko/s3-api-guide/#_1)를 이용한 **EC2 자격 증명 등록 및 조회**로 확인할 수 있습니다.
    * **버킷이름**은 로그가 저장될 Object Storage 컨테이너의 이름입니다.
    * **엔드포인트**, **리전**은 로그를 저장할 Object Storage를 관리할 정보이며, [Amazon S3 호환 API 가이드 - AWS SDK](/Storage/Object%20Storage/ko/s3-api-guide#aws-sdk)에서 확인할 수 있습니다.

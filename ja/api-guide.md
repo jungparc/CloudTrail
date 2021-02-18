@@ -72,7 +72,7 @@ RESTful APIを使用するにはAppKeyが必要です。
 } 
 ```
 * イベントを発生させたユーザーに対する検索を特定したくない場合は、memberの値は存在してはいけません。
-* TOAST memberTypeの場合、emailAddressの値は必須で、userCodeの値は存在してはいけません。
+* NHN Cloud memberTypeの場合、emailAddressの値は必須で、userCodeの値は存在してはいけません。
 * 逆にIAM memberTypeの場合は、 userCodeの値は必須で、emailAddressの値は存在してはいけません。
 * idNo値がある場合、memberTypeとuserCode、emailAddress値と関係なく優先的に適用されます。
 * イベントIDの詳細はマニュアルを参照 : [リンク](/CloudTrail/ja/event-list/)
@@ -81,9 +81,9 @@ RESTful APIを使用するにはAppKeyが必要です。
 | --- | --- | --- | --- |
 | idNo | String | X | イベントを発生させた会員IdNo (uuid) |
 | member | Object | X | イベントを発生させた会員 |
-| member.memberType | String | X | イベントを発生させた会員のタイプ(TOAST、IAM) |
+| member.memberType | String | X | イベントを発生させた会員のタイプ(NHN Cloud、IAM) |
 | member.userCode | String | X | イベントを発生させた会員のuserCode (IAM会員の場合) |
-| member.emailAddress | String | X | イベントを発生させた会員のemail address (TOAST会員の場合)|
+| member.emailAddress | String | X | イベントを発生させた会員のemail address (NHN Cloud会員の場合)|
 | member.idNo | String | X | イベントを発生させた会員IdNo (uuid) |
 | eventId | String | O | 照会するイベントのID |
 | startDate | Date | O | 照会する期間の開始日 |
@@ -142,7 +142,7 @@ RESTful APIを使用するにはAppKeyが必要です。
 | eventTime | Date | イベント発生時間 |
 | userIdNo | Object | イベントを発生させた会員のuuid |
 | userName | String | イベントを発生させた会員の名前|
-| UserId | String | イベントを発生させた会員のID (Toastアカウントの場合、メール形式) |
+| UserId | String | イベントを発生させた会員のID (NHN Cloudアカウントの場合、メール形式) |
 | userIp | String | イベントを発生させた会員のIP |
 | userAgent | String | イベントを発生させた会員のAgent |
 | eventSourceType | String | イベントを発生させた主体のタイプ |
@@ -161,4 +161,4 @@ RESTful APIを使用するにはAppKeyが必要です。
 | targetMembers.idNo | String | 発生したイベントの対象会員のuuid |
 | targetMembers.name | String | 発生したイベントの対象会員の名前 |
 | targetMembers.userCode | Integer | 発生したイベントの対象会員のID (IAM会員の場合) |
-| targetMembers.emailAddress | String | 発生したイベントの対象会員のメールアドレス(TOAST会員の場合) |
+| targetMembers.emailAddress | String | 発生したイベントの対象会員のメールアドレス(NHN Cloud会員の場合) |
