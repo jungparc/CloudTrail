@@ -1,6 +1,6 @@
 ## CloudTrail > 개요
 
-NHN Cloud CloudTrail은 사용자의 NHN Cloud 클라우드 사용 이력을 확인할 수 있는 서비스입니다.
+NHN Cloud CloudTrail은 사용자의 NHN Cloud 사용 이력을 확인할 수 있는 서비스입니다.
 조직 단위로 제공되며, 별도의 활성화 과정 없이 바로 사용할 수 있습니다.
 
 ## 특징 및 기능
