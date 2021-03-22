@@ -269,6 +269,8 @@
 |그룹 인스턴스 변경|event_id.easycache.group.modify_flavor|EasyCache|
 |ACL 추가|event_id.easycache.acl.create|EasyCache|
 |ACL 삭제|event_id.easycache.acl.delete|EasyCache|
+|읽기 전용 도메인 설정|event_id.easycache.readonly_domain.attach|EasyCache|
+|읽기 전용 도메인 해제|event_id.easycache.readonly_domain.detach|EasyCache|
 |DB 인스턴스 생성|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
 |DB 인스턴스 삭제|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |DB 인스턴스 백업|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
