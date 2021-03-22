@@ -2,6 +2,7 @@
 ## CloudTrail > リリースノート
 ### 2021. 03. 23.
 #### イベント追加
+* EasyCacheサービス関連イベントを追加しました。
 * Kubernetesサービス関連イベントを追加しました。
   * 詳細はマニュアルを参照: [リンク](/CloudTrail/ja/event-list/)
 
