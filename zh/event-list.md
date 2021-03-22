@@ -118,12 +118,12 @@
 |Add Organization Domain|event_id.org.domain.add|Console|
 |Modify Organization Domain|event_id.org.domain.update|Console|
 |Add Organization Member|event_id.org.iam.member.add|Console|
-|Send Notification Mail to Organization Members to Change Password|event_id.org.iam.member.send_mail|Console| 
+|Send Notification Mail to Organization Members to Change Password|event_id.org.iam.member.send_mail|Console|
 |Modify Organization Member Information|event_id.org.iam.member.update|Console|
 |Add Organization Member|event_id.org.member.add|Console|
 |Delete Organization Member|event_id.org.member.delete|Console|
 |Invite Organization Member|event_id.org.member.invite|Console|
-|Cancel Organization Member Invitation|event_id.org.member.invite_cancel|Console|  
+|Cancel Organization Member Invitation|event_id.org.member.invite_cancel|Console|
 |Modify Organization Member|event_id.org.member.update|Console|
 |Disable Organization Service|event_id.org.product.disable|Console|
 |Enable Organization Service|event_id.org.product.enable|Console|
@@ -285,3 +285,117 @@
 |Edit Domain|event_id.certificate_manager.domain.update|Certificate Manager|
 |Edit Receiving Group|event_id.certificate_manager.alarm_group_user.update|Certificate Manager|
 |Edit User Data|event_id.certificate_manager.user_data.update|Certificate Manager|
+|Create CSR|event_id.iaas.cluster.certificate_signing_request.create|Kubernetes|
+|Delete CSR|event_id.iaas.cluster.certificate_signing_request.delete|Kubernetes|
+|Update CSR|event_id.iaas.cluster.certificate_signing_request.update|Kubernetes|
+|Approve CSR|event_id.iaas.cluster.certificate_signing_request.approval|Kubernetes|
+|Create Cluster Role Binding|event_id.iaas.cluster.cluster_role_binding.create|Kubernetes|
+|Delete Cluster Role Binding|event_id.iaas.cluster.cluster_role_binding.delete|Kubernetes|
+|Update Cluster Role Binding|event_id.iaas.cluster.cluster_role_binding.update|Kubernetes|
+|Create Cluster Role|event_id.iaas.cluster.cluster_role.create|Kubernetes|
+|Delete Cluster Role|event_id.iaas.cluster.cluster_role.delete|Kubernetes|
+|Update Cluster Role|event_id.iaas.cluster.cluster_role.update|Kubernetes|
+|Create Configmap|event_id.iaas.cluster.configmap.create|Kubernetes|
+|Delete Configmap|event_id.iaas.cluster.configmap.delete|Kubernetes|
+|Update Configmap|event_id.iaas.cluster.configmap.update|Kubernetes|
+|Create Cron Job|event_id.iaas.cluster.cronjob.create|Kubernetes|
+|Delete Cron Job|event_id.iaas.cluster.cronjob.delete|Kubernetes|
+|Update Cron Job|event_id.iaas.cluster.cronjob.update|Kubernetes|
+|Create Custom Resource Definition|event_id.iaas.cluster.custom_resource_definition.create|Kubernetes|
+|Delete Custom Resource Definition|event_id.iaas.cluster.custom_resource_definition.delete|Kubernetes|
+|Update Custom Resource Definition|event_id.iaas.cluster.custom_resource_definition.update|Kubernetes|
+|Create Daemon Set|event_id.iaas.cluster.daemon_set.create|Kubernetes|
+|Delete Daemon Set|event_id.iaas.cluster.daemon_set.delete|Kubernetes|
+|Update Daemon Set|event_id.iaas.cluster.daemon_set.update|Kubernetes|
+|Create Deployment|event_id.iaas.cluster.deployment.create|Kubernetes|
+|Delete Deployment|event_id.iaas.cluster.deployment.delete|Kubernetes|
+|Update Deployment|event_id.iaas.cluster.deployment.update|Kubernetes|
+|Scale Up Deployment|event_id.iaas.cluster.deployment.update_scale|Kubernetes|
+|Create an Endpoint|event_id.iaas.cluster.endpoint.create|Kubernetes|
+|Delete an Endpoint|event_id.iaas.cluster.endpoint.delete|Kubernetes|
+|Update an Endpoint|event_id.iaas.cluster.endpoint.update|Kubernetes|
+|Create an Endpoint Slice|event_id.iaas.cluster.endpoint_slice.create|Kubernetes|
+|Delete an Endpoint Slice|event_id.iaas.cluster.endpoint_slice.delete|Kubernetes|
+|Update an Endpoint Slice|event_id.iaas.cluster.endpoint_slice.update|Kubernetes|
+|Create Horizontal Pod Autoscaler|event_id.iaas.cluster.horizontal_pod_autoscaler.create|Kubernetes|
+|Delete Horizontal Pod Autoscaler|event_id.iaas.cluster.horizontal_pod_autoscaler.delete|Kubernetes|
+|Update Horizontal Pod Autoscaler|event_id.iaas.cluster.horizontal_pod_autoscaler.update|Kubernetes|
+|Create an Ingress|event_id.iaas.cluster.ingress.create|Kubernetes|
+|Delete an Ingress|event_id.iaas.cluster.ingress.delete|Kubernetes|
+|Update an Ingress|event_id.iaas.cluster.ingress.update|Kubernetes|
+|Create Job|event_id.iaas.cluster.job.create|Kubernetes|
+|Delete Job|event_id.iaas.cluster.job.delete|Kubernetes|
+|Update Job|event_id.iaas.cluster.job.update|Kubernetes|
+|Create Limit Range|event_id.iaas.cluster.limit_range.create|Kubernetes|
+|Delete Limit Range|event_id.iaas.cluster.limit_range.delete|Kubernetes|
+|Update Limit Range|event_id.iaas.cluster.limit_range.update|Kubernetes|
+|Create Mutating Webhook Configuration|event_id.iaas.cluster.mutating_webhook_configuration.create|Kubernetes|
+|Delete Mutating Webhook Configuration|event_id.iaas.cluster.mutating_webhook_configuration.delete|Kubernetes|
+|Update Mutating Webhook Configuration|event_id.iaas.cluster.mutating_webhook_configuration.update|Kubernetes|
+|Create Namespace|event_id.iaas.cluster.namespace.create|Kubernetes|
+|Delete Namespace|event_id.iaas.cluster.namespace.delete|Kubernetes|
+|Update Namespace|event_id.iaas.cluster.namespace.update|Kubernetes|
+|Create Network Policy|event_id.iaas.cluster.network_policy.create|Kubernetes|
+|Delete Network Policy|event_id.iaas.cluster.network_policy.delete|Kubernetes|
+|Update Network Policy|event_id.iaas.cluster.network_policy.update|Kubernetes|
+|Create Persistent Volume Claim|event_id.iaas.cluster.persistent_volume_claim.create|Kubernetes|
+|Delete Persistent Volume Claim|event_id.iaas.cluster.persistent_volume_claim.delete|Kubernetes|
+|Update Persistent Volume Claim|event_id.iaas.cluster.persistent_volume_claim.update|Kubernetes|
+|Create Persistent Volume|event_id.iaas.cluster.persistent_volume.create|Kubernetes|
+|Delete Persistent Volume|event_id.iaas.cluster.persistent_volume.delete|Kubernetes|
+|Update Persistent Volume|event_id.iaas.cluster.persistent_volume.update|Kubernetes|
+|Create Pod Disruption Budget|event_id.iaas.cluster.pod_disruption_budget.create|Kubernetes|
+|Delete Pod Disruption Budget|event_id.iaas.cluster.pod_disruption_budget.delete|Kubernetes|
+|Update Pod Disruption Budget|event_id.iaas.cluster.pod_disruption_budget.update|Kubernetes|
+|Create Pod|event_id.iaas.cluster.pod.create|Kubernetes|
+|Delete Pod|event_id.iaas.cluster.pod.delete|Kubernetes|
+|Update Pod|event_id.iaas.cluster.pod.update|Kubernetes|
+|Attach Pod|event_id.iaas.cluster.pod.attach|Kubernetes|
+|Evict Pod|event_id.iaas.cluster.pod.evict|Kubernetes|
+|Exec Pod|event_id.iaas.cluster.pod.exec|Kubernetes|
+|Set Pod's Port Forwarding|event_id.iaas.cluster.pod.port_forward|Kubernetes|
+|Create Pod Security Policy|event_id.iaas.cluster.pod_security_policy.create|Kubernetes|
+|Delete Pod Security Policy|event_id.iaas.cluster.pod_security_policy.delete|Kubernetes|
+|Update Pod Security Policy|event_id.iaas.cluster.pod_security_policy.update|Kubernetes|
+|Create Pod Template|event_id.iaas.cluster.pod_template.create|Kubernetes|
+|Delete Pod Template|event_id.iaas.cluster.pod_template.delete|Kubernetes|
+|Update Pod Template|event_id.iaas.cluster.pod_template.update|Kubernetes|
+|Create Priority Class|event_id.iaas.cluster.priority_class.create|Kubernetes|
+|Delete Priority Class|event_id.iaas.cluster.priority_class.delete|Kubernetes|
+|Update Priority Class|event_id.iaas.cluster.priority_class.update|Kubernetes|
+|Create Replica Set|event_id.iaas.cluster.replica_set.create|Kubernetes|
+|Delete Replica Set|event_id.iaas.cluster.replica_set.delete|Kubernetes|
+|Update Replica Set|event_id.iaas.cluster.replica_set.update|Kubernetes|
+|Update Replica Set's Scale|event_id.iaas.cluster.replica_set.update_scale|Kubernetes|
+|Create Replication Controller|event_id.iaas.cluster.replication_controller.create|Kubernetes|
+|Delete Replication Controller|event_id.iaas.cluster.replication_controller.delete|Kubernetes|
+|Update Replication Controller|event_id.iaas.cluster.replication_controller.update|Kubernetes|
+|Update Replication Controller's Scale|event_id.iaas.cluster.replication_controller.update_scale|Kubernetes|
+|Create Resource Quota|event_id.iaas.cluster.resource_quota.create|Kubernetes|
+|Delete Resource Quota|event_id.iaas.cluster.resource_quota.delete|Kubernetes|
+|Update Resource Quota|event_id.iaas.cluster.resource_quota.update|Kubernetes|
+|Create Role Binding|event_id.iaas.cluster.role_binding.create|Kubernetes|
+|Delete Role Binding|event_id.iaas.cluster.role_binding.delete|Kubernetes|
+|Update Role Binding|event_id.iaas.cluster.role_binding.update|Kubernetes|
+|Create Role|event_id.iaas.cluster.role.create|Kubernetes|
+|Delete Role|event_id.iaas.cluster.role.delete|Kubernetes|
+|Update Role|event_id.iaas.cluster.role.update|Kubernetes|
+|Create Secret|event_id.iaas.cluster.secret.create|Kubernetes|
+|Delete Secret|event_id.iaas.cluster.secret.delete|Kubernetes|
+|Update Secret|event_id.iaas.cluster.secret.update|Kubernetes|
+|Create Service Account|event_id.iaas.cluster.service_account.create|Kubernetes|
+|Delete Service Account|event_id.iaas.cluster.service_account.delete|Kubernetes|
+|Update Service Account|event_id.iaas.cluster.service_account.update|Kubernetes|
+|Create Service|event_id.iaas.cluster.service.create|Kubernetes|
+|Delete Service|event_id.iaas.cluster.service.delete|Kubernetes|
+|Update Service|event_id.iaas.cluster.service.update|Kubernetes|
+|Create Stateful Set|event_id.iaas.cluster.stateful_set.create|Kubernetes|
+|Delete Stateful Set|event_id.iaas.cluster.stateful_set.delete|Kubernetes|
+|Update Stateful Set|event_id.iaas.cluster.stateful_set.update|Kubernetes|
+|Update Stateful Set's Scale|event_id.iaas.cluster.stateful_set.update_scale|Kubernetes|
+|Create Storage Class|event_id.iaas.cluster.storage_class.create|Kubernetes|
+|Delete Storage Class|event_id.iaas.cluster.storage_class.delete|Kubernetes|
+|Update Storage Class|event_id.iaas.cluster.storage_class.update|Kubernetes|
+|Create Validating Webhook Configuration|event_id.iaas.cluster.validating_webhook_configuration.create|Kubernetes|
+|Delete Validating Webhook Configuration|event_id.iaas.cluster.validating_webhook_configuration.delete|Kubernetes|
+|Update Validating Webhook Configuration|event_id.iaas.cluster.validating_webhook_configuration.update|Kubernetes|

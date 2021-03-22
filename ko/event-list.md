@@ -359,3 +359,117 @@
 |사용자 데이터 추가|event_id.certificate_manager.user_data.create|Certificate Manager|
 |사용자 데이터 삭제|event_id.certificate_manager.user_data.delete|Certificate Manager|
 |사용자 데이터 수정|event_id.certificate_manager.user_data.update|Certificate Manager|
+|CSR 생성|event_id.iaas.cluster.certificate_signing_request.create|Kubernetes|
+|CSR 삭제|event_id.iaas.cluster.certificate_signing_request.delete|Kubernetes|
+|CSR 수정|event_id.iaas.cluster.certificate_signing_request.update|Kubernetes|
+|CSR 승인|event_id.iaas.cluster.certificate_signing_request.approval|Kubernetes|
+|클러스터롤바인딩 생성|event_id.iaas.cluster.cluster_role_binding.create|Kubernetes|
+|클러스터롤바인딩 삭제|event_id.iaas.cluster.cluster_role_binding.delete|Kubernetes|
+|클러스터롤바인딩 수정|event_id.iaas.cluster.cluster_role_binding.update|Kubernetes|
+|클러스터롤 생성|event_id.iaas.cluster.cluster_role.create|Kubernetes|
+|클러스터롤 삭제|event_id.iaas.cluster.cluster_role.delete|Kubernetes|
+|클러스터롤 수정|event_id.iaas.cluster.cluster_role.update|Kubernetes|
+|컨피그맵 생성|event_id.iaas.cluster.configmap.create|Kubernetes|
+|컨피그맵 삭제|event_id.iaas.cluster.configmap.delete|Kubernetes|
+|컨피그맵 수정|event_id.iaas.cluster.configmap.update|Kubernetes|
+|크론잡 생성|event_id.iaas.cluster.cronjob.create|Kubernetes|
+|크론잡 삭제|event_id.iaas.cluster.cronjob.delete|Kubernetes|
+|크론잡 수정|event_id.iaas.cluster.cronjob.update|Kubernetes|
+|사용자리소스정의 생성|event_id.iaas.cluster.custom_resource_definition.create|Kubernetes|
+|사용자리소스정의 삭제|event_id.iaas.cluster.custom_resource_definition.delete|Kubernetes|
+|사용자리소스정의 수정|event_id.iaas.cluster.custom_resource_definition.update|Kubernetes|
+|데몬셋 생성|event_id.iaas.cluster.daemon_set.create|Kubernetes|
+|데몬셋 삭제|event_id.iaas.cluster.daemon_set.delete|Kubernetes|
+|데몬셋 수정|event_id.iaas.cluster.daemon_set.update|Kubernetes|
+|디플로이먼트 생성|event_id.iaas.cluster.deployment.create|Kubernetes|
+|디플로이먼트 삭제|event_id.iaas.cluster.deployment.delete|Kubernetes|
+|디플로이먼트 수정|event_id.iaas.cluster.deployment.update|Kubernetes|
+|디플로이먼트 스케일 조정|event_id.iaas.cluster.deployment.update_scale|Kubernetes|
+|엔드포인트 생성|event_id.iaas.cluster.endpoint.create|Kubernetes|
+|엔드포인트 삭제|event_id.iaas.cluster.endpoint.delete|Kubernetes|
+|엔드포인트 수정|event_id.iaas.cluster.endpoint.update|Kubernetes|
+|엔드포인트슬라이스 생성|event_id.iaas.cluster.endpoint_slice.create|Kubernetes|
+|엔드포인트슬라이스 삭제|event_id.iaas.cluster.endpoint_slice.delete|Kubernetes|
+|엔드포인트슬라이스 수정|event_id.iaas.cluster.endpoint_slice.update|Kubernetes|
+|Horizontal Pod Autoscaler 생성|event_id.iaas.cluster.horizontal_pod_autoscaler.create|Kubernetes|
+|Horizontal Pod Autoscaler 삭제|event_id.iaas.cluster.horizontal_pod_autoscaler.delete|Kubernetes|
+|Horizontal Pod Autoscaler 수정|event_id.iaas.cluster.horizontal_pod_autoscaler.update|Kubernetes|
+|인그레스 생성|event_id.iaas.cluster.ingress.create|Kubernetes|
+|인그레스 삭제|event_id.iaas.cluster.ingress.delete|Kubernetes|
+|인그레스 수정|event_id.iaas.cluster.ingress.update|Kubernetes|
+|잡 생성|event_id.iaas.cluster.job.create|Kubernetes|
+|잡 삭제|event_id.iaas.cluster.job.delete|Kubernetes|
+|잡 수정|event_id.iaas.cluster.job.update|Kubernetes|
+|리밋레인지 생성|event_id.iaas.cluster.limit_range.create|Kubernetes|
+|리밋레인지 삭제|event_id.iaas.cluster.limit_range.delete|Kubernetes|
+|리밋레인지 수정|event_id.iaas.cluster.limit_range.update|Kubernetes|
+|Mutating Webhook Configuration 생성|event_id.iaas.cluster.mutating_webhook_configuration.create|Kubernetes|
+|Mutating Webhook Configuration 삭제|event_id.iaas.cluster.mutating_webhook_configuration.delete|Kubernetes|
+|Mutating Webhook Configuration 수정|event_id.iaas.cluster.mutating_webhook_configuration.update|Kubernetes|
+|네임스페이스 생성|event_id.iaas.cluster.namespace.create|Kubernetes|
+|네임스페이스 삭제|event_id.iaas.cluster.namespace.delete|Kubernetes|
+|네임스페이스 수정|event_id.iaas.cluster.namespace.update|Kubernetes|
+|네트워크폴리시 생성|event_id.iaas.cluster.network_policy.create|Kubernetes|
+|네트워크폴리시 삭제|event_id.iaas.cluster.network_policy.delete|Kubernetes|
+|네트워크폴리시 수정|event_id.iaas.cluster.network_policy.update|Kubernetes|
+|퍼시스턴트볼륨클레임 생성|event_id.iaas.cluster.persistent_volume_claim.create|Kubernetes|
+|퍼시스턴트볼륨클레임 삭제|event_id.iaas.cluster.persistent_volume_claim.delete|Kubernetes|
+|퍼시스턴트볼륨클레임 수정|event_id.iaas.cluster.persistent_volume_claim.update|Kubernetes|
+|퍼시스턴트볼륨 생성|event_id.iaas.cluster.persistent_volume.create|Kubernetes|
+|퍼시스턴트볼륨 삭제|event_id.iaas.cluster.persistent_volume.delete|Kubernetes|
+|퍼시스턴트볼륨 수정|event_id.iaas.cluster.persistent_volume.update|Kubernetes|
+|파드 Disruption Budget 생성|event_id.iaas.cluster.pod_disruption_budget.create|Kubernetes|
+|파드 Disruption Budget 삭제|event_id.iaas.cluster.pod_disruption_budget.delete|Kubernetes|
+|파드 Disruption Budget 수정|event_id.iaas.cluster.pod_disruption_budget.update|Kubernetes|
+|파드 생성|event_id.iaas.cluster.pod.create|Kubernetes|
+|파드 삭제|event_id.iaas.cluster.pod.delete|Kubernetes|
+|파드 수정|event_id.iaas.cluster.pod.update|Kubernetes|
+|파드 연결|event_id.iaas.cluster.pod.attach|Kubernetes|
+|파드 축출|event_id.iaas.cluster.pod.evict|Kubernetes|
+|파드 실행|event_id.iaas.cluster.pod.exec|Kubernetes|
+|파드 포트포워딩 설정|event_id.iaas.cluster.pod.port_forward|Kubernetes|
+|파드시큐리티폴리시 생성|event_id.iaas.cluster.pod_security_policy.create|Kubernetes|
+|파드시큐리티폴리시 삭제|event_id.iaas.cluster.pod_security_policy.delete|Kubernetes|
+|파드시큐리티폴리시 수정|event_id.iaas.cluster.pod_security_policy.update|Kubernetes|
+|파드템플릿 생성|event_id.iaas.cluster.pod_template.create|Kubernetes|
+|파드템플릿 삭제|event_id.iaas.cluster.pod_template.delete|Kubernetes|
+|파드템플릿 수정|event_id.iaas.cluster.pod_template.update|Kubernetes|
+|프라이어리티클래스 생성|event_id.iaas.cluster.priority_class.create|Kubernetes|
+|프라이어리티클래스 삭제|event_id.iaas.cluster.priority_class.delete|Kubernetes|
+|프라이어리티클래스 수정|event_id.iaas.cluster.priority_class.update|Kubernetes|
+|레플리카셋 생성|event_id.iaas.cluster.replica_set.create|Kubernetes|
+|레플리카셋 삭제|event_id.iaas.cluster.replica_set.delete|Kubernetes|
+|레플리카셋 수정|event_id.iaas.cluster.replica_set.update|Kubernetes|
+|레플리카셋 스케일 조정|event_id.iaas.cluster.replica_set.update_scale|Kubernetes|
+|레플리케이션컨트롤러 생성|event_id.iaas.cluster.replication_controller.create|Kubernetes|
+|레플리케이션컨트롤러 삭제|event_id.iaas.cluster.replication_controller.delete|Kubernetes|
+|레플리케이션컨트롤러 수정|event_id.iaas.cluster.replication_controller.update|Kubernetes|
+|레플리케이션컨트롤러 스케일 조정|event_id.iaas.cluster.replication_controller.update_scale|Kubernetes|
+|리소스쿼터 생성|event_id.iaas.cluster.resource_quota.create|Kubernetes|
+|리소스쿼터 삭제|event_id.iaas.cluster.resource_quota.delete|Kubernetes|
+|리소스쿼터 수정|event_id.iaas.cluster.resource_quota.update|Kubernetes|
+|롤바인딩 생성|event_id.iaas.cluster.role_binding.create|Kubernetes|
+|롤바인딩 삭제|event_id.iaas.cluster.role_binding.delete|Kubernetes|
+|롤바인딩 수정|event_id.iaas.cluster.role_binding.update|Kubernetes|
+|롤 생성|event_id.iaas.cluster.role.create|Kubernetes|
+|롤 삭제|event_id.iaas.cluster.role.delete|Kubernetes|
+|롤 수정|event_id.iaas.cluster.role.update|Kubernetes|
+|시크릿 생성|event_id.iaas.cluster.secret.create|Kubernetes|
+|시크릿 삭제|event_id.iaas.cluster.secret.delete|Kubernetes|
+|시크릿 수정|event_id.iaas.cluster.secret.update|Kubernetes|
+|서비스어카운트 생성|event_id.iaas.cluster.service_account.create|Kubernetes|
+|서비스어카운트 삭제|event_id.iaas.cluster.service_account.delete|Kubernetes|
+|서비스어카운트 수정|event_id.iaas.cluster.service_account.update|Kubernetes|
+|서비스 생성|event_id.iaas.cluster.service.create|Kubernetes|
+|서비스 삭제|event_id.iaas.cluster.service.delete|Kubernetes|
+|서비스 수정|event_id.iaas.cluster.service.update|Kubernetes|
+|스테이트풀셋 생성|event_id.iaas.cluster.stateful_set.create|Kubernetes|
+|스테이트풀셋 삭제|event_id.iaas.cluster.stateful_set.delete|Kubernetes|
+|스테이트풀셋 수정|event_id.iaas.cluster.stateful_set.update|Kubernetes|
+|스테이트풀셋 스케일 조정|event_id.iaas.cluster.stateful_set.update_scale|Kubernetes|
+|스토리지클래스 생성|event_id.iaas.cluster.storage_class.create|Kubernetes|
+|스토리지클래스 삭제|event_id.iaas.cluster.storage_class.delete|Kubernetes|
+|스토리지클래스 수정|event_id.iaas.cluster.storage_class.update|Kubernetes|
+|Validating Webhook Configuration 생성|event_id.iaas.cluster.validating_webhook_configuration.create|Kubernetes|
+|Validating Webhook Configuration 삭제|event_id.iaas.cluster.validating_webhook_configuration.delete|Kubernetes|
+|Validating Webhook Configuration 수정|event_id.iaas.cluster.validating_webhook_configuration.update|Kubernetes|

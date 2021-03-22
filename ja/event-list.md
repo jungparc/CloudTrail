@@ -359,3 +359,117 @@
 |通知の修正|event_id.certificate_manager.alarm.update|Certificate Manager|
 |通知グループの削除|event_id.certificate_manager.alarm_group.delete|Certificate Manager|
 |通知グループの追加|event_id.certificate_manager.alarm_group.create|Certificate Manager|
+|CSR 作成|event_id.iaas.cluster.certificate_signing_request.create|Kubernetes|
+|CSR 削除|event_id.iaas.cluster.certificate_signing_request.delete|Kubernetes|
+|CSR 修正|event_id.iaas.cluster.certificate_signing_request.update|Kubernetes|
+|CSR 承認|event_id.iaas.cluster.certificate_signing_request.approval|Kubernetes|
+|クラスターロールバインディング 作成|event_id.iaas.cluster.cluster_role_binding.create|Kubernetes|
+|クラスターロールバインディング 削除|event_id.iaas.cluster.cluster_role_binding.delete|Kubernetes|
+|クラスターロールバインディング 修正|event_id.iaas.cluster.cluster_role_binding.update|Kubernetes|
+|クラスターロール 作成|event_id.iaas.cluster.cluster_role.create|Kubernetes|
+|クラスターロール 削除|event_id.iaas.cluster.cluster_role.delete|Kubernetes|
+|クラスターロール 修正|event_id.iaas.cluster.cluster_role.update|Kubernetes|
+|コンフィグマップ 作成|event_id.iaas.cluster.configmap.create|Kubernetes|
+|コンフィグマップ 削除|event_id.iaas.cluster.configmap.delete|Kubernetes|
+|コンフィグマップ 修正|event_id.iaas.cluster.configmap.update|Kubernetes|
+|クローンジョブ 作成|event_id.iaas.cluster.cronjob.create|Kubernetes|
+|クローンジョブ 削除|event_id.iaas.cluster.cronjob.delete|Kubernetes|
+|クロンジョブ 受精|event_id.iaas.cluster.cronjob.update|Kubernetes|
+|ユーザーリソース定義 作成|event_id.iaas.cluster.custom_resource_definition.create|Kubernetes|
+|ユーザーリソース定義 削除|event_id.iaas.cluster.custom_resource_definition.delete|Kubernetes|
+|ユーザーリソース定義 修正|event_id.iaas.cluster.custom_resource_definition.update|Kubernetes|
+|Daemon Set 作成|event_id.iaas.cluster.daemon_set.create|Kubernetes|
+|Daemon Set 削除|event_id.iaas.cluster.daemon_set.delete|Kubernetes|
+|Daemon Set 修正|event_id.iaas.cluster.daemon_set.update|Kubernetes|
+|Deployment 作成|event_id.iaas.cluster.deployment.create|Kubernetes|
+|Deployment 削除|event_id.iaas.cluster.deployment.delete|Kubernetes|
+|Deployment 修正|event_id.iaas.cluster.deployment.update|Kubernetes|
+|Deploymentスケール 調整|event_id.iaas.cluster.deployment.update_scale|Kubernetes|
+|Endpoint 作成|event_id.iaas.cluster.endpoint.create|Kubernetes|
+|Endpoint 削除|event_id.iaas.cluster.endpoint.delete|Kubernetes|
+|Endpoint 修正|event_id.iaas.cluster.endpoint.update|Kubernetes|
+|Endpoint Slice 作成|event_id.iaas.cluster.endpoint_slice.create|Kubernetes|
+|Endpoint Slice 削除|event_id.iaas.cluster.endpoint_slice.delete|Kubernetes|
+|Endpoint Slice 修正|event_id.iaas.cluster.endpoint_slice.update|Kubernetes|
+|Horizontal Pod Autoscaler 作成|event_id.iaas.cluster.horizontal_pod_autoscaler.create|Kubernetes|
+|Horizontal Pod Autoscaler 削除|event_id.iaas.cluster.horizontal_pod_autoscaler.delete|Kubernetes|
+|Horizontal Pod Autoscaler 修正|event_id.iaas.cluster.horizontal_pod_autoscaler.update|Kubernetes|
+|Ingress 作成|event_id.iaas.cluster.ingress.create|Kubernetes|
+|Ingress 削除|event_id.iaas.cluster.ingress.delete|Kubernetes|
+|Ingress 修正|event_id.iaas.cluster.ingress.update|Kubernetes|
+|Job 作成|event_id.iaas.cluster.job.create|Kubernetes|
+|Job 削除|event_id.iaas.cluster.job.delete|Kubernetes|
+|Job 受精|event_id.iaas.cluster.job.update|Kubernetes|
+|Limit Range 作成|event_id.iaas.cluster.limit_range.create|Kubernetes|
+|Limit Range 削除|event_id.iaas.cluster.limit_range.delete|Kubernetes|
+|Limit Range 修正|event_id.iaas.cluster.limit_range.update|Kubernetes|
+|Mutating Webhook Configuration 作成|event_id.iaas.cluster.mutating_webhook_configuration.create|Kubernetes|
+|Mutating Webhook Configuration 削除|event_id.iaas.cluster.mutating_webhook_configuration.delete|Kubernetes|
+|Mutating Webhook Configuration 修正|event_id.iaas.cluster.mutating_webhook_configuration.update|Kubernetes|
+|ネームスペース 作成|event_id.iaas.cluster.namespace.create|Kubernetes|
+|ネームスペース 削除|event_id.iaas.cluster.namespace.delete|Kubernetes|
+|ネームスペース 修正|event_id.iaas.cluster.namespace.update|Kubernetes|
+|Network Policy 作成|event_id.iaas.cluster.network_policy.create|Kubernetes|
+|Network Policy 削除|event_id.iaas.cluster.network_policy.delete|Kubernetes|
+|Network Policy 修正|event_id.iaas.cluster.network_policy.update|Kubernetes|
+|Persistent Volume Claim 作成|event_id.iaas.cluster.persistent_volume_claim.create|Kubernetes|
+|Persistent Volume Claim 削除|event_id.iaas.cluster.persistent_volume_claim.delete|Kubernetes|
+|Persistent Volume Claim 修正|event_id.iaas.cluster.persistent_volume_claim.update|Kubernetes|
+|Persistent Volume 作成|event_id.iaas.cluster.persistent_volume.create|Kubernetes|
+|Persistent Volume 削除|event_id.iaas.cluster.persistent_volume.delete|Kubernetes|
+|Persistent Volume 修正|event_id.iaas.cluster.persistent_volume.update|Kubernetes|
+|Pod Disruption Budget 作成|event_id.iaas.cluster.pod_disruption_budget.create|Kubernetes|
+|Pod Disruption Budget 削除|event_id.iaas.cluster.pod_disruption_budget.delete|Kubernetes|
+|Pod Disruption Budget 修正|event_id.iaas.cluster.pod_disruption_budget.update|Kubernetes|
+|Pod 作成|event_id.iaas.cluster.pod.create|Kubernetes|
+|Pod 削除|event_id.iaas.cluster.pod.delete|Kubernetes|
+|Pod 修正|event_id.iaas.cluster.pod.update|Kubernetes|
+|Pod 接続|event_id.iaas.cluster.pod.attach|Kubernetes|
+|Pod 退避|event_id.iaas.cluster.pod.evict|Kubernetes|
+|Pod 実行|event_id.iaas.cluster.pod.exec|Kubernetes|
+|Podポートフォワーディング 設定|event_id.iaas.cluster.pod.port_forward|Kubernetes|
+|Pod Security Policy 作成|event_id.iaas.cluster.pod_security_policy.create|Kubernetes|
+|Pod Security Policy 削除|event_id.iaas.cluster.pod_security_policy.delete|Kubernetes|
+|Pod Security Policy 修正|event_id.iaas.cluster.pod_security_policy.update|Kubernetes|
+|Pod Template 作成|event_id.iaas.cluster.pod_template.create|Kubernetes|
+|Pod Template 削除|event_id.iaas.cluster.pod_template.delete|Kubernetes|
+|Pod Template 修正|event_id.iaas.cluster.pod_template.update|Kubernetes|
+|Priority Class 作成|event_id.iaas.cluster.priority_class.create|Kubernetes|
+|Priority Class 削除|event_id.iaas.cluster.priority_class.delete|Kubernetes|
+|Priority Class 修正|event_id.iaas.cluster.priority_class.update|Kubernetes|
+|Replica Set 作成|event_id.iaas.cluster.replica_set.create|Kubernetes|
+|Replica Set 削除|event_id.iaas.cluster.replica_set.delete|Kubernetes|
+|Replica Set 修正|event_id.iaas.cluster.replica_set.update|Kubernetes|
+|Replica Setスケール 調整|event_id.iaas.cluster.replica_set.update_scale|Kubernetes|
+|Replication Controller 作成|event_id.iaas.cluster.replication_controller.create|Kubernetes|
+|Replication Controller 削除|event_id.iaas.cluster.replication_controller.delete|Kubernetes|
+|Replication Controller 修正|event_id.iaas.cluster.replication_controller.update|Kubernetes|
+|Replication Controllerスケール調整|event_id.iaas.cluster.replication_controller.update_scale|Kubernetes|
+|Resource Quota 作成|event_id.iaas.cluster.resource_quota.create|Kubernetes|
+|Resource Quota 削除|event_id.iaas.cluster.resource_quota.delete|Kubernetes|
+|Resource Quota 修正|event_id.iaas.cluster.resource_quota.update|Kubernetes|
+|RoleBinding 作成|event_id.iaas.cluster.role_binding.create|Kubernetes|
+|RoleBinding 削除|event_id.iaas.cluster.role_binding.delete|Kubernetes|
+|RoleBinding 修正|event_id.iaas.cluster.role_binding.update|Kubernetes|
+|Role 作成|event_id.iaas.cluster.role.create|Kubernetes|
+|Role 削除|event_id.iaas.cluster.role.delete|Kubernetes|
+|Role 修正|event_id.iaas.cluster.role.update|Kubernetes|
+|Secret 作成|event_id.iaas.cluster.secret.create|Kubernetes|
+|Secret 削除|event_id.iaas.cluster.secret.delete|Kubernetes|
+|Secret 修正|event_id.iaas.cluster.secret.update|Kubernetes|
+|Service Account 作成|event_id.iaas.cluster.service_account.create|Kubernetes|
+|Service Account 削除|event_id.iaas.cluster.service_account.delete|Kubernetes|
+|Service Account 修正|event_id.iaas.cluster.service_account.update|Kubernetes|
+|Service 作成|event_id.iaas.cluster.service.create|Kubernetes|
+|Service 削除|event_id.iaas.cluster.service.delete|Kubernetes|
+|Service 修正|event_id.iaas.cluster.service.update|Kubernetes|
+|Stateful Set 作成|event_id.iaas.cluster.stateful_set.create|Kubernetes|
+|Stateful Set 削除|event_id.iaas.cluster.stateful_set.delete|Kubernetes|
+|Stateful Set 修正|event_id.iaas.cluster.stateful_set.update|Kubernetes|
+|Stateful Setスケール 調整|event_id.iaas.cluster.stateful_set.update_scale|Kubernetes|
+|Storage Class 作成|event_id.iaas.cluster.storage_class.create|Kubernetes|
+|Storage Class 削除|event_id.iaas.cluster.storage_class.delete|Kubernetes|
+|Storage Class 修正|event_id.iaas.cluster.storage_class.update|Kubernetes|
+|Validating Webhook Configuration 생성|event_id.iaas.cluster.validating_webhook_configuration.create|Kubernetes|
+|Validating Webhook Configuration 삭제|event_id.iaas.cluster.validating_webhook_configuration.delete|Kubernetes|
+|Validating Webhook Configuration 수정|event_id.iaas.cluster.validating_webhook_configuration.update|Kubernetes|
