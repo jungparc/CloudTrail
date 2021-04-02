@@ -401,3 +401,14 @@
 |Create Validating Webhook Configuration|event_id.iaas.cluster.validating_webhook_configuration.create|Kubernetes|
 |Delete Validating Webhook Configuration|event_id.iaas.cluster.validating_webhook_configuration.delete|Kubernetes|
 |Update Validating Webhook Configuration|event_id.iaas.cluster.validating_webhook_configuration.update|Kubernetes|
+|Recognize face|event_id.face_recognition.face.detect|Face Recognition|
+|Compare faces|event_id.face_recognition.face.compare|Face Recognition|
+|Register face|event_id.face_recognition.face.add|Face Recognition|
+|Delete face|event_id.face_recognition.face.delete|Face Recognition|
+|Create facial recognition group|event_id.face_recognition.group.create|Face Recognition|
+|View facial recognition group list|event_id.face_recognition.group.list|Face Recognition|
+|View facial recognition group details|event_id.face_recognition.group.get_detail|Face Recognition|
+|View faces registered to the facial recognition group|event_id.face_recognition.group.face_list|Face Recognition|
+|Delete facial recognition group|event_id.face_recognition.group.delete|Face Recognition|
+|Search face by face ID|event_id.face_recognition.search_face.byfaceid|Face Recognition|
+|Search face by image|event_id.face_recognition.search_face.byimage|Face Recognition|
