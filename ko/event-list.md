@@ -475,3 +475,14 @@
 |Validating Webhook Configuration 생성|event_id.iaas.cluster.validating_webhook_configuration.create|Kubernetes|
 |Validating Webhook Configuration 삭제|event_id.iaas.cluster.validating_webhook_configuration.delete|Kubernetes|
 |Validating Webhook Configuration 수정|event_id.iaas.cluster.validating_webhook_configuration.update|Kubernetes|
+|얼굴 감지|event_id.face_recognition.face.detect|Face Recognition|
+|얼굴 비교|event_id.face_recognition.face.compare|Face Recognition|
+|얼굴 등록|event_id.face_recognition.face.add|Face Recognition|
+|얼굴 삭제|event_id.face_recognition.face.delete|Face Recognition|
+|얼굴 인식 그룹 생성|event_id.face_recognition.group.create|Face Recognition|
+|얼굴 인식 그룹 목록 조회|event_id.face_recognition.group.list|Face Recognition|
+|일굴 인식 그룹 세부 정보 조회|event_id.face_recognition.group.get_detail|Face Recognition|
+|얼굴 인식 그룹에 등록된 얼굴 조회|event_id.face_recognition.group.face_list|Face Recognition|
+|얼굴 인식 그룹 삭제|event_id.face_recognition.group.delete|Face Recognition|
+|페이스 아이디로 얼굴 검색|event_id.face_recognition.search_face.byfaceid|Face Recognition|
+|이미지로 얼굴 검색|event_id.face_recognition.search_face.byimage|Face Recognition|
