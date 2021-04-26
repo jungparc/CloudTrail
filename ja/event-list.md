@@ -475,3 +475,14 @@
 |Validating Webhook Configuration 생성|event_id.iaas.cluster.validating_webhook_configuration.create|Kubernetes|
 |Validating Webhook Configuration 삭제|event_id.iaas.cluster.validating_webhook_configuration.delete|Kubernetes|
 |Validating Webhook Configuration 수정|event_id.iaas.cluster.validating_webhook_configuration.update|Kubernetes|
+|顔検出|event_id.face_recognition.face.detect|Face Recognition|
+|顔比較|event_id.face_recognition.face.compare|Face Recognition|
+|顔登録|event_id.face_recognition.face.add|Face Recognition|
+|顔削除|event_id.face_recognition.face.delete|Face Recognition|
+|顔認識グループを作成|event_id.face_recognition.group.create|Face Recognition|
+|顔認識グループのリスト照会|event_id.face_recognition.group.list|Face Recognition|
+|顔認識グループの詳細照会|event_id.face_recognition.group.get_detail|Face Recognition|
+|顔認識グループに登録された顔を照会|event_id.face_recognition.group.face_list|Face Recognition|
+|顔認識グループの削除|event_id.face_recognition.group.delete|Face Recognition|
+|フェイス名で顔検索|event_id.face_recognition.search_face.byfaceid|Face Recognition|
+|画像から顔検索|event_id.face_recognition.search_face.byimage|Face Recognition|
