@@ -59,4 +59,5 @@ Click the **Log Save/Download Settings** button and enable/disable it in the dia
    * **Bucket name** is the name of the object storage container where logs will be saved.
    * **Endpoint** and **Region** are information that manages the object storage where logs will be saved. For more information, see [Amazon S3 Compatibility API Guide - AWS SDK](/Storage/Object%20Storage/ko/s3-api-guide#aws-sdk)
    * Once setup is complete, logs will begin to be saved in the object storage.
-   * Saved logs can be viewed two to two and a half hours after being uploaded in the object storage. 
+   * Saved logs can be viewed two to two and a half hours after being uploaded in the object storage.
+   * After three or more failed upload attempts, the saved authentication information will be disabled. The details will be sent to the email address registered in the **Receive Result** (email) field.
