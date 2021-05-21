@@ -52,7 +52,7 @@ Shows requests and response results so that users can see the history of attempt
 You can save/download user event logs written within the organization through an external object storage.
 Click the **Log Save/Download Settings** button and enable/disable it in the dialog box.
 
-![cloudtrail_05](https://static.toastoven.net/prod_cloudtrail/IMG05_EN.png)
+![cloudtrail_06](https://static.toastoven.net/prod_cloudtrail/IMG06_EN.png)
 
 * The following describes how to save/download logs using [NHN Cloud Object Storage](/Storage/Object%20Storage/ko/Overview/)
    * **Access key** and **Secret key** can be verified with **Register and View EC2 Credential** using [AWS S3 API](https://github.com/TOAST-DOCS/CloudTrail/blob/de2ee3d8ad32a2eb189d15d5b266d0eac6e3642f/Storage/Object Storage/ko/s3-api-guide/#_1).
