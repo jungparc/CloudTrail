@@ -2,6 +2,7 @@
 ## CloudTrail > Release Notes
 ### 2021. 05. 25.
 #### More Events
+* Added events related to Log & Crash Search.
 * Added events related to Pipeline.
 * Added events related to NHN AppGuard.
 * Added the email field to receive information after three or more failed upload attempts in Log Save/Download Settings.
