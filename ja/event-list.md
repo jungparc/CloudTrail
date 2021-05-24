@@ -506,3 +506,11 @@
 |デプロイ対象の作成|event_id.pipeline.deploy_target.create|Pipeline|
 |デプロイ対象の修正|event_id.pipeline.deploy_target.update|Pipeline|
 |デプロイ対象の削除|event_id.pipeline.deploy_target.delete|Pipeline|
+|Android SDKダウンロード|event_id.appguard.sdk_download_aos|AppGuard|
+|iOS SDKダウンロード|event_id.appguard.sdk_download_ios|AppGuard|
+|レポートダウンロード|event_id.appguard.report_download|AppGuard|
+|保護作業|event_id.appguard.protection|AppGuard|
+|難読化申請|event_id.appguard.obfuscation_request|AppGuard|
+|ブラックリスト追加|event_id.appguard.blacklist_add|AppGuard|
+|ブラックリスト解除|event_id.appguard.blacklist_delete|AppGuard|
+|ポリシー修正|event_id.appguard.policy_update|AppGuard|

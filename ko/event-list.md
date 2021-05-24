@@ -506,3 +506,11 @@
 |배포 대상 생성|event_id.pipeline.deploy_target.create|Pipeline|
 |배포 대상 수정|event_id.pipeline.deploy_target.update|Pipeline|
 |배포 대상 삭제|event_id.pipeline.deploy_target.delete|Pipeline|
+|Android SDK 다운로드|event_id.appguard.sdk_download_aos|AppGuard|
+|iOS SDK 다운로드|event_id.appguard.sdk_download_ios|AppGuard|
+|보고서 다운로드|event_id.appguard.report_download|AppGuard|
+|보호 작업|event_id.appguard.protection|AppGuard|
+|난독화 신청|event_id.appguard.obfuscation_request|AppGuard|
+|블랙리스트 추가|event_id.appguard.blacklist_add|AppGuard|
+|블랙리스트 차단 해제|event_id.appguard.blacklist_delete|AppGuard|
+|정책 수정|event_id.appguard.policy_update|AppGuard|

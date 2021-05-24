@@ -432,3 +432,11 @@
 |Create Deployment Target|event_id.pipeline.deploy_target.create|Pipeline|
 |Modify Deployment Target|event_id.pipeline.deploy_target.update|Pipeline|
 |Delete Deployment Target|event_id.pipeline.deploy_target.delete|Pipeline|
+|Android SDK download|event_id.appguard.sdk_download_aos|AppGuard|
+|iOS SDK download|event_id.appguard.sdk_download_ios|AppGuard|
+|Report download|event_id.appguard.report_download|AppGuard|
+|protection|event_id.appguard.protection|AppGuard|
+|Obfuscation application|event_id.appguard.obfuscation_request|AppGuard|
+|Blacklist addition|event_id.appguard.blacklist_add|AppGuard|
+|Blacklist unblock|event_id.appguard.blacklist_delete|AppGuard|
+|policy update|event_id.appguard.policy_update|AppGuard|
