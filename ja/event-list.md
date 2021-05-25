@@ -324,7 +324,6 @@
 |プロジェクト状態変更|event_id.logncrash.project.state|Log & Crash Search|
 |ログ引き込み制限変更|event_id.logncrash.limit.save|Log & Crash Search|
 |ログ保管期間変更|event_id.logncrash.retention.save|Log & Crash Search|
-
 |バックアップサーバー登録|event_id.backup.client.register|Backup|
 |バックアップサーバー削除|event_id.backup.client.delete|Backup|
 |バックアップパス登録|event_id.backup.target.register|Backup|
