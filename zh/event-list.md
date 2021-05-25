@@ -220,6 +220,66 @@
 |Delete Chart Layout|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
 |Upload Symbol Files|event_id.logncrash.symbolfile.delete|Log & Crash Search|
 |Delete Symbol Files|event_id.logncrash.symbolfile.upload|Log & Crash Search|
+|Saved query registered|event_id.logncrash.stored_search.save|Log & Crash Search|
+|Saved query deleted|event_id.logncrash.stored_search.delete|Log & Crash Search|
+|Selected field added|event_id.logncrash.search_field.delete|Log & Crash Search|
+|Selected field deleted|event_id.logncrash.search_field.delete|Log & Crash Search|
+|Crash tag added|event_id.logncrash.crash.tag.save|Log & Crash Search|
+|Crash tag deleted|event_id.logncrash.crash.tag.delete|Log & Crash Search|
+|Crash tag applied|event_id.logncrash.crash.tag.assign|Log & Crash Search|
+|Crash comment added|event_id.logncrash.crash.comment.save|Log & Crash Search|
+|Crash comment deleted|event_id.logncrash.crash.comment.delete|Log & Crash Search|
+|Crash status changed|event_id.logncrash.crash.state|Log & Crash Search|
+|Crash issue tracker registered|event_id.logncrash.crash.issue_tracker.save|Log & Crash Search|
+|Log notification added|event_id.logncrash.search.alarm.log.save|Log & Crash Search|
+|Log notification deleted|event_id.logncrash.search.alarm.log.delete|Log & Crash Search|
+|Log notification recipient saved|event_id.logncrash.search.alarm.log.member.save|Log & Crash Search|
+|Log notification status changed|event_id.logncrash.search.alarm.log.state|Log & Crash Search|
+|Crash notification saved|event_id.logncrash.search.alarm.crash.save|Log & Crash Search|
+|Use notification saved|event_id.logncrash.search.alarm.affected_user.save|Log & Crash Search|
+|Linked issue tracker settings saved|event_id.logncrash.issue_tracker.save|Log & Crash Search|
+|Symbol file uploaded|event_id.logncrash.symbolfile.upload|Log & Crash Search|
+|Symbol file deleted|event_id.logncrash.symbolfile.delete|Log & Crash Search|
+|Log retention period saved|event_id.logncrash.retention.save|Log & Crash Search|
+|Log send settings|event_id.logncrash.client.setting|Log & Crash Search|
+|External log archiving settings|event_id.logncrash.external_archive_config.save|Log & Crash Search|
+|Network insight settings|event_id.logncrash.network_insights.save|Log & Crash Search|
+|Create project|event_id.logncrash.project.save|Log & Crash Search|
+|Delete project|event_id.logncrash.project.delete|Log & Crash Search|
+|Project appkey changed|event_id.logncrash.project.appkey|Log & Crash Search|
+|Project status changed|event_id.logncrash.project.state|Log & Crash Search|
+|Log entry limit changed|event_id.logncrash.limit.save|Log & Crash Search|
+|Log retention period changed|event_id.logncrash.retention.save|Log & Crash Search|
+|Saved query registered|event_id.logncrash.stored_search.save|Log & Crash Search|
+|Saved query deleted|event_id.logncrash.stored_search.delete|Log & Crash Search|
+|Selected field added|event_id.logncrash.search_field.delete|Log & Crash Search|
+|Selected field deleted|event_id.logncrash.search_field.delete|Log & Crash Search|
+|Crash tag added|event_id.logncrash.crash.tag.save|Log & Crash Search|
+|Crash tag deleted|event_id.logncrash.crash.tag.delete|Log & Crash Search|
+|Crash tag applied|event_id.logncrash.crash.tag.assign|Log & Crash Search|
+|Crash comment added|event_id.logncrash.crash.comment.save|Log & Crash Search|
+|Crash comment deleted|event_id.logncrash.crash.comment.delete|Log & Crash Search|
+|Crash status changed|event_id.logncrash.crash.state|Log & Crash Search|
+|Crash issue tracker registered|event_id.logncrash.crash.issue_tracker.save|Log & Crash Search|
+|Log notification added|event_id.logncrash.search.alarm.log.save|Log & Crash Search|
+|Log notification deleted|event_id.logncrash.search.alarm.log.delete|Log & Crash Search|
+|Log notification recipient saved|event_id.logncrash.search.alarm.log.member.save|Log & Crash Search|
+|Log notification status changed|event_id.logncrash.search.alarm.log.state|Log & Crash Search|
+|Crash notification saved|event_id.logncrash.search.alarm.crash.save|Log & Crash Search|
+|Use notification saved|event_id.logncrash.search.alarm.affected_user.save|Log & Crash Search|
+|Linked issue tracker settings saved|event_id.logncrash.issue_tracker.save|Log & Crash Search|
+|Symbol file uploaded|event_id.logncrash.symbolfile.upload|Log & Crash Search|
+|Symbol file deleted|event_id.logncrash.symbolfile.delete|Log & Crash Search|
+|Log retention period saved|event_id.logncrash.retention.save|Log & Crash Search|
+|Log send settings|event_id.logncrash.client.setting|Log & Crash Search|
+|External log archiving settings|event_id.logncrash.external_archive_config.save|Log & Crash Search|
+|Network insight settings|event_id.logncrash.network_insights.save|Log & Crash Search|
+|Create project|event_id.logncrash.project.save|Log & Crash Search|
+|Delete project|event_id.logncrash.project.delete|Log & Crash Search|
+|Project appkey changed|event_id.logncrash.project.appkey|Log & Crash Search|
+|Project status changed|event_id.logncrash.project.state|Log & Crash Search|
+|Log entry limit changed|event_id.logncrash.limit.save|Log & Crash Search|
+|Log retention period changed|event_id.logncrash.retention.save|Log & Crash Search|
 |Register Backup Server|event_id.backup.client.register|Backup|
 |Delete Backup Server|event_id.backup.client.delete|Backup|
 |Register Backup Path|event_id.backup.target.register|Backup|
@@ -401,14 +461,42 @@
 |Create Validating Webhook Configuration|event_id.iaas.cluster.validating_webhook_configuration.create|Kubernetes|
 |Delete Validating Webhook Configuration|event_id.iaas.cluster.validating_webhook_configuration.delete|Kubernetes|
 |Update Validating Webhook Configuration|event_id.iaas.cluster.validating_webhook_configuration.update|Kubernetes|
-|얼굴 감지|event_id.face_recognition.face.detect|Face Recognition|
-|얼굴 비교|event_id.face_recognition.face.compare|Face Recognition|
-|얼굴 등록|event_id.face_recognition.face.add|Face Recognition|
-|얼굴 삭제|event_id.face_recognition.face.delete|Face Recognition|
-|얼굴 인식 그룹 생성|event_id.face_recognition.group.create|Face Recognition|
-|얼굴 인식 그룹 목록 조회|event_id.face_recognition.group.list|Face Recognition|
-|일굴 인식 그룹 세부 정보 조회|event_id.face_recognition.group.get_detail|Face Recognition|
-|얼굴 인식 그룹에 등록된 얼굴 조회|event_id.face_recognition.group.face_list|Face Recognition|
-|얼굴 인식 그룹 삭제|event_id.face_recognition.group.delete|Face Recognition|
-|페이스 아이디로 얼굴 검색|event_id.face_recognition.search_face.byfaceid|Face Recognition|
-|이미지로 얼굴 검색|event_id.face_recognition.search_face.byimage|Face Recognition|
+|Recognize face|event_id.face_recognition.face.detect|Face Recognition|
+|Compare faces|event_id.face_recognition.face.compare|Face Recognition|
+|Register face|event_id.face_recognition.face.add|Face Recognition|
+|Delete face|event_id.face_recognition.face.delete|Face Recognition|
+|Create facial recognition group|event_id.face_recognition.group.create|Face Recognition|
+|View facial recognition group list|event_id.face_recognition.group.list|Face Recognition|
+|View facial recognition group details|event_id.face_recognition.group.get_detail|Face Recognition|
+|View faces registered to the facial recognition group|event_id.face_recognition.group.face_list|Face Recognition|
+|Delete facial recognition group|event_id.face_recognition.group.delete|Face Recognition|
+|Search face by face ID|event_id.face_recognition.search_face.byfaceid|Face Recognition|
+|Search face by image|event_id.face_recognition.search_face.byimage|Face Recognition|
+|Create Pipeline|event_id.pipeline.pipeline_manage.create|Pipeline|
+|Modify Pipeline|event_id.pipeline.pipeline_manage.update|Pipeline|
+|Delete Pipeline|event_id.pipeline.pipeline_manage.delete|Pipeline|
+|Manually Run Pipeline|event_id.pipeline.pipeline_manage.manual_execute|Pipeline|
+|Undo Pipeline|event_id.pipeline.pipeline_manage.execute_cancel|Pipeline|
+|Create Development Environment|event_id.pipeline.dev_env_config.create|Pipeline|
+|Modify Development Environment|event_id.pipeline.dev_env_config.update|Pipeline|
+|Delete Development Environment|event_id.pipeline.dev_env_config.delete|Pipeline|
+|Create Source Repository|event_id.pipeline.source_repository.create|Pipeline|
+|Modify Source Repository|event_id.pipeline.source_repository.update|Pipeline|
+|Delete Source Repository|event_id.pipeline.source_repository.delete|Pipeline|
+|Create Image Registry|event_id.pipeline.image_registry.create|Pipeline|
+|Modify Image Registry|event_id.pipeline.image_registry.update|Pipeline|
+|Delete Image Registry|event_id.pipeline.image_registry.delete|Pipeline|
+|Create Build Tool|event_id.pipeline.build_tool.create|Pipeline|
+|Modify Build Tool|event_id.pipeline.build_tool.update|Pipeline|
+|Delete Build Tool|event_id.pipeline.build_tool.delete|Pipeline|
+|Create Deployment Target|event_id.pipeline.deploy_target.create|Pipeline|
+|Modify Deployment Target|event_id.pipeline.deploy_target.update|Pipeline|
+|Delete Deployment Target|event_id.pipeline.deploy_target.delete|Pipeline|
+|Android SDK download|event_id.appguard.sdk_download_aos|AppGuard|
+|iOS SDK download|event_id.appguard.sdk_download_ios|AppGuard|
+|Report download|event_id.appguard.report_download|AppGuard|
+|protection|event_id.appguard.protection|AppGuard|
+|Obfuscation application|event_id.appguard.obfuscation_request|AppGuard|
+|Blacklist addition|event_id.appguard.blacklist_add|AppGuard|
+|Blacklist unblock|event_id.appguard.blacklist_delete|AppGuard|
+|policy update|event_id.appguard.policy_update|AppGuard|

@@ -294,6 +294,36 @@
 |차트 레이아웃 삭제|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
 |심벌 파일 삭제|event_id.logncrash.symbolfile.delete|Log & Crash Search|
 |심벌 파일 업로드|event_id.logncrash.symbolfile.upload|Log & Crash Search|
+|저장 쿼리 등록|event_id.logncrash.stored_search.save|Log & Crash Search|
+|저장 쿼리 삭제|event_id.logncrash.stored_search.delete|Log & Crash Search|
+|선택 필드 추가|event_id.logncrash.search_field.delete|Log & Crash Search|
+|선택 필드 삭제|event_id.logncrash.search_field.delete|Log & Crash Search|
+|크래시 태그 추가|event_id.logncrash.crash.tag.save|Log & Crash Search|
+|크래시 태그 삭제|event_id.logncrash.crash.tag.delete|Log & Crash Search|
+|크래시 태그 적용|event_id.logncrash.crash.tag.assign|Log & Crash Search|
+|크래시 의견 추가|event_id.logncrash.crash.comment.save|Log & Crash Search|
+|크래시 의견 삭제|event_id.logncrash.crash.comment.delete|Log & Crash Search|
+|크래시 상태 변경|event_id.logncrash.crash.state|Log & Crash Search|
+|크래시 이슈 트래커 등록|event_id.logncrash.crash.issue_tracker.save|Log & Crash Search|
+|로그 알람 추가|event_id.logncrash.search.alarm.log.save|Log & Crash Search|
+|로그 알람 삭제|event_id.logncrash.search.alarm.log.delete|Log & Crash Search|
+|로그 알람 수신자 저장|event_id.logncrash.search.alarm.log.member.save|Log & Crash Search|
+|로그 알람 상태 변경|event_id.logncrash.search.alarm.log.state|Log & Crash Search|
+|크래시 알람 저장|event_id.logncrash.search.alarm.crash.save|Log & Crash Search|
+|사용자 알람 저장|event_id.logncrash.search.alarm.affected_user.save|Log & Crash Search|
+|연동 이슈 트래커 설정 저장|event_id.logncrash.issue_tracker.save|Log & Crash Search|
+|심벌 파일 업로드|event_id.logncrash.symbolfile.upload|Log & Crash Search|
+|심벌 파일 삭제|event_id.logncrash.symbolfile.delete|Log & Crash Search|
+|로그 보관 기간 저장|event_id.logncrash.retention.save|Log & Crash Search|
+|로그 전송 설정|event_id.logncrash.client.setting|Log & Crash Search|
+|로그 외부 보관 설정|event_id.logncrash.external_archive_config.save|Log & Crash Search|
+|네트워크 인사이트 설정|event_id.logncrash.network_insights.save|Log & Crash Search|
+|프로젝트 생성|event_id.logncrash.project.save|Log & Crash Search|
+|프로젝트 삭제|event_id.logncrash.project.delete|Log & Crash Search|
+|프로젝트 앱키 변경|event_id.logncrash.project.appkey|Log & Crash Search|
+|프로젝트 상태 변경|event_id.logncrash.project.state|Log & Crash Search|
+|로그 인입 제한 변경|event_id.logncrash.limit.save|Log & Crash Search|
+|로그 보관 기간 변경|event_id.logncrash.retention.save|Log & Crash Search|
 |백업 서버 등록|event_id.backup.client.register|Backup|
 |백업 서버 삭제|event_id.backup.client.delete|Backup|
 |백업 경로 등록|event_id.backup.target.register|Backup|
@@ -486,3 +516,31 @@
 |얼굴 인식 그룹 삭제|event_id.face_recognition.group.delete|Face Recognition|
 |페이스 아이디로 얼굴 검색|event_id.face_recognition.search_face.byfaceid|Face Recognition|
 |이미지로 얼굴 검색|event_id.face_recognition.search_face.byimage|Face Recognition|
+|파이프라인 생성|event_id.pipeline.pipeline_manage.create|Pipeline|
+|파이프라인 수정|event_id.pipeline.pipeline_manage.update|Pipeline|
+|파이프라인 삭제|event_id.pipeline.pipeline_manage.delete|Pipeline|
+|파이프라인 수동 실행|event_id.pipeline.pipeline_manage.manual_execute|Pipeline|
+|파이프라인 실행 취소|event_id.pipeline.pipeline_manage.execute_cancel|Pipeline|
+|개발 환경 생성|event_id.pipeline.dev_env_config.create|Pipeline|
+|개발 환경 수정|event_id.pipeline.dev_env_config.update|Pipeline|
+|개발 환경 삭제|event_id.pipeline.dev_env_config.delete|Pipeline|
+|소스 저장소 생성|event_id.pipeline.source_repository.create|Pipeline|
+|소스 저장소 수정|event_id.pipeline.source_repository.update|Pipeline|
+|소스 저장소 삭제|event_id.pipeline.source_repository.delete|Pipeline|
+|이미지 저장소 생성|event_id.pipeline.image_registry.create|Pipeline|
+|이미지 저장소 수정|event_id.pipeline.image_registry.update|Pipeline|
+|이미지 저장소 삭제|event_id.pipeline.image_registry.delete|Pipeline|
+|빌드 도구 생성|event_id.pipeline.build_tool.create|Pipeline|
+|빌드 도구 수정|event_id.pipeline.build_tool.update|Pipeline|
+|빌드 도구 삭제|event_id.pipeline.build_tool.delete|Pipeline|
+|배포 대상 생성|event_id.pipeline.deploy_target.create|Pipeline|
+|배포 대상 수정|event_id.pipeline.deploy_target.update|Pipeline|
+|배포 대상 삭제|event_id.pipeline.deploy_target.delete|Pipeline|
+|Android SDK 다운로드|event_id.appguard.sdk_download_aos|AppGuard|
+|iOS SDK 다운로드|event_id.appguard.sdk_download_ios|AppGuard|
+|보고서 다운로드|event_id.appguard.report_download|AppGuard|
+|보호 작업|event_id.appguard.protection|AppGuard|
+|난독화 신청|event_id.appguard.obfuscation_request|AppGuard|
+|블랙리스트 추가|event_id.appguard.blacklist_add|AppGuard|
+|블랙리스트 차단 해제|event_id.appguard.blacklist_delete|AppGuard|
+|정책 수정|event_id.appguard.policy_update|AppGuard|

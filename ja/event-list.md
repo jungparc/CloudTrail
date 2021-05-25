@@ -294,6 +294,37 @@
 |チャートレイアウト削除|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
 |シンボルファイルの削除|event_id.logncrash.symbolfile.delete|Log & Crash Search|
 |シンボルファイルのアップロード|event_id.logncrash.symbolfile.upload|Log & Crash Search|
+|保存クエリ登録|event_id.logncrash.stored_search.save|Log & Crash Search|
+|保存クエリ削除|event_id.logncrash.stored_search.delete|Log & Crash Search|
+|選択フィールド追加|event_id.logncrash.search_field.delete|Log & Crash Search|
+|選択フィールド削除|event_id.logncrash.search_field.delete|Log & Crash Search|
+|クラッシュタグ追加|event_id.logncrash.crash.tag.save|Log & Crash Search|
+|クラッシュタグ削除|event_id.logncrash.crash.tag.delete|Log & Crash Search|
+|クラッシュタグ適用|event_id.logncrash.crash.tag.assign|Log & Crash Search|
+|クラッシュ意見追加|event_id.logncrash.crash.comment.save|Log & Crash Search|
+|クラッシュ意見削除|event_id.logncrash.crash.comment.delete|Log & Crash Search|
+|クラッシュ状態変更|event_id.logncrash.crash.state|Log & Crash Search|
+|クラッシュ課題トラッカー登録|event_id.logncrash.crash.issue_tracker.save|Log & Crash Search|
+|ログアラーム追加|event_id.logncrash.search.alarm.log.save|Log & Crash Search|
+|ログアラーム削除|event_id.logncrash.search.alarm.log.delete|Log & Crash Search|
+|ログアラーム受信者保存|event_id.logncrash.search.alarm.log.member.save|Log & Crash Search|
+|ログアラーム状態変更|event_id.logncrash.search.alarm.log.state|Log & Crash Search|
+|クラッシュアラーム保存|event_id.logncrash.search.alarm.crash.save|Log & Crash Search|
+|ユーザーアラーム保存|event_id.logncrash.search.alarm.affected_user.save|Log & Crash Search|
+|連動課題トラッカー設定を保存|event_id.logncrash.issue_tracker.save|Log & Crash Search|
+|シンボルファイルをアップロード|event_id.logncrash.symbolfile.upload|Log & Crash Search|
+|シンボルファイル削除|event_id.logncrash.symbolfile.delete|Log & Crash Search|
+|ログ保管期間を保存|event_id.logncrash.retention.save|Log & Crash Search|
+|ログ送信設定|event_id.logncrash.client.setting|Log & Crash Search|
+|ログ外部保管設定|event_id.logncrash.external_archive_config.save|Log & Crash Search|
+|ネットワークインサイト設定|event_id.logncrash.network_insights.save|Log & Crash Search|
+|プロジェクト作成|event_id.logncrash.project.save|Log & Crash Search|
+|プロジェクト削除|event_id.logncrash.project.delete|Log & Crash Search|
+|プロジェクトアプリケーションキー変更|event_id.logncrash.project.appkey|Log & Crash Search|
+|プロジェクト状態変更|event_id.logncrash.project.state|Log & Crash Search|
+|ログ引き込み制限変更|event_id.logncrash.limit.save|Log & Crash Search|
+|ログ保管期間変更|event_id.logncrash.retention.save|Log & Crash Search|
+
 |バックアップサーバー登録|event_id.backup.client.register|Backup|
 |バックアップサーバー削除|event_id.backup.client.delete|Backup|
 |バックアップパス登録|event_id.backup.target.register|Backup|
@@ -486,3 +517,31 @@
 |顔認識グループの削除|event_id.face_recognition.group.delete|Face Recognition|
 |フェイス名で顔検索|event_id.face_recognition.search_face.byfaceid|Face Recognition|
 |画像から顔検索|event_id.face_recognition.search_face.byimage|Face Recognition|
+|パイプラインの作成|event_id.pipeline.pipeline_manage.create|Pipeline|
+|パイプラインの修正|event_id.pipeline.pipeline_manage.update|Pipeline|
+|パイプラインの削除|event_id.pipeline.pipeline_manage.delete|Pipeline|
+|パイプラインの手動実行|event_id.pipeline.pipeline_manage.manual_execute|Pipeline|
+|パイプラインの実行キャンセル|event_id.pipeline.pipeline_manage.execute_cancel|Pipeline|
+|開発環境の作成|event_id.pipeline.dev_env_config.create|Pipeline|
+|開発環境の修正|event_id.pipeline.dev_env_config.update|Pipeline|
+|開発環境の削除|event_id.pipeline.dev_env_config.delete|Pipeline|
+|ソース保存場所の作成|event_id.pipeline.source_repository.create|Pipeline|
+|ソース保存場所の修正|event_id.pipeline.source_repository.update|Pipeline|
+|ソース保存場所の削除|event_id.pipeline.source_repository.delete|Pipeline|
+|イメージ保存場所の作成|event_id.pipeline.image_registry.create|Pipeline|
+|イメージ保存場所の修正|event_id.pipeline.image_registry.update|Pipeline|
+|イメージ保存場所の削除|event_id.pipeline.image_registry.delete|Pipeline|
+|ビルドツールの作成|event_id.pipeline.build_tool.create|Pipeline|
+|ビルドツールの修正|event_id.pipeline.build_tool.update|Pipeline|
+|ビルドツールの削除|event_id.pipeline.build_tool.delete|Pipeline|
+|デプロイ対象の作成|event_id.pipeline.deploy_target.create|Pipeline|
+|デプロイ対象の修正|event_id.pipeline.deploy_target.update|Pipeline|
+|デプロイ対象の削除|event_id.pipeline.deploy_target.delete|Pipeline|
+|Android SDKダウンロード|event_id.appguard.sdk_download_aos|AppGuard|
+|iOS SDKダウンロード|event_id.appguard.sdk_download_ios|AppGuard|
+|レポートダウンロード|event_id.appguard.report_download|AppGuard|
+|保護作業|event_id.appguard.protection|AppGuard|
+|難読化申請|event_id.appguard.obfuscation_request|AppGuard|
+|ブラックリスト追加|event_id.appguard.blacklist_add|AppGuard|
+|ブラックリスト解除|event_id.appguard.blacklist_delete|AppGuard|
+|ポリシー修正|event_id.appguard.policy_update|AppGuard|
