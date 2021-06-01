@@ -511,7 +511,7 @@
 |얼굴 삭제|event_id.face_recognition.face.delete|Face Recognition|
 |얼굴 인식 그룹 생성|event_id.face_recognition.group.create|Face Recognition|
 |얼굴 인식 그룹 목록 조회|event_id.face_recognition.group.list|Face Recognition|
-|일굴 인식 그룹 세부 정보 조회|event_id.face_recognition.group.get_detail|Face Recognition|
+|얼굴 인식 그룹 세부 정보 조회|event_id.face_recognition.group.get_detail|Face Recognition|
 |얼굴 인식 그룹에 등록된 얼굴 조회|event_id.face_recognition.group.face_list|Face Recognition|
 |얼굴 인식 그룹 삭제|event_id.face_recognition.group.delete|Face Recognition|
 |페이스 아이디로 얼굴 검색|event_id.face_recognition.search_face.byfaceid|Face Recognition|
