@@ -283,6 +283,8 @@
 |ACL 삭제|event_id.easycache.acl.delete|EasyCache|
 |읽기 전용 도메인 설정|event_id.easycache.readonly_domain.attach|EasyCache|
 |읽기 전용 도메인 해제|event_id.easycache.readonly_domain.detach|EasyCache|
+|데이터 가져오기|event_id.easycache.group.import|EasyCache|
+|복제 그룹 HA 설정 갱신|event_id.easycache.group.ha_update|EasyCache|
 |DB 인스턴스 생성|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
 |DB 인스턴스 삭제|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |DB 인스턴스 백업|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|

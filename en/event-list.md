@@ -209,6 +209,8 @@
 |Delete ACL|event_id.easycache.acl.delete|EasyCache|
 |Read-only Domain Setup|event_id.easycache.readonly_domain.attach|EasyCache|
 |Disable Read-only Domain|event_id.easycache.readonly_domain.detach|EasyCache|
+|Import data|event_id.easycache.group.import|EasyCache|
+|Update HA for Replication Group|event_id.easycache.group.ha_update|EasyCache|
 |Create Database Instance|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
 |Delete Database Instance|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |Back Up Database Instance|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|

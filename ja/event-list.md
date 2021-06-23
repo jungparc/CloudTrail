@@ -283,6 +283,8 @@
 |ACL削除|event_id.easycache.acl.delete|EasyCache|
 |読み取り専用ドメイン設定|event_id.easycache.readonly_domain.attach|EasyCache|
 |読み取り専用ドメイン解除|event_id.easycache.readonly_domain.detach|EasyCache|
+|データインポート|event_id.easycache.group.import|EasyCache|
+|レプリケーショングループHA設定更新|event_id.easycache.group.ha_update|EasyCache|
 |DBインスタンスの作成|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
 |DBインスタンスの削除|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |DBインスタンスのバックアップ|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
