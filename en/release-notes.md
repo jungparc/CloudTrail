@@ -1,5 +1,9 @@
 
 ## CloudTrail > Release Notes
+### 2021. 06. 29.
+#### More Events
+* Added events related to EasyCache.
+
 ### 2021. 05. 25.
 #### More Events
 * Added events related to Log & Crash Search.
