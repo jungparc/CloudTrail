@@ -5,13 +5,13 @@
 #### 이벤트 추가
 * System Monitoring 서비스 관련 이벤트가 추가되었습니다.
 * 로그 저장/다운로드 설정에서 3회 이상 업로드에 실패했을 때, 내용을 통보받을 수 있도록 이메일 항목을 추가했습니다.
-  * 상세 내용 참고: [링크](/CloudTrail/ko/console-guide/)
+  * 상세 내용 참고: [링크](https://gov-docs.toast.com/ko/CloudTrail/ko/console-guide-gov/)
   
 ### 2021. 03. 23.
 #### 이벤트 추가
 * EasyCache 서비스 관련 이벤트가 추가되었습니다.
 * Kubernetes 서비스 관련 이벤트가 추가되었습니다.
-  * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/CloudTrail/ko/event-list/)
+  * 자세한 사항은 매뉴얼을 참고합니다.: [링크](https://gov-docs.toast.com/ko/CloudTrail/ko/event-list-gov/)
 
 ### 2020.03.10
 #### 이벤트 추가
