@@ -27,7 +27,7 @@ CloudTrail 서비스를 선택하면 다음과 같은 화면이 나타납니다.
     - USER_CONSOLE: 조직 내부 회원 사용자 콘솔에서 발생한 이벤트
 3. 서비스 단위로 검색합니다.
     - 서비스는 여러 개 항목을 검색할 수 있습니다.
-    - [참고] 서비스는 TOAST 클라우드 서비스 단위입니다.
+    - [참고] 서비스는 NHN Cloud (공공기관용) 서비스 단위입니다.
 4. 이벤트 단위로 검색합니다.
     - 이벤트는 여러 개 항목을 검색할 수 있습니다.
 5. 사용자를 검색합니다.
@@ -51,10 +51,10 @@ CloudTrail 서비스를 선택하면 다음과 같은 화면이 나타납니다.
 ### 로그 저장/다운로드 설정
 해당 조직 내에서 기록된 사용자 이벤트 로그를 외부 Object Storage를 통해 저장/다운로드 할 수 있습니다.
 **로그 저장/다운로드 설정** 버튼을 클릭한 후 대화 상자에서 사용 여부를 선택합니다.
-
+용
 ![cloudtrail_05](https://static.toastoven.net/prod_cloudtrail/IMG05_KO.png)
 
-* 아래부터는 [TOAST Object Storage](/Storage/Object%20Storage/ko/Overview/)를 이용한 로그 저장/다운로드 방법을 설명합니다.
+* 아래부터는 [NHN Cloud (공공기관) Object Storage](/Storage/Object%20Storage/ko/Overview/)를 이용한 로그 저장/다운로드 방법을 설명합니다.
     * **액세스 키**, **비밀 키**는 [AWS S3 API](/Storage/Object%20Storage/ko/s3-api-guide/#_1)를 이용한 **EC2 자격 증명 등록 및 조회**로 확인할 수 있습니다.
     * **버킷이름**은 로그가 저장될 Object Storage 컨테이너의 이름입니다.
     * **엔드포인트**, **리전**은 로그를 저장할 Object Storage를 관리할 정보이며, [Amazon S3 호환 API 가이드 - AWS SDK](/Storage/Object%20Storage/ko/s3-api-guide#aws-sdk)에서 확인할 수 있습니다.
