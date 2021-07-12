@@ -199,6 +199,7 @@
 |シナリオ修正|event_id.deploy.scenario_update|Deploy|
 |シナリオ削除|event_id.deploy.scenario_delete|Deploy|
 |配布実行|event_id.deploy.deploy_execute|Deploy|
+|배포 이력 다운로드|event_id.deploy.deploy_history_download|Deploy|
 |IAM ログイン|event_id.iam.login|コンソール|
 |IAMメンバーの権限変更|event_id.iam.member.role.update|コンソール|
 |組織ドメインの追加|event_id.org.domain.add|コンソール|
