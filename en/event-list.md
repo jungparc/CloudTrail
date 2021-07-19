@@ -477,6 +477,7 @@
 |Compare faces|event_id.face_recognition.face.compare|Face Recognition|
 |Register face|event_id.face_recognition.face.add|Face Recognition|
 |Delete face|event_id.face_recognition.face.delete|Face Recognition|
+|얼굴 검증|event_id.face_recognition.face.verify|Face Recognition|
 |Create facial recognition group|event_id.face_recognition.group.create|Face Recognition|
 |View facial recognition group list|event_id.face_recognition.group.list|Face Recognition|
 |View facial recognition group details|event_id.face_recognition.group.get_detail|Face Recognition|

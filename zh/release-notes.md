@@ -3,6 +3,7 @@
 ### 2021. 07. 27.
 #### More Events
 * Added events related to Deploy.
+* Added events related to Face Recognition.
 
 ### 2021. 06. 29.
 #### More Events
