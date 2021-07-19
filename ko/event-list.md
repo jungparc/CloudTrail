@@ -189,7 +189,7 @@
 |리소스 그룹 삭제|event_id.deploy.resource_group_delete|Deploy|
 |리소스 생성|event_id.deploy.resource_create|Deploy|
 |리소스 수정|event_id.deploy.resource_update|Deploy|
-|리소스 최신번전으로 저장|event_id.deploy.resource_save|Deploy|
+|리소스 최신버전으로 저장|event_id.deploy.resource_save|Deploy|
 |리소스 다운로드|event_id.deploy.resource_download|Deploy|
 |리소스 삭제|event_id.deploy.resource_delete|Deploy|
 |시나리오 생성|event_id.deploy.scenario_create|Deploy|

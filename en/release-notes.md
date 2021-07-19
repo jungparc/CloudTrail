@@ -1,5 +1,9 @@
 
 ## CloudTrail > Release Notes
+### 2021. 07. 27.
+#### More Events
+* Added events related to Deploy.
+
 ### 2021. 06. 29.
 #### More Events
 * Added events related to EasyCache.
