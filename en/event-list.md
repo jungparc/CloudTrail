@@ -298,7 +298,7 @@
 |Modify Scenario|event_id.deploy.scenario_update|Deploy|
 |Delete Scenario|event_id.deploy.scenario_delete|Deploy|
 |Execute Deployment|event_id.deploy.deploy_execute|Deploy|
-|배포 이력 다운로드|event_id.deploy.deploy_history_download|Deploy|
+|Download deployment history|event_id.deploy.deploy_history_download|Deploy|
 | Create DNS Zone | event_id.dnsplus.zone.create | DNS Plus |
 | Modify DNS Zone | event_id.dnsplus.zone.update | DNS Plus |
 | Delete DNS Zone | event_id.dnsplus.zone.delete | DNS Plus |
