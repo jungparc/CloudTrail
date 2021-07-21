@@ -199,7 +199,7 @@
 |シナリオ修正|event_id.deploy.scenario_update|Deploy|
 |シナリオ削除|event_id.deploy.scenario_delete|Deploy|
 |配布実行|event_id.deploy.deploy_execute|Deploy|
-|배포 이력 다운로드|event_id.deploy.deploy_history_download|Deploy|
+|配布履歴のダウンロード|event_id.deploy.deploy_history_download|Deploy|
 |IAM ログイン|event_id.iam.login|コンソール|
 |IAMメンバーの権限変更|event_id.iam.member.role.update|コンソール|
 |組織ドメインの追加|event_id.org.domain.add|コンソール|
@@ -229,7 +229,7 @@
 |プロジェクトサービスの有効化|event_id.project.product.enable|コンソール|
 |プロジェクトの修正|event_id.project.update|コンソール|
 |プロジェクト アクセス|event_id.project.selected|コンソール|
-|共通ロールグループ作成|event_id.org.role_group.create|コンソール|
+|共通ロールグループ作成|event_id.odeploy_history_downloadrg.role_group.create|コンソール|
 |共通ロールグループ修正|event_id.org.role_group.update|コンソール|
 |共通ロールグループ削除|event_id.org.role_group.delete|コンソール|
 |共通ロールグループ権限追加|event_id.org.role_group.assign.roles|コンソール|
