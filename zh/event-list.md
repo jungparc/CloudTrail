@@ -193,7 +193,7 @@
 |Confirm Password for Replication Group|event_id.easycache.group.password|EasyCache|
 |Add Node|event_id.easycache.node.create|EasyCache|
 |Delete Node|event_id.easycache.node.delete|EasyCache|
-|Promote to Master|event_id.easycache.node.promote|EasyCache|
+|Change Master|event_id.easycache.node.promote|EasyCache|
 |Create Profile|event_id.easycache.profile.create|EasyCache|
 |Update Profile|event_id.easycache.profile.update|EasyCache|
 |Delete Profile|event_id.easycache.profile.delete|EasyCache|
@@ -211,6 +211,7 @@
 |Disable Read-only Domain|event_id.easycache.readonly_domain.detach|EasyCache|
 |Import data|event_id.easycache.group.import|EasyCache|
 |Update HA for Replication Group|event_id.easycache.group.ha_update|EasyCache|
+|Export data|event_id.easycache.group.export|EasyCache|
 |Create Database Instance|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
 |Delete Database Instance|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |Back Up Database Instance|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
@@ -507,6 +508,7 @@
 |Compare faces|event_id.face_recognition.face.compare|Face Recognition|
 |Register face|event_id.face_recognition.face.add|Face Recognition|
 |Delete face|event_id.face_recognition.face.delete|Face Recognition|
+|얼굴 검증|event_id.face_recognition.face.verify|Face Recognition|
 |Create facial recognition group|event_id.face_recognition.group.create|Face Recognition|
 |View facial recognition group list|event_id.face_recognition.group.list|Face Recognition|
 |View facial recognition group details|event_id.face_recognition.group.get_detail|Face Recognition|

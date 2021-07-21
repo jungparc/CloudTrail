@@ -268,7 +268,7 @@
 |복제 그룹 비밀번호 확인|event_id.easycache.group.password|EasyCache|
 |노드 추가|event_id.easycache.node.create|EasyCache|
 |노드 삭제|event_id.easycache.node.delete|EasyCache|
-|마스터 승격|event_id.easycache.node.promote|EasyCache|
+|마스터 변경|event_id.easycache.node.promote|EasyCache|
 |프로필 생성|event_id.easycache.profile.create|EasyCache|
 |프로필 수정|event_id.easycache.profile.update|EasyCache|
 |프로필 삭제|event_id.easycache.profile.delete|EasyCache|
@@ -286,6 +286,7 @@
 |읽기 전용 도메인 해제|event_id.easycache.readonly_domain.detach|EasyCache|
 |데이터 가져오기|event_id.easycache.group.import|EasyCache|
 |복제 그룹 HA 설정 갱신|event_id.easycache.group.ha_update|EasyCache|
+|데이터 내보내기|event_id.easycache.group.export|EasyCache|
 |DB 인스턴스 생성|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
 |DB 인스턴스 삭제|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |DB 인스턴스 백업|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
@@ -524,6 +525,7 @@
 |얼굴 비교|event_id.face_recognition.face.compare|Face Recognition|
 |얼굴 등록|event_id.face_recognition.face.add|Face Recognition|
 |얼굴 삭제|event_id.face_recognition.face.delete|Face Recognition|
+|얼굴 검증|event_id.face_recognition.face.verify|Face Recognition|
 |얼굴 인식 그룹 생성|event_id.face_recognition.group.create|Face Recognition|
 |얼굴 인식 그룹 목록 조회|event_id.face_recognition.group.list|Face Recognition|
 |얼굴 인식 그룹 세부 정보 조회|event_id.face_recognition.group.get_detail|Face Recognition|

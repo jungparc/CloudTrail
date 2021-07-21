@@ -229,7 +229,7 @@
 |プロジェクトサービスの有効化|event_id.project.product.enable|コンソール|
 |プロジェクトの修正|event_id.project.update|コンソール|
 |プロジェクト アクセス|event_id.project.selected|コンソール|
-|共通ロールグループ作成|event_id.org.role_group.create|コンソール|
+|共通ロールグループ作成|event_id.odeploy_history_downloadrg.role_group.create|コンソール|
 |共通ロールグループ修正|event_id.org.role_group.update|コンソール|
 |共通ロールグループ削除|event_id.org.role_group.delete|コンソール|
 |共通ロールグループ権限追加|event_id.org.role_group.assign.roles|コンソール|
@@ -268,7 +268,7 @@
 |レプリケーショングループパスワード確認|event_id.easycache.group.password|EasyCache|
 |ノード追加|event_id.easycache.node.create|EasyCache|
 |ノード削除|event_id.easycache.node.delete|EasyCache|
-|マスター昇格|event_id.easycache.node.promote|EasyCache|
+|マスター変更|event_id.easycache.node.promote|EasyCache|
 |プロフィル作成|event_id.easycache.profile.create|EasyCache|
 |プロファイル修正|event_id.easycache.profile.update|EasyCache|
 |プロフィル削除|event_id.easycache.profile.delete|EasyCache|
@@ -286,6 +286,7 @@
 |読み取り専用ドメイン解除|event_id.easycache.readonly_domain.detach|EasyCache|
 |データインポート|event_id.easycache.group.import|EasyCache|
 |レプリケーショングループHA設定更新|event_id.easycache.group.ha_update|EasyCache|
+|データエクスポート|event_id.easycache.group.export|EasyCache|
 |DBインスタンスの作成|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
 |DBインスタンスの削除|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |DBインスタンスのバックアップ|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
@@ -524,6 +525,7 @@
 |顔比較|event_id.face_recognition.face.compare|Face Recognition|
 |顔登録|event_id.face_recognition.face.add|Face Recognition|
 |顔削除|event_id.face_recognition.face.delete|Face Recognition|
+|顔検証|event_id.face_recognition.face.verify|Face Recognition|
 |顔認識グループを作成|event_id.face_recognition.group.create|Face Recognition|
 |顔認識グループのリスト照会|event_id.face_recognition.group.list|Face Recognition|
 |顔認識グループの詳細照会|event_id.face_recognition.group.get_detail|Face Recognition|
