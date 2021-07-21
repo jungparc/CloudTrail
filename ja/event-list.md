@@ -229,7 +229,7 @@
 |プロジェクトサービスの有効化|event_id.project.product.enable|コンソール|
 |プロジェクトの修正|event_id.project.update|コンソール|
 |プロジェクト アクセス|event_id.project.selected|コンソール|
-|共通ロールグループ作成|event_id.odeploy_history_downloadrg.role_group.create|コンソール|
+|共通ロールグループ作成|event_id.org.role_group.create|コンソール|
 |共通ロールグループ修正|event_id.org.role_group.update|コンソール|
 |共通ロールグループ削除|event_id.org.role_group.delete|コンソール|
 |共通ロールグループ権限追加|event_id.org.role_group.assign.roles|コンソール|
