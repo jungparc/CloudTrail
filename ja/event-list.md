@@ -199,6 +199,7 @@
 |シナリオ修正|event_id.deploy.scenario_update|Deploy|
 |シナリオ削除|event_id.deploy.scenario_delete|Deploy|
 |配布実行|event_id.deploy.deploy_execute|Deploy|
+|배포 이력 다운로드|event_id.deploy.deploy_history_download|Deploy|
 |IAM ログイン|event_id.iam.login|コンソール|
 |IAMメンバーの権限変更|event_id.iam.member.role.update|コンソール|
 |組織ドメインの追加|event_id.org.domain.add|コンソール|
@@ -267,7 +268,7 @@
 |レプリケーショングループパスワード確認|event_id.easycache.group.password|EasyCache|
 |ノード追加|event_id.easycache.node.create|EasyCache|
 |ノード削除|event_id.easycache.node.delete|EasyCache|
-|マスター昇格|event_id.easycache.node.promote|EasyCache|
+|マスター変更|event_id.easycache.node.promote|EasyCache|
 |プロフィル作成|event_id.easycache.profile.create|EasyCache|
 |プロファイル修正|event_id.easycache.profile.update|EasyCache|
 |プロフィル削除|event_id.easycache.profile.delete|EasyCache|
@@ -285,6 +286,7 @@
 |読み取り専用ドメイン解除|event_id.easycache.readonly_domain.detach|EasyCache|
 |データインポート|event_id.easycache.group.import|EasyCache|
 |レプリケーショングループHA設定更新|event_id.easycache.group.ha_update|EasyCache|
+|データエクスポート|event_id.easycache.group.export|EasyCache|
 |DBインスタンスの作成|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
 |DBインスタンスの削除|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |DBインスタンスのバックアップ|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
@@ -523,6 +525,7 @@
 |顔比較|event_id.face_recognition.face.compare|Face Recognition|
 |顔登録|event_id.face_recognition.face.add|Face Recognition|
 |顔削除|event_id.face_recognition.face.delete|Face Recognition|
+|顔検証|event_id.face_recognition.face.verify|Face Recognition|
 |顔認識グループを作成|event_id.face_recognition.group.create|Face Recognition|
 |顔認識グループのリスト照会|event_id.face_recognition.group.list|Face Recognition|
 |顔認識グループの詳細照会|event_id.face_recognition.group.get_detail|Face Recognition|
