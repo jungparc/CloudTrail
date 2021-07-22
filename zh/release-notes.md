@@ -5,6 +5,7 @@
 * Added events related to Deploy.
 * Added events related to Face Recognition.
 * Added events related to EasyCache.
+* Added events related to ShortURL.
 
 ### 2021. 06. 29.
 #### More Events

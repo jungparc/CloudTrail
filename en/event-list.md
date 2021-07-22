@@ -514,3 +514,19 @@
 |Blacklist addition|event_id.appguard.blacklist_add|AppGuard|
 |Blacklist unblock|event_id.appguard.blacklist_delete|AppGuard|
 |policy update|event_id.appguard.policy_update|AppGuard|
+|Create a URL|event_id.short_url.url_create|ShortURL|
+|Update a URL|event_id.short_url.url_update|ShortURL|
+|Enable a URL|event_id.short_url.url_enable|ShortURL|
+|Disable a URL|evnet_id.short_url.url_disable|ShortURL|
+|Delete a URL|event_id.short_url.url_delete|ShortURL|
+|Create a campaign|event_id.short_url.campaign_create|ShortURL|
+|Update a campaign|event_id.short_url.campaign_update|ShortURL|
+|Delete a campaign|event_id.short_url.campaign_delete|ShortURL|
+|Register a domain|event_id.short_url.domain_register|ShortURL|
+|Update a domain|event_id.short_url.domain_renew|ShortURL|
+|Update a domain permission|event_id.short_url.domain_update_role|ShortURL|
+|Delete a domain|event_id.short_url.domain_delete|ShortURL|
+|Register a certificate|event_id.short_url.certificate_register|ShortURL|
+|Update a certificate|event_id.short_url.certificate_renew|ShortURL|
+|Update a certificate permission|event_id.short_url.certificate_update_role|ShortURL|
+|Delete a certificate|event_id.short_url.certificate_delete|ShortURL|
