@@ -561,3 +561,19 @@
 |블랙리스트 추가|event_id.appguard.blacklist_add|AppGuard|
 |블랙리스트 차단 해제|event_id.appguard.blacklist_delete|AppGuard|
 |정책 수정|event_id.appguard.policy_update|AppGuard|
+|URL 생성|event_id.short_url.url_create|ShortURL|
+|URL 수정|event_id.short_url.url_update|ShortURL|
+|URL 활성화|event_id.short_url.url_enable|ShortURL|
+|URL 비활성화|evnet_id.short_url.url_disable|ShortURL|
+|URL 삭제|event_id.short_url.url_delete|ShortURL|
+|캠페인 생성|event_id.short_url.campaign_create|ShortURL|
+|캠페인 수정|event_id.short_url.campaign_update|ShortURL|
+|캠페인 삭제|event_id.short_url.campaign_delete|ShortURL|
+|도메인 등록|event_id.short_url.domain_register|ShortURL|
+|도메인 갱신|event_id.short_url.domain_renew|ShortURL|
+|도메인 권한 수정|event_id.short_url.domain_update_role|ShortURL|
+|도메인 삭제|event_id.short_url.domain_delete|ShortURL|
+|인증서 등록|event_id.short_url.certificate_register|ShortURL|
+|인증서 갱신|event_id.short_url.certificate_renew|ShortURL|
+|인증서 권한 수정|event_id.short_url.certificate_update_role|ShortURL|
+|인증서 삭제|event_id.short_url.certificate_delete|ShortURL|
