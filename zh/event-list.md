@@ -193,7 +193,7 @@
 |Confirm Password for Replication Group|event_id.easycache.group.password|EasyCache|
 |Add Node|event_id.easycache.node.create|EasyCache|
 |Delete Node|event_id.easycache.node.delete|EasyCache|
-|Promote to Master|event_id.easycache.node.promote|EasyCache|
+|Change Master|event_id.easycache.node.promote|EasyCache|
 |Create Profile|event_id.easycache.profile.create|EasyCache|
 |Update Profile|event_id.easycache.profile.update|EasyCache|
 |Delete Profile|event_id.easycache.profile.delete|EasyCache|
@@ -211,6 +211,7 @@
 |Disable Read-only Domain|event_id.easycache.readonly_domain.detach|EasyCache|
 |Import data|event_id.easycache.group.import|EasyCache|
 |Update HA for Replication Group|event_id.easycache.group.ha_update|EasyCache|
+|Export data|event_id.easycache.group.export|EasyCache|
 |Create Database Instance|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
 |Delete Database Instance|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |Back Up Database Instance|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
@@ -300,6 +301,34 @@
 |Change Backup Path|event_id.backup.target.update|Backup|
 |Delete Backup Path|event_id.backup.target.delete|Backup|
 |Apply for Restoration|event_id.backup.restoration.apply|Backup|
+|Create Artifact|event_id.deploy.artifact_create|Deploy|
+|Modify Artifact|event_id.deploy.artifact_update|Deploy|
+|Delete Artifact|event_id.deploy.artifact_delete|Deploy|
+|Create Binary Group|event_id.deploy.binary_group_create|Deploy|
+|Delete Binary Group|event_id.deploy.binary_group_delete|Deploy|
+|Modify Binary Group|event_id.deploy.binary_group_update|Deploy|
+|Upload Binary|event_id.deploy.binary_upload|Deploy|
+|Download Binary|event_id.deploy.binary_download|Deploy|
+|Delete Binary|event_id.deploy.binary_delete|Deploy|
+|Modify Binary|event_id.deploy.binary_update|Deploy|
+|Create Server Group|event_id.deploy.server_group_create|Deploy|
+|Delete Server Group|event_id.deploy.server_group_delete|Deploy|
+|Modify Server Group|event_id.deploy.server_group_update|Deploy|
+|Create Resource Group|event_id.deploy.resource_group_create|Deploy|
+|Delete Resource Group|event_id.deploy.resource_group_delete|Deploy|
+|Create Resource|event_id.deploy.resource_create|Deploy|
+|Modify Resource|event_id.deploy.resource_update|Deploy|
+|Save Resource|event_id.deploy.resource_save|Deploy|
+|Download Resource|event_id.deploy.resource_download|Deploy|
+|Delete Resource|event_id.deploy.resource_delete|Deploy|
+|Create Scenario|event_id.deploy.scenario_create|Deploy|
+|Copy Scenario|event_id.deploy.scenario_copy|Deploy|
+|Download Scenario|event_id.deploy.scenario_download|Deploy|
+|Upload Scenario|event_id.deploy.scenario_upload|Deploy|
+|Modify Scenario|event_id.deploy.scenario_update|Deploy|
+|Delete Scenario|event_id.deploy.scenario_delete|Deploy|
+|Execute Deployment|event_id.deploy.deploy_execute|Deploy|
+|Download deployment history|event_id.deploy.deploy_history_download|Deploy|
 |创建DNS Zone|event_id.dnsplus.zone.create|DNS Plus|
 |修改DNS Zone|event_id.dnsplus.zone.update|DNS Plus|
 |删除DNS Zone|event_id.dnsplus.zone.delete|DNS Plus|
@@ -479,6 +508,7 @@
 |Compare faces|event_id.face_recognition.face.compare|Face Recognition|
 |Register face|event_id.face_recognition.face.add|Face Recognition|
 |Delete face|event_id.face_recognition.face.delete|Face Recognition|
+|Face verification|event_id.face_recognition.face.verify|Face Recognition|
 |Create facial recognition group|event_id.face_recognition.group.create|Face Recognition|
 |View facial recognition group list|event_id.face_recognition.group.list|Face Recognition|
 |View facial recognition group details|event_id.face_recognition.group.get_detail|Face Recognition|
@@ -514,3 +544,19 @@
 |Blacklist addition|event_id.appguard.blacklist_add|AppGuard|
 |Blacklist unblock|event_id.appguard.blacklist_delete|AppGuard|
 |policy update|event_id.appguard.policy_update|AppGuard|
+|Create a URL|event_id.short_url.url_create|ShortURL|
+|Update a URL|event_id.short_url.url_update|ShortURL|
+|Enable a URL|event_id.short_url.url_enable|ShortURL|
+|Disable a URL|evnet_id.short_url.url_disable|ShortURL|
+|Delete a URL|event_id.short_url.url_delete|ShortURL|
+|Create a campaign|event_id.short_url.campaign_create|ShortURL|
+|Update a campaign|event_id.short_url.campaign_update|ShortURL|
+|Delete a campaign|event_id.short_url.campaign_delete|ShortURL|
+|Register a domain|event_id.short_url.domain_register|ShortURL|
+|Update a domain|event_id.short_url.domain_renew|ShortURL|
+|Update a domain permission|event_id.short_url.domain_update_role|ShortURL|
+|Delete a domain|event_id.short_url.domain_delete|ShortURL|
+|Register a certificate|event_id.short_url.certificate_register|ShortURL|
+|Update a certificate|event_id.short_url.certificate_renew|ShortURL|
+|Update a certificate permission|event_id.short_url.certificate_update_role|ShortURL|
+|Delete a certificate|event_id.short_url.certificate_delete|ShortURL|

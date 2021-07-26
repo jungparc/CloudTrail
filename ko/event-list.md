@@ -189,7 +189,7 @@
 |리소스 그룹 삭제|event_id.deploy.resource_group_delete|Deploy|
 |리소스 생성|event_id.deploy.resource_create|Deploy|
 |리소스 수정|event_id.deploy.resource_update|Deploy|
-|리소스 최신번전으로 저장|event_id.deploy.resource_save|Deploy|
+|리소스 최신버전으로 저장|event_id.deploy.resource_save|Deploy|
 |리소스 다운로드|event_id.deploy.resource_download|Deploy|
 |리소스 삭제|event_id.deploy.resource_delete|Deploy|
 |시나리오 생성|event_id.deploy.scenario_create|Deploy|
@@ -199,6 +199,7 @@
 |시나리오 수정|event_id.deploy.scenario_update|Deploy|
 |시나리오 삭제|event_id.deploy.scenario_delete|Deploy|
 |배포 실행|event_id.deploy.deploy_execute|Deploy|
+|배포 이력 다운로드|event_id.deploy.deploy_history_download|Deploy|
 |IAM 로그인|event_id.iam.login|콘솔|
 |IAM 멤버 권한 변경|event_id.iam.member.role.update|콘솔|
 |조직 도메인 추가|event_id.org.domain.add|콘솔|
@@ -267,7 +268,7 @@
 |복제 그룹 비밀번호 확인|event_id.easycache.group.password|EasyCache|
 |노드 추가|event_id.easycache.node.create|EasyCache|
 |노드 삭제|event_id.easycache.node.delete|EasyCache|
-|마스터 승격|event_id.easycache.node.promote|EasyCache|
+|마스터 변경|event_id.easycache.node.promote|EasyCache|
 |프로필 생성|event_id.easycache.profile.create|EasyCache|
 |프로필 수정|event_id.easycache.profile.update|EasyCache|
 |프로필 삭제|event_id.easycache.profile.delete|EasyCache|
@@ -285,6 +286,7 @@
 |읽기 전용 도메인 해제|event_id.easycache.readonly_domain.detach|EasyCache|
 |데이터 가져오기|event_id.easycache.group.import|EasyCache|
 |복제 그룹 HA 설정 갱신|event_id.easycache.group.ha_update|EasyCache|
+|데이터 내보내기|event_id.easycache.group.export|EasyCache|
 |DB 인스턴스 생성|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
 |DB 인스턴스 삭제|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |DB 인스턴스 백업|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
@@ -523,6 +525,7 @@
 |얼굴 비교|event_id.face_recognition.face.compare|Face Recognition|
 |얼굴 등록|event_id.face_recognition.face.add|Face Recognition|
 |얼굴 삭제|event_id.face_recognition.face.delete|Face Recognition|
+|얼굴 검증|event_id.face_recognition.face.verify|Face Recognition|
 |얼굴 인식 그룹 생성|event_id.face_recognition.group.create|Face Recognition|
 |얼굴 인식 그룹 목록 조회|event_id.face_recognition.group.list|Face Recognition|
 |얼굴 인식 그룹 세부 정보 조회|event_id.face_recognition.group.get_detail|Face Recognition|
@@ -558,3 +561,19 @@
 |블랙리스트 추가|event_id.appguard.blacklist_add|AppGuard|
 |블랙리스트 차단 해제|event_id.appguard.blacklist_delete|AppGuard|
 |정책 수정|event_id.appguard.policy_update|AppGuard|
+|URL 생성|event_id.short_url.url_create|ShortURL|
+|URL 수정|event_id.short_url.url_update|ShortURL|
+|URL 활성화|event_id.short_url.url_enable|ShortURL|
+|URL 비활성화|evnet_id.short_url.url_disable|ShortURL|
+|URL 삭제|event_id.short_url.url_delete|ShortURL|
+|캠페인 생성|event_id.short_url.campaign_create|ShortURL|
+|캠페인 수정|event_id.short_url.campaign_update|ShortURL|
+|캠페인 삭제|event_id.short_url.campaign_delete|ShortURL|
+|도메인 등록|event_id.short_url.domain_register|ShortURL|
+|도메인 갱신|event_id.short_url.domain_renew|ShortURL|
+|도메인 권한 수정|event_id.short_url.domain_update_role|ShortURL|
+|도메인 삭제|event_id.short_url.domain_delete|ShortURL|
+|인증서 등록|event_id.short_url.certificate_register|ShortURL|
+|인증서 갱신|event_id.short_url.certificate_renew|ShortURL|
+|인증서 권한 수정|event_id.short_url.certificate_update_role|ShortURL|
+|인증서 삭제|event_id.short_url.certificate_delete|ShortURL|
