@@ -79,8 +79,10 @@
 |Change VPC Subnet|event_id.iaas.vpc_subnet.update|Default Infrastructure Service|
 |Create Cluster|event_id.iaas.cluster.create|Default Infrastructure Service|
 |Delete Cluster|event_id.iaas.cluster.delete|Default Infrastructure Service|
+|Change Autoscaler Settings|event_id.iaas.cluster.update_autoscale|Default Infrastructure Service|
 |Create Node Group|event_id.iaas.nodegroup.create|Default Infrastructure Service|
-|Delete Node Group	|event_id.iaas.nodegroup.delete|Default Infrastructure Service|
+|Delete Node Group|event_id.iaas.nodegroup.delete|Default Infrastructure Service|
+|Upgrade node group|event_id.iaas.nodegroup.upgrade|Default Infrastructure Service|
 |Register/Modify Account Metadata|event_id.object_storage.account.metadata.update|Object Storage|
 |Create Containers|event_id.object_storage.container.create|Object Storage|
 |Delete Containers|event_id.object_storage.container.delete|Object Storage|
@@ -517,7 +519,7 @@
 |Create a URL|event_id.short_url.url_create|ShortURL|
 |Update a URL|event_id.short_url.url_update|ShortURL|
 |Enable a URL|event_id.short_url.url_enable|ShortURL|
-|Disable a URL|evnet_id.short_url.url_disable|ShortURL|
+|Disable a URL|event_id.short_url.url_disable|ShortURL|
 |Delete a URL|event_id.short_url.url_delete|ShortURL|
 |Create a campaign|event_id.short_url.campaign_create|ShortURL|
 |Update a campaign|event_id.short_url.campaign_update|ShortURL|

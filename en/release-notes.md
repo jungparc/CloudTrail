@@ -1,12 +1,15 @@
 
 ## CloudTrail > Release Notes
+### 2021. 08. 19.
+#### More Events
+* Added events related to Default Infrastructure Service.
+
 ### 2021. 07. 27.
 #### More Events
 * Added events related to Deploy.
 * Added events related to Face Recognition.
 * Added events related to EasyCache.
 * Added events related to ShortURL.
-
 
 ### 2021. 06. 29.
 #### More Events
