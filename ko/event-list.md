@@ -60,8 +60,8 @@
 |보안 그룹 생성|event_id.iaas.security_group.create|기본 인프라 서비스|
 |보안 그룹 삭제|event_id.iaas.security_group.delete|기본 인프라 서비스|
 |보안 그룹 변경|event_id.iaas.security_group.update|기본 인프라 서비스|
-|보안 정책 생성|event_id.iaas.security_group_rule.create|기본 인프라 서비스|
-|보안 정책 삭제|event_id.iaas.security_group_rule.delete|기본 인프라 서비스|
+|보안 규칙 생성|event_id.iaas.security_group_rule.create|기본 인프라 서비스|
+|보안 규칙 삭제|event_id.iaas.security_group_rule.delete|기본 인프라 서비스|
 |블록 스토리지 스냅숏 생성|event_id.iaas.snapshot.create|기본 인프라 서비스|
 |블록 스토리지 스냅숏 삭제|event_id.iaas.snapshot.delete|기본 인프라 서비스|
 |인스턴스 볼륨 연결|event_id.iaas.volume.attach|기본 인프라 서비스|
