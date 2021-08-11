@@ -79,8 +79,10 @@
 |VPCサブネットの変更|event_id.iaas.vpc_subnet.update|基本インフラサービス|
 |クラスター作成|event_id.iaas.cluster.create|基本インフラサービス|
 |クラスター削除|event_id.iaas.cluster.delete|基本インフラサービス|
+|オートスケーラーの設定を変更|event_id.iaas.cluster.update_autoscale|基本インフラサービス|
 |ノードグループ作成|event_id.iaas.nodegroup.create|基本インフラサービス|
 |ノードグループ削除|event_id.iaas.nodegroup.delete|基本インフラサービス|
+|ノードグループのアップグレード|event_id.iaas.nodegroup.upgrade|基本インフラサービス|
 |アカウントメタデータの登録/修正|event_id.object_storage.account.metadata.update|Object Storage|
 |コンテナの作成|event_id.object_storage.container.create|Object Storage|
 |コンテナの削除|event_id.object_storage.container.delete|Object Storage|
@@ -564,7 +566,7 @@
 |URLの作成|event_id.short_url.url_create|ShortURL|
 |URLの修正|event_id.short_url.url_update|ShortURL|
 |URLの有効化|event_id.short_url.url_enable|ShortURL|
-|URLの無効化|evnet_id.short_url.url_disable|ShortURL|
+|URLの無効化|event_id.short_url.url_disable|ShortURL|
 |URLの削除|event_id.short_url.url_delete|ShortURL|
 |キャンペーンの作成|event_id.short_url.campaign_create|ShortURL|
 |キャンペーンの修正|event_id.short_url.campaign_update|ShortURL|

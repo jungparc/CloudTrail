@@ -60,8 +60,8 @@
 |보안 그룹 생성|event_id.iaas.security_group.create|기본 인프라 서비스|
 |보안 그룹 삭제|event_id.iaas.security_group.delete|기본 인프라 서비스|
 |보안 그룹 변경|event_id.iaas.security_group.update|기본 인프라 서비스|
-|보안 정책 생성|event_id.iaas.security_group_rule.create|기본 인프라 서비스|
-|보안 정책 삭제|event_id.iaas.security_group_rule.delete|기본 인프라 서비스|
+|보안 규칙 생성|event_id.iaas.security_group_rule.create|기본 인프라 서비스|
+|보안 규칙 삭제|event_id.iaas.security_group_rule.delete|기본 인프라 서비스|
 |블록 스토리지 스냅숏 생성|event_id.iaas.snapshot.create|기본 인프라 서비스|
 |블록 스토리지 스냅숏 삭제|event_id.iaas.snapshot.delete|기본 인프라 서비스|
 |인스턴스 볼륨 연결|event_id.iaas.volume.attach|기본 인프라 서비스|
@@ -79,8 +79,10 @@
 |VPC 서브넷 변경|event_id.iaas.vpc_subnet.update|기본 인프라 서비스|
 |클러스터 생성|event_id.iaas.cluster.create|기본 인프라 서비스|
 |클러스터 삭제|event_id.iaas.cluster.delete|기본 인프라 서비스|
+|오토 스케일러 설정 변경|event_id.iaas.cluster.update_autoscale|기본 인프라 서비스|
 |노드 그룹 생성|event_id.iaas.nodegroup.create|기본 인프라 서비스|
 |노드 그룹 삭제|event_id.iaas.nodegroup.delete|기본 인프라 서비스|
+|노드 그룹 업그레이드|event_id.iaas.nodegroup.upgrade|기본 인프라 서비스|
 |어카운트 메타데이터 등록/수정|event_id.object_storage.account.metadata.update|Object Storage|
 |컨테이너 생성|event_id.object_storage.container.create|Object Storage|
 |컨테이너 삭제|event_id.object_storage.container.delete|Object Storage|
@@ -564,7 +566,7 @@
 |URL 생성|event_id.short_url.url_create|ShortURL|
 |URL 수정|event_id.short_url.url_update|ShortURL|
 |URL 활성화|event_id.short_url.url_enable|ShortURL|
-|URL 비활성화|evnet_id.short_url.url_disable|ShortURL|
+|URL 비활성화|event_id.short_url.url_disable|ShortURL|
 |URL 삭제|event_id.short_url.url_delete|ShortURL|
 |캠페인 생성|event_id.short_url.campaign_create|ShortURL|
 |캠페인 수정|event_id.short_url.campaign_update|ShortURL|
