@@ -242,6 +242,9 @@
 |프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|콘솔|
 |프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|콘솔|
 |IAM 프로젝트 접속|event_id.iam.project.selected|콘솔|
+|예산 추가|event_id.budget.create|콘솔|
+|예산 수정|event_id.budget.modify|콘솔|
+|예산 삭제|event_id.budget.delete|콘솔|
 |서비스 생성|event_id.service_monitoring.creation_service|Service Monitoring|
 |서비스 변경|event_id.service_monitoring.modification_service|Service Monitoring|
 |서비스 삭제|event_id.service_monitoring.delete_service|Service Monitoring|
@@ -289,6 +292,7 @@
 |데이터 가져오기|event_id.easycache.group.import|EasyCache|
 |복제 그룹 HA 설정 갱신|event_id.easycache.group.ha_update|EasyCache|
 |데이터 내보내기|event_id.easycache.group.export|EasyCache|
+|기존 복제 그룹 복원|event_id.easycache.backup.migrate|EasyCache|
 |DB 인스턴스 생성|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
 |DB 인스턴스 삭제|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |DB 인스턴스 백업|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|

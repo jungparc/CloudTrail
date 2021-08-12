@@ -167,6 +167,9 @@
 |Add Project Role Group Role|event_id.project.role_group.assign.roles|Console|
 |Delete Project Role Group Role|event_id.project.role_group.remove.roles|Console|
 |Access IAM Project|event_id.iam.project.selected|Console|
+|Add Budget|event_id.budget.create|Console|
+|Modify Budget|event_id.budget.modify|Console|
+|Delete Budget|event_id.budget.delete|Console|
 |Create Service|event_id.service_monitoring.creation_service|Service Monitoring|
 |Change Service|event_id.service_monitoring.modification_service|Service Monitoring|
 |Delete Service|event_id.service_monitoring.delete_service|Service Monitoring|
@@ -214,6 +217,7 @@
 |Import data|event_id.easycache.group.import|EasyCache|
 |Update HA for Replication Group|event_id.easycache.group.ha_update|EasyCache|
 |Export data|event_id.easycache.group.export|EasyCache|
+|Restore existing replication group|event_id.easycache.backup.migrate|EasyCache|
 |Create Database Instance|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
 |Delete Database Instance|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |Back Up Database Instance|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|

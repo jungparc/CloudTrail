@@ -242,6 +242,9 @@
 |プロジェクトロールグループ権限追加|event_id.project.role_group.assign.roles|コンソール|
 |プロジェクトロールグループ権限削除|event_id.project.role_group.remove.roles|コンソール|
 |IAMプロジェクト アクセス|event_id.iam.project.selected|コンソール|
+|予算追加|event_id.budget.create|コンソール|
+|予算修正|event_id.budget.modify|コンソール|
+|予算削除|event_id.budget.delete|コンソール|
 |サービス作成|event_id.service_monitoring.creation_service|Service Monitoring|
 |サービス変更|event_id.service_monitoring.modification_service|Service Monitoring|
 |サービス削除|event_id.service_monitoring.delete_service|Service Monitoring|
@@ -289,6 +292,7 @@
 |データインポート|event_id.easycache.group.import|EasyCache|
 |レプリケーショングループHA設定更新|event_id.easycache.group.ha_update|EasyCache|
 |データエクスポート|event_id.easycache.group.export|EasyCache|
+|既存レプリケーショングループ復元|event_id.easycache.backup.migrate|EasyCache|
 |DBインスタンスの作成|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
 |DBインスタンスの削除|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |DBインスタンスのバックアップ|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
