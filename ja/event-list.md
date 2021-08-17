@@ -82,7 +82,7 @@
 |オートスケーラーの設定を変更|event_id.iaas.cluster.update_autoscale|基本インフラサービス|
 |ノードグループ作成|event_id.iaas.nodegroup.create|基本インフラサービス|
 |ノードグループ削除|event_id.iaas.nodegroup.delete|基本インフラサービス|
-|ノードグループのアップグレード|event_id.iaas.nodegroup.upgrade|基本インフラサービス|
+|クラスターのアップグレード|event_id.iaas.nodegroup.upgrade|基本インフラサービス|
 |アカウントメタデータの登録/修正|event_id.object_storage.account.metadata.update|Object Storage|
 |コンテナの作成|event_id.object_storage.container.create|Object Storage|
 |コンテナの削除|event_id.object_storage.container.delete|Object Storage|
