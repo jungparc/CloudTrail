@@ -60,8 +60,8 @@
 |Create Security Group|event_id.iaas.security_group.create|Default Infrastructure Service|
 |Delete Security Group|event_id.iaas.security_group.delete|Default Infrastructure Service|
 |Change Security Group|event_id.iaas.security_group.update|Default Infrastructure Service|
-|Create Security Policy|event_id.iaas.security_group_rule.create|Default Infrastructure Service|
-|Delete Security Policy|event_id.iaas.security_group_rule.delete|Default Infrastructure Service|
+|Create Security Rule|event_id.iaas.security_group_rule.create|Default Infrastructure Service|
+|Delete Security Rule|event_id.iaas.security_group_rule.delete|Default Infrastructure Service|
 |Create Block Storage Snapshot|event_id.iaas.snapshot.create|Default Infrastructure Service|
 |Delete Block Storage Snapshot|event_id.iaas.snapshot.delete|Default Infrastructure Service|
 |Connect Instance Volume|event_id.iaas.volume.attach|Default Infrastructure Service|

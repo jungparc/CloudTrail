@@ -60,8 +60,8 @@
 |セキュリティグループの作成|event_id.iaas.security_group.create|基本インフラサービス|
 |セキュリティグループの削除|event_id.iaas.security_group.delete|基本インフラサービス|
 |セキュリティグループの変更|event_id.iaas.security_group.update|基本インフラサービス|
-|セキュリティポリシーの作成|event_id.iaas.security_group_rule.create|基本インフラサービス|
-|セキュリティポリシーの削除|event_id.iaas.security_group_rule.delete|基本インフラサービス|
+|セキュリティルールの作成|event_id.iaas.security_group_rule.create|基本インフラサービス|
+|セキュリティルールの削除|event_id.iaas.security_group_rule.delete|基本インフラサービス|
 |ブロックストレージスナップショットの作成|event_id.iaas.snapshot.create|基本インフラサービス|
 |ブロックストレージスナップショットの削除|event_id.iaas.snapshot.delete|基本インフラサービス|
 |インスタンスボリュームの接続|event_id.iaas.volume.attach|基本インフラサービス|
