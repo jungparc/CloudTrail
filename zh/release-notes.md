@@ -1,5 +1,16 @@
 
 ## CloudTrail > Release Notes
+
+### 2021. 08. 24.
+#### More Events
+* Added events related to EasyCache.
+* Added events related to Console.
+  * Refer to the manual for more details : [Link](/CloudTrail/en/event-list/)
+
+### 2021. 08. 19.
+#### More Events
+* Added events related to Default Infrastructure Service.
+
 ### 2021. 07. 27.
 #### More Events
 * Added events related to Deploy.

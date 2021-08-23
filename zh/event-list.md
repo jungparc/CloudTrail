@@ -60,8 +60,8 @@
 |Create Security Group|event_id.iaas.security_group.create|Default Infrastructure Service|
 |Delete Security Group|event_id.iaas.security_group.delete|Default Infrastructure Service|
 |Change Security Group|event_id.iaas.security_group.update|Default Infrastructure Service|
-|Create Security Policy|event_id.iaas.security_group_rule.create|Default Infrastructure Service|
-|Delete Security Policy|event_id.iaas.security_group_rule.delete|Default Infrastructure Service|
+|Create Security Rule|event_id.iaas.security_group_rule.create|Default Infrastructure Service|
+|Delete Security Rule|event_id.iaas.security_group_rule.delete|Default Infrastructure Service|
 |Create Block Storage Snapshot|event_id.iaas.snapshot.create|Default Infrastructure Service|
 |Delete Block Storage Snapshot|event_id.iaas.snapshot.delete|Default Infrastructure Service|
 |Connect Instance Volume|event_id.iaas.volume.attach|Default Infrastructure Service|
@@ -79,8 +79,10 @@
 |Change VPC Subnet|event_id.iaas.vpc_subnet.update|Default Infrastructure Service|
 |Create Cluster|event_id.iaas.cluster.create|Default Infrastructure Service|
 |Delete Cluster|event_id.iaas.cluster.delete|Default Infrastructure Service|
+|Change Autoscaler Settings|event_id.iaas.cluster.update_autoscale|Default Infrastructure Service|
 |Create Node Group|event_id.iaas.nodegroup.create|Default Infrastructure Service|
-|Delete Node Group	|event_id.iaas.nodegroup.delete|Default Infrastructure Service|
+|Delete Node Group|event_id.iaas.nodegroup.delete|Default Infrastructure Service|
+|Upgrade Cluster|event_id.iaas.nodegroup.upgrade|Default Infrastructure Service|
 |Register/Modify Account Metadata|event_id.object_storage.account.metadata.update|Object Storage|
 |Create Containers|event_id.object_storage.container.create|Object Storage|
 |Delete Containers|event_id.object_storage.container.delete|Object Storage|
@@ -165,6 +167,9 @@
 |Add Project Role Group Role|event_id.project.role_group.assign.roles|Console|
 |Delete Project Role Group Role|event_id.project.role_group.remove.roles|Console|
 |Access IAM Project|event_id.iam.project.selected|Console|
+|Add Budget|event_id.budget.create|Console|
+|Modify Budget|event_id.budget.modify|Console|
+|Delete Budget|event_id.budget.delete|Console|
 |Create Service|event_id.service_monitoring.creation_service|Service Monitoring|
 |Change Service|event_id.service_monitoring.modification_service|Service Monitoring|
 |Delete Service|event_id.service_monitoring.delete_service|Service Monitoring|
@@ -212,6 +217,7 @@
 |Import data|event_id.easycache.group.import|EasyCache|
 |Update HA for Replication Group|event_id.easycache.group.ha_update|EasyCache|
 |Export data|event_id.easycache.group.export|EasyCache|
+|Restore existing replication group|event_id.easycache.backup.migrate|EasyCache|
 |Create Database Instance|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
 |Delete Database Instance|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |Back Up Database Instance|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
@@ -547,7 +553,7 @@
 |Create a URL|event_id.short_url.url_create|ShortURL|
 |Update a URL|event_id.short_url.url_update|ShortURL|
 |Enable a URL|event_id.short_url.url_enable|ShortURL|
-|Disable a URL|evnet_id.short_url.url_disable|ShortURL|
+|Disable a URL|event_id.short_url.url_disable|ShortURL|
 |Delete a URL|event_id.short_url.url_delete|ShortURL|
 |Create a campaign|event_id.short_url.campaign_create|ShortURL|
 |Update a campaign|event_id.short_url.campaign_update|ShortURL|
