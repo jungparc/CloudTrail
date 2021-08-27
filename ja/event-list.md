@@ -127,6 +127,8 @@
 |DB 정의 정보 변경|event_id.rds_for_mysql.instance.db_definition.update|RDS for MySQL|
 |DB 스키마 동기화|event_id.rds_for_mysql.instance.db_definition.schema.sync|RDS for MySQL|
 |DB User 동기화|event_id.rds_for_mysql.instance.db_definition.user.sync|RDS for MySQL|
+|DBインスタンスのバックアップおよびエクスポート|event_id.rds_for_mysql.instance.backup.export|RDS for MySQL|
+|オブジェクトストレージでバックアップをエクスポート|event_id.rds_for_mysql.backup.export|RDS for MySQL|
 |キー保存場所 作成|event_id.skm.keystore.create|Secure Key Manger|
 |キー保存場所 削除|event_id.skm.keystore.delete|Secure Key Manger|
 |キー保存場所 変更|event_id.skm.keystore.update|Secure Key Manger|

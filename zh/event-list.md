@@ -127,6 +127,8 @@
 |DB 정의 정보 변경|event_id.rds_for_mysql.instance.db_definition.update|RDS for MySQL|
 |DB 스키마 동기화|event_id.rds_for_mysql.instance.db_definition.schema.sync|RDS for MySQL|
 |DB User 동기화|event_id.rds_for_mysql.instance.db_definition.user.sync|RDS for MySQL|
+|Make and export a DB instance backup|event_id.rds_for_mysql.instance.backup.export|RDS for MySQL|
+|Export backup to the object storage|event_id.rds_for_mysql.backup.export|RDS for MySQL|
 |IAM Login|event_id.iam.login|Console|
 |Change Authority for IAM Members|event_id.iam.member.role.update|Console|
 |Add Organization Domain|event_id.org.domain.add|Console|
