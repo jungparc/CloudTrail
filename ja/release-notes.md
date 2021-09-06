@@ -3,6 +3,11 @@
 
 ### 2021. 08. 24.
 #### イベント追加
+* Consoleサービス関連イベントを追加しました。
+  * 詳細はマニュアルを参照: [リンク](/CloudTrail/ja/event-list/)
+
+### 2021. 08. 24.
+#### イベント追加
 * EasyCacheサービス関連イベントを追加しました。
 * Consoleサービス関連イベントを追加しました。
   * 詳細はマニュアルを参照: [リンク](/CloudTrail/ja/event-list/)
@@ -28,7 +33,7 @@
 * Pipelineサービス関連イベントを追加しました。
 * NHN AppGuardサービス関連イベントを追加しました。
 * ログ保存/ダウンロード設定で3回以上アップロードに失敗した時、内容を受信できるようにメール項目を追加しました。
-    * 詳細内容参考: [リンク](/CloudTrail/ko/console-guide/)
+    * 詳細内容参考: [リンク](/CloudTrail/ja/console-guide/)
 
 ### 2021. 04. 27.
 #### イベント追加
@@ -54,10 +59,10 @@
 * 名前(ID)検索条件で **名前・IDで検索**が **名前検索**に変更されました。
 #### 機能追加
 * ログ保存/ダウンロード設定を提供します。
-    * 詳細はマニュアルを参照してください。：[リンク](/CloudTrail/ko/console-guide/)
+    * 詳細はマニュアルを参照してください。：[リンク](/CloudTrail/ja/console-guide/)
 #### イベント追加
 * System Monitoringサービス関連イベントが追加されました。
-    * 詳細はマニュアルを参照してください。：[リンク](/CloudTrail/ko/event-list/)
+    * 詳細はマニュアルを参照してください。：[リンク](/CloudTrail/ja/event-list/)
 * Certificate Managerサービス関連イベントを追加しました。
   * 詳細はマニュアルを参照: [リンク](/CloudTrail/ja/event-list/)
   

@@ -172,6 +172,7 @@
 |Add Budget|event_id.budget.create|Console|
 |Modify Budget|event_id.budget.modify|Console|
 |Delete Budget|event_id.budget.delete|Console|
+|거버넌스 설정 변경|event_id.governance.change|Console|
 |Create Service|event_id.service_monitoring.creation_service|Service Monitoring|
 |Change Service|event_id.service_monitoring.modification_service|Service Monitoring|
 |Delete Service|event_id.service_monitoring.delete_service|Service Monitoring|

@@ -1,6 +1,11 @@
 
 ## CloudTrail > Release Notes
 
+### 2021. 09. 28.
+#### More Events
+* Added events related to Console.
+  * Refer to the manual for more details : [Link](/CloudTrail/en/event-list/)
+
 ### 2021. 08. 24.
 #### More Events
 * Added events related to EasyCache.
@@ -28,7 +33,7 @@
 * Added events related to Pipeline.
 * Added events related to NHN AppGuard.
 * Added the email field to receive information after three or more failed upload attempts in Log Save/Download Settings.
-    * See details: [Link](/CloudTrail/ko/console-guide/)
+    * See details: [Link](/CloudTrail/en/console-guide/)
 
 ### 2021. 04. 27.
 #### More Events
@@ -55,11 +60,11 @@
 
 #### More Features
 * 로그 저장/다운로드 설정을 제공합니다.
-    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/CloudTrail/ko/console-guide/)
+    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/CloudTrail/en/console-guide/)
   
 #### More Events
 * System Monitoring 서비스 관련 이벤트가 추가되었습니다.
-    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/CloudTrail/ko/event-list/)
+    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/CloudTrail/en/event-list/)
 * Added events related to Certificate Manager Service.
     * Refer to the manual for more details : [Link](/CloudTrail/en/event-list/)
 
