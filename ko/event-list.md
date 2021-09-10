@@ -586,3 +586,12 @@
 |인증서 갱신|event_id.short_url.certificate_renew|ShortURL|
 |인증서 권한 수정|event_id.short_url.certificate_update_role|ShortURL|
 |인증서 삭제|event_id.short_url.certificate_delete|ShortURL|
+|상품 아이디로 유사 이미지 상품 검색|event_id.ai_fashion.service.searchbyproductid|AI Fashion|
+|패션 아이템 검출|event_id.ai_fashion.service.detect|AI Fashion|
+|이미지로 유사 이미지 상품 검색|event_id.ai_fashion.service.searchbyimage|AI Fashion|
+|서비스 추가|event_id.ai_fashion.service.addservice|AI Fashion|
+|서비스 목록|event_id.ai_fashion.service.listservice|AI Fashion|
+|서비스 삭제|event_id.ai_fashion.service.deleteservice|AI Fashion|
+|색인 요청|event_id.ai_fashion.maker.index|AI Fashion|
+|서비스 정보 확인|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
+|색인 요청 상태 확인|event_id.ai_fashion.maker.indexstatus|AI Fashion|

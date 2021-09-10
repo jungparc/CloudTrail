@@ -569,3 +569,12 @@
 |Update a certificate|event_id.short_url.certificate_renew|ShortURL|
 |Update a certificate permission|event_id.short_url.certificate_update_role|ShortURL|
 |Delete a certificate|event_id.short_url.certificate_delete|ShortURL|
+|Search for similar-image products by product ID|event_id.ai_fashion.service.searchbyproductid|AI Fashion|
+|Detect fashion items|event_id.ai_fashion.service.detect|AI Fashion|
+|Search for similar-image products by image|event_id.ai_fashion.service.searchbyimage|AI Fashion|
+|Add services|event_id.ai_fashion.service.addservice|AI Fashion|
+|List services|event_id.ai_fashion.service.listservice|AI Fashion|
+|Delete services|event_id.ai_fashion.service.deleteservice|AI Fashion|
+|Request indexing|event_id.ai_fashion.maker.index|AI Fashion|
+|Check service information|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
+|Check indexing request status|event_id.ai_fashion.maker.indexstatus|AI Fashion|

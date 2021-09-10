@@ -586,3 +586,12 @@
 |証明書の更新|event_id.short_url.certificate_renew|ShortURL|
 |証明書の権限を修正|event_id.short_url.certificate_update_role|ShortURL|
 |証明書の削除|event_id.short_url.certificate_delete|ShortURL|
+|商品IDで類似画像商品を検索|event_id.ai_fashion.service.searchbyproductid|AI Fashion|
+|ファッションアイテム検出|event_id.ai_fashion.service.detect|AI Fashion|
+|画像で類似画像商品を検索|event_id.ai_fashion.service.searchbyimage|AI Fashion|
+|サービス追加|event_id.ai_fashion.service.addservice|AI Fashion|
+|サービスリスト|event_id.ai_fashion.service.listservice|AI Fashion|
+|サービス削除|event_id.ai_fashion.service.deleteservice|AI Fashion|
+|インデックスリクエスト|event_id.ai_fashion.maker.index|AI Fashion|
+|サービス情報確認|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
+|インデックスリクエスト状態の確認|event_id.ai_fashion.maker.indexstatus|AI Fashion|

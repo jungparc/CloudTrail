@@ -4,6 +4,7 @@
 ### 2021. 09. 28.
 #### More Events
 * Added events related to RDS for MySQL.
+* Added events related to AI Fashion
 * Added events related to Console.
   * Refer to the manual for more details : [Link](/CloudTrail/en/event-list/)
 
