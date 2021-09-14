@@ -247,7 +247,7 @@
 |予算追加|event_id.budget.create|コンソール|
 |予算修正|event_id.budget.modify|コンソール|
 |予算削除|event_id.budget.delete|コンソール|
-|거버넌스 설정 변경|event_id.governance.change|コンソール|
+|ガバナンス設定変更|event_id.governance.change|コンソール|
 |サービス作成|event_id.service_monitoring.creation_service|Service Monitoring|
 |サービス変更|event_id.service_monitoring.modification_service|Service Monitoring|
 |サービス削除|event_id.service_monitoring.delete_service|Service Monitoring|
