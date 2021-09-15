@@ -170,6 +170,7 @@
 |Add Budget|event_id.budget.create|Console|
 |Modify Budget|event_id.budget.modify|Console|
 |Delete Budget|event_id.budget.delete|Console|
+|Change governance setting|event_id.governance.change|Console|
 |Create Service|event_id.service_monitoring.creation_service|Service Monitoring|
 |Change Service|event_id.service_monitoring.modification_service|Service Monitoring|
 |Delete Service|event_id.service_monitoring.delete_service|Service Monitoring|
@@ -239,6 +240,8 @@
 |Change Chart Layout Name|event_id.rds_for_sqlserver.chart_layout.modify_name|RDS for MS-SQL|
 |Modify Chart Layout|event_id.rds_for_sqlserver.chart_layout.modify|RDS for MS-SQL|
 |Delete Chart Layout|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
+|Make and export a DB instance backup|event_id.rds_for_mysql.instance.backup.export|RDS for MySQL|
+|Export backup to the object storage|event_id.rds_for_mysql.backup.export|RDS for MySQL|
 |Upload Symbol Files|event_id.logncrash.symbolfile.delete|Log & Crash Search|
 |Delete Symbol Files|event_id.logncrash.symbolfile.upload|Log & Crash Search|
 |Saved query registered|event_id.logncrash.stored_search.save|Log & Crash Search|
@@ -536,3 +539,12 @@
 |Update a certificate|event_id.short_url.certificate_renew|ShortURL|
 |Update a certificate permission|event_id.short_url.certificate_update_role|ShortURL|
 |Delete a certificate|event_id.short_url.certificate_delete|ShortURL|
+|Search for similar-image products by product ID|event_id.ai_fashion.service.searchbyproductid|AI Fashion|
+|Detect fashion items|event_id.ai_fashion.service.detect|AI Fashion|
+|Search for similar-image products by image|event_id.ai_fashion.service.searchbyimage|AI Fashion|
+|Add services|event_id.ai_fashion.service.addservice|AI Fashion|
+|List services|event_id.ai_fashion.service.listservice|AI Fashion|
+|Delete services|event_id.ai_fashion.service.deleteservice|AI Fashion|
+|Request indexing|event_id.ai_fashion.maker.index|AI Fashion|
+|Check service information|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
+|Check indexing request status|event_id.ai_fashion.maker.indexstatus|AI Fashion|
