@@ -127,6 +127,8 @@
 |DB 정의 정보 변경|event_id.rds_for_mysql.instance.db_definition.update|RDS for MySQL|
 |DB 스키마 동기화|event_id.rds_for_mysql.instance.db_definition.schema.sync|RDS for MySQL|
 |DB User 동기화|event_id.rds_for_mysql.instance.db_definition.user.sync|RDS for MySQL|
+|DBインスタンスのバックアップおよびエクスポート|event_id.rds_for_mysql.instance.backup.export|RDS for MySQL|
+|オブジェクトストレージでバックアップをエクスポート|event_id.rds_for_mysql.backup.export|RDS for MySQL|
 |キー保存場所 作成|event_id.skm.keystore.create|Secure Key Manger|
 |キー保存場所 削除|event_id.skm.keystore.delete|Secure Key Manger|
 |キー保存場所 変更|event_id.skm.keystore.update|Secure Key Manger|
@@ -245,6 +247,7 @@
 |予算追加|event_id.budget.create|コンソール|
 |予算修正|event_id.budget.modify|コンソール|
 |予算削除|event_id.budget.delete|コンソール|
+|ガバナンス設定変更|event_id.governance.change|コンソール|
 |サービス作成|event_id.service_monitoring.creation_service|Service Monitoring|
 |サービス変更|event_id.service_monitoring.modification_service|Service Monitoring|
 |サービス削除|event_id.service_monitoring.delete_service|Service Monitoring|
@@ -583,3 +586,12 @@
 |証明書の更新|event_id.short_url.certificate_renew|ShortURL|
 |証明書の権限を修正|event_id.short_url.certificate_update_role|ShortURL|
 |証明書の削除|event_id.short_url.certificate_delete|ShortURL|
+|商品IDで類似画像商品を検索|event_id.ai_fashion.service.searchbyproductid|AI Fashion|
+|ファッションアイテム検出|event_id.ai_fashion.service.detect|AI Fashion|
+|画像で類似画像商品を検索|event_id.ai_fashion.service.searchbyimage|AI Fashion|
+|サービス追加|event_id.ai_fashion.service.addservice|AI Fashion|
+|サービスリスト|event_id.ai_fashion.service.listservice|AI Fashion|
+|サービス削除|event_id.ai_fashion.service.deleteservice|AI Fashion|
+|インデックスリクエスト|event_id.ai_fashion.maker.index|AI Fashion|
+|サービス情報確認|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
+|インデックスリクエスト状態の確認|event_id.ai_fashion.maker.indexstatus|AI Fashion|

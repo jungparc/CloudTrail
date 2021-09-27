@@ -127,6 +127,8 @@
 |DB 정의 정보 변경|event_id.rds_for_mysql.instance.db_definition.update|RDS for MySQL|
 |DB 스키마 동기화|event_id.rds_for_mysql.instance.db_definition.schema.sync|RDS for MySQL|
 |DB User 동기화|event_id.rds_for_mysql.instance.db_definition.user.sync|RDS for MySQL|
+|Make and export a DB instance backup|event_id.rds_for_mysql.instance.backup.export|RDS for MySQL|
+|Export backup to the object storage|event_id.rds_for_mysql.backup.export|RDS for MySQL|
 |IAM Login|event_id.iam.login|Console|
 |Change Authority for IAM Members|event_id.iam.member.role.update|Console|
 |Add Organization Domain|event_id.org.domain.add|Console|
@@ -170,6 +172,7 @@
 |Add Budget|event_id.budget.create|Console|
 |Modify Budget|event_id.budget.modify|Console|
 |Delete Budget|event_id.budget.delete|Console|
+|Change governance setting|event_id.governance.change|Console|
 |Create Service|event_id.service_monitoring.creation_service|Service Monitoring|
 |Change Service|event_id.service_monitoring.modification_service|Service Monitoring|
 |Delete Service|event_id.service_monitoring.delete_service|Service Monitoring|
@@ -566,3 +569,12 @@
 |Update a certificate|event_id.short_url.certificate_renew|ShortURL|
 |Update a certificate permission|event_id.short_url.certificate_update_role|ShortURL|
 |Delete a certificate|event_id.short_url.certificate_delete|ShortURL|
+|Search for similar-image products by product ID|event_id.ai_fashion.service.searchbyproductid|AI Fashion|
+|Detect fashion items|event_id.ai_fashion.service.detect|AI Fashion|
+|Search for similar-image products by image|event_id.ai_fashion.service.searchbyimage|AI Fashion|
+|Add services|event_id.ai_fashion.service.addservice|AI Fashion|
+|List services|event_id.ai_fashion.service.listservice|AI Fashion|
+|Delete services|event_id.ai_fashion.service.deleteservice|AI Fashion|
+|Request indexing|event_id.ai_fashion.maker.index|AI Fashion|
+|Check service information|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
+|Check indexing request status|event_id.ai_fashion.maker.indexstatus|AI Fashion|
