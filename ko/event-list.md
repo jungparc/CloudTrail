@@ -595,3 +595,5 @@
 |색인 요청|event_id.ai_fashion.maker.index|AI Fashion|
 |서비스 정보 확인|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
 |색인 요청 상태 확인|event_id.ai_fashion.maker.indexstatus|AI Fashion|
+|사업자 등록증 분석 요청|event_id.ai_ocr_document.business.analysis|AI OCR|
+|차량 번호판 분석 요청|event_id.ai_ocr_carplate.analysis|AI OCR|

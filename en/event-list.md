@@ -548,3 +548,5 @@
 |Request indexing|event_id.ai_fashion.maker.index|AI Fashion|
 |Check service information|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
 |Check indexing request status|event_id.ai_fashion.maker.indexstatus|AI Fashion|
+|Request analysis of business registration certificate|event_id.ai_ocr_document.business.analysis|AI OCR|
+|Request analysis of car license plate|event_id.ai_ocr_carplate.analysis|AI OCR|
