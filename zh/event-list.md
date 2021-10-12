@@ -19,7 +19,7 @@
 |Reboot Instance|event_id.iaas.instance_action.reboot|Default Infrastructure Service|
 |Change Instance Type|event_id.iaas.instance_action.resize|Default Infrastructure Service|
 |Start Instance|event_id.iaas.instance_action.start|Default Infrastructure Service|
-|Close Instance|event_id.iaas.instance_action.stop|Default Infrastructure Service|
+|Stop Instance|event_id.iaas.instance_action.stop|Default Infrastructure Service|
 |Create Instance Template|event_id.iaas.instance_template.create|Default Infrastructure Service|
 |Delete Instance Template|event_id.iaas.instance_template.delete|Default Infrastructure Service|
 |Change Instance Template|event_id.iaas.instance_template.update|Default Infrastructure Service|

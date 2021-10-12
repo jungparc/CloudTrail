@@ -19,7 +19,7 @@
 |인스턴스 재부팅|event_id.iaas.instance_action.reboot|기본 인프라 서비스|
 |인스턴스 타입 변경|event_id.iaas.instance_action.resize|기본 인프라 서비스|
 |인스턴스 시작|event_id.iaas.instance_action.start|기본 인프라 서비스|
-|인스턴스 종료|event_id.iaas.instance_action.stop|기본 인프라 서비스|
+|인스턴스 중지|event_id.iaas.instance_action.stop|기본 인프라 서비스|
 |인스턴스 템플릿 생성|event_id.iaas.instance_template.create|기본 인프라 서비스|
 |인스턴스 템플릿 삭제|event_id.iaas.instance_template.delete|기본 인프라 서비스|
 |인스턴스 템플릿 변경|event_id.iaas.instance_template.update|기본 인프라 서비스|
