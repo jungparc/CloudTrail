@@ -592,6 +592,7 @@
 |サービス追加|event_id.ai_fashion.service.addservice|AI Fashion|
 |サービスリスト|event_id.ai_fashion.service.listservice|AI Fashion|
 |サービス削除|event_id.ai_fashion.service.deleteservice|AI Fashion|
+|ファッションアイテムディープタギング|event_id.ai_fashion.service.tag|AI Fashion|
 |インデックスリクエスト|event_id.ai_fashion.maker.index|AI Fashion|
 |サービス情報確認|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
 |インデックスリクエスト状態の確認|event_id.ai_fashion.maker.indexstatus|AI Fashion|

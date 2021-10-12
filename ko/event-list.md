@@ -592,6 +592,7 @@
 |서비스 추가|event_id.ai_fashion.service.addservice|AI Fashion|
 |서비스 목록|event_id.ai_fashion.service.listservice|AI Fashion|
 |서비스 삭제|event_id.ai_fashion.service.deleteservice|AI Fashion|
+|패션 아이템 딥 태깅|event_id.ai_fashion.service.tag|AI Fashion|
 |색인 요청|event_id.ai_fashion.maker.index|AI Fashion|
 |서비스 정보 확인|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
 |색인 요청 상태 확인|event_id.ai_fashion.maker.indexstatus|AI Fashion|

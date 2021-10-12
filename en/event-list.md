@@ -545,6 +545,7 @@
 |Add services|event_id.ai_fashion.service.addservice|AI Fashion|
 |List services|event_id.ai_fashion.service.listservice|AI Fashion|
 |Delete services|event_id.ai_fashion.service.deleteservice|AI Fashion|
+|Deep tagging of fashion items|event_id.ai_fashion.service.tag|AI Fashion|
 |Request indexing|event_id.ai_fashion.maker.index|AI Fashion|
 |Check service information|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
 |Check indexing request status|event_id.ai_fashion.maker.indexstatus|AI Fashion|
