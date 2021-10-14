@@ -19,7 +19,7 @@
 |Reboot Instance|event_id.iaas.instance_action.reboot|Default Infrastructure Service|
 |Change Instance Type|event_id.iaas.instance_action.resize|Default Infrastructure Service|
 |Start Instance|event_id.iaas.instance_action.start|Default Infrastructure Service|
-|Close Instance|event_id.iaas.instance_action.stop|Default Infrastructure Service|
+|Stop Instance|event_id.iaas.instance_action.stop|Default Infrastructure Service|
 |Create Instance Template|event_id.iaas.instance_template.create|Default Infrastructure Service|
 |Delete Instance Template|event_id.iaas.instance_template.delete|Default Infrastructure Service|
 |Change Instance Template|event_id.iaas.instance_template.update|Default Infrastructure Service|
@@ -575,6 +575,9 @@
 |Add services|event_id.ai_fashion.service.addservice|AI Fashion|
 |List services|event_id.ai_fashion.service.listservice|AI Fashion|
 |Delete services|event_id.ai_fashion.service.deleteservice|AI Fashion|
+|Deep tagging of fashion items|event_id.ai_fashion.service.tag|AI Fashion|
 |Request indexing|event_id.ai_fashion.maker.index|AI Fashion|
 |Check service information|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
 |Check indexing request status|event_id.ai_fashion.maker.indexstatus|AI Fashion|
+|Request analysis of business registration certificate|event_id.ai_document_recognizer.business.analyze|Document Recognizer|
+|Request analysis of car license plate|event_id.ai_vehicle_plate_recognizer.analyze|Document Recognizer|

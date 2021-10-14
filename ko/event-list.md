@@ -19,7 +19,7 @@
 |인스턴스 재부팅|event_id.iaas.instance_action.reboot|기본 인프라 서비스|
 |인스턴스 타입 변경|event_id.iaas.instance_action.resize|기본 인프라 서비스|
 |인스턴스 시작|event_id.iaas.instance_action.start|기본 인프라 서비스|
-|인스턴스 종료|event_id.iaas.instance_action.stop|기본 인프라 서비스|
+|인스턴스 중지|event_id.iaas.instance_action.stop|기본 인프라 서비스|
 |인스턴스 템플릿 생성|event_id.iaas.instance_template.create|기본 인프라 서비스|
 |인스턴스 템플릿 삭제|event_id.iaas.instance_template.delete|기본 인프라 서비스|
 |인스턴스 템플릿 변경|event_id.iaas.instance_template.update|기본 인프라 서비스|
@@ -592,6 +592,9 @@
 |서비스 추가|event_id.ai_fashion.service.addservice|AI Fashion|
 |서비스 목록|event_id.ai_fashion.service.listservice|AI Fashion|
 |서비스 삭제|event_id.ai_fashion.service.deleteservice|AI Fashion|
+|패션 아이템 딥 태깅|event_id.ai_fashion.service.tag|AI Fashion|
 |색인 요청|event_id.ai_fashion.maker.index|AI Fashion|
 |서비스 정보 확인|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
 |색인 요청 상태 확인|event_id.ai_fashion.maker.indexstatus|AI Fashion|
+|사업자 등록증 분석 요청|event_id.ai_document_recognizer.business.analyze|Document Recognizer	|
+|차량 번호판 분석 요청|event_id.ai_vehicle_plate_recognizer.analyze|Document Recognizer|
