@@ -596,5 +596,5 @@
 |インデックスリクエスト|event_id.ai_fashion.maker.index|AI Fashion|
 |サービス情報確認|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
 |インデックスリクエスト状態の確認|event_id.ai_fashion.maker.indexstatus|AI Fashion|
-|事業者登録証の分析リクエスト|event_id.ai_ocr_document.business.analysis|AI OCR|
-|ナンバープレートの分析リクエスト|event_id.ai_ocr_carplate.analysis|AI OCR|
+|事業者登録証の分析リクエスト|event_id.ai_document_recognizer.business.analyze|Document Recognizer|
+|ナンバープレートの分析リクエスト|event_id.ai_vehicle_plate_recognizer.analyze|Document Recognizer|

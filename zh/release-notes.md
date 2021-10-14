@@ -4,7 +4,7 @@
 ### 2021. 10. 26.
 #### More Events
 * Added events related to AI Fashion
-* Added events related to AI OCR
+* Added events related to Document Recognizer
 
 ### 2021. 09. 28.
 #### More Events
