@@ -45,7 +45,7 @@
 |VPC 피어링 삭제|event_id.iaas.peering.delete|기본 인프라 서비스|
 |포트 생성|event_id.iaas.port.create|기본 인프라 서비스|
 |포트 삭제|event_id.iaas.port.delete|기본 인프라 서비스|
-|포트 보안 그룹 변경|event_id.iaas.port.update|기본 인프라 서비스|
+|포트 변경|event_id.iaas.port.update|기본 인프라 서비스|
 |라우팅 테이블 라우트 생성|event_id.iaas.route.create|기본 인프라 서비스|
 |라우팅 테이블 라우트 삭제|event_id.iaas.route.delete|기본 인프라 서비스|
 |라우팅 테이블 인터넷 게이트웨이 연결|event_id.iaas.routing_table.attach_gateway|기본 인프라 서비스|

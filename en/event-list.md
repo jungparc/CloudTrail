@@ -45,7 +45,7 @@
 |Delete VPC Peering|event_id.iaas.peering.delete|Default Infrastructure Service|
 |Create Port|event_id.iaas.port.create|Default Infrastructure Service|
 |Delete Port|event_id.iaas.port.delete|Default Infrastructure Service|
-|Change Port Security Group|event_id.iaas.port.update|Default Infrastructure Service|
+|Change Port|event_id.iaas.port.update|Default Infrastructure Service|
 |Create Route in Routing Table|event_id.iaas.route.create|Default Infrastructure Service|
 |Delete Route in Routing Table|event_id.iaas.route.delete|Default Infrastructure Service|
 |Connect Routing Table over Internet Gateway|event_id.iaas.routing_table.attach_gateway|Default Infrastructure Service|

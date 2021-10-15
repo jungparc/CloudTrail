@@ -45,7 +45,7 @@
 |VPCピアリングの削除|event_id.iaas.peering.delete|基本インフラサービス|
 |ポートの作成|event_id.iaas.port.create|基本インフラサービス|
 |ポートの削除|event_id.iaas.port.delete|基本インフラサービス|
-|ポートセキュリティグループの変更|event_id.iaas.port.update|基本インフラサービス|
+|ポートの変更|event_id.iaas.port.update|基本インフラサービス|
 |ルーティングテーブルルートの作成|event_id.iaas.route.create|基本インフラサービス|
 |ルーティングテーブルルートの削除|event_id.iaas.route.delete|基本インフラサービス|
 |ルーティングテーブルインターネットゲートウェイの接続|event_id.iaas.routing_table.attach_gateway|基本インフラサービス|
