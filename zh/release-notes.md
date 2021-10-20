@@ -5,7 +5,6 @@
 #### More Events
 * Added events related to AI Fashion
 * Added events related to Document Recognizer
-* Added events related to Vehicle Plate Recognizer
 
 ### 2021. 09. 28.
 #### More Events
