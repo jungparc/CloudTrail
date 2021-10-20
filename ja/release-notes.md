@@ -5,7 +5,6 @@
 #### More Events
 * AI Fashionサービス関連イベントを追加しました。
 * Document Recognizerサービス関連イベントを追加しました。
-* Vehicle Plate Recognizerサービス関連イベントを追加しました。
 
 ### 2021. 08. 24.
 #### イベント追加
