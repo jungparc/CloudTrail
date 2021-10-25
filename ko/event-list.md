@@ -19,7 +19,7 @@
 |인스턴스 재부팅|event_id.iaas.instance_action.reboot|기본 인프라 서비스|
 |인스턴스 타입 변경|event_id.iaas.instance_action.resize|기본 인프라 서비스|
 |인스턴스 시작|event_id.iaas.instance_action.start|기본 인프라 서비스|
-|인스턴스 종료|event_id.iaas.instance_action.stop|기본 인프라 서비스|
+|인스턴스 중지|event_id.iaas.instance_action.stop|기본 인프라 서비스|
 |인스턴스 템플릿 생성|event_id.iaas.instance_template.create|기본 인프라 서비스|
 |인스턴스 템플릿 삭제|event_id.iaas.instance_template.delete|기본 인프라 서비스|
 |인스턴스 템플릿 변경|event_id.iaas.instance_template.update|기본 인프라 서비스|
@@ -45,7 +45,7 @@
 |VPC 피어링 삭제|event_id.iaas.peering.delete|기본 인프라 서비스|
 |포트 생성|event_id.iaas.port.create|기본 인프라 서비스|
 |포트 삭제|event_id.iaas.port.delete|기본 인프라 서비스|
-|포트 보안 그룹 변경|event_id.iaas.port.update|기본 인프라 서비스|
+|포트 변경|event_id.iaas.port.update|기본 인프라 서비스|
 |라우팅 테이블 라우트 생성|event_id.iaas.route.create|기본 인프라 서비스|
 |라우팅 테이블 라우트 삭제|event_id.iaas.route.delete|기본 인프라 서비스|
 |라우팅 테이블 인터넷 게이트웨이 연결|event_id.iaas.routing_table.attach_gateway|기본 인프라 서비스|
@@ -300,6 +300,7 @@
 |DB 인스턴스 삭제|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |DB 인스턴스 백업|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
 |DB 인스턴스 재시작|event_id.rds_for_sqlserver.db_instance.restart|RDS for MS-SQL|
+|백업 삭제|event_id.rds_for_sqlserver.backup.delete|RDS for MS-SQL|
 |백업을 이용한 DB 인스턴스 복원|event_id.rds_for_sqlserver.backup.restore_snapshot|RDS for MS-SQL|
 |DB 인스턴스 이름 변경|event_id.rds_for_sqlserver.db_instance.modify_name|RDS for MS-SQL|
 |DB 인스턴스 수정|event_id.rds_for_sqlserver.db_instance.modify|RDS for MS-SQL|
@@ -385,21 +386,33 @@
 |캐시 재배포|event_id.cdn.cache_purge.common|CDN|
 |특정 파일 캐시 재배포|event_id.cdn.cache_purge.item_type|CDN|
 |전체 파일 캐시 재배포|event_id.cdn.cache_purge.all_type|CDN|
-|서버 대시보드 레이아웃 추가|event_id.system_monitoring.server_dashboard_layout_addition|SystemMonitoring|
-|서버 대시보드 레이아웃 변경|event_id.system_monitoring.server_dashboard_layout_updating|SystemMonitoring|
-|서버 대시보드 레이아웃 삭제|event_id.system_monitoring.server_dashboard_layout_deletion|SystemMonitoring|
-|사용자 그룹 추가|event_id.system_monitoring.user_group_addition|SystemMonitoring|
-|사용자 그룹 삭제|event_id.system_monitoring.user_group_deletion|SystemMonitoring|
-|사용자 그룹에 사용자 추가|event_id.system_monitoring.user_group_user_addition|SystemMonitoring|
-|사용자 그룹에 사용자 삭제|event_id.system_monitoring.user_group_user_deletion|SystemMonitoring|
-|사용자 그룹 이름 수정|event_id.system_monitoring.user_group_name_updating|SystemMonitoring|
-|알림 그룹 추가|event_id.system_monitoring.alarm_group_addition|SystemMonitoring|
-|알림 그룹 변경|event_id.system_monitoring.alarm_group_updating|SystemMonitoring|
-|알림 그룹 삭제|event_id.system_monitoring.alarm_group_deletion|SystemMonitoring|
-|알림 설정 추가|event_id.system_monitoring.alarm_config_addition|SystemMonitoring|
-|알림 설정 변경|event_id.system_monitoring.alarm_config_updating|SystemMonitoring|
-|알림 설정 삭제|event_id.system_monitoring.alarm_config_deletion|SystemMonitoring|
-|이벤트 강제 종료|event_id.system_monitoring.event_force_close|SystemMonitoring|
+|서버 대시보드 레이아웃 추가|event_id.system_monitoring.server_dashboard_layout_addition|System Monitoring|
+|서버 대시보드 레이아웃 변경|event_id.system_monitoring.server_dashboard_layout_updating|System Monitoring|
+|서버 대시보드 레이아웃 삭제|event_id.system_monitoring.server_dashboard_layout_deletion|System Monitoring|
+|OpenMetrics 대시보드 차트 생성|event_id.system_monitoring.open_metrics_chart_addition|System Monitoring|
+|OpenMetrics 대시보드 차트 변경|event_id.system_monitoring.open_metrics_chart_updating|System Monitoring|
+|OpenMetrics 대시보드 차트 삭제|event_id.system_monitoring.open_metrics_chart_deletion|System Monitoring|
+|OpenMetrics 대시보드 수집 대상 추가|event_id.system_monitoring.open_metrics_target_addition|System Monitoring|
+|OpenMetrics 대시보드 수집 대상 변경|event_id.system_monitoring.open_metrics_target_updating|System Monitoring|
+|OpenMetrics 대시보드 수집 대상 삭제|event_id.system_monitoring.open_metrics_target_deletion|System Monitoring|
+|OpenMetrics 대시보드 레이아웃 추가|event_id.system_monitoring.open_metrics_layout_addition|System Monitoring|
+|OpenMetrics 대시보드 레이아웃 변경|event_id.system_monitoring.open_metrics_layout_updating|System Monitoring|
+|OpenMetrics 대시보드 레이아웃 삭제|event_id.system_monitoring.open_metrics_layout_deletion|System Monitoring|
+|OpenMetrics 대시보드 작업 공간 추가|event_id.system_monitoring.open_metrics_workspace_addition|System Monitoring|
+|OpenMetrics 대시보드 작업 공간 변경|event_id.system_monitoring.open_metrics_workspace_updating|System Monitoring|
+|OpenMetrics 대시보드 작업 공간 삭제|event_id.system_monitoring.open_metrics_workspace_deletion|System Monitoring|
+|사용자 그룹 추가|event_id.system_monitoring.user_group_addition|System Monitoring|
+|사용자 그룹 삭제|event_id.system_monitoring.user_group_deletion|System Monitoring|
+|사용자 그룹에 사용자 추가|event_id.system_monitoring.user_group_user_addition|System Monitoring|
+|사용자 그룹에 사용자 삭제|event_id.system_monitoring.user_group_user_deletion|System Monitoring|
+|사용자 그룹 이름 수정|event_id.system_monitoring.user_group_name_updating|System Monitoring|
+|알림 그룹 추가|event_id.system_monitoring.alarm_group_addition|System Monitoring|
+|알림 그룹 변경|event_id.system_monitoring.alarm_group_updating|System Monitoring|
+|알림 그룹 삭제|event_id.system_monitoring.alarm_group_deletion|System Monitoring|
+|알림 설정 추가|event_id.system_monitoring.alarm_config_addition|System Monitoring|
+|알림 설정 변경|event_id.system_monitoring.alarm_config_updating|System Monitoring|
+|알림 설정 삭제|event_id.system_monitoring.alarm_config_deletion|System Monitoring|
+|이벤트 강제 종료|event_id.system_monitoring.event_force_close|System Monitoring|
 |알림 그룹 추가|event_id.certificate_manager.alarm_group.create|Certificate Manager|
 |알림 그룹 삭제|event_id.certificate_manager.alarm_group.delete|Certificate Manager|
 |알림 그룹 수정|event_id.certificate_manager.alarm_group.update|Certificate Manager|
@@ -592,6 +605,8 @@
 |서비스 추가|event_id.ai_fashion.service.addservice|AI Fashion|
 |서비스 목록|event_id.ai_fashion.service.listservice|AI Fashion|
 |서비스 삭제|event_id.ai_fashion.service.deleteservice|AI Fashion|
+|패션 아이템 딥 태깅|event_id.ai_fashion.service.tag|AI Fashion|
 |색인 요청|event_id.ai_fashion.maker.index|AI Fashion|
 |서비스 정보 확인|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
 |색인 요청 상태 확인|event_id.ai_fashion.maker.indexstatus|AI Fashion|
+|사업자 등록증 분석 요청|event_id.ai_document_recognizer.business.analyze|Document Recognizer|

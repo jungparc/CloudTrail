@@ -1,6 +1,11 @@
 
 ## CloudTrail > リリースノート
 
+### 2021. 10. 26.
+#### More Events
+* AI Fashionサービス関連イベントを追加しました。
+* Document Recognizerサービス関連イベントを追加しました。
+
 ### 2021. 08. 24.
 #### イベント追加
 * RDS for MySQLサービス関連イベントを追加しました。

@@ -45,7 +45,7 @@
 |VPCピアリングの削除|event_id.iaas.peering.delete|基本インフラサービス|
 |ポートの作成|event_id.iaas.port.create|基本インフラサービス|
 |ポートの削除|event_id.iaas.port.delete|基本インフラサービス|
-|ポートセキュリティグループの変更|event_id.iaas.port.update|基本インフラサービス|
+|ポートの変更|event_id.iaas.port.update|基本インフラサービス|
 |ルーティングテーブルルートの作成|event_id.iaas.route.create|基本インフラサービス|
 |ルーティングテーブルルートの削除|event_id.iaas.route.delete|基本インフラサービス|
 |ルーティングテーブルインターネットゲートウェイの接続|event_id.iaas.routing_table.attach_gateway|基本インフラサービス|
@@ -300,6 +300,7 @@
 |DBインスタンスの削除|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |DBインスタンスのバックアップ|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
 |DBインスタンスの再起動|event_id.rds_for_sqlserver.db_instance.restart|RDS for MS-SQL|
+|バックアップ削除|event_id.rds_for_sqlserver.backup.delete|RDS for MS-SQL|
 |バックアップを利用したDBインスタンスの復元|event_id.rds_for_sqlserver.backup.restore_snapshot|RDS for MS-SQL|
 |DBインスタンス名変更|event_id.rds_for_sqlserver.db_instance.modify_name|RDS for MS-SQL|
 |DBインスタンス修正|event_id.rds_for_sqlserver.db_instance.modify|RDS for MS-SQL|
@@ -385,21 +386,33 @@
 |キャッシュ再配布|event_id.cdn.cache_purge.common|CDN|
 |特定ファイルキャッシュ再配布|event_id.cdn.cache_purge.item_type|CDN|
 |全ファイルキャッシュ再配布|event_id.cdn.cache_purge.all_type|CDN|
-|サーバーダッシュボードレイアウト追加|event_id.system_monitoring.server_dashboard_layout_addition|SystemMonitoring|
-|サーバーダッシュボードレイアウト変更|event_id.system_monitoring.server_dashboard_layout_updating|SystemMonitoring|
-|サーバーダッシュボードレイアウト削除|event_id.system_monitoring.server_dashboard_layout_deletion|SystemMonitoring|
-|ユーザーグループ追加|event_id.system_monitoring.user_group_addition|SystemMonitoring|
-|ユーザーグループ削除|event_id.system_monitoring.user_group_deletion|SystemMonitoring|
-|ユーザーグループにユーザーを追加|event_id.system_monitoring.user_group_user_addition|SystemMonitoring|
-|ユーザーグループのユーザーを削除|event_id.system_monitoring.user_group_user_deletion|SystemMonitoring|
-|ユーザーグループ名を変更|event_id.system_monitoring.user_group_name_updating|SystemMonitoring|
-|通知グループ追加|event_id.system_monitoring.alarm_group_addition|SystemMonitoring|
-|通知グループ変更|event_id.system_monitoring.alarm_group_updating|SystemMonitoring|
-|通知グループ削除	|event_id.system_monitoring.alarm_group_deletion|SystemMonitoring|
-|通知設定追加|event_id.system_monitoring.alarm_config_addition|SystemMonitoring|
-|通知設定変更|event_id.system_monitoring.alarm_config_updating|SystemMonitoring|
-|通知設定削除|event_id.system_monitoring.alarm_config_deletion|SystemMonitoring|
-|イベント強制終了|event_id.system_monitoring.event_force_close|SystemMonitoring|
+|サーバーダッシュボードレイアウト追加|event_id.system_monitoring.server_dashboard_layout_addition|System Monitoring|
+|サーバーダッシュボードレイアウト変更|event_id.system_monitoring.server_dashboard_layout_updating|System Monitoring|
+|サーバーダッシュボードレイアウト削除|event_id.system_monitoring.server_dashboard_layout_deletion|System Monitoring|
+|OpenMetricsダッシュボードチャート作成|event_id.system_monitoring.open_metrics_chart_addition|System Monitoring|
+|OpenMetricsダッシュボードチャート変更|event_id.system_monitoring.open_metrics_chart_updating|System Monitoring|
+|OpenMetricsダッシュボードチャート削除|event_id.system_monitoring.open_metrics_chart_deletion|System Monitoring|
+|OpenMetricsダッシュボード収集対象追加|event_id.system_monitoring.open_metrics_target_addition|System Monitoring|
+|OpenMetricsダッシュボード収集対象の変更|event_id.system_monitoring.open_metrics_target_updating|System Monitoring|
+|OpenMetricsダッシュボード収集対象削除|event_id.system_monitoring.open_metrics_target_deletion|System Monitoring|
+|OpenMetricsダッシュボード追加|event_id.system_monitoring.open_metrics_layout_addition|System Monitoring|
+|OpenMetricsダッシュボード変更|event_id.system_monitoring.open_metrics_layout_updating|System Monitoring|
+|OpenMetricsダッシュボード削除|event_id.system_monitoring.open_metrics_layout_deletion|System Monitoring|
+|OpenMetricsダッシュボード作業スペース追加|event_id.system_monitoring.open_metrics_workspace_addition|System Monitoring|
+|OpenMetricsダッシュボード作業スペース変更|event_id.system_monitoring.open_metrics_workspace_updating|System Monitoring|
+|OpenMetricsダッシュボード作業スペース削除|event_id.system_monitoring.open_metrics_workspace_deletion|System Monitoring|
+|ユーザーグループ追加|event_id.system_monitoring.user_group_addition|System Monitoring|
+|ユーザーグループ削除|event_id.system_monitoring.user_group_deletion|System Monitoring|
+|ユーザーグループにユーザーを追加|event_id.system_monitoring.user_group_user_addition|System Monitoring|
+|ユーザーグループのユーザーを削除|event_id.system_monitoring.user_group_user_deletion|System Monitoring|
+|ユーザーグループ名を変更|event_id.system_monitoring.user_group_name_updating|System Monitoring|
+|通知グループ追加|event_id.system_monitoring.alarm_group_addition|System Monitoring|
+|通知グループ変更|event_id.system_monitoring.alarm_group_updating|System Monitoring|
+|通知グループ削除	|event_id.system_monitoring.alarm_group_deletion|System Monitoring|
+|通知設定追加|event_id.system_monitoring.alarm_config_addition|System Monitoring|
+|通知設定変更|event_id.system_monitoring.alarm_config_updating|System Monitoring|
+|通知設定削除|event_id.system_monitoring.alarm_config_deletion|System Monitoring|
+|イベント強制終了|event_id.system_monitoring.event_force_close|System Monitoring|
 |ドメインの修正|event_id.certificate_manager.domain.update|Certificate Manager|
 |ユーザーデータの修正|event_id.certificate_manager.user_data.update|Certificate Manager|
 |ドメインの削除|event_id.certificate_manager.domain.delete|Certificate Manager|
@@ -592,6 +605,8 @@
 |サービス追加|event_id.ai_fashion.service.addservice|AI Fashion|
 |サービスリスト|event_id.ai_fashion.service.listservice|AI Fashion|
 |サービス削除|event_id.ai_fashion.service.deleteservice|AI Fashion|
+|ファッションアイテムディープタギング|event_id.ai_fashion.service.tag|AI Fashion|
 |インデックスリクエスト|event_id.ai_fashion.maker.index|AI Fashion|
 |サービス情報確認|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
 |インデックスリクエスト状態の確認|event_id.ai_fashion.maker.indexstatus|AI Fashion|
+|事業者登録証の分析リクエスト|event_id.ai_document_recognizer.business.analyze|Document Recognizer|
