@@ -223,6 +223,7 @@
 |Delete Database Instance|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |Back Up Database Instance|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
 |Restart Database Instance|event_id.rds_for_sqlserver.db_instance.restart|RDS for MS-SQL|
+|Hypervisor Migration|event_id.rds_for_sqlserver.db_instance.migrate_hypervisor|RDS for MS-SQL|
 |Delete Backup|event_id.rds_for_sqlserver.backup.delete|RDS for MS-SQL|
 |Restore Database Instance from Backup|event_id.rds_for_sqlserver.backup.restore_snapshot|RDS for MS-SQL|
 |Change Database Instance Name|event_id.rds_for_sqlserver.db_instance.modify_name|RDS for MS-SQL|
