@@ -103,6 +103,7 @@
 |DBインスタンスの昇格|event_id.rds_for_mysql.instance_action.promote|RDS for MySQL|
 |DBインスタンスのストレージを拡張|event_id.rds_for_mysql.instance.volume.extend|RDS for MySQL|
 |DBインスタンスの容量を確保|event_id.rds_for_mysql.instance.volume.secure|RDS for MySQL|
+|インスタンスの停止|event_id.rds_for_mysql.instance.stop|RDS for MySQL|
 |バックアップの削除|event_id.rds_for_mysql.instance.backup.delete|RDS for MySQL|
 |モニタリングチャートレイアウトを追加|event_id.rds_for_mysql.createChartLayout|RDS for MySQL|
 |モニタリングチャートレイアウトを削除|event_id.rds_for_mysql.deleteChartLayout|RDS for MySQL|

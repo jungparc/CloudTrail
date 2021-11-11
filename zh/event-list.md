@@ -103,6 +103,7 @@
 |DB 인스턴스 승격|event_id.rds_for_mysql.instance_action.promote|RDS for MySQL|
 |DB 인스턴스 스토리지 확장|event_id.rds_for_mysql.instance.volume.extend|RDS for MySQL|
 |DB 인스턴스 용량 확보|event_id.rds_for_mysql.instance.volume.secure|RDS for MySQL|
+|Stop Instance|event_id.rds_for_mysql.instance.stop|RDS for MySQL|
 |Add Monitoring Chart Layout|event_id.rds_for_mysql.createChartLayout|RDS for MySQL|
 |Delete Monitoring Chart Layout|event_id.rds_for_mysql.deleteChartLayout|RDS for MySQL|
 |Modify Monitoring Chart Layout|event_id.rds_for_mysql.modifyChartLayout|RDS for MySQL|
