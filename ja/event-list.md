@@ -103,6 +103,7 @@
 |DBインスタンスの昇格|event_id.rds_for_mysql.instance_action.promote|RDS for MySQL|
 |DBインスタンスのストレージを拡張|event_id.rds_for_mysql.instance.volume.extend|RDS for MySQL|
 |DBインスタンスの容量を確保|event_id.rds_for_mysql.instance.volume.secure|RDS for MySQL|
+|インスタンスの停止|event_id.rds_for_mysql.instance.stop|RDS for MySQL|
 |バックアップの削除|event_id.rds_for_mysql.instance.backup.delete|RDS for MySQL|
 |モニタリングチャートレイアウトを追加|event_id.rds_for_mysql.createChartLayout|RDS for MySQL|
 |モニタリングチャートレイアウトを削除|event_id.rds_for_mysql.deleteChartLayout|RDS for MySQL|
@@ -300,6 +301,7 @@
 |DBインスタンスの削除|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |DBインスタンスのバックアップ|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
 |DBインスタンスの再起動|event_id.rds_for_sqlserver.db_instance.restart|RDS for MS-SQL|
+|ハイパーバイザのマイグレーション|event_id.rds_for_sqlserver.db_instance.migrate_hypervisor|RDS for MS-SQL|
 |バックアップ削除|event_id.rds_for_sqlserver.backup.delete|RDS for MS-SQL|
 |バックアップを利用したDBインスタンスの復元|event_id.rds_for_sqlserver.backup.restore_snapshot|RDS for MS-SQL|
 |DBインスタンス名変更|event_id.rds_for_sqlserver.db_instance.modify_name|RDS for MS-SQL|

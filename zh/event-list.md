@@ -103,6 +103,7 @@
 |DB 인스턴스 승격|event_id.rds_for_mysql.instance_action.promote|RDS for MySQL|
 |DB 인스턴스 스토리지 확장|event_id.rds_for_mysql.instance.volume.extend|RDS for MySQL|
 |DB 인스턴스 용량 확보|event_id.rds_for_mysql.instance.volume.secure|RDS for MySQL|
+|Stop Instance|event_id.rds_for_mysql.instance.stop|RDS for MySQL|
 |Add Monitoring Chart Layout|event_id.rds_for_mysql.createChartLayout|RDS for MySQL|
 |Delete Monitoring Chart Layout|event_id.rds_for_mysql.deleteChartLayout|RDS for MySQL|
 |Modify Monitoring Chart Layout|event_id.rds_for_mysql.modifyChartLayout|RDS for MySQL|
@@ -225,6 +226,7 @@
 |Delete Database Instance|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |Back Up Database Instance|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
 |Restart Database Instance|event_id.rds_for_sqlserver.db_instance.restart|RDS for MS-SQL|
+|Hypervisor Migration|event_id.rds_for_sqlserver.db_instance.migrate_hypervisor|RDS for MS-SQL|
 |Delete Backup|event_id.rds_for_sqlserver.backup.delete|RDS for MS-SQL|
 |Restore Database Instance from Backup|event_id.rds_for_sqlserver.backup.restore_snapshot|RDS for MS-SQL|
 |Change Database Instance Name|event_id.rds_for_sqlserver.db_instance.modify_name|RDS for MS-SQL|
