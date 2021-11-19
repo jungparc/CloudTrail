@@ -273,6 +273,7 @@
 |복제 그룹 삭제|event_id.easycache.group.delete|EasyCache|
 |복제 그룹 수정|event_id.easycache.group.modify|EasyCache|
 |복제 그룹 재시작|event_id.easycache.group.restart|EasyCache|
+|복제 그룹 업그레이드|event_id.easycache.group.upgrade|EasyCache|
 |복제 그룹 HA 재설정|event_id.easycache.group.ha_reset|EasyCache|
 |복제 그룹 비밀번호 확인|event_id.easycache.group.password|EasyCache|
 |노드 추가|event_id.easycache.node.create|EasyCache|

@@ -4,6 +4,7 @@
 ### 2021. 11. 23.
 #### More Events
 * Vehicle Plate Recognizerサービス関連イベントを追加しました。
+* EasyCacheサービス関連イベントを追加しました。
 
 ### 2021. 10. 26.
 #### More Events

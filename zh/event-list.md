@@ -198,6 +198,7 @@
 |Delete Replication Group|event_id.easycache.group.delete|EasyCache|
 |Modify Replication Group|event_id.easycache.group.modify|EasyCache|
 |Restart Replication Group|event_id.easycache.group.restart|EasyCache|
+|Upgrade Replication Group|event_id.easycache.group.upgrade|EasyCache|
 |Re-configure HA for Replication Group|event_id.easycache.group.ha_reset|EasyCache|
 |Confirm Password for Replication Group|event_id.easycache.group.password|EasyCache|
 |Add Node|event_id.easycache.node.create|EasyCache|

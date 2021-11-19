@@ -273,6 +273,7 @@
 |レプリケーショングループ削除|event_id.easycache.group.delete|EasyCache|
 |レプリケーショングループ修正|event_id.easycache.group.modify|EasyCache|
 |レプリケーショングループ再起動|event_id.easycache.group.restart|EasyCache|
+|レプリケーショングループアップグレード|event_id.easycache.group.upgrade|EasyCache|
 |レプリケーショングループHA再設定|event_id.easycache.group.ha_reset|EasyCache|
 |レプリケーショングループパスワード確認|event_id.easycache.group.password|EasyCache|
 |ノード追加|event_id.easycache.node.create|EasyCache|
