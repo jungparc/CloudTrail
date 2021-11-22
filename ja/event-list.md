@@ -103,6 +103,7 @@
 |DBインスタンスの昇格|event_id.rds_for_mysql.instance_action.promote|RDS for MySQL|
 |DBインスタンスのストレージを拡張|event_id.rds_for_mysql.instance.volume.extend|RDS for MySQL|
 |DBインスタンスの容量を確保|event_id.rds_for_mysql.instance.volume.secure|RDS for MySQL|
+|インスタンスの停止|event_id.rds_for_mysql.instance.stop|RDS for MySQL|
 |バックアップの削除|event_id.rds_for_mysql.instance.backup.delete|RDS for MySQL|
 |モニタリングチャートレイアウトを追加|event_id.rds_for_mysql.createChartLayout|RDS for MySQL|
 |モニタリングチャートレイアウトを削除|event_id.rds_for_mysql.deleteChartLayout|RDS for MySQL|
@@ -124,7 +125,7 @@
 |受信グループの作成|event_id.rds_for_mysql.receiver_group.create|RDS for MySQL|
 |受信グループの変更|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL|
 |受信グループの削除|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL|
-|DB 정의 정보 변경|event_id.rds_for_mysql.instance.db_definition.update|RDS for MySQL|
+|DB定義情報の変更|event_id.rds_for_mysql.instance.db_definition.update|RDS for MySQL|
 |DB 스키마 동기화|event_id.rds_for_mysql.instance.db_definition.schema.sync|RDS for MySQL|
 |DB User 동기화|event_id.rds_for_mysql.instance.db_definition.user.sync|RDS for MySQL|
 |DBインスタンスのバックアップおよびエクスポート|event_id.rds_for_mysql.instance.backup.export|RDS for MySQL|
@@ -272,6 +273,7 @@
 |レプリケーショングループ削除|event_id.easycache.group.delete|EasyCache|
 |レプリケーショングループ修正|event_id.easycache.group.modify|EasyCache|
 |レプリケーショングループ再起動|event_id.easycache.group.restart|EasyCache|
+|レプリケーショングループアップグレード|event_id.easycache.group.upgrade|EasyCache|
 |レプリケーショングループHA再設定|event_id.easycache.group.ha_reset|EasyCache|
 |レプリケーショングループパスワード確認|event_id.easycache.group.password|EasyCache|
 |ノード追加|event_id.easycache.node.create|EasyCache|
@@ -300,6 +302,7 @@
 |DBインスタンスの削除|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |DBインスタンスのバックアップ|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
 |DBインスタンスの再起動|event_id.rds_for_sqlserver.db_instance.restart|RDS for MS-SQL|
+|ハイパーバイザのマイグレーション|event_id.rds_for_sqlserver.db_instance.migrate_hypervisor|RDS for MS-SQL|
 |バックアップ削除|event_id.rds_for_sqlserver.backup.delete|RDS for MS-SQL|
 |バックアップを利用したDBインスタンスの復元|event_id.rds_for_sqlserver.backup.restore_snapshot|RDS for MS-SQL|
 |DBインスタンス名変更|event_id.rds_for_sqlserver.db_instance.modify_name|RDS for MS-SQL|
@@ -610,3 +613,4 @@
 |サービス情報確認|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
 |インデックスリクエスト状態の確認|event_id.ai_fashion.maker.indexstatus|AI Fashion|
 |事業者登録証の分析リクエスト|event_id.ai_document_recognizer.business.analyze|Document Recognizer|
+|ナンバープレートの分析リクエスト|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|

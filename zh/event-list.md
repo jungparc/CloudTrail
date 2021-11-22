@@ -103,6 +103,7 @@
 |DB 인스턴스 승격|event_id.rds_for_mysql.instance_action.promote|RDS for MySQL|
 |DB 인스턴스 스토리지 확장|event_id.rds_for_mysql.instance.volume.extend|RDS for MySQL|
 |DB 인스턴스 용량 확보|event_id.rds_for_mysql.instance.volume.secure|RDS for MySQL|
+|Stop Instance|event_id.rds_for_mysql.instance.stop|RDS for MySQL|
 |Add Monitoring Chart Layout|event_id.rds_for_mysql.createChartLayout|RDS for MySQL|
 |Delete Monitoring Chart Layout|event_id.rds_for_mysql.deleteChartLayout|RDS for MySQL|
 |Modify Monitoring Chart Layout|event_id.rds_for_mysql.modifyChartLayout|RDS for MySQL|
@@ -124,7 +125,7 @@
 |수신 그룹 생성|event_id.rds_for_mysql.receiver_group.create|RDS for MySQL|
 |수신 그룹 변경|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL|
 |수신 그룹 삭제|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL|
-|DB 정의 정보 변경|event_id.rds_for_mysql.instance.db_definition.update|RDS for MySQL|
+|Change DB definition|event_id.rds_for_mysql.instance.db_definition.update|RDS for MySQL|
 |DB 스키마 동기화|event_id.rds_for_mysql.instance.db_definition.schema.sync|RDS for MySQL|
 |DB User 동기화|event_id.rds_for_mysql.instance.db_definition.user.sync|RDS for MySQL|
 |Make and export a DB instance backup|event_id.rds_for_mysql.instance.backup.export|RDS for MySQL|
@@ -197,6 +198,7 @@
 |Delete Replication Group|event_id.easycache.group.delete|EasyCache|
 |Modify Replication Group|event_id.easycache.group.modify|EasyCache|
 |Restart Replication Group|event_id.easycache.group.restart|EasyCache|
+|Upgrade Replication Group|event_id.easycache.group.upgrade|EasyCache|
 |Re-configure HA for Replication Group|event_id.easycache.group.ha_reset|EasyCache|
 |Confirm Password for Replication Group|event_id.easycache.group.password|EasyCache|
 |Add Node|event_id.easycache.node.create|EasyCache|
@@ -225,6 +227,7 @@
 |Delete Database Instance|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |Back Up Database Instance|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
 |Restart Database Instance|event_id.rds_for_sqlserver.db_instance.restart|RDS for MS-SQL|
+|Hypervisor Migration|event_id.rds_for_sqlserver.db_instance.migrate_hypervisor|RDS for MS-SQL|
 |Delete Backup|event_id.rds_for_sqlserver.backup.delete|RDS for MS-SQL|
 |Restore Database Instance from Backup|event_id.rds_for_sqlserver.backup.restore_snapshot|RDS for MS-SQL|
 |Change Database Instance Name|event_id.rds_for_sqlserver.db_instance.modify_name|RDS for MS-SQL|
@@ -593,3 +596,4 @@
 |Check service information|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
 |Check indexing request status|event_id.ai_fashion.maker.indexstatus|AI Fashion|
 |Request analysis of business registration certificate|event_id.ai_document_recognizer.business.analyze|Document Recognizer|
+|Request analysis of car license plate|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|

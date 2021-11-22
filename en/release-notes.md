@@ -1,10 +1,15 @@
 
 ## CloudTrail > Release Notes
 
+### 2021. 11. 23.
+#### More Events
+* Added events related to Vehicle Plate Recognizer.
+* Added events related to EasyCache.
+
 ### 2021. 10. 26.
 #### More Events
-* Added events related to AI Fashion
-* Added events related to Document Recognizer
+* Added events related to AI Fashion.
+* Added events related to Document Recognizer.
 
 ### 2021. 09. 28.
 #### More Events
