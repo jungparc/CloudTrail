@@ -19,7 +19,7 @@
 |인스턴스 재부팅|event_id.iaas.instance_action.reboot|기본 인프라 서비스|
 |인스턴스 타입 변경|event_id.iaas.instance_action.resize|기본 인프라 서비스|
 |인스턴스 시작|event_id.iaas.instance_action.start|기본 인프라 서비스|
-|인스턴스 종료|event_id.iaas.instance_action.stop|기본 인프라 서비스|
+|인스턴스 중지|event_id.iaas.instance_action.stop|기본 인프라 서비스|
 |인스턴스 템플릿 생성|event_id.iaas.instance_template.create|기본 인프라 서비스|
 |인스턴스 템플릿 삭제|event_id.iaas.instance_template.delete|기본 인프라 서비스|
 |인스턴스 템플릿 변경|event_id.iaas.instance_template.update|기본 인프라 서비스|
@@ -45,7 +45,7 @@
 |VPC 피어링 삭제|event_id.iaas.peering.delete|기본 인프라 서비스|
 |포트 생성|event_id.iaas.port.create|기본 인프라 서비스|
 |포트 삭제|event_id.iaas.port.delete|기본 인프라 서비스|
-|포트 보안 그룹 변경|event_id.iaas.port.update|기본 인프라 서비스|
+|포트 변경|event_id.iaas.port.update|기본 인프라 서비스|
 |라우팅 테이블 라우트 생성|event_id.iaas.route.create|기본 인프라 서비스|
 |라우팅 테이블 라우트 삭제|event_id.iaas.route.delete|기본 인프라 서비스|
 |라우팅 테이블 인터넷 게이트웨이 연결|event_id.iaas.routing_table.attach_gateway|기본 인프라 서비스|
@@ -60,8 +60,8 @@
 |보안 그룹 생성|event_id.iaas.security_group.create|기본 인프라 서비스|
 |보안 그룹 삭제|event_id.iaas.security_group.delete|기본 인프라 서비스|
 |보안 그룹 변경|event_id.iaas.security_group.update|기본 인프라 서비스|
-|보안 정책 생성|event_id.iaas.security_group_rule.create|기본 인프라 서비스|
-|보안 정책 삭제|event_id.iaas.security_group_rule.delete|기본 인프라 서비스|
+|보안 규칙 생성|event_id.iaas.security_group_rule.create|기본 인프라 서비스|
+|보안 규칙 삭제|event_id.iaas.security_group_rule.delete|기본 인프라 서비스|
 |블록 스토리지 스냅숏 생성|event_id.iaas.snapshot.create|기본 인프라 서비스|
 |블록 스토리지 스냅숏 삭제|event_id.iaas.snapshot.delete|기본 인프라 서비스|
 |인스턴스 볼륨 연결|event_id.iaas.volume.attach|기본 인프라 서비스|
@@ -79,8 +79,10 @@
 |VPC 서브넷 변경|event_id.iaas.vpc_subnet.update|기본 인프라 서비스|
 |클러스터 생성|event_id.iaas.cluster.create|기본 인프라 서비스|
 |클러스터 삭제|event_id.iaas.cluster.delete|기본 인프라 서비스|
+|오토 스케일러 설정 변경|event_id.iaas.cluster.update_autoscale|기본 인프라 서비스|
 |노드 그룹 생성|event_id.iaas.nodegroup.create|기본 인프라 서비스|
 |노드 그룹 삭제|event_id.iaas.nodegroup.delete|기본 인프라 서비스|
+|클러스터 업그레이드|event_id.iaas.nodegroup.upgrade|기본 인프라 서비스|
 |어카운트 메타데이터 등록/수정|event_id.object_storage.account.metadata.update|Object Storage|
 |컨테이너 생성|event_id.object_storage.container.create|Object Storage|
 |컨테이너 삭제|event_id.object_storage.container.delete|Object Storage|
@@ -129,6 +131,10 @@
 |프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|콘솔|
 |프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|콘솔|
 |IAM 프로젝트 접속|event_id.iam.project.selected|콘솔|
+|예산 추가|event_id.budget.create|콘솔|
+|예산 수정|event_id.budget.modify|콘솔|
+|예산 삭제|event_id.budget.delete|콘솔|
+|거버넌스 설정 변경|event_id.governance.change|콘솔|
 |백업 서버 등록|event_id.backup.client.register|Backup|
 |백업 서버 삭제|event_id.backup.client.delete|Backup|
 |백업 경로 등록|event_id.backup.target.register|Backup|
