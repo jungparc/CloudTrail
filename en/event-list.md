@@ -172,6 +172,8 @@
 |Modify Budget|event_id.budget.modify|Console|
 |Delete Budget|event_id.budget.delete|Console|
 |Change governance setting|event_id.governance.change|Console|
+|Delete the service support team|event_id.supporter.delete|Console|
+|Invite service support team|event_id.supporter.add|Console|
 |Create Service|event_id.service_monitoring.creation_service|Service Monitoring|
 |Change Service|event_id.service_monitoring.modification_service|Service Monitoring|
 |Delete Service|event_id.service_monitoring.delete_service|Service Monitoring|

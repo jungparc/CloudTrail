@@ -249,6 +249,8 @@
 |예산 수정|event_id.budget.modify|콘솔|
 |예산 삭제|event_id.budget.delete|콘솔|
 |거버넌스 설정 변경|event_id.governance.change|콘솔|
+|서비스지원팀 삭제|event_id.supporter.delete|콘솔|
+|서비스지원팀 추가|event_id.supporter.add|콘솔|
 |서비스 생성|event_id.service_monitoring.creation_service|Service Monitoring|
 |서비스 변경|event_id.service_monitoring.modification_service|Service Monitoring|
 |서비스 삭제|event_id.service_monitoring.delete_service|Service Monitoring|
