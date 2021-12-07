@@ -249,6 +249,8 @@
 |予算修正|event_id.budget.modify|コンソール|
 |予算削除|event_id.budget.delete|コンソール|
 |ガバナンス設定変更|event_id.governance.change|コンソール|
+|サービスサポートチームを削除する|event_id.supporter.delete|콘솔|
+|サービスサポートチームを招待する|event_id.supporter.add|콘솔|
 |サービス作成|event_id.service_monitoring.creation_service|Service Monitoring|
 |サービス変更|event_id.service_monitoring.modification_service|Service Monitoring|
 |サービス削除|event_id.service_monitoring.delete_service|Service Monitoring|
