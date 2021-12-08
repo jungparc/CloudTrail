@@ -1,6 +1,10 @@
 
 ## CloudTrail > 릴리스 노트
 
+### 2021. 12. 28.
+#### 이벤트 추가
+* Document Recognizer 서비스 관련 이벤트가 추가되었습니다.
+
 ### 2021. 11. 23.
 #### 이벤트 추가
 * Vehicle Plate Recognizer 서비스 관련 이벤트가 추가되었습니다.

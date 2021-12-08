@@ -1,6 +1,10 @@
 
 ## CloudTrail > Release Notes
 
+### 2021. 12. 28.
+#### More Events
+* Added events related to Document Recognizer.
+
 ### 2021. 11. 23.
 #### More Events
 * Added events related to Vehicle Plate Recognizer.

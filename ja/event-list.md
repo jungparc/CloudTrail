@@ -615,4 +615,5 @@
 |サービス情報確認|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
 |インデックスリクエスト状態の確認|event_id.ai_fashion.maker.indexstatus|AI Fashion|
 |事業者登録証の分析リクエスト|event_id.ai_document_recognizer.business.analyze|Document Recognizer|
+|クレジットカード分析リクエスト|event_id.ai_document_recognizer.credit_card.analyze|Document Recognizer|
 |ナンバープレートの分析リクエスト|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|

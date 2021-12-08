@@ -598,4 +598,5 @@
 |Check service information|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
 |Check indexing request status|event_id.ai_fashion.maker.indexstatus|AI Fashion|
 |Request analysis of business registration certificate|event_id.ai_document_recognizer.business.analyze|Document Recognizer|
+|Request analysis of credit card|event_id.ai_document_recognizer.credit_card.analyze|Document Recognizer|
 |Request analysis of car license plate|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|
