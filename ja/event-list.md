@@ -91,45 +91,45 @@
 |オブジェクトのコピー|event_id.object_storage.object.copy|Object Storage|
 |オブジェクトの削除|event_id.object_storage.object.delete|Object Storage|
 |オブジェクトメタデータの登録/修正|event_id.object_storage.object.metadata.update|Object Storage|
-|DBインスタンスの作成|event_id.rds_for_mysql.instance.create|RDS for MySQL|
-|DBインスタンスの削除|event_id.rds_for_mysql.instance.delete|RDS for MySQL|
-|DBインスタンスの詳細設定を変更|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL|
-|DBインスタンス管理情報を変更|event_id.rds_for_mysql.instance.management.update|RDS for MySQL|
-|DBインスタンスのConfigurationを変更|event_id.rds_for_mysql.instance.configuration.update|RDS for MySQL|
-|DBインスタンスのバックアップ	|event_id.rds_for_mysql.instance_action.backup|RDS for MySQL|
-|DBインスタンスの復元|event_id.rds_for_mysql.instance_action.restore|RDS for MySQL|
-|DBインスタンスのコピー|event_id.rds_for_mysql.instance_action.replicate|RDS for MySQL|
-|DBインスタンスの再起動|event_id.rds_for_mysql.instance_action.restart|RDS for MySQL|
-|DBインスタンスの昇格|event_id.rds_for_mysql.instance_action.promote|RDS for MySQL|
-|DBインスタンスのストレージを拡張|event_id.rds_for_mysql.instance.volume.extend|RDS for MySQL|
-|DBインスタンスの容量を確保|event_id.rds_for_mysql.instance.volume.secure|RDS for MySQL|
-|インスタンスの停止|event_id.rds_for_mysql.instance.stop|RDS for MySQL|
-|バックアップの削除|event_id.rds_for_mysql.instance.backup.delete|RDS for MySQL|
-|モニタリングチャートレイアウトを追加|event_id.rds_for_mysql.createChartLayout|RDS for MySQL|
-|モニタリングチャートレイアウトを削除|event_id.rds_for_mysql.deleteChartLayout|RDS for MySQL|
-|モニタリングチャートレイアウトを修正|event_id.rds_for_mysql.modifyChartLayout|RDS for MySQL|
-|通知の作成|event_id.rds_for_mysql.notification.create|RDS for MySQL|
-|通知の変更|event_id.rds_for_mysql.notification.update|RDS for MySQL|
-|通知の削除|event_id.rds_for_mysql.notification.delete|RDS for MySQL|
-|通知の有効化|event_id.rds_for_mysql.notification.enable|RDS for MySQL|
-|通知の無効化|event_id.rds_for_mysql.notification.disable|RDS for MySQL|
-|通知グループを作成|event_id.rds_for_mysql.createNotificationGroup|RDS for MySQL|
-|通知グループを修正|event_id.rds_for_mysql.modifyNotificationGroup|RDS for MySQL|
-|通知グループを削除|event_id.rds_for_mysql.deleteNotificationGroup|RDS for MySQL|
-|イベント購読を登録|event_id.rds_for_mysql.registerEventSubscription|RDS for MySQL|
-|イベント購読を修正|event_id.rds_for_mysql.modifyEventSubscription|RDS for MySQL|
-|イベント購読を削除|event_id.rds_for_mysql.deleteEventSubscription|RDS for MySQL|
-|ユーザーグループを作成|event_id.rds_for_mysql.createUserGroup|RDS for MySQL|
-|ユーザーグループを修正|event_id.rds_for_mysql.modifyUserGroup|RDS for MySQL|
-|ユーザーグループを削除|event_id.rds_for_mysql.deleteUserGroup|RDS for MySQL|
-|受信グループの作成|event_id.rds_for_mysql.receiver_group.create|RDS for MySQL|
-|受信グループの変更|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL|
-|受信グループの削除|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL|
-|DB定義情報の変更|event_id.rds_for_mysql.instance.db_definition.update|RDS for MySQL|
-|DB 스키마 동기화|event_id.rds_for_mysql.instance.db_definition.schema.sync|RDS for MySQL|
-|DB User 동기화|event_id.rds_for_mysql.instance.db_definition.user.sync|RDS for MySQL|
-|DBインスタンスのバックアップおよびエクスポート|event_id.rds_for_mysql.instance.backup.export|RDS for MySQL|
-|オブジェクトストレージでバックアップをエクスポート|event_id.rds_for_mysql.backup.export|RDS for MySQL|
+|DBインスタンスの作成|event_id.rds_for_mysql.instance.create|RDS for MySQL, RDS for MariaDB|
+|DBインスタンスの削除|event_id.rds_for_mysql.instance.delete|RDS for MySQL, RDS for MariaDB|
+|DBインスタンスの詳細設定を変更|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL, RDS for MariaDB|
+|DBインスタンス管理情報を変更|event_id.rds_for_mysql.instance.management.update|RDS for MySQL, RDS for MariaDB|
+|DBインスタンスのConfigurationを変更|event_id.rds_for_mysql.instance.configuration.update|RDS for MySQL, RDS for MariaDB|
+|DBインスタンスのバックアップ	|event_id.rds_for_mysql.instance_action.backup|RDS for MySQL, RDS for MariaDB|
+|DBインスタンスの復元|event_id.rds_for_mysql.instance_action.restore|RDS for MySQL, RDS for MariaDB|
+|DBインスタンスのコピー|event_id.rds_for_mysql.instance_action.replicate|RDS for MySQL, RDS for MariaDB|
+|DBインスタンスの再起動|event_id.rds_for_mysql.instance_action.restart|RDS for MySQL, RDS for MariaDB|
+|DBインスタンスの昇格|event_id.rds_for_mysql.instance_action.promote|RDS for MySQL, RDS for MariaDB|
+|DBインスタンスのストレージを拡張|event_id.rds_for_mysql.instance.volume.extend|RDS for MySQL, RDS for MariaDB|
+|DBインスタンスの容量を確保|event_id.rds_for_mysql.instance.volume.secure|RDS for MySQL, RDS for MariaDB|
+|インスタンスの停止|event_id.rds_for_mysql.instance.stop|RDS for MySQL, RDS for MariaDB|
+|バックアップの削除|event_id.rds_for_mysql.instance.backup.delete|RDS for MySQL, RDS for MariaDB|
+|モニタリングチャートレイアウトを追加|event_id.rds_for_mysql.createChartLayout|RDS for MySQL, RDS for MariaDB|
+|モニタリングチャートレイアウトを削除|event_id.rds_for_mysql.deleteChartLayout|RDS for MySQL, RDS for MariaDB|
+|モニタリングチャートレイアウトを修正|event_id.rds_for_mysql.modifyChartLayout|RDS for MySQL, RDS for MariaDB|
+|通知の作成|event_id.rds_for_mysql.notification.create|RDS for MySQL, RDS for MariaDB|
+|通知の変更|event_id.rds_for_mysql.notification.update|RDS for MySQL, RDS for MariaDB|
+|通知の削除|event_id.rds_for_mysql.notification.delete|RDS for MySQL, RDS for MariaDB|
+|通知の有効化|event_id.rds_for_mysql.notification.enable|RDS for MySQL, RDS for MariaDB|
+|通知の無効化|event_id.rds_for_mysql.notification.disable|RDS for MySQL, RDS for MariaDB|
+|通知グループを作成|event_id.rds_for_mysql.createNotificationGroup|RDS for MySQL, RDS for MariaDB|
+|通知グループを修正|event_id.rds_for_mysql.modifyNotificationGroup|RDS for MySQL, RDS for MariaDB|
+|通知グループを削除|event_id.rds_for_mysql.deleteNotificationGroup|RDS for MySQL, RDS for MariaDB|
+|イベント購読を登録|event_id.rds_for_mysql.registerEventSubscription|RDS for MySQL, RDS for MariaDB|
+|イベント購読を修正|event_id.rds_for_mysql.modifyEventSubscription|RDS for MySQL, RDS for MariaDB|
+|イベント購読を削除|event_id.rds_for_mysql.deleteEventSubscription|RDS for MySQL, RDS for MariaDB|
+|ユーザーグループを作成|event_id.rds_for_mysql.createUserGroup|RDS for MySQL, RDS for MariaDB|
+|ユーザーグループを修正|event_id.rds_for_mysql.modifyUserGroup|RDS for MySQL, RDS for MariaDB|
+|ユーザーグループを削除|event_id.rds_for_mysql.deleteUserGroup|RDS for MySQL, RDS for MariaDB|
+|受信グループの作成|event_id.rds_for_mysql.receiver_group.create|RDS for MySQL, RDS for MariaDB|
+|受信グループの変更|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL, RDS for MariaDB|
+|受信グループの削除|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL, RDS for MariaDB|
+|DB定義情報の変更|event_id.rds_for_mysql.instance.db_definition.update|RDS for MySQL, RDS for MariaDB|
+|DB 스키마 동기화|event_id.rds_for_mysql.instance.db_definition.schema.sync|RDS for MySQL, RDS for MariaDB|
+|DB User 동기화|event_id.rds_for_mysql.instance.db_definition.user.sync|RDS for MySQL, RDS for MariaDB|
+|DBインスタンスのバックアップおよびエクスポート|event_id.rds_for_mysql.instance.backup.export|RDS for MySQL, RDS for MariaDB|
+|オブジェクトストレージでバックアップをエクスポート|event_id.rds_for_mysql.backup.export|RDS for MySQL, RDS for MariaDB|
 |キー保存場所 作成|event_id.skm.keystore.create|Secure Key Manger|
 |キー保存場所 削除|event_id.skm.keystore.delete|Secure Key Manger|
 |キー保存場所 変更|event_id.skm.keystore.update|Secure Key Manger|

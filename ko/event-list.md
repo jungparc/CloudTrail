@@ -91,45 +91,45 @@
 |오브젝트 복사|event_id.object_storage.object.copy|Object Storage|
 |오브젝트 삭제|event_id.object_storage.object.delete|Object Storage|
 |오브젝트 메타데이터 등록/수정|event_id.object_storage.object.metadata.update|Object Storage|
-|DB 인스턴스 생성|event_id.rds_for_mysql.instance.create|RDS for MySQL|
-|DB 인스턴스 삭제|event_id.rds_for_mysql.instance.delete|RDS for MySQL|
-|DB 인스턴스 상세 설정 변경|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL|
-|DB 인스턴스 관리 정보 변경|event_id.rds_for_mysql.instance.management.update|RDS for MySQL|
-|DB 인스턴스 Configuration 변경|event_id.rds_for_mysql.instance.configuration.update|RDS for MySQL|
-|DB 인스턴스 백업|event_id.rds_for_mysql.instance_action.backup|RDS for MySQL|
-|DB 인스턴스 복원|event_id.rds_for_mysql.instance_action.restore|RDS for MySQL|
-|DB 인스턴스 복제|event_id.rds_for_mysql.instance_action.replicate|RDS for MySQL|
-|DB 인스턴스 재시작|event_id.rds_for_mysql.instance_action.restart|RDS for MySQL|
-|DB 인스턴스 승격|event_id.rds_for_mysql.instance_action.promote|RDS for MySQL|
-|DB 인스턴스 스토리지 확장|event_id.rds_for_mysql.instance.volume.extend|RDS for MySQL|
-|DB 인스턴스 용량 확보|event_id.rds_for_mysql.instance.volume.secure|RDS for MySQL|
-|인스턴스 중지|event_id.rds_for_mysql.instance.stop|RDS for MySQL|
-|모니터링 차트 레이아웃 추가|event_id.rds_for_mysql.createChartLayout|RDS for MySQL|
-|모니터링 차트 레이아웃 삭제|event_id.rds_for_mysql.deleteChartLayout|RDS for MySQL|
-|모니터링 차트 레이아웃 수정|event_id.rds_for_mysql.modifyChartLayout|RDS for MySQL|
-|백업 삭제|event_id.rds_for_mysql.instance.backup.delete|RDS for MySQL|
-|알림 생성|event_id.rds_for_mysql.notification.create|RDS for MySQL|
-|알림 변경|event_id.rds_for_mysql.notification.update|RDS for MySQL|
-|알림 삭제|event_id.rds_for_mysql.notification.delete|RDS for MySQL|
-|알림 활성화|event_id.rds_for_mysql.notification.enable|RDS for MySQL|
-|알림 비활성화|event_id.rds_for_mysql.notification.disable|RDS for MySQL|
-|알림 그룹 생성|event_id.rds_for_mysql.createNotificationGroup|RDS for MySQL|
-|알림 그룹 수정|event_id.rds_for_mysql.modifyNotificationGroup|RDS for MySQL|
-|알림 그룹 삭제|event_id.rds_for_mysql.deleteNotificationGroup|RDS for MySQL|
-|이벤트 구독 등록|event_id.rds_for_mysql.registerEventSubscription|RDS for MySQL|
-|이벤트 구독 수정|event_id.rds_for_mysql.modifyEventSubscription|RDS for MySQL|
-|이벤트 구독 삭제|event_id.rds_for_mysql.deleteEventSubscription|RDS for MySQL|
-|사용자 그룹 생성|event_id.rds_for_mysql.createUserGroup|RDS for MySQL|
-|사용자 그룹 수정|event_id.rds_for_mysql.modifyUserGroup|RDS for MySQL|
-|사용자 그룹 삭제|event_id.rds_for_mysql.deleteUserGroup|RDS for MySQL|
-|수신 그룹 생성|event_id.rds_for_mysql.receiver_group.create|RDS for MySQL|
-|수신 그룹 변경|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL|
-|수신 그룹 삭제|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL|
-|DB 정의 정보 변경|event_id.rds_for_mysql.instance.db_definition.update|RDS for MySQL|
-|DB 스키마 동기화|event_id.rds_for_mysql.instance.db_definition.schema.sync|RDS for MySQL|
-|DB User 동기화|event_id.rds_for_mysql.instance.db_definition.user.sync|RDS for MySQL|
-|DB 인스턴스 백업 및 내보내기|event_id.rds_for_mysql.instance.backup.export|RDS for MySQL|
-|오브젝트 스토리지로 백업 내보내기|event_id.rds_for_mysql.backup.export|RDS for MySQL|
+|DB 인스턴스 생성|event_id.rds_for_mysql.instance.create|RDS for MySQL, RDS for MariaDB|
+|DB 인스턴스 삭제|event_id.rds_for_mysql.instance.delete|RDS for MySQL, RDS for MariaDB|
+|DB 인스턴스 상세 설정 변경|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL, RDS for MariaDB|
+|DB 인스턴스 관리 정보 변경|event_id.rds_for_mysql.instance.management.update|RDS for MySQL, RDS for MariaDB|
+|DB 인스턴스 Configuration 변경|event_id.rds_for_mysql.instance.configuration.update|RDS for MySQL, RDS for MariaDB|
+|DB 인스턴스 백업|event_id.rds_for_mysql.instance_action.backup|RDS for MySQL, RDS for MariaDB|
+|DB 인스턴스 복원|event_id.rds_for_mysql.instance_action.restore|RDS for MySQL, RDS for MariaDB|
+|DB 인스턴스 복제|event_id.rds_for_mysql.instance_action.replicate|RDS for MySQL, RDS for MariaDB|
+|DB 인스턴스 재시작|event_id.rds_for_mysql.instance_action.restart|RDS for MySQL, RDS for MariaDB|
+|DB 인스턴스 승격|event_id.rds_for_mysql.instance_action.promote|RDS for MySQL, RDS for MariaDB|
+|DB 인스턴스 스토리지 확장|event_id.rds_for_mysql.instance.volume.extend|RDS for MySQL, RDS for MariaDB|
+|DB 인스턴스 용량 확보|event_id.rds_for_mysql.instance.volume.secure|RDS for MySQL, RDS for MariaDB|
+|인스턴스 중지|event_id.rds_for_mysql.instance.stop|RDS for MySQL, RDS for MariaDB|
+|모니터링 차트 레이아웃 추가|event_id.rds_for_mysql.createChartLayout|RDS for MySQL, RDS for MariaDB|
+|모니터링 차트 레이아웃 삭제|event_id.rds_for_mysql.deleteChartLayout|RDS for MySQL, RDS for MariaDB|
+|모니터링 차트 레이아웃 수정|event_id.rds_for_mysql.modifyChartLayout|RDS for MySQL, RDS for MariaDB|
+|백업 삭제|event_id.rds_for_mysql.instance.backup.delete|RDS for MySQL, RDS for MariaDB|
+|알림 생성|event_id.rds_for_mysql.notification.create|RDS for MySQL, RDS for MariaDB|
+|알림 변경|event_id.rds_for_mysql.notification.update|RDS for MySQL, RDS for MariaDB|
+|알림 삭제|event_id.rds_for_mysql.notification.delete|RDS for MySQL, RDS for MariaDB|
+|알림 활성화|event_id.rds_for_mysql.notification.enable|RDS for MySQL, RDS for MariaDB|
+|알림 비활성화|event_id.rds_for_mysql.notification.disable|RDS for MySQL, RDS for MariaDB|
+|알림 그룹 생성|event_id.rds_for_mysql.createNotificationGroup|RDS for MySQL, RDS for MariaDB|
+|알림 그룹 수정|event_id.rds_for_mysql.modifyNotificationGroup|RDS for MySQL, RDS for MariaDB|
+|알림 그룹 삭제|event_id.rds_for_mysql.deleteNotificationGroup|RDS for MySQL, RDS for MariaDB|
+|이벤트 구독 등록|event_id.rds_for_mysql.registerEventSubscription|RDS for MySQL, RDS for MariaDB|
+|이벤트 구독 수정|event_id.rds_for_mysql.modifyEventSubscription|RDS for MySQL, RDS for MariaDB|
+|이벤트 구독 삭제|event_id.rds_for_mysql.deleteEventSubscription|RDS for MySQL, RDS for MariaDB|
+|사용자 그룹 생성|event_id.rds_for_mysql.createUserGroup|RDS for MySQL, RDS for MariaDB|
+|사용자 그룹 수정|event_id.rds_for_mysql.modifyUserGroup|RDS for MySQL, RDS for MariaDB|
+|사용자 그룹 삭제|event_id.rds_for_mysql.deleteUserGroup|RDS for MySQL, RDS for MariaDB|
+|수신 그룹 생성|event_id.rds_for_mysql.receiver_group.create|RDS for MySQL, RDS for MariaDB|
+|수신 그룹 변경|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL, RDS for MariaDB|
+|수신 그룹 삭제|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL, RDS for MariaDB|
+|DB 정의 정보 변경|event_id.rds_for_mysql.instance.db_definition.update|RDS for MySQL, RDS for MariaDB|
+|DB 스키마 동기화|event_id.rds_for_mysql.instance.db_definition.schema.sync|RDS for MySQL, RDS for MariaDB|
+|DB User 동기화|event_id.rds_for_mysql.instance.db_definition.user.sync|RDS for MySQL, RDS for MariaDB|
+|DB 인스턴스 백업 및 내보내기|event_id.rds_for_mysql.instance.backup.export|RDS for MySQL, RDS for MariaDB|
+|오브젝트 스토리지로 백업 내보내기|event_id.rds_for_mysql.backup.export|RDS for MySQL, RDS for MariaDB|
 |키 저장소 생성|event_id.skm.keystore.create|Secure Key Manager
 |키 저장소 삭제|event_id.skm.keystore.delete|Secure Key Manager
 |키 저장소 정보 변경|event_id.skm.keystore.update|Secure Key Manager

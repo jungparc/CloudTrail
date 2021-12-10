@@ -5,6 +5,10 @@
 #### More Events
 * Document Recognizerサービス関連イベントを追加しました。
 
+### 2021. 12. 14.
+#### More Events
+* RDS for MariaDBサービス関連イベントを追加しました。
+
 ### 2021. 11. 23.
 #### More Events
 * Vehicle Plate Recognizerサービス関連イベントを追加しました。
