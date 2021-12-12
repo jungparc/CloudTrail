@@ -569,4 +569,6 @@
 |Check indexing request status|event_id.ai_fashion.maker.indexstatus|AI Fashion|
 |Request analysis of business registration certificate|event_id.ai_document_recognizer.business.analyze|Document Recognizer|
 |Request analysis of credit card|event_id.ai_document_recognizer.credit_card.analyze|Document Recognizer|
+|Submit a service use request|event_id.ai_document_recognizer.service_use_request.submit|Document Recognizer|
+|Cancel a service use request|event_id.ai_document_recognizer.service_use_request.cancel|Document Recognizer|
 |Request analysis of car license plate|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|
