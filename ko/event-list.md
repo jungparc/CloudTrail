@@ -615,4 +615,7 @@
 |서비스 정보 확인|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
 |색인 요청 상태 확인|event_id.ai_fashion.maker.indexstatus|AI Fashion|
 |사업자 등록증 분석 요청|event_id.ai_document_recognizer.business.analyze|Document Recognizer|
+|신용카드 분석 요청|event_id.ai_document_recognizer.credit_card.analyze|Document Recognizer|
+|서비스 이용 신청|event_id.ai_document_recognizer.service_use_request.submit|Document Recognizer|
+|서비스 이용 신청 취소|event_id.ai_document_recognizer.service_use_request.cancel|Document Recognizer|
 |차량 번호판 분석 요청|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|
