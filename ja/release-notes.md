@@ -1,6 +1,10 @@
 
 ## CloudTrail > リリースノート
 
+### 2021. 12. 28.
+#### More Events
+* Document Recognizerサービス関連イベントを追加しました。
+
 ### 2021. 12. 14.
 #### More Events
 * RDS for MariaDBサービス関連イベントを追加しました。
