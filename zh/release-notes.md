@@ -1,6 +1,10 @@
 
 ## CloudTrail > Release Notes
 
+### 2021. 1. 11.
+#### More Events
+* Added events related to KakaoTalk Bizmessage.
+
 ### 2021. 12. 28.
 #### More Events
 * Added events related to Document Recognizer.

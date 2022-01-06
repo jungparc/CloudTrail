@@ -1,6 +1,10 @@
 
 ## CloudTrail > リリースノート
 
+### 2022. 1. 11.
+#### More Events
+* KakaoTalk Bizmessageサービス関連イベントを追加しました。
+
 ### 2021. 12. 28.
 #### More Events
 * Document Recognizerサービス関連イベントを追加しました。
