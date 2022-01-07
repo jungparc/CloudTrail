@@ -619,39 +619,42 @@
 |サービス利用申請|event_id.ai_document_recognizer.service_use_request.submit|Document Recognizer|
 |サービス利用申請キャンセル|event_id.ai_document_recognizer.service_use_request.cancel|Document Recognizer|
 |ナンバープレートの分析リクエスト|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|
-|Create Sender Profile|event_id.kakaotalk.sender.creation|KakaoTalk Bizmessage|
-|Certify Sender Profile Token|event_id.kakaotalk.sender.token.certification|KakaoTalk Bizmessage|
-|Delete Sender Profile|event_id.kakaotalk.sender.deletion|KakaoTalk Bizmessage|
-|Create Sender Profile Group|event_id.kakaotalk.sender.group.creation|KakaoTalk Bizmessage|
-|Delete Sender Profile Group|event_id.kakaotalk.sender.group.deletion|KakaoTalk Bizmessage|
-|Add Sender Profile to Group|event_id.kakaotalk.sender.group.member.addition|KakaoTalk Bizmessage|
-|Delete Sender Profile from Group|event_id.kakaotalk.sender.group.member.deletion|KakaoTalk Bizmessage|
-|Store Alimtalk, Friendtalk Fallback SMS Appkey|event_id.kakaotalk.fallback.appkey.creation|KakaoTalk Bizmessage|
-|Store Alimtalk, Friendtalk Fallback Settings|event_id.kakaotalk.fallback.setting.creation|KakaoTalk Bizmessage|
-|Create Template|event_id.alimtalk.template.creation|KakaoTalk Bizmessage|
-|Modify Template|event_id.alimtalk.template.modification|KakaoTalk Bizmessage|
-|Delete Template|event_id.alimtalk.template.deletion|KakaoTalk Bizmessage|
-|Inquire about Template|event_id.alimtalk.template.comment|KakaoTalk Bizmessage|
-|Create Template using Attachments|event_id.alimtalk.template.creation.for.file|KakaoTalk Bizmessage|
-|Upload Template Image|event_id.alimtalk.template.image.uploading|KakaoTalk Bizmessage|
-|Send Alimtalk Message|event_id.alimtalk.message.sending|KakaoTalk Bizmessage|
-|Send Alimtalk Authentication Message|event_id.alimtalk.message.auth.sending|KakaoTalk Bizmessage|
-|Cancel Sending Alimtalk Message|event_id.alimtalk.message.sending.cancellation|KakaoTalk Bizmessage|
-|Retrieve Alimtalk Message List|event_id.alimtalk.messages.searching|KakaoTalk Bizmessage|
-|Retrieve Alimtalk Authentication Message List|event_id.alimtalk.auth.messages.searching|KakaoTalk Bizmessage|
-|Retrieve Alimtalk Mass Recipient List|event_id.alimtalk.mass.recipients.searching|KakaoTalk Bizmessage|
-|Export Alimtalk Mass Message Results|event_id.alimtalk.mass.message.results.export|KakaoTalk Bizmessage|
-|Upload Alimtalk Mass Message File|event_id.alimtalk.mass.message.uploading|KakaoTalk Bizmessage|
-|Send Alimtalk Mass Message|event_id.alimtalk.mass.message.sending|KakaoTalk Bizmessage|
-|Cancel Sending Alimtalk Mass Message|event_id.alimtalk.mass.message.sending.cancellation|KakaoTalk Bizmessage|
-|Export Alimtalk Message Results|event_id.alimtalk.message.results.export|KakaoTalk Bizmessage|
-|Upload Friendtalk Mass Message File|event_id.friendtalk.mass.message.uploading|KakaoTalk Bizmessage|
-|Send Friendtalk Message|event_id.friendtalk.message.sending|KakaoTalk Bizmessage|
-|Sending Friendtalk Mass Message|event_id.friendtalk.mass.message.sending|KakaoTalk Bizmessage|
-|Cancel Sending Friendtalk Message|event_id.friendtalk.message.sending.cancellation|KakaoTalk Bizmessage|
-|Retrieve Friendtalk Message List|event_id.friendtalk.messages.searching|KakaoTalk Bizmessage|
-|Export Friendtalk Message Results|event_id.friendtalk.message.results.export|KakaoTalk Bizmessage|
-|Retrieve Friendtalk Mass Recipient List|event_id.friendtalk.mass.recipients.searching|KakaoTalk Bizmessage|
-|Export Friendtalk Mass Message Results|event_id.friendtalk.mass.message.results.export|KakaoTalk Bizmessage|
-|Upload Friendtalk Image|event_id.friendtalk.image.uploading|KakaoTalk Bizmessage|
-|Delete Friendtalk Image|event_id.friendtalk.image.deletion|KakaoTalk Bizmessage|
+|発信プロフィールの作成|event_id.kakaotalk.sender.creation|KakaoTalk Bizmessage|
+|発信プロフィールトークンの認証|event_id.kakaotalk.sender.token.certification|KakaoTalk Bizmessage|
+|発信プロフィールの削除|event_id.kakaotalk.sender.deletion|KakaoTalk Bizmessage|
+|発信プロフィールグループの作成|event_id.kakaotalk.sender.group.creation|KakaoTalk Bizmessage|
+|発信プロフィールグループの削除|event_id.kakaotalk.sender.group.deletion|KakaoTalk Bizmessage|
+|グループに発信プロフィールを追加|event_id.kakaotalk.sender.group.member.addition|KakaoTalk Bizmessage|
+|グループから発信プロフィールを削除|event_id.kakaotalk.sender.group.member.deletion|KakaoTalk Bizmessage|
+|お知らせトーク、カカともへのメッセージ代替送信`SMS` Appkey保存|event_id.kakaotalk.fallback.appkey.creation|KakaoTalk Bizmessage|
+|お知らせトーク、カカともへのメッセージ代替送信設定の保存|event_id.kakaotalk.fallback.setting.creation|KakaoTalk Bizmessage|
+|テンプレートの作成|event_id.alimtalk.template.creation|KakaoTalk Bizmessage|
+|テンプレートの修正|event_id.alimtalk.template.modification|KakaoTalk Bizmessage|
+|テンプレートの削除|event_id.alimtalk.template.deletion|KakaoTalk Bizmessage|
+|テンプレートのお問い合わせ|event_id.alimtalk.template.comment|KakaoTalk Bizmessage|
+|添付ファイルを使用してテンプレート作成|event_id.alimtalk.template.creation-for-file|KakaoTalk Bizmessage|
+|テンプレートイメージのアップロード|event_id.alimtalk.template.image.uploading|KakaoTalk Bizmessage|
+|お知らせトークメッセージの送信|event_id.alimtalk.message.sending|KakaoTalk Bizmessage|
+|お知らせトーク認証メッセージの送信|event_id.alimtalk.message.auth.sending|KakaoTalk Bizmessage|
+|お知らせトークメッセージの送信キャンセル|event_id.alimtalk.message.sending-cancellation|KakaoTalk Bizmessage|
+|お知らせトークメッセージリストの照会|event_id.alimtalk.messages.searching|KakaoTalk Bizmessage|
+|お知らせトーク認証メッセージリストの照会|event_id.alimtalk.auth.messages.searching|KakaoTalk Bizmessage|
+|お知らせトーク大量受信者リストの照会|event_id.alimtalk.mass.recipients.searching|KakaoTalk Bizmessage|
+|お知らせトーク大量メッセージ結果のエクスポート|event_id.alimtalk.mass.message.results.export|KakaoTalk Bizmessage|
+|お知らせトーク大量メッセージファイルのアップロード|event_id.alimtalk.mass.message.uploading|KakaoTalk Bizmessage|
+|お知らせトーク大量メッセージ送信|event_id.alimtalk.mass.message.sending|KakaoTalk Bizmessage|
+|お知らせトーク大量メッセージ送信のキャンセル|event_id.alimtalk.mass.message.sending-cancellation|KakaoTalk Bizmessage|
+|お知らせトークメッセージ結果のエクスポート|event_id.alimtalk.message.results.export|KakaoTalk Bizmessage|
+|カカともへのメッセージ大量メッセージファイルのアップロード|event_id.friendtalk.mass.message.uploading|KakaoTalk Bizmessage|
+|カカともへのメッセージの送信|event_id.friendtalk.message.sending|KakaoTalk Bizmessage|
+|カカともへのメッセージ大量送信|event_id.friendtalk.mass.message.sending|KakaoTalk Bizmessage|
+|친구톡 대량 메시지 전송 취소|event_id.friendtalk.mass.message.sending-cancellation|KakaoTalk Bizmessage|
+|カカともへのメッセージの送信キャンセル|event_id.friendtalk.message.sending-cancellation|KakaoTalk Bizmessage|
+|カカともへのメッセージリストの照会|event_id.friendtalk.messages.searching|KakaoTalk Bizmessage|
+|カカともへのメッセージ結果のエクスポート|event_id.friendtalk.message.results.export|KakaoTalk Bizmessage|
+|カカともへのメッセージ大量受信者リストの照会|event_id.friendtalk.mass.recipients.searching|KakaoTalk Bizmessage|
+|カカともへのメッセージ大量メッセージ結果のエクスポート|event_id.friendtalk.mass.message.results.export|KakaoTalk Bizmessage|
+|カカともへのメッセージイメージのアップロード|event_id.friendtalk.image.uploading|KakaoTalk Bizmessage|
+|カカともへのメッセージイメージの削除|event_id.friendtalk.image.deletion|KakaoTalk Bizmessage|
+
+

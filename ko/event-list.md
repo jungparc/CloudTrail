@@ -632,23 +632,24 @@
 |템플릿 수정|event_id.alimtalk.template.modification|KakaoTalk Bizmessage|
 |템플릿 삭제|event_id.alimtalk.template.deletion|KakaoTalk Bizmessage|
 |템플릿 문의하기|event_id.alimtalk.template.comment|KakaoTalk Bizmessage|
-|첨부 파일을 사용해 템플릿 생성|event_id.alimtalk.template.creation.for.file|KakaoTalk Bizmessage|
+|첨부 파일을 사용해 템플릿 생성|event_id.alimtalk.template.creation-for-file|KakaoTalk Bizmessage|
 |템플릿 이미지 업로드|event_id.alimtalk.template.image.uploading|KakaoTalk Bizmessage|
 |알림톡 메시지 발송|event_id.alimtalk.message.sending|KakaoTalk Bizmessage|
 |알림톡 인증 메시지 발송|event_id.alimtalk.message.auth.sending|KakaoTalk Bizmessage|
-|알림톡 메시지 발송 취소|event_id.alimtalk.message.sending.cancellation|KakaoTalk Bizmessage|
+|알림톡 메시지 발송 취소|event_id.alimtalk.message.sending-cancellation|KakaoTalk Bizmessage|
 |알림톡 메시지 목록 조회|event_id.alimtalk.messages.searching|KakaoTalk Bizmessage|
 |알림톡 인증 메시지 목록 조회|event_id.alimtalk.auth.messages.searching|KakaoTalk Bizmessage|
 |알림톡 대량 수신자 목록 조회|event_id.alimtalk.mass.recipients.searching|KakaoTalk Bizmessage|
 |알림톡 대량 메시지 결과 내보내기|event_id.alimtalk.mass.message.results.export|KakaoTalk Bizmessage|
 |알림톡 대량 메시지 파일 업로드|event_id.alimtalk.mass.message.uploading|KakaoTalk Bizmessage|
 |알림톡 대량 메시지 전송|event_id.alimtalk.mass.message.sending|KakaoTalk Bizmessage|
-|알림톡 대량 메시지 전송 취소|event_id.alimtalk.mass.message.sending.cancellation|KakaoTalk Bizmessage|
+|알림톡 대량 메시지 전송 취소|event_id.alimtalk.mass.message.sending-cancellation|KakaoTalk Bizmessage|
 |알림톡 메시지 결과 내보내기|event_id.alimtalk.message.results.export|KakaoTalk Bizmessage|
 |친구톡 대량 메시지 파일 업로드|event_id.friendtalk.mass.message.uploading|KakaoTalk Bizmessage|
 |친구톡 메시지 발송|event_id.friendtalk.message.sending|KakaoTalk Bizmessage|
 |친구톡 대량 메시지 전송|event_id.friendtalk.mass.message.sending|KakaoTalk Bizmessage|
-|친구톡 메시지 발송 취소|event_id.friendtalk.message.sending.cancellation|KakaoTalk Bizmessage|
+|친구톡 대량 메시지 전송 취소|event_id.friendtalk.mass.message.sending-cancellation|KakaoTalk Bizmessage|
+|친구톡 메시지 발송 취소|event_id.friendtalk.message.sending-cancellation|KakaoTalk Bizmessage|
 |친구톡 메시지 목록 조회|event_id.friendtalk.messages.searching|KakaoTalk Bizmessage|
 |친구톡 메시지 결과 내보내기|event_id.friendtalk.message.results.export|KakaoTalk Bizmessage|
 |친구톡 대량 수신자 목록 조회|event_id.friendtalk.mass.recipients.searching|KakaoTalk Bizmessage|

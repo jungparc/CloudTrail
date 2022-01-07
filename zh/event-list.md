@@ -615,26 +615,28 @@
 |Modify Template|event_id.alimtalk.template.modification|KakaoTalk Bizmessage|
 |Delete Template|event_id.alimtalk.template.deletion|KakaoTalk Bizmessage|
 |Inquire about Template|event_id.alimtalk.template.comment|KakaoTalk Bizmessage|
-|Create Template using Attachments|event_id.alimtalk.template.creation.for.file|KakaoTalk Bizmessage|
+|Create Template using Attachments|event_id.alimtalk.template.creation-for-file|KakaoTalk Bizmessage|
 |Upload Template Image|event_id.alimtalk.template.image.uploading|KakaoTalk Bizmessage|
 |Send Alimtalk Message|event_id.alimtalk.message.sending|KakaoTalk Bizmessage|
 |Send Alimtalk Authentication Message|event_id.alimtalk.message.auth.sending|KakaoTalk Bizmessage|
-|Cancel Sending Alimtalk Message|event_id.alimtalk.message.sending.cancellation|KakaoTalk Bizmessage|
+|Cancel Sending Alimtalk Message|event_id.alimtalk.message.sending-cancellation|KakaoTalk Bizmessage|
 |Retrieve Alimtalk Message List|event_id.alimtalk.messages.searching|KakaoTalk Bizmessage|
 |Retrieve Alimtalk Authentication Message List|event_id.alimtalk.auth.messages.searching|KakaoTalk Bizmessage|
 |Retrieve Alimtalk Mass Recipient List|event_id.alimtalk.mass.recipients.searching|KakaoTalk Bizmessage|
 |Export Alimtalk Mass Message Results|event_id.alimtalk.mass.message.results.export|KakaoTalk Bizmessage|
 |Upload Alimtalk Mass Message File|event_id.alimtalk.mass.message.uploading|KakaoTalk Bizmessage|
 |Send Alimtalk Mass Message|event_id.alimtalk.mass.message.sending|KakaoTalk Bizmessage|
-|Cancel Sending Alimtalk Mass Message|event_id.alimtalk.mass.message.sending.cancellation|KakaoTalk Bizmessage|
+|Cancel Sending Alimtalk Mass Message|event_id.alimtalk.mass.message.sending-cancellation|KakaoTalk Bizmessage|
 |Export Alimtalk Message Results|event_id.alimtalk.message.results.export|KakaoTalk Bizmessage|
 |Upload Friendtalk Mass Message File|event_id.friendtalk.mass.message.uploading|KakaoTalk Bizmessage|
 |Send Friendtalk Message|event_id.friendtalk.message.sending|KakaoTalk Bizmessage|
 |Sending Friendtalk Mass Message|event_id.friendtalk.mass.message.sending|KakaoTalk Bizmessage|
-|Cancel Sending Friendtalk Message|event_id.friendtalk.message.sending.cancellation|KakaoTalk Bizmessage|
+|Cancel Sending Friendtalk Mass Message|event_id.friendtalk.mass.message.sending-cancellation|KakaoTalk Bizmessage|
+|Cancel Sending Friendtalk Message|event_id.friendtalk.message.sending-cancellation|KakaoTalk Bizmessage|
 |Retrieve Friendtalk Message List|event_id.friendtalk.messages.searching|KakaoTalk Bizmessage|
 |Export Friendtalk Message Results|event_id.friendtalk.message.results.export|KakaoTalk Bizmessage|
 |Retrieve Friendtalk Mass Recipient List|event_id.friendtalk.mass.recipients.searching|KakaoTalk Bizmessage|
 |Export Friendtalk Mass Message Results|event_id.friendtalk.mass.message.results.export|KakaoTalk Bizmessage|
 |Upload Friendtalk Image|event_id.friendtalk.image.uploading|KakaoTalk Bizmessage|
 |Delete Friendtalk Image|event_id.friendtalk.image.deletion|KakaoTalk Bizmessage|
+
