@@ -1,6 +1,10 @@
 
 ## CloudTrail > Release Notes
 
+### 2022. 1. 13.
+#### 이벤트 추가
+* GameStarter 서비스 관련 이벤트가 추가되었습니다.
+
 ### 2021. 1. 11.
 #### More Events
 * Added events related to KakaoTalk Bizmessage.
