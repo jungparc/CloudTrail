@@ -1,7 +1,10 @@
 
 ## CloudTrail > Release Notes
 
-### 2021. 1. 11.
+### 2022. 1. 25.
+* Added events related to API Gateway.
+* 
+### 2022. 01. 11.
 #### More Events
 * Added events related to KakaoTalk Bizmessage.
 
