@@ -648,7 +648,7 @@
 |カカともへのメッセージ大量メッセージファイルのアップロード|event_id.friendtalk.mass.message.uploading|KakaoTalk Bizmessage|
 |カカともへのメッセージの送信|event_id.friendtalk.message.sending|KakaoTalk Bizmessage|
 |カカともへのメッセージ大量送信|event_id.friendtalk.mass.message.sending|KakaoTalk Bizmessage|
-|친구톡 대량 메시지 전송 취소|event_id.friendtalk.mass.message.sending-cancellation|KakaoTalk Bizmessage|
+|カカともへのメッセージ大量メッセージ送信のキャンセル|event_id.friendtalk.mass.message.sending-cancellation|KakaoTalk Bizmessage|
 |カカともへのメッセージの送信キャンセル|event_id.friendtalk.message.sending-cancellation|KakaoTalk Bizmessage|
 |カカともへのメッセージリストの照会|event_id.friendtalk.messages.searching|KakaoTalk Bizmessage|
 |カカともへのメッセージ結果のエクスポート|event_id.friendtalk.message.results.export|KakaoTalk Bizmessage|
