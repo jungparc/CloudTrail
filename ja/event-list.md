@@ -656,5 +656,38 @@
 |カカともへのメッセージ大量メッセージ結果のエクスポート|event_id.friendtalk.mass.message.results.export|KakaoTalk Bizmessage|
 |カカともへのメッセージイメージのアップロード|event_id.friendtalk.image.uploading|KakaoTalk Bizmessage|
 |カカともへのメッセージイメージの削除|event_id.friendtalk.image.deletion|KakaoTalk Bizmessage|
-
-
+|API Key 생성|event_id.apigw.apikey.create|API Gateway|			
+|API Key 수정|event_id.apigw.apikey.update|API Gateway|			
+|API Key 삭제|event_id.apigw.apikey.delete|API Gateway|			
+|Primary/Secondary API Key 재발급|event_id.apigw.apikey.regenerate|API Gateway|			
+|스테이지 배포|event_id.apigw.stage.deploy|API Gateway|			
+|스테이지 되돌리기|event_id.apigw.stage.rollback|API Gateway|			
+|스테이지 배포 이력 삭제|event_id.apigw.stage.delete_deploy_history|API Gateway|			
+|모델 생성|event_id.apigw.model.create|API Gateway|			
+|모델 수정|event_id.apigw.model.update|API Gateway|			
+|모델 삭제|event_id.apigw.model.delete|API Gateway|			
+|리소스 경로와 메서드 생성|event_id.apigw.resource.create_path_and_method|API Gateway|			
+|리소스 메서드 생성|event_id.apigw.resource.create_method|API Gateway|			
+|리소스 경로 플러그인 수정|event_id.apigw.resource.update_path_plugin|API Gateway|			
+|리소스 메서드 정보와 플러그인 수정|event_id.apigw.resource.update_method_info_and_plugin|API Gateway|			
+|리소스 삭제|event_id.apigw.resource.delete|API Gateway|			
+|Swagger로 리소스 가져오기|event_id.apigw.resource.import_swagger|API Gateway|			
+|서비스 생성|event_id.apigw.service.create|API Gateway|			
+|서비스 수정|event_id.apigw.service.update|API Gateway|			
+|서비스 삭제|event_id.apigw.service.delete|API Gateway|			
+|스테이지 생성|event_id.apigw.stage.create|API Gateway|			
+|스테이지 수정|event_id.apigw.stage.update|API Gateway|			
+|스테이지 삭제|event_id.apigw.stage.delete|API Gateway|			
+|스테이지에 리소스 적용|event_id.apigw.stage.import_resource|API Gateway|			
+|스테이지 리소스 수정|event_id.apigw.stage.update_stage_resource|API Gateway|			
+|사용량 계획, 스테이지와 API Key 연결|event_id.apigw.apikey.connect_usage_plan|API Gateway|			
+|사용량 계획, 스테이지와 API Key 연결해제|event_id.apigw.apikey.disconnect_usage_plan|API Gateway|			
+|API Key 사용량 계획 변경|event_id.apigw.apikey.change_usage_plan|API Gateway|			
+|API 설명서 게시 유형 변경|event_id.apigw.document.update_publish_type|API Gateway|			
+|사용량 계획 생성|event_id.apigw.usage_plan.create|API Gateway|			
+|사용량 계획 수정|event_id.apigw.usage_plan.update|API Gateway|			
+|사용량 계획 삭제|event_id.apigw.usage_plan.delete|API Gateway|			
+|사용량 계획과 스테이지 연결|event_id.apigw.usage_plan.connect_stage|API Gateway|			
+|사용량 계획과 스테이지 연결 해제|event_id.apigw.usage_plan.disconnect_stage|API Gateway|			
+|리소스 요청 파라미터 생성|event_id.apigw.resource.create_request_parameter|API Gateway|			
+|리소스 응답 생성|event_id.apigw.resource.create_response|API Gateway|
