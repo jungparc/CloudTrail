@@ -691,3 +691,5 @@
 |사용량 계획과 스테이지 연결 해제|event_id.apigw.usage_plan.disconnect_stage|API Gateway|			
 |리소스 요청 파라미터 생성|event_id.apigw.resource.create_request_parameter|API Gateway|			
 |리소스 응답 생성|event_id.apigw.resource.create_response|API Gateway|
+|행동 감지 요청|event_id.cheating_detection_behavior.detect|Cheating Dectection|
+|음성 감지 요청|event_id.cheating_detection_voice.detect|Cheating Dectection|

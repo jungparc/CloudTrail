@@ -60,6 +60,7 @@
 * Log & Crash Search 서비스 관련 이벤트가 추가되었습니다.
 * Pipeline 서비스 관련 이벤트가 추가되었습니다.
 * NHN AppGuard 서비스 관련 이벤트가 추가되었습니다.
+* Cheating Detection 서비스 관련 이벤트가 추가되었습니다.
 * 로그 저장/다운로드 설정에서 3회 이상 업로드에 실패했을 때, 내용을 통보받을 수 있도록 이메일 항목을 추가했습니다.
     * 상세 내용 참고: [링크](/CloudTrail/ko/console-guide/)
 
