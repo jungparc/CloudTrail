@@ -205,6 +205,7 @@
 |시나리오 삭제|event_id.deploy.scenario_delete|Deploy|
 |배포 실행|event_id.deploy.deploy_execute|Deploy|
 |배포 이력 다운로드|event_id.deploy.deploy_history_download|Deploy|
+|오토스케일 배포 실행|event_id.deploy.autoscale_deploy_execute|Deploy|
 |IAM 로그인|event_id.iam.login|콘솔|
 |IAM 멤버 권한 변경|event_id.iam.member.role.update|콘솔|
 |조직 도메인 추가|event_id.org.domain.add|콘솔|
@@ -693,3 +694,4 @@
 |리소스 응답 생성|event_id.apigw.resource.create_response|API Gateway|
 |행동 감지 요청|event_id.cheating_detection_behavior.detect|Cheating Dectection|
 |음성 감지 요청|event_id.cheating_detection_voice.detect|Cheating Dectection|
+|Text to Speech 변환 요청|event_id.speech.tts.convert|Text to Speech|
