@@ -3,7 +3,9 @@
 
 ### 2022. 1. 25.
 * Added events related to API Gateway.
-* 
+* Added events related to Deploy.
+* Added events related to Text to Speech.
+
 ### 2022. 01. 11.
 #### More Events
 * Added events related to KakaoTalk Bizmessage.

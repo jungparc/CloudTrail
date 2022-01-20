@@ -205,6 +205,7 @@
 |シナリオ削除|event_id.deploy.scenario_delete|Deploy|
 |配布実行|event_id.deploy.deploy_execute|Deploy|
 |配布履歴のダウンロード|event_id.deploy.deploy_history_download|Deploy|
+|オートスケール配布実行|event_id.deploy.autoscale_deploy_execute|Deploy|
 |IAM ログイン|event_id.iam.login|コンソール|
 |IAMメンバーの権限変更|event_id.iam.member.role.update|コンソール|
 |組織ドメインの追加|event_id.org.domain.add|コンソール|
@@ -693,3 +694,4 @@
 |리소스 응답 생성|event_id.apigw.resource.create_response|API Gateway|
 |行動検知リクエスト|event_id.cheating_detection_behavior.detect|Cheating Dectection|
 |音声検知リクエスト|event_id.cheating_detection_voice.detect|Cheating Dectection|
+|Text to Speech変換リクエスト|event_id.speech.tts.convert|Text to Speech|

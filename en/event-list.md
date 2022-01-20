@@ -314,6 +314,7 @@
 |Delete Scenario|event_id.deploy.scenario_delete|Deploy|
 |Execute Deployment|event_id.deploy.deploy_execute|Deploy|
 |Download deployment history|event_id.deploy.deploy_history_download|Deploy|
+|Execute Autoscale Deployment|event_id.deploy.autoscale_deploy_execute|Deploy|
 | Create DNS Zone | event_id.dnsplus.zone.create | DNS Plus |
 | Modify DNS Zone | event_id.dnsplus.zone.update | DNS Plus |
 | Delete DNS Zone | event_id.dnsplus.zone.delete | DNS Plus |
@@ -646,3 +647,4 @@
 |리소스 응답 생성|event_id.apigw.resource.create_response|API Gateway|
 |Request action detection|event_id.cheating_detection_behavior.detect|Cheating Dectection|
 |Request voice detection|event_id.cheating_detection_voice.detect|Cheating Dectection|
+|Request Text to Speech conversion|event_id.speech.tts.convert|Text to Speech|
