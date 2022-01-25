@@ -657,41 +657,41 @@
 |カカともへのメッセージ大量メッセージ結果のエクスポート|event_id.friendtalk.mass.message.results.export|KakaoTalk Bizmessage|
 |カカともへのメッセージイメージのアップロード|event_id.friendtalk.image.uploading|KakaoTalk Bizmessage|
 |カカともへのメッセージイメージの削除|event_id.friendtalk.image.deletion|KakaoTalk Bizmessage|
-|event_id.apigw.apikey.create|API Key作成|API Gateway|
-|event_id.apigw.apikey.update|API Key修正|API Gateway|
-|event_id.apigw.apikey.delete|API Key削除|API Gateway|
-|event_id.apigw.apikey.regenerate|Primary/Secondary API Key再発行|API Gateway|
-|event_id.apigw.stage.deploy|ステージ配布|API Gateway|
-|event_id.apigw.stage.rollback|ステージを元に戻す|API Gateway|
-|event_id.apigw.stage.delete_deploy_history|ステージ配布履歴の削除|API Gateway|
-|event_id.apigw.model.create|モデル作成|API Gateway|
-|event_id.apigw.model.update|モデル修正|API Gateway|
-|event_id.apigw.model.delete|モデル削除|API Gateway|
-|event_id.apigw.resource.create_path_and_method|リソースパスとメソッド作成|API Gateway|
-|event_id.apigw.resource.create_method|リソースメソッド作成|API Gateway|
-|event_id.apigw.resource.update_path_plugin|リソースパスプラグイン修正|API Gateway|
-|event_id.apigw.resource.update_method_info_and_plugin|リソースメソッド情報とプラグイン修正|API Gateway|
-|event_id.apigw.resource.delete|リソース削除|API Gateway|
-|event_id.apigw.resource.import_swagger|Swaggerにリソースをインポート|API Gateway|
-|event_id.apigw.service.create|サービス作成|API Gateway|
-|event_id.apigw.service.update|サービス修正|API Gateway|
-|event_id.apigw.service.delete|サービス削除|API Gateway|
-|event_id.apigw.stage.create|ステージ作成|API Gateway|
-|event_id.apigw.stage.update|ステージ修正|API Gateway|
-|event_id.apigw.stage.delete|ステージ削除|API Gateway|
-|event_id.apigw.stage.import_resource|ステージにリソース適用|API Gateway|
-|event_id.apigw.stage.update_stage_resource|ステージリソース修正|API Gateway|
-|event_id.apigw.apikey.connect_usage_plan|使用量プラン、ステージとAPI Key接続|API Gateway|
-|event_id.apigw.apikey.disconnect_usage_plan|使用量プラン、ステージとAPI Key接続解除|API Gateway|
-|event_id.apigw.apikey.change_usage_plan|API Key使用量プラン変更|API Gateway|
-|event_id.apigw.document.update_publish_type|API説明書掲示タイプ変更|API Gateway|
-|event_id.apigw.usage_plan.create|使用量プラン作成|API Gateway|
-|event_id.apigw.usage_plan.update|使用量プラン修正|API Gateway|
-|event_id.apigw.usage_plan.delete|使用量プラン削除|API Gateway|
-|event_id.apigw.usage_plan.connect_stage|使用量プランとステージ接続|API Gateway|
-|event_id.apigw.usage_plan.disconnect_stage|使用量プランとステージ接続解除|API Gateway|
-|event_id.apigw.resource.create_request_parameter|リソースリクエストパラメータ作成|API Gateway|
-|event_id.apigw.resource.create_response|リソースレスポンス作成|API Gateway|
+API Key作成|event_id.apigw.apikey.create|API Gateway
+API Key修正|event_id.apigw.apikey.update|API Gateway
+API Key削除|event_id.apigw.apikey.delete|API Gateway
+Primary/Secondary API Key再発行|event_id.apigw.apikey.regenerate|API Gateway
+ステージ配布|event_id.apigw.stage.deploy|API Gateway
+ステージを元に戻す|event_id.apigw.stage.rollback|API Gateway
+ステージ配布履歴の削除|event_id.apigw.stage.delete_deploy_history|API Gateway
+モデル作成|event_id.apigw.model.create|API Gateway
+モデル修正|event_id.apigw.model.update|API Gateway
+モデル削除|event_id.apigw.model.delete|API Gateway
+リソースパスとメソッド作成|event_id.apigw.resource.create_path_and_method|API Gateway
+リソースメソッド作成|event_id.apigw.resource.create_method|API Gateway
+リソースパスプラグイン修正|event_id.apigw.resource.update_path_plugin|API Gateway
+リソースメソッド情報とプラグイン修正|event_id.apigw.resource.update_method_info_and_plugin|API Gateway
+リソース削除|event_id.apigw.resource.delete|API Gateway
+Swaggerにリソースをインポート|event_id.apigw.resource.import_swagger|API Gateway
+サービス作成|event_id.apigw.service.create|API Gateway
+サービス修正|event_id.apigw.service.update|API Gateway
+サービス削除|event_id.apigw.service.delete|API Gateway
+ステージ作成|event_id.apigw.stage.create|API Gateway
+ステージ修正|event_id.apigw.stage.update|API Gateway
+ステージ削除|event_id.apigw.stage.delete|API Gateway
+ステージにリソース適用|event_id.apigw.stage.import_resource|API Gateway
+ステージリソース修正|event_id.apigw.stage.update_stage_resource|API Gateway
+使用量プラン、ステージとAPI Key接続|event_id.apigw.apikey.connect_usage_plan|API Gateway
+使用量プラン、ステージとAPI Key接続解除|event_id.apigw.apikey.disconnect_usage_plan|API Gateway
+API Key使用量プラン変更|event_id.apigw.apikey.change_usage_plan|API Gateway
+API説明書掲示タイプ変更|event_id.apigw.document.update_publish_type|API Gateway
+使用量プラン作成|event_id.apigw.usage_plan.create|API Gateway
+使用量プラン修正|event_id.apigw.usage_plan.update|API Gateway
+使用量プラン削除|event_id.apigw.usage_plan.delete|API Gateway
+使用量プランとステージ接続|event_id.apigw.usage_plan.connect_stage|API Gateway
+使用量プランとステージ接続解除|event_id.apigw.usage_plan.disconnect_stage|API Gateway
+リソースリクエストパラメータ作成|event_id.apigw.resource.create_request_parameter|API Gateway
+リソースレスポンス作成|event_id.apigw.resource.create_response|API Gateway
 |行動検知リクエスト|event_id.cheating_detection_behavior.detect|Cheating Dectection|
 |音声検知リクエスト|event_id.cheating_detection_voice.detect|Cheating Dectection|
 |Text to Speech変換リクエスト|event_id.speech.tts.convert|Text to Speech|
