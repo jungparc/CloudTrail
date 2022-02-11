@@ -662,3 +662,4 @@
 |Register Deployment Reservation|event_id.gamestarter.deploy.reservation_create|GameStarter|
 |Change Deployment Reservation|event_id.gamestarter.deploy.reservation_change|GameStarter|
 |Cancel Deployment Reservation|event_id.gamestarter.deploy.reservation_cancel|GameStarter|
+|Request Speech to Text conversion|event_id.speech.stt.convert| Speech to Text|

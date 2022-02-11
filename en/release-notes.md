@@ -4,6 +4,7 @@
 ### 2022. 2. 22.
 * Added events related to MarketPlace.
 * Added events related to GameStarter. 
+* Added events related to Speech to Text.
 
 ### 2022. 1. 25.
 * Added events related to API Gateway.

@@ -709,3 +709,4 @@
 |배포 예약 등록|event_id.gamestarter.deploy.reservation_create|GameStarter|
 |배포 예약 변경|event_id.gamestarter.deploy.reservation_change|GameStarter|
 |배포 예약 취소|event_id.gamestarter.deploy.reservation_cancel|GameStarter|
+|Speech to Text 변환 요청|event_id.speech.stt.convert| Speech to Text|

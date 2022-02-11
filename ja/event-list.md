@@ -709,3 +709,4 @@ API説明書掲示タイプ変更|event_id.apigw.document.update_publish_type|AP
 |配布予約の登録|event_id.gamestarter.deploy.reservation_create|GameStarter|
 |配布予約の変更|event_id.gamestarter.deploy.reservation_change|GameStarter|
 |配布予約のキャンセル|event_id.gamestarter.deploy.reservation_cancel|GameStarter|
+|Speech to Text変換リクエスト|event_id.speech.stt.convert| Speech to Text|
