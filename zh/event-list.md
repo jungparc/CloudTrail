@@ -678,10 +678,10 @@
 |Request action detection|event_id.cheating_detection_behavior.detect|Cheating Dectection|
 |Request voice detection|event_id.cheating_detection_voice.detect|Cheating Dectection|
 |Request Text to Speech conversion|event_id.speech.tts.convert|Text to Speech|
-|Apply for Marketplace|event_id.market_place.apply|market_place|
-|Cancel Applying for Marketplace|event_id.market_place.apply-cancel|market_place|
-|Apply for Marketplace Cancellation|event_id.market_place.termination-apply|market_place|
-|Cancel Applying for Marketplace Cancellation|event_id.market_place.termination-apply-cancel|market_place|
+|Apply for Marketplace|event_id.market_place.apply|MarketPlace|
+|Cancel Applying for Marketplace|event_id.market_place.apply-cancel|MarketPlace|
+|Apply for Marketplace Cancellation|event_id.market_place.termination-apply|MarketPlace|
+|Cancel Applying for Marketplace Cancellation|event_id.market_place.termination-apply-cancel|MarketPlace|
 |Register Service Domain|event_id.gamestarter.service_domain.create|GameStarter|
 |Register Game Configuration|event_id.gamestarter.game_config.create|GameStarter|
 |Modify Game Configuration|event_id.gamestarter.game_config.modify|GameStarter|

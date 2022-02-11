@@ -695,10 +695,10 @@
 |행동 감지 요청|event_id.cheating_detection_behavior.detect|Cheating Dectection|
 |음성 감지 요청|event_id.cheating_detection_voice.detect|Cheating Dectection|
 |Text to Speech 변환 요청|event_id.speech.tts.convert|Text to Speech|
-|마켓플레이스 신청|event_id.market_place.apply|market_place|
-|마켓플레이스 신청 취소|event_id.market_place.apply-cancel|market_place|
-|마켓플레이스 해지 신청|event_id.market_place.termination-apply|market_place|
-|마켓플레이스 해지 신청 취소|event_id.market_place.termination-apply-cancel|market_place|
+|마켓플레이스 신청|event_id.market_place.apply|MarketPlace|
+|마켓플레이스 신청 취소|event_id.market_place.apply-cancel|MarketPlace|
+|마켓플레이스 해지 신청|event_id.market_place.termination-apply|MarketPlace|
+|마켓플레이스 해지 신청 취소|event_id.market_place.termination-apply-cancel|MarketPlace|
 |서비스 도메인 등록|event_id.gamestarter.service_domain.create|GameStarter|
 |게임 설정 등록|event_id.gamestarter.game_config.create|GameStarter|
 |게임 설정 수정|event_id.gamestarter.game_config.modify|GameStarter|
