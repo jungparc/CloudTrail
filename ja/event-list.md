@@ -699,3 +699,13 @@ API説明書掲示タイプ変更|event_id.apigw.document.update_publish_type|AP
 |マーケットプレイス申請キャンセル|event_id.market_place.apply-cancel|market_place|
 |マーケットプレイス解約申請|event_id.market_place.termination-apply|market_place|
 |マーケットプレイス解約申請ャンセル|event_id.market_place.termination-apply-cancel|market_place|
+|サービスドメインの登録|event_id.gamestarter.service_domain.create|GameStarter|
+|ゲーム設定の登録|event_id.gamestarter.game_config.create|GameStarter|
+|ゲーム設定の修正|event_id.gamestarter.game_config.modify|GameStarter|
+|ゲーム設定のコピー|event_id.gamestarter.game_config.copy|GameStarter|
+|配布ゾーンの登録|event_id.gamestarter.deploy_zone.create|GameStarter|
+|配布ゾーンの修正|event_id.gamestarter.deploy_zone.modify|GameStarter|
+|即時配布の実行|event_id.gamestarter.deploy.immediately|GameStarter|
+|配布予約の登録|event_id.gamestarter.deploy.reservation_create|GameStarter|
+|配布予約の変更|event_id.gamestarter.deploy.reservation_change|GameStarter|
+|配布予約のキャンセル|event_id.gamestarter.deploy.reservation_cancel|GameStarter|

@@ -699,3 +699,13 @@
 |마켓플레이스 신청 취소|event_id.market_place.apply-cancel|market_place|
 |마켓플레이스 해지 신청|event_id.market_place.termination-apply|market_place|
 |마켓플레이스 해지 신청 취소|event_id.market_place.termination-apply-cancel|market_place|
+|서비스 도메인 등록|event_id.gamestarter.service_domain.create|GameStarter|
+|게임 설정 등록|event_id.gamestarter.game_config.create|GameStarter|
+|게임 설정 수정|event_id.gamestarter.game_config.modify|GameStarter|
+|게임 설정 복사|event_id.gamestarter.game_config.copy|GameStarter|
+|배포 존 등록|event_id.gamestarter.deploy_zone.create|GameStarter|
+|배포 존 수정|event_id.gamestarter.deploy_zone.modify|GameStarter|
+|즉시 배포 실행|event_id.gamestarter.deploy.immediately|GameStarter|
+|배포 예약 등록|event_id.gamestarter.deploy.reservation_create|GameStarter|
+|배포 예약 변경|event_id.gamestarter.deploy.reservation_change|GameStarter|
+|배포 예약 취소|event_id.gamestarter.deploy.reservation_cancel|GameStarter|

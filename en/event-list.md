@@ -652,3 +652,13 @@
 |Cancel Applying for Marketplace|event_id.market_place.apply-cancel|market_place|
 |Apply for Marketplace Cancellation|event_id.market_place.termination-apply|market_place|
 |Cancel Applying for Marketplace Cancellation|event_id.market_place.termination-apply-cancel|market_place|
+|Register Service Domain|event_id.gamestarter.service_domain.create|GameStarter|
+|Register Game Configuration|event_id.gamestarter.game_config.create|GameStarter|
+|Modify Game Configuration|event_id.gamestarter.game_config.modify|GameStarter|
+|Copy Game Configuration|event_id.gamestarter.game_config.copy|GameStarter|
+|Register Deployment Zone|event_id.gamestarter.deploy_zone.create|GameStarter|
+|Modify Deployment Zone|event_id.gamestarter.deploy_zone.modify|GameStarter|
+|Run Deployment Immediately|event_id.gamestarter.deploy.immediately|GameStarter|
+|Register Deployment Reservation|event_id.gamestarter.deploy.reservation_create|GameStarter|
+|Change Deployment Reservation|event_id.gamestarter.deploy.reservation_change|GameStarter|
+|Cancel Deployment Reservation|event_id.gamestarter.deploy.reservation_cancel|GameStarter|
