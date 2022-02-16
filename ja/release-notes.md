@@ -2,6 +2,12 @@
 ## CloudTrail > リリースノート
 
 ### 2022. 1. 25.
+* MarketPlace関連イベントを追加しました。
+* GameStarterサービス関連イベントを追加しました。
+* Speech to Textサービス関連イベントを追加しました。
+
+
+### 2022. 1. 25.
 * API Gatewayサービス関連イベントを追加しました。
 * Deployサービス関連イベントを追加しました。
 * Text to Speechサービス関連イベントを追加しました。

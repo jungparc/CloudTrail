@@ -1,6 +1,11 @@
 
 ## CloudTrail > 릴리스 노트
 
+### 2022. 2. 22.
+* MarketPlace 관련 이벤트가 추가되었습니다.
+* GameStarter 관련 이벤트가 추가되었습니다.
+* Speech to Text 관련 이벤트가 추가되었습니다.
+
 ### 2022. 1. 25.
 * API Gateway 서비스 관련 이벤트가 추가되었습니다.
 * Deploy 서비스 관련 이벤트가 추가되었습니다.
