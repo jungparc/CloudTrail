@@ -1,12 +1,18 @@
 
 ## CloudTrail > Release Notes
 
+### 2022. 03. 14.
+#### More Events
+* Added events related to Default Infrastructure Service.
+ 
 ### 2022. 2. 22.
+#### More Events
 * Added events related to MarketPlace.
 * Added events related to GameStarter.
 * Added events related to Speech to Text.
 
 ### 2022. 1. 25.
+#### More Events
 * Added events related to API Gateway.
 * Added events related to Deploy.
 * Added events related to Text to Speech.
