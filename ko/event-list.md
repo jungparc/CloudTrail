@@ -83,6 +83,20 @@
 |노드 그룹 생성|event_id.iaas.nodegroup.create|기본 인프라 서비스|
 |노드 그룹 삭제|event_id.iaas.nodegroup.delete|기본 인프라 서비스|
 |클러스터 업그레이드|event_id.iaas.nodegroup.upgrade|기본 인프라 서비스|
+|이미지 복사|event_id.iaas.image.copy|기본 인프라 서비스|
+|이미지 빌드|event_id.iaas.image_template.build|기본 인프라 서비스|
+|이미지 빌드 취소|event_id.iaas.image_template.cancel_build|기본 인프라 서비스|
+|이미지 템플릿 생성|event_id.iaas.image_template.create|기본 인프라 서비스|
+|이미지 템플릿 삭제|event_id.iaas.image_template.delete|기본 인프라 서비스|
+|이미지 템플릿 수정|event_id.iaas.image_template.update|기본 인프라 서비스|
+|콘솔 스크린숏 생성|event_id.iaas.instance_action.screenshot|기본 인프라 서비스|
+|리전 간 피어링 생성|event_id.iaas.region_peering.create|기본 인프라 서비스|
+|리전 간 피어링 삭제|event_id.iaas.region_peering.delete|기본 인프라 서비스|
+|리전 간 피어링 변경|event_id.iaas.region_peering.update|기본 인프라 서비스|
+|S3 API 자격 증명 생성|event_id.iaas.s3credential.create|기본 인프라 서비스|
+|S3 API 자격 증명 삭제|event_id.iaas.s3credential.delete|기본 인프라 서비스|
+|서브넷 정적 라우트 생성|event_id.iaas.vpc_subnet_route.create|기본 인프라 서비스|
+|서브넷 정적 라우트 삭제|event_id.iaas.vpc_subnet_route.delete|기본 인프라 서비스|
 |어카운트 메타데이터 등록/수정|event_id.object_storage.account.metadata.update|Object Storage|
 |컨테이너 생성|event_id.object_storage.container.create|Object Storage|
 |컨테이너 삭제|event_id.object_storage.container.delete|Object Storage|

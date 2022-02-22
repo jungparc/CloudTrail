@@ -83,6 +83,20 @@
 |ノードグループ作成|event_id.iaas.nodegroup.create|基本インフラサービス|
 |ノードグループ削除|event_id.iaas.nodegroup.delete|基本インフラサービス|
 |クラスターのアップグレード|event_id.iaas.nodegroup.upgrade|基本インフラサービス|
+|イメージのコピー|event_id.iaas.image.copy|基本インフラサービス|
+|イメージビルド|event_id.iaas.image_template.build|基本インフラサービス|
+|イメージビルドのキャンセル|event_id.iaas.image_template.cancel_build|基本インフラサービス|
+|イメージテンプレートの作成|event_id.iaas.image_template.create|基本インフラサービス|
+|イメージテンプレートの削除|event_id.iaas.image_template.delete|基本インフラサービス|
+|イメージテンプレートの修正|event_id.iaas.image_template.update|基本インフラサービス|
+|コンソールスクリーンショットの作成|event_id.iaas.instance_action.screenshot|基本インフラサービス|
+|リージョン間ピアリングの作成|event_id.iaas.region_peering.create|基本インフラサービス|
+|リージョン間ピアリングの削除|event_id.iaas.region_peering.delete|基本インフラサービス|
+|リージョン間ピアリングの変更|event_id.iaas.region_peering.update|基本インフラサービス|
+|S3 API認証情報の作成|event_id.iaas.s3credential.create|基本インフラサービス|
+|S3 API認証情報の削除|event_id.iaas.s3credential.delete|基本インフラサービス|
+|サブネット静的ルートの作成|event_id.iaas.vpc_subnet_route.create|基本インフラサービス|
+|サブネット静的ルートの削除|event_id.iaas.vpc_subnet_route.delete|基本インフラサービス|
 |アカウントメタデータの登録/修正|event_id.object_storage.account.metadata.update|Object Storage|
 |コンテナの作成|event_id.object_storage.container.create|Object Storage|
 |コンテナの削除|event_id.object_storage.container.delete|Object Storage|

@@ -83,6 +83,20 @@
 |Create Node Group|event_id.iaas.nodegroup.create|Default Infrastructure Service|
 |Delete Node Group|event_id.iaas.nodegroup.delete|Default Infrastructure Service|
 |Upgrade Cluster|event_id.iaas.nodegroup.upgrade|Default Infrastructure Service|
+|Copy Image|event_id.iaas.image.copy|Default Infrastructure Service|
+|Build Image|event_id.iaas.image_template.build|Default Infrastructure Service|
+|Cancel Image Build|event_id.iaas.image_template.cancel_build|Default Infrastructure Service|
+|Create Image Template|event_id.iaas.image_template.create|Default Infrastructure Service|
+|Delete Image Template|event_id.iaas.image_template.delete|Default Infrastructure Service|
+|Modify Image Template|event_id.iaas.image_template.update|Default Infrastructure Service|
+|Take Console Screenshot|event_id.iaas.instance_action.screenshot|Default Infrastructure Service|
+|Create Inter-Region Peering|event_id.iaas.region_peering.create|Default Infrastructure Service|
+|Delete Inter-Region Peering|event_id.iaas.region_peering.delete|Default Infrastructure Service|
+|Change Inter-Region Peering|event_id.iaas.region_peering.update|Default Infrastructure Service|
+|Create S3 API Credentials|event_id.iaas.s3credential.create|Default Infrastructure Service|
+|Delete S3 API Credentials|event_id.iaas.s3credential.delete|Default Infrastructure Service|
+|Create Subnet Static Route|event_id.iaas.vpc_subnet_route.create|Default Infrastructure Service|
+|Delete Subnet Static Route|event_id.iaas.vpc_subnet_route.delete|Default Infrastructure Service|
 |Register/Modify Account Metadata|event_id.object_storage.account.metadata.update|Object Storage|
 |Create Containers|event_id.object_storage.container.create|Object Storage|
 |Delete Containers|event_id.object_storage.container.delete|Object Storage|
