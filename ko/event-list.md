@@ -62,6 +62,9 @@
 |보안 그룹 변경|event_id.iaas.security_group.update|기본 인프라 서비스|
 |보안 규칙 생성|event_id.iaas.security_group_rule.create|기본 인프라 서비스|
 |보안 규칙 삭제|event_id.iaas.security_group_rule.delete|기본 인프라 서비스|
+|서비스 게이트웨이 생성|event_id.iaas.service_gateway.create|기본 인프라 서비스|
+|서비스 게이트웨이 변경|event_id.iaas.service_gateway.update|기본 인프라 서비스|
+|서비스 게이트웨이 삭제|event_id.iaas.service_gateway.delete|기본 인프라 서비스|
 |블록 스토리지 스냅숏 생성|event_id.iaas.snapshot.create|기본 인프라 서비스|
 |블록 스토리지 스냅숏 삭제|event_id.iaas.snapshot.delete|기본 인프라 서비스|
 |인스턴스 볼륨 연결|event_id.iaas.volume.attach|기본 인프라 서비스|
@@ -69,6 +72,7 @@
 |블록 스토리지 삭제|event_id.iaas.volume.delete|기본 인프라 서비스|
 |인스턴스 볼륨 연결 해제|event_id.iaas.volume.detach|기본 인프라 서비스|
 |블록 스토리지 정보 변경|event_id.iaas.volume.update|기본 인프라 서비스|
+|볼륨 복제|event_id.iaas.volume.copy|기본 인프라 서비스|
 |VPC 생성|event_id.iaas.vpc.create|기본 인프라 서비스|
 |VPC 삭제|event_id.iaas.vpc.delete|기본 인프라 서비스|
 |VPC 정보 변경|event_id.iaas.vpc.update|기본 인프라 서비스|
@@ -83,7 +87,7 @@
 |노드 그룹 생성|event_id.iaas.nodegroup.create|기본 인프라 서비스|
 |노드 그룹 삭제|event_id.iaas.nodegroup.delete|기본 인프라 서비스|
 |클러스터 업그레이드|event_id.iaas.nodegroup.upgrade|기본 인프라 서비스|
-|이미지 복사|event_id.iaas.image.copy|기본 인프라 서비스|
+|이미지 복제|event_id.iaas.image.copy|기본 인프라 서비스|
 |이미지 빌드|event_id.iaas.image_template.build|기본 인프라 서비스|
 |이미지 빌드 취소|event_id.iaas.image_template.cancel_build|기본 인프라 서비스|
 |이미지 템플릿 생성|event_id.iaas.image_template.create|기본 인프라 서비스|

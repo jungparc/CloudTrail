@@ -62,6 +62,9 @@
 |Change Security Group|event_id.iaas.security_group.update|Default Infrastructure Service|
 |Create Security Rule|event_id.iaas.security_group_rule.create|Default Infrastructure Service|
 |Delete Security Rule|event_id.iaas.security_group_rule.delete|Default Infrastructure Service|
+|Create Service Gateway|event_id.iaas.service_gateway.create|Default Infrastructure Service|
+|Change Service Gateway|event_id.iaas.service_gateway.update|Default Infrastructure Service|
+|Delete Service Gateway|event_id.iaas.service_gateway.delete|Default Infrastructure Service|
 |Create Block Storage Snapshot|event_id.iaas.snapshot.create|Default Infrastructure Service|
 |Delete Block Storage Snapshot|event_id.iaas.snapshot.delete|Default Infrastructure Service|
 |Connect Instance Volume|event_id.iaas.volume.attach|Default Infrastructure Service|
@@ -69,6 +72,7 @@
 |Delete Block Storage|event_id.iaas.volume.delete|Default Infrastructure Service|
 |Disconnect Instance Volume|event_id.iaas.volume.detach|Default Infrastructure Service|
 |Change Block Storage Information|event_id.iaas.volume.update|Default Infrastructure Service|
+|Copy Volume|event_id.iaas.volume.copy|Default Infrastructure Service|
 |Create VPC|event_id.iaas.vpc.create|Default Infrastructure Service|
 |Delete VPC|event_id.iaas.vpc.delete|Default Infrastructure Service|
 |Change VPC Information|event_id.iaas.vpc.update|Default Infrastructure Service|

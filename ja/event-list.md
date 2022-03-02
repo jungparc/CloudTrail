@@ -62,6 +62,9 @@
 |セキュリティグループの変更|event_id.iaas.security_group.update|基本インフラサービス|
 |セキュリティルールの作成|event_id.iaas.security_group_rule.create|基本インフラサービス|
 |セキュリティルールの削除|event_id.iaas.security_group_rule.delete|基本インフラサービス|
+|サービスゲートウェイの作成|event_id.iaas.service_gateway.create|基本インフラサービス|
+|サービスゲートウェイの変更|event_id.iaas.service_gateway.update|基本インフラサービス|
+|サービスゲートウェイの削除|event_id.iaas.service_gateway.delete|基本インフラサービス|
 |ブロックストレージスナップショットの作成|event_id.iaas.snapshot.create|基本インフラサービス|
 |ブロックストレージスナップショットの削除|event_id.iaas.snapshot.delete|基本インフラサービス|
 |インスタンスボリュームの接続|event_id.iaas.volume.attach|基本インフラサービス|
@@ -69,6 +72,7 @@
 |ブロックストレージの削除|event_id.iaas.volume.delete|基本インフラサービス|
 |インスタンスボリューム接続の解除|event_id.iaas.volume.detach|基本インフラサービス|
 |ブロックストレージ情報の変更|event_id.iaas.volume.update|基本インフラサービス|
+|ボリュームのコピー|event_id.iaas.volume.copy|基本インフラサービス|
 |VPCの作成|event_id.iaas.vpc.create|基本インフラサービス|
 |VPCの削除|event_id.iaas.vpc.delete|基本インフラサービス|
 |VPC情報の変更|event_id.iaas.vpc.update|基本インフラサービス|
