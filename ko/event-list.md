@@ -1,6 +1,6 @@
 ## CloudTrail > 수집되는 이벤트 목록
 
-|이벤트|이벤트 ID|서비스|
+| 이벤트 | 이벤트 ID | 서비스 |
 | --- | --- | --- |
 |스케일링 그룹 예약 작업 생성|event_id.iaas.autoscale_schedule.create|기본 인프라 서비스|
 |스케일링 그룹 예약 작업 삭제|event_id.iaas.autoscale_schedule.delete|기본 인프라 서비스|
@@ -62,9 +62,6 @@
 |보안 그룹 변경|event_id.iaas.security_group.update|기본 인프라 서비스|
 |보안 규칙 생성|event_id.iaas.security_group_rule.create|기본 인프라 서비스|
 |보안 규칙 삭제|event_id.iaas.security_group_rule.delete|기본 인프라 서비스|
-|서비스 게이트웨이 생성|event_id.iaas.service_gateway.create|기본 인프라 서비스|
-|서비스 게이트웨이 변경|event_id.iaas.service_gateway.update|기본 인프라 서비스|
-|서비스 게이트웨이 삭제|event_id.iaas.service_gateway.delete|기본 인프라 서비스|
 |블록 스토리지 스냅숏 생성|event_id.iaas.snapshot.create|기본 인프라 서비스|
 |블록 스토리지 스냅숏 삭제|event_id.iaas.snapshot.delete|기본 인프라 서비스|
 |인스턴스 볼륨 연결|event_id.iaas.volume.attach|기본 인프라 서비스|
@@ -72,7 +69,6 @@
 |블록 스토리지 삭제|event_id.iaas.volume.delete|기본 인프라 서비스|
 |인스턴스 볼륨 연결 해제|event_id.iaas.volume.detach|기본 인프라 서비스|
 |블록 스토리지 정보 변경|event_id.iaas.volume.update|기본 인프라 서비스|
-|볼륨 복제|event_id.iaas.volume.copy|기본 인프라 서비스|
 |VPC 생성|event_id.iaas.vpc.create|기본 인프라 서비스|
 |VPC 삭제|event_id.iaas.vpc.delete|기본 인프라 서비스|
 |VPC 정보 변경|event_id.iaas.vpc.update|기본 인프라 서비스|
@@ -101,6 +97,10 @@
 |S3 API 자격 증명 삭제|event_id.iaas.s3credential.delete|기본 인프라 서비스|
 |서브넷 정적 라우트 생성|event_id.iaas.vpc_subnet_route.create|기본 인프라 서비스|
 |서브넷 정적 라우트 삭제|event_id.iaas.vpc_subnet_route.delete|기본 인프라 서비스|
+|서비스 게이트웨이 생성|event_id.iaas.service_gateway.create|기본 인프라 서비스|
+|서비스 게이트웨이 변경|event_id.iaas.service_gateway.update|기본 인프라 서비스|
+|서비스 게이트웨이 삭제|event_id.iaas.service_gateway.delete|기본 인프라 서비스|
+|볼륨 복제|event_id.iaas.volume.copy|기본 인프라 서비스|
 |어카운트 메타데이터 등록/수정|event_id.object_storage.account.metadata.update|Object Storage|
 |컨테이너 생성|event_id.object_storage.container.create|Object Storage|
 |컨테이너 삭제|event_id.object_storage.container.delete|Object Storage|
@@ -148,53 +148,53 @@
 |DB User 동기화|event_id.rds_for_mysql.instance.db_definition.user.sync|RDS for MySQL, RDS for MariaDB|
 |DB 인스턴스 백업 및 내보내기|event_id.rds_for_mysql.instance.backup.export|RDS for MySQL, RDS for MariaDB|
 |오브젝트 스토리지로 백업 내보내기|event_id.rds_for_mysql.backup.export|RDS for MySQL, RDS for MariaDB|
-|키 저장소 생성|event_id.skm.keystore.create|Secure Key Manager
-|키 저장소 삭제|event_id.skm.keystore.delete|Secure Key Manager
-|키 저장소 정보 변경|event_id.skm.keystore.update|Secure Key Manager
-|기밀 데이터 생성|event_id.skm.secret.create|Secure Key Manager
-|기밀 데이터 삭제|event_id.skm.secret.delete|Secure Key Manager
-|기밀 데이터 삭제 요청|event_id.skm.secret.delete_request|Secure Key Manager
-|기밀 데이터 삭제 요청 취소|event_id.skm.secret.delete_cancel|Secure Key Manager
-|기밀 데이터 정보 변경|event_id.skm.secret.update|Secure Key Manager
-|기밀 데이터 조회|event_id.skm.secret.get|Secure Key Manager
-|대칭키 생성|event_id.skm.symmetric.create|Secure Key Manager
-|대칭키 즉시 삭제|event_id.skm.symmetric.delete|Secure Key Manager
-|대칭키 삭제 요청|event_id.skm.symmetric.delete_request|Secure Key Manager
-|대칭키 삭제 요청 취소|event_id.skm.symmetric.delete_request_cancel|Secure Key Manager
-|대칭키 정보 변경|event_id.skm.symmetric.update|Secure Key Manager
-|대칭키 즉시 회전|event_id.skm.symmetric.rotate|Secure Key Manager
-|대칭키 버전 삭제 요청|event_id.skm.symmetric_version.delete_request|Secure Key Manager
-|대칭키 버전 삭제 요청 취소|event_id.skm.symmetric_version.delete_request_cancel|Secure Key Manager
-|대칭키 버전 즉시 삭제|event_id.skm.symmetric_version.delete|Secure Key Manager
-|비대칭키 생성|event_id.skm.asymmetric.create|Secure Key Manager
-|비대칭키 즉시 삭제|event_id.skm.asymmetric.delete|Secure Key Manager
-|비대칭키 삭제 요청|event_id.skm.asymmetric.delete_request|Secure Key Manager
-|비대칭키 삭제 요청 취소|event_id.skm.asymmetric.delete_request_cancel|Secure Key Manager
-|비대칭키 정보 변경|event_id.skm.asymmetric.update|Secure Key Manager
-|비대칭키 즉시 회전|event_id.skm.asymmetric.rotate|Secure Key Manager
-|비대칭키 버전 삭제 요청|event_id.skm.asymmetric_version.delete_request|Secure Key Manager
-|비대칭키 버전 삭제 요청 취소|event_id.skm.asymmetric_version.delete_request_cancel|Secure Key Manager
-|비대칭키 버전 즉시 삭제|event_id.skm.asymmetric_version.delete|Secure Key Manager
-|IPv4 주소 등록|event_id.skm.ipv4.create|Secure Key Manager
-|IPv4 주소 삭제 요청|event_id.skm.ipv4.delete_request|Secure Key Manager
-|IPv4 주소 삭제 요청 취소|event_id.skm.ipv4.delete_request_cancel|Secure Key Manager
-|IPv4 주소 정보 변경|event_id.skm.ipv4.update|Secure Key Manager
-|IPv4 주소 즉시 삭제|event_id.skm.ipv4.delete|Secure Key Manager
-|IPv4 주소 목록 다운로드|event_id.skm.ipv4.download_list|Secure Key Manager
-|IPv4 주소 대량 등록|event_id.skm.ipv4.create_multi|Secure Key Manager
-|MAC 주소 등록|event_id.skm.mac.create|Secure Key Manager
-|MAC 주소 삭제 요청|event_id.skm.mac.delete_request|Secure Key Manager
-|MAC 주소 삭제 요청 취소|event_id.skm.mac.delete_request_cancel|Secure Key Manager
-|MAC 주소 정보 변경|event_id.skm.mac.update|Secure Key Manager
-|MAC 주소 즉시 삭제|event_id.skm.mac.delete|Secure Key Manager
-|MAC 주소 목록 다운로드|event_id.skm.mac.download_list|Secure Key Manager
-|MAC 주소 대량 등록|event_id.skm.mac.create_multi|Secure Key Manager
-|인증서 등록|event_id.skm.cert.create|Secure Key Manager
-|인증서 삭제 요청|event_id.skm.cert.delete_request|Secure Key Manager
-|인증서 삭제 요청 취소|event_id.skm.cert.delete_request_cancel|Secure Key Manager
-|인증서 정보 변경|event_id.skm.cert.update|Secure Key Manager
-|인증서 즉시 삭제|event_id.skm.cert.delete|Secure Key Manager
-|인증서 다운로드|event_id.skm.cert.download|Secure Key Manager
+|키 저장소 생성|event_id.skm.keystore.create|Secure Key Manager|
+|키 저장소 삭제|event_id.skm.keystore.delete|Secure Key Manager|
+|키 저장소 정보 변경|event_id.skm.keystore.update|Secure Key Manager|
+|기밀 데이터 생성|event_id.skm.secret.create|Secure Key Manager|
+|기밀 데이터 삭제|event_id.skm.secret.delete|Secure Key Manager|
+|기밀 데이터 삭제 요청|event_id.skm.secret.delete_request|Secure Key Manager|
+|기밀 데이터 삭제 요청 취소|event_id.skm.secret.delete_request_cancel|Secure Key Manager|
+|기밀 데이터 정보 변경|event_id.skm.secret.update|Secure Key Manager|
+|기밀 데이터 조회|event_id.skm.secret.get|Secure Key Manager|
+|대칭키 생성|event_id.skm.symmetric.create|Secure Key Manager|
+|대칭키 즉시 삭제|event_id.skm.symmetric.delete|Secure Key Manager|
+|대칭키 삭제 요청|event_id.skm.symmetric.delete_request|Secure Key Manager|
+|대칭키 삭제 요청 취소|event_id.skm.symmetric.delete_request_cancel|Secure Key Manager|
+|대칭키 정보 변경|event_id.skm.symmetric.update|Secure Key Manager|
+|대칭키 즉시 회전|event_id.skm.symmetric.rotate|Secure Key Manager|
+|대칭키 버전 삭제 요청|event_id.skm.symmetric_version.delete_request|Secure Key Manager|
+|대칭키 버전 삭제 요청 취소|event_id.skm.symmetric_version.delete_request_cancel|Secure Key Manager|
+|대칭키 버전 즉시 삭제|event_id.skm.symmetric_version.delete|Secure Key Manager|
+|비대칭키 생성|event_id.skm.asymmetric.create|Secure Key Manager|
+|비대칭키 즉시 삭제|event_id.skm.asymmetric.delete|Secure Key Manager|
+|비대칭키 삭제 요청|event_id.skm.asymmetric.delete_request|Secure Key Manager|
+|비대칭키 삭제 요청 취소|event_id.skm.asymmetric.delete_request_cancel|Secure Key Manager|
+|비대칭키 정보 변경|event_id.skm.asymmetric.update|Secure Key Manager|
+|비대칭키 즉시 회전|event_id.skm.asymmetric.rotate|Secure Key Manager|
+|비대칭키 버전 삭제 요청|event_id.skm.asymmetric_version.delete_request|Secure Key Manager|
+|비대칭키 버전 삭제 요청 취소|event_id.skm.asymmetric_version.delete_request_cancel|Secure Key Manager|
+|비대칭키 버전 즉시 삭제|event_id.skm.asymmetric_version.delete|Secure Key Manager|
+|IPv4 주소 등록|event_id.skm.ipv4.create|Secure Key Manager|
+|IPv4 주소 삭제 요청|event_id.skm.ipv4.delete_request|Secure Key Manager|
+|IPv4 주소 삭제 요청 취소|event_id.skm.ipv4.delete_request_cancel|Secure Key Manager|
+|IPv4 주소 정보 변경|event_id.skm.ipv4.update|Secure Key Manager|
+|IPv4 주소 즉시 삭제|event_id.skm.ipv4.delete|Secure Key Manager|
+|IPv4 주소 목록 다운로드|event_id.skm.ipv4.download_list|Secure Key Manager|
+|IPv4 주소 대량 등록|event_id.skm.ipv4.create_multi|Secure Key Manager|
+|MAC 주소 등록|event_id.skm.mac.create|Secure Key Manager|
+|MAC 주소 삭제 요청|event_id.skm.mac.delete_request|Secure Key Manager|
+|MAC 주소 삭제 요청 취소|event_id.skm.mac.delete_request_cancel|Secure Key Manager|
+|MAC 주소 정보 변경|event_id.skm.mac.update|Secure Key Manager|
+|MAC 주소 즉시 삭제|event_id.skm.mac.delete|Secure Key Manager|
+|MAC 주소 목록 다운로드|event_id.skm.mac.download_list|Secure Key Manager|
+|MAC 주소 대량 등록|event_id.skm.mac.create_multi|Secure Key Manager|
+|인증서 등록|event_id.skm.cert.create|Secure Key Manager|
+|인증서 삭제 요청|event_id.skm.cert.delete_request|Secure Key Manager|
+|인증서 삭제 요청 취소|event_id.skm.cert.delete_request_cancel|Secure Key Manager|
+|인증서 정보 변경|event_id.skm.cert.update|Secure Key Manager|
+|인증서 즉시 삭제|event_id.skm.cert.delete|Secure Key Manager|
+|인증서 다운로드|event_id.skm.cert.download|Secure Key Manager|
 |아티팩트 생성|event_id.deploy.artifact_create|Deploy|
 |아티팩트 수정|event_id.deploy.artifact_update|Deploy|
 |아티팩트 삭제|event_id.deploy.artifact_delete|Deploy|
@@ -342,11 +342,23 @@
 |차트 레이아웃 이름 변경|event_id.rds_for_sqlserver.chart_layout.modify_name|RDS for MS-SQL|
 |차트 레이아웃 수정|event_id.rds_for_sqlserver.chart_layout.modify|RDS for MS-SQL|
 |차트 레이아웃 삭제|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
+|알림 그룹 수정|event_id.rds_for_sqlserver.notification.group.modify|RDS for MS-SQL|
+|사용자 그룹 수정|event_id.rds_for_sqlserver.user.group.modify|RDS for MS-SQL|
+|알림 그룹 감시 생성|event_id.rds_for_sqlserver.notification.group.metric.create|RDS for MS-SQL|
+|사용자 그룹 생성|event_id.rds_for_sqlserver.user.group.create|RDS for MS-SQL|
+|알림 그룹 생성|event_id.rds_for_sqlserver.notification.group.create|RDS for MS-SQL|
+|DB 인스턴스 강제 재시작|event_id.rds_for_sqlserver.db_instance.force-restart|RDS for MS-SQL|
+|알림 그룹 감시 수정|event_id.rds_for_sqlserver.notification.group.metric.modify|RDS for MS-SQL|
+|알림 그룹의 사용자 그룹 수정|event_id.rds_for_sqlserver.notification.group.user.group.modify|RDS for MS-SQL|
+|알림 그룹 삭제|event_id.rds_for_sqlserver.notification.group.delete|RDS for MS-SQL|
+|알림 그룹 감시 삭제|event_id.rds_for_sqlserver.notification.group.metric.delete|RDS for MS-SQL|
+|알림 그룹의 DB 인스턴스 수정|event_id.rds_for_sqlserver.notification.group.db.instance.modify|RDS for MS-SQL|
+|사용자 그룹 삭제|event_id.rds_for_sqlserver.user.group.delete|RDS for MS-SQL|
 |심벌 파일 삭제|event_id.logncrash.symbolfile.delete|Log & Crash Search|
 |심벌 파일 업로드|event_id.logncrash.symbolfile.upload|Log & Crash Search|
 |저장 쿼리 등록|event_id.logncrash.stored_search.save|Log & Crash Search|
 |저장 쿼리 삭제|event_id.logncrash.stored_search.delete|Log & Crash Search|
-|선택 필드 추가|event_id.logncrash.search_field.delete|Log & Crash Search|
+|선택 필드 추가|event_id.logncrash.search_field.save|Log & Crash Search|
 |선택 필드 삭제|event_id.logncrash.search_field.delete|Log & Crash Search|
 |크래시 태그 추가|event_id.logncrash.crash.tag.save|Log & Crash Search|
 |크래시 태그 삭제|event_id.logncrash.crash.tag.delete|Log & Crash Search|
@@ -362,8 +374,6 @@
 |크래시 알람 저장|event_id.logncrash.search.alarm.crash.save|Log & Crash Search|
 |사용자 알람 저장|event_id.logncrash.search.alarm.affected_user.save|Log & Crash Search|
 |연동 이슈 트래커 설정 저장|event_id.logncrash.issue_tracker.save|Log & Crash Search|
-|심벌 파일 업로드|event_id.logncrash.symbolfile.upload|Log & Crash Search|
-|심벌 파일 삭제|event_id.logncrash.symbolfile.delete|Log & Crash Search|
 |로그 보관 기간 저장|event_id.logncrash.retention.save|Log & Crash Search|
 |로그 전송 설정|event_id.logncrash.client.setting|Log & Crash Search|
 |로그 외부 보관 설정|event_id.logncrash.external_archive_config.save|Log & Crash Search|
@@ -373,31 +383,31 @@
 |프로젝트 앱키 변경|event_id.logncrash.project.appkey|Log & Crash Search|
 |프로젝트 상태 변경|event_id.logncrash.project.state|Log & Crash Search|
 |로그 인입 제한 변경|event_id.logncrash.limit.save|Log & Crash Search|
-|로그 보관 기간 변경|event_id.logncrash.retention.save|Log & Crash Search|
 |백업 서버 등록|event_id.backup.client.register|Backup|
 |백업 서버 삭제|event_id.backup.client.delete|Backup|
 |백업 경로 등록|event_id.backup.target.register|Backup|
 |백업 경로 변경|event_id.backup.target.update|Backup|
 |백업 경로 삭제|event_id.backup.target.delete|Backup|
 |복구 신청|event_id.backup.restoration.apply|Backup|
-| DNS Zone 생성 | event_id.dnsplus.zone.create | DNS Plus |
-| DNS Zone 수정 | event_id.dnsplus.zone.update | DNS Plus |
-| DNS Zone 삭제 | event_id.dnsplus.zone.delete | DNS Plus |
-| 레코드 세트 생성 | event_id.dnsplus.recordset.create | DNS Plus |
-| 레코드 세트 수정 | event_id.dnsplus.recordset.update | DNS Plus |
-| 레코드 세트 삭제 | event_id.dnsplus.recordset.delete | DNS Plus |
-| GSLB 생성 | event_id.dnsplus.gslb.create | DNS Plus |
-| GSLB 수정 | event_id.dnsplus.gslb.update | DNS Plus |
-| GSLB 삭제 | event_id.dnsplus.gslb.delete | DNS Plus |
-| Pool 연결 | event_id.dnsplus.gslb_connected_pool.create | DNS Plus |
-| Pool 연결 수정 | event_id.dnsplus.gslb_connected_pool.update | DNS Plus |
-| Pool 연결 해제 | event_id.dnsplus.gslb_connected_pool.delete | DNS Plus |
-| Pool 생성 | event_id.dnsplus.pool.create | DNS Plus |
-| Pool 수정 | event_id.dnsplus.pool.update | DNS Plus |
-| Pool 삭제 | event_id.dnsplus.pool.delete | DNS Plus |
-| 헬스 체크 생성 | event_id.dnsplus.health_check.create | DNS Plus |
-| 헬스 체크 수정 | event_id.dnsplus.health_check.update | DNS Plus |
-| 헬스 체크 삭제 | event_id.dnsplus.health_check.delete | DNS Plus |
+|백업 서버 정보 변경|event_id.backup.client.update|Backup|
+|DNS Zone 생성|event_id.dnsplus.zone.create|DNS Plus|
+|DNS Zone 수정|event_id.dnsplus.zone.update|DNS Plus|
+|DNS Zone 삭제|event_id.dnsplus.zone.delete|DNS Plus|
+|레코드 세트 생성|event_id.dnsplus.recordset.create|DNS Plus|
+|레코드 세트 수정|event_id.dnsplus.recordset.update|DNS Plus|
+|레코드 세트 삭제|event_id.dnsplus.recordset.delete|DNS Plus|
+|GSLB 생성|event_id.dnsplus.gslb.create|DNS Plus|
+|GSLB 수정|event_id.dnsplus.gslb.update|DNS Plus|
+|GSLB 삭제|event_id.dnsplus.gslb.delete|DNS Plus|
+|Pool 연결|event_id.dnsplus.gslb_connected_pool.create|DNS Plus|
+|Pool 연결 수정|event_id.dnsplus.gslb_connected_pool.update|DNS Plus|
+|Pool 연결 해제|event_id.dnsplus.gslb_connected_pool.delete|DNS Plus|
+|Pool 생성|event_id.dnsplus.pool.create|DNS Plus|
+|Pool 수정|event_id.dnsplus.pool.update|DNS Plus|
+|Pool 삭제|event_id.dnsplus.pool.delete|DNS Plus|
+|헬스 체크 생성|event_id.dnsplus.health_check.create|DNS Plus|
+|헬스 체크 수정|event_id.dnsplus.health_check.update|DNS Plus|
+|헬스 체크 삭제|event_id.dnsplus.health_check.delete|DNS Plus|
 |신규 인증서 발급|event_id.cdn.certificate.create|CDN|
 |인증서 삭제|event_id.cdn.certificate.delete|CDN|
 |인증서 검증 단계에서 발급 취소|event_id.cdn.certificate.validation_cancel|CDN|
@@ -567,6 +577,9 @@
 |Validating Webhook Configuration 생성|event_id.iaas.cluster.validating_webhook_configuration.create|Kubernetes|
 |Validating Webhook Configuration 삭제|event_id.iaas.cluster.validating_webhook_configuration.delete|Kubernetes|
 |Validating Webhook Configuration 수정|event_id.iaas.cluster.validating_webhook_configuration.update|Kubernetes|
+|클러스터 크기 조정|event_id.iaas.cluster.resize|Kubernetes|
+|클러스터 수정|event_id.iaas.cluster.update|Kubernetes|
+|클러스터 업그레이드|event_id.iaas.cluster.upgrade|Kubernetes|
 |얼굴 감지|event_id.face_recognition.face.detect|Face Recognition|
 |얼굴 비교|event_id.face_recognition.face.compare|Face Recognition|
 |얼굴 등록|event_id.face_recognition.face.add|Face Recognition|
@@ -599,14 +612,14 @@
 |배포 대상 생성|event_id.pipeline.deploy_target.create|Pipeline|
 |배포 대상 수정|event_id.pipeline.deploy_target.update|Pipeline|
 |배포 대상 삭제|event_id.pipeline.deploy_target.delete|Pipeline|
-|Android SDK 다운로드|event_id.appguard.sdk_download_aos|AppGuard|
-|iOS SDK 다운로드|event_id.appguard.sdk_download_ios|AppGuard|
-|보고서 다운로드|event_id.appguard.report_download|AppGuard|
-|보호 작업|event_id.appguard.protection|AppGuard|
-|난독화 신청|event_id.appguard.obfuscation_request|AppGuard|
-|블랙리스트 추가|event_id.appguard.blacklist_add|AppGuard|
-|블랙리스트 차단 해제|event_id.appguard.blacklist_delete|AppGuard|
-|정책 수정|event_id.appguard.policy_update|AppGuard|
+|Android SDK 다운로드|event_id.appguard.sdk_download_aos|NHN AppGuard|
+|iOS SDK 다운로드|event_id.appguard.sdk_download_ios|NHN AppGuard|
+|보고서 다운로드|event_id.appguard.report_download|NHN AppGuard|
+|보호 작업|event_id.appguard.protection|NHN AppGuard|
+|난독화 신청|event_id.appguard.obfuscation_request|NHN AppGuard|
+|블랙리스트 추가|event_id.appguard.blacklist_add|NHN AppGuard|
+|블랙리스트 차단 해제|event_id.appguard.blacklist_delete|NHN AppGuard|
+|정책 수정|event_id.appguard.policy_update|NHN AppGuard|
 |URL 생성|event_id.short_url.url_create|ShortURL|
 |URL 수정|event_id.short_url.url_update|ShortURL|
 |URL 활성화|event_id.short_url.url_enable|ShortURL|
@@ -675,56 +688,53 @@
 |친구톡 대량 메시지 결과 내보내기|event_id.friendtalk.mass.message.results.export|KakaoTalk Bizmessage|
 |친구톡 이미지 업로드|event_id.friendtalk.image.uploading|KakaoTalk Bizmessage|
 |친구톡 이미지 삭제|event_id.friendtalk.image.deletion|KakaoTalk Bizmessage|
-|API Key 생성|event_id.apigw.apikey.create|API Gateway|			
-|API Key 수정|event_id.apigw.apikey.update|API Gateway|			
-|API Key 삭제|event_id.apigw.apikey.delete|API Gateway|			
-|Primary/Secondary API Key 재발급|event_id.apigw.apikey.regenerate|API Gateway|			
-|스테이지 배포|event_id.apigw.stage.deploy|API Gateway|			
-|스테이지 되돌리기|event_id.apigw.stage.rollback|API Gateway|			
-|스테이지 배포 이력 삭제|event_id.apigw.stage.delete_deploy_history|API Gateway|			
-|모델 생성|event_id.apigw.model.create|API Gateway|			
-|모델 수정|event_id.apigw.model.update|API Gateway|			
-|모델 삭제|event_id.apigw.model.delete|API Gateway|			
-|리소스 경로와 메서드 생성|event_id.apigw.resource.create_path_and_method|API Gateway|			
-|리소스 메서드 생성|event_id.apigw.resource.create_method|API Gateway|			
-|리소스 경로 플러그인 수정|event_id.apigw.resource.update_path_plugin|API Gateway|			
-|리소스 메서드 정보와 플러그인 수정|event_id.apigw.resource.update_method_info_and_plugin|API Gateway|			
-|리소스 삭제|event_id.apigw.resource.delete|API Gateway|			
-|Swagger로 리소스 가져오기|event_id.apigw.resource.import_swagger|API Gateway|			
-|서비스 생성|event_id.apigw.service.create|API Gateway|			
-|서비스 수정|event_id.apigw.service.update|API Gateway|			
-|서비스 삭제|event_id.apigw.service.delete|API Gateway|			
-|스테이지 생성|event_id.apigw.stage.create|API Gateway|			
-|스테이지 수정|event_id.apigw.stage.update|API Gateway|			
-|스테이지 삭제|event_id.apigw.stage.delete|API Gateway|			
-|스테이지에 리소스 적용|event_id.apigw.stage.import_resource|API Gateway|			
-|스테이지 리소스 수정|event_id.apigw.stage.update_stage_resource|API Gateway|			
-|사용량 계획, 스테이지와 API Key 연결|event_id.apigw.apikey.connect_usage_plan|API Gateway|			
-|사용량 계획, 스테이지와 API Key 연결해제|event_id.apigw.apikey.disconnect_usage_plan|API Gateway|			
-|API Key 사용량 계획 변경|event_id.apigw.apikey.change_usage_plan|API Gateway|			
-|API 설명서 게시 유형 변경|event_id.apigw.document.update_publish_type|API Gateway|			
-|사용량 계획 생성|event_id.apigw.usage_plan.create|API Gateway|			
-|사용량 계획 수정|event_id.apigw.usage_plan.update|API Gateway|			
-|사용량 계획 삭제|event_id.apigw.usage_plan.delete|API Gateway|			
-|사용량 계획과 스테이지 연결|event_id.apigw.usage_plan.connect_stage|API Gateway|			
-|사용량 계획과 스테이지 연결 해제|event_id.apigw.usage_plan.disconnect_stage|API Gateway|			
-|리소스 요청 파라미터 생성|event_id.apigw.resource.create_request_parameter|API Gateway|			
+|API Key 생성|event_id.apigw.apikey.create|API Gateway|
+|API Key 수정|event_id.apigw.apikey.update|API Gateway|
+|API Key 삭제|event_id.apigw.apikey.delete|API Gateway|
+|Primary/Secondary API Key 재발급|event_id.apigw.apikey.regenerate|API Gateway|
+|스테이지 배포|event_id.apigw.stage.deploy|API Gateway|
+|스테이지 되돌리기|event_id.apigw.stage.rollback|API Gateway|
+|스테이지 배포 이력 삭제|event_id.apigw.stage.delete_deploy_history|API Gateway|
+|모델 생성|event_id.apigw.model.create|API Gateway|
+|모델 수정|event_id.apigw.model.update|API Gateway|
+|모델 삭제|event_id.apigw.model.delete|API Gateway|
+|리소스 경로와 메서드 생성|event_id.apigw.resource.create_path_and_method|API Gateway|
+|리소스 메서드 생성|event_id.apigw.resource.create_method|API Gateway|
+|리소스 경로 플러그인 수정|event_id.apigw.resource.update_path_plugin|API Gateway|
+|리소스 메서드 정보와 플러그인 수정|event_id.apigw.resource.update_method_info_and_plugin|API Gateway|
+|리소스 삭제|event_id.apigw.resource.delete|API Gateway|
+|Swagger로 리소스 가져오기|event_id.apigw.resource.import_swagger|API Gateway|
+|서비스 생성|event_id.apigw.service.create|API Gateway|
+|서비스 수정|event_id.apigw.service.update|API Gateway|
+|서비스 삭제|event_id.apigw.service.delete|API Gateway|
+|스테이지 생성|event_id.apigw.stage.create|API Gateway|
+|스테이지 수정|event_id.apigw.stage.update|API Gateway|
+|스테이지 삭제|event_id.apigw.stage.delete|API Gateway|
+|스테이지에 리소스 적용|event_id.apigw.stage.import_resource|API Gateway|
+|스테이지 리소스 수정|event_id.apigw.stage.update_stage_resource|API Gateway|
+|사용량 계획, 스테이지와 API Key 연결|event_id.apigw.apikey.connect_usage_plan|API Gateway|
+|사용량 계획, 스테이지와 API Key 연결 해제|event_id.apigw.apikey.disconnect_usage_plan|API Gateway|
+|API Key 사용량 계획 변경|event_id.apigw.apikey.change_usage_plan|API Gateway|
+|API 설명서 게시 유형 변경|event_id.apigw.document.update_publish_type|API Gateway|
+|사용량 계획 생성|event_id.apigw.usage_plan.create|API Gateway|
+|사용량 계획 수정|event_id.apigw.usage_plan.update|API Gateway|
+|사용량 계획 삭제|event_id.apigw.usage_plan.delete|API Gateway|
+|사용량 계획과 스테이지 연결|event_id.apigw.usage_plan.connect_stage|API Gateway|
+|사용량 계획과 스테이지 연결 해제|event_id.apigw.usage_plan.disconnect_stage|API Gateway|
+|리소스 요청 파라미터 생성|event_id.apigw.resource.create_request_parameter|API Gateway|
 |리소스 응답 생성|event_id.apigw.resource.create_response|API Gateway|
-|행동 감지 요청|event_id.cheating_detection_behavior.detect|Cheating Dectection|
-|음성 감지 요청|event_id.cheating_detection_voice.detect|Cheating Dectection|
-|Text to Speech 변환 요청|event_id.speech.tts.convert|Text to Speech|
-|마켓플레이스 신청|event_id.market_place.apply|MarketPlace|
-|마켓플레이스 신청 취소|event_id.market_place.apply-cancel|MarketPlace|
-|마켓플레이스 해지 신청|event_id.market_place.termination-apply|MarketPlace|
-|마켓플레이스 해지 신청 취소|event_id.market_place.termination-apply-cancel|MarketPlace|
+|행동 감지 요청|event_id.cheating_detection_behavior.detect|Cheating Detection|
+|음성 감지 요청|event_id.cheating_detection_voice.detect|Cheating Detection|
 |서비스 도메인 등록|event_id.gamestarter.service_domain.create|GameStarter|
 |게임 설정 등록|event_id.gamestarter.game_config.create|GameStarter|
 |게임 설정 수정|event_id.gamestarter.game_config.modify|GameStarter|
 |게임 설정 복사|event_id.gamestarter.game_config.copy|GameStarter|
 |배포 존 등록|event_id.gamestarter.deploy_zone.create|GameStarter|
 |배포 존 수정|event_id.gamestarter.deploy_zone.modify|GameStarter|
-|즉시 배포 실행|event_id.gamestarter.deploy.immediately|GameStarter|
 |배포 예약 등록|event_id.gamestarter.deploy.reservation_create|GameStarter|
 |배포 예약 변경|event_id.gamestarter.deploy.reservation_change|GameStarter|
 |배포 예약 취소|event_id.gamestarter.deploy.reservation_cancel|GameStarter|
-|Speech to Text 변환 요청|event_id.speech.stt.convert| Speech to Text|
+|Speech to Text 변환 요청|event_id.speech.stt.convert|Speech to Text|
+|로그 저장/다운로드 설정 삭제|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
+|로그 저장/다운로드 설정|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
+|테스트03|event_id.tstprd01.test03|null|
