@@ -2,105 +2,105 @@
 
 | イベント | イベントID | サービス |
 | --- | --- | --- |
-|スケーリンググループの予約作業の作成|event_id.iaas.autoscale_schedule.create|기본 인프라 서비스|
-|スケーリンググループの予約作業の削除|event_id.iaas.autoscale_schedule.delete|기본 인프라 서비스|
-|インスタンスFloating IPの接続|event_id.iaas.floating_ip.attach|기본 인프라 서비스|
-|Floating IPの作成|event_id.iaas.floating_ip.create|기본 인프라 서비스|
-|Floating IPの削除|event_id.iaas.floating_ip.delete|기본 인프라 서비스|
-|インスタンスFloating IPの接続解除|event_id.iaas.floating_ip.detach|기본 인프라 서비스|
-|イメージの作成|event_id.iaas.image.create|기본 인프라 서비스|
-|イメージの削除|event_id.iaas.image.delete|기본 인프라 서비스|
-|イメージ情報の変更|event_id.iaas.image.update|기본 인프라 서비스|
-|イメージ共有の作成|event_id.iaas.image_member.create|기본 인프라 서비스|
-|イメージ共有の削除|event_id.iaas.image_member.delete|기본 인프라 서비스|
-|インスタンスの作成|event_id.iaas.instance.create|기본 인프라 서비스|
-|インスタンスの削除|event_id.iaas.instance.delete|기본 인프라 서비스|
-|インスタンス情報の変更|event_id.iaas.instance.update|기본 인프라 서비스|
-|インスタンスの再起動|event_id.iaas.instance_action.reboot|기본 인프라 서비스|
-|インスタンスタイプの変更|event_id.iaas.instance_action.resize|기본 인프라 서비스|
-|インスタンスの起動|event_id.iaas.instance_action.start|기본 인프라 서비스|
-|インスタンスの停止|event_id.iaas.instance_action.stop|기본 인프라 서비스|
-|インスタンステンプレートの作成|event_id.iaas.instance_template.create|기본 인프라 서비스|
-|インスタンステンプレートの削除|event_id.iaas.instance_template.delete|기본 인프라 서비스|
-|インスタンステンプレートの変更|event_id.iaas.instance_template.update|기본 인프라 서비스|
-|インスタンスインターフェイスの作成|event_id.iaas.interface.create|기본 인프라 서비스|
-|インスタンスインターフェイスの削除|event_id.iaas.interface.delete|기본 인프라 서비스|
-|インターネットゲートウェイの作成|event_id.iaas.internet_gateway.create|기본 인프라 서비스|
-|インターネットゲートウェイの削除|event_id.iaas.internet_gateway.delete|기본 인프라 서비스|
-|キーペアの作成|event_id.iaas.keypair.create|기본 인프라 서비스|
-|キーペアの削除|event_id.iaas.keypair.delete|기본 인프라 서비스|
-|ロードバランサーの作成|event_id.iaas.loadbalancer.create|기본 인프라 서비스|
-|ロードバランサーの削除|event_id.iaas.loadbalancer.delete|기본 인프라 서비스|
-|ロードバランサー情報の変更|event_id.iaas.loadbalancer.update|기본 인프라 서비스|
-|ロードバランサーリスナーの作成|event_id.iaas.loadbalancer_listener.create|기본 인프라 서비스|
-|ロードバランサーリスナーの削除|event_id.iaas.loadbalancer_listener.delete|기본 인프라 서비스|
-|ロードバランサーリスナーの変更|event_id.iaas.loadbalancer_listener.update|기본 인프라 서비스|
-|ロードバランサーインスタンスの接続追加|event_id.iaas.loadbalancer_member.create|기본 인프라 서비스|
-|ロードバランサーインスタンスの接続解除|event_id.iaas.loadbalancer_member.delete|기본 인프라 서비스|
-|ロードバランサーインスタンスの有効状態を変更|event_id.iaas.loadbalancer_member.update|기본 인프라 서비스|
-|インスタンスメタデータの作成|event_id.iaas.metadata.create|기본 인프라 서비스|
-|インスタンスメタデータの削除|event_id.iaas.metadata.delete|기본 인프라 서비스|
-|インスタンスメタデータの変更|event_id.iaas.metadata.update|기본 인프라 서비스|
-|VPCピアリングの作成|event_id.iaas.peering.create|기본 인프라 서비스|
-|VPCピアリングの削除|event_id.iaas.peering.delete|기본 인프라 서비스|
-|ポートの作成|event_id.iaas.port.create|기본 인프라 서비스|
-|ポートの削除|event_id.iaas.port.delete|기본 인프라 서비스|
-|ポートの変更|event_id.iaas.port.update|기본 인프라 서비스|
-|ルーティングテーブルルートの作成|event_id.iaas.route.create|기본 인프라 서비스|
-|ルーティングテーブルルートの削除|event_id.iaas.route.delete|기본 인프라 서비스|
-|ルーティングテーブルインターネットゲートウェイの接続|event_id.iaas.routing_table.attach_gateway|기본 인프라 서비스|
-|ルーティングテーブルの作成|event_id.iaas.routing_table.create|기본 인프라 서비스|
-|ルーティングテーブルの削除|event_id.iaas.routing_table.delete|기본 인프라 서비스|
-|ルーティングテーブルインターネットゲートウェイの接続解除|event_id.iaas.routing_table.detach_gateway|기본 인프라 서비스|
-|ルーティングテーブルの基本指定|event_id.iaas.routing_table.set_as_default|기본 인프라 서비스|
-|ルーティングテーブルの変更|event_id.iaas.routing_table.update|기본 인프라 서비스|
-|スケーリンググループの作成|event_id.iaas.scaling_group.create|기본 인프라 서비스|
-|スケーリンググループの削除|event_id.iaas.scaling_group.delete|기본 인프라 서비스|
-|スケーリンググループの変更|event_id.iaas.scaling_group.update|기본 인프라 서비스|
-|セキュリティーグループの作成|event_id.iaas.security_group.create|기본 인프라 서비스|
-|セキュリティーグループの削除|event_id.iaas.security_group.delete|기본 인프라 서비스|
-|セキュリティーグループの変更|event_id.iaas.security_group.update|기본 인프라 서비스|
-|セキュリティルールの作成|event_id.iaas.security_group_rule.create|기본 인프라 서비스|
-|セキュリティルールの削除|event_id.iaas.security_group_rule.delete|기본 인프라 서비스|
-|ブロックストレージスナップショットの作成|event_id.iaas.snapshot.create|기본 인프라 서비스|
-|ブロックストレージスナップショットの削除|event_id.iaas.snapshot.delete|기본 인프라 서비스|
-|インスタンスボリュームの接続|event_id.iaas.volume.attach|기본 인프라 서비스|
-|ブロックストレージの作成|event_id.iaas.volume.create|기본 인프라 서비스|
-|ブロックストレージの削除|event_id.iaas.volume.delete|기본 인프라 서비스|
-|インスタンスボリュームの接続解除|event_id.iaas.volume.detach|기본 인프라 서비스|
-|ブロックストレージの情報変更|event_id.iaas.volume.update|기본 인프라 서비스|
-|VPCの作成|event_id.iaas.vpc.create|기본 인프라 서비스|
-|VPCの削除|event_id.iaas.vpc.delete|기본 인프라 서비스|
-|VPCの情報変更|event_id.iaas.vpc.update|기본 인프라 서비스|
-|VPCサブネットルーティングテーブルの接続|event_id.iaas.vpc_subnet.attach_routingtable|기본 인프라 서비스|
-|VPCサブネットの作成|event_id.iaas.vpc_subnet.create|기본 인프라 서비스|
-|VPCサブネットの削除|event_id.iaas.vpc_subnet.delete|기본 인프라 서비스|
-|VPCサブネットルーティングテーブルの接続解除|event_id.iaas.vpc_subnet.detach_routingtable|기본 인프라 서비스|
-|VPCサブネットの変更|event_id.iaas.vpc_subnet.update|기본 인프라 서비스|
-|クラスター作成|event_id.iaas.cluster.create|기본 인프라 서비스|
-|クラスター削除|event_id.iaas.cluster.delete|기본 인프라 서비스|
-|オートスケーラーの設定を変更|event_id.iaas.cluster.update_autoscale|기본 인프라 서비스|
-|ノードグループ作成|event_id.iaas.nodegroup.create|기본 인프라 서비스|
-|ノードグループ削除|event_id.iaas.nodegroup.delete|기본 인프라 서비스|
-|クラスターのアップグレード|event_id.iaas.nodegroup.upgrade|기본 인프라 서비스|
-|イメージのコピー|event_id.iaas.image.copy|기본 인프라 서비스|
-|イメージビルド|event_id.iaas.image_template.build|기본 인프라 서비스|
-|イメージビルドのキャンセル|event_id.iaas.image_template.cancel_build|기본 인프라 서비스|
-|イメージテンプレートの作成|event_id.iaas.image_template.create|기본 인프라 서비스|
-|イメージテンプレートの削除|event_id.iaas.image_template.delete|기본 인프라 서비스|
-|イメージテンプレートの修正|event_id.iaas.image_template.update|기본 인프라 서비스|
-|コンソールスクリーンショットの作成|event_id.iaas.instance_action.screenshot|기본 인프라 서비스|
-|リージョン間ピアリングの作成|event_id.iaas.region_peering.create|기본 인프라 서비스|
-|リージョン間ピアリングの削除|event_id.iaas.region_peering.delete|기본 인프라 서비스|
-|リージョン間ピアリングの変更|event_id.iaas.region_peering.update|기본 인프라 서비스|
-|S3 API認証情報の作成|event_id.iaas.s3credential.create|기본 인프라 서비스|
-|S3 API認証情報の削除|event_id.iaas.s3credential.delete|기본 인프라 서비스|
-|サブネット静的ルートの作成|event_id.iaas.vpc_subnet_route.create|기본 인프라 서비스|
-|サブネット静的ルートの削除|event_id.iaas.vpc_subnet_route.delete|기본 인프라 서비스|
-|サービスゲートウェイの作成|event_id.iaas.service_gateway.create|기본 인프라 서비스|
-|サービスゲートウェイの変更|event_id.iaas.service_gateway.update|기본 인프라 서비스|
-|サービスゲートウェイの削除|event_id.iaas.service_gateway.delete|기본 인프라 서비스|
-|ボリュームのコピー|event_id.iaas.volume.copy|기본 인프라 서비스|
+|スケーリンググループの予約作業の作成|event_id.iaas.autoscale_schedule.create|基本インフラサービス|
+|スケーリンググループの予約作業の削除|event_id.iaas.autoscale_schedule.delete|基本インフラサービス|
+|インスタンスFloating IPの接続|event_id.iaas.floating_ip.attach|基本インフラサービス|
+|Floating IPの作成|event_id.iaas.floating_ip.create|基本インフラサービス|
+|Floating IPの削除|event_id.iaas.floating_ip.delete|基本インフラサービス|
+|インスタンスFloating IPの接続解除|event_id.iaas.floating_ip.detach|基本インフラサービス|
+|イメージの作成|event_id.iaas.image.create|基本インフラサービス|
+|イメージの削除|event_id.iaas.image.delete|基本インフラサービス|
+|イメージ情報の変更|event_id.iaas.image.update|基本インフラサービス|
+|イメージ共有の作成|event_id.iaas.image_member.create|基本インフラサービス|
+|イメージ共有の削除|event_id.iaas.image_member.delete|基本インフラサービス|
+|インスタンスの作成|event_id.iaas.instance.create|基本インフラサービス|
+|インスタンスの削除|event_id.iaas.instance.delete|基本インフラサービス|
+|インスタンス情報の変更|event_id.iaas.instance.update|基本インフラサービス|
+|インスタンスの再起動|event_id.iaas.instance_action.reboot|基本インフラサービス|
+|インスタンスタイプの変更|event_id.iaas.instance_action.resize|基本インフラサービス|
+|インスタンスの起動|event_id.iaas.instance_action.start|基本インフラサービス|
+|インスタンスの停止|event_id.iaas.instance_action.stop|基本インフラサービス|
+|インスタンステンプレートの作成|event_id.iaas.instance_template.create|基本インフラサービス|
+|インスタンステンプレートの削除|event_id.iaas.instance_template.delete|基本インフラサービス|
+|インスタンステンプレートの変更|event_id.iaas.instance_template.update|基本インフラサービス|
+|インスタンスインターフェイスの作成|event_id.iaas.interface.create|基本インフラサービス|
+|インスタンスインターフェイスの削除|event_id.iaas.interface.delete|基本インフラサービス|
+|インターネットゲートウェイの作成|event_id.iaas.internet_gateway.create|基本インフラサービス|
+|インターネットゲートウェイの削除|event_id.iaas.internet_gateway.delete|基本インフラサービス|
+|キーペアの作成|event_id.iaas.keypair.create|基本インフラサービス|
+|キーペアの削除|event_id.iaas.keypair.delete|基本インフラサービス|
+|ロードバランサーの作成|event_id.iaas.loadbalancer.create|基本インフラサービス|
+|ロードバランサーの削除|event_id.iaas.loadbalancer.delete|基本インフラサービス|
+|ロードバランサー情報の変更|event_id.iaas.loadbalancer.update|基本インフラサービス|
+|ロードバランサーリスナーの作成|event_id.iaas.loadbalancer_listener.create|基本インフラサービス|
+|ロードバランサーリスナーの削除|event_id.iaas.loadbalancer_listener.delete|基本インフラサービス|
+|ロードバランサーリスナーの変更|event_id.iaas.loadbalancer_listener.update|基本インフラサービス|
+|ロードバランサーインスタンスの接続追加|event_id.iaas.loadbalancer_member.create|基本インフラサービス|
+|ロードバランサーインスタンスの接続解除|event_id.iaas.loadbalancer_member.delete|基本インフラサービス|
+|ロードバランサーインスタンスの有効状態を変更|event_id.iaas.loadbalancer_member.update|基本インフラサービス|
+|インスタンスメタデータの作成|event_id.iaas.metadata.create|基本インフラサービス|
+|インスタンスメタデータの削除|event_id.iaas.metadata.delete|基本インフラサービス|
+|インスタンスメタデータの変更|event_id.iaas.metadata.update|基本インフラサービス|
+|VPCピアリングの作成|event_id.iaas.peering.create|基本インフラサービス|
+|VPCピアリングの削除|event_id.iaas.peering.delete|基本インフラサービス|
+|ポートの作成|event_id.iaas.port.create|基本インフラサービス|
+|ポートの削除|event_id.iaas.port.delete|基本インフラサービス|
+|ポートの変更|event_id.iaas.port.update|基本インフラサービス|
+|ルーティングテーブルルートの作成|event_id.iaas.route.create|基本インフラサービス|
+|ルーティングテーブルルートの削除|event_id.iaas.route.delete|基本インフラサービス|
+|ルーティングテーブルインターネットゲートウェイの接続|event_id.iaas.routing_table.attach_gateway|基本インフラサービス|
+|ルーティングテーブルの作成|event_id.iaas.routing_table.create|基本インフラサービス|
+|ルーティングテーブルの削除|event_id.iaas.routing_table.delete|基本インフラサービス|
+|ルーティングテーブルインターネットゲートウェイの接続解除|event_id.iaas.routing_table.detach_gateway|基本インフラサービス|
+|ルーティングテーブルの基本指定|event_id.iaas.routing_table.set_as_default|基本インフラサービス|
+|ルーティングテーブルの変更|event_id.iaas.routing_table.update|基本インフラサービス|
+|スケーリンググループの作成|event_id.iaas.scaling_group.create|基本インフラサービス|
+|スケーリンググループの削除|event_id.iaas.scaling_group.delete|基本インフラサービス|
+|スケーリンググループの変更|event_id.iaas.scaling_group.update|基本インフラサービス|
+|セキュリティーグループの作成|event_id.iaas.security_group.create|基本インフラサービス|
+|セキュリティーグループの削除|event_id.iaas.security_group.delete|基本インフラサービス|
+|セキュリティーグループの変更|event_id.iaas.security_group.update|基本インフラサービス|
+|セキュリティルールの作成|event_id.iaas.security_group_rule.create|基本インフラサービス|
+|セキュリティルールの削除|event_id.iaas.security_group_rule.delete|基本インフラサービス|
+|ブロックストレージスナップショットの作成|event_id.iaas.snapshot.create|基本インフラサービス|
+|ブロックストレージスナップショットの削除|event_id.iaas.snapshot.delete|基本インフラサービス|
+|インスタンスボリュームの接続|event_id.iaas.volume.attach|基本インフラサービス|
+|ブロックストレージの作成|event_id.iaas.volume.create|基本インフラサービス|
+|ブロックストレージの削除|event_id.iaas.volume.delete|基本インフラサービス|
+|インスタンスボリュームの接続解除|event_id.iaas.volume.detach|基本インフラサービス|
+|ブロックストレージの情報変更|event_id.iaas.volume.update|基本インフラサービス|
+|VPCの作成|event_id.iaas.vpc.create|基本インフラサービス|
+|VPCの削除|event_id.iaas.vpc.delete|基本インフラサービス|
+|VPCの情報変更|event_id.iaas.vpc.update|基本インフラサービス|
+|VPCサブネットルーティングテーブルの接続|event_id.iaas.vpc_subnet.attach_routingtable|基本インフラサービス|
+|VPCサブネットの作成|event_id.iaas.vpc_subnet.create|基本インフラサービス|
+|VPCサブネットの削除|event_id.iaas.vpc_subnet.delete|基本インフラサービス|
+|VPCサブネットルーティングテーブルの接続解除|event_id.iaas.vpc_subnet.detach_routingtable|基本インフラサービス|
+|VPCサブネットの変更|event_id.iaas.vpc_subnet.update|基本インフラサービス|
+|クラスター作成|event_id.iaas.cluster.create|基本インフラサービス|
+|クラスター削除|event_id.iaas.cluster.delete|基本インフラサービス|
+|オートスケーラーの設定を変更|event_id.iaas.cluster.update_autoscale|基本インフラサービス|
+|ノードグループ作成|event_id.iaas.nodegroup.create|基本インフラサービス|
+|ノードグループ削除|event_id.iaas.nodegroup.delete|基本インフラサービス|
+|クラスターのアップグレード|event_id.iaas.nodegroup.upgrade|基本インフラサービス|
+|イメージのコピー|event_id.iaas.image.copy|基本インフラサービス|
+|イメージビルド|event_id.iaas.image_template.build|基本インフラサービス|
+|イメージビルドのキャンセル|event_id.iaas.image_template.cancel_build|基本インフラサービス|
+|イメージテンプレートの作成|event_id.iaas.image_template.create|基本インフラサービス|
+|イメージテンプレートの削除|event_id.iaas.image_template.delete|基本インフラサービス|
+|イメージテンプレートの修正|event_id.iaas.image_template.update|基本インフラサービス|
+|コンソールスクリーンショットの作成|event_id.iaas.instance_action.screenshot|基本インフラサービス|
+|リージョン間ピアリングの作成|event_id.iaas.region_peering.create|基本インフラサービス|
+|リージョン間ピアリングの削除|event_id.iaas.region_peering.delete|基本インフラサービス|
+|リージョン間ピアリングの変更|event_id.iaas.region_peering.update|基本インフラサービス|
+|S3 API認証情報の作成|event_id.iaas.s3credential.create|基本インフラサービス|
+|S3 API認証情報の削除|event_id.iaas.s3credential.delete|基本インフラサービス|
+|サブネット静的ルートの作成|event_id.iaas.vpc_subnet_route.create|基本インフラサービス|
+|サブネット静的ルートの削除|event_id.iaas.vpc_subnet_route.delete|基本インフラサービス|
+|サービスゲートウェイの作成|event_id.iaas.service_gateway.create|基本インフラサービス|
+|サービスゲートウェイの変更|event_id.iaas.service_gateway.update|基本インフラサービス|
+|サービスゲートウェイの削除|event_id.iaas.service_gateway.delete|基本インフラサービス|
+|ボリュームのコピー|event_id.iaas.volume.copy|基本インフラサービス|
 |アカウントメタデータの登録/修正|event_id.object_storage.account.metadata.update|Object Storage|
 |コンテナの作成|event_id.object_storage.container.create|Object Storage|
 |コンテナの削除|event_id.object_storage.container.delete|Object Storage|
@@ -224,52 +224,52 @@
 |配布実行|event_id.deploy.deploy_execute|Deploy|
 |配布履歴のダウンロード|event_id.deploy.deploy_history_download|Deploy|
 |オートスケール配布実行|event_id.deploy.autoscale_deploy_execute|Deploy|
-|IAM ログイン|event_id.iam.login|콘솔|
-|IAMメンバーの権限変更|event_id.iam.member.role.update|콘솔|
-|組織ドメインの追加|event_id.org.domain.add|콘솔|
-|組織ドメインの修正|event_id.org.domain.update|콘솔|
-|組織内部会員の追加|event_id.org.iam.member.add|콘솔|
-|組織内部会員パスワードの変更告知メール送信|event_id.org.iam.member.send_mail|콘솔|
-|組織内部会員情報の修正|event_id.org.iam.member.update|콘솔|
-|組織メンバーの追加|event_id.org.member.add|콘솔|
-|組織メンバーの削除|event_id.org.member.delete|콘솔|
-|組織メンバーの招待|event_id.org.member.invite|콘솔|
-|組織メンバーの招待キャンセル|event_id.org.member.invite_cancel|콘솔|
-|組織メンバーの修正|event_id.org.member.update|콘솔|
-|組織サービスの無効化|event_id.org.product.disable|콘솔|
-|組織サービスの有効化|event_id.org.product.enable|콘솔|
-|組織情報の修正|event_id.org.update|콘솔|
-|組織 アクセス|event_id.org.selected|콘솔|
-|IAM組織 アクセス|event_id.iam.org.selected|콘솔|
-|プロジェクトの作成|event_id.project.create|콘솔|
-|プロジェクトの削除|event_id.project.delete|콘솔|
-|プロジェクトメンバーの追加|event_id.project.member.add|콘솔|
-|プロジェクトメンバーの削除|event_id.project.member.delete|콘솔|
-|プロジェクトメンバーの招待|event_id.project.member.invite|콘솔|
-|プロジェクトメンバーの招待キャンセル|event_id.project.member.invite_cancel|콘솔|
-|プロジェクトメンバーの権限修正|event_id.project.member.update|콘솔|
-|プロジェクトメンバーの削除|event_id.project.members.delete|콘솔|
-|プロジェクトサービスの無効化|event_id.project.product.disable|콘솔|
-|プロジェクトサービスの有効化|event_id.project.product.enable|콘솔|
-|プロジェクトの修正|event_id.project.update|콘솔|
-|プロジェクト アクセス|event_id.project.selected|콘솔|
-|공통 권한 그룹 생성|event_id.org.role_group.create|콘솔|
-|공통 권한 그룹 수정|event_id.org.role_group.update|콘솔|
-|공통 권한 그룹 삭제|event_id.org.role_group.delete|콘솔|
-|공통 권한 그룹 권한 추가|event_id.org.role_group.assign.roles|콘솔|
-|공통 권한 그룹 권한 삭제|event_id.org.role_group.remove.roles|콘솔|
-|프로젝트 권한 그룹 생성|event_id.project.role_group.create|콘솔|
-|프로젝트 권한 그룹 수정|event_id.project.role_group.update|콘솔|
-|프로젝트 권한 그룹 삭제|event_id.project.role_group.delete|콘솔|
-|프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|콘솔|
-|프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|콘솔|
-|IAMプロジェクト アクセス|event_id.iam.project.selected|콘솔|
-|予算追加|event_id.budget.create|콘솔|
-|予算修正|event_id.budget.modify|콘솔|
-|予算削除|event_id.budget.delete|콘솔|
-|ガバナンス設定変更|event_id.governance.change|콘솔|
-|서비스지원팀 삭제|event_id.supporter.delete|콘솔|
-|서비스지원팀 추가|event_id.supporter.add|콘솔|
+|IAM ログイン|event_id.iam.login|コンソール|
+|IAMメンバーの権限変更|event_id.iam.member.role.update|コンソール|
+|組織ドメインの追加|event_id.org.domain.add|コンソール|
+|組織ドメインの修正|event_id.org.domain.update|コンソール|
+|組織内部会員の追加|event_id.org.iam.member.add|コンソール|
+|組織内部会員パスワードの変更告知メール送信|event_id.org.iam.member.send_mail|コンソール|
+|組織内部会員情報の修正|event_id.org.iam.member.update|コンソール|
+|組織メンバーの追加|event_id.org.member.add|コンソール|
+|組織メンバーの削除|event_id.org.member.delete|コンソール|
+|組織メンバーの招待|event_id.org.member.invite|コンソール|
+|組織メンバーの招待キャンセル|event_id.org.member.invite_cancel|コンソール|
+|組織メンバーの修正|event_id.org.member.update|コンソール|
+|組織サービスの無効化|event_id.org.product.disable|コンソール|
+|組織サービスの有効化|event_id.org.product.enable|コンソール|
+|組織情報の修正|event_id.org.update|コンソール|
+|組織 アクセス|event_id.org.selected|コンソール|
+|IAM組織 アクセス|event_id.iam.org.selected|コンソール|
+|プロジェクトの作成|event_id.project.create|コンソール|
+|プロジェクトの削除|event_id.project.delete|コンソール|
+|プロジェクトメンバーの追加|event_id.project.member.add|コンソール|
+|プロジェクトメンバーの削除|event_id.project.member.delete|コンソール|
+|プロジェクトメンバーの招待|event_id.project.member.invite|コンソール|
+|プロジェクトメンバーの招待キャンセル|event_id.project.member.invite_cancel|コンソール|
+|プロジェクトメンバーの権限修正|event_id.project.member.update|コンソール|
+|プロジェクトメンバーの削除|event_id.project.members.delete|コンソール|
+|プロジェクトサービスの無効化|event_id.project.product.disable|コンソール|
+|プロジェクトサービスの有効化|event_id.project.product.enable|コンソール|
+|プロジェクトの修正|event_id.project.update|コンソール|
+|プロジェクト アクセス|event_id.project.selected|コンソール|
+|공통 권한 그룹 생성|event_id.org.role_group.create|コンソール|
+|공통 권한 그룹 수정|event_id.org.role_group.update|コンソール|
+|공통 권한 그룹 삭제|event_id.org.role_group.delete|コンソール|
+|공통 권한 그룹 권한 추가|event_id.org.role_group.assign.roles|コンソール|
+|공통 권한 그룹 권한 삭제|event_id.org.role_group.remove.roles|コンソール|
+|프로젝트 권한 그룹 생성|event_id.project.role_group.create|コンソール|
+|프로젝트 권한 그룹 수정|event_id.project.role_group.update|コンソール|
+|프로젝트 권한 그룹 삭제|event_id.project.role_group.delete|コンソール|
+|프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|コンソール|
+|프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|コンソール|
+|IAMプロジェクト アクセス|event_id.iam.project.selected|コンソール|
+|予算追加|event_id.budget.create|コンソール|
+|予算修正|event_id.budget.modify|コンソール|
+|予算削除|event_id.budget.delete|コンソール|
+|ガバナンス設定変更|event_id.governance.change|コンソール|
+|서비스지원팀 삭제|event_id.supporter.delete|コンソール|
+|서비스지원팀 추가|event_id.supporter.add|コンソール|
 |サービス作成|event_id.service_monitoring.creation_service|Service Monitoring|
 |サービス変更|event_id.service_monitoring.modification_service|Service Monitoring|
 |サービス削除|event_id.service_monitoring.delete_service|Service Monitoring|
@@ -737,4 +737,3 @@
 |Speech to Text変換リクエスト|event_id.speech.stt.convert|Speech to Text|
 |ログ保存/ダウンロード設定 削除|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
 |ログ保存/ダウンロード設定|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
-|テスト03|event_id.tstprd01.test03|null|
