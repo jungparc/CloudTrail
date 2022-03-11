@@ -342,18 +342,20 @@
 |チャートレイアウト名変更|event_id.rds_for_sqlserver.chart_layout.modify_name|RDS for MS-SQL|
 |チャートレイアウト修正|event_id.rds_for_sqlserver.chart_layout.modify|RDS for MS-SQL|
 |チャートレイアウト削除|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
-|通知グループの修正|event_id.rds_for_sqlserver.notification.group.modify|RDS for MS-SQL|
-|ユーザーグループの修正|event_id.rds_for_sqlserver.user.group.modify|RDS for MS-SQL|
 |通知グループの監視作成|event_id.rds_for_sqlserver.notification.group.metric.create|RDS for MS-SQL|
 |ユーザーグループの作成|event_id.rds_for_sqlserver.user.group.create|RDS for MS-SQL|
-|通知グループの作成|event_id.rds_for_sqlserver.notification.group.create|RDS for MS-SQL|
+|通知グループのDBインスタンス修正|event_id.rds_for_sqlserver.notification.group.db.instance.modify|RDS for MS-SQL|
 |DBインスタンス強制再起動|event_id.rds_for_sqlserver.db_instance.force-restart|RDS for MS-SQL|
-|通知グループの監視修正|event_id.rds_for_sqlserver.notification.group.metric.modify|RDS for MS-SQL|
 |通知グループのユーザーグループ修正|event_id.rds_for_sqlserver.notification.group.user.group.modify|RDS for MS-SQL|
 |通知グループの削除|event_id.rds_for_sqlserver.notification.group.delete|RDS for MS-SQL|
 |通知グループの監視削除|event_id.rds_for_sqlserver.notification.group.metric.delete|RDS for MS-SQL|
-|通知グループのDBインスタンス修正|event_id.rds_for_sqlserver.notification.group.db.instance.modify|RDS for MS-SQL|
 |ユーザーグループの削除|event_id.rds_for_sqlserver.user.group.delete|RDS for MS-SQL|
+|通知グループの監視修正|event_id.rds_for_sqlserver.notification.group.metric.modify|RDS for MS-SQL|
+|ユーザーグループの修正|event_id.rds_for_sqlserver.user.group.modify|RDS for MS-SQL|
+|通知グループの作成|event_id.rds_for_sqlserver.notification.group.create|RDS for MS-SQL|
+|通知グループの修正|event_id.rds_for_sqlserver.notification.group.modify|RDS for MS-SQL|
+|予約タスクの修正|event_id.rds_for_sqlserver.process.reserved-process.modify|RDS for MS-SQL|
+|予約タスクの削除|event_id.rds_for_sqlserver.process.reserved-process.deleted|RDS for MS-SQL|
 |シンボルファイルの削除|event_id.logncrash.symbolfile.delete|Log & Crash Search|
 |シンボルファイルのアップロード|event_id.logncrash.symbolfile.upload|Log & Crash Search|
 |保存クエリ登録|event_id.logncrash.stored_search.save|Log & Crash Search|

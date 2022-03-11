@@ -342,18 +342,20 @@
 ||event_id.rds_for_sqlserver.chart_layout.modify_name|RDS for MS-SQL|
 ||event_id.rds_for_sqlserver.chart_layout.modify|RDS for MS-SQL|
 ||event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
-|Modify Notification Group|event_id.rds_for_sqlserver.notification.group.modify|RDS for MS-SQL|
-|Modify User Group|event_id.rds_for_sqlserver.user.group.modify|RDS for MS-SQL|
 |Create Notification Group Monitoring|event_id.rds_for_sqlserver.notification.group.metric.create|RDS for MS-SQL|
 |Create User Group|event_id.rds_for_sqlserver.user.group.create|RDS for MS-SQL|
-|Create Notification Group|event_id.rds_for_sqlserver.notification.group.create|RDS for MS-SQL|
+|Modify DB Instance of Notification Group|event_id.rds_for_sqlserver.notification.group.db.instance.modify|RDS for MS-SQL|
 |Force Restart DB Instance|event_id.rds_for_sqlserver.db_instance.force-restart|RDS for MS-SQL|
-|Modify Notification Group Monitoring|event_id.rds_for_sqlserver.notification.group.metric.modify|RDS for MS-SQL|
 |Modify User Group of Notification Group|event_id.rds_for_sqlserver.notification.group.user.group.modify|RDS for MS-SQL|
 |Delete Notification Group|event_id.rds_for_sqlserver.notification.group.delete|RDS for MS-SQL|
 |Delete Notification Group Monitoring|event_id.rds_for_sqlserver.notification.group.metric.delete|RDS for MS-SQL|
-|Modify DB Instance of Notification Group|event_id.rds_for_sqlserver.notification.group.db.instance.modify|RDS for MS-SQL|
 |Delete User Group|event_id.rds_for_sqlserver.user.group.delete|RDS for MS-SQL|
+|Modify Notification Group Monitoring|event_id.rds_for_sqlserver.notification.group.metric.modify|RDS for MS-SQL|
+|Modify User Group|event_id.rds_for_sqlserver.user.group.modify|RDS for MS-SQL|
+|Create Notification Group|event_id.rds_for_sqlserver.notification.group.create|RDS for MS-SQL|
+|Modify Notification Group|event_id.rds_for_sqlserver.notification.group.modify|RDS for MS-SQL|
+|Modify Scheduled Task|event_id.rds_for_sqlserver.process.reserved-process.modify|RDS for MS-SQL|
+|Delete Scheduled Task|event_id.rds_for_sqlserver.process.reserved-process.deleted|RDS for MS-SQL|
 |Upload Symbol Files|event_id.logncrash.symbolfile.delete|Log & Crash Search|
 |Delete Symbol Files|event_id.logncrash.symbolfile.upload|Log & Crash Search|
 |Saved query registered|event_id.logncrash.stored_search.save|Log & Crash Search|

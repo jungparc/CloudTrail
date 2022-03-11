@@ -1,8 +1,9 @@
 ## CloudTrail > Release Notes
 
-### 2022. 03. 14.
+### 2022. 03. 15.
 #### More Events
 * Added events related to Default Infrastructure Service.
+* Added events related to RDS for MS-SQL.
 
 ### 2022. 02. 22.
 #### More Events
