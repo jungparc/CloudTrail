@@ -342,18 +342,20 @@
 |차트 레이아웃 이름 변경|event_id.rds_for_sqlserver.chart_layout.modify_name|RDS for MS-SQL|
 |차트 레이아웃 수정|event_id.rds_for_sqlserver.chart_layout.modify|RDS for MS-SQL|
 |차트 레이아웃 삭제|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
-|알림 그룹 수정|event_id.rds_for_sqlserver.notification.group.modify|RDS for MS-SQL|
-|사용자 그룹 수정|event_id.rds_for_sqlserver.user.group.modify|RDS for MS-SQL|
 |알림 그룹 감시 생성|event_id.rds_for_sqlserver.notification.group.metric.create|RDS for MS-SQL|
 |사용자 그룹 생성|event_id.rds_for_sqlserver.user.group.create|RDS for MS-SQL|
-|알림 그룹 생성|event_id.rds_for_sqlserver.notification.group.create|RDS for MS-SQL|
+|알림 그룹의 DB 인스턴스 수정|event_id.rds_for_sqlserver.notification.group.db.instance.modify|RDS for MS-SQL|
 |DB 인스턴스 강제 재시작|event_id.rds_for_sqlserver.db_instance.force-restart|RDS for MS-SQL|
-|알림 그룹 감시 수정|event_id.rds_for_sqlserver.notification.group.metric.modify|RDS for MS-SQL|
 |알림 그룹의 사용자 그룹 수정|event_id.rds_for_sqlserver.notification.group.user.group.modify|RDS for MS-SQL|
 |알림 그룹 삭제|event_id.rds_for_sqlserver.notification.group.delete|RDS for MS-SQL|
 |알림 그룹 감시 삭제|event_id.rds_for_sqlserver.notification.group.metric.delete|RDS for MS-SQL|
-|알림 그룹의 DB 인스턴스 수정|event_id.rds_for_sqlserver.notification.group.db.instance.modify|RDS for MS-SQL|
 |사용자 그룹 삭제|event_id.rds_for_sqlserver.user.group.delete|RDS for MS-SQL|
+|알림 그룹 감시 수정|event_id.rds_for_sqlserver.notification.group.metric.modify|RDS for MS-SQL|
+|사용자 그룹 수정|event_id.rds_for_sqlserver.user.group.modify|RDS for MS-SQL|
+|알림 그룹 생성|event_id.rds_for_sqlserver.notification.group.create|RDS for MS-SQL|
+|알림 그룹 수정|event_id.rds_for_sqlserver.notification.group.modify|RDS for MS-SQL|
+|예약 작업 수정|event_id.rds_for_sqlserver.process.reserved-process.modify|RDS for MS-SQL|
+|예약 작업 삭제|event_id.rds_for_sqlserver.process.reserved-process.deleted|RDS for MS-SQL|
 |심벌 파일 삭제|event_id.logncrash.symbolfile.delete|Log & Crash Search|
 |심벌 파일 업로드|event_id.logncrash.symbolfile.upload|Log & Crash Search|
 |저장 쿼리 등록|event_id.logncrash.stored_search.save|Log & Crash Search|
@@ -737,4 +739,3 @@
 |Speech to Text 변환 요청|event_id.speech.stt.convert|Speech to Text|
 |로그 저장/다운로드 설정 삭제|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
 |로그 저장/다운로드 설정|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
-|테스트03|event_id.tstprd01.test03|null|
