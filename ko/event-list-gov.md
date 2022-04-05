@@ -20,6 +20,7 @@
 |인스턴스 타입 변경|event_id.iaas.instance_action.resize|기본 인프라 서비스|
 |인스턴스 시작|event_id.iaas.instance_action.start|기본 인프라 서비스|
 |인스턴스 중지|event_id.iaas.instance_action.stop|기본 인프라 서비스|
+|콘솔 스크린숏 생성|event_id.iaas.instance_action.screenshot|기본 인프라 서비스|
 |인스턴스 템플릿 생성|event_id.iaas.instance_template.create|기본 인프라 서비스|
 |인스턴스 템플릿 삭제|event_id.iaas.instance_template.delete|기본 인프라 서비스|
 |인스턴스 템플릿 변경|event_id.iaas.instance_template.update|기본 인프라 서비스|
@@ -83,6 +84,13 @@
 |노드 그룹 생성|event_id.iaas.nodegroup.create|기본 인프라 서비스|
 |노드 그룹 삭제|event_id.iaas.nodegroup.delete|기본 인프라 서비스|
 |클러스터 업그레이드|event_id.iaas.nodegroup.upgrade|기본 인프라 서비스|
+|S3 API 자격 증명 생성|event_id.iaas.s3credential.create|기본 인프라 서비스|
+|S3 API 자격 증명 삭제|event_id.iaas.s3credential.delete|기본 인프라 서비스|
+|서브넷 정적 라우트 생성|event_id.iaas.vpc_subnet_route.create|기본 인프라 서비스|
+|서브넷 정적 라우트 삭제|event_id.iaas.vpc_subnet_route.delete|기본 인프라 서비스|
+|서비스 게이트웨이 생성|event_id.iaas.service_gateway.create|기본 인프라 서비스|
+|서비스 게이트웨이 변경|event_id.iaas.service_gateway.update|기본 인프라 서비스|
+|서비스 게이트웨이 삭제|event_id.iaas.service_gateway.delete|기본 인프라 서비스|
 |어카운트 메타데이터 등록/수정|event_id.object_storage.account.metadata.update|Object Storage|
 |컨테이너 생성|event_id.object_storage.container.create|Object Storage|
 |컨테이너 삭제|event_id.object_storage.container.delete|Object Storage|
