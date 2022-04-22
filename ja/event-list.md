@@ -224,55 +224,55 @@
 |配布実行|event_id.deploy.deploy_execute|Deploy|
 |配布履歴のダウンロード|event_id.deploy.deploy_history_download|Deploy|
 |オートスケール配布実行|event_id.deploy.autoscale_deploy_execute|Deploy|
-|IAM ログイン|event_id.iam.login|콘솔|
-|IAMメンバーの権限変更|event_id.iam.member.role.update|콘솔|
-|組織ドメインの追加|event_id.org.domain.add|콘솔|
-|組織ドメインの修正|event_id.org.domain.update|콘솔|
-|組織内部会員の追加|event_id.org.iam.member.add|콘솔|
-|組織内部会員パスワードの変更告知メール送信|event_id.org.iam.member.send_mail|콘솔|
-|組織内部会員情報の修正|event_id.org.iam.member.update|콘솔|
-|組織メンバーの追加|event_id.org.member.add|콘솔|
-|組織メンバーの削除|event_id.org.member.delete|콘솔|
-|組織メンバーの招待|event_id.org.member.invite|콘솔|
-|組織メンバーの招待キャンセル|event_id.org.member.invite_cancel|콘솔|
-|組織メンバーの修正|event_id.org.member.update|콘솔|
-|組織サービスの無効化|event_id.org.product.disable|콘솔|
-|組織サービスの有効化|event_id.org.product.enable|콘솔|
-|組織情報の修正|event_id.org.update|콘솔|
-|IAM組織 アクセス|event_id.iam.org.selected|콘솔|
-|プロジェクトの作成|event_id.project.create|콘솔|
-|プロジェクトの削除|event_id.project.delete|콘솔|
-|プロジェクトメンバーの追加|event_id.project.member.add|콘솔|
-|プロジェクトメンバーの削除|event_id.project.member.delete|콘솔|
-|プロジェクトメンバーの招待|event_id.project.member.invite|콘솔|
-|プロジェクトメンバーの招待キャンセル|event_id.project.member.invite_cancel|콘솔|
-|プロジェクトメンバーの権限修正|event_id.project.member.update|콘솔|
-|プロジェクトメンバーの削除|event_id.project.members.delete|콘솔|
-|プロジェクトサービスの無効化|event_id.project.product.disable|콘솔|
-|プロジェクトサービスの有効化|event_id.project.product.enable|콘솔|
-|プロジェクトの修正|event_id.project.update|콘솔|
-|プロジェクト アクセス|event_id.project.selected|콘솔|
-|공통 권한 그룹 생성|event_id.org.role_group.create|콘솔|
-|공통 권한 그룹 수정|event_id.org.role_group.update|콘솔|
-|공통 권한 그룹 삭제|event_id.org.role_group.delete|콘솔|
-|공통 권한 그룹 권한 추가|event_id.org.role_group.assign.roles|콘솔|
-|공통 권한 그룹 권한 삭제|event_id.org.role_group.remove.roles|콘솔|
-|프로젝트 권한 그룹 생성|event_id.project.role_group.create|콘솔|
-|프로젝트 권한 그룹 수정|event_id.project.role_group.update|콘솔|
-|프로젝트 권한 그룹 삭제|event_id.project.role_group.delete|콘솔|
-|프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|콘솔|
-|프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|콘솔|
-|IAMプロジェクト アクセス|event_id.iam.project.selected|콘솔|
-|予算追加|event_id.budget.create|콘솔|
-|予算修正|event_id.budget.modify|콘솔|
-|予算削除|event_id.budget.delete|콘솔|
-|ガバナンス設定変更|event_id.governance.change|콘솔|
-|서비스지원팀 삭제|event_id.supporter.delete|콘솔|
-|서비스지원팀 추가|event_id.supporter.add|콘솔|
-|マーケットプレイス申請|event_id.market_place.apply|콘솔|
-|マーケットプレイス申請キャンセル|event_id.market_place.apply-cancel|콘솔|
-|マーケットプレイス解約申請|event_id.market_place.termination-apply|콘솔|
-|マーケットプレイス解約申請ャンセル|event_id.market_place.termination-apply-cancel|콘솔|
+|IAM ログイン|event_id.iam.login|コンソール|
+|IAMメンバーの権限変更|event_id.iam.member.role.update|コンソール|
+|組織ドメインの追加|event_id.org.domain.add|コンソール|
+|組織ドメインの修正|event_id.org.domain.update|コンソール|
+|組織内部会員の追加|event_id.org.iam.member.add|コンソール|
+|組織内部会員パスワードの変更告知メール送信|event_id.org.iam.member.send_mail|コンソール|
+|組織内部会員情報の修正|event_id.org.iam.member.update|コンソール|
+|組織メンバーの追加|event_id.org.member.add|コンソール|
+|組織メンバーの削除|event_id.org.member.delete|コンソール|
+|組織メンバーの招待|event_id.org.member.invite|コンソール|
+|組織メンバーの招待キャンセル|event_id.org.member.invite_cancel|コンソール|
+|組織メンバーの修正|event_id.org.member.update|コンソール|
+|組織サービスの無効化|event_id.org.product.disable|コンソール|
+|組織サービスの有効化|event_id.org.product.enable|コンソール|
+|組織情報の修正|event_id.org.update|コンソール|
+|IAM組織 アクセス|event_id.iam.org.selected|コンソール|
+|プロジェクトの作成|event_id.project.create|コンソール|
+|プロジェクトの削除|event_id.project.delete|コンソール|
+|プロジェクトメンバーの追加|event_id.project.member.add|コンソール|
+|プロジェクトメンバーの削除|event_id.project.member.delete|コンソール|
+|プロジェクトメンバーの招待|event_id.project.member.invite|コンソール|
+|プロジェクトメンバーの招待キャンセル|event_id.project.member.invite_cancel|コンソール|
+|プロジェクトメンバーの権限修正|event_id.project.member.update|コンソール|
+|プロジェクトメンバーの削除|event_id.project.members.delete|コンソール|
+|プロジェクトサービスの無効化|event_id.project.product.disable|コンソール|
+|プロジェクトサービスの有効化|event_id.project.product.enable|コンソール|
+|プロジェクトの修正|event_id.project.update|コンソール|
+|プロジェクト アクセス|event_id.project.selected|コンソール|
+|공통 권한 그룹 생성|event_id.org.role_group.create|コンソール|
+|공통 권한 그룹 수정|event_id.org.role_group.update|コンソール|
+|공통 권한 그룹 삭제|event_id.org.role_group.delete|コンソール|
+|공통 권한 그룹 권한 추가|event_id.org.role_group.assign.roles|コンソール|
+|공통 권한 그룹 권한 삭제|event_id.org.role_group.remove.roles|コンソール|
+|프로젝트 권한 그룹 생성|event_id.project.role_group.create|コンソール|
+|프로젝트 권한 그룹 수정|event_id.project.role_group.update|コンソール|
+|프로젝트 권한 그룹 삭제|event_id.project.role_group.delete|コンソール|
+|프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|コンソール|
+|프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|コンソール|
+|IAMプロジェクト アクセス|event_id.iam.project.selected|コンソール|
+|予算追加|event_id.budget.create|コンソール|
+|予算修正|event_id.budget.modify|コンソール|
+|予算削除|event_id.budget.delete|コンソール|
+|ガバナンス設定変更|event_id.governance.change|コンソール|
+|서비스지원팀 삭제|event_id.supporter.delete|コンソール|
+|서비스지원팀 추가|event_id.supporter.add|コンソール|
+|マーケットプレイス申請|event_id.market_place.apply|コンソール|
+|マーケットプレイス申請キャンセル|event_id.market_place.apply-cancel|コンソール|
+|マーケットプレイス解約申請|event_id.market_place.termination-apply|コンソール|
+|マーケットプレイス解約申請ャンセル|event_id.market_place.termination-apply-cancel|コンソール|
 |サービス作成|event_id.service_monitoring.creation_service|Service Monitoring|
 |サービス変更|event_id.service_monitoring.modification_service|Service Monitoring|
 |サービス削除|event_id.service_monitoring.delete_service|Service Monitoring|

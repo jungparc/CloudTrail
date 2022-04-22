@@ -2,11 +2,11 @@
 
 ### 2022. 04. 26.
 #### More Events
-* Added events related to 콘솔.
+* Added events related to Console.
 
 ### 2022. 03. 15.
 #### More Events
-* Added events related to 기본 인프라 서비스.
+* Added events related to Default Infrastructure Service.
 * Added events related to RDS for MS-SQL.
 
 ### 2022. 02. 22.
@@ -16,7 +16,7 @@
 
 ### 2022. 01. 25.
 #### More Events
-* Added events related to 콘솔.
+* Added events related to Console.
 * Added events related to API Gateway.
 * Added events related to Deploy.
 * Added events related to Text to Speech.
@@ -49,18 +49,18 @@
 
 ### 2021. 09. 28.
 #### More Events
-* Added events related to 콘솔.
+* Added events related to Console.
 * Added events related to AI Fashion.
 * Added events related to RDS for MySQL.
 
 ### 2021. 08. 24.
 #### More Events
-* Added events related to 콘솔.
+* Added events related to Console.
 * Added events related to EasyCache.
 
 ### 2021. 08. 19.
 #### More Events
-* Added events related to 기본 인프라 서비스.
+* Added events related to Default Infrastructure Service.
 
 ### 2021. 07. 27.
 #### More Events
@@ -126,11 +126,11 @@
 ### 2020. 08. 25.
 #### More Events
 * Added events related to Backup.
-* Added events related to 기본 인프라 서비스.
+* Added events related to Default Infrastructure Service.
 
 ### 2020. 08. 19.
 #### More Events
-* Added events related to 기본 인프라 서비스.
+* Added events related to Default Infrastructure Service.
 * Added events related to Kubernetes.
 
 ### 2020. 07. 28.
