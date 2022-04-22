@@ -398,7 +398,6 @@
 |DNS Zone 생성|event_id.dnsplus.zone.create|DNS Plus|
 |DNS Zone 수정|event_id.dnsplus.zone.update|DNS Plus|
 |DNS Zone 삭제|event_id.dnsplus.zone.delete|DNS Plus|
-|레코드 세트 대량 생성|event_id.dnsplus.recordset.create_list|DNS Plus|
 |레코드 세트 생성|event_id.dnsplus.recordset.create|DNS Plus|
 |레코드 세트 수정|event_id.dnsplus.recordset.update|DNS Plus|
 |레코드 세트 삭제|event_id.dnsplus.recordset.delete|DNS Plus|
