@@ -239,7 +239,6 @@
 |조직 서비스 비활성화|event_id.org.product.disable|콘솔|
 |조직 서비스 활성화|event_id.org.product.enable|콘솔|
 |조직 정보 수정|event_id.org.update|콘솔|
-|조직 접속|event_id.org.selected|콘솔|
 |IAM 조직 접속|event_id.iam.org.selected|콘솔|
 |프로젝트 생성|event_id.project.create|콘솔|
 |프로젝트 삭제|event_id.project.delete|콘솔|
@@ -270,6 +269,10 @@
 |거버넌스 설정 변경|event_id.governance.change|콘솔|
 |서비스지원팀 삭제|event_id.supporter.delete|콘솔|
 |서비스지원팀 추가|event_id.supporter.add|콘솔|
+|마켓플레이스 신청|event_id.market_place.apply|콘솔|
+|마켓플레이스 신청 취소|event_id.market_place.apply-cancel|콘솔|
+|마켓플레이스 해지 신청|event_id.market_place.termination-apply|콘솔|
+|마켓플레이스 해지 신청 취소|event_id.market_place.termination-apply-cancel|콘솔|
 |서비스 생성|event_id.service_monitoring.creation_service|Service Monitoring|
 |서비스 변경|event_id.service_monitoring.modification_service|Service Monitoring|
 |서비스 삭제|event_id.service_monitoring.delete_service|Service Monitoring|
@@ -395,6 +398,7 @@
 |DNS Zone 생성|event_id.dnsplus.zone.create|DNS Plus|
 |DNS Zone 수정|event_id.dnsplus.zone.update|DNS Plus|
 |DNS Zone 삭제|event_id.dnsplus.zone.delete|DNS Plus|
+|레코드 세트 대량 생성|event_id.dnsplus.recordset.create_list|DNS Plus|
 |레코드 세트 생성|event_id.dnsplus.recordset.create|DNS Plus|
 |레코드 세트 수정|event_id.dnsplus.recordset.update|DNS Plus|
 |레코드 세트 삭제|event_id.dnsplus.recordset.delete|DNS Plus|
