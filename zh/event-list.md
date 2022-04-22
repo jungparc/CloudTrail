@@ -148,132 +148,131 @@
 |Synchronize DB User|event_id.rds_for_mysql.instance.db_definition.user.sync|RDS for MySQL, RDS for MariaDB|
 |Make and export a DB instance backup|event_id.rds_for_mysql.instance.backup.export|RDS for MySQL, RDS for MariaDB|
 |Export backup to the object storage|event_id.rds_for_mysql.backup.export|RDS for MySQL, RDS for MariaDB|
-|创建密钥库|event_id.skm.keystore.create|Secure Key Manager|
-|删除密钥库|event_id.skm.keystore.delete|Secure Key Manager|
-|更改密钥库|event_id.skm.keystore.update|Secure Key Manager|
-|创建机密数据|event_id.skm.secret.create|Secure Key Manager|
-|删除机密数据|event_id.skm.secret.delete|Secure Key Manager|
-|请求删除机密数据|event_id.skm.secret.delete_request|Secure Key Manager|
-|取消请求删除机密数据|event_id.skm.secret.delete_request_cancel|Secure Key Manager|
-|更改机密数据信息|event_id.skm.secret.update|Secure Key Manager|
-|查询机密数据|event_id.skm.secret.get|Secure Key Manager|
-|创建对称密钥|event_id.skm.symmetric.create|Secure Key Manager|
-|立即删除对称密钥|event_id.skm.symmetric.delete|Secure Key Manager|
-|请求删除对称密钥|event_id.skm.symmetric.delete_request|Secure Key Manager|
-|取消请求删除对称密钥|event_id.skm.symmetric.delete_request_cancel|Secure Key Manager|
-|更改对称密钥信息|event_id.skm.symmetric.update|Secure Key Manager|
-|立即旋转对称密钥|event_id.skm.symmetric.rotate|Secure Key Manager|
-|请求删除对称密钥版本|event_id.skm.symmetric_version.delete_request|Secure Key Manager|
-|取消请求删除对称密钥版本|event_id.skm.symmetric_version.delete_request_cancel|Secure Key Manager|
-|立即删除对称密钥版本|event_id.skm.symmetric_version.delete|Secure Key Manager|
-|创建非对称密钥|event_id.skm.asymmetric.create|Secure Key Manager|
-|立即删除非对称密钥|event_id.skm.asymmetric.delete|Secure Key Manager|
-|请求删除非对称密钥|event_id.skm.asymmetric.delete_request|Secure Key Manager|
-|取消请求删除非对称密钥|event_id.skm.asymmetric.delete_request_cancel|Secure Key Manager|
-|更改非对称密钥信息|event_id.skm.asymmetric.update|Secure Key Manager|
-|立即旋转非对称密钥|event_id.skm.asymmetric.rotate|Secure Key Manager|
-|请求删除非对称密钥版本|event_id.skm.asymmetric_version.delete_request|Secure Key Manager|
-|取消请求删除非对称密钥版本|event_id.skm.asymmetric_version.delete_request_cancel|Secure Key Manager|
-|立即删除非对称密钥版本|event_id.skm.asymmetric_version.delete|Secure Key Manager|
-|登录IPv4地址|event_id.skm.ipv4.create|Secure Key Manager|
-|请求删除IPv4地址|event_id.skm.ipv4.delete_request|Secure Key Manager|
-|取消请求删除IPv4地址|event_id.skm.ipv4.delete_request_cancel|Secure Key Manager|
-|更改IPv4地址信息|event_id.skm.ipv4.update|Secure Key Manager|
-|立即删除IPv4地址|event_id.skm.ipv4.delete|Secure Key Manager|
-|下载IPv4地址列表|event_id.skm.ipv4.download_list|Secure Key Manager|
-|批量登录IPv4地址|event_id.skm.ipv4.create_multi|Secure Key Manager|
-|登录MAC地址|event_id.skm.mac.create|Secure Key Manager|
-|请求删除MAC地址|event_id.skm.mac.delete_request|Secure Key Manager|
-|取消请求删除MAC地址|event_id.skm.mac.delete_request_cancel|Secure Key Manager|
-|更改MAC地址信息|event_id.skm.mac.update|Secure Key Manager|
-|立即删除MAC地址|event_id.skm.mac.delete|Secure Key Manager|
-|下载MAC地址列表|event_id.skm.mac.download_list|Secure Key Manager|
-|批量登录MAC地址|event_id.skm.mac.create_multi|Secure Key Manager|
-|登录认证书|event_id.skm.cert.create|Secure Key Manager|
-|请求删除认证书|event_id.skm.cert.delete_request|Secure Key Manager|
-|取消请求删除认证书|event_id.skm.cert.delete_request_cancel|Secure Key Manager|
-|更改认证书|event_id.skm.cert.update|Secure Key Manager|
-|立即删除认证书|event_id.skm.cert.delete|Secure Key Manager|
-|下载认证书|event_id.skm.cert.download|Secure Key Manager|
-|创建Artifacts|event_id.deploy.artifact_create|Deploy|
-|修改Artifacts|event_id.deploy.artifact_update|Deploy|
-|删除Artifacts|event_id.deploy.artifact_delete|Deploy|
-|创建二进制组|event_id.deploy.binary_group_create|Deploy|
-|删除二进制组|event_id.deploy.binary_group_delete|Deploy|
-|修改二进制组|event_id.deploy.binary_group_update|Deploy|
-|上传二进制|event_id.deploy.binary_upload|Deploy|
-|下载二进制|event_id.deploy.binary_download|Deploy|
-|删除二进制|event_id.deploy.binary_delete|Deploy|
-|修改二进制|event_id.deploy.binary_update|Deploy|
-|创建服务器组|event_id.deploy.server_group_create|Deploy|
-|删除服务器组|event_id.deploy.server_group_delete|Deploy|
-|修改服务器组|event_id.deploy.server_group_update|Deploy|
-|创建资源组|event_id.deploy.resource_group_create|Deploy|
-|删除资源组|event_id.deploy.resource_group_delete|Deploy|
-|创建资源|event_id.deploy.resource_create|Deploy|
-|修改资源|event_id.deploy.resource_update|Deploy|
-|保存资源|event_id.deploy.resource_save|Deploy|
-|下载资源|event_id.deploy.resource_download|Deploy|
-|删除资源|event_id.deploy.resource_delete|Deploy|
-|创建Scenario|event_id.deploy.scenario_create|Deploy|
-|复制Scenario|event_id.deploy.scenario_copy|Deploy|
-|下载Scenario|event_id.deploy.scenario_download|Deploy|
-|上传Scenario|event_id.deploy.scenario_upload|Deploy|
-|修改Scenario|event_id.deploy.scenario_update|Deploy|
-|删除Scenario|event_id.deploy.scenario_delete|Deploy|
-|运行发布|event_id.deploy.deploy_execute|Deploy|
+|Create Keystore|event_id.skm.keystore.create|Secure Key Manager|
+|Delete Keystore|event_id.skm.keystore.delete|Secure Key Manager|
+|Change Keystore Information|event_id.skm.keystore.update|Secure Key Manager|
+|Create Confidential Data|event_id.skm.secret.create|Secure Key Manager|
+|Delete Confidential Data|event_id.skm.secret.delete|Secure Key Manager|
+|Request for Deleting Confidential Data|event_id.skm.secret.delete_request|Secure Key Manager|
+|Cancel Request for Deleting Confidential Data|event_id.skm.secret.delete_request_cancel|Secure Key Manager|
+|Change Confidential Data Information|event_id.skm.secret.update|Secure Key Manager|
+|Query Confidential Data|event_id.skm.secret.get|Secure Key Manager|
+|Create Symmectric Keys|event_id.skm.symmetric.create|Secure Key Manager|
+|Immediately Delete Symmetric Keys|event_id.skm.symmetric.delete|Secure Key Manager|
+|Request for Deleting Symmetric Keys|event_id.skm.symmetric.delete_request|Secure Key Manager|
+|Cancel Request for Deleting Symmetric Keys|event_id.skm.symmetric.delete_request_cancel|Secure Key Manager|
+|Change Symmectric Key Information|event_id.skm.symmetric.update|Secure Key Manager|
+|Immediately Rotate Symmetric Keys|event_id.skm.symmetric.rotate|Secure Key Manager|
+|Request for Deleting Symmectric Key Version|event_id.skm.symmetric_version.delete_request|Secure Key Manager|
+|Cancel Request for Deleting Symmetric Key Version|event_id.skm.symmetric_version.delete_request_cancel|Secure Key Manager|
+|Immediately Delete Symmetric Key Version|event_id.skm.symmetric_version.delete|Secure Key Manager|
+|Create Asymmetric Keys|event_id.skm.asymmetric.create|Secure Key Manager|
+|Immediately Delete Asymmetric Keys|event_id.skm.asymmetric.delete|Secure Key Manager|
+|Request for Deleting Asymmetric Keys|event_id.skm.asymmetric.delete_request|Secure Key Manager|
+|Cancel Request for Deleting Asymmetric Keys|event_id.skm.asymmetric.delete_request_cancel|Secure Key Manager|
+|Change Asymmetric Keys Information|event_id.skm.asymmetric.update|Secure Key Manager|
+|Immediately Rotate Asymmetric Keys|event_id.skm.asymmetric.rotate|Secure Key Manager|
+|Request for Deleting Asymmetric Key Version|event_id.skm.asymmetric_version.delete_request|Secure Key Manager|
+|Cancel Request for Deleting Asymmetric Key Version|event_id.skm.asymmetric_version.delete_request_cancel|Secure Key Manager|
+|Immediately Delete Asymmetric Keys Version|event_id.skm.asymmetric_version.delete|Secure Key Manager|
+|Register IPv4 Address|event_id.skm.ipv4.create|Secure Key Manager|
+|Request for Deleting IPv4 Address|event_id.skm.ipv4.delete_request|Secure Key Manager|
+|Cancel Request for IPv4 Address|event_id.skm.ipv4.delete_request_cancel|Secure Key Manager|
+|Change IPv4 Address Information|event_id.skm.ipv4.update|Secure Key Manager|
+|Immediately Delete IPv4 Address|event_id.skm.ipv4.delete|Secure Key Manager|
+|Download List of IPv4 Addresses|event_id.skm.ipv4.download_list|Secure Key Manager|
+|Bulk Register IPv4 Addresses|event_id.skm.ipv4.create_multi|Secure Key Manager|
+|Register MAC Address|event_id.skm.mac.create|Secure Key Manager|
+|Request for Deleting MAC Address|event_id.skm.mac.delete_request|Secure Key Manager|
+|Cancel Request for Deleting MAC Address|event_id.skm.mac.delete_request_cancel|Secure Key Manager|
+|Change MAC Address Information|event_id.skm.mac.update|Secure Key Manager|
+|Immediately Delete MAC Address|event_id.skm.mac.delete|Secure Key Manager|
+|Download List of MAC Addresses|event_id.skm.mac.download_list|Secure Key Manager|
+|Bulk Register MAC Addresses|event_id.skm.mac.create_multi|Secure Key Manager|
+|Register Certificate|event_id.skm.cert.create|Secure Key Manager|
+|Request for Deleting Certificate|event_id.skm.cert.delete_request|Secure Key Manager|
+|Cancel Request for Deleting Certificate|event_id.skm.cert.delete_request_cancel|Secure Key Manager|
+|Change Certificate Information|event_id.skm.cert.update|Secure Key Manager|
+|Immediately Delete Certificate|event_id.skm.cert.delete|Secure Key Manager|
+|Download Certificate|event_id.skm.cert.download|Secure Key Manager|
+|Create Artifact|event_id.deploy.artifact_create|Deploy|
+|Modify Artifact|event_id.deploy.artifact_update|Deploy|
+|Delete Artifact|event_id.deploy.artifact_delete|Deploy|
+|Create Binary Group|event_id.deploy.binary_group_create|Deploy|
+|Delete Binary Group|event_id.deploy.binary_group_delete|Deploy|
+|Modify Binary Group|event_id.deploy.binary_group_update|Deploy|
+|Upload Binary|event_id.deploy.binary_upload|Deploy|
+|Download Binary|event_id.deploy.binary_download|Deploy|
+|Delete Binary|event_id.deploy.binary_delete|Deploy|
+|Modify Binary|event_id.deploy.binary_update|Deploy|
+|Create Server Group|event_id.deploy.server_group_create|Deploy|
+|Delete Server Group|event_id.deploy.server_group_delete|Deploy|
+|Modify Server Group|event_id.deploy.server_group_update|Deploy|
+|Create Resource Group|event_id.deploy.resource_group_create|Deploy|
+|Delete Resource Group|event_id.deploy.resource_group_delete|Deploy|
+|Create Resource|event_id.deploy.resource_create|Deploy|
+|Modify Resource|event_id.deploy.resource_update|Deploy|
+|Save Resource|event_id.deploy.resource_save|Deploy|
+|Download Resource|event_id.deploy.resource_download|Deploy|
+|Delete Resource|event_id.deploy.resource_delete|Deploy|
+|Create Scenario|event_id.deploy.scenario_create|Deploy|
+|Copy Scenario|event_id.deploy.scenario_copy|Deploy|
+|Download Scenario|event_id.deploy.scenario_download|Deploy|
+|Upload Scenario|event_id.deploy.scenario_upload|Deploy|
+|Modify Scenario|event_id.deploy.scenario_update|Deploy|
+|Delete Scenario|event_id.deploy.scenario_delete|Deploy|
+|Execute Deployment|event_id.deploy.deploy_execute|Deploy|
 |Download deployment history|event_id.deploy.deploy_history_download|Deploy|
 |Execute Autoscale Deployment|event_id.deploy.autoscale_deploy_execute|Deploy|
-|IAM 登入|event_id.iam.login|콘솔|
-|Change Authority for IAM Members|event_id.iam.member.role.update|콘솔|
-|Add Organization Domain |event_id.org.domain.add|콘솔|
-|Modify Organization Domain|event_id.org.domain.update|콘솔|
-|Add Organization Member|event_id.org.iam.member.add|콘솔|
-|Send Notification Mail to Organization Members to Change Password |event_id.org.iam.member.send_mail|콘솔|
-|Modify Organization Member Information |event_id.org.iam.member.update|콘솔|
-|Add Organization Member |event_id.org.member.add|콘솔|
-|Delete Organization Member|event_id.org.member.delete|콘솔|
-|Invite Organization Member|event_id.org.member.invite|콘솔|
-|Cancel Organization Member Invitation  |event_id.org.member.invite_cancel|콘솔|
-|Modify Organization Member  |event_id.org.member.update|콘솔|
-|Disable Organization Service|event_id.org.product.disable|콘솔|
-|Enable Organization Service|event_id.org.product.enable|콘솔|
-|Modify Organization Information|event_id.org.update|콘솔|
-|Access Organization|event_id.org.selected|콘솔|
-|Access IAM Organization|event_id.iam.org.selected|콘솔|
-|Create Project|event_id.project.create|콘솔|
-|Delete Project|event_id.project.delete|콘솔|
-|Add Project Member |event_id.project.member.add|콘솔|
-|Delete Project Member|event_id.project.member.delete|콘솔|
-|Invite Project Member|event_id.project.member.invite|콘솔|
-|Cancel Project Member Invitation|event_id.project.member.invite_cancel|콘솔|
-|Modify Project Member Authority|event_id.project.member.update|콘솔|
-|Delete Project Member|event_id.project.members.delete|콘솔|
-|Disable Project Service|event_id.project.product.disable|콘솔|
-|Enable Project Service|event_id.project.product.enable|콘솔|
-|Modify Project|event_id.project.update|콘솔|
-|Access Project|event_id.project.selected|콘솔|
-|공통 권한 그룹 생성|event_id.org.role_group.create|콘솔|
-|공통 권한 그룹 수정|event_id.org.role_group.update|콘솔|
-|공통 권한 그룹 삭제|event_id.org.role_group.delete|콘솔|
-|공통 권한 그룹 권한 추가|event_id.org.role_group.assign.roles|콘솔|
-|공통 권한 그룹 권한 삭제|event_id.org.role_group.remove.roles|콘솔|
-|프로젝트 권한 그룹 생성|event_id.project.role_group.create|콘솔|
-|프로젝트 권한 그룹 수정|event_id.project.role_group.update|콘솔|
-|프로젝트 권한 그룹 삭제|event_id.project.role_group.delete|콘솔|
-|프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|콘솔|
-|프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|콘솔|
-|Access IAM Project|event_id.iam.project.selected|콘솔|
-|Add Budget|event_id.budget.create|콘솔|
-|Modify Budget|event_id.budget.modify|콘솔|
-|Delete Budget|event_id.budget.delete|콘솔|
-|Change governance setting|event_id.governance.change|콘솔|
-|서비스지원팀 삭제|event_id.supporter.delete|콘솔|
-|서비스지원팀 추가|event_id.supporter.add|콘솔|
-|Apply for Marketplace|event_id.market_place.apply|콘솔|
-|Cancel Applying for Marketplace|event_id.market_place.apply-cancel|콘솔|
-|Apply for Marketplace Cancellation|event_id.market_place.termination-apply|콘솔|
-|Cancel Applying for Marketplace Cancellation|event_id.market_place.termination-apply-cancel|콘솔|
+|IAM Login|event_id.iam.login|Console|
+|Change Authority for IAM Members|event_id.iam.member.role.update|Console|
+|Add Organization Domain |event_id.org.domain.add|Console|
+|Modify Organization Domain|event_id.org.domain.update|Console|
+|Add Organization Member|event_id.org.iam.member.add|Console|
+|Send Notification Mail to Organization Members to Change Password |event_id.org.iam.member.send_mail|Console|
+|Modify Organization Member Information |event_id.org.iam.member.update|Console|
+|Add Organization Member |event_id.org.member.add|Console|
+|Delete Organization Member|event_id.org.member.delete|Console|
+|Invite Organization Member|event_id.org.member.invite|Console|
+|Cancel Organization Member Invitation  |event_id.org.member.invite_cancel|Console|
+|Modify Organization Member  |event_id.org.member.update|Console|
+|Disable Organization Service |event_id.org.product.disable|Console|
+|Enable Organization Service|event_id.org.product.enable|Console|
+|Modify Organization Information|event_id.org.update|Console|
+|Access IAM Organization|event_id.iam.org.selected|Console|
+|Create Project|event_id.project.create|Console|
+|Delete Project|event_id.project.delete|Console|
+|Add Project Member |event_id.project.member.add|Console|
+|Delete Project Member|event_id.project.member.delete|Console|
+|Invite Project Member|event_id.project.member.invite|Console|
+|Cancel Project Member Invitation|event_id.project.member.invite_cancel|Console|
+|Modify Project Member Authority|event_id.project.member.update|Console|
+|Delete Project Member|event_id.project.members.delete|Console|
+|Disable Project Service|event_id.project.product.disable|Console|
+|Enable Project Service|event_id.project.product.enable|Console|
+|Modify Project|event_id.project.update|Console|
+|Access Project|event_id.project.selected|Console|
+|공통 권한 그룹 생성|event_id.org.role_group.create|Console|
+|공통 권한 그룹 수정|event_id.org.role_group.update|Console|
+|공통 권한 그룹 삭제|event_id.org.role_group.delete|Console|
+|공통 권한 그룹 권한 추가|event_id.org.role_group.assign.roles|Console|
+|공통 권한 그룹 권한 삭제|event_id.org.role_group.remove.roles|Console|
+|프로젝트 권한 그룹 생성|event_id.project.role_group.create|Console|
+|프로젝트 권한 그룹 수정|event_id.project.role_group.update|Console|
+|프로젝트 권한 그룹 삭제|event_id.project.role_group.delete|Console|
+|프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|Console|
+|프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|Console|
+|Access IAM Project|event_id.iam.project.selected|Console|
+|Add Budget|event_id.budget.create|Console|
+|Modify Budget|event_id.budget.modify|Console|
+|Delete Budget|event_id.budget.delete|Console|
+|Change governance setting|event_id.governance.change|Console|
+|서비스지원팀 삭제|event_id.supporter.delete|Console|
+|서비스지원팀 추가|event_id.supporter.add|Console|
+|Apply for Marketplace|event_id.market_place.apply|Console|
+|Cancel Applying for Marketplace|event_id.market_place.apply-cancel|Console|
+|Apply for Marketplace Cancellation|event_id.market_place.termination-apply|Console|
+|Cancel Applying for Marketplace Cancellation|event_id.market_place.termination-apply-cancel|Console|
 |Create Service|event_id.service_monitoring.creation_service|Service Monitoring|
 |Change Service|event_id.service_monitoring.modification_service|Service Monitoring|
 |Delete Service|event_id.service_monitoring.delete_service|Service Monitoring|
@@ -396,24 +395,24 @@
 |Delete Backup Path|event_id.backup.target.delete|Backup|
 |Apply for Restoration|event_id.backup.restoration.apply|Backup|
 |Change Backup Server Data|event_id.backup.client.update|Backup|
-|创建DNS Zone|event_id.dnsplus.zone.create|DNS Plus|
-|修改DNS Zone|event_id.dnsplus.zone.update|DNS Plus|
-|删除DNS Zone|event_id.dnsplus.zone.delete|DNS Plus|
-|创建记录集合|event_id.dnsplus.recordset.create|DNS Plus|
-|修改记录集合|event_id.dnsplus.recordset.update|DNS Plus|
-|删除记录集合|event_id.dnsplus.recordset.delete|DNS Plus|
-|创建GSLB|event_id.dnsplus.gslb.create|DNS Plus|
-|修改GSLB|event_id.dnsplus.gslb.update|DNS Plus|
-|删除GSLB|event_id.dnsplus.gslb.delete|DNS Plus|
-|连接Pool|event_id.dnsplus.gslb_connected_pool.create|DNS Plus|
-|修改Pool连接|event_id.dnsplus.gslb_connected_pool.update|DNS Plus|
-|断开Pool连接|event_id.dnsplus.gslb_connected_pool.delete|DNS Plus|
-|创建Pool|event_id.dnsplus.pool.create|DNS Plus|
-|修改Pool|event_id.dnsplus.pool.update|DNS Plus|
-|删除Pool|event_id.dnsplus.pool.delete|DNS Plus|
-|创建健康检查|event_id.dnsplus.health_check.create|DNS Plus|
-|修改健康检查|event_id.dnsplus.health_check.update|DNS Plus|
-|删除健康检查|event_id.dnsplus.health_check.delete|DNS Plus|
+|Create DNS Zone|event_id.dnsplus.zone.create|DNS Plus|
+|Modify DNS Zone|event_id.dnsplus.zone.update|DNS Plus|
+|Delete DNS Zone|event_id.dnsplus.zone.delete|DNS Plus|
+|Create Record Set|event_id.dnsplus.recordset.create|DNS Plus|
+|Modify Record Set|event_id.dnsplus.recordset.update|DNS Plus|
+|Delete Record Set|event_id.dnsplus.recordset.delete|DNS Plus|
+|Create GSLB|event_id.dnsplus.gslb.create|DNS Plus|
+|Modify GSLB|event_id.dnsplus.gslb.update|DNS Plus|
+|Delete GSLB|event_id.dnsplus.gslb.delete|DNS Plus|
+|Connect Pools|event_id.dnsplus.gslb_connected_pool.create|DNS Plus|
+|Modify Pool Connection|event_id.dnsplus.gslb_connected_pool.update|DNS Plus|
+|Disconnect Pools|event_id.dnsplus.gslb_connected_pool.delete|DNS Plus|
+|Create Pools|event_id.dnsplus.pool.create|DNS Plus|
+|Modify Pools|event_id.dnsplus.pool.update|DNS Plus|
+|Delete Pools|event_id.dnsplus.pool.delete|DNS Plus|
+|Create Health Checks|event_id.dnsplus.health_check.create|DNS Plus|
+|Modify Health Checks|event_id.dnsplus.health_check.update|DNS Plus|
+|Delete Health Checks|event_id.dnsplus.health_check.delete|DNS Plus|
 |Issue New Certificates|event_id.cdn.certificate.create|CDN|
 |Delete Certificate|event_id.cdn.certificate.delete|CDN|
 |Cancel in the Certificate Verification Step	|event_id.cdn.certificate.validation_cancel|CDN|
@@ -618,14 +617,14 @@
 |Create Deployment Target|event_id.pipeline.deploy_target.create|Pipeline|
 |Modify Deployment Target|event_id.pipeline.deploy_target.update|Pipeline|
 |Delete Deployment Target|event_id.pipeline.deploy_target.delete|Pipeline|
-|Android SDK 다운로드|event_id.appguard.sdk_download_aos|NHN AppGuard|
-|iOS SDK 다운로드|event_id.appguard.sdk_download_ios|NHN AppGuard|
-|보고서 다운로드|event_id.appguard.report_download|NHN AppGuard|
-|보호 작업|event_id.appguard.protection|NHN AppGuard|
-|난독화 신청|event_id.appguard.obfuscation_request|NHN AppGuard|
-|블랙리스트 추가|event_id.appguard.blacklist_add|NHN AppGuard|
-|블랙리스트 차단 해제|event_id.appguard.blacklist_delete|NHN AppGuard|
-|정책 수정|event_id.appguard.policy_update|NHN AppGuard|
+|Android SDK download|event_id.appguard.sdk_download_aos|NHN AppGuard|
+|iOS SDK download|event_id.appguard.sdk_download_ios|NHN AppGuard|
+|Report download|event_id.appguard.report_download|NHN AppGuard|
+|protection|event_id.appguard.protection|NHN AppGuard|
+|Obfuscation application|event_id.appguard.obfuscation_request|NHN AppGuard|
+|Blacklist addition|event_id.appguard.blacklist_add|NHN AppGuard|
+|Blacklist unblock|event_id.appguard.blacklist_delete|NHN AppGuard|
+|policy update|event_id.appguard.policy_update|NHN AppGuard|
 |Create a URL|event_id.short_url.url_create|ShortURL|
 |Update a URL|event_id.short_url.url_update|ShortURL|
 |Enable a URL|event_id.short_url.url_enable|ShortURL|

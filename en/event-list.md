@@ -239,7 +239,6 @@
 |Disable Organization Service |event_id.org.product.disable|Console|
 |Enable Organization Service|event_id.org.product.enable|Console|
 |Modify Organization Information|event_id.org.update|Console|
-|Access Organization|event_id.org.selected|Console|
 |Access IAM Organization|event_id.iam.org.selected|Console|
 |Create Project|event_id.project.create|Console|
 |Delete Project|event_id.project.delete|Console|
@@ -270,6 +269,10 @@
 |Change governance setting|event_id.governance.change|Console|
 |서비스지원팀 삭제|event_id.supporter.delete|Console|
 |서비스지원팀 추가|event_id.supporter.add|Console|
+|Apply for Marketplace|event_id.market_place.apply|Console|
+|Cancel Applying for Marketplace|event_id.market_place.apply-cancel|Console|
+|Apply for Marketplace Cancellation|event_id.market_place.termination-apply|Console|
+|Cancel Applying for Marketplace Cancellation|event_id.market_place.termination-apply-cancel|Console|
 |Create Service|event_id.service_monitoring.creation_service|Service Monitoring|
 |Change Service|event_id.service_monitoring.modification_service|Service Monitoring|
 |Delete Service|event_id.service_monitoring.delete_service|Service Monitoring|

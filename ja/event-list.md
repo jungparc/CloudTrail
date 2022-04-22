@@ -239,7 +239,6 @@
 |組織サービスの無効化|event_id.org.product.disable|コンソール|
 |組織サービスの有効化|event_id.org.product.enable|コンソール|
 |組織情報の修正|event_id.org.update|コンソール|
-|組織 アクセス|event_id.org.selected|コンソール|
 |IAM組織 アクセス|event_id.iam.org.selected|コンソール|
 |プロジェクトの作成|event_id.project.create|コンソール|
 |プロジェクトの削除|event_id.project.delete|コンソール|
@@ -270,6 +269,10 @@
 |ガバナンス設定変更|event_id.governance.change|コンソール|
 |서비스지원팀 삭제|event_id.supporter.delete|コンソール|
 |서비스지원팀 추가|event_id.supporter.add|コンソール|
+|マーケットプレイス申請|event_id.market_place.apply|コンソール|
+|マーケットプレイス申請キャンセル|event_id.market_place.apply-cancel|コンソール|
+|マーケットプレイス解約申請|event_id.market_place.termination-apply|コンソール|
+|マーケットプレイス解約申請ャンセル|event_id.market_place.termination-apply-cancel|コンソール|
 |サービス作成|event_id.service_monitoring.creation_service|Service Monitoring|
 |サービス変更|event_id.service_monitoring.modification_service|Service Monitoring|
 |サービス削除|event_id.service_monitoring.delete_service|Service Monitoring|

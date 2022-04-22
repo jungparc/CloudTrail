@@ -1,5 +1,9 @@
 ## CloudTrail > Release Notes
 
+### 2022. 04. 26.
+#### More Events
+* Added events related to Console.
+
 ### 2022. 03. 15.
 #### More Events
 * Added events related to Default Infrastructure Service.
