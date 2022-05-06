@@ -230,55 +230,55 @@
 |Execute Deployment|event_id.deploy.deploy_execute|Deploy|
 |Download deployment history|event_id.deploy.deploy_history_download|Deploy|
 |Execute Autoscale Deployment|event_id.deploy.autoscale_deploy_execute|Deploy|
-|IAM Login|event_id.iam.login|콘솔|
-|Change Authority for IAM Members|event_id.iam.member.role.update|콘솔|
-|Add Organization Domain |event_id.org.domain.add|콘솔|
-|Modify Organization Domain|event_id.org.domain.update|콘솔|
-|Add Organization Member|event_id.org.iam.member.add|콘솔|
-|Send Notification Mail to Organization Members to Change Password |event_id.org.iam.member.send_mail|콘솔|
-|Modify Organization Member Information |event_id.org.iam.member.update|콘솔|
-|Add Organization Member |event_id.org.member.add|콘솔|
-|Delete Organization Member|event_id.org.member.delete|콘솔|
-|Invite Organization Member|event_id.org.member.invite|콘솔|
-|Cancel Organization Member Invitation  |event_id.org.member.invite_cancel|콘솔|
-|Modify Organization Member  |event_id.org.member.update|콘솔|
-|Disable Organization Service |event_id.org.product.disable|콘솔|
-|Enable Organization Service|event_id.org.product.enable|콘솔|
-|Modify Organization Information|event_id.org.update|콘솔|
-|Access IAM Organization|event_id.iam.org.selected|콘솔|
-|Create Project|event_id.project.create|콘솔|
-|Delete Project|event_id.project.delete|콘솔|
-|Add Project Member |event_id.project.member.add|콘솔|
-|Delete Project Member|event_id.project.member.delete|콘솔|
-|Invite Project Member|event_id.project.member.invite|콘솔|
-|Cancel Project Member Invitation|event_id.project.member.invite_cancel|콘솔|
-|Modify Project Member Authority|event_id.project.member.update|콘솔|
-|Delete Project Member|event_id.project.members.delete|콘솔|
-|Disable Project Service|event_id.project.product.disable|콘솔|
-|Enable Project Service|event_id.project.product.enable|콘솔|
-|Modify Project|event_id.project.update|콘솔|
-|Access Project|event_id.project.selected|콘솔|
-|공통 권한 그룹 생성|event_id.org.role_group.create|콘솔|
-|공통 권한 그룹 수정|event_id.org.role_group.update|콘솔|
-|공통 권한 그룹 삭제|event_id.org.role_group.delete|콘솔|
-|공통 권한 그룹 권한 추가|event_id.org.role_group.assign.roles|콘솔|
-|공통 권한 그룹 권한 삭제|event_id.org.role_group.remove.roles|콘솔|
-|프로젝트 권한 그룹 생성|event_id.project.role_group.create|콘솔|
-|프로젝트 권한 그룹 수정|event_id.project.role_group.update|콘솔|
-|프로젝트 권한 그룹 삭제|event_id.project.role_group.delete|콘솔|
-|프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|콘솔|
-|프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|콘솔|
-|Access IAM Project|event_id.iam.project.selected|콘솔|
-|Add Budget|event_id.budget.create|콘솔|
-|Modify Budget|event_id.budget.modify|콘솔|
-|Delete Budget|event_id.budget.delete|콘솔|
-|Change governance setting|event_id.governance.change|콘솔|
-|서비스지원팀 삭제|event_id.supporter.delete|콘솔|
-|서비스지원팀 추가|event_id.supporter.add|콘솔|
-|Apply for Marketplace|event_id.market_place.apply|콘솔|
-|Cancel Applying for Marketplace|event_id.market_place.apply-cancel|콘솔|
-|Apply for Marketplace Cancellation|event_id.market_place.termination-apply|콘솔|
-|Cancel Applying for Marketplace Cancellation|event_id.market_place.termination-apply-cancel|콘솔|
+|IAM Login|event_id.iam.login|Console|
+|Change Authority for IAM Members|event_id.iam.member.role.update|Console|
+|Add Organization Domain |event_id.org.domain.add|Console|
+|Modify Organization Domain|event_id.org.domain.update|Console|
+|Add Organization Member|event_id.org.iam.member.add|Console|
+|Send Notification Mail to Organization Members to Change Password |event_id.org.iam.member.send_mail|Console|
+|Modify Organization Member Information |event_id.org.iam.member.update|Console|
+|Add Organization Member |event_id.org.member.add|Console|
+|Delete Organization Member|event_id.org.member.delete|Console|
+|Invite Organization Member|event_id.org.member.invite|Console|
+|Cancel Organization Member Invitation  |event_id.org.member.invite_cancel|Console|
+|Modify Organization Member  |event_id.org.member.update|Console|
+|Disable Organization Service |event_id.org.product.disable|Console|
+|Enable Organization Service|event_id.org.product.enable|Console|
+|Modify Organization Information|event_id.org.update|Console|
+|Access IAM Organization|event_id.iam.org.selected|Console|
+|Create Project|event_id.project.create|Console|
+|Delete Project|event_id.project.delete|Console|
+|Add Project Member |event_id.project.member.add|Console|
+|Delete Project Member|event_id.project.member.delete|Console|
+|Invite Project Member|event_id.project.member.invite|Console|
+|Cancel Project Member Invitation|event_id.project.member.invite_cancel|Console|
+|Modify Project Member Authority|event_id.project.member.update|Console|
+|Delete Project Member|event_id.project.members.delete|Console|
+|Disable Project Service|event_id.project.product.disable|Console|
+|Enable Project Service|event_id.project.product.enable|Console|
+|Modify Project|event_id.project.update|Console|
+|Access Project|event_id.project.selected|Console|
+|공통 권한 그룹 생성|event_id.org.role_group.create|Console|
+|공통 권한 그룹 수정|event_id.org.role_group.update|Console|
+|공통 권한 그룹 삭제|event_id.org.role_group.delete|Console|
+|공통 권한 그룹 권한 추가|event_id.org.role_group.assign.roles|Console|
+|공통 권한 그룹 권한 삭제|event_id.org.role_group.remove.roles|Console|
+|프로젝트 권한 그룹 생성|event_id.project.role_group.create|Console|
+|프로젝트 권한 그룹 수정|event_id.project.role_group.update|Console|
+|프로젝트 권한 그룹 삭제|event_id.project.role_group.delete|Console|
+|프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|Console|
+|프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|Console|
+|Access IAM Project|event_id.iam.project.selected|Console|
+|Add Budget|event_id.budget.create|Console|
+|Modify Budget|event_id.budget.modify|Console|
+|Delete Budget|event_id.budget.delete|Console|
+|Change governance setting|event_id.governance.change|Console|
+|서비스지원팀 삭제|event_id.supporter.delete|Console|
+|서비스지원팀 추가|event_id.supporter.add|Console|
+|Apply for Marketplace|event_id.market_place.apply|Console|
+|Cancel Applying for Marketplace|event_id.market_place.apply-cancel|Console|
+|Apply for Marketplace Cancellation|event_id.market_place.termination-apply|Console|
+|Cancel Applying for Marketplace Cancellation|event_id.market_place.termination-apply-cancel|Console|
 |Create Service|event_id.service_monitoring.creation_service|Service Monitoring|
 |Change Service|event_id.service_monitoring.modification_service|Service Monitoring|
 |Delete Service|event_id.service_monitoring.delete_service|Service Monitoring|
