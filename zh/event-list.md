@@ -2,9 +2,9 @@
 
 | Event | Event ID | Service |
 | --- | --- | --- |
-|Create Schedule for Scaling Group |event_id.iaas.autoscale_schedule.create|Default Infrastructure Service|
+|Create Schedule for Scaling Group|event_id.iaas.autoscale_schedule.create|Default Infrastructure Service|
 |Delete Schedule for Scaling Group|event_id.iaas.autoscale_schedule.delete|Default Infrastructure Service|
-|Associate Instance Floating IP |event_id.iaas.floating_ip.attach|Default Infrastructure Service|
+|Associate Instance Floating IP|event_id.iaas.floating_ip.attach|Default Infrastructure Service|
 |Create Floating IP|event_id.iaas.floating_ip.create|Default Infrastructure Service|
 |Delete Floating IP|event_id.iaas.floating_ip.delete|Default Infrastructure Service|
 |Disassociate Instance Floating IP|event_id.iaas.floating_ip.detach|Default Infrastructure Service|
@@ -14,7 +14,7 @@
 |Create Image Sharing|event_id.iaas.image_member.create|Default Infrastructure Service|
 |Delete Image Sharing|event_id.iaas.image_member.delete|Default Infrastructure Service|
 |Create Instance|event_id.iaas.instance.create|Default Infrastructure Service|
-|Delete Instance |event_id.iaas.instance.delete|Default Infrastructure Service|
+|Delete Instance|event_id.iaas.instance.delete|Default Infrastructure Service|
 |Change Instance Information|event_id.iaas.instance.update|Default Infrastructure Service|
 |Reboot Instance|event_id.iaas.instance_action.reboot|Default Infrastructure Service|
 |Change Instance Type|event_id.iaas.instance_action.resize|Default Infrastructure Service|
@@ -22,11 +22,11 @@
 |Stop Instance|event_id.iaas.instance_action.stop|Default Infrastructure Service|
 |Create Instance Template|event_id.iaas.instance_template.create|Default Infrastructure Service|
 |Delete Instance Template|event_id.iaas.instance_template.delete|Default Infrastructure Service|
-|Change Instance Template |event_id.iaas.instance_template.update|Default Infrastructure Service|
+|Change Instance Template|event_id.iaas.instance_template.update|Default Infrastructure Service|
 |Create Instance Interface|event_id.iaas.interface.create|Default Infrastructure Service|
 |Delete Instance Interface|event_id.iaas.interface.delete|Default Infrastructure Service|
 |Create Internet Gateway|event_id.iaas.internet_gateway.create|Default Infrastructure Service|
-|Delete Internet Gateway |event_id.iaas.internet_gateway.delete|Default Infrastructure Service|
+|Delete Internet Gateway|event_id.iaas.internet_gateway.delete|Default Infrastructure Service|
 |Create Keypair|event_id.iaas.keypair.create|Default Infrastructure Service|
 |Delete Keypair|event_id.iaas.keypair.delete|Default Infrastructure Service|
 |Create Load Balancer|event_id.iaas.loadbalancer.create|Default Infrastructure Service|
@@ -36,8 +36,8 @@
 |Delete Load Balancer Listener|event_id.iaas.loadbalancer_listener.delete|Default Infrastructure Service|
 |Change Load Balancer Listener|event_id.iaas.loadbalancer_listener.update|Default Infrastructure Service|
 |Attach Load Balancer Instance|event_id.iaas.loadbalancer_member.create|Default Infrastructure Service|
-|Detach Load Balancer Instance |event_id.iaas.loadbalancer_member.delete|Default Infrastructure Service|
-|Change Status of Load Balancer Instance |event_id.iaas.loadbalancer_member.update|Default Infrastructure Service|
+|Detach Load Balancer Instance|event_id.iaas.loadbalancer_member.delete|Default Infrastructure Service|
+|Change Status of Load Balancer Instance|event_id.iaas.loadbalancer_member.update|Default Infrastructure Service|
 |Create Instance Metadata|event_id.iaas.metadata.create|Default Infrastructure Service|
 |Delete Instance Metadata|event_id.iaas.metadata.delete|Default Infrastructure Service|
 |Change Instance Metadata|event_id.iaas.metadata.update|Default Infrastructure Service|
@@ -47,13 +47,13 @@
 |Delete Port|event_id.iaas.port.delete|Default Infrastructure Service|
 |Change Port|event_id.iaas.port.update|Default Infrastructure Service|
 |Create Route in Routing Table|event_id.iaas.route.create|Default Infrastructure Service|
-|Delete Route in Routing Table  |event_id.iaas.route.delete|Default Infrastructure Service|
+|Delete Route in Routing Table|event_id.iaas.route.delete|Default Infrastructure Service|
 |Connect Routing Table over Internet Gateway|event_id.iaas.routing_table.attach_gateway|Default Infrastructure Service|
-|Create Routing Table |event_id.iaas.routing_table.create|Default Infrastructure Service|
-|Delete Routing Table |event_id.iaas.routing_table.delete|Default Infrastructure Service|
+|Create Routing Table|event_id.iaas.routing_table.create|Default Infrastructure Service|
+|Delete Routing Table|event_id.iaas.routing_table.delete|Default Infrastructure Service|
 |Disconnect Routing Table over Internet Gateway|event_id.iaas.routing_table.detach_gateway|Default Infrastructure Service|
-|Set Default Routing Table |event_id.iaas.routing_table.set_as_default|Default Infrastructure Service|
-|Change Routing Table |event_id.iaas.routing_table.update|Default Infrastructure Service|
+|Set Default Routing Table|event_id.iaas.routing_table.set_as_default|Default Infrastructure Service|
+|Change Routing Table|event_id.iaas.routing_table.update|Default Infrastructure Service|
 |Create Scaling Group|event_id.iaas.scaling_group.create|Default Infrastructure Service|
 |Delete Scaling Group|event_id.iaas.scaling_group.delete|Default Infrastructure Service|
 |Change Scaling Group|event_id.iaas.scaling_group.update|Default Infrastructure Service|
@@ -62,19 +62,19 @@
 |Change Security Group|event_id.iaas.security_group.update|Default Infrastructure Service|
 |Create Security Rule|event_id.iaas.security_group_rule.create|Default Infrastructure Service|
 |Delete Security Rule|event_id.iaas.security_group_rule.delete|Default Infrastructure Service|
-|Create Block Storage Snapshot |event_id.iaas.snapshot.create|Default Infrastructure Service|
+|Create Block Storage Snapshot|event_id.iaas.snapshot.create|Default Infrastructure Service|
 |Delete Block Storage Snapshot|event_id.iaas.snapshot.delete|Default Infrastructure Service|
 |Connect Instance Volume|event_id.iaas.volume.attach|Default Infrastructure Service|
 |Create Block Storage|event_id.iaas.volume.create|Default Infrastructure Service|
 |Delete Block Storage|event_id.iaas.volume.delete|Default Infrastructure Service|
-|Disconnect Instance Volume |event_id.iaas.volume.detach|Default Infrastructure Service|
+|Disconnect Instance Volume|event_id.iaas.volume.detach|Default Infrastructure Service|
 |Change Block Storage Information|event_id.iaas.volume.update|Default Infrastructure Service|
 |Create VPC|event_id.iaas.vpc.create|Default Infrastructure Service|
 |Delete VPC|event_id.iaas.vpc.delete|Default Infrastructure Service|
 |Change VPC Information|event_id.iaas.vpc.update|Default Infrastructure Service|
 |Connect Routing Table over VPC Subnet|event_id.iaas.vpc_subnet.attach_routingtable|Default Infrastructure Service|
 |Create VPC Subnet|event_id.iaas.vpc_subnet.create|Default Infrastructure Service|
-|Delete VPC Subnet |event_id.iaas.vpc_subnet.delete|Default Infrastructure Service|
+|Delete VPC Subnet|event_id.iaas.vpc_subnet.delete|Default Infrastructure Service|
 |Disconnect Routing Table over VPC Subnet|event_id.iaas.vpc_subnet.detach_routingtable|Default Infrastructure Service|
 |Change VPC Subnet|event_id.iaas.vpc_subnet.update|Default Infrastructure Service|
 |Create Cluster|event_id.iaas.cluster.create|Default Infrastructure Service|
@@ -93,6 +93,12 @@
 |Create Inter-Region Peering|event_id.iaas.region_peering.create|Default Infrastructure Service|
 |Delete Inter-Region Peering|event_id.iaas.region_peering.delete|Default Infrastructure Service|
 |Change Inter-Region Peering|event_id.iaas.region_peering.update|Default Infrastructure Service|
+|Create Peering Between Projects|event_id.iaas.project_peering.create|Default Infrastructure Service|
+|Change Peering Between Projects|event_id.iaas.project_peering.update|Default Infrastructure Service|
+|Delete Peering Between Projects|event_id.iaas.project_peering.delete|Default Infrastructure Service|
+|Create Project to Allow|event_id.iaas.peering_allow_project.create|Default Infrastructure Service|
+|Change Project to Allow|event_id.iaas.peering_allow_project.update|Default Infrastructure Service|
+|Delete Project to Allow|event_id.iaas.peering_allow_project.delete|Default Infrastructure Service|
 |Create S3 API Credentials|event_id.iaas.s3credential.create|Default Infrastructure Service|
 |Delete S3 API Credentials|event_id.iaas.s3credential.delete|Default Infrastructure Service|
 |Create Subnet Static Route|event_id.iaas.vpc_subnet_route.create|Default Infrastructure Service|
@@ -148,83 +154,83 @@
 |Synchronize DB User|event_id.rds_for_mysql.instance.db_definition.user.sync|RDS for MySQL, RDS for MariaDB|
 |Make and export a DB instance backup|event_id.rds_for_mysql.instance.backup.export|RDS for MySQL, RDS for MariaDB|
 |Export backup to the object storage|event_id.rds_for_mysql.backup.export|RDS for MySQL, RDS for MariaDB|
-|Create Keystore|event_id.skm.keystore.create|Secure Key Manager|
-|Delete Keystore|event_id.skm.keystore.delete|Secure Key Manager|
-|Change Keystore Information|event_id.skm.keystore.update|Secure Key Manager|
-|Create Confidential Data|event_id.skm.secret.create|Secure Key Manager|
-|Delete Confidential Data|event_id.skm.secret.delete|Secure Key Manager|
-|Request for Deleting Confidential Data|event_id.skm.secret.delete_request|Secure Key Manager|
-|Cancel Request for Deleting Confidential Data|event_id.skm.secret.delete_request_cancel|Secure Key Manager|
-|Change Confidential Data Information|event_id.skm.secret.update|Secure Key Manager|
-|Query Confidential Data|event_id.skm.secret.get|Secure Key Manager|
-|Create Symmectric Keys|event_id.skm.symmetric.create|Secure Key Manager|
-|Immediately Delete Symmetric Keys|event_id.skm.symmetric.delete|Secure Key Manager|
-|Request for Deleting Symmetric Keys|event_id.skm.symmetric.delete_request|Secure Key Manager|
-|Cancel Request for Deleting Symmetric Keys|event_id.skm.symmetric.delete_request_cancel|Secure Key Manager|
-|Change Symmectric Key Information|event_id.skm.symmetric.update|Secure Key Manager|
-|Immediately Rotate Symmetric Keys|event_id.skm.symmetric.rotate|Secure Key Manager|
-|Request for Deleting Symmectric Key Version|event_id.skm.symmetric_version.delete_request|Secure Key Manager|
-|Cancel Request for Deleting Symmetric Key Version|event_id.skm.symmetric_version.delete_request_cancel|Secure Key Manager|
-|Immediately Delete Symmetric Key Version|event_id.skm.symmetric_version.delete|Secure Key Manager|
-|Create Asymmetric Keys|event_id.skm.asymmetric.create|Secure Key Manager|
-|Immediately Delete Asymmetric Keys|event_id.skm.asymmetric.delete|Secure Key Manager|
-|Request for Deleting Asymmetric Keys|event_id.skm.asymmetric.delete_request|Secure Key Manager|
-|Cancel Request for Deleting Asymmetric Keys|event_id.skm.asymmetric.delete_request_cancel|Secure Key Manager|
-|Change Asymmetric Keys Information|event_id.skm.asymmetric.update|Secure Key Manager|
-|Immediately Rotate Asymmetric Keys|event_id.skm.asymmetric.rotate|Secure Key Manager|
-|Request for Deleting Asymmetric Key Version|event_id.skm.asymmetric_version.delete_request|Secure Key Manager|
-|Cancel Request for Deleting Asymmetric Key Version|event_id.skm.asymmetric_version.delete_request_cancel|Secure Key Manager|
-|Immediately Delete Asymmetric Keys Version|event_id.skm.asymmetric_version.delete|Secure Key Manager|
-|Register IPv4 Address|event_id.skm.ipv4.create|Secure Key Manager|
-|Request for Deleting IPv4 Address|event_id.skm.ipv4.delete_request|Secure Key Manager|
-|Cancel Request for IPv4 Address|event_id.skm.ipv4.delete_request_cancel|Secure Key Manager|
-|Change IPv4 Address Information|event_id.skm.ipv4.update|Secure Key Manager|
-|Immediately Delete IPv4 Address|event_id.skm.ipv4.delete|Secure Key Manager|
-|Download List of IPv4 Addresses|event_id.skm.ipv4.download_list|Secure Key Manager|
-|Bulk Register IPv4 Addresses|event_id.skm.ipv4.create_multi|Secure Key Manager|
-|Register MAC Address|event_id.skm.mac.create|Secure Key Manager|
-|Request for Deleting MAC Address|event_id.skm.mac.delete_request|Secure Key Manager|
-|Cancel Request for Deleting MAC Address|event_id.skm.mac.delete_request_cancel|Secure Key Manager|
-|Change MAC Address Information|event_id.skm.mac.update|Secure Key Manager|
-|Immediately Delete MAC Address|event_id.skm.mac.delete|Secure Key Manager|
-|Download List of MAC Addresses|event_id.skm.mac.download_list|Secure Key Manager|
-|Bulk Register MAC Addresses|event_id.skm.mac.create_multi|Secure Key Manager|
-|Register Certificate|event_id.skm.cert.create|Secure Key Manager|
-|Request for Deleting Certificate|event_id.skm.cert.delete_request|Secure Key Manager|
-|Cancel Request for Deleting Certificate|event_id.skm.cert.delete_request_cancel|Secure Key Manager|
-|Change Certificate Information|event_id.skm.cert.update|Secure Key Manager|
-|Immediately Delete Certificate|event_id.skm.cert.delete|Secure Key Manager|
-|Download Certificate|event_id.skm.cert.download|Secure Key Manager|
-|Create Artifact|event_id.deploy.artifact_create|Deploy|
-|Modify Artifact|event_id.deploy.artifact_update|Deploy|
-|Delete Artifact|event_id.deploy.artifact_delete|Deploy|
-|Create Binary Group|event_id.deploy.binary_group_create|Deploy|
-|Delete Binary Group|event_id.deploy.binary_group_delete|Deploy|
-|Modify Binary Group|event_id.deploy.binary_group_update|Deploy|
-|Upload Binary|event_id.deploy.binary_upload|Deploy|
-|Download Binary|event_id.deploy.binary_download|Deploy|
-|Delete Binary|event_id.deploy.binary_delete|Deploy|
-|Modify Binary|event_id.deploy.binary_update|Deploy|
-|Create Server Group|event_id.deploy.server_group_create|Deploy|
-|Delete Server Group|event_id.deploy.server_group_delete|Deploy|
-|Modify Server Group|event_id.deploy.server_group_update|Deploy|
-|Create Resource Group|event_id.deploy.resource_group_create|Deploy|
-|Delete Resource Group|event_id.deploy.resource_group_delete|Deploy|
-|Create Resource|event_id.deploy.resource_create|Deploy|
-|Modify Resource|event_id.deploy.resource_update|Deploy|
-|Save Resource|event_id.deploy.resource_save|Deploy|
-|Download Resource|event_id.deploy.resource_download|Deploy|
-|Delete Resource|event_id.deploy.resource_delete|Deploy|
-|Create Scenario|event_id.deploy.scenario_create|Deploy|
-|Copy Scenario|event_id.deploy.scenario_copy|Deploy|
-|Download Scenario|event_id.deploy.scenario_download|Deploy|
-|Upload Scenario|event_id.deploy.scenario_upload|Deploy|
-|Modify Scenario|event_id.deploy.scenario_update|Deploy|
-|Delete Scenario|event_id.deploy.scenario_delete|Deploy|
-|Execute Deployment|event_id.deploy.deploy_execute|Deploy|
+|创建密钥库|event_id.skm.keystore.create|Secure Key Manager|
+|删除密钥库|event_id.skm.keystore.delete|Secure Key Manager|
+|更改密钥库|event_id.skm.keystore.update|Secure Key Manager|
+|创建机密数据|event_id.skm.secret.create|Secure Key Manager|
+|删除机密数据|event_id.skm.secret.delete|Secure Key Manager|
+|请求删除机密数据|event_id.skm.secret.delete_request|Secure Key Manager|
+|取消请求删除机密数据|event_id.skm.secret.delete_request_cancel|Secure Key Manager|
+|更改机密数据信息|event_id.skm.secret.update|Secure Key Manager|
+|查询机密数据|event_id.skm.secret.get|Secure Key Manager|
+|创建对称密钥|event_id.skm.symmetric.create|Secure Key Manager|
+|立即删除对称密钥|event_id.skm.symmetric.delete|Secure Key Manager|
+|请求删除对称密钥|event_id.skm.symmetric.delete_request|Secure Key Manager|
+|取消请求删除对称密钥|event_id.skm.symmetric.delete_request_cancel|Secure Key Manager|
+|更改对称密钥信息|event_id.skm.symmetric.update|Secure Key Manager|
+|立即旋转对称密钥|event_id.skm.symmetric.rotate|Secure Key Manager|
+|请求删除对称密钥版本|event_id.skm.symmetric_version.delete_request|Secure Key Manager|
+|取消请求删除对称密钥版本|event_id.skm.symmetric_version.delete_request_cancel|Secure Key Manager|
+|立即删除对称密钥版本|event_id.skm.symmetric_version.delete|Secure Key Manager|
+|创建非对称密钥|event_id.skm.asymmetric.create|Secure Key Manager|
+|立即删除非对称密钥|event_id.skm.asymmetric.delete|Secure Key Manager|
+|请求删除非对称密钥|event_id.skm.asymmetric.delete_request|Secure Key Manager|
+|取消请求删除非对称密钥|event_id.skm.asymmetric.delete_request_cancel|Secure Key Manager|
+|更改非对称密钥信息|event_id.skm.asymmetric.update|Secure Key Manager|
+|立即旋转非对称密钥|event_id.skm.asymmetric.rotate|Secure Key Manager|
+|请求删除非对称密钥版本|event_id.skm.asymmetric_version.delete_request|Secure Key Manager|
+|取消请求删除非对称密钥版本|event_id.skm.asymmetric_version.delete_request_cancel|Secure Key Manager|
+|立即删除非对称密钥版本|event_id.skm.asymmetric_version.delete|Secure Key Manager|
+|登录IPv4地址|event_id.skm.ipv4.create|Secure Key Manager|
+|请求删除IPv4地址|event_id.skm.ipv4.delete_request|Secure Key Manager|
+|取消请求删除IPv4地址|event_id.skm.ipv4.delete_request_cancel|Secure Key Manager|
+|更改IPv4地址信息|event_id.skm.ipv4.update|Secure Key Manager|
+|立即删除IPv4地址|event_id.skm.ipv4.delete|Secure Key Manager|
+|下载IPv4地址列表|event_id.skm.ipv4.download_list|Secure Key Manager|
+|批量登录IPv4地址|event_id.skm.ipv4.create_multi|Secure Key Manager|
+|登录MAC地址|event_id.skm.mac.create|Secure Key Manager|
+|请求删除MAC地址|event_id.skm.mac.delete_request|Secure Key Manager|
+|取消请求删除MAC地址|event_id.skm.mac.delete_request_cancel|Secure Key Manager|
+|更改MAC地址信息|event_id.skm.mac.update|Secure Key Manager|
+|立即删除MAC地址|event_id.skm.mac.delete|Secure Key Manager|
+|下载MAC地址列表|event_id.skm.mac.download_list|Secure Key Manager|
+|批量登录MAC地址|event_id.skm.mac.create_multi|Secure Key Manager|
+|登录认证书|event_id.skm.cert.create|Secure Key Manager|
+|请求删除认证书|event_id.skm.cert.delete_request|Secure Key Manager|
+|取消请求删除认证书|event_id.skm.cert.delete_request_cancel|Secure Key Manager|
+|更改认证书|event_id.skm.cert.update|Secure Key Manager|
+|立即删除认证书|event_id.skm.cert.delete|Secure Key Manager|
+|下载认证书|event_id.skm.cert.download|Secure Key Manager|
+|创建Artifacts|event_id.deploy.artifact_create|Deploy|
+|修改Artifacts|event_id.deploy.artifact_update|Deploy|
+|删除Artifacts|event_id.deploy.artifact_delete|Deploy|
+|创建二进制组|event_id.deploy.binary_group_create|Deploy|
+|删除二进制组|event_id.deploy.binary_group_delete|Deploy|
+|修改二进制组|event_id.deploy.binary_group_update|Deploy|
+|上传二进制|event_id.deploy.binary_upload|Deploy|
+|下载二进制|event_id.deploy.binary_download|Deploy|
+|删除二进制|event_id.deploy.binary_delete|Deploy|
+|修改二进制|event_id.deploy.binary_update|Deploy|
+|创建服务器组|event_id.deploy.server_group_create|Deploy|
+|删除服务器组|event_id.deploy.server_group_delete|Deploy|
+|修改服务器组|event_id.deploy.server_group_update|Deploy|
+|创建资源组|event_id.deploy.resource_group_create|Deploy|
+|删除资源组|event_id.deploy.resource_group_delete|Deploy|
+|创建资源|event_id.deploy.resource_create|Deploy|
+|修改资源|event_id.deploy.resource_update|Deploy|
+|保存资源|event_id.deploy.resource_save|Deploy|
+|下载资源|event_id.deploy.resource_download|Deploy|
+|删除资源|event_id.deploy.resource_delete|Deploy|
+|创建Scenario|event_id.deploy.scenario_create|Deploy|
+|复制Scenario|event_id.deploy.scenario_copy|Deploy|
+|下载Scenario|event_id.deploy.scenario_download|Deploy|
+|上传Scenario|event_id.deploy.scenario_upload|Deploy|
+|修改Scenario|event_id.deploy.scenario_update|Deploy|
+|删除Scenario|event_id.deploy.scenario_delete|Deploy|
+|运行发布|event_id.deploy.deploy_execute|Deploy|
 |Download deployment history|event_id.deploy.deploy_history_download|Deploy|
 |Execute Autoscale Deployment|event_id.deploy.autoscale_deploy_execute|Deploy|
-|IAM Login|event_id.iam.login|Console|
+|IAM 登入|event_id.iam.login|Console|
 |Change Authority for IAM Members|event_id.iam.member.role.update|Console|
 |Add Organization Domain |event_id.org.domain.add|Console|
 |Modify Organization Domain|event_id.org.domain.update|Console|
@@ -236,7 +242,7 @@
 |Invite Organization Member|event_id.org.member.invite|Console|
 |Cancel Organization Member Invitation  |event_id.org.member.invite_cancel|Console|
 |Modify Organization Member  |event_id.org.member.update|Console|
-|Disable Organization Service |event_id.org.product.disable|Console|
+|Disable Organization Service|event_id.org.product.disable|Console|
 |Enable Organization Service|event_id.org.product.enable|Console|
 |Modify Organization Information|event_id.org.update|Console|
 |Access IAM Organization|event_id.iam.org.selected|Console|
@@ -401,6 +407,7 @@
 |Create Record Set|event_id.dnsplus.recordset.create|DNS Plus|
 |Modify Record Set|event_id.dnsplus.recordset.update|DNS Plus|
 |Delete Record Set|event_id.dnsplus.recordset.delete|DNS Plus|
+|Bulk Create Record Sets|event_id.dnsplus.recordset.create_list|DNS Plus|
 |Create GSLB|event_id.dnsplus.gslb.create|DNS Plus|
 |Modify GSLB|event_id.dnsplus.gslb.update|DNS Plus|
 |Delete GSLB|event_id.dnsplus.gslb.delete|DNS Plus|
@@ -617,14 +624,14 @@
 |Create Deployment Target|event_id.pipeline.deploy_target.create|Pipeline|
 |Modify Deployment Target|event_id.pipeline.deploy_target.update|Pipeline|
 |Delete Deployment Target|event_id.pipeline.deploy_target.delete|Pipeline|
-|Android SDK download|event_id.appguard.sdk_download_aos|NHN AppGuard|
-|iOS SDK download|event_id.appguard.sdk_download_ios|NHN AppGuard|
-|Report download|event_id.appguard.report_download|NHN AppGuard|
-|protection|event_id.appguard.protection|NHN AppGuard|
-|Obfuscation application|event_id.appguard.obfuscation_request|NHN AppGuard|
-|Blacklist addition|event_id.appguard.blacklist_add|NHN AppGuard|
-|Blacklist unblock|event_id.appguard.blacklist_delete|NHN AppGuard|
-|policy update|event_id.appguard.policy_update|NHN AppGuard|
+|Android SDK 다운로드|event_id.appguard.sdk_download_aos|NHN AppGuard|
+|iOS SDK 다운로드|event_id.appguard.sdk_download_ios|NHN AppGuard|
+|보고서 다운로드|event_id.appguard.report_download|NHN AppGuard|
+|보호 작업|event_id.appguard.protection|NHN AppGuard|
+|난독화 신청|event_id.appguard.obfuscation_request|NHN AppGuard|
+|블랙리스트 추가|event_id.appguard.blacklist_add|NHN AppGuard|
+|블랙리스트 차단 해제|event_id.appguard.blacklist_delete|NHN AppGuard|
+|정책 수정|event_id.appguard.policy_update|NHN AppGuard|
 |Create a URL|event_id.short_url.url_create|ShortURL|
 |Update a URL|event_id.short_url.url_update|ShortURL|
 |Enable a URL|event_id.short_url.url_enable|ShortURL|
