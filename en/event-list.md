@@ -2,9 +2,9 @@
 
 | Event | Event ID | Service |
 | --- | --- | --- |
-|Create Schedule for Scaling Group |event_id.iaas.autoscale_schedule.create|Default Infrastructure Service|
+|Create Schedule for Scaling Group|event_id.iaas.autoscale_schedule.create|Default Infrastructure Service|
 |Delete Schedule for Scaling Group|event_id.iaas.autoscale_schedule.delete|Default Infrastructure Service|
-|Associate Instance Floating IP |event_id.iaas.floating_ip.attach|Default Infrastructure Service|
+|Associate Instance Floating IP|event_id.iaas.floating_ip.attach|Default Infrastructure Service|
 |Create Floating IP|event_id.iaas.floating_ip.create|Default Infrastructure Service|
 |Delete Floating IP|event_id.iaas.floating_ip.delete|Default Infrastructure Service|
 |Disassociate Instance Floating IP|event_id.iaas.floating_ip.detach|Default Infrastructure Service|
@@ -14,7 +14,7 @@
 |Create Image Sharing|event_id.iaas.image_member.create|Default Infrastructure Service|
 |Delete Image Sharing|event_id.iaas.image_member.delete|Default Infrastructure Service|
 |Create Instance|event_id.iaas.instance.create|Default Infrastructure Service|
-|Delete Instance |event_id.iaas.instance.delete|Default Infrastructure Service|
+|Delete Instance|event_id.iaas.instance.delete|Default Infrastructure Service|
 |Change Instance Information|event_id.iaas.instance.update|Default Infrastructure Service|
 |Reboot Instance|event_id.iaas.instance_action.reboot|Default Infrastructure Service|
 |Change Instance Type|event_id.iaas.instance_action.resize|Default Infrastructure Service|
@@ -22,11 +22,11 @@
 |Stop Instance|event_id.iaas.instance_action.stop|Default Infrastructure Service|
 |Create Instance Template|event_id.iaas.instance_template.create|Default Infrastructure Service|
 |Delete Instance Template|event_id.iaas.instance_template.delete|Default Infrastructure Service|
-|Change Instance Template |event_id.iaas.instance_template.update|Default Infrastructure Service|
+|Change Instance Template|event_id.iaas.instance_template.update|Default Infrastructure Service|
 |Create Instance Interface|event_id.iaas.interface.create|Default Infrastructure Service|
 |Delete Instance Interface|event_id.iaas.interface.delete|Default Infrastructure Service|
 |Create Internet Gateway|event_id.iaas.internet_gateway.create|Default Infrastructure Service|
-|Delete Internet Gateway |event_id.iaas.internet_gateway.delete|Default Infrastructure Service|
+|Delete Internet Gateway|event_id.iaas.internet_gateway.delete|Default Infrastructure Service|
 |Create Keypair|event_id.iaas.keypair.create|Default Infrastructure Service|
 |Delete Keypair|event_id.iaas.keypair.delete|Default Infrastructure Service|
 |Create Load Balancer|event_id.iaas.loadbalancer.create|Default Infrastructure Service|
@@ -36,8 +36,8 @@
 |Delete Load Balancer Listener|event_id.iaas.loadbalancer_listener.delete|Default Infrastructure Service|
 |Change Load Balancer Listener|event_id.iaas.loadbalancer_listener.update|Default Infrastructure Service|
 |Attach Load Balancer Instance|event_id.iaas.loadbalancer_member.create|Default Infrastructure Service|
-|Detach Load Balancer Instance |event_id.iaas.loadbalancer_member.delete|Default Infrastructure Service|
-|Change Status of Load Balancer Instance |event_id.iaas.loadbalancer_member.update|Default Infrastructure Service|
+|Detach Load Balancer Instance|event_id.iaas.loadbalancer_member.delete|Default Infrastructure Service|
+|Change Status of Load Balancer Instance|event_id.iaas.loadbalancer_member.update|Default Infrastructure Service|
 |Create Instance Metadata|event_id.iaas.metadata.create|Default Infrastructure Service|
 |Delete Instance Metadata|event_id.iaas.metadata.delete|Default Infrastructure Service|
 |Change Instance Metadata|event_id.iaas.metadata.update|Default Infrastructure Service|
@@ -47,13 +47,13 @@
 |Delete Port|event_id.iaas.port.delete|Default Infrastructure Service|
 |Change Port|event_id.iaas.port.update|Default Infrastructure Service|
 |Create Route in Routing Table|event_id.iaas.route.create|Default Infrastructure Service|
-|Delete Route in Routing Table  |event_id.iaas.route.delete|Default Infrastructure Service|
+|Delete Route in Routing Table|event_id.iaas.route.delete|Default Infrastructure Service|
 |Connect Routing Table over Internet Gateway|event_id.iaas.routing_table.attach_gateway|Default Infrastructure Service|
-|Create Routing Table |event_id.iaas.routing_table.create|Default Infrastructure Service|
-|Delete Routing Table |event_id.iaas.routing_table.delete|Default Infrastructure Service|
+|Create Routing Table|event_id.iaas.routing_table.create|Default Infrastructure Service|
+|Delete Routing Table|event_id.iaas.routing_table.delete|Default Infrastructure Service|
 |Disconnect Routing Table over Internet Gateway|event_id.iaas.routing_table.detach_gateway|Default Infrastructure Service|
-|Set Default Routing Table |event_id.iaas.routing_table.set_as_default|Default Infrastructure Service|
-|Change Routing Table |event_id.iaas.routing_table.update|Default Infrastructure Service|
+|Set Default Routing Table|event_id.iaas.routing_table.set_as_default|Default Infrastructure Service|
+|Change Routing Table|event_id.iaas.routing_table.update|Default Infrastructure Service|
 |Create Scaling Group|event_id.iaas.scaling_group.create|Default Infrastructure Service|
 |Delete Scaling Group|event_id.iaas.scaling_group.delete|Default Infrastructure Service|
 |Change Scaling Group|event_id.iaas.scaling_group.update|Default Infrastructure Service|
@@ -62,19 +62,19 @@
 |Change Security Group|event_id.iaas.security_group.update|Default Infrastructure Service|
 |Create Security Rule|event_id.iaas.security_group_rule.create|Default Infrastructure Service|
 |Delete Security Rule|event_id.iaas.security_group_rule.delete|Default Infrastructure Service|
-|Create Block Storage Snapshot |event_id.iaas.snapshot.create|Default Infrastructure Service|
+|Create Block Storage Snapshot|event_id.iaas.snapshot.create|Default Infrastructure Service|
 |Delete Block Storage Snapshot|event_id.iaas.snapshot.delete|Default Infrastructure Service|
 |Connect Instance Volume|event_id.iaas.volume.attach|Default Infrastructure Service|
 |Create Block Storage|event_id.iaas.volume.create|Default Infrastructure Service|
 |Delete Block Storage|event_id.iaas.volume.delete|Default Infrastructure Service|
-|Disconnect Instance Volume |event_id.iaas.volume.detach|Default Infrastructure Service|
+|Disconnect Instance Volume|event_id.iaas.volume.detach|Default Infrastructure Service|
 |Change Block Storage Information|event_id.iaas.volume.update|Default Infrastructure Service|
 |Create VPC|event_id.iaas.vpc.create|Default Infrastructure Service|
 |Delete VPC|event_id.iaas.vpc.delete|Default Infrastructure Service|
 |Change VPC Information|event_id.iaas.vpc.update|Default Infrastructure Service|
 |Connect Routing Table over VPC Subnet|event_id.iaas.vpc_subnet.attach_routingtable|Default Infrastructure Service|
 |Create VPC Subnet|event_id.iaas.vpc_subnet.create|Default Infrastructure Service|
-|Delete VPC Subnet |event_id.iaas.vpc_subnet.delete|Default Infrastructure Service|
+|Delete VPC Subnet|event_id.iaas.vpc_subnet.delete|Default Infrastructure Service|
 |Disconnect Routing Table over VPC Subnet|event_id.iaas.vpc_subnet.detach_routingtable|Default Infrastructure Service|
 |Change VPC Subnet|event_id.iaas.vpc_subnet.update|Default Infrastructure Service|
 |Create Cluster|event_id.iaas.cluster.create|Default Infrastructure Service|
@@ -93,6 +93,12 @@
 |Create Inter-Region Peering|event_id.iaas.region_peering.create|Default Infrastructure Service|
 |Delete Inter-Region Peering|event_id.iaas.region_peering.delete|Default Infrastructure Service|
 |Change Inter-Region Peering|event_id.iaas.region_peering.update|Default Infrastructure Service|
+|Create Peering Between Projects|event_id.iaas.project_peering.create|Default Infrastructure Service|
+|Change Peering Between Projects|event_id.iaas.project_peering.update|Default Infrastructure Service|
+|Delete Peering Between Projects|event_id.iaas.project_peering.delete|Default Infrastructure Service|
+|Create Project to Allow|event_id.iaas.peering_allow_project.create|Default Infrastructure Service|
+|Change Project to Allow|event_id.iaas.peering_allow_project.update|Default Infrastructure Service|
+|Delete Project to Allow|event_id.iaas.peering_allow_project.delete|Default Infrastructure Service|
 |Create S3 API Credentials|event_id.iaas.s3credential.create|Default Infrastructure Service|
 |Delete S3 API Credentials|event_id.iaas.s3credential.delete|Default Infrastructure Service|
 |Create Subnet Static Route|event_id.iaas.vpc_subnet_route.create|Default Infrastructure Service|
@@ -398,10 +404,10 @@
 |Create DNS Zone|event_id.dnsplus.zone.create|DNS Plus|
 |Modify DNS Zone|event_id.dnsplus.zone.update|DNS Plus|
 |Delete DNS Zone|event_id.dnsplus.zone.delete|DNS Plus|
-|레코드 세트 대량 생성|event_id.dnsplus.recordset.create_list|DNS Plus|
 |Create Record Set|event_id.dnsplus.recordset.create|DNS Plus|
 |Modify Record Set|event_id.dnsplus.recordset.update|DNS Plus|
 |Delete Record Set|event_id.dnsplus.recordset.delete|DNS Plus|
+|Bulk Create Record Sets|event_id.dnsplus.recordset.create_list|DNS Plus|
 |Create GSLB|event_id.dnsplus.gslb.create|DNS Plus|
 |Modify GSLB|event_id.dnsplus.gslb.update|DNS Plus|
 |Delete GSLB|event_id.dnsplus.gslb.delete|DNS Plus|
