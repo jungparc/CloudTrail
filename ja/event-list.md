@@ -90,9 +90,15 @@
 |イメージテンプレートの削除|event_id.iaas.image_template.delete|基本インフラサービス|
 |イメージテンプレートの修正|event_id.iaas.image_template.update|基本インフラサービス|
 |コンソールスクリーンショットの作成|event_id.iaas.instance_action.screenshot|基本インフラサービス|
-|リージョン間ピアリングの作成|event_id.iaas.region_peering.create|基本インフラサービス|
-|リージョン間ピアリングの削除|event_id.iaas.region_peering.delete|基本インフラサービス|
-|リージョン間ピアリングの変更|event_id.iaas.region_peering.update|基本インフラサービス|
+|リージョンピアリングの作成|event_id.iaas.region_peering.create|基本インフラサービス|
+|リージョンピアリングの削除|event_id.iaas.region_peering.delete|基本インフラサービス|
+|リージョンピアリングの変更|event_id.iaas.region_peering.update|基本インフラサービス|
+|プロジェクトピアリングを作成|event_id.iaas.project_peering.create|基本インフラサービス|
+|プロジェクトピアリングを変更|event_id.iaas.project_peering.update|基本インフラサービス|
+|プロジェクトピアリングを削除|event_id.iaas.project_peering.delete|基本インフラサービス|
+|許可するプロジェクトを作成|event_id.iaas.peering_allow_project.create|基本インフラサービス|
+|許可するプロジェクトを変更|event_id.iaas.peering_allow_project.update|基本インフラサービス|
+|許可するプロジェクトを削除|event_id.iaas.peering_allow_project.delete|基本インフラサービス|
 |S3 API認証情報の作成|event_id.iaas.s3credential.create|基本インフラサービス|
 |S3 API認証情報の削除|event_id.iaas.s3credential.delete|基本インフラサービス|
 |サブネット静的ルートの作成|event_id.iaas.vpc_subnet_route.create|基本インフラサービス|
@@ -401,6 +407,7 @@
 |レコードセット作成|event_id.dnsplus.recordset.create|DNS Plus|
 |レコードセット修正|event_id.dnsplus.recordset.update|DNS Plus|
 |レコードセット削除|event_id.dnsplus.recordset.delete|DNS Plus|
+|レコードセットの大量作成|event_id.dnsplus.recordset.create_list|DNS Plus|
 |GSLB作成|event_id.dnsplus.gslb.create|DNS Plus|
 |GSLB修正|event_id.dnsplus.gslb.update|DNS Plus|
 |GSLB削除|event_id.dnsplus.gslb.delete|DNS Plus|

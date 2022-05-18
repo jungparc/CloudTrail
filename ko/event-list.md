@@ -90,9 +90,15 @@
 |이미지 템플릿 삭제|event_id.iaas.image_template.delete|기본 인프라 서비스|
 |이미지 템플릿 수정|event_id.iaas.image_template.update|기본 인프라 서비스|
 |콘솔 스크린숏 생성|event_id.iaas.instance_action.screenshot|기본 인프라 서비스|
-|리전 간 피어링 생성|event_id.iaas.region_peering.create|기본 인프라 서비스|
-|리전 간 피어링 삭제|event_id.iaas.region_peering.delete|기본 인프라 서비스|
-|리전 간 피어링 변경|event_id.iaas.region_peering.update|기본 인프라 서비스|
+|리전 피어링 생성|event_id.iaas.region_peering.create|기본 인프라 서비스|
+|리전 피어링 삭제|event_id.iaas.region_peering.delete|기본 인프라 서비스|
+|리전 피어링 변경|event_id.iaas.region_peering.update|기본 인프라 서비스|
+|프로젝트 피어링 생성|event_id.iaas.project_peering.create|기본 인프라 서비스|
+|프로젝트 피어링 변경|event_id.iaas.project_peering.update|기본 인프라 서비스|
+|프로젝트 피어링 삭제|event_id.iaas.project_peering.delete|기본 인프라 서비스|
+|허용할 프로젝트 생성|event_id.iaas.peering_allow_project.create|기본 인프라 서비스|
+|허용할 프로젝트 변경|event_id.iaas.peering_allow_project.update|기본 인프라 서비스|
+|허용할 프로젝트 삭제|event_id.iaas.peering_allow_project.delete|기본 인프라 서비스|
 |S3 API 자격 증명 생성|event_id.iaas.s3credential.create|기본 인프라 서비스|
 |S3 API 자격 증명 삭제|event_id.iaas.s3credential.delete|기본 인프라 서비스|
 |서브넷 정적 라우트 생성|event_id.iaas.vpc_subnet_route.create|기본 인프라 서비스|
@@ -401,6 +407,7 @@
 |레코드 세트 생성|event_id.dnsplus.recordset.create|DNS Plus|
 |레코드 세트 수정|event_id.dnsplus.recordset.update|DNS Plus|
 |레코드 세트 삭제|event_id.dnsplus.recordset.delete|DNS Plus|
+|레코드 세트 대량 생성|event_id.dnsplus.recordset.create_list|DNS Plus|
 |GSLB 생성|event_id.dnsplus.gslb.create|DNS Plus|
 |GSLB 수정|event_id.dnsplus.gslb.update|DNS Plus|
 |GSLB 삭제|event_id.dnsplus.gslb.delete|DNS Plus|

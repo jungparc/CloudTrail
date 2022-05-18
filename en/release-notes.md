@@ -1,5 +1,10 @@
 ## CloudTrail > Release Notes
 
+### 2022. 05. 24.
+#### More Events
+* Added events related to Default Infrastructure Service.
+* Added events related to DNS Plus.
+
 ### 2022. 04. 26.
 #### More Events
 * Added events related to Console.
@@ -8,6 +13,11 @@
 #### More Events
 * Added events related to Default Infrastructure Service.
 * Added events related to RDS for MS-SQL.
+
+### 2022. 02. 28.
+#### More Events
+* Added events related to CDN.
+* Added events related to Default Infrastructure Service.
 
 ### 2022. 02. 22.
 #### More Events
