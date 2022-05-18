@@ -90,12 +90,12 @@
 |Delete Image Template|event_id.iaas.image_template.delete|Default Infrastructure Service|
 |Modify Image Template|event_id.iaas.image_template.update|Default Infrastructure Service|
 |Take Console Screenshot|event_id.iaas.instance_action.screenshot|Default Infrastructure Service|
-|Create Inter-Region Peering|event_id.iaas.region_peering.create|Default Infrastructure Service|
-|Delete Inter-Region Peering|event_id.iaas.region_peering.delete|Default Infrastructure Service|
-|Change Inter-Region Peering|event_id.iaas.region_peering.update|Default Infrastructure Service|
-|Create Peering Between Projects|event_id.iaas.project_peering.create|Default Infrastructure Service|
-|Change Peering Between Projects|event_id.iaas.project_peering.update|Default Infrastructure Service|
-|Delete Peering Between Projects|event_id.iaas.project_peering.delete|Default Infrastructure Service|
+|Create Region Peering|event_id.iaas.region_peering.create|Default Infrastructure Service|
+|Delete Region Peering|event_id.iaas.region_peering.delete|Default Infrastructure Service|
+|Change Region Peering|event_id.iaas.region_peering.update|Default Infrastructure Service|
+|Create Project Peering|event_id.iaas.project_peering.create|Default Infrastructure Service|
+|Change Project Peering|event_id.iaas.project_peering.update|Default Infrastructure Service|
+|Delete Project Peering|event_id.iaas.project_peering.delete|Default Infrastructure Service|
 |Create Project to Allow|event_id.iaas.peering_allow_project.create|Default Infrastructure Service|
 |Change Project to Allow|event_id.iaas.peering_allow_project.update|Default Infrastructure Service|
 |Delete Project to Allow|event_id.iaas.peering_allow_project.delete|Default Infrastructure Service|
