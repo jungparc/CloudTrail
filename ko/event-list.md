@@ -432,6 +432,7 @@
 |캐시 재배포|event_id.cdn.cache_purge.common|CDN|
 |특정 파일 캐시 재배포|event_id.cdn.cache_purge.item_type|CDN|
 |전체 파일 캐시 재배포|event_id.cdn.cache_purge.all_type|CDN|
+|AUTH Token 생성|event_id.cdn.auth_token|CDN|
 |서버 대시보드 레이아웃 추가|event_id.system_monitoring.server_dashboard_layout_addition|System Monitoring|
 |서버 대시보드 레이아웃 변경|event_id.system_monitoring.server_dashboard_layout_updating|System Monitoring|
 |서버 대시보드 레이아웃 삭제|event_id.system_monitoring.server_dashboard_layout_deletion|System Monitoring|
