@@ -432,6 +432,7 @@
 |Purge Cache|event_id.cdn.cache_purge.common|CDN|
 |Purge Cache - Item|event_id.cdn.cache_purge.item_type|CDN|
 |Purge Cache - All|event_id.cdn.cache_purge.all_type|CDN|
+|Create an Auth Token|event_id.cdn.auth_token|CDN|
 |서버 대시보드 레이아웃 추가|event_id.system_monitoring.server_dashboard_layout_addition|System Monitoring|
 |서버 대시보드 레이아웃 변경|event_id.system_monitoring.server_dashboard_layout_updating|System Monitoring|
 |서버 대시보드 레이아웃 삭제|event_id.system_monitoring.server_dashboard_layout_deletion|System Monitoring|

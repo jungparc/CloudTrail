@@ -432,6 +432,7 @@
 |キャッシュ再配布|event_id.cdn.cache_purge.common|CDN|
 |特定ファイルキャッシュ再配布|event_id.cdn.cache_purge.item_type|CDN|
 |全ファイルキャッシュ再配布|event_id.cdn.cache_purge.all_type|CDN|
+|Auth Token作成|event_id.cdn.auth_token|CDN|
 |サーバーダッシュボードレイアウト追加|event_id.system_monitoring.server_dashboard_layout_addition|System Monitoring|
 |サーバーダッシュボードレイアウト変更|event_id.system_monitoring.server_dashboard_layout_updating|System Monitoring|
 |サーバーダッシュボードレイアウト削除|event_id.system_monitoring.server_dashboard_layout_deletion|System Monitoring|
