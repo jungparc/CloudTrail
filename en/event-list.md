@@ -83,6 +83,7 @@
 |Create Node Group|event_id.iaas.nodegroup.create|Default Infrastructure Service|
 |Delete Node Group|event_id.iaas.nodegroup.delete|Default Infrastructure Service|
 |Upgrade Cluster|event_id.iaas.nodegroup.upgrade|Default Infrastructure Service|
+|Change User Script|event_id.iaas.nodegroup.update_userscript|Default Infrastructure Service|
 |Copy Image|event_id.iaas.image.copy|Default Infrastructure Service|
 |Build Image|event_id.iaas.image_template.build|Default Infrastructure Service|
 |Cancel Image Build|event_id.iaas.image_template.cancel_build|Default Infrastructure Service|
@@ -736,6 +737,8 @@
 |Disconnect Stage from Usage Plan|event_id.apigw.usage_plan.disconnect_stage|API Gateway|
 |Create Resource Request Parameters|event_id.apigw.resource.create_request_parameter|API Gateway|
 |Create Resource Response|event_id.apigw.resource.create_response|API Gateway|
+|스테이지에 도메인 별칭 연결|event_id.apigw.stage.connect_alias_domain|API Gateway|
+|스테이지에 도메인 별칭 연결 해제|event_id.apigw.stage.disconnect_alias_domain|API Gateway|
 |Request action detection|event_id.cheating_detection_behavior.detect|Cheating Detection|
 |Request voice detection|event_id.cheating_detection_voice.detect|Cheating Detection|
 |Register Service Domain|event_id.gamestarter.service_domain.create|GameStarter|
@@ -750,3 +753,9 @@
 |Request Speech to Text conversion|event_id.speech.stt.convert|Speech to Text|
 |Delete log save/download setting|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
 |Log save/download setting|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
+|Activate Project|event_id.dataquery.project_activated|DataQuery|
+|Deactivate Project|event_id.dataquery.project_deactivated|DataQuery|
+|Request Data Source Update|event_id.dataquery.deploy_requested|DataQuery|
+|Add Data Source|event_id.dataquery.datasource_added|DataQuery|
+|Modify Data Source|event_id.dataquery.datasource_modified|DataQuery|
+|Issue Authentication Key|event_id.dataquery.auth_key_issued|DataQuery|
