@@ -83,6 +83,7 @@
 |ノードグループ作成|event_id.iaas.nodegroup.create|基本インフラサービス|
 |ノードグループ削除|event_id.iaas.nodegroup.delete|基本インフラサービス|
 |クラスターのアップグレード|event_id.iaas.nodegroup.upgrade|基本インフラサービス|
+|ユーザースクリプト変更|event_id.iaas.nodegroup.update_userscript|基本インフラサービス|
 |イメージのコピー|event_id.iaas.image.copy|基本インフラサービス|
 |イメージビルド|event_id.iaas.image_template.build|基本インフラサービス|
 |イメージビルドのキャンセル|event_id.iaas.image_template.cancel_build|基本インフラサービス|
@@ -736,6 +737,8 @@
 |使用量プランとステージ接続解除|event_id.apigw.usage_plan.disconnect_stage|API Gateway|
 |リソースリクエストパラメータ作成|event_id.apigw.resource.create_request_parameter|API Gateway|
 |リソースレスポンス作成|event_id.apigw.resource.create_response|API Gateway|
+|스테이지에 도메인 별칭 연결|event_id.apigw.stage.connect_alias_domain|API Gateway|
+|스테이지에 도메인 별칭 연결 해제|event_id.apigw.stage.disconnect_alias_domain|API Gateway|
 |行動検知リクエスト|event_id.cheating_detection_behavior.detect|Cheating Detection|
 |音声検知リクエスト|event_id.cheating_detection_voice.detect|Cheating Detection|
 |サービスドメインの登録|event_id.gamestarter.service_domain.create|GameStarter|
@@ -750,3 +753,9 @@
 |Speech to Text変換リクエスト|event_id.speech.stt.convert|Speech to Text|
 |ログ保存/ダウンロード設定 削除|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
 |ログ保存/ダウンロード設定|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
+|プロジェクトの有効化|event_id.dataquery.project_activated|DataQuery|
+|プロジェクトの無効化|event_id.dataquery.project_deactivated|DataQuery|
+|データソースアップデートリクエスト|event_id.dataquery.deploy_requested|DataQuery|
+|データソースの追加|event_id.dataquery.datasource_added|DataQuery|
+|データソースの修正|event_id.dataquery.datasource_modified|DataQuery|
+|認証キーの発行|event_id.dataquery.auth_key_issued|DataQuery|

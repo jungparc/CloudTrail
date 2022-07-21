@@ -1,5 +1,14 @@
 ## CloudTrail > Release Notes
 
+### 2022. 07. 26.
+#### More Events
+* Added events related to API Gateway.
+* Added events related to Default Infrastructure Service.
+
+### 2022. 06. 14.
+#### More Events
+* Added events related to DataQuery.
+
 ### 2022. 05. 24.
 #### More Events
 * Added events related to CDN.

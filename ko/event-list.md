@@ -83,6 +83,7 @@
 |노드 그룹 생성|event_id.iaas.nodegroup.create|기본 인프라 서비스|
 |노드 그룹 삭제|event_id.iaas.nodegroup.delete|기본 인프라 서비스|
 |클러스터 업그레이드|event_id.iaas.nodegroup.upgrade|기본 인프라 서비스|
+|유저 스크립트 변경|event_id.iaas.nodegroup.update_userscript|기본 인프라 서비스|
 |이미지 복제|event_id.iaas.image.copy|기본 인프라 서비스|
 |이미지 빌드|event_id.iaas.image_template.build|기본 인프라 서비스|
 |이미지 빌드 취소|event_id.iaas.image_template.cancel_build|기본 인프라 서비스|
@@ -736,6 +737,8 @@
 |사용량 계획과 스테이지 연결 해제|event_id.apigw.usage_plan.disconnect_stage|API Gateway|
 |리소스 요청 파라미터 생성|event_id.apigw.resource.create_request_parameter|API Gateway|
 |리소스 응답 생성|event_id.apigw.resource.create_response|API Gateway|
+|스테이지에 도메인 별칭 연결|event_id.apigw.stage.connect_alias_domain|API Gateway|
+|스테이지에 도메인 별칭 연결 해제|event_id.apigw.stage.disconnect_alias_domain|API Gateway|
 |행동 감지 요청|event_id.cheating_detection_behavior.detect|Cheating Detection|
 |음성 감지 요청|event_id.cheating_detection_voice.detect|Cheating Detection|
 |서비스 도메인 등록|event_id.gamestarter.service_domain.create|GameStarter|
@@ -750,3 +753,9 @@
 |Speech to Text 변환 요청|event_id.speech.stt.convert|Speech to Text|
 |로그 저장/다운로드 설정 삭제|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
 |로그 저장/다운로드 설정|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
+|프로젝트 활성화|event_id.dataquery.project_activated|DataQuery|
+|프로젝트 비활성화|event_id.dataquery.project_deactivated|DataQuery|
+|데이터 소스 업데이트 요청|event_id.dataquery.deploy_requested|DataQuery|
+|데이터 소스 추가|event_id.dataquery.datasource_added|DataQuery|
+|데이터 소스 수정|event_id.dataquery.datasource_modified|DataQuery|
+|인증 키 발급|event_id.dataquery.auth_key_issued|DataQuery|
