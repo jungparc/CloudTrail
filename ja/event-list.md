@@ -737,8 +737,8 @@
 |使用量プランとステージ接続解除|event_id.apigw.usage_plan.disconnect_stage|API Gateway|
 |リソースリクエストパラメータ作成|event_id.apigw.resource.create_request_parameter|API Gateway|
 |リソースレスポンス作成|event_id.apigw.resource.create_response|API Gateway|
-|스테이지에 도메인 별칭 연결|event_id.apigw.stage.connect_alias_domain|API Gateway|
-|스테이지에 도메인 별칭 연결 해제|event_id.apigw.stage.disconnect_alias_domain|API Gateway|
+|ステージにドメインエイリアス接続|event_id.apigw.stage.connect_alias_domain|API Gateway|
+|ステージにドメインエイリアス接続解除|event_id.apigw.stage.disconnect_alias_domain|API Gateway|
 |行動検知リクエスト|event_id.cheating_detection_behavior.detect|Cheating Detection|
 |音声検知リクエスト|event_id.cheating_detection_voice.detect|Cheating Detection|
 |サービスドメインの登録|event_id.gamestarter.service_domain.create|GameStarter|
