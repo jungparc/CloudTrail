@@ -737,8 +737,8 @@
 |Disconnect Stage from Usage Plan|event_id.apigw.usage_plan.disconnect_stage|API Gateway|
 |Create Resource Request Parameters|event_id.apigw.resource.create_request_parameter|API Gateway|
 |Create Resource Response|event_id.apigw.resource.create_response|API Gateway|
-|스테이지에 도메인 별칭 연결|event_id.apigw.stage.connect_alias_domain|API Gateway|
-|스테이지에 도메인 별칭 연결 해제|event_id.apigw.stage.disconnect_alias_domain|API Gateway|
+|Connect Domain Alias to Stage|event_id.apigw.stage.connect_alias_domain|API Gateway|
+|Disconnect Domain Alias from Stage|event_id.apigw.stage.disconnect_alias_domain|API Gateway|
 |Request action detection|event_id.cheating_detection_behavior.detect|Cheating Detection|
 |Request voice detection|event_id.cheating_detection_voice.detect|Cheating Detection|
 |Register Service Domain|event_id.gamestarter.service_domain.create|GameStarter|
