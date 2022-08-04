@@ -434,3 +434,5 @@
 |사용량 계획과 스테이지 연결 해제|event_id.apigw.usage_plan.disconnect_stage|API Gateway|
 |리소스 요청 파라미터 생성|event_id.apigw.resource.create_request_parameter|API Gateway|
 |리소스 응답 생성|event_id.apigw.resource.create_response|API Gateway|
+|스테이지에 도메인 별칭 연결|event_id.apigw.stage.connect_alias_domain|API Gateway|
+|스테이지에 도메인 별칭 연결 해제|event_id.apigw.stage.disconnect_alias_domain|API Gateway|
