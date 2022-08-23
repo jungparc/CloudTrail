@@ -689,6 +689,7 @@
 |알림톡 대량 메시지 결과 내보내기|event_id.alimtalk.mass.message.results.export|KakaoTalk Bizmessage|
 |알림톡 대량 메시지 파일 업로드|event_id.alimtalk.mass.message.uploading|KakaoTalk Bizmessage|
 |알림톡 대량 메시지 전송|event_id.alimtalk.mass.message.sending|KakaoTalk Bizmessage|
+|알림톡 대량 메시지 전송 승인|event_id.alimtalk.mass.message.confirm-send-request|KakaoTalk Bizmessage|
 |알림톡 대량 메시지 전송 취소|event_id.alimtalk.mass.message.sending-cancellation|KakaoTalk Bizmessage|
 |알림톡 메시지 결과 내보내기|event_id.alimtalk.message.results.export|KakaoTalk Bizmessage|
 |친구톡 대량 메시지 파일 업로드|event_id.friendtalk.mass.message.uploading|KakaoTalk Bizmessage|
@@ -700,6 +701,7 @@
 |친구톡 메시지 결과 내보내기|event_id.friendtalk.message.results.export|KakaoTalk Bizmessage|
 |친구톡 대량 수신자 목록 조회|event_id.friendtalk.mass.recipients.searching|KakaoTalk Bizmessage|
 |친구톡 대량 메시지 결과 내보내기|event_id.friendtalk.mass.message.results.export|KakaoTalk Bizmessage|
+|친구톡 대량 메시지 전송 승인|event_id.friendtalk.mass.message.confirm-send-request|KakaoTalk Bizmessage|
 |친구톡 이미지 업로드|event_id.friendtalk.image.uploading|KakaoTalk Bizmessage|
 |친구톡 이미지 삭제|event_id.friendtalk.image.deletion|KakaoTalk Bizmessage|
 |API Key 생성|event_id.apigw.apikey.create|API Gateway|
