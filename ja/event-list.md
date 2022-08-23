@@ -689,6 +689,7 @@
 |お知らせトーク大量メッセージ結果のエクスポート|event_id.alimtalk.mass.message.results.export|KakaoTalk Bizmessage|
 |お知らせトーク大量メッセージファイルのアップロード|event_id.alimtalk.mass.message.uploading|KakaoTalk Bizmessage|
 |お知らせトーク大量メッセージ送信|event_id.alimtalk.mass.message.sending|KakaoTalk Bizmessage|
+|お知らせトーク大量メッセージの送信を承認する|event_id.alimtalk.mass.message.confirm-send-request|KakaoTalk Bizmessage|
 |お知らせトーク大量メッセージ送信のキャンセル|event_id.alimtalk.mass.message.sending-cancellation|KakaoTalk Bizmessage|
 |お知らせトークメッセージ結果のエクスポート|event_id.alimtalk.message.results.export|KakaoTalk Bizmessage|
 |カカともへのメッセージ大量メッセージファイルのアップロード|event_id.friendtalk.mass.message.uploading|KakaoTalk Bizmessage|
@@ -700,6 +701,7 @@
 |カカともへのメッセージ結果のエクスポート|event_id.friendtalk.message.results.export|KakaoTalk Bizmessage|
 |カカともへのメッセージ大量受信者リストの照会|event_id.friendtalk.mass.recipients.searching|KakaoTalk Bizmessage|
 |カカともへのメッセージ大量メッセージ結果のエクスポート|event_id.friendtalk.mass.message.results.export|KakaoTalk Bizmessage|
+|カカともへのメッセージ大量メッセージの送信を承認する|event_id.friendtalk.mass.message.confirm-send-request|KakaoTalk Bizmessage|
 |カカともへのメッセージイメージのアップロード|event_id.friendtalk.image.uploading|KakaoTalk Bizmessage|
 |カカともへのメッセージイメージの削除|event_id.friendtalk.image.deletion|KakaoTalk Bizmessage|
 |API Key作成|event_id.apigw.apikey.create|API Gateway|

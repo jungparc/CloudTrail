@@ -689,6 +689,7 @@
 |Export Alimtalk Mass Message Results|event_id.alimtalk.mass.message.results.export|KakaoTalk Bizmessage|
 |Upload Alimtalk Mass Message File|event_id.alimtalk.mass.message.uploading|KakaoTalk Bizmessage|
 |Send Alimtalk Mass Message|event_id.alimtalk.mass.message.sending|KakaoTalk Bizmessage|
+|Confirm Sending AlimTalk Mass Messages|event_id.alimtalk.mass.message.confirm-send-request|KakaoTalk Bizmessage|
 |Cancel Sending Alimtalk Mass Message|event_id.alimtalk.mass.message.sending-cancellation|KakaoTalk Bizmessage|
 |Export Alimtalk Message Results|event_id.alimtalk.message.results.export|KakaoTalk Bizmessage|
 |Upload Friendtalk Mass Message File|event_id.friendtalk.mass.message.uploading|KakaoTalk Bizmessage|
@@ -700,6 +701,7 @@
 |Export Friendtalk Message Results|event_id.friendtalk.message.results.export|KakaoTalk Bizmessage|
 |Retrieve Friendtalk Mass Recipient List|event_id.friendtalk.mass.recipients.searching|KakaoTalk Bizmessage|
 |Export Friendtalk Mass Message Results|event_id.friendtalk.mass.message.results.export|KakaoTalk Bizmessage|
+|Confirm Sending FriendTalk Mass Messages|event_id.friendtalk.mass.message.confirm-send-request|KakaoTalk Bizmessage|
 |Upload Friendtalk Image|event_id.friendtalk.image.uploading|KakaoTalk Bizmessage|
 |Delete Friendtalk Image|event_id.friendtalk.image.deletion|KakaoTalk Bizmessage|
 |Create API Key|event_id.apigw.apikey.create|API Gateway|
