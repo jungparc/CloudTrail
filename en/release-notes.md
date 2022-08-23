@@ -1,5 +1,9 @@
 ## CloudTrail > Release Notes
 
+### 2022. 08. 23.
+#### More Events
+* Added events related to KakaoTalk Bizmessage.
+
 ### 2022. 07. 26.
 #### More Events
 * Added events related to API Gateway.
