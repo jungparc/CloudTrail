@@ -119,205 +119,95 @@
 |오브젝트 복사|event_id.object_storage.object.copy|Object Storage|
 |오브젝트 삭제|event_id.object_storage.object.delete|Object Storage|
 |오브젝트 메타데이터 등록/수정|event_id.object_storage.object.metadata.update|Object Storage|
-|DB 인스턴스 생성|event_id.rds_for_mysql.instance.create|RDS for MySQL, null|
-|DB 인스턴스 삭제|event_id.rds_for_mysql.instance.delete|RDS for MySQL, null|
-|DB 인스턴스 상세 설정 변경|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL, null|
-|DB 인스턴스 관리 정보 변경|event_id.rds_for_mysql.instance.management.update|RDS for MySQL, null|
-|DB 인스턴스 Configuration 변경|event_id.rds_for_mysql.instance.configuration.update|RDS for MySQL, null|
-|DB 인스턴스 백업|event_id.rds_for_mysql.instance_action.backup|RDS for MySQL, null|
-|DB 인스턴스 복원|event_id.rds_for_mysql.instance_action.restore|RDS for MySQL, null|
-|DB 인스턴스 복제|event_id.rds_for_mysql.instance_action.replicate|RDS for MySQL, null|
-|DB 인스턴스 재시작|event_id.rds_for_mysql.instance_action.restart|RDS for MySQL, null|
-|DB 인스턴스 승격|event_id.rds_for_mysql.instance_action.promote|RDS for MySQL, null|
-|DB 인스턴스 스토리지 확장|event_id.rds_for_mysql.instance.volume.extend|RDS for MySQL, null|
-|DB 인스턴스 용량 확보|event_id.rds_for_mysql.instance.volume.secure|RDS for MySQL, null|
-|인스턴스 중지|event_id.rds_for_mysql.instance.stop|RDS for MySQL, null|
-|모니터링 차트 레이아웃 추가|event_id.rds_for_mysql.createChartLayout|RDS for MySQL, null|
-|모니터링 차트 레이아웃 삭제|event_id.rds_for_mysql.deleteChartLayout|RDS for MySQL, null|
-|모니터링 차트 레이아웃 수정|event_id.rds_for_mysql.modifyChartLayout|RDS for MySQL, null|
-|백업 삭제|event_id.rds_for_mysql.instance.backup.delete|RDS for MySQL, null|
-|알림 생성|event_id.rds_for_mysql.notification.create|RDS for MySQL, null|
-|알림 변경|event_id.rds_for_mysql.notification.update|RDS for MySQL, null|
-|알림 삭제|event_id.rds_for_mysql.notification.delete|RDS for MySQL, null|
-|알림 활성화|event_id.rds_for_mysql.notification.enable|RDS for MySQL, null|
-|알림 비활성화|event_id.rds_for_mysql.notification.disable|RDS for MySQL, null|
-|알림 그룹 생성|event_id.rds_for_mysql.createNotificationGroup|RDS for MySQL, null|
-|알림 그룹 수정|event_id.rds_for_mysql.modifyNotificationGroup|RDS for MySQL, null|
-|알림 그룹 삭제|event_id.rds_for_mysql.deleteNotificationGroup|RDS for MySQL, null|
-|이벤트 구독 등록|event_id.rds_for_mysql.registerEventSubscription|RDS for MySQL, null|
-|이벤트 구독 수정|event_id.rds_for_mysql.modifyEventSubscription|RDS for MySQL, null|
-|이벤트 구독 삭제|event_id.rds_for_mysql.deleteEventSubscription|RDS for MySQL, null|
-|사용자 그룹 생성|event_id.rds_for_mysql.createUserGroup|RDS for MySQL, null|
-|사용자 그룹 수정|event_id.rds_for_mysql.modifyUserGroup|RDS for MySQL, null|
-|사용자 그룹 삭제|event_id.rds_for_mysql.deleteUserGroup|RDS for MySQL, null|
-|수신 그룹 생성|event_id.rds_for_mysql.receiver_group.create|RDS for MySQL, null|
-|수신 그룹 변경|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL, null|
-|수신 그룹 삭제|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL, null|
-|DB 정의 정보 변경|event_id.rds_for_mysql.instance.db_definition.update|RDS for MySQL, null|
-|DB 스키마 동기화|event_id.rds_for_mysql.instance.db_definition.schema.sync|RDS for MySQL, null|
-|DB User 동기화|event_id.rds_for_mysql.instance.db_definition.user.sync|RDS for MySQL, null|
-|DB 인스턴스 백업 및 내보내기|event_id.rds_for_mysql.instance.backup.export|RDS for MySQL, null|
-|오브젝트 스토리지로 백업 내보내기|event_id.rds_for_mysql.backup.export|RDS for MySQL, null|
-|키 저장소 생성|event_id.skm.keystore.create|null|
-|키 저장소 삭제|event_id.skm.keystore.delete|null|
-|키 저장소 정보 변경|event_id.skm.keystore.update|null|
-|기밀 데이터 생성|event_id.skm.secret.create|null|
-|기밀 데이터 삭제|event_id.skm.secret.delete|null|
-|기밀 데이터 삭제 요청|event_id.skm.secret.delete_request|null|
-|기밀 데이터 삭제 요청 취소|event_id.skm.secret.delete_request_cancel|null|
-|기밀 데이터 정보 변경|event_id.skm.secret.update|null|
-|기밀 데이터 조회|event_id.skm.secret.get|null|
-|대칭키 생성|event_id.skm.symmetric.create|null|
-|대칭키 즉시 삭제|event_id.skm.symmetric.delete|null|
-|대칭키 삭제 요청|event_id.skm.symmetric.delete_request|null|
-|대칭키 삭제 요청 취소|event_id.skm.symmetric.delete_request_cancel|null|
-|대칭키 정보 변경|event_id.skm.symmetric.update|null|
-|대칭키 즉시 회전|event_id.skm.symmetric.rotate|null|
-|대칭키 버전 삭제 요청|event_id.skm.symmetric_version.delete_request|null|
-|대칭키 버전 삭제 요청 취소|event_id.skm.symmetric_version.delete_request_cancel|null|
-|대칭키 버전 즉시 삭제|event_id.skm.symmetric_version.delete|null|
-|비대칭키 생성|event_id.skm.asymmetric.create|null|
-|비대칭키 즉시 삭제|event_id.skm.asymmetric.delete|null|
-|비대칭키 삭제 요청|event_id.skm.asymmetric.delete_request|null|
-|비대칭키 삭제 요청 취소|event_id.skm.asymmetric.delete_request_cancel|null|
-|비대칭키 정보 변경|event_id.skm.asymmetric.update|null|
-|비대칭키 즉시 회전|event_id.skm.asymmetric.rotate|null|
-|비대칭키 버전 삭제 요청|event_id.skm.asymmetric_version.delete_request|null|
-|비대칭키 버전 삭제 요청 취소|event_id.skm.asymmetric_version.delete_request_cancel|null|
-|비대칭키 버전 즉시 삭제|event_id.skm.asymmetric_version.delete|null|
-|IPv4 주소 등록|event_id.skm.ipv4.create|null|
-|IPv4 주소 삭제 요청|event_id.skm.ipv4.delete_request|null|
-|IPv4 주소 삭제 요청 취소|event_id.skm.ipv4.delete_request_cancel|null|
-|IPv4 주소 정보 변경|event_id.skm.ipv4.update|null|
-|IPv4 주소 즉시 삭제|event_id.skm.ipv4.delete|null|
-|IPv4 주소 목록 다운로드|event_id.skm.ipv4.download_list|null|
-|IPv4 주소 대량 등록|event_id.skm.ipv4.create_multi|null|
-|MAC 주소 등록|event_id.skm.mac.create|null|
-|MAC 주소 삭제 요청|event_id.skm.mac.delete_request|null|
-|MAC 주소 삭제 요청 취소|event_id.skm.mac.delete_request_cancel|null|
-|MAC 주소 정보 변경|event_id.skm.mac.update|null|
-|MAC 주소 즉시 삭제|event_id.skm.mac.delete|null|
-|MAC 주소 목록 다운로드|event_id.skm.mac.download_list|null|
-|MAC 주소 대량 등록|event_id.skm.mac.create_multi|null|
-|인증서 등록|event_id.skm.cert.create|null|
-|인증서 삭제 요청|event_id.skm.cert.delete_request|null|
-|인증서 삭제 요청 취소|event_id.skm.cert.delete_request_cancel|null|
-|인증서 정보 변경|event_id.skm.cert.update|null|
-|인증서 즉시 삭제|event_id.skm.cert.delete|null|
-|인증서 다운로드|event_id.skm.cert.download|null|
-|아티팩트 생성|event_id.deploy.artifact_create|null|
-|아티팩트 수정|event_id.deploy.artifact_update|null|
-|아티팩트 삭제|event_id.deploy.artifact_delete|null|
-|바이너리 그룹 생성|event_id.deploy.binary_group_create|null|
-|바이너리 그룹 삭제|event_id.deploy.binary_group_delete|null|
-|바이너리 그룹 수정|event_id.deploy.binary_group_update|null|
-|바이너리 업로드|event_id.deploy.binary_upload|null|
-|바이너리 다운로드|event_id.deploy.binary_download|null|
-|바이너리 삭제|event_id.deploy.binary_delete|null|
-|바이너리 수정|event_id.deploy.binary_update|null|
-|서버 그룹 생성|event_id.deploy.server_group_create|null|
-|서버 그룹 삭제|event_id.deploy.server_group_delete|null|
-|서버 그룹 수정|event_id.deploy.server_group_update|null|
-|리소스 그룹 생성|event_id.deploy.resource_group_create|null|
-|리소스 그룹 삭제|event_id.deploy.resource_group_delete|null|
-|리소스 생성|event_id.deploy.resource_create|null|
-|리소스 수정|event_id.deploy.resource_update|null|
-|리소스 최신버전으로 저장|event_id.deploy.resource_save|null|
-|리소스 다운로드|event_id.deploy.resource_download|null|
-|리소스 삭제|event_id.deploy.resource_delete|null|
-|시나리오 생성|event_id.deploy.scenario_create|null|
-|시나리오 복사|event_id.deploy.scenario_copy|null|
-|시나리오 다운로드|event_id.deploy.scenario_download|null|
-|시나리오 업로드|event_id.deploy.scenario_upload|null|
-|시나리오 수정|event_id.deploy.scenario_update|null|
-|시나리오 삭제|event_id.deploy.scenario_delete|null|
-|배포 실행|event_id.deploy.deploy_execute|null|
-|배포 이력 다운로드|event_id.deploy.deploy_history_download|null|
-|오토스케일 배포 실행|event_id.deploy.autoscale_deploy_execute|null|
-|IAM 로그인|event_id.iam.login|null|
-|IAM 멤버 권한 변경|event_id.iam.member.role.update|null|
-|조직 도메인 추가|event_id.org.domain.add|null|
-|조직 도메인 수정|event_id.org.domain.update|null|
-|조직 내부 회원 추가|event_id.org.iam.member.add|null|
-|조직 내부 회원 비밀번호 변경 공지 메일 발송|event_id.org.iam.member.send_mail|null|
-|조직 내부 회원 정보 수정|event_id.org.iam.member.update|null|
-|조직 멤버 추가|event_id.org.member.add|null|
-|조직 멤버 삭제|event_id.org.member.delete|null|
-|조직 멤버 초대|event_id.org.member.invite|null|
-|조직 멤버 초대 취소|event_id.org.member.invite_cancel|null|
-|조직 멤버 수정|event_id.org.member.update|null|
-|조직 서비스 비활성화|event_id.org.product.disable|null|
-|조직 서비스 활성화|event_id.org.product.enable|null|
-|조직 정보 수정|event_id.org.update|null|
-|조직 접속|event_id.org.selected|null|
-|IAM 조직 접속|event_id.iam.org.selected|null|
-|프로젝트 생성|event_id.project.create|null|
-|프로젝트 삭제|event_id.project.delete|null|
-|프로젝트 멤버 추가|event_id.project.member.add|null|
-|프로젝트 멤버 삭제|event_id.project.member.delete|null|
-|프로젝트 멤버 초대|event_id.project.member.invite|null|
-|프로젝트 멤버 초대 취소|event_id.project.member.invite_cancel|null|
-|프로젝트 멤버 권한 수정|event_id.project.member.update|null|
-|프로젝트 멤버 삭제|event_id.project.members.delete|null|
-|프로젝트 서비스 비활성화|event_id.project.product.disable|null|
-|프로젝트 서비스 활성화|event_id.project.product.enable|null|
-|프로젝트 수정|event_id.project.update|null|
-|프로젝트 접속|event_id.project.selected|null|
-|공통 권한 그룹 생성|event_id.org.role_group.create|null|
-|공통 권한 그룹 수정|event_id.org.role_group.update|null|
-|공통 권한 그룹 삭제|event_id.org.role_group.delete|null|
-|공통 권한 그룹 권한 추가|event_id.org.role_group.assign.roles|null|
-|공통 권한 그룹 권한 삭제|event_id.org.role_group.remove.roles|null|
-|프로젝트 권한 그룹 생성|event_id.project.role_group.create|null|
-|프로젝트 권한 그룹 수정|event_id.project.role_group.update|null|
-|프로젝트 권한 그룹 삭제|event_id.project.role_group.delete|null|
-|프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|null|
-|프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|null|
-|IAM 프로젝트 접속|event_id.iam.project.selected|null|
-|예산 추가|event_id.budget.create|null|
-|예산 수정|event_id.budget.modify|null|
-|예산 삭제|event_id.budget.delete|null|
-|거버넌스 설정 변경|event_id.governance.change|null|
-|서비스지원팀 삭제|event_id.supporter.delete|null|
-|서비스지원팀 추가|event_id.supporter.add|null|
-|마켓플레이스 신청|event_id.market_place.apply|null|
-|마켓플레이스 신청 취소|event_id.market_place.apply-cancel|null|
-|마켓플레이스 해지 신청|event_id.market_place.termination-apply|null|
-|마켓플레이스 해지 신청 취소|event_id.market_place.termination-apply-cancel|null|
-|수동 백업|event_id.easycache.backup.manual|null|
-|백업 삭제|event_id.easycache.backup.delete|null|
-|공인 도메인 설정|event_id.easycache.public_domain.attach|null|
-|공인 도메인 해제|event_id.easycache.public_domain.detach|null|
-|도메인 갱신|event_id.easycache.domain.update|null|
-|복제 그룹 생성|event_id.easycache.group.create|null|
-|복제 그룹 삭제|event_id.easycache.group.delete|null|
-|복제 그룹 수정|event_id.easycache.group.modify|null|
-|복제 그룹 재시작|event_id.easycache.group.restart|null|
-|복제 그룹 업그레이드|event_id.easycache.group.upgrade|null|
-|복제 그룹 HA 재설정|event_id.easycache.group.ha_reset|null|
-|복제 그룹 비밀번호 확인|event_id.easycache.group.password|null|
-|노드 추가|event_id.easycache.node.create|null|
-|노드 삭제|event_id.easycache.node.delete|null|
-|마스터 변경|event_id.easycache.node.promote|null|
-|프로필 생성|event_id.easycache.profile.create|null|
-|프로필 수정|event_id.easycache.profile.update|null|
-|프로필 삭제|event_id.easycache.profile.delete|null|
-|알람 규칙 생성|event_id.easycache.alarm_rule.create|null|
-|알람 규칙 수정|event_id.easycache.alarm_rule.update|null|
-|알람 규칙 삭제|event_id.easycache.alarm_rule.delete|null|
-|알람 규칙 사용/사용 안함|event_id.easycache.alarm_rule.use_unuse|null|
-|알람 수신자 그룹 생성|event_id.easycache.alarm_receiver_group.create|null|
-|알람 수신자 그룹 수정|event_id.easycache.alarm_receiver_group.update|null|
-|알람 수신자 그룹 삭제|event_id.easycache.alarm_receiver_group.delete|null|
-|그룹 인스턴스 변경|event_id.easycache.group.modify_flavor|null|
-|ACL 추가|event_id.easycache.acl.create|null|
-|ACL 삭제|event_id.easycache.acl.delete|null|
-|읽기 전용 도메인 설정|event_id.easycache.readonly_domain.attach|null|
-|읽기 전용 도메인 해제|event_id.easycache.readonly_domain.detach|null|
-|데이터 가져오기|event_id.easycache.group.import|null|
-|복제 그룹 HA 설정 갱신|event_id.easycache.group.ha_update|null|
-|데이터 내보내기|event_id.easycache.group.export|null|
-|기존 복제 그룹 복원|event_id.easycache.backup.migrate|null|
+|DB 인스턴스 생성|event_id.rds_for_mysql.instance.create|RDS for MySQL|
+|DB 인스턴스 삭제|event_id.rds_for_mysql.instance.delete|RDS for MySQL|
+|DB 인스턴스 상세 설정 변경|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL|
+|DB 인스턴스 관리 정보 변경|event_id.rds_for_mysql.instance.management.update|RDS for MySQL|
+|DB 인스턴스 Configuration 변경|event_id.rds_for_mysql.instance.configuration.update|RDS for MySQL|
+|DB 인스턴스 백업|event_id.rds_for_mysql.instance_action.backup|RDS for MySQL|
+|DB 인스턴스 복원|event_id.rds_for_mysql.instance_action.restore|RDS for MySQL|
+|DB 인스턴스 복제|event_id.rds_for_mysql.instance_action.replicate|RDS for MySQL|
+|DB 인스턴스 재시작|event_id.rds_for_mysql.instance_action.restart|RDS for MySQL|
+|DB 인스턴스 승격|event_id.rds_for_mysql.instance_action.promote|RDS for MySQL|
+|DB 인스턴스 스토리지 확장|event_id.rds_for_mysql.instance.volume.extend|RDS for MySQL|
+|DB 인스턴스 용량 확보|event_id.rds_for_mysql.instance.volume.secure|RDS for MySQL|
+|인스턴스 중지|event_id.rds_for_mysql.instance.stop|RDS for MySQL|
+|모니터링 차트 레이아웃 추가|event_id.rds_for_mysql.createChartLayout|RDS for MySQL|
+|모니터링 차트 레이아웃 삭제|event_id.rds_for_mysql.deleteChartLayout|RDS for MySQL|
+|모니터링 차트 레이아웃 수정|event_id.rds_for_mysql.modifyChartLayout|RDS for MySQL|
+|백업 삭제|event_id.rds_for_mysql.instance.backup.delete|RDS for MySQL|
+|알림 생성|event_id.rds_for_mysql.notification.create|RDS for MySQL|
+|알림 변경|event_id.rds_for_mysql.notification.update|RDS for MySQL|
+|알림 삭제|event_id.rds_for_mysql.notification.delete|RDS for MySQL|
+|알림 활성화|event_id.rds_for_mysql.notification.enable|RDS for MySQL|
+|알림 비활성화|event_id.rds_for_mysql.notification.disable|RDS for MySQL|
+|알림 그룹 생성|event_id.rds_for_mysql.createNotificationGroup|RDS for MySQL|
+|알림 그룹 수정|event_id.rds_for_mysql.modifyNotificationGroup|RDS for MySQL|
+|알림 그룹 삭제|event_id.rds_for_mysql.deleteNotificationGroup|RDS for MySQL|
+|이벤트 구독 등록|event_id.rds_for_mysql.registerEventSubscription|RDS for MySQL|
+|이벤트 구독 수정|event_id.rds_for_mysql.modifyEventSubscription|RDS for MySQL|
+|이벤트 구독 삭제|event_id.rds_for_mysql.deleteEventSubscription|RDS for MySQL|
+|사용자 그룹 생성|event_id.rds_for_mysql.createUserGroup|RDS for MySQL|
+|사용자 그룹 수정|event_id.rds_for_mysql.modifyUserGroup|RDS for MySQL|
+|사용자 그룹 삭제|event_id.rds_for_mysql.deleteUserGroup|RDS for MySQL|
+|수신 그룹 생성|event_id.rds_for_mysql.receiver_group.create|RDS for MySQL|
+|수신 그룹 변경|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL|
+|수신 그룹 삭제|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL|
+|DB 정의 정보 변경|event_id.rds_for_mysql.instance.db_definition.update|RDS for MySQL|
+|DB 스키마 동기화|event_id.rds_for_mysql.instance.db_definition.schema.sync|RDS for MySQL|
+|DB User 동기화|event_id.rds_for_mysql.instance.db_definition.user.sync|RDS for MySQL|
+|DB 인스턴스 백업 및 내보내기|event_id.rds_for_mysql.instance.backup.export|RDS for MySQL|
+|오브젝트 스토리지로 백업 내보내기|event_id.rds_for_mysql.backup.export|RDS for MySQL|
+|IAM 로그인|event_id.iam.login|콘솔|
+|IAM 멤버 권한 변경|event_id.iam.member.role.update|콘솔|
+|조직 도메인 추가|event_id.org.domain.add|콘솔|
+|조직 도메인 수정|event_id.org.domain.update|콘솔|
+|조직 내부 회원 추가|event_id.org.iam.member.add|콘솔|
+|조직 내부 회원 비밀번호 변경 공지 메일 발송|event_id.org.iam.member.send_mail|콘솔|
+|조직 내부 회원 정보 수정|event_id.org.iam.member.update|콘솔|
+|조직 멤버 추가|event_id.org.member.add|콘솔|
+|조직 멤버 삭제|event_id.org.member.delete|콘솔|
+|조직 멤버 초대|event_id.org.member.invite|콘솔|
+|조직 멤버 초대 취소|event_id.org.member.invite_cancel|콘솔|
+|조직 멤버 수정|event_id.org.member.update|콘솔|
+|조직 서비스 비활성화|event_id.org.product.disable|콘솔|
+|조직 서비스 활성화|event_id.org.product.enable|콘솔|
+|조직 정보 수정|event_id.org.update|콘솔|
+|조직 접속|event_id.org.selected|콘솔|
+|IAM 조직 접속|event_id.iam.org.selected|콘솔|
+|프로젝트 생성|event_id.project.create|콘솔|
+|프로젝트 삭제|event_id.project.delete|콘솔|
+|프로젝트 멤버 추가|event_id.project.member.add|콘솔|
+|프로젝트 멤버 삭제|event_id.project.member.delete|콘솔|
+|프로젝트 멤버 초대|event_id.project.member.invite|콘솔|
+|프로젝트 멤버 초대 취소|event_id.project.member.invite_cancel|콘솔|
+|프로젝트 멤버 권한 수정|event_id.project.member.update|콘솔|
+|프로젝트 멤버 삭제|event_id.project.members.delete|콘솔|
+|프로젝트 서비스 비활성화|event_id.project.product.disable|콘솔|
+|프로젝트 서비스 활성화|event_id.project.product.enable|콘솔|
+|프로젝트 수정|event_id.project.update|콘솔|
+|프로젝트 접속|event_id.project.selected|콘솔|
+|공통 권한 그룹 생성|event_id.org.role_group.create|콘솔|
+|공통 권한 그룹 수정|event_id.org.role_group.update|콘솔|
+|공통 권한 그룹 삭제|event_id.org.role_group.delete|콘솔|
+|공통 권한 그룹 권한 추가|event_id.org.role_group.assign.roles|콘솔|
+|공통 권한 그룹 권한 삭제|event_id.org.role_group.remove.roles|콘솔|
+|프로젝트 권한 그룹 생성|event_id.project.role_group.create|콘솔|
+|프로젝트 권한 그룹 수정|event_id.project.role_group.update|콘솔|
+|프로젝트 권한 그룹 삭제|event_id.project.role_group.delete|콘솔|
+|프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|콘솔|
+|프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|콘솔|
+|IAM 프로젝트 접속|event_id.iam.project.selected|콘솔|
+|예산 추가|event_id.budget.create|콘솔|
+|예산 수정|event_id.budget.modify|콘솔|
+|예산 삭제|event_id.budget.delete|콘솔|
+|거버넌스 설정 변경|event_id.governance.change|콘솔|
+|서비스지원팀 삭제|event_id.supporter.delete|콘솔|
+|서비스지원팀 추가|event_id.supporter.add|콘솔|
+|마켓플레이스 신청|event_id.market_place.apply|콘솔|
+|마켓플레이스 신청 취소|event_id.market_place.apply-cancel|콘솔|
+|마켓플레이스 해지 신청|event_id.market_place.termination-apply|콘솔|
+|마켓플레이스 해지 신청 취소|event_id.market_place.termination-apply-cancel|콘솔|
 |백업 서버 등록|event_id.backup.client.register|Backup|
 |백업 서버 삭제|event_id.backup.client.delete|Backup|
 |백업 경로 등록|event_id.backup.target.register|Backup|
@@ -356,93 +246,32 @@
 |캐시 재배포|event_id.cdn.cache_purge.common|CDN|
 |특정 파일 캐시 재배포|event_id.cdn.cache_purge.item_type|CDN|
 |전체 파일 캐시 재배포|event_id.cdn.cache_purge.all_type|CDN|
-|서버 대시보드 레이아웃 추가|event_id.system_monitoring.server_dashboard_layout_addition|null|
-|서버 대시보드 레이아웃 변경|event_id.system_monitoring.server_dashboard_layout_updating|null|
-|서버 대시보드 레이아웃 삭제|event_id.system_monitoring.server_dashboard_layout_deletion|null|
-|OpenMetrics 대시보드 차트 생성|event_id.system_monitoring.open_metrics_chart_addition|null|
-|OpenMetrics 대시보드 차트 변경|event_id.system_monitoring.open_metrics_chart_updating|null|
-|OpenMetrics 대시보드 차트 삭제|event_id.system_monitoring.open_metrics_chart_deletion|null|
-|OpenMetrics 대시보드 수집 대상 추가|event_id.system_monitoring.open_metrics_target_addition|null|
-|OpenMetrics 대시보드 수집 대상 변경|event_id.system_monitoring.open_metrics_target_updating|null|
-|OpenMetrics 대시보드 수집 대상 삭제|event_id.system_monitoring.open_metrics_target_deletion|null|
-|OpenMetrics 대시보드 레이아웃 추가|event_id.system_monitoring.open_metrics_layout_addition|null|
-|OpenMetrics 대시보드 레이아웃 변경|event_id.system_monitoring.open_metrics_layout_updating|null|
-|OpenMetrics 대시보드 레이아웃 삭제|event_id.system_monitoring.open_metrics_layout_deletion|null|
-|OpenMetrics 대시보드 작업 공간 추가|event_id.system_monitoring.open_metrics_workspace_addition|null|
-|OpenMetrics 대시보드 작업 공간 변경|event_id.system_monitoring.open_metrics_workspace_updating|null|
-|OpenMetrics 대시보드 작업 공간 삭제|event_id.system_monitoring.open_metrics_workspace_deletion|null|
-|사용자 그룹 추가|event_id.system_monitoring.user_group_addition|null|
-|사용자 그룹 삭제|event_id.system_monitoring.user_group_deletion|null|
-|사용자 그룹에 사용자 추가|event_id.system_monitoring.user_group_user_addition|null|
-|사용자 그룹에 사용자 삭제|event_id.system_monitoring.user_group_user_deletion|null|
-|사용자 그룹 이름 수정|event_id.system_monitoring.user_group_name_updating|null|
-|알림 그룹 추가|event_id.system_monitoring.alarm_group_addition|null|
-|알림 그룹 변경|event_id.system_monitoring.alarm_group_updating|null|
-|알림 그룹 삭제|event_id.system_monitoring.alarm_group_deletion|null|
-|알림 설정 추가|event_id.system_monitoring.alarm_config_addition|null|
-|알림 설정 변경|event_id.system_monitoring.alarm_config_updating|null|
-|알림 설정 삭제|event_id.system_monitoring.alarm_config_deletion|null|
-|이벤트 강제 종료|event_id.system_monitoring.event_force_close|null|
-|알림 그룹 추가|event_id.certificate_manager.alarm_group.create|null|
-|알림 그룹 삭제|event_id.certificate_manager.alarm_group.delete|null|
-|알림 그룹 수정|event_id.certificate_manager.alarm_group.update|null|
-|수신 그룹 수정|event_id.certificate_manager.alarm_group_user.update|null|
-|알림 수정|event_id.certificate_manager.alarm.update|null|
-|인증서 추가|event_id.certificate_manager.certificate.create|null|
-|인증서 삭제|event_id.certificate_manager.certificate.delete|null|
-|인증서 다운로드|event_id.certificate_manager.certificate.download|null|
-|인증서 수정|event_id.certificate_manager.certificate.update|null|
-|인증서 사용정보 수정|event_id.certificate_manager.certificate.usage.update|null|
-|도메인 추가|event_id.certificate_manager.domain.create|null|
-|도메인 삭제|event_id.certificate_manager.domain.delete|null|
-|도메인 수정|event_id.certificate_manager.domain.update|null|
-|사용자 데이터 추가|event_id.certificate_manager.user_data.create|null|
-|사용자 데이터 삭제|event_id.certificate_manager.user_data.delete|null|
-|사용자 데이터 수정|event_id.certificate_manager.user_data.update|null|
-|Android SDK 다운로드|event_id.appguard.sdk_download_aos|null|
-|iOS SDK 다운로드|event_id.appguard.sdk_download_ios|null|
-|보고서 다운로드|event_id.appguard.report_download|null|
-|보호 작업|event_id.appguard.protection|null|
-|난독화 신청|event_id.appguard.obfuscation_request|null|
-|블랙리스트 추가|event_id.appguard.blacklist_add|null|
-|블랙리스트 차단 해제|event_id.appguard.blacklist_delete|null|
-|정책 수정|event_id.appguard.policy_update|null|
-|API Key 생성|event_id.apigw.apikey.create|null|
-|API Key 수정|event_id.apigw.apikey.update|null|
-|API Key 삭제|event_id.apigw.apikey.delete|null|
-|Primary/Secondary API Key 재발급|event_id.apigw.apikey.regenerate|null|
-|스테이지 배포|event_id.apigw.stage.deploy|null|
-|스테이지 되돌리기|event_id.apigw.stage.rollback|null|
-|스테이지 배포 이력 삭제|event_id.apigw.stage.delete_deploy_history|null|
-|모델 생성|event_id.apigw.model.create|null|
-|모델 수정|event_id.apigw.model.update|null|
-|모델 삭제|event_id.apigw.model.delete|null|
-|리소스 경로와 메서드 생성|event_id.apigw.resource.create_path_and_method|null|
-|리소스 메서드 생성|event_id.apigw.resource.create_method|null|
-|리소스 경로 플러그인 수정|event_id.apigw.resource.update_path_plugin|null|
-|리소스 메서드 정보와 플러그인 수정|event_id.apigw.resource.update_method_info_and_plugin|null|
-|리소스 삭제|event_id.apigw.resource.delete|null|
-|Swagger로 리소스 가져오기|event_id.apigw.resource.import_swagger|null|
-|서비스 생성|event_id.apigw.service.create|null|
-|서비스 수정|event_id.apigw.service.update|null|
-|서비스 삭제|event_id.apigw.service.delete|null|
-|스테이지 생성|event_id.apigw.stage.create|null|
-|스테이지 수정|event_id.apigw.stage.update|null|
-|스테이지 삭제|event_id.apigw.stage.delete|null|
-|스테이지에 리소스 적용|event_id.apigw.stage.import_resource|null|
-|스테이지 리소스 수정|event_id.apigw.stage.update_stage_resource|null|
-|사용량 계획, 스테이지와 API Key 연결|event_id.apigw.apikey.connect_usage_plan|null|
-|사용량 계획, 스테이지와 API Key 연결 해제|event_id.apigw.apikey.disconnect_usage_plan|null|
-|API Key 사용량 계획 변경|event_id.apigw.apikey.change_usage_plan|null|
-|API 설명서 게시 유형 변경|event_id.apigw.document.update_publish_type|null|
-|사용량 계획 생성|event_id.apigw.usage_plan.create|null|
-|사용량 계획 수정|event_id.apigw.usage_plan.update|null|
-|사용량 계획 삭제|event_id.apigw.usage_plan.delete|null|
-|사용량 계획과 스테이지 연결|event_id.apigw.usage_plan.connect_stage|null|
-|사용량 계획과 스테이지 연결 해제|event_id.apigw.usage_plan.disconnect_stage|null|
-|리소스 요청 파라미터 생성|event_id.apigw.resource.create_request_parameter|null|
-|리소스 응답 생성|event_id.apigw.resource.create_response|null|
-|스테이지에 도메인 별칭 연결|event_id.apigw.stage.connect_alias_domain|null|
-|스테이지에 도메인 별칭 연결 해제|event_id.apigw.stage.disconnect_alias_domain|null|
-|로그 저장/다운로드 설정 삭제|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
+|서버 대시보드 레이아웃 추가|event_id.system_monitoring.server_dashboard_layout_addition|System Monitoring|
+|서버 대시보드 레이아웃 변경|event_id.system_monitoring.server_dashboard_layout_updating|System Monitoring|
+|서버 대시보드 레이아웃 삭제|event_id.system_monitoring.server_dashboard_layout_deletion|System Monitoring|
+|OpenMetrics 대시보드 차트 생성|event_id.system_monitoring.open_metrics_chart_addition|System Monitoring|
+|OpenMetrics 대시보드 차트 변경|event_id.system_monitoring.open_metrics_chart_updating|System Monitoring|
+|OpenMetrics 대시보드 차트 삭제|event_id.system_monitoring.open_metrics_chart_deletion|System Monitoring|
+|OpenMetrics 대시보드 수집 대상 추가|event_id.system_monitoring.open_metrics_target_addition|System Monitoring|
+|OpenMetrics 대시보드 수집 대상 변경|event_id.system_monitoring.open_metrics_target_updating|System Monitoring|
+|OpenMetrics 대시보드 수집 대상 삭제|event_id.system_monitoring.open_metrics_target_deletion|System Monitoring|
+|OpenMetrics 대시보드 레이아웃 추가|event_id.system_monitoring.open_metrics_layout_addition|System Monitoring|
+|OpenMetrics 대시보드 레이아웃 변경|event_id.system_monitoring.open_metrics_layout_updating|System Monitoring|
+|OpenMetrics 대시보드 레이아웃 삭제|event_id.system_monitoring.open_metrics_layout_deletion|System Monitoring|
+|OpenMetrics 대시보드 작업 공간 추가|event_id.system_monitoring.open_metrics_workspace_addition|System Monitoring|
+|OpenMetrics 대시보드 작업 공간 변경|event_id.system_monitoring.open_metrics_workspace_updating|System Monitoring|
+|OpenMetrics 대시보드 작업 공간 삭제|event_id.system_monitoring.open_metrics_workspace_deletion|System Monitoring|
+|사용자 그룹 추가|event_id.system_monitoring.user_group_addition|System Monitoring|
+|사용자 그룹 삭제|event_id.system_monitoring.user_group_deletion|System Monitoring|
+|사용자 그룹에 사용자 추가|event_id.system_monitoring.user_group_user_addition|System Monitoring|
+|사용자 그룹에 사용자 삭제|event_id.system_monitoring.user_group_user_deletion|System Monitoring|
+|사용자 그룹 이름 수정|event_id.system_monitoring.user_group_name_updating|System Monitoring|
+|알림 그룹 추가|event_id.system_monitoring.alarm_group_addition|System Monitoring|
+|알림 그룹 변경|event_id.system_monitoring.alarm_group_updating|System Monitoring|
+|알림 그룹 삭제|event_id.system_monitoring.alarm_group_deletion|System Monitoring|
+|알림 설정 추가|event_id.system_monitoring.alarm_config_addition|System Monitoring|
+|알림 설정 변경|event_id.system_monitoring.alarm_config_updating|System Monitoring|
+|알림 설정 삭제|event_id.system_monitoring.alarm_config_deletion|System Monitoring|
+|이벤트 강제 종료|event_id.system_monitoring.event_force_close|System Monitoring|
 |로그 저장/다운로드 설정|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
+|로그 저장/다운로드 설정 삭제|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
