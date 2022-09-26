@@ -27,6 +27,9 @@
 |Delete Instance Interface|event_id.iaas.interface.delete|Default Infrastructure Service|
 |Create Internet Gateway|event_id.iaas.internet_gateway.create|Default Infrastructure Service|
 |Delete Internet Gateway|event_id.iaas.internet_gateway.delete|Default Infrastructure Service|
+|Create NAT Gateway|event_id.iaas.nat_gateway.create|Default Infrastructure Service|
+|Delete NAT Gateway|event_id.iaas.nat_gateway.delete|Default Infrastructure Service|
+|Change NAT Gateway|event_id.iaas.nat_gateway.update|Default Infrastructure Service|
 |Create Keypair|event_id.iaas.keypair.create|Default Infrastructure Service|
 |Delete Keypair|event_id.iaas.keypair.delete|Default Infrastructure Service|
 |Create Load Balancer|event_id.iaas.loadbalancer.create|Default Infrastructure Service|
@@ -159,7 +162,7 @@
 |删除密钥库|event_id.skm.keystore.delete|Secure Key Manager|
 |更改密钥库|event_id.skm.keystore.update|Secure Key Manager|
 |创建机密数据|event_id.skm.secret.create|Secure Key Manager|
-|删除机密数据|event_id.skm.secret.delete|Secure Key Manager|
+|立即删除机密数据|event_id.skm.secret.delete|Secure Key Manager|
 |请求删除机密数据|event_id.skm.secret.delete_request|Secure Key Manager|
 |取消请求删除机密数据|event_id.skm.secret.delete_request_cancel|Secure Key Manager|
 |更改机密数据信息|event_id.skm.secret.update|Secure Key Manager|
@@ -202,6 +205,9 @@
 |更改认证书|event_id.skm.cert.update|Secure Key Manager|
 |立即删除认证书|event_id.skm.cert.delete|Secure Key Manager|
 |下载认证书|event_id.skm.cert.download|Secure Key Manager|
+|审批流程审批|event_id.skm.approval.approve|Secure Key Manager|
+|拒绝审批流程|event_id.skm.approval.deny|Secure Key Manager|
+|审批流程 审批请求|event_id.skm.approval.approve_request|Secure Key Manager|
 |创建Artifacts|event_id.deploy.artifact_create|Deploy|
 |修改Artifacts|event_id.deploy.artifact_update|Deploy|
 |删除Artifacts|event_id.deploy.artifact_delete|Deploy|
