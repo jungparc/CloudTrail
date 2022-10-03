@@ -215,37 +215,6 @@
 |백업 경로 삭제|event_id.backup.target.delete|Backup|
 |복구 신청|event_id.backup.restoration.apply|Backup|
 |백업 서버 정보 변경|event_id.backup.client.update|Backup|
-|DNS Zone 생성|event_id.dnsplus.zone.create|DNS Plus|
-|DNS Zone 수정|event_id.dnsplus.zone.update|DNS Plus|
-|DNS Zone 삭제|event_id.dnsplus.zone.delete|DNS Plus|
-|레코드 세트 생성|event_id.dnsplus.recordset.create|DNS Plus|
-|레코드 세트 수정|event_id.dnsplus.recordset.update|DNS Plus|
-|레코드 세트 삭제|event_id.dnsplus.recordset.delete|DNS Plus|
-|레코드 세트 대량 생성|event_id.dnsplus.recordset.create_list|DNS Plus|
-|GSLB 생성|event_id.dnsplus.gslb.create|DNS Plus|
-|GSLB 수정|event_id.dnsplus.gslb.update|DNS Plus|
-|GSLB 삭제|event_id.dnsplus.gslb.delete|DNS Plus|
-|Pool 연결|event_id.dnsplus.gslb_connected_pool.create|DNS Plus|
-|Pool 연결 수정|event_id.dnsplus.gslb_connected_pool.update|DNS Plus|
-|Pool 연결 해제|event_id.dnsplus.gslb_connected_pool.delete|DNS Plus|
-|Pool 생성|event_id.dnsplus.pool.create|DNS Plus|
-|Pool 수정|event_id.dnsplus.pool.update|DNS Plus|
-|Pool 삭제|event_id.dnsplus.pool.delete|DNS Plus|
-|헬스 체크 생성|event_id.dnsplus.health_check.create|DNS Plus|
-|헬스 체크 수정|event_id.dnsplus.health_check.update|DNS Plus|
-|헬스 체크 삭제|event_id.dnsplus.health_check.delete|DNS Plus|
-|신규 인증서 발급|event_id.cdn.certificate.create|CDN|
-|인증서 삭제|event_id.cdn.certificate.delete|CDN|
-|인증서 검증 단계에서 발급 취소|event_id.cdn.certificate.validation_cancel|CDN|
-|CDN 서비스 생성|event_id.cdn.distribution.create|CDN|
-|CDN 서비스 삭제|event_id.cdn.distribution.delete|CDN|
-|CDN 서비스 전체 삭제|event_id.cdn.distribution.delete_all|CDN|
-|CDN 서비스 재시작|event_id.cdn.distribution.resume|CDN|
-|CDN 서비스 정지|event_id.cdn.distribution.suspend|CDN|
-|CDN 서비스 설정 수정|event_id.cdn.distribution.modify|CDN|
-|캐시 재배포|event_id.cdn.cache_purge.common|CDN|
-|특정 파일 캐시 재배포|event_id.cdn.cache_purge.item_type|CDN|
-|전체 파일 캐시 재배포|event_id.cdn.cache_purge.all_type|CDN|
 |서버 대시보드 레이아웃 추가|event_id.system_monitoring.server_dashboard_layout_addition|System Monitoring|
 |서버 대시보드 레이아웃 변경|event_id.system_monitoring.server_dashboard_layout_updating|System Monitoring|
 |서버 대시보드 레이아웃 삭제|event_id.system_monitoring.server_dashboard_layout_deletion|System Monitoring|
