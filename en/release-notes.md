@@ -1,5 +1,10 @@
 ## CloudTrail > Release Notes
 
+### 2022. 10. 04.
+#### More Events
+* Added events related to Secure Key Manager.
+* Added events related to Default Infrastructure Service.
+
 ### 2022. 08. 23.
 #### More Events
 * Added events related to KakaoTalk Bizmessage.

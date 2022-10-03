@@ -27,6 +27,9 @@
 |インスタンスインターフェイスの削除|event_id.iaas.interface.delete|基本インフラサービス|
 |インターネットゲートウェイの作成|event_id.iaas.internet_gateway.create|基本インフラサービス|
 |インターネットゲートウェイの削除|event_id.iaas.internet_gateway.delete|基本インフラサービス|
+|NATゲートウェイの作成|event_id.iaas.nat_gateway.create|基本インフラサービス|
+|NATゲートウェイの削除|event_id.iaas.nat_gateway.delete|基本インフラサービス|
+|NATゲートウェイの変更|event_id.iaas.nat_gateway.update|基本インフラサービス|
 |キーペアの作成|event_id.iaas.keypair.create|基本インフラサービス|
 |キーペアの削除|event_id.iaas.keypair.delete|基本インフラサービス|
 |ロードバランサーの作成|event_id.iaas.loadbalancer.create|基本インフラサービス|
@@ -159,7 +162,7 @@
 |キー保存場所 削除|event_id.skm.keystore.delete|Secure Key Manager|
 |キー保存場所 変更|event_id.skm.keystore.update|Secure Key Manager|
 |機密データ 作成|event_id.skm.secret.create|Secure Key Manager|
-|機密データ 削除|event_id.skm.secret.delete|Secure Key Manager|
+|機密データ 削除 -> 機密データの即時削除|event_id.skm.secret.delete|Secure Key Manager|
 |機密データ 削除リクエスト|event_id.skm.secret.delete_request|Secure Key Manager|
 |機密データ 削除キャンセル|event_id.skm.secret.delete_request_cancel|Secure Key Manager|
 |機密データ 変更|event_id.skm.secret.update|Secure Key Manager|
@@ -202,6 +205,9 @@
 |認証書 変更|event_id.skm.cert.update|Secure Key Manager|
 |認証書 即時削除|event_id.skm.cert.delete|Secure Key Manager|
 |認証書 ダウンロード|event_id.skm.cert.download|Secure Key Manager|
+|承認プロセスを承認|event_id.skm.approval.approve|Secure Key Manager|
+|承認プロセスを拒否|event_id.skm.approval.deny|Secure Key Manager|
+|承認プロセスの承認依頼|event_id.skm.approval.approve_request|Secure Key Manager|
 |アーティファクト作成|event_id.deploy.artifact_create|Deploy|
 |アーティファクト修正|event_id.deploy.artifact_update|Deploy|
 |アーティファクト削除|event_id.deploy.artifact_delete|Deploy|

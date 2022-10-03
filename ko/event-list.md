@@ -27,6 +27,9 @@
 |인스턴스 인터페이스 삭제|event_id.iaas.interface.delete|기본 인프라 서비스|
 |인터넷 게이트웨이 생성|event_id.iaas.internet_gateway.create|기본 인프라 서비스|
 |인터넷 게이트웨이 삭제|event_id.iaas.internet_gateway.delete|기본 인프라 서비스|
+|NAT 게이트웨이 생성|event_id.iaas.nat_gateway.create|기본 인프라 서비스|
+|NAT 게이트웨이 삭제|event_id.iaas.nat_gateway.delete|기본 인프라 서비스|
+|NAT 게이트웨이 변경|event_id.iaas.nat_gateway.update|기본 인프라 서비스|
 |키페어 생성|event_id.iaas.keypair.create|기본 인프라 서비스|
 |키페어 삭제|event_id.iaas.keypair.delete|기본 인프라 서비스|
 |로드 밸런서 생성|event_id.iaas.loadbalancer.create|기본 인프라 서비스|
@@ -159,7 +162,7 @@
 |키 저장소 삭제|event_id.skm.keystore.delete|Secure Key Manager|
 |키 저장소 정보 변경|event_id.skm.keystore.update|Secure Key Manager|
 |기밀 데이터 생성|event_id.skm.secret.create|Secure Key Manager|
-|기밀 데이터 삭제|event_id.skm.secret.delete|Secure Key Manager|
+|기밀 데이터 즉시 삭제|event_id.skm.secret.delete|Secure Key Manager|
 |기밀 데이터 삭제 요청|event_id.skm.secret.delete_request|Secure Key Manager|
 |기밀 데이터 삭제 요청 취소|event_id.skm.secret.delete_request_cancel|Secure Key Manager|
 |기밀 데이터 정보 변경|event_id.skm.secret.update|Secure Key Manager|
@@ -202,6 +205,9 @@
 |인증서 정보 변경|event_id.skm.cert.update|Secure Key Manager|
 |인증서 즉시 삭제|event_id.skm.cert.delete|Secure Key Manager|
 |인증서 다운로드|event_id.skm.cert.download|Secure Key Manager|
+|승인프로세스 승인|event_id.skm.approval.approve|Secure Key Manager|
+|승인프로세스 거절|event_id.skm.approval.deny|Secure Key Manager|
+|승인프로세스 승인 요청|event_id.skm.approval.approve_request|Secure Key Manager|
 |아티팩트 생성|event_id.deploy.artifact_create|Deploy|
 |아티팩트 수정|event_id.deploy.artifact_update|Deploy|
 |아티팩트 삭제|event_id.deploy.artifact_delete|Deploy|

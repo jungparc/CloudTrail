@@ -27,6 +27,9 @@
 |Delete Instance Interface|event_id.iaas.interface.delete|Default Infrastructure Service|
 |Create Internet Gateway|event_id.iaas.internet_gateway.create|Default Infrastructure Service|
 |Delete Internet Gateway|event_id.iaas.internet_gateway.delete|Default Infrastructure Service|
+|Create NAT Gateway|event_id.iaas.nat_gateway.create|Default Infrastructure Service|
+|Delete NAT Gateway|event_id.iaas.nat_gateway.delete|Default Infrastructure Service|
+|Change NAT Gateway|event_id.iaas.nat_gateway.update|Default Infrastructure Service|
 |Create Keypair|event_id.iaas.keypair.create|Default Infrastructure Service|
 |Delete Keypair|event_id.iaas.keypair.delete|Default Infrastructure Service|
 |Create Load Balancer|event_id.iaas.loadbalancer.create|Default Infrastructure Service|
@@ -159,7 +162,7 @@
 |Delete Keystore|event_id.skm.keystore.delete|Secure Key Manager|
 |Change Keystore Information|event_id.skm.keystore.update|Secure Key Manager|
 |Create Confidential Data|event_id.skm.secret.create|Secure Key Manager|
-|Delete Confidential Data|event_id.skm.secret.delete|Secure Key Manager|
+|Immediately Delete Confidential Data|event_id.skm.secret.delete|Secure Key Manager|
 |Request for Deleting Confidential Data|event_id.skm.secret.delete_request|Secure Key Manager|
 |Cancel Request for Deleting Confidential Data|event_id.skm.secret.delete_request_cancel|Secure Key Manager|
 |Change Confidential Data Information|event_id.skm.secret.update|Secure Key Manager|
@@ -202,6 +205,9 @@
 |Change Certificate Information|event_id.skm.cert.update|Secure Key Manager|
 |Immediately Delete Certificate|event_id.skm.cert.delete|Secure Key Manager|
 |Download Certificate|event_id.skm.cert.download|Secure Key Manager|
+|Approval Process Approve|event_id.skm.approval.approve|Secure Key Manager|
+|Approval Process Deny|event_id.skm.approval.deny|Secure Key Manager|
+|Approval Process Approve Request|event_id.skm.approval.approve_request|Secure Key Manager|
 |Create Artifact|event_id.deploy.artifact_create|Deploy|
 |Modify Artifact|event_id.deploy.artifact_update|Deploy|
 |Delete Artifact|event_id.deploy.artifact_delete|Deploy|
