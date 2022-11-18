@@ -14,12 +14,18 @@
 |イメージ共有の作成|event_id.iaas.image_member.create|基本インフラサービス|
 |イメージ共有の削除|event_id.iaas.image_member.delete|基本インフラサービス|
 |インスタンスの作成|event_id.iaas.instance.create|基本インフラサービス|
+|インスタンスの作成完了|event_id.iaas.instance.create_end|基本インフラサービス|
 |インスタンスの削除|event_id.iaas.instance.delete|基本インフラサービス|
+|インスタンスの削除完了|event_id.iaas.instance.delete_end|基本インフラサービス|
 |インスタンス情報の変更|event_id.iaas.instance.update|基本インフラサービス|
 |インスタンスの再起動|event_id.iaas.instance_action.reboot|基本インフラサービス|
+|インスタンスの再起動完了|event_id.iaas.instance_action.reboot_end|基本インフラサービス|
 |インスタンスタイプの変更|event_id.iaas.instance_action.resize|基本インフラサービス|
+|インスタンスタイプの変更完了|event_id.iaas.instance_action.resize_end|基本インフラサービス|
 |インスタンスの起動|event_id.iaas.instance_action.start|基本インフラサービス|
+|インスタンスの起動完了|event_id.iaas.instance_action.start_end|基本インフラサービス|
 |インスタンスの停止|event_id.iaas.instance_action.stop|基本インフラサービス|
+|インスタンスの停止完了|event_id.iaas.instance_action.stop_end|基本インフラサービス|
 |インスタンステンプレートの作成|event_id.iaas.instance_template.create|基本インフラサービス|
 |インスタンステンプレートの削除|event_id.iaas.instance_template.delete|基本インフラサービス|
 |インスタンステンプレートの変更|event_id.iaas.instance_template.update|基本インフラサービス|
@@ -85,6 +91,8 @@
 |オートスケーラーの設定を変更|event_id.iaas.cluster.update_autoscale|基本インフラサービス|
 |ノードグループ作成|event_id.iaas.nodegroup.create|基本インフラサービス|
 |ノードグループ削除|event_id.iaas.nodegroup.delete|基本インフラサービス|
+|ワーカーノードの起動|event_id.iaas.nodegroup.start_node|基本インフラサービス|
+|ワーカーノードの停止|event_id.iaas.nodegroup.stop_node|基本インフラサービス|
 |クラスターのアップグレード|event_id.iaas.nodegroup.upgrade|基本インフラサービス|
 |ユーザースクリプト変更|event_id.iaas.nodegroup.update_userscript|基本インフラサービス|
 |イメージのコピー|event_id.iaas.image.copy|基本インフラサービス|
@@ -119,6 +127,10 @@
 |オブジェクトのコピー|event_id.object_storage.object.copy|Object Storage|
 |オブジェクトの削除|event_id.object_storage.object.delete|Object Storage|
 |オブジェクトメタデータの登録/修正|event_id.object_storage.object.metadata.update|Object Storage|
+|コンテナ複製設定|event_id.object_storage.container.sync.enable|Object Storage|
+|コンテナ複製設定の変更|event_id.object_storage.container.sync.update|Object Storage|
+|コンテナ複製設定の解除|event_id.object_storage.container.sync.disable|Object Storage|
+|オブジェクト複製アップロード|event_id.object_storage.object.sync.upload|Object Storage|
 |DBインスタンスの作成|event_id.rds_for_mysql.instance.create|RDS for MySQL, RDS for MariaDB|
 |DBインスタンスの削除|event_id.rds_for_mysql.instance.delete|RDS for MySQL, RDS for MariaDB|
 |DBインスタンスの詳細設定を変更|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL, RDS for MariaDB|
@@ -286,6 +298,12 @@
 |マーケットプレイス申請キャンセル|event_id.market_place.apply-cancel|コンソール|
 |マーケットプレイス解約申請|event_id.market_place.termination-apply|コンソール|
 |マーケットプレイス解約申請ャンセル|event_id.market_place.termination-apply-cancel|コンソール|
+|조직 알림 수신 그룹 생성|event_id.org.alarm_group.create|コンソール|
+|조직 알림 수신 그룹 수정|event_id.org.alarm_group.update|コンソール|
+|조직 알림 수신 그룹 삭제|event_id.org.alarm_group.delete|コンソール|
+|프로젝트 알림 수신 그룹 생성|event_id.project.alarm_group.create|コンソール|
+|프로젝트 알림 수신 그룹 수정|event_id.project.alarm_group.update|コンソール|
+|프로젝트 알림 수신 그룹 삭제|event_id.project.alarm_group.delete|コンソール|
 |サービス作成|event_id.service_monitoring.creation_service|Service Monitoring|
 |サービス変更|event_id.service_monitoring.modification_service|Service Monitoring|
 |サービス削除|event_id.service_monitoring.delete_service|Service Monitoring|
@@ -670,6 +688,8 @@
 |クレジットカード分析リクエスト|event_id.ai_document_recognizer.credit_card.analyze|Document Recognizer|
 |サービス利用申請|event_id.ai_document_recognizer.service_use_request.submit|Document Recognizer|
 |サービス利用申請キャンセル|event_id.ai_document_recognizer.service_use_request.cancel|Document Recognizer|
+|身分証分析リクエスト	|event_id.ai_document_recognizer.id_card.analyze|Document Recognizer|
+|身分証真偽確認リクエスト|event_id.ai_document_recognizer.id_card.authenticity|Document Recognizer|
 |ナンバープレートの分析リクエスト|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|
 |発信プロフィールの作成|event_id.kakaotalk.sender.creation|KakaoTalk Bizmessage|
 |発信プロフィールトークンの認証|event_id.kakaotalk.sender.token.certification|KakaoTalk Bizmessage|
@@ -761,9 +781,68 @@
 |Speech to Text変換リクエスト|event_id.speech.stt.convert|Speech to Text|
 |ログ保存/ダウンロード設定 削除|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
 |ログ保存/ダウンロード設定|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
+|リソースグループ削除|event_id.resource_watcher.resource_group.delete|Resource Watcher|
+|リソースタグ修正|event_id.resource_watcher.resource_tag.update|Resource Watcher|
+|通知の削除|event_id.resource_watcher.alarm.delete|Resource Watcher|
+|리소스 그룹 관계 삭제	|event_id.resource_watcher.resource_group_relation.delete|Resource Watcher|
+|플로우 메타 생성|event_id.dataflow.flow.meta.create|Dataflow|
+|리소스 태그 관계 수정|event_id.resource_watcher.resource_tag_relation.update|Resource Watcher|
+|서비스 비활성화|event_id.resource_watcher.tenant.disable|Resource Watcher|
+|리소스 태그 관계 추가|event_id.resource_watcher.resource_tag_relation.create|Resource Watcher|
+|리소스 그룹 관계 수정|event_id.resource_watcher.resource_group_relation.update|Resource Watcher|
+|リソース削除|event_id.resource_watcher.resource.delete|Resource Watcher|
+|通知の修正|event_id.resource_watcher.alarm.update|Resource Watcher|
+|웹셀 메일수신 비활성화|event_id.webshell_treat_detector.mail_send_deactivated|Webshell Threat Detector|
+|リソースタグ削除|event_id.resource_watcher.resource_tag.delete|Resource Watcher|
+|リソースグループ修正|event_id.resource_watcher.resource_group.update|Resource Watcher|
+|通知の作成|event_id.resource_watcher.alarm.create|Resource Watcher|
+|웹셀 메일수신 활성화|event_id.webshell_treat_detector.mail_send_activated|Webshell Threat Detector|
+|웹셀 프로젝트 활성화 |event_id.webshell_treat_detector.project_activated|Webshell Threat Detector|
+|리소스 그룹 관계 추가|event_id.resource_watcher.resource_group_relation.create|Resource Watcher|
+|リソースグループ作成|event_id.resource_watcher.resource_group.create|Resource Watcher|
+|웹셀 프로젝트 비활성화|event_id.webshell_treat_detector.project_deactivated|Webshell Threat Detector|
+|リソース修正|event_id.resource_watcher.resource.update|Resource Watcher|
+|서비스 활성화|event_id.resource_watcher.tenant.enable|Resource Watcher|
+|通知の状態変更|event_id.resource_watcher.alarm.change_status|Resource Watcher|
+|リソース作成|event_id.resource_watcher.resource.create|Resource Watcher|
+|앱 생성|event_id.GameTalk.app_create|GameTalk|
 |プロジェクトの有効化|event_id.dataquery.project_activated|DataQuery|
+|리소스 태그 관계 삭제|event_id.resource_watcher.resource_tag_relation.delete|Resource Watcher|
+|リソースタグ作成|event_id.resource_watcher.resource_tag.create|Resource Watcher|
+|앱 설정 변경|event_id.GameTalk.app_attributes_modify|GameTalk|
+|플로우 메타 수정|event_id.dataflow.flow.meta.update|Dataflow|
+|인증정보 생성|event_id.GameTalk.app_auth_create|GameTalk|
+|플로우 메타 삭제|event_id.dataflow.flow.meta.delete|Dataflow|
+|변역 설정 생성|event_id.GameTalk.app_translation_create|GameTalk|
+|플로우 그래프 수정|event_id.dataflow.flow.graph.update|Dataflow|
+|플로우 메타 복사|event_id.dataflow.flow.meta.copy|Dataflow|
+|자동번역 설정 생성|event_id.GameTalk.app_auto_translation_create|GameTalk|
+|플로우 시작|event_id.dataflow.flow.start|Dataflow|
+|필터 설정 생성|event_id.GameTalk.app_filter_config_create|GameTalk|
+|플로우 중지|event_id.dataflow.flow.stop|Dataflow|
+|필터 정보 변경|event_id.GameTalk.app_filter_config_update|GameTalk|
+|템플릿 메타 생성|event_id.dataflow.template.meta.create|Dataflow|
+|필터 정보 삭제|event_id.GameTalk.app_filter_config_delete|GameTalk|
+|비속어 엑셀파일 업로드|event_id.GameTalk.app_filter_banned_word_excel_upload|GameTalk|
+|템플릿 메타 수정|event_id.dataflow.template.meta.update|Dataflow|
+|템플릿 메타 수정|event_id.dataflow.template.meta.delete|Dataflow|
+|비속어 엑셀파일 다운로드|event_id.GameTalk.app_filter_banned_word_excel_download|GameTalk|
 |プロジェクトの無効化|event_id.dataquery.project_deactivated|DataQuery|
+|채널 생성|event_id.GameTalk.channel_create|GameTalk|
+|템플릿 그래프 수정|event_id.dataflow.template.graph.update|Dataflow|
+|템플릿 그래프 복사|event_id.dataflow.template.graph.copy|Dataflow|
+|채널 정보 변경|event_id.GameTalk.channel_update|GameTalk|
+|채널 삭제|event_id.GameTalk.channel_delete|GameTalk|
+|스케쥴러 저장|event_id.dataflow.scheduler.meta.save|Dataflow|
+|공지 생성|event_id.GameTalk.notice_create|GameTalk|
+|공지 변경|event_id.GameTalk.notice_update|GameTalk|
+|채널 태그 생성|event_id.GameTalk.channel_tag_create|GameTalk|
+|채널 태그 변경|event_id.GameTalk.channel_tag_update|GameTalk|
+|채널 태그 삭제|event_id.GameTalk.channel_tag_delete|GameTalk|
+|유저 삭제|event_id.GameTalk.user_delete|GameTalk|
 |データソースアップデートリクエスト|event_id.dataquery.deploy_requested|DataQuery|
 |データソースの追加|event_id.dataquery.datasource_added|DataQuery|
 |データソースの修正|event_id.dataquery.datasource_modified|DataQuery|
 |認証キーの発行|event_id.dataquery.auth_key_issued|DataQuery|
+|클러스터 켜짐|event_id.dataquery.cluster_up|DataQuery|
+|클러스터 꺼짐|event_id.dataquery.cluster_down|DataQuery|
