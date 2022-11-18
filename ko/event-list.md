@@ -14,12 +14,18 @@
 |이미지 공유 추가|event_id.iaas.image_member.create|기본 인프라 서비스|
 |이미지 공유 삭제|event_id.iaas.image_member.delete|기본 인프라 서비스|
 |인스턴스 생성|event_id.iaas.instance.create|기본 인프라 서비스|
+|인스턴스 생성 완료|event_id.iaas.instance.create_end|기본 인프라 서비스|
 |인스턴스 삭제|event_id.iaas.instance.delete|기본 인프라 서비스|
+|인스턴스 삭제 완료|event_id.iaas.instance.delete_end|기본 인프라 서비스|
 |인스턴스 정보 변경|event_id.iaas.instance.update|기본 인프라 서비스|
 |인스턴스 재부팅|event_id.iaas.instance_action.reboot|기본 인프라 서비스|
+|인스턴스 재부팅 완료|event_id.iaas.instance_action.reboot_end|기본 인프라 서비스|
 |인스턴스 타입 변경|event_id.iaas.instance_action.resize|기본 인프라 서비스|
+|인스턴스 타입 변경 완료|event_id.iaas.instance_action.resize_end|기본 인프라 서비스|
 |인스턴스 시작|event_id.iaas.instance_action.start|기본 인프라 서비스|
+|인스턴스 시작 완료|event_id.iaas.instance_action.start_end|기본 인프라 서비스|
 |인스턴스 중지|event_id.iaas.instance_action.stop|기본 인프라 서비스|
+|인스턴스 중지 완료|event_id.iaas.instance_action.stop_end|기본 인프라 서비스|
 |인스턴스 템플릿 생성|event_id.iaas.instance_template.create|기본 인프라 서비스|
 |인스턴스 템플릿 삭제|event_id.iaas.instance_template.delete|기본 인프라 서비스|
 |인스턴스 템플릿 변경|event_id.iaas.instance_template.update|기본 인프라 서비스|
@@ -85,6 +91,8 @@
 |오토 스케일러 설정 변경|event_id.iaas.cluster.update_autoscale|기본 인프라 서비스|
 |노드 그룹 생성|event_id.iaas.nodegroup.create|기본 인프라 서비스|
 |노드 그룹 삭제|event_id.iaas.nodegroup.delete|기본 인프라 서비스|
+|워커 노드 시작|event_id.iaas.nodegroup.start_node|기본 인프라 서비스|
+|워커 노드 중지|event_id.iaas.nodegroup.stop_node|기본 인프라 서비스|
 |클러스터 업그레이드|event_id.iaas.nodegroup.upgrade|기본 인프라 서비스|
 |유저 스크립트 변경|event_id.iaas.nodegroup.update_userscript|기본 인프라 서비스|
 |이미지 복제|event_id.iaas.image.copy|기본 인프라 서비스|
@@ -119,6 +127,10 @@
 |오브젝트 복사|event_id.object_storage.object.copy|Object Storage|
 |오브젝트 삭제|event_id.object_storage.object.delete|Object Storage|
 |오브젝트 메타데이터 등록/수정|event_id.object_storage.object.metadata.update|Object Storage|
+|컨테이너 복제 설정|event_id.object_storage.container.sync.enable|Object Storage|
+|컨테이너 복제 설정 변경|event_id.object_storage.container.sync.update|Object Storage|
+|컨테이너 복제 설정 해제|event_id.object_storage.container.sync.disable|Object Storage|
+|오브젝트 복제 업로드|event_id.object_storage.object.sync.upload|Object Storage|
 |DB 인스턴스 생성|event_id.rds_for_mysql.instance.create|RDS for MySQL, RDS for MariaDB|
 |DB 인스턴스 삭제|event_id.rds_for_mysql.instance.delete|RDS for MySQL, RDS for MariaDB|
 |DB 인스턴스 상세 설정 변경|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL, RDS for MariaDB|
@@ -286,6 +298,12 @@
 |마켓플레이스 신청 취소|event_id.market_place.apply-cancel|콘솔|
 |마켓플레이스 해지 신청|event_id.market_place.termination-apply|콘솔|
 |마켓플레이스 해지 신청 취소|event_id.market_place.termination-apply-cancel|콘솔|
+|조직 알림 수신 그룹 생성|event_id.org.alarm_group.create|콘솔|
+|조직 알림 수신 그룹 수정|event_id.org.alarm_group.update|콘솔|
+|조직 알림 수신 그룹 삭제|event_id.org.alarm_group.delete|콘솔|
+|프로젝트 알림 수신 그룹 생성|event_id.project.alarm_group.create|콘솔|
+|프로젝트 알림 수신 그룹 수정|event_id.project.alarm_group.update|콘솔|
+|프로젝트 알림 수신 그룹 삭제|event_id.project.alarm_group.delete|콘솔|
 |서비스 생성|event_id.service_monitoring.creation_service|Service Monitoring|
 |서비스 변경|event_id.service_monitoring.modification_service|Service Monitoring|
 |서비스 삭제|event_id.service_monitoring.delete_service|Service Monitoring|
@@ -670,6 +688,8 @@
 |신용카드 분석 요청|event_id.ai_document_recognizer.credit_card.analyze|Document Recognizer|
 |서비스 이용 신청|event_id.ai_document_recognizer.service_use_request.submit|Document Recognizer|
 |서비스 이용 신청 취소|event_id.ai_document_recognizer.service_use_request.cancel|Document Recognizer|
+|신분증 분석 요청|event_id.ai_document_recognizer.id_card.analyze|Document Recognizer|
+|신분증 진위 확인 요청|event_id.ai_document_recognizer.id_card.authenticity|Document Recognizer|
 |차량 번호판 분석 요청|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|
 |발신 프로필 생성|event_id.kakaotalk.sender.creation|KakaoTalk Bizmessage|
 |발신 프로필 토큰 인증|event_id.kakaotalk.sender.token.certification|KakaoTalk Bizmessage|
@@ -761,9 +781,68 @@
 |Speech to Text 변환 요청|event_id.speech.stt.convert|Speech to Text|
 |로그 저장/다운로드 설정 삭제|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
 |로그 저장/다운로드 설정|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
+|리소스 그룹 삭제|event_id.resource_watcher.resource_group.delete|Resource Watcher|
+|리소스 태그 수정|event_id.resource_watcher.resource_tag.update|Resource Watcher|
+|알림 삭제|event_id.resource_watcher.alarm.delete|Resource Watcher|
+|리소스 그룹 관계 삭제	|event_id.resource_watcher.resource_group_relation.delete|Resource Watcher|
+|플로우 메타 생성|event_id.dataflow.flow.meta.create|Dataflow|
+|리소스 태그 관계 수정|event_id.resource_watcher.resource_tag_relation.update|Resource Watcher|
+|서비스 비활성화|event_id.resource_watcher.tenant.disable|Resource Watcher|
+|리소스 태그 관계 추가|event_id.resource_watcher.resource_tag_relation.create|Resource Watcher|
+|리소스 그룹 관계 수정|event_id.resource_watcher.resource_group_relation.update|Resource Watcher|
+|리소스 삭제|event_id.resource_watcher.resource.delete|Resource Watcher|
+|알림 수정|event_id.resource_watcher.alarm.update|Resource Watcher|
+|웹셀 메일수신 비활성화|event_id.webshell_treat_detector.mail_send_deactivated|Webshell Threat Detector|
+|리소스 태그 삭제|event_id.resource_watcher.resource_tag.delete|Resource Watcher|
+|리소스 그룹 수정|event_id.resource_watcher.resource_group.update|Resource Watcher|
+|알림 생성|event_id.resource_watcher.alarm.create|Resource Watcher|
+|웹셀 메일수신 활성화|event_id.webshell_treat_detector.mail_send_activated|Webshell Threat Detector|
+|웹셀 프로젝트 활성화 |event_id.webshell_treat_detector.project_activated|Webshell Threat Detector|
+|리소스 그룹 관계 추가|event_id.resource_watcher.resource_group_relation.create|Resource Watcher|
+|리소스 그룹 생성|event_id.resource_watcher.resource_group.create|Resource Watcher|
+|웹셀 프로젝트 비활성화|event_id.webshell_treat_detector.project_deactivated|Webshell Threat Detector|
+|리소스 수정|event_id.resource_watcher.resource.update|Resource Watcher|
+|서비스 활성화|event_id.resource_watcher.tenant.enable|Resource Watcher|
+|알림 상태 변경|event_id.resource_watcher.alarm.change_status|Resource Watcher|
+|리소스 생성|event_id.resource_watcher.resource.create|Resource Watcher|
+|앱 생성|event_id.GameTalk.app_create|GameTalk|
 |프로젝트 활성화|event_id.dataquery.project_activated|DataQuery|
+|리소스 태그 관계 삭제|event_id.resource_watcher.resource_tag_relation.delete|Resource Watcher|
+|리소스 태그 생성|event_id.resource_watcher.resource_tag.create|Resource Watcher|
+|앱 설정 변경|event_id.GameTalk.app_attributes_modify|GameTalk|
+|플로우 메타 수정|event_id.dataflow.flow.meta.update|Dataflow|
+|인증정보 생성|event_id.GameTalk.app_auth_create|GameTalk|
+|플로우 메타 삭제|event_id.dataflow.flow.meta.delete|Dataflow|
+|변역 설정 생성|event_id.GameTalk.app_translation_create|GameTalk|
+|플로우 그래프 수정|event_id.dataflow.flow.graph.update|Dataflow|
+|플로우 메타 복사|event_id.dataflow.flow.meta.copy|Dataflow|
+|자동번역 설정 생성|event_id.GameTalk.app_auto_translation_create|GameTalk|
+|플로우 시작|event_id.dataflow.flow.start|Dataflow|
+|필터 설정 생성|event_id.GameTalk.app_filter_config_create|GameTalk|
+|플로우 중지|event_id.dataflow.flow.stop|Dataflow|
+|필터 정보 변경|event_id.GameTalk.app_filter_config_update|GameTalk|
+|템플릿 메타 생성|event_id.dataflow.template.meta.create|Dataflow|
+|필터 정보 삭제|event_id.GameTalk.app_filter_config_delete|GameTalk|
+|비속어 엑셀파일 업로드|event_id.GameTalk.app_filter_banned_word_excel_upload|GameTalk|
+|템플릿 메타 수정|event_id.dataflow.template.meta.update|Dataflow|
+|템플릿 메타 삭제|event_id.dataflow.template.meta.delete|Dataflow|
+|비속어 엑셀파일 다운로드|event_id.GameTalk.app_filter_banned_word_excel_download|GameTalk|
 |프로젝트 비활성화|event_id.dataquery.project_deactivated|DataQuery|
+|채널 생성|event_id.GameTalk.channel_create|GameTalk|
+|템플릿 그래프 수정|event_id.dataflow.template.graph.update|Dataflow|
+|템플릿 그래프 복사|event_id.dataflow.template.graph.copy|Dataflow|
+|채널 정보 변경|event_id.GameTalk.channel_update|GameTalk|
+|채널 삭제|event_id.GameTalk.channel_delete|GameTalk|
+|스케쥴러 저장|event_id.dataflow.scheduler.meta.save|Dataflow|
+|공지 생성|event_id.GameTalk.notice_create|GameTalk|
+|공지 변경|event_id.GameTalk.notice_update|GameTalk|
+|채널 태그 생성|event_id.GameTalk.channel_tag_create|GameTalk|
+|채널 태그 변경|event_id.GameTalk.channel_tag_update|GameTalk|
+|채널 태그 삭제|event_id.GameTalk.channel_tag_delete|GameTalk|
+|유저 삭제|event_id.GameTalk.user_delete|GameTalk|
 |데이터 소스 업데이트 요청|event_id.dataquery.deploy_requested|DataQuery|
 |데이터 소스 추가|event_id.dataquery.datasource_added|DataQuery|
 |데이터 소스 수정|event_id.dataquery.datasource_modified|DataQuery|
 |인증 키 발급|event_id.dataquery.auth_key_issued|DataQuery|
+|클러스터 켜짐|event_id.dataquery.cluster_up|DataQuery|
+|클러스터 꺼짐|event_id.dataquery.cluster_down|DataQuery|
