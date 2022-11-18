@@ -14,12 +14,18 @@
 |Create Image Sharing|event_id.iaas.image_member.create|Default Infrastructure Service|
 |Delete Image Sharing|event_id.iaas.image_member.delete|Default Infrastructure Service|
 |Create Instance|event_id.iaas.instance.create|Default Infrastructure Service|
+|Create Instance Completed|event_id.iaas.instance.create_end|Default Infrastructure Service|
 |Delete Instance|event_id.iaas.instance.delete|Default Infrastructure Service|
+|Delete Instance Completed|event_id.iaas.instance.delete_end|Default Infrastructure Service|
 |Change Instance Information|event_id.iaas.instance.update|Default Infrastructure Service|
 |Reboot Instance|event_id.iaas.instance_action.reboot|Default Infrastructure Service|
+|Reboot Instance Completed|event_id.iaas.instance_action.reboot_end|Default Infrastructure Service|
 |Change Instance Type|event_id.iaas.instance_action.resize|Default Infrastructure Service|
+|Change Instance Type Completed|event_id.iaas.instance_action.resize_end|Default Infrastructure Service|
 |Start Instance|event_id.iaas.instance_action.start|Default Infrastructure Service|
+|Start Instance Completed|event_id.iaas.instance_action.start_end|Default Infrastructure Service|
 |Stop Instance|event_id.iaas.instance_action.stop|Default Infrastructure Service|
+|Stop Instance Completed|event_id.iaas.instance_action.stop_end|Default Infrastructure Service|
 |Create Instance Template|event_id.iaas.instance_template.create|Default Infrastructure Service|
 |Delete Instance Template|event_id.iaas.instance_template.delete|Default Infrastructure Service|
 |Change Instance Template|event_id.iaas.instance_template.update|Default Infrastructure Service|
@@ -85,6 +91,8 @@
 |Change Autoscaler Settings|event_id.iaas.cluster.update_autoscale|Default Infrastructure Service|
 |Create Node Group|event_id.iaas.nodegroup.create|Default Infrastructure Service|
 |Delete Node Group|event_id.iaas.nodegroup.delete|Default Infrastructure Service|
+|Start Worker Node|event_id.iaas.nodegroup.start_node|Default Infrastructure Service|
+|Stop Worker Node|event_id.iaas.nodegroup.stop_node|Default Infrastructure Service|
 |Upgrade Cluster|event_id.iaas.nodegroup.upgrade|Default Infrastructure Service|
 |Change User Script|event_id.iaas.nodegroup.update_userscript|Default Infrastructure Service|
 |Copy Image|event_id.iaas.image.copy|Default Infrastructure Service|
@@ -119,6 +127,10 @@
 |Copy objects|event_id.object_storage.object.copy|Object Storage|
 |Delete objects|event_id.object_storage.object.delete|Object Storage|
 |Register/Modify Object Metadata|event_id.object_storage.object.metadata.update|Object Storage|
+|Set Container Replication|event_id.object_storage.container.sync.enable|Object Storage|
+|Change Container Replication Settings|event_id.object_storage.container.sync.update|Object Storage|
+|Unset Container Replication|event_id.object_storage.container.sync.disable|Object Storage|
+|Upload Object Replication|event_id.object_storage.object.sync.upload|Object Storage|
 |Create DB Instance|event_id.rds_for_mysql.instance.create|RDS for MySQL, RDS for MariaDB|
 |Delete DB Instance|event_id.rds_for_mysql.instance.delete|RDS for MySQL, RDS for MariaDB|
 |Change Detailed Setting For DB Instance|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL, RDS for MariaDB|
@@ -286,6 +298,12 @@
 |Cancel Applying for Marketplace|event_id.market_place.apply-cancel|Console|
 |Apply for Marketplace Cancellation|event_id.market_place.termination-apply|Console|
 |Cancel Applying for Marketplace Cancellation|event_id.market_place.termination-apply-cancel|Console|
+|조직 알림 수신 그룹 생성|event_id.org.alarm_group.create|Console|
+|조직 알림 수신 그룹 수정|event_id.org.alarm_group.update|Console|
+|조직 알림 수신 그룹 삭제|event_id.org.alarm_group.delete|Console|
+|프로젝트 알림 수신 그룹 생성|event_id.project.alarm_group.create|Console|
+|프로젝트 알림 수신 그룹 수정|event_id.project.alarm_group.update|Console|
+|프로젝트 알림 수신 그룹 삭제|event_id.project.alarm_group.delete|Console|
 |Create Service|event_id.service_monitoring.creation_service|Service Monitoring|
 |Change Service|event_id.service_monitoring.modification_service|Service Monitoring|
 |Delete Service|event_id.service_monitoring.delete_service|Service Monitoring|
@@ -670,6 +688,8 @@
 |Request analysis of credit card|event_id.ai_document_recognizer.credit_card.analyze|Document Recognizer|
 |Submit a service use request|event_id.ai_document_recognizer.service_use_request.submit|Document Recognizer|
 |Cancel a service use request|event_id.ai_document_recognizer.service_use_request.cancel|Document Recognizer|
+|Request for Analyzing ID Card|event_id.ai_document_recognizer.id_card.analyze|Document Recognizer|
+|Request for ID Verification|event_id.ai_document_recognizer.id_card.authenticity|Document Recognizer|
 |Request analysis of car license plate|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|
 |Create Sender Profile|event_id.kakaotalk.sender.creation|KakaoTalk Bizmessage|
 |Certify Sender Profile Token|event_id.kakaotalk.sender.token.certification|KakaoTalk Bizmessage|
@@ -761,9 +781,68 @@
 |Request Speech to Text conversion|event_id.speech.stt.convert|Speech to Text|
 |Delete log save/download setting|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
 |Log save/download setting|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
+|Delete Resource Group|event_id.resource_watcher.resource_group.delete|Resource Watcher|
+|Modify Resource Tag|event_id.resource_watcher.resource_tag.update|Resource Watcher|
+|Delete Notification|event_id.resource_watcher.alarm.delete|Resource Watcher|
+|리소스 그룹 관계 삭제	|event_id.resource_watcher.resource_group_relation.delete|Resource Watcher|
+|플로우 메타 생성|event_id.dataflow.flow.meta.create|Dataflow|
+|리소스 태그 관계 수정|event_id.resource_watcher.resource_tag_relation.update|Resource Watcher|
+|서비스 비활성화|event_id.resource_watcher.tenant.disable|Resource Watcher|
+|리소스 태그 관계 추가|event_id.resource_watcher.resource_tag_relation.create|Resource Watcher|
+|리소스 그룹 관계 수정|event_id.resource_watcher.resource_group_relation.update|Resource Watcher|
+|Delete Resource|event_id.resource_watcher.resource.delete|Resource Watcher|
+|Modify Notification|event_id.resource_watcher.alarm.update|Resource Watcher|
+|웹셀 메일수신 비활성화|event_id.webshell_treat_detector.mail_send_deactivated|Webshell Threat Detector|
+|Delete Resource Tag|event_id.resource_watcher.resource_tag.delete|Resource Watcher|
+|Modify Resource Group|event_id.resource_watcher.resource_group.update|Resource Watcher|
+|Create Notification|event_id.resource_watcher.alarm.create|Resource Watcher|
+|웹셀 메일수신 활성화|event_id.webshell_treat_detector.mail_send_activated|Webshell Threat Detector|
+|웹셀 프로젝트 활성화 |event_id.webshell_treat_detector.project_activated|Webshell Threat Detector|
+|리소스 그룹 관계 추가|event_id.resource_watcher.resource_group_relation.create|Resource Watcher|
+|Create Resource Group|event_id.resource_watcher.resource_group.create|Resource Watcher|
+|웹셀 프로젝트 비활성화|event_id.webshell_treat_detector.project_deactivated|Webshell Threat Detector|
+|Modify Resource|event_id.resource_watcher.resource.update|Resource Watcher|
+|서비스 활성화|event_id.resource_watcher.tenant.enable|Resource Watcher|
+|Change Status of Notification|event_id.resource_watcher.alarm.change_status|Resource Watcher|
+|Create Resource|event_id.resource_watcher.resource.create|Resource Watcher|
+|앱 생성|event_id.GameTalk.app_create|GameTalk|
 |Activate Project|event_id.dataquery.project_activated|DataQuery|
+|리소스 태그 관계 삭제|event_id.resource_watcher.resource_tag_relation.delete|Resource Watcher|
+|Create Resource Tag|event_id.resource_watcher.resource_tag.create|Resource Watcher|
+|앱 설정 변경|event_id.GameTalk.app_attributes_modify|GameTalk|
+|플로우 메타 수정|event_id.dataflow.flow.meta.update|Dataflow|
+|인증정보 생성|event_id.GameTalk.app_auth_create|GameTalk|
+|플로우 메타 삭제|event_id.dataflow.flow.meta.delete|Dataflow|
+|변역 설정 생성|event_id.GameTalk.app_translation_create|GameTalk|
+|플로우 그래프 수정|event_id.dataflow.flow.graph.update|Dataflow|
+|플로우 메타 복사|event_id.dataflow.flow.meta.copy|Dataflow|
+|자동번역 설정 생성|event_id.GameTalk.app_auto_translation_create|GameTalk|
+|플로우 시작|event_id.dataflow.flow.start|Dataflow|
+|필터 설정 생성|event_id.GameTalk.app_filter_config_create|GameTalk|
+|플로우 중지|event_id.dataflow.flow.stop|Dataflow|
+|필터 정보 변경|event_id.GameTalk.app_filter_config_update|GameTalk|
+|템플릿 메타 생성|event_id.dataflow.template.meta.create|Dataflow|
+|필터 정보 삭제|event_id.GameTalk.app_filter_config_delete|GameTalk|
+|비속어 엑셀파일 업로드|event_id.GameTalk.app_filter_banned_word_excel_upload|GameTalk|
+|템플릿 메타 수정|event_id.dataflow.template.meta.update|Dataflow|
+|템플릿 메타 수정|event_id.dataflow.template.meta.delete|Dataflow|
+|비속어 엑셀파일 다운로드|event_id.GameTalk.app_filter_banned_word_excel_download|GameTalk|
 |Deactivate Project|event_id.dataquery.project_deactivated|DataQuery|
+|채널 생성|event_id.GameTalk.channel_create|GameTalk|
+|템플릿 그래프 수정|event_id.dataflow.template.graph.update|Dataflow|
+|템플릿 그래프 복사|event_id.dataflow.template.graph.copy|Dataflow|
+|채널 정보 변경|event_id.GameTalk.channel_update|GameTalk|
+|채널 삭제|event_id.GameTalk.channel_delete|GameTalk|
+|스케쥴러 저장|event_id.dataflow.scheduler.meta.save|Dataflow|
+|공지 생성|event_id.GameTalk.notice_create|GameTalk|
+|공지 변경|event_id.GameTalk.notice_update|GameTalk|
+|채널 태그 생성|event_id.GameTalk.channel_tag_create|GameTalk|
+|채널 태그 변경|event_id.GameTalk.channel_tag_update|GameTalk|
+|채널 태그 삭제|event_id.GameTalk.channel_tag_delete|GameTalk|
+|유저 삭제|event_id.GameTalk.user_delete|GameTalk|
 |Request Data Source Update|event_id.dataquery.deploy_requested|DataQuery|
 |Add Data Source|event_id.dataquery.datasource_added|DataQuery|
 |Modify Data Source|event_id.dataquery.datasource_modified|DataQuery|
 |Issue Authentication Key|event_id.dataquery.auth_key_issued|DataQuery|
+|클러스터 켜짐|event_id.dataquery.cluster_up|DataQuery|
+|클러스터 꺼짐|event_id.dataquery.cluster_down|DataQuery|
