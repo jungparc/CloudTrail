@@ -781,68 +781,30 @@
 |Speech to Text変換リクエスト|event_id.speech.stt.convert|Speech to Text|
 |ログ保存/ダウンロード設定 削除|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
 |ログ保存/ダウンロード設定|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
-|リソースグループ削除|event_id.resource_watcher.resource_group.delete|Resource Watcher|
-|リソースタグ修正|event_id.resource_watcher.resource_tag.update|Resource Watcher|
-|通知の削除|event_id.resource_watcher.alarm.delete|Resource Watcher|
-|리소스 그룹 관계 삭제	|event_id.resource_watcher.resource_group_relation.delete|Resource Watcher|
+|サービス利用申請|event_id.ai_word_suggestion.service_use_request.submit|Word Suggestion|
 |플로우 메타 생성|event_id.dataflow.flow.meta.create|Dataflow|
-|리소스 태그 관계 수정|event_id.resource_watcher.resource_tag_relation.update|Resource Watcher|
-|서비스 비활성화|event_id.resource_watcher.tenant.disable|Resource Watcher|
-|리소스 태그 관계 추가|event_id.resource_watcher.resource_tag_relation.create|Resource Watcher|
-|리소스 그룹 관계 수정|event_id.resource_watcher.resource_group_relation.update|Resource Watcher|
-|リソース削除|event_id.resource_watcher.resource.delete|Resource Watcher|
-|通知の修正|event_id.resource_watcher.alarm.update|Resource Watcher|
 |웹셀 메일수신 비활성화|event_id.webshell_treat_detector.mail_send_deactivated|Webshell Threat Detector|
-|リソースタグ削除|event_id.resource_watcher.resource_tag.delete|Resource Watcher|
-|リソースグループ修正|event_id.resource_watcher.resource_group.update|Resource Watcher|
-|通知の作成|event_id.resource_watcher.alarm.create|Resource Watcher|
 |웹셀 메일수신 활성화|event_id.webshell_treat_detector.mail_send_activated|Webshell Threat Detector|
 |웹셀 프로젝트 활성화 |event_id.webshell_treat_detector.project_activated|Webshell Threat Detector|
-|리소스 그룹 관계 추가|event_id.resource_watcher.resource_group_relation.create|Resource Watcher|
-|リソースグループ作成|event_id.resource_watcher.resource_group.create|Resource Watcher|
 |웹셀 프로젝트 비활성화|event_id.webshell_treat_detector.project_deactivated|Webshell Threat Detector|
-|リソース修正|event_id.resource_watcher.resource.update|Resource Watcher|
-|서비스 활성화|event_id.resource_watcher.tenant.enable|Resource Watcher|
-|通知の状態変更|event_id.resource_watcher.alarm.change_status|Resource Watcher|
-|リソース作成|event_id.resource_watcher.resource.create|Resource Watcher|
-|앱 생성|event_id.GameTalk.app_create|GameTalk|
 |プロジェクトの有効化|event_id.dataquery.project_activated|DataQuery|
-|리소스 태그 관계 삭제|event_id.resource_watcher.resource_tag_relation.delete|Resource Watcher|
-|リソースタグ作成|event_id.resource_watcher.resource_tag.create|Resource Watcher|
-|앱 설정 변경|event_id.GameTalk.app_attributes_modify|GameTalk|
+|サービス利用申請キャンセル|event_id.ai_word_suggestion.service_use_request.cancel|Word Suggestion|
 |플로우 메타 수정|event_id.dataflow.flow.meta.update|Dataflow|
-|인증정보 생성|event_id.GameTalk.app_auth_create|GameTalk|
 |플로우 메타 삭제|event_id.dataflow.flow.meta.delete|Dataflow|
-|변역 설정 생성|event_id.GameTalk.app_translation_create|GameTalk|
 |플로우 그래프 수정|event_id.dataflow.flow.graph.update|Dataflow|
 |플로우 메타 복사|event_id.dataflow.flow.meta.copy|Dataflow|
-|자동번역 설정 생성|event_id.GameTalk.app_auto_translation_create|GameTalk|
 |플로우 시작|event_id.dataflow.flow.start|Dataflow|
-|필터 설정 생성|event_id.GameTalk.app_filter_config_create|GameTalk|
 |플로우 중지|event_id.dataflow.flow.stop|Dataflow|
-|필터 정보 변경|event_id.GameTalk.app_filter_config_update|GameTalk|
 |템플릿 메타 생성|event_id.dataflow.template.meta.create|Dataflow|
-|필터 정보 삭제|event_id.GameTalk.app_filter_config_delete|GameTalk|
-|비속어 엑셀파일 업로드|event_id.GameTalk.app_filter_banned_word_excel_upload|GameTalk|
 |템플릿 메타 수정|event_id.dataflow.template.meta.update|Dataflow|
 |템플릿 메타 수정|event_id.dataflow.template.meta.delete|Dataflow|
-|비속어 엑셀파일 다운로드|event_id.GameTalk.app_filter_banned_word_excel_download|GameTalk|
 |プロジェクトの無効化|event_id.dataquery.project_deactivated|DataQuery|
-|채널 생성|event_id.GameTalk.channel_create|GameTalk|
 |템플릿 그래프 수정|event_id.dataflow.template.graph.update|Dataflow|
 |템플릿 그래프 복사|event_id.dataflow.template.graph.copy|Dataflow|
-|채널 정보 변경|event_id.GameTalk.channel_update|GameTalk|
-|채널 삭제|event_id.GameTalk.channel_delete|GameTalk|
 |스케쥴러 저장|event_id.dataflow.scheduler.meta.save|Dataflow|
-|공지 생성|event_id.GameTalk.notice_create|GameTalk|
-|공지 변경|event_id.GameTalk.notice_update|GameTalk|
-|채널 태그 생성|event_id.GameTalk.channel_tag_create|GameTalk|
-|채널 태그 변경|event_id.GameTalk.channel_tag_update|GameTalk|
-|채널 태그 삭제|event_id.GameTalk.channel_tag_delete|GameTalk|
-|유저 삭제|event_id.GameTalk.user_delete|GameTalk|
 |データソースアップデートリクエスト|event_id.dataquery.deploy_requested|DataQuery|
 |データソースの追加|event_id.dataquery.datasource_added|DataQuery|
 |データソースの修正|event_id.dataquery.datasource_modified|DataQuery|
 |認証キーの発行|event_id.dataquery.auth_key_issued|DataQuery|
-|클러스터 켜짐|event_id.dataquery.cluster_up|DataQuery|
-|클러스터 꺼짐|event_id.dataquery.cluster_down|DataQuery|
+|Trinoクラスタオン|event_id.dataquery.cluster_up|DataQuery|
+|Trinoクラスタオフ|event_id.dataquery.cluster_down|DataQuery|
