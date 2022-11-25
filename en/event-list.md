@@ -14,12 +14,18 @@
 |Create Image Sharing|event_id.iaas.image_member.create|Default Infrastructure Service|
 |Delete Image Sharing|event_id.iaas.image_member.delete|Default Infrastructure Service|
 |Create Instance|event_id.iaas.instance.create|Default Infrastructure Service|
+|Create Instance Completed|event_id.iaas.instance.create_end|Default Infrastructure Service|
 |Delete Instance|event_id.iaas.instance.delete|Default Infrastructure Service|
+|Delete Instance Completed|event_id.iaas.instance.delete_end|Default Infrastructure Service|
 |Change Instance Information|event_id.iaas.instance.update|Default Infrastructure Service|
 |Reboot Instance|event_id.iaas.instance_action.reboot|Default Infrastructure Service|
+|Reboot Instance Completed|event_id.iaas.instance_action.reboot_end|Default Infrastructure Service|
 |Change Instance Type|event_id.iaas.instance_action.resize|Default Infrastructure Service|
+|Change Instance Type Completed|event_id.iaas.instance_action.resize_end|Default Infrastructure Service|
 |Start Instance|event_id.iaas.instance_action.start|Default Infrastructure Service|
+|Start Instance Completed|event_id.iaas.instance_action.start_end|Default Infrastructure Service|
 |Stop Instance|event_id.iaas.instance_action.stop|Default Infrastructure Service|
+|Stop Instance Completed|event_id.iaas.instance_action.stop_end|Default Infrastructure Service|
 |Create Instance Template|event_id.iaas.instance_template.create|Default Infrastructure Service|
 |Delete Instance Template|event_id.iaas.instance_template.delete|Default Infrastructure Service|
 |Change Instance Template|event_id.iaas.instance_template.update|Default Infrastructure Service|
@@ -85,6 +91,8 @@
 |Change Autoscaler Settings|event_id.iaas.cluster.update_autoscale|Default Infrastructure Service|
 |Create Node Group|event_id.iaas.nodegroup.create|Default Infrastructure Service|
 |Delete Node Group|event_id.iaas.nodegroup.delete|Default Infrastructure Service|
+|Start Worker Node|event_id.iaas.nodegroup.start_node|Default Infrastructure Service|
+|Stop Worker Node|event_id.iaas.nodegroup.stop_node|Default Infrastructure Service|
 |Upgrade Cluster|event_id.iaas.nodegroup.upgrade|Default Infrastructure Service|
 |Change User Script|event_id.iaas.nodegroup.update_userscript|Default Infrastructure Service|
 |Copy Image|event_id.iaas.image.copy|Default Infrastructure Service|
@@ -119,6 +127,10 @@
 |Copy objects|event_id.object_storage.object.copy|Object Storage|
 |Delete objects|event_id.object_storage.object.delete|Object Storage|
 |Register/Modify Object Metadata|event_id.object_storage.object.metadata.update|Object Storage|
+|Set Container Replication|event_id.object_storage.container.sync.enable|Object Storage|
+|Change Container Replication Settings|event_id.object_storage.container.sync.update|Object Storage|
+|Unset Container Replication|event_id.object_storage.container.sync.disable|Object Storage|
+|Upload Object Replication|event_id.object_storage.object.sync.upload|Object Storage|
 |Create DB Instance|event_id.rds_for_mysql.instance.create|RDS for MySQL, RDS for MariaDB|
 |Delete DB Instance|event_id.rds_for_mysql.instance.delete|RDS for MySQL, RDS for MariaDB|
 |Change Detailed Setting For DB Instance|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL, RDS for MariaDB|
@@ -286,6 +298,12 @@
 |Cancel Applying for Marketplace|event_id.market_place.apply-cancel|Console|
 |Apply for Marketplace Cancellation|event_id.market_place.termination-apply|Console|
 |Cancel Applying for Marketplace Cancellation|event_id.market_place.termination-apply-cancel|Console|
+|조직 알림 수신 그룹 생성|event_id.org.alarm_group.create|Console|
+|조직 알림 수신 그룹 수정|event_id.org.alarm_group.update|Console|
+|조직 알림 수신 그룹 삭제|event_id.org.alarm_group.delete|Console|
+|프로젝트 알림 수신 그룹 생성|event_id.project.alarm_group.create|Console|
+|프로젝트 알림 수신 그룹 수정|event_id.project.alarm_group.update|Console|
+|프로젝트 알림 수신 그룹 삭제|event_id.project.alarm_group.delete|Console|
 |Create Service|event_id.service_monitoring.creation_service|Service Monitoring|
 |Change Service|event_id.service_monitoring.modification_service|Service Monitoring|
 |Delete Service|event_id.service_monitoring.delete_service|Service Monitoring|
@@ -670,6 +688,8 @@
 |Request analysis of credit card|event_id.ai_document_recognizer.credit_card.analyze|Document Recognizer|
 |Submit a service use request|event_id.ai_document_recognizer.service_use_request.submit|Document Recognizer|
 |Cancel a service use request|event_id.ai_document_recognizer.service_use_request.cancel|Document Recognizer|
+|Request for Analyzing ID Card|event_id.ai_document_recognizer.id_card.analyze|Document Recognizer|
+|Request for ID Verification|event_id.ai_document_recognizer.id_card.authenticity|Document Recognizer|
 |Request analysis of car license plate|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|
 |Create Sender Profile|event_id.kakaotalk.sender.creation|KakaoTalk Bizmessage|
 |Certify Sender Profile Token|event_id.kakaotalk.sender.token.certification|KakaoTalk Bizmessage|
@@ -761,9 +781,30 @@
 |Request Speech to Text conversion|event_id.speech.stt.convert|Speech to Text|
 |Delete log save/download setting|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
 |Log save/download setting|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
+|Submit a service use request|event_id.ai_word_suggestion.service_use_request.submit|Word Suggestion|
+|플로우 메타 생성|event_id.dataflow.flow.meta.create|Dataflow|
+|웹셀 메일수신 비활성화|event_id.webshell_treat_detector.mail_send_deactivated|Webshell Threat Detector|
+|웹셀 메일수신 활성화|event_id.webshell_treat_detector.mail_send_activated|Webshell Threat Detector|
+|웹셀 프로젝트 활성화 |event_id.webshell_treat_detector.project_activated|Webshell Threat Detector|
+|웹셀 프로젝트 비활성화|event_id.webshell_treat_detector.project_deactivated|Webshell Threat Detector|
 |Activate Project|event_id.dataquery.project_activated|DataQuery|
+|Cancel a service use request|event_id.ai_word_suggestion.service_use_request.cancel|Word Suggestion|
+|플로우 메타 수정|event_id.dataflow.flow.meta.update|Dataflow|
+|플로우 메타 삭제|event_id.dataflow.flow.meta.delete|Dataflow|
+|플로우 그래프 수정|event_id.dataflow.flow.graph.update|Dataflow|
+|플로우 메타 복사|event_id.dataflow.flow.meta.copy|Dataflow|
+|플로우 시작|event_id.dataflow.flow.start|Dataflow|
+|플로우 중지|event_id.dataflow.flow.stop|Dataflow|
+|템플릿 메타 생성|event_id.dataflow.template.meta.create|Dataflow|
+|템플릿 메타 수정|event_id.dataflow.template.meta.update|Dataflow|
+|템플릿 메타 수정|event_id.dataflow.template.meta.delete|Dataflow|
 |Deactivate Project|event_id.dataquery.project_deactivated|DataQuery|
+|템플릿 그래프 수정|event_id.dataflow.template.graph.update|Dataflow|
+|템플릿 그래프 복사|event_id.dataflow.template.graph.copy|Dataflow|
+|스케쥴러 저장|event_id.dataflow.scheduler.meta.save|Dataflow|
 |Request Data Source Update|event_id.dataquery.deploy_requested|DataQuery|
 |Add Data Source|event_id.dataquery.datasource_added|DataQuery|
 |Modify Data Source|event_id.dataquery.datasource_modified|DataQuery|
 |Issue Authentication Key|event_id.dataquery.auth_key_issued|DataQuery|
+|클러스터 켜짐|event_id.dataquery.cluster_up|DataQuery|
+|클러스터 꺼짐|event_id.dataquery.cluster_down|DataQuery|

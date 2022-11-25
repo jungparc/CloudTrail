@@ -14,12 +14,18 @@
 |이미지 공유 추가|event_id.iaas.image_member.create|기본 인프라 서비스|
 |이미지 공유 삭제|event_id.iaas.image_member.delete|기본 인프라 서비스|
 |인스턴스 생성|event_id.iaas.instance.create|기본 인프라 서비스|
+|인스턴스 생성 완료|event_id.iaas.instance.create_end|기본 인프라 서비스|
 |인스턴스 삭제|event_id.iaas.instance.delete|기본 인프라 서비스|
+|인스턴스 삭제 완료|event_id.iaas.instance.delete_end|기본 인프라 서비스|
 |인스턴스 정보 변경|event_id.iaas.instance.update|기본 인프라 서비스|
 |인스턴스 재부팅|event_id.iaas.instance_action.reboot|기본 인프라 서비스|
+|인스턴스 재부팅 완료|event_id.iaas.instance_action.reboot_end|기본 인프라 서비스|
 |인스턴스 타입 변경|event_id.iaas.instance_action.resize|기본 인프라 서비스|
+|인스턴스 타입 변경 완료|event_id.iaas.instance_action.resize_end|기본 인프라 서비스|
 |인스턴스 시작|event_id.iaas.instance_action.start|기본 인프라 서비스|
+|인스턴스 시작 완료|event_id.iaas.instance_action.start_end|기본 인프라 서비스|
 |인스턴스 중지|event_id.iaas.instance_action.stop|기본 인프라 서비스|
+|인스턴스 중지 완료|event_id.iaas.instance_action.stop_end|기본 인프라 서비스|
 |인스턴스 템플릿 생성|event_id.iaas.instance_template.create|기본 인프라 서비스|
 |인스턴스 템플릿 삭제|event_id.iaas.instance_template.delete|기본 인프라 서비스|
 |인스턴스 템플릿 변경|event_id.iaas.instance_template.update|기본 인프라 서비스|
@@ -85,6 +91,8 @@
 |오토 스케일러 설정 변경|event_id.iaas.cluster.update_autoscale|기본 인프라 서비스|
 |노드 그룹 생성|event_id.iaas.nodegroup.create|기본 인프라 서비스|
 |노드 그룹 삭제|event_id.iaas.nodegroup.delete|기본 인프라 서비스|
+|워커 노드 시작|event_id.iaas.nodegroup.start_node|기본 인프라 서비스|
+|워커 노드 중지|event_id.iaas.nodegroup.stop_node|기본 인프라 서비스|
 |클러스터 업그레이드|event_id.iaas.nodegroup.upgrade|기본 인프라 서비스|
 |유저 스크립트 변경|event_id.iaas.nodegroup.update_userscript|기본 인프라 서비스|
 |이미지 복제|event_id.iaas.image.copy|기본 인프라 서비스|
@@ -119,6 +127,10 @@
 |오브젝트 복사|event_id.object_storage.object.copy|Object Storage|
 |오브젝트 삭제|event_id.object_storage.object.delete|Object Storage|
 |오브젝트 메타데이터 등록/수정|event_id.object_storage.object.metadata.update|Object Storage|
+|컨테이너 복제 설정|event_id.object_storage.container.sync.enable|Object Storage|
+|컨테이너 복제 설정 변경|event_id.object_storage.container.sync.update|Object Storage|
+|컨테이너 복제 설정 해제|event_id.object_storage.container.sync.disable|Object Storage|
+|오브젝트 복제 업로드|event_id.object_storage.object.sync.upload|Object Storage|
 |DB 인스턴스 생성|event_id.rds_for_mysql.instance.create|RDS for MySQL, RDS for MariaDB|
 |DB 인스턴스 삭제|event_id.rds_for_mysql.instance.delete|RDS for MySQL, RDS for MariaDB|
 |DB 인스턴스 상세 설정 변경|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL, RDS for MariaDB|
@@ -286,6 +298,12 @@
 |마켓플레이스 신청 취소|event_id.market_place.apply-cancel|콘솔|
 |마켓플레이스 해지 신청|event_id.market_place.termination-apply|콘솔|
 |마켓플레이스 해지 신청 취소|event_id.market_place.termination-apply-cancel|콘솔|
+|조직 알림 수신 그룹 생성|event_id.org.alarm_group.create|콘솔|
+|조직 알림 수신 그룹 수정|event_id.org.alarm_group.update|콘솔|
+|조직 알림 수신 그룹 삭제|event_id.org.alarm_group.delete|콘솔|
+|프로젝트 알림 수신 그룹 생성|event_id.project.alarm_group.create|콘솔|
+|프로젝트 알림 수신 그룹 수정|event_id.project.alarm_group.update|콘솔|
+|프로젝트 알림 수신 그룹 삭제|event_id.project.alarm_group.delete|콘솔|
 |서비스 생성|event_id.service_monitoring.creation_service|Service Monitoring|
 |서비스 변경|event_id.service_monitoring.modification_service|Service Monitoring|
 |서비스 삭제|event_id.service_monitoring.delete_service|Service Monitoring|
@@ -670,6 +688,8 @@
 |신용카드 분석 요청|event_id.ai_document_recognizer.credit_card.analyze|Document Recognizer|
 |서비스 이용 신청|event_id.ai_document_recognizer.service_use_request.submit|Document Recognizer|
 |서비스 이용 신청 취소|event_id.ai_document_recognizer.service_use_request.cancel|Document Recognizer|
+|신분증 분석 요청|event_id.ai_document_recognizer.id_card.analyze|Document Recognizer|
+|신분증 진위 확인 요청|event_id.ai_document_recognizer.id_card.authenticity|Document Recognizer|
 |차량 번호판 분석 요청|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|
 |발신 프로필 생성|event_id.kakaotalk.sender.creation|KakaoTalk Bizmessage|
 |발신 프로필 토큰 인증|event_id.kakaotalk.sender.token.certification|KakaoTalk Bizmessage|
@@ -761,9 +781,30 @@
 |Speech to Text 변환 요청|event_id.speech.stt.convert|Speech to Text|
 |로그 저장/다운로드 설정 삭제|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
 |로그 저장/다운로드 설정|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
+|서비스 이용 신청|event_id.ai_word_suggestion.service_use_request.submit|Word Suggestion|
+|플로우 메타 생성|event_id.dataflow.flow.meta.create|Dataflow|
+|웹셀 메일수신 비활성화|event_id.webshell_treat_detector.mail_send_deactivated|Webshell Threat Detector|
+|웹셀 메일수신 활성화|event_id.webshell_treat_detector.mail_send_activated|Webshell Threat Detector|
+|웹셀 프로젝트 활성화 |event_id.webshell_treat_detector.project_activated|Webshell Threat Detector|
+|웹셀 프로젝트 비활성화|event_id.webshell_treat_detector.project_deactivated|Webshell Threat Detector|
 |프로젝트 활성화|event_id.dataquery.project_activated|DataQuery|
+|서비스 이용 신청 취소|event_id.ai_word_suggestion.service_use_request.cancel|Word Suggestion|
+|플로우 메타 수정|event_id.dataflow.flow.meta.update|Dataflow|
+|플로우 메타 삭제|event_id.dataflow.flow.meta.delete|Dataflow|
+|플로우 그래프 수정|event_id.dataflow.flow.graph.update|Dataflow|
+|플로우 메타 복사|event_id.dataflow.flow.meta.copy|Dataflow|
+|플로우 시작|event_id.dataflow.flow.start|Dataflow|
+|플로우 중지|event_id.dataflow.flow.stop|Dataflow|
+|템플릿 메타 생성|event_id.dataflow.template.meta.create|Dataflow|
+|템플릿 메타 수정|event_id.dataflow.template.meta.update|Dataflow|
+|템플릿 메타 삭제|event_id.dataflow.template.meta.delete|Dataflow|
 |프로젝트 비활성화|event_id.dataquery.project_deactivated|DataQuery|
+|템플릿 그래프 수정|event_id.dataflow.template.graph.update|Dataflow|
+|템플릿 그래프 복사|event_id.dataflow.template.graph.copy|Dataflow|
+|스케쥴러 저장|event_id.dataflow.scheduler.meta.save|Dataflow|
 |데이터 소스 업데이트 요청|event_id.dataquery.deploy_requested|DataQuery|
 |데이터 소스 추가|event_id.dataquery.datasource_added|DataQuery|
 |데이터 소스 수정|event_id.dataquery.datasource_modified|DataQuery|
 |인증 키 발급|event_id.dataquery.auth_key_issued|DataQuery|
+|Trino 클러스터 켜짐|event_id.dataquery.cluster_up|DataQuery|
+|Trino 클러스터 꺼짐|event_id.dataquery.cluster_down|DataQuery|
