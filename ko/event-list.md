@@ -807,4 +807,6 @@
 |데이터 소스 수정|event_id.dataquery.datasource_modified|DataQuery|
 |인증 키 발급|event_id.dataquery.auth_key_issued|DataQuery|
 |Trino 클러스터 켜짐|event_id.dataquery.cluster_up|DataQuery|
+|Trino 클러스터 켜짐|event_id.dataquery.cluster_on|DataQuery|
 |Trino 클러스터 꺼짐|event_id.dataquery.cluster_down|DataQuery|
+|Trino 클러스터 꺼짐|event_id.dataquery.cluster_off|DataQuery|
