@@ -14,12 +14,18 @@
 |이미지 공유 추가|event_id.iaas.image_member.create|기본 인프라 서비스|
 |이미지 공유 삭제|event_id.iaas.image_member.delete|기본 인프라 서비스|
 |인스턴스 생성|event_id.iaas.instance.create|기본 인프라 서비스|
+|인스턴스 생성 완료|event_id.iaas.instance.create_end|기본 인프라 서비스|
 |인스턴스 삭제|event_id.iaas.instance.delete|기본 인프라 서비스|
+|인스턴스 삭제 완료|event_id.iaas.instance.delete_end|기본 인프라 서비스|
 |인스턴스 정보 변경|event_id.iaas.instance.update|기본 인프라 서비스|
 |인스턴스 재부팅|event_id.iaas.instance_action.reboot|기본 인프라 서비스|
+|인스턴스 재부팅 완료|event_id.iaas.instance_action.reboot_end|기본 인프라 서비스|
 |인스턴스 타입 변경|event_id.iaas.instance_action.resize|기본 인프라 서비스|
+|인스턴스 타입 변경 완료|event_id.iaas.instance_action.resize_end|기본 인프라 서비스|
 |인스턴스 시작|event_id.iaas.instance_action.start|기본 인프라 서비스|
+|인스턴스 시작 완료|event_id.iaas.instance_action.start_end|기본 인프라 서비스|
 |인스턴스 중지|event_id.iaas.instance_action.stop|기본 인프라 서비스|
+|인스턴스 중지 완료|event_id.iaas.instance_action.stop_end|기본 인프라 서비스|
 |인스턴스 템플릿 생성|event_id.iaas.instance_template.create|기본 인프라 서비스|
 |인스턴스 템플릿 삭제|event_id.iaas.instance_template.delete|기본 인프라 서비스|
 |인스턴스 템플릿 변경|event_id.iaas.instance_template.update|기본 인프라 서비스|
@@ -27,6 +33,9 @@
 |인스턴스 인터페이스 삭제|event_id.iaas.interface.delete|기본 인프라 서비스|
 |인터넷 게이트웨이 생성|event_id.iaas.internet_gateway.create|기본 인프라 서비스|
 |인터넷 게이트웨이 삭제|event_id.iaas.internet_gateway.delete|기본 인프라 서비스|
+|NAT 게이트웨이 생성|event_id.iaas.nat_gateway.create|기본 인프라 서비스|
+|NAT 게이트웨이 삭제|event_id.iaas.nat_gateway.delete|기본 인프라 서비스|
+|NAT 게이트웨이 변경|event_id.iaas.nat_gateway.update|기본 인프라 서비스|
 |키페어 생성|event_id.iaas.keypair.create|기본 인프라 서비스|
 |키페어 삭제|event_id.iaas.keypair.delete|기본 인프라 서비스|
 |로드 밸런서 생성|event_id.iaas.loadbalancer.create|기본 인프라 서비스|
@@ -82,7 +91,10 @@
 |오토 스케일러 설정 변경|event_id.iaas.cluster.update_autoscale|기본 인프라 서비스|
 |노드 그룹 생성|event_id.iaas.nodegroup.create|기본 인프라 서비스|
 |노드 그룹 삭제|event_id.iaas.nodegroup.delete|기본 인프라 서비스|
+|워커 노드 시작|event_id.iaas.nodegroup.start_node|기본 인프라 서비스|
+|워커 노드 중지|event_id.iaas.nodegroup.stop_node|기본 인프라 서비스|
 |클러스터 업그레이드|event_id.iaas.nodegroup.upgrade|기본 인프라 서비스|
+|유저 스크립트 변경|event_id.iaas.nodegroup.update_userscript|기본 인프라 서비스|
 |이미지 복제|event_id.iaas.image.copy|기본 인프라 서비스|
 |이미지 빌드|event_id.iaas.image_template.build|기본 인프라 서비스|
 |이미지 빌드 취소|event_id.iaas.image_template.cancel_build|기본 인프라 서비스|
@@ -90,9 +102,15 @@
 |이미지 템플릿 삭제|event_id.iaas.image_template.delete|기본 인프라 서비스|
 |이미지 템플릿 수정|event_id.iaas.image_template.update|기본 인프라 서비스|
 |콘솔 스크린숏 생성|event_id.iaas.instance_action.screenshot|기본 인프라 서비스|
-|리전 간 피어링 생성|event_id.iaas.region_peering.create|기본 인프라 서비스|
-|리전 간 피어링 삭제|event_id.iaas.region_peering.delete|기본 인프라 서비스|
-|리전 간 피어링 변경|event_id.iaas.region_peering.update|기본 인프라 서비스|
+|리전 피어링 생성|event_id.iaas.region_peering.create|기본 인프라 서비스|
+|리전 피어링 삭제|event_id.iaas.region_peering.delete|기본 인프라 서비스|
+|리전 피어링 변경|event_id.iaas.region_peering.update|기본 인프라 서비스|
+|프로젝트 피어링 생성|event_id.iaas.project_peering.create|기본 인프라 서비스|
+|프로젝트 피어링 변경|event_id.iaas.project_peering.update|기본 인프라 서비스|
+|프로젝트 피어링 삭제|event_id.iaas.project_peering.delete|기본 인프라 서비스|
+|허용할 프로젝트 생성|event_id.iaas.peering_allow_project.create|기본 인프라 서비스|
+|허용할 프로젝트 변경|event_id.iaas.peering_allow_project.update|기본 인프라 서비스|
+|허용할 프로젝트 삭제|event_id.iaas.peering_allow_project.delete|기본 인프라 서비스|
 |S3 API 자격 증명 생성|event_id.iaas.s3credential.create|기본 인프라 서비스|
 |S3 API 자격 증명 삭제|event_id.iaas.s3credential.delete|기본 인프라 서비스|
 |서브넷 정적 라우트 생성|event_id.iaas.vpc_subnet_route.create|기본 인프라 서비스|
@@ -109,6 +127,10 @@
 |오브젝트 복사|event_id.object_storage.object.copy|Object Storage|
 |오브젝트 삭제|event_id.object_storage.object.delete|Object Storage|
 |오브젝트 메타데이터 등록/수정|event_id.object_storage.object.metadata.update|Object Storage|
+|컨테이너 복제 설정|event_id.object_storage.container.sync.enable|Object Storage|
+|컨테이너 복제 설정 변경|event_id.object_storage.container.sync.update|Object Storage|
+|컨테이너 복제 설정 해제|event_id.object_storage.container.sync.disable|Object Storage|
+|오브젝트 복제 업로드|event_id.object_storage.object.sync.upload|Object Storage|
 |DB 인스턴스 생성|event_id.rds_for_mysql.instance.create|RDS for MySQL, RDS for MariaDB|
 |DB 인스턴스 삭제|event_id.rds_for_mysql.instance.delete|RDS for MySQL, RDS for MariaDB|
 |DB 인스턴스 상세 설정 변경|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL, RDS for MariaDB|
@@ -274,6 +296,12 @@
 |마켓플레이스 신청 취소|event_id.market_place.apply-cancel|콘솔|
 |마켓플레이스 해지 신청|event_id.market_place.termination-apply|콘솔|
 |마켓플레이스 해지 신청 취소|event_id.market_place.termination-apply-cancel|콘솔|
+|조직 알림 수신 그룹 생성|event_id.org.alarm_group.create|콘솔|
+|조직 알림 수신 그룹 수정|event_id.org.alarm_group.update|콘솔|
+|조직 알림 수신 그룹 삭제|event_id.org.alarm_group.delete|콘솔|
+|프로젝트 알림 수신 그룹 생성|event_id.project.alarm_group.create|콘솔|
+|프로젝트 알림 수신 그룹 수정|event_id.event_id.project.alarm_group.update|콘솔|
+|프로젝트 알림 수신 그룹 삭제|event_id.event_id.project.alarm_group.delete|콘솔|
 |수동 백업|event_id.easycache.backup.manual|EasyCache|
 |백업 삭제|event_id.easycache.backup.delete|EasyCache|
 |공인 도메인 설정|event_id.easycache.public_domain.attach|EasyCache|
@@ -389,14 +417,14 @@
 |사용자 데이터 추가|event_id.certificate_manager.user_data.create|Certificate Manager|
 |사용자 데이터 삭제|event_id.certificate_manager.user_data.delete|Certificate Manager|
 |사용자 데이터 수정|event_id.certificate_manager.user_data.update|Certificate Manager|
-|Android SDK 다운로드|event_id.appguard.sdk_download_aos|null|
-|iOS SDK 다운로드|event_id.appguard.sdk_download_ios|null|
-|보고서 다운로드|event_id.appguard.report_download|null|
-|보호 작업|event_id.appguard.protection|null|
-|난독화 신청|event_id.appguard.obfuscation_request|null|
-|블랙리스트 추가|event_id.appguard.blacklist_add|null|
-|블랙리스트 차단 해제|event_id.appguard.blacklist_delete|null|
-|정책 수정|event_id.appguard.policy_update|null|
+|Android SDK 다운로드|event_id.appguard.sdk_download_aos|NHN AppGuard|
+|iOS SDK 다운로드|event_id.appguard.sdk_download_ios|NHN AppGuard|
+|보고서 다운로드|event_id.appguard.report_download|NHN AppGuard|
+|보호 작업|event_id.appguard.protection|NHN AppGuard|
+|난독화 신청|event_id.appguard.obfuscation_request|NHN AppGuard|
+|블랙리스트 추가|event_id.appguard.blacklist_add|NHN AppGuard|
+|블랙리스트 차단 해제|event_id.appguard.blacklist_delete|NHN AppGuard|
+|정책 수정|event_id.appguard.policy_update|NHN AppGuard|
 |로그 저장/다운로드 설정 삭제|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
 |로그 저장/다운로드 설정|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
 |API Key 생성|event_id.apigw.apikey.create|API Gateway|
