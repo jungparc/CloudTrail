@@ -298,12 +298,12 @@
 |マーケットプレイス申請キャンセル|event_id.market_place.apply-cancel|コンソール|
 |マーケットプレイス解約申請|event_id.market_place.termination-apply|コンソール|
 |マーケットプレイス解約申請ャンセル|event_id.market_place.termination-apply-cancel|コンソール|
-|조직 알림 수신 그룹 생성|event_id.org.alarm_group.create|コンソール|
-|조직 알림 수신 그룹 수정|event_id.org.alarm_group.update|コンソール|
-|조직 알림 수신 그룹 삭제|event_id.org.alarm_group.delete|コンソール|
-|프로젝트 알림 수신 그룹 생성|event_id.project.alarm_group.create|コンソール|
-|프로젝트 알림 수신 그룹 수정|event_id.project.alarm_group.update|コンソール|
-|프로젝트 알림 수신 그룹 삭제|event_id.project.alarm_group.delete|コンソール|
+|組織通知受信グループの作成|event_id.org.alarm_group.create|コンソール|
+|組織通知受信グループの修正|event_id.org.alarm_group.update|コンソール|
+|組織通知受信グループの削除|event_id.org.alarm_group.delete|コンソール|
+|プロジェクト通知受信グループの作成|event_id.project.alarm_group.create|コンソール|
+|プロジェクト通知受信グループの修正|event_id.project.alarm_group.update|コンソール|
+|プロジェクト通知受信グループの削除|event_id.project.alarm_group.delete|コンソール|
 |サービス作成|event_id.service_monitoring.creation_service|Service Monitoring|
 |サービス変更|event_id.service_monitoring.modification_service|Service Monitoring|
 |サービス削除|event_id.service_monitoring.delete_service|Service Monitoring|
@@ -781,17 +781,39 @@
 |Speech to Text変換リクエスト|event_id.speech.stt.convert|Speech to Text|
 |ログ保存/ダウンロード設定 削除|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
 |ログ保存/ダウンロード設定|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
+|リソースグループ削除|event_id.resource_watcher.resource_group.delete|Resource Watcher|
+|リソースタグ修正|event_id.resource_watcher.resource_tag.update|Resource Watcher|
+|通知の削除|event_id.resource_watcher.alarm.delete|Resource Watcher|
 |サービス利用申請|event_id.ai_word_suggestion.service_use_request.submit|Word Suggestion|
+|リソースグループ関係の削除|event_id.resource_watcher.resource_group_relation.delete|Resource Watcher|
 |플로우 메타 생성|event_id.dataflow.flow.meta.create|Dataflow|
-|웹셀 메일수신 비활성화|event_id.webshell_treat_detector.mail_send_deactivated|Webshell Threat Detector|
-|웹셀 메일수신 활성화|event_id.webshell_treat_detector.mail_send_activated|Webshell Threat Detector|
-|웹셀 프로젝트 활성화 |event_id.webshell_treat_detector.project_activated|Webshell Threat Detector|
-|웹셀 프로젝트 비활성화|event_id.webshell_treat_detector.project_deactivated|Webshell Threat Detector|
+|リソースタグ関係の修正|event_id.resource_watcher.resource_tag_relation.update|Resource Watcher|
+|リソースタグ関係の追加|event_id.resource_watcher.resource_tag_relation.create|Resource Watcher|
+|リソースグループ関係の修正|event_id.resource_watcher.resource_group_relation.update|Resource Watcher|
+|リソース削除|event_id.resource_watcher.resource.delete|Resource Watcher|
+|通知の修正|event_id.resource_watcher.alarm.update|Resource Watcher|
+|Webシェルメール受信の無効化|event_id.webshell_treat_detector.mail_send_deactivated|Webshell Threat Detector|
+|リソースタグ削除|event_id.resource_watcher.resource_tag.delete|Resource Watcher|
+|リソースグループ修正|event_id.resource_watcher.resource_group.update|Resource Watcher|
+|通知の作成|event_id.resource_watcher.alarm.create|Resource Watcher|
+|Webシェルメール受信の有効化|event_id.webshell_treat_detector.mail_send_activated|Webshell Threat Detector|
+|Webシェルプロジェクトの有効化|event_id.webshell_treat_detector.project_activated|Webshell Threat Detector|
+|リソースグループ関係の追加|event_id.resource_watcher.resource_group_relation.create|Resource Watcher|
+|リソースグループ作成|event_id.resource_watcher.resource_group.create|Resource Watcher|
+|Webシェルプロジェクトの無効化|event_id.webshell_treat_detector.project_deactivated|Webshell Threat Detector|
+|リソース修正|event_id.resource_watcher.resource.update|Resource Watcher|
+|通知の状態変更|event_id.resource_watcher.alarm.change_status|Resource Watcher|
+|リソース作成|event_id.resource_watcher.resource.create|Resource Watcher|
 |プロジェクトの有効化|event_id.dataquery.project_activated|DataQuery|
+|リソースタグ関係の削除|event_id.resource_watcher.resource_tag_relation.delete|Resource Watcher|
+|リソースタグ作成|event_id.resource_watcher.resource_tag.create|Resource Watcher|
 |サービス利用申請キャンセル|event_id.ai_word_suggestion.service_use_request.cancel|Word Suggestion|
 |플로우 메타 수정|event_id.dataflow.flow.meta.update|Dataflow|
+|検索ワード修正リクエスト|event_id.ai_word_suggestion.correct|Word Suggestion|
 |플로우 메타 삭제|event_id.dataflow.flow.meta.delete|Dataflow|
 |플로우 그래프 수정|event_id.dataflow.flow.graph.update|Dataflow|
+|辞書に単語を登録|event_id.ai_word_suggestion.dictionary.add|Word Suggestion|
+|辞書の単語を削除|event_id.ai_word_suggestion.dictionary.delete|Word Suggestion|
 |플로우 메타 복사|event_id.dataflow.flow.meta.copy|Dataflow|
 |플로우 시작|event_id.dataflow.flow.start|Dataflow|
 |플로우 중지|event_id.dataflow.flow.stop|Dataflow|
@@ -807,4 +829,6 @@
 |データソースの修正|event_id.dataquery.datasource_modified|DataQuery|
 |認証キーの発行|event_id.dataquery.auth_key_issued|DataQuery|
 |Trinoクラスタオン|event_id.dataquery.cluster_up|DataQuery|
+|Trinoクラスタオン|event_id.dataquery.cluster_on|DataQuery|
 |Trinoクラスタオフ|event_id.dataquery.cluster_down|DataQuery|
+|Trinoクラスタオフ|event_id.dataquery.cluster_off|DataQuery|
