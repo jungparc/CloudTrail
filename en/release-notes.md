@@ -1,11 +1,16 @@
 ## CloudTrail > Release Notes
 
+### 2022. 12. 13.
+#### More Events
+* Added events related to Resource Watcher.
+
 ### 2022. 11. 29.
 #### More Events
 * Added events related to Document Recognizer.
 * Added events related to Console.
 * Added events related to Default Infrastructure Service.
 * Added events related to Object Storage.
+* Added events related to Word Suggestion.
 
 ### 2022. 11. 22.
 #### More Events
