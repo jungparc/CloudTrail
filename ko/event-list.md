@@ -781,17 +781,39 @@
 |Speech to Text 변환 요청|event_id.speech.stt.convert|Speech to Text|
 |로그 저장/다운로드 설정 삭제|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
 |로그 저장/다운로드 설정|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
+|리소스 그룹 삭제|event_id.resource_watcher.resource_group.delete|Resource Watcher|
+|리소스 태그 수정|event_id.resource_watcher.resource_tag.update|Resource Watcher|
+|알림 삭제|event_id.resource_watcher.alarm.delete|Resource Watcher|
 |서비스 이용 신청|event_id.ai_word_suggestion.service_use_request.submit|Word Suggestion|
+|리소스 그룹 관계 삭제	|event_id.resource_watcher.resource_group_relation.delete|Resource Watcher|
 |플로우 메타 생성|event_id.dataflow.flow.meta.create|Dataflow|
-|웹셀 메일수신 비활성화|event_id.webshell_treat_detector.mail_send_deactivated|Webshell Threat Detector|
-|웹셀 메일수신 활성화|event_id.webshell_treat_detector.mail_send_activated|Webshell Threat Detector|
-|웹셀 프로젝트 활성화 |event_id.webshell_treat_detector.project_activated|Webshell Threat Detector|
-|웹셀 프로젝트 비활성화|event_id.webshell_treat_detector.project_deactivated|Webshell Threat Detector|
+|리소스 태그 관계 수정|event_id.resource_watcher.resource_tag_relation.update|Resource Watcher|
+|리소스 태그 관계 추가|event_id.resource_watcher.resource_tag_relation.create|Resource Watcher|
+|리소스 그룹 관계 수정|event_id.resource_watcher.resource_group_relation.update|Resource Watcher|
+|리소스 삭제|event_id.resource_watcher.resource.delete|Resource Watcher|
+|알림 수정|event_id.resource_watcher.alarm.update|Resource Watcher|
+|웹 셸 메일 수신 비활성화|event_id.webshell_treat_detector.mail_send_deactivated|Webshell Threat Detector|
+|리소스 태그 삭제|event_id.resource_watcher.resource_tag.delete|Resource Watcher|
+|리소스 그룹 수정|event_id.resource_watcher.resource_group.update|Resource Watcher|
+|알림 생성|event_id.resource_watcher.alarm.create|Resource Watcher|
+|웹 셸 메일 수신 활성화|event_id.webshell_treat_detector.mail_send_activated|Webshell Threat Detector|
+|웹 셸 프로젝트 활성화 |event_id.webshell_treat_detector.project_activated|Webshell Threat Detector|
+|리소스 그룹 관계 추가|event_id.resource_watcher.resource_group_relation.create|Resource Watcher|
+|리소스 그룹 생성|event_id.resource_watcher.resource_group.create|Resource Watcher|
+|웹 셸 프로젝트 비활성화|event_id.webshell_treat_detector.project_deactivated|Webshell Threat Detector|
+|리소스 수정|event_id.resource_watcher.resource.update|Resource Watcher|
+|알림 상태 변경|event_id.resource_watcher.alarm.change_status|Resource Watcher|
+|리소스 생성|event_id.resource_watcher.resource.create|Resource Watcher|
 |프로젝트 활성화|event_id.dataquery.project_activated|DataQuery|
+|리소스 태그 관계 삭제|event_id.resource_watcher.resource_tag_relation.delete|Resource Watcher|
+|리소스 태그 생성|event_id.resource_watcher.resource_tag.create|Resource Watcher|
 |서비스 이용 신청 취소|event_id.ai_word_suggestion.service_use_request.cancel|Word Suggestion|
 |플로우 메타 수정|event_id.dataflow.flow.meta.update|Dataflow|
+|검색어 교정 요청|event_id.ai_word_suggestion.correct|Word Suggestion|
 |플로우 메타 삭제|event_id.dataflow.flow.meta.delete|Dataflow|
 |플로우 그래프 수정|event_id.dataflow.flow.graph.update|Dataflow|
+|사전 단어 등록|event_id.ai_word_suggestion.dictionary.add|Word Suggestion|
+|사전 단어 삭제|event_id.ai_word_suggestion.dictionary.delete|Word Suggestion|
 |플로우 메타 복사|event_id.dataflow.flow.meta.copy|Dataflow|
 |플로우 시작|event_id.dataflow.flow.start|Dataflow|
 |플로우 중지|event_id.dataflow.flow.stop|Dataflow|
