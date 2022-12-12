@@ -298,12 +298,12 @@
 |Cancel Applying for Marketplace|event_id.market_place.apply-cancel|Console|
 |Apply for Marketplace Cancellation|event_id.market_place.termination-apply|Console|
 |Cancel Applying for Marketplace Cancellation|event_id.market_place.termination-apply-cancel|Console|
-|조직 알림 수신 그룹 생성|event_id.org.alarm_group.create|Console|
-|조직 알림 수신 그룹 수정|event_id.org.alarm_group.update|Console|
-|조직 알림 수신 그룹 삭제|event_id.org.alarm_group.delete|Console|
-|프로젝트 알림 수신 그룹 생성|event_id.project.alarm_group.create|Console|
-|프로젝트 알림 수신 그룹 수정|event_id.project.alarm_group.update|Console|
-|프로젝트 알림 수신 그룹 삭제|event_id.project.alarm_group.delete|Console|
+|Create Notification Receiver Group in Organization|event_id.org.alarm_group.create|Console|
+|Modify Notification Receiver Group in Organization|event_id.org.alarm_group.update|Console|
+|Delete Notification Receiver Group in Organization|event_id.org.alarm_group.delete|Console|
+|Create Notification Receiver Group in Project|event_id.project.alarm_group.create|Console|
+|Modify Notification Receiver Group in Project|event_id.project.alarm_group.update|Console|
+|Delete Notification Receiver Group in Project|event_id.project.alarm_group.delete|Console|
 |Create Service|event_id.service_monitoring.creation_service|Service Monitoring|
 |Change Service|event_id.service_monitoring.modification_service|Service Monitoring|
 |Delete Service|event_id.service_monitoring.delete_service|Service Monitoring|
@@ -781,17 +781,39 @@
 |Request Speech to Text conversion|event_id.speech.stt.convert|Speech to Text|
 |Delete log save/download setting|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
 |Log save/download setting|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
+|Delete Resource Group|event_id.resource_watcher.resource_group.delete|Resource Watcher|
+|Modify Resource Tag|event_id.resource_watcher.resource_tag.update|Resource Watcher|
+|Delete Notification|event_id.resource_watcher.alarm.delete|Resource Watcher|
 |Submit a service use request|event_id.ai_word_suggestion.service_use_request.submit|Word Suggestion|
+|Delete Resource Group Relation|event_id.resource_watcher.resource_group_relation.delete|Resource Watcher|
 |플로우 메타 생성|event_id.dataflow.flow.meta.create|Dataflow|
-|웹셀 메일수신 비활성화|event_id.webshell_treat_detector.mail_send_deactivated|Webshell Threat Detector|
-|웹셀 메일수신 활성화|event_id.webshell_treat_detector.mail_send_activated|Webshell Threat Detector|
-|웹셀 프로젝트 활성화 |event_id.webshell_treat_detector.project_activated|Webshell Threat Detector|
-|웹셀 프로젝트 비활성화|event_id.webshell_treat_detector.project_deactivated|Webshell Threat Detector|
+|Modify Resource Group Relation|event_id.resource_watcher.resource_tag_relation.update|Resource Watcher|
+|Add Resource Group Relation|event_id.resource_watcher.resource_tag_relation.create|Resource Watcher|
+|Modify Resource Group Relation|event_id.resource_watcher.resource_group_relation.update|Resource Watcher|
+|Delete Resource|event_id.resource_watcher.resource.delete|Resource Watcher|
+|Modify Notification|event_id.resource_watcher.alarm.update|Resource Watcher|
+|Deactivate Webshell Mail Reception|event_id.webshell_treat_detector.mail_send_deactivated|Webshell Threat Detector|
+|Delete Resource Tag|event_id.resource_watcher.resource_tag.delete|Resource Watcher|
+|Modify Resource Group|event_id.resource_watcher.resource_group.update|Resource Watcher|
+|Create Notification|event_id.resource_watcher.alarm.create|Resource Watcher|
+|Activate Webshell Mail Reception|event_id.webshell_treat_detector.mail_send_activated|Webshell Threat Detector|
+|Activate Webshell Project|event_id.webshell_treat_detector.project_activated|Webshell Threat Detector|
+|Create Resource Group Relation|event_id.resource_watcher.resource_group_relation.create|Resource Watcher|
+|Create Resource Group|event_id.resource_watcher.resource_group.create|Resource Watcher|
+|Deactivate Webshell Project|event_id.webshell_treat_detector.project_deactivated|Webshell Threat Detector|
+|Modify Resource|event_id.resource_watcher.resource.update|Resource Watcher|
+|Change Status of Notification|event_id.resource_watcher.alarm.change_status|Resource Watcher|
+|Create Resource|event_id.resource_watcher.resource.create|Resource Watcher|
 |Activate Project|event_id.dataquery.project_activated|DataQuery|
+|Delete Resource Group Relation|event_id.resource_watcher.resource_tag_relation.delete|Resource Watcher|
+|Create Resource Tag|event_id.resource_watcher.resource_tag.create|Resource Watcher|
 |Cancel a service use request|event_id.ai_word_suggestion.service_use_request.cancel|Word Suggestion|
 |플로우 메타 수정|event_id.dataflow.flow.meta.update|Dataflow|
+|Request Keyword Correction|event_id.ai_word_suggestion.correct|Word Suggestion|
 |플로우 메타 삭제|event_id.dataflow.flow.meta.delete|Dataflow|
 |플로우 그래프 수정|event_id.dataflow.flow.graph.update|Dataflow|
+|Register Dictionary Word|event_id.ai_word_suggestion.dictionary.add|Word Suggestion|
+|Delete Dictionary Word|event_id.ai_word_suggestion.dictionary.delete|Word Suggestion|
 |플로우 메타 복사|event_id.dataflow.flow.meta.copy|Dataflow|
 |플로우 시작|event_id.dataflow.flow.start|Dataflow|
 |플로우 중지|event_id.dataflow.flow.stop|Dataflow|
@@ -807,4 +829,6 @@
 |Modify Data Source|event_id.dataquery.datasource_modified|DataQuery|
 |Issue Authentication Key|event_id.dataquery.auth_key_issued|DataQuery|
 |클러스터 켜짐|event_id.dataquery.cluster_up|DataQuery|
+|Trino Cluster On|event_id.dataquery.cluster_on|DataQuery|
 |클러스터 꺼짐|event_id.dataquery.cluster_down|DataQuery|
+|Trino Cluster Off|event_id.dataquery.cluster_off|DataQuery|
