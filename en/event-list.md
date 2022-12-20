@@ -658,6 +658,7 @@
 |Blacklist addition|event_id.appguard.blacklist_add|NHN AppGuard|
 |Blacklist unblock|event_id.appguard.blacklist_delete|NHN AppGuard|
 |policy update|event_id.appguard.policy_update|NHN AppGuard|
+|Unity SDK download|event_id.appguard.sdk_download_unity|NHN AppGuard|
 |Create a URL|event_id.short_url.url_create|ShortURL|
 |Update a URL|event_id.short_url.url_update|ShortURL|
 |Enable a URL|event_id.short_url.url_enable|ShortURL|
@@ -786,7 +787,7 @@
 |Delete Notification|event_id.resource_watcher.alarm.delete|Resource Watcher|
 |Submit a service use request|event_id.ai_word_suggestion.service_use_request.submit|Word Suggestion|
 |Delete Resource Group Relation|event_id.resource_watcher.resource_group_relation.delete|Resource Watcher|
-|플로우 메타 생성|event_id.dataflow.flow.meta.create|Dataflow|
+|플로우 메타 생성|event_id.dataflow.flow.meta.create|DataFlow|
 |Modify Resource Group Relation|event_id.resource_watcher.resource_tag_relation.update|Resource Watcher|
 |Add Resource Group Relation|event_id.resource_watcher.resource_tag_relation.create|Resource Watcher|
 |Modify Resource Group Relation|event_id.resource_watcher.resource_group_relation.update|Resource Watcher|
@@ -797,33 +798,50 @@
 |Modify Resource Group|event_id.resource_watcher.resource_group.update|Resource Watcher|
 |Create Notification|event_id.resource_watcher.alarm.create|Resource Watcher|
 |Activate Webshell Mail Reception|event_id.webshell_treat_detector.mail_send_activated|Webshell Threat Detector|
-|Activate Webshell Project|event_id.webshell_treat_detector.project_activated|Webshell Threat Detector|
 |Create Resource Group Relation|event_id.resource_watcher.resource_group_relation.create|Resource Watcher|
 |Create Resource Group|event_id.resource_watcher.resource_group.create|Resource Watcher|
-|Deactivate Webshell Project|event_id.webshell_treat_detector.project_deactivated|Webshell Threat Detector|
 |Modify Resource|event_id.resource_watcher.resource.update|Resource Watcher|
 |Change Status of Notification|event_id.resource_watcher.alarm.change_status|Resource Watcher|
 |Create Resource|event_id.resource_watcher.resource.create|Resource Watcher|
+|앱 생성|event_id.GameTalk.app_create|GameTalk|
 |Activate Project|event_id.dataquery.project_activated|DataQuery|
 |Delete Resource Group Relation|event_id.resource_watcher.resource_tag_relation.delete|Resource Watcher|
 |Create Resource Tag|event_id.resource_watcher.resource_tag.create|Resource Watcher|
 |Cancel a service use request|event_id.ai_word_suggestion.service_use_request.cancel|Word Suggestion|
-|플로우 메타 수정|event_id.dataflow.flow.meta.update|Dataflow|
+|앱 설정 변경|event_id.GameTalk.app_attributes_modify|GameTalk|
+|플로우 메타 수정|event_id.dataflow.flow.meta.update|DataFlow|
 |Request Keyword Correction|event_id.ai_word_suggestion.correct|Word Suggestion|
-|플로우 메타 삭제|event_id.dataflow.flow.meta.delete|Dataflow|
-|플로우 그래프 수정|event_id.dataflow.flow.graph.update|Dataflow|
+|인증정보 생성|event_id.GameTalk.app_auth_create|GameTalk|
+|플로우 메타 삭제|event_id.dataflow.flow.meta.delete|DataFlow|
+|변역 설정 생성|event_id.GameTalk.app_translation_create|GameTalk|
+|플로우 그래프 수정|event_id.dataflow.flow.graph.update|DataFlow|
 |Register Dictionary Word|event_id.ai_word_suggestion.dictionary.add|Word Suggestion|
 |Delete Dictionary Word|event_id.ai_word_suggestion.dictionary.delete|Word Suggestion|
-|플로우 메타 복사|event_id.dataflow.flow.meta.copy|Dataflow|
-|플로우 시작|event_id.dataflow.flow.start|Dataflow|
-|플로우 중지|event_id.dataflow.flow.stop|Dataflow|
-|템플릿 메타 생성|event_id.dataflow.template.meta.create|Dataflow|
-|템플릿 메타 수정|event_id.dataflow.template.meta.update|Dataflow|
-|템플릿 메타 수정|event_id.dataflow.template.meta.delete|Dataflow|
+|플로우 메타 복사|event_id.dataflow.flow.meta.copy|DataFlow|
+|자동번역 설정 생성|event_id.GameTalk.app_auto_translation_create|GameTalk|
+|플로우 시작|event_id.dataflow.flow.start|DataFlow|
+|필터 설정 생성|event_id.GameTalk.app_filter_config_create|GameTalk|
+|플로우 중지|event_id.dataflow.flow.stop|DataFlow|
+|필터 정보 변경|event_id.GameTalk.app_filter_config_update|GameTalk|
+|템플릿 메타 생성|event_id.dataflow.template.meta.create|DataFlow|
+|필터 정보 삭제|event_id.GameTalk.app_filter_config_delete|GameTalk|
+|비속어 엑셀파일 업로드|event_id.GameTalk.app_filter_banned_word_excel_upload|GameTalk|
+|템플릿 메타 수정|event_id.dataflow.template.meta.update|DataFlow|
+|템플릿 메타 수정|event_id.dataflow.template.meta.delete|DataFlow|
+|비속어 엑셀파일 다운로드|event_id.GameTalk.app_filter_banned_word_excel_download|GameTalk|
 |Deactivate Project|event_id.dataquery.project_deactivated|DataQuery|
-|템플릿 그래프 수정|event_id.dataflow.template.graph.update|Dataflow|
-|템플릿 그래프 복사|event_id.dataflow.template.graph.copy|Dataflow|
-|스케쥴러 저장|event_id.dataflow.scheduler.meta.save|Dataflow|
+|채널 생성|event_id.GameTalk.channel_create|GameTalk|
+|템플릿 그래프 수정|event_id.dataflow.template.graph.update|DataFlow|
+|템플릿 그래프 복사|event_id.dataflow.template.graph.copy|DataFlow|
+|채널 정보 변경|event_id.GameTalk.channel_update|GameTalk|
+|채널 삭제|event_id.GameTalk.channel_delete|GameTalk|
+|스케쥴러 저장|event_id.dataflow.scheduler.meta.save|DataFlow|
+|공지 생성|event_id.GameTalk.notice_create|GameTalk|
+|공지 변경|event_id.GameTalk.notice_update|GameTalk|
+|채널 태그 생성|event_id.GameTalk.channel_tag_create|GameTalk|
+|채널 태그 변경|event_id.GameTalk.channel_tag_update|GameTalk|
+|채널 태그 삭제|event_id.GameTalk.channel_tag_delete|GameTalk|
+|유저 삭제|event_id.GameTalk.user_delete|GameTalk|
 |Request Data Source Update|event_id.dataquery.deploy_requested|DataQuery|
 |Add Data Source|event_id.dataquery.datasource_added|DataQuery|
 |Modify Data Source|event_id.dataquery.datasource_modified|DataQuery|
