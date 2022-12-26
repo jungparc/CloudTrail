@@ -1,5 +1,10 @@
 ## CloudTrail > Release Notes
 
+### 2022. 12. 27.
+#### More Events
+* Added events related to GameTalk.
+* Added events related to NHN AppGuard.
+
 ### 2022. 12. 13.
 #### More Events
 * Added events related to Resource Watcher.
@@ -25,7 +30,7 @@
 #### More Events
 * Added events related to Secure Key Manager.
 * Added events related to Default Infrastructure Service.
-* Added events related to Dataflow.
+* Added events related to DataFlow.
 
 ### 2022. 08. 23.
 #### More Events

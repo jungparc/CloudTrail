@@ -658,6 +658,7 @@
 |블랙리스트 추가|event_id.appguard.blacklist_add|NHN AppGuard|
 |블랙리스트 차단 해제|event_id.appguard.blacklist_delete|NHN AppGuard|
 |정책 수정|event_id.appguard.policy_update|NHN AppGuard|
+|Unity SDK 다운로드|event_id.appguard.sdk_download_unity|NHN AppGuard|
 |URL 생성|event_id.short_url.url_create|ShortURL|
 |URL 수정|event_id.short_url.url_update|ShortURL|
 |URL 활성화|event_id.short_url.url_enable|ShortURL|
@@ -781,49 +782,28 @@
 |Speech to Text 변환 요청|event_id.speech.stt.convert|Speech to Text|
 |로그 저장/다운로드 설정 삭제|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
 |로그 저장/다운로드 설정|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
-|리소스 그룹 삭제|event_id.resource_watcher.resource_group.delete|Resource Watcher|
-|리소스 태그 수정|event_id.resource_watcher.resource_tag.update|Resource Watcher|
-|알림 삭제|event_id.resource_watcher.alarm.delete|Resource Watcher|
-|서비스 이용 신청|event_id.ai_word_suggestion.service_use_request.submit|Word Suggestion|
-|리소스 그룹 관계 삭제	|event_id.resource_watcher.resource_group_relation.delete|Resource Watcher|
-|플로우 메타 생성|event_id.dataflow.flow.meta.create|Dataflow|
-|리소스 태그 관계 수정|event_id.resource_watcher.resource_tag_relation.update|Resource Watcher|
-|리소스 태그 관계 추가|event_id.resource_watcher.resource_tag_relation.create|Resource Watcher|
-|리소스 그룹 관계 수정|event_id.resource_watcher.resource_group_relation.update|Resource Watcher|
-|리소스 삭제|event_id.resource_watcher.resource.delete|Resource Watcher|
-|알림 수정|event_id.resource_watcher.alarm.update|Resource Watcher|
 |웹 셸 메일 수신 비활성화|event_id.webshell_treat_detector.mail_send_deactivated|Webshell Threat Detector|
-|리소스 태그 삭제|event_id.resource_watcher.resource_tag.delete|Resource Watcher|
-|리소스 그룹 수정|event_id.resource_watcher.resource_group.update|Resource Watcher|
-|알림 생성|event_id.resource_watcher.alarm.create|Resource Watcher|
 |웹 셸 메일 수신 활성화|event_id.webshell_treat_detector.mail_send_activated|Webshell Threat Detector|
-|웹 셸 프로젝트 활성화 |event_id.webshell_treat_detector.project_activated|Webshell Threat Detector|
-|리소스 그룹 관계 추가|event_id.resource_watcher.resource_group_relation.create|Resource Watcher|
-|리소스 그룹 생성|event_id.resource_watcher.resource_group.create|Resource Watcher|
-|웹 셸 프로젝트 비활성화|event_id.webshell_treat_detector.project_deactivated|Webshell Threat Detector|
-|리소스 수정|event_id.resource_watcher.resource.update|Resource Watcher|
-|알림 상태 변경|event_id.resource_watcher.alarm.change_status|Resource Watcher|
-|리소스 생성|event_id.resource_watcher.resource.create|Resource Watcher|
-|프로젝트 활성화|event_id.dataquery.project_activated|DataQuery|
-|리소스 태그 관계 삭제|event_id.resource_watcher.resource_tag_relation.delete|Resource Watcher|
-|리소스 태그 생성|event_id.resource_watcher.resource_tag.create|Resource Watcher|
+|서비스 이용 신청|event_id.ai_word_suggestion.service_use_request.submit|Word Suggestion|
 |서비스 이용 신청 취소|event_id.ai_word_suggestion.service_use_request.cancel|Word Suggestion|
-|플로우 메타 수정|event_id.dataflow.flow.meta.update|Dataflow|
 |검색어 교정 요청|event_id.ai_word_suggestion.correct|Word Suggestion|
-|플로우 메타 삭제|event_id.dataflow.flow.meta.delete|Dataflow|
-|플로우 그래프 수정|event_id.dataflow.flow.graph.update|Dataflow|
 |사전 단어 등록|event_id.ai_word_suggestion.dictionary.add|Word Suggestion|
 |사전 단어 삭제|event_id.ai_word_suggestion.dictionary.delete|Word Suggestion|
-|플로우 메타 복사|event_id.dataflow.flow.meta.copy|Dataflow|
-|플로우 시작|event_id.dataflow.flow.start|Dataflow|
-|플로우 중지|event_id.dataflow.flow.stop|Dataflow|
-|템플릿 메타 생성|event_id.dataflow.template.meta.create|Dataflow|
-|템플릿 메타 수정|event_id.dataflow.template.meta.update|Dataflow|
-|템플릿 메타 삭제|event_id.dataflow.template.meta.delete|Dataflow|
+|플로우 메타 생성|event_id.dataflow.flow.meta.create|DataFlow|
+|플로우 메타 수정|event_id.dataflow.flow.meta.update|DataFlow|
+|플로우 메타 삭제|event_id.dataflow.flow.meta.delete|DataFlow|
+|플로우 그래프 수정|event_id.dataflow.flow.graph.update|DataFlow|
+|플로우 메타 복사|event_id.dataflow.flow.meta.copy|DataFlow|
+|플로우 시작|event_id.dataflow.flow.start|DataFlow|
+|플로우 중지|event_id.dataflow.flow.stop|DataFlow|
+|템플릿 메타 생성|event_id.dataflow.template.meta.create|DataFlow|
+|템플릿 메타 수정|event_id.dataflow.template.meta.update|DataFlow|
+|템플릿 메타 삭제|event_id.dataflow.template.meta.delete|DataFlow|
+|템플릿 그래프 수정|event_id.dataflow.template.graph.update|DataFlow|
+|템플릿 그래프 복사|event_id.dataflow.template.graph.copy|DataFlow|
+|스케쥴러 저장|event_id.dataflow.scheduler.meta.save|DataFlow|
+|프로젝트 활성화|event_id.dataquery.project_activated|DataQuery|
 |프로젝트 비활성화|event_id.dataquery.project_deactivated|DataQuery|
-|템플릿 그래프 수정|event_id.dataflow.template.graph.update|Dataflow|
-|템플릿 그래프 복사|event_id.dataflow.template.graph.copy|Dataflow|
-|스케쥴러 저장|event_id.dataflow.scheduler.meta.save|Dataflow|
 |데이터 소스 업데이트 요청|event_id.dataquery.deploy_requested|DataQuery|
 |데이터 소스 추가|event_id.dataquery.datasource_added|DataQuery|
 |데이터 소스 수정|event_id.dataquery.datasource_modified|DataQuery|
@@ -832,3 +812,41 @@
 |Trino 클러스터 켜짐|event_id.dataquery.cluster_on|DataQuery|
 |Trino 클러스터 꺼짐|event_id.dataquery.cluster_down|DataQuery|
 |Trino 클러스터 꺼짐|event_id.dataquery.cluster_off|DataQuery|
+|리소스 그룹 삭제|event_id.resource_watcher.resource_group.delete|Resource Watcher|
+|리소스 태그 수정|event_id.resource_watcher.resource_tag.update|Resource Watcher|
+|알림 삭제|event_id.resource_watcher.alarm.delete|Resource Watcher|
+|리소스 그룹 관계 삭제	|event_id.resource_watcher.resource_group_relation.delete|Resource Watcher|
+|리소스 태그 관계 수정|event_id.resource_watcher.resource_tag_relation.update|Resource Watcher|
+|리소스 태그 관계 추가|event_id.resource_watcher.resource_tag_relation.create|Resource Watcher|
+|리소스 그룹 관계 수정|event_id.resource_watcher.resource_group_relation.update|Resource Watcher|
+|리소스 삭제|event_id.resource_watcher.resource.delete|Resource Watcher|
+|알림 수정|event_id.resource_watcher.alarm.update|Resource Watcher|
+|리소스 태그 삭제|event_id.resource_watcher.resource_tag.delete|Resource Watcher|
+|리소스 그룹 수정|event_id.resource_watcher.resource_group.update|Resource Watcher|
+|알림 생성|event_id.resource_watcher.alarm.create|Resource Watcher|
+|리소스 그룹 관계 추가|event_id.resource_watcher.resource_group_relation.create|Resource Watcher|
+|리소스 그룹 생성|event_id.resource_watcher.resource_group.create|Resource Watcher|
+|리소스 수정|event_id.resource_watcher.resource.update|Resource Watcher|
+|알림 상태 변경|event_id.resource_watcher.alarm.change_status|Resource Watcher|
+|리소스 생성|event_id.resource_watcher.resource.create|Resource Watcher|
+|리소스 태그 관계 삭제|event_id.resource_watcher.resource_tag_relation.delete|Resource Watcher|
+|리소스 태그 생성|event_id.resource_watcher.resource_tag.create|Resource Watcher|
+|앱 생성|event_id.GameTalk.app_create|GameTalk|
+|앱 설정 변경|event_id.GameTalk.app_attributes_modify|GameTalk|
+|인증정보 생성|event_id.GameTalk.app_auth_create|GameTalk|
+|변역 설정 생성|event_id.GameTalk.app_translation_create|GameTalk|
+|자동번역 설정 생성|event_id.GameTalk.app_auto_translation_create|GameTalk|
+|필터 설정 생성|event_id.GameTalk.app_filter_config_create|GameTalk|
+|필터 정보 변경|event_id.GameTalk.app_filter_config_update|GameTalk|
+|필터 정보 삭제|event_id.GameTalk.app_filter_config_delete|GameTalk|
+|비속어 엑셀파일 업로드|event_id.GameTalk.app_filter_banned_word_excel_upload|GameTalk|
+|비속어 엑셀파일 다운로드|event_id.GameTalk.app_filter_banned_word_excel_download|GameTalk|
+|채널 생성|event_id.GameTalk.channel_create|GameTalk|
+|채널 정보 변경|event_id.GameTalk.channel_update|GameTalk|
+|채널 삭제|event_id.GameTalk.channel_delete|GameTalk|
+|공지 생성|event_id.GameTalk.notice_create|GameTalk|
+|공지 변경|event_id.GameTalk.notice_update|GameTalk|
+|채널 태그 생성|event_id.GameTalk.channel_tag_create|GameTalk|
+|채널 태그 변경|event_id.GameTalk.channel_tag_update|GameTalk|
+|채널 태그 삭제|event_id.GameTalk.channel_tag_delete|GameTalk|
+|유저 삭제|event_id.GameTalk.user_delete|GameTalk|
