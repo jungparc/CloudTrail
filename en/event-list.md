@@ -4,6 +4,7 @@
 | --- | --- | --- |
 |Create Schedule for Scaling Group|event_id.iaas.autoscale_schedule.create|Default Infrastructure Service|
 |Delete Schedule for Scaling Group|event_id.iaas.autoscale_schedule.delete|Default Infrastructure Service|
+|Change Scheduled Task OWNER Of Scaling Group|event_id.iaas.autoscale_schedule.handover|Default Infrastructure Service|
 |Associate Instance Floating IP|event_id.iaas.floating_ip.attach|Default Infrastructure Service|
 |Create Floating IP|event_id.iaas.floating_ip.create|Default Infrastructure Service|
 |Delete Floating IP|event_id.iaas.floating_ip.delete|Default Infrastructure Service|
@@ -29,6 +30,7 @@
 |Create Instance Template|event_id.iaas.instance_template.create|Default Infrastructure Service|
 |Delete Instance Template|event_id.iaas.instance_template.delete|Default Infrastructure Service|
 |Change Instance Template|event_id.iaas.instance_template.update|Default Infrastructure Service|
+|Change Instance Template OWNER|event_id.iaas.instance_template.handover|Default Infrastructure Service|
 |Create Instance Interface|event_id.iaas.interface.create|Default Infrastructure Service|
 |Delete Instance Interface|event_id.iaas.interface.delete|Default Infrastructure Service|
 |Create Internet Gateway|event_id.iaas.internet_gateway.create|Default Infrastructure Service|
@@ -66,6 +68,7 @@
 |Create Scaling Group|event_id.iaas.scaling_group.create|Default Infrastructure Service|
 |Delete Scaling Group|event_id.iaas.scaling_group.delete|Default Infrastructure Service|
 |Change Scaling Group|event_id.iaas.scaling_group.update|Default Infrastructure Service|
+|Change Scaling Group OWNER|event_id.iaas.scaling_group.handover|Default Infrastructure Service|
 |Create Security Group|event_id.iaas.security_group.create|Default Infrastructure Service|
 |Delete Security Group|event_id.iaas.security_group.delete|Default Infrastructure Service|
 |Change Security Group|event_id.iaas.security_group.update|Default Infrastructure Service|
@@ -88,6 +91,7 @@
 |Change VPC Subnet|event_id.iaas.vpc_subnet.update|Default Infrastructure Service|
 |Create Cluster|event_id.iaas.cluster.create|Default Infrastructure Service|
 |Delete Cluster|event_id.iaas.cluster.delete|Default Infrastructure Service|
+|Change Cluster OWNER|event_id.iaas.cluster.handover|Default Infrastructure Service|
 |Change Autoscaler Settings|event_id.iaas.cluster.update_autoscale|Default Infrastructure Service|
 |Create Node Group|event_id.iaas.nodegroup.create|Default Infrastructure Service|
 |Delete Node Group|event_id.iaas.nodegroup.delete|Default Infrastructure Service|
@@ -789,6 +793,7 @@
 |Request Keyword Correction|event_id.ai_word_suggestion.correct|Word Suggestion|
 |Register Dictionary Word|event_id.ai_word_suggestion.dictionary.add|Word Suggestion|
 |Delete Dictionary Word|event_id.ai_word_suggestion.dictionary.delete|Word Suggestion|
+|Update Dictionary Word|event_id.ai_word_suggestion.dictionary.update|Word Suggestion|
 |플로우 메타 생성|event_id.dataflow.flow.meta.create|DataFlow|
 |플로우 메타 수정|event_id.dataflow.flow.meta.update|DataFlow|
 |플로우 메타 삭제|event_id.dataflow.flow.meta.delete|DataFlow|
@@ -812,6 +817,7 @@
 |Trino Cluster On|event_id.dataquery.cluster_on|DataQuery|
 |클러스터 꺼짐|event_id.dataquery.cluster_down|DataQuery|
 |Trino Cluster Off|event_id.dataquery.cluster_off|DataQuery|
+|Stop Resource Usage|event_id.dataquery.resource.pause|DataQuery|
 |Delete Resource Group|event_id.resource_watcher.resource_group.delete|Resource Watcher|
 |Modify Resource Tag|event_id.resource_watcher.resource_tag.update|Resource Watcher|
 |Delete Notification|event_id.resource_watcher.alarm.delete|Resource Watcher|
@@ -850,3 +856,22 @@
 |채널 태그 변경|event_id.GameTalk.channel_tag_update|GameTalk|
 |채널 태그 삭제|event_id.GameTalk.channel_tag_delete|GameTalk|
 |유저 삭제|event_id.GameTalk.user_delete|GameTalk|
+|유효성 검사 실패 다운로드|event_id.file_crafter.downloadValidationFailResultFile|File-Crafter|
+|Export 요청|event_id.file_crafter.requestExporting|File-Crafter|
+|Export 결과 파일 다운로드 URL 리다이렉트|event_id.file_crafter.redirectExportFileDownloadUrl|File-Crafter|
+|Export 결과 파일 다운로드 URL 조회|event_id.file_crafter.getExportFileDownloadUrl|File-Crafter|
+|Export 요청 카운트|event_id.file_crafter.countExportingRequest|File-Crafter|
+|Export 요청 조회|event_id.file_crafter.getExportFileRequest|File-Crafter|
+|Import 요청 목록 조회|event_id.file_crafter.getImportingRequests|File-Crafter|
+|Import 시작 요청|event_id.file_crafter.requestToStartImporting|File-Crafter|
+|상품 비활성화|event_id.file_crafter.disableProduct|File-Crafter|
+|Export 요청 목록 조회|event_id.file_crafter.getExportingRequests|File-Crafter|
+|스토리지 업로드 재수행 요청|event_id.file_crafter.requestToRetryStorageUploading|File-Crafter|
+|유효성 검사 실패 다운로드 URL 조회|event_id.file_crafter.getValidationFailResultFileDownloadUrl|File-Crafter|
+|Import 요청 카운트|event_id.file_crafter.countImportingRequest|File-Crafter|
+|Import 요청 조회|event_id.file_crafter.getImportingRequest|File-Crafter|
+|유효성 검사 성공 다운로드 URL 조회|event_id.file_crafter.getValidationSuccessResultFileDownloadUrl|File-Crafter|
+|상품 활성화|event_id.file_crafter.enableProduct|File-Crafter|
+|AWS 외부 업로드 유효성 검사|event_id.file_crafter.validateAwsCredentials|File-Crafter|
+|Import 요청|event_id.file_crafter.requestImporting|File-Crafter|
+|유효성 검사 성공 다운로드|event_id.file_crafter.downloadValidationSuccessResultFile|File-Crafter|
