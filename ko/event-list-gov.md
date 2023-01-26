@@ -4,6 +4,7 @@
 | --- | --- | --- |
 |스케일링 그룹 예약 작업 생성|event_id.iaas.autoscale_schedule.create|기본 인프라 서비스|
 |스케일링 그룹 예약 작업 삭제|event_id.iaas.autoscale_schedule.delete|기본 인프라 서비스|
+|스케일링 그룹 예약 작업 OWNER 변경|event_id.iaas.autoscale_schedule.handover|기본 인프라 서비스|
 |인스턴스 플로팅 IP 연결|event_id.iaas.floating_ip.attach|기본 인프라 서비스|
 |플로팅 IP 생성|event_id.iaas.floating_ip.create|기본 인프라 서비스|
 |플로팅 IP 삭제|event_id.iaas.floating_ip.delete|기본 인프라 서비스|
@@ -29,6 +30,7 @@
 |인스턴스 템플릿 생성|event_id.iaas.instance_template.create|기본 인프라 서비스|
 |인스턴스 템플릿 삭제|event_id.iaas.instance_template.delete|기본 인프라 서비스|
 |인스턴스 템플릿 변경|event_id.iaas.instance_template.update|기본 인프라 서비스|
+|인스턴스 템플릿 OWNER 변경|event_id.iaas.instance_template.handover|기본 인프라 서비스|
 |인스턴스 인터페이스 추가|event_id.iaas.interface.create|기본 인프라 서비스|
 |인스턴스 인터페이스 삭제|event_id.iaas.interface.delete|기본 인프라 서비스|
 |인터넷 게이트웨이 생성|event_id.iaas.internet_gateway.create|기본 인프라 서비스|
@@ -66,6 +68,7 @@
 |스케일링 그룹 생성|event_id.iaas.scaling_group.create|기본 인프라 서비스|
 |스케일링 그룹 삭제|event_id.iaas.scaling_group.delete|기본 인프라 서비스|
 |스케일링 그룹 변경|event_id.iaas.scaling_group.update|기본 인프라 서비스|
+|스케일링 그룹 OWNER 변경|event_id.iaas.scaling_group.handover|기본 인프라 서비스|
 |보안 그룹 생성|event_id.iaas.security_group.create|기본 인프라 서비스|
 |보안 그룹 삭제|event_id.iaas.security_group.delete|기본 인프라 서비스|
 |보안 그룹 변경|event_id.iaas.security_group.update|기본 인프라 서비스|
@@ -88,6 +91,7 @@
 |VPC 서브넷 변경|event_id.iaas.vpc_subnet.update|기본 인프라 서비스|
 |클러스터 생성|event_id.iaas.cluster.create|기본 인프라 서비스|
 |클러스터 삭제|event_id.iaas.cluster.delete|기본 인프라 서비스|
+|클러스터 OWNER 변경|event_id.iaas.cluster.handover|기본 인프라 서비스|
 |오토 스케일러 설정 변경|event_id.iaas.cluster.update_autoscale|기본 인프라 서비스|
 |노드 그룹 생성|event_id.iaas.nodegroup.create|기본 인프라 서비스|
 |노드 그룹 삭제|event_id.iaas.nodegroup.delete|기본 인프라 서비스|
@@ -425,8 +429,6 @@
 |블랙리스트 추가|event_id.appguard.blacklist_add|NHN AppGuard|
 |블랙리스트 차단 해제|event_id.appguard.blacklist_delete|NHN AppGuard|
 |정책 수정|event_id.appguard.policy_update|NHN AppGuard|
-|로그 저장/다운로드 설정 삭제|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
-|로그 저장/다운로드 설정|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
 |API Key 생성|event_id.apigw.apikey.create|API Gateway|
 |API Key 수정|event_id.apigw.apikey.update|API Gateway|
 |API Key 삭제|event_id.apigw.apikey.delete|API Gateway|
@@ -464,3 +466,5 @@
 |리소스 응답 생성|event_id.apigw.resource.create_response|API Gateway|
 |스테이지에 도메인 별칭 연결|event_id.apigw.stage.connect_alias_domain|API Gateway|
 |스테이지에 도메인 별칭 연결 해제|event_id.apigw.stage.disconnect_alias_domain|API Gateway|
+|로그 저장/다운로드 설정 삭제|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
+|로그 저장/다운로드 설정|event_id.cloud_trail.set_log_save_download_config|CloudTrail|

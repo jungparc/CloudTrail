@@ -4,6 +4,7 @@
 | --- | --- | --- |
 |스케일링 그룹 예약 작업 생성|event_id.iaas.autoscale_schedule.create|기본 인프라 서비스|
 |스케일링 그룹 예약 작업 삭제|event_id.iaas.autoscale_schedule.delete|기본 인프라 서비스|
+|스케일링 그룹 예약 작업 OWNER 변경|event_id.iaas.autoscale_schedule.handover|기본 인프라 서비스|
 |인스턴스 플로팅 IP 연결|event_id.iaas.floating_ip.attach|기본 인프라 서비스|
 |플로팅 IP 생성|event_id.iaas.floating_ip.create|기본 인프라 서비스|
 |플로팅 IP 삭제|event_id.iaas.floating_ip.delete|기본 인프라 서비스|
@@ -29,6 +30,7 @@
 |인스턴스 템플릿 생성|event_id.iaas.instance_template.create|기본 인프라 서비스|
 |인스턴스 템플릿 삭제|event_id.iaas.instance_template.delete|기본 인프라 서비스|
 |인스턴스 템플릿 변경|event_id.iaas.instance_template.update|기본 인프라 서비스|
+|인스턴스 템플릿 OWNER 변경|event_id.iaas.instance_template.handover|기본 인프라 서비스|
 |인스턴스 인터페이스 추가|event_id.iaas.interface.create|기본 인프라 서비스|
 |인스턴스 인터페이스 삭제|event_id.iaas.interface.delete|기본 인프라 서비스|
 |인터넷 게이트웨이 생성|event_id.iaas.internet_gateway.create|기본 인프라 서비스|
@@ -66,6 +68,7 @@
 |스케일링 그룹 생성|event_id.iaas.scaling_group.create|기본 인프라 서비스|
 |스케일링 그룹 삭제|event_id.iaas.scaling_group.delete|기본 인프라 서비스|
 |스케일링 그룹 변경|event_id.iaas.scaling_group.update|기본 인프라 서비스|
+|스케일링 그룹 OWNER 변경|event_id.iaas.scaling_group.handover|기본 인프라 서비스|
 |보안 그룹 생성|event_id.iaas.security_group.create|기본 인프라 서비스|
 |보안 그룹 삭제|event_id.iaas.security_group.delete|기본 인프라 서비스|
 |보안 그룹 변경|event_id.iaas.security_group.update|기본 인프라 서비스|
@@ -88,6 +91,7 @@
 |VPC 서브넷 변경|event_id.iaas.vpc_subnet.update|기본 인프라 서비스|
 |클러스터 생성|event_id.iaas.cluster.create|기본 인프라 서비스|
 |클러스터 삭제|event_id.iaas.cluster.delete|기본 인프라 서비스|
+|클러스터 OWNER 변경|event_id.iaas.cluster.handover|기본 인프라 서비스|
 |오토 스케일러 설정 변경|event_id.iaas.cluster.update_autoscale|기본 인프라 서비스|
 |노드 그룹 생성|event_id.iaas.nodegroup.create|기본 인프라 서비스|
 |노드 그룹 삭제|event_id.iaas.nodegroup.delete|기본 인프라 서비스|
@@ -789,6 +793,7 @@
 |검색어 교정 요청|event_id.ai_word_suggestion.correct|Word Suggestion|
 |사전 단어 등록|event_id.ai_word_suggestion.dictionary.add|Word Suggestion|
 |사전 단어 삭제|event_id.ai_word_suggestion.dictionary.delete|Word Suggestion|
+|사전 단어 수정|event_id.ai_word_suggestion.dictionary.update|Word Suggestion|
 |플로우 메타 생성|event_id.dataflow.flow.meta.create|DataFlow|
 |플로우 메타 수정|event_id.dataflow.flow.meta.update|DataFlow|
 |플로우 메타 삭제|event_id.dataflow.flow.meta.delete|DataFlow|
@@ -812,6 +817,7 @@
 |Trino 클러스터 켜짐|event_id.dataquery.cluster_on|DataQuery|
 |Trino 클러스터 꺼짐|event_id.dataquery.cluster_down|DataQuery|
 |Trino 클러스터 꺼짐|event_id.dataquery.cluster_off|DataQuery|
+|리소스 이용 정지|event_id.dataquery.resource.pause|DataQuery|
 |리소스 그룹 삭제|event_id.resource_watcher.resource_group.delete|Resource Watcher|
 |리소스 태그 수정|event_id.resource_watcher.resource_tag.update|Resource Watcher|
 |알림 삭제|event_id.resource_watcher.alarm.delete|Resource Watcher|
@@ -850,3 +856,22 @@
 |채널 태그 변경|event_id.GameTalk.channel_tag_update|GameTalk|
 |채널 태그 삭제|event_id.GameTalk.channel_tag_delete|GameTalk|
 |유저 삭제|event_id.GameTalk.user_delete|GameTalk|
+|유효성 검사 실패 다운로드|event_id.file_crafter.downloadValidationFailResultFile|File-Crafter|
+|Export 요청|event_id.file_crafter.requestExporting|File-Crafter|
+|Export 결과 파일 다운로드 URL 리다이렉트|event_id.file_crafter.redirectExportFileDownloadUrl|File-Crafter|
+|Export 결과 파일 다운로드 URL 조회|event_id.file_crafter.getExportFileDownloadUrl|File-Crafter|
+|Export 요청 카운트|event_id.file_crafter.countExportingRequest|File-Crafter|
+|Export 요청 조회|event_id.file_crafter.getExportFileRequest|File-Crafter|
+|Import 요청 목록 조회|event_id.file_crafter.getImportingRequests|File-Crafter|
+|Import 시작 요청|event_id.file_crafter.requestToStartImporting|File-Crafter|
+|상품 비활성화|event_id.file_crafter.disableProduct|File-Crafter|
+|Export 요청 목록 조회|event_id.file_crafter.getExportingRequests|File-Crafter|
+|스토리지 업로드 재수행 요청|event_id.file_crafter.requestToRetryStorageUploading|File-Crafter|
+|유효성 검사 실패 다운로드 URL 조회|event_id.file_crafter.getValidationFailResultFileDownloadUrl|File-Crafter|
+|Import 요청 카운트|event_id.file_crafter.countImportingRequest|File-Crafter|
+|Import 요청 조회|event_id.file_crafter.getImportingRequest|File-Crafter|
+|유효성 검사 성공 다운로드 URL 조회|event_id.file_crafter.getValidationSuccessResultFileDownloadUrl|File-Crafter|
+|상품 활성화|event_id.file_crafter.enableProduct|File-Crafter|
+|AWS 외부 업로드 유효성 검사|event_id.file_crafter.validateAwsCredentials|File-Crafter|
+|Import 요청|event_id.file_crafter.requestImporting|File-Crafter|
+|유효성 검사 성공 다운로드|event_id.file_crafter.downloadValidationSuccessResultFile|File-Crafter|
