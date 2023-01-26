@@ -178,7 +178,7 @@
 |키 저장소 삭제|event_id.skm.keystore.delete|Secure Key Manager|
 |키 저장소 정보 변경|event_id.skm.keystore.update|Secure Key Manager|
 |기밀 데이터 생성|event_id.skm.secret.create|Secure Key Manager|
-|기밀 데이터 즉시 삭제|event_id.skm.secret.delete|Secure Key Manager|
+|기밀 데이터 삭제|event_id.skm.secret.delete|Secure Key Manager|
 |기밀 데이터 삭제 요청|event_id.skm.secret.delete_request|Secure Key Manager|
 |기밀 데이터 삭제 요청 취소|event_id.skm.secret.delete_request_cancel|Secure Key Manager|
 |기밀 데이터 정보 변경|event_id.skm.secret.update|Secure Key Manager|
@@ -221,9 +221,6 @@
 |인증서 정보 변경|event_id.skm.cert.update|Secure Key Manager|
 |인증서 즉시 삭제|event_id.skm.cert.delete|Secure Key Manager|
 |인증서 다운로드|event_id.skm.cert.download|Secure Key Manager|
-|승인프로세스 승인|event_id.skm.approval.approve|Secure Key Manager|
-|승인프로세스 거절|event_id.skm.approval.deny|Secure Key Manager|
-|승인프로세스 승인 요청|event_id.skm.approval.approve_request|Secure Key Manager|
 |아티팩트 생성|event_id.deploy.artifact_create|Deploy|
 |아티팩트 수정|event_id.deploy.artifact_update|Deploy|
 |아티팩트 삭제|event_id.deploy.artifact_delete|Deploy|
@@ -268,6 +265,7 @@
 |조직 서비스 비활성화|event_id.org.product.disable|콘솔|
 |조직 서비스 활성화|event_id.org.product.enable|콘솔|
 |조직 정보 수정|event_id.org.update|콘솔|
+|조직 접속|event_id.org.selected|콘솔|
 |IAM 조직 접속|event_id.iam.org.selected|콘솔|
 |프로젝트 생성|event_id.project.create|콘솔|
 |프로젝트 삭제|event_id.project.delete|콘솔|
@@ -306,23 +304,8 @@
 |조직 알림 수신 그룹 수정|event_id.org.alarm_group.update|콘솔|
 |조직 알림 수신 그룹 삭제|event_id.org.alarm_group.delete|콘솔|
 |프로젝트 알림 수신 그룹 생성|event_id.project.alarm_group.create|콘솔|
-|프로젝트 알림 수신 그룹 수정|event_id.project.alarm_group.update|콘솔|
-|프로젝트 알림 수신 그룹 삭제|event_id.project.alarm_group.delete|콘솔|
-|서비스 생성|event_id.service_monitoring.creation_service|Service Monitoring|
-|서비스 변경|event_id.service_monitoring.modification_service|Service Monitoring|
-|서비스 삭제|event_id.service_monitoring.delete_service|Service Monitoring|
-|서비스 그룹 변경|event_id.service_monitoring.modification_service_group|Service Monitoring|
-|시나리오 추가|event_id.service_monitoring.creation_scenario|Service Monitoring|
-|시나리오 변경|event_id.service_monitoring.modification_scenario|Service Monitoring|
-|시나리오 삭제|event_id.service_monitoring.delete_scenario|Service Monitoring|
-|시나리오 복사|event_id.service_monitoring.copy_scenario|Service Monitoring|
-|시나리오 테스트|event_id.service_monitoring.simulate_scenario|Service Monitoring|
-|PM 등록|event_id.service_monitoring.registration_prevention_maintenance|Service Monitoring|
-|PM 변경|event_id.service_monitoring.modification_prevention_maintenance|Service Monitoring|
-|PM 삭제|event_id.service_monitoring.delete_prevention_maintenance|Service Monitoring|
-|다음 그룹으로 장애 전파|event_id.service_monitoring.send_next_transmission|Service Monitoring|
-|다른 서비스로 장애 이관|event_id.service_monitoring.send_transfer_transmission|Service Monitoring|
-|장애 전파 중지|event_id.service_monitoring.send_stop_transmission|Service Monitoring|
+|프로젝트 알림 수신 그룹 수정|event_id.event_id.project.alarm_group.update|콘솔|
+|프로젝트 알림 수신 그룹 삭제|event_id.event_id.project.alarm_group.delete|콘솔|
 |수동 백업|event_id.easycache.backup.manual|EasyCache|
 |백업 삭제|event_id.easycache.backup.delete|EasyCache|
 |공인 도메인 설정|event_id.easycache.public_domain.attach|EasyCache|
@@ -357,72 +340,6 @@
 |복제 그룹 HA 설정 갱신|event_id.easycache.group.ha_update|EasyCache|
 |데이터 내보내기|event_id.easycache.group.export|EasyCache|
 |기존 복제 그룹 복원|event_id.easycache.backup.migrate|EasyCache|
-|DB 인스턴스 생성|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
-|DB 인스턴스 삭제|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
-|DB 인스턴스 백업|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
-|DB 인스턴스 재시작|event_id.rds_for_sqlserver.db_instance.restart|RDS for MS-SQL|
-|하이퍼바이저 마이그레이션|event_id.rds_for_sqlserver.db_instance.migrate_hypervisor|RDS for MS-SQL|
-|백업 삭제|event_id.rds_for_sqlserver.backup.delete|RDS for MS-SQL|
-|백업을 이용한 DB 인스턴스 복원|event_id.rds_for_sqlserver.backup.restore_snapshot|RDS for MS-SQL|
-|DB 인스턴스 이름 변경|event_id.rds_for_sqlserver.db_instance.modify_name|RDS for MS-SQL|
-|DB 인스턴스 수정|event_id.rds_for_sqlserver.db_instance.modify|RDS for MS-SQL|
-|DB 인스턴스 시점 복원|event_id.rds_for_sqlserver.db_instance.restore_point_to_time|RDS for MS-SQL|
-|DB 보안 그룹 생성|event_id.rds_for_sqlserver.security_group.create|RDS for MS-SQL|
-|DB 보안 그룹 수정|event_id.rds_for_sqlserver.security_group.modify|RDS for MS-SQL|
-|DB 보안 그룹 삭제|event_id.rds_for_sqlserver.security_group.delete|RDS for MS-SQL|
-|이벤트 구독|event_id.rds_for_sqlserver.event.subscription.create|RDS for MS-SQL|
-|이벤트 구독 수정|event_id.rds_for_sqlserver.event.subscription.modify|RDS for MS-SQL|
-|이벤트 구독 삭제|event_id.rds_for_sqlserver.event.subscription.delete|RDS for MS-SQL|
-|파라미터 그룹 생성|event_id.rds_for_sqlserver.parameter_group.create|RDS for MS-SQL|
-|파라미터 그룹 수정|event_id.rds_for_sqlserver.parameter_group.modify|RDS for MS-SQL|
-|파라미터 그룹 삭제|event_id.rds_for_sqlserver.parameter_group.delete|RDS for MS-SQL|
-|차트 레이아웃 생성|event_id.rds_for_sqlserver.chart_layout.create|RDS for MS-SQL|
-|차트 레이아웃 이름 변경|event_id.rds_for_sqlserver.chart_layout.modify_name|RDS for MS-SQL|
-|차트 레이아웃 수정|event_id.rds_for_sqlserver.chart_layout.modify|RDS for MS-SQL|
-|차트 레이아웃 삭제|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
-|알림 그룹 감시 생성|event_id.rds_for_sqlserver.notification.group.metric.create|RDS for MS-SQL|
-|사용자 그룹 생성|event_id.rds_for_sqlserver.user.group.create|RDS for MS-SQL|
-|알림 그룹의 DB 인스턴스 수정|event_id.rds_for_sqlserver.notification.group.db.instance.modify|RDS for MS-SQL|
-|DB 인스턴스 강제 재시작|event_id.rds_for_sqlserver.db_instance.force-restart|RDS for MS-SQL|
-|알림 그룹의 사용자 그룹 수정|event_id.rds_for_sqlserver.notification.group.user.group.modify|RDS for MS-SQL|
-|알림 그룹 삭제|event_id.rds_for_sqlserver.notification.group.delete|RDS for MS-SQL|
-|알림 그룹 감시 삭제|event_id.rds_for_sqlserver.notification.group.metric.delete|RDS for MS-SQL|
-|사용자 그룹 삭제|event_id.rds_for_sqlserver.user.group.delete|RDS for MS-SQL|
-|알림 그룹 감시 수정|event_id.rds_for_sqlserver.notification.group.metric.modify|RDS for MS-SQL|
-|사용자 그룹 수정|event_id.rds_for_sqlserver.user.group.modify|RDS for MS-SQL|
-|알림 그룹 생성|event_id.rds_for_sqlserver.notification.group.create|RDS for MS-SQL|
-|알림 그룹 수정|event_id.rds_for_sqlserver.notification.group.modify|RDS for MS-SQL|
-|예약 작업 수정|event_id.rds_for_sqlserver.process.reserved-process.modify|RDS for MS-SQL|
-|예약 작업 삭제|event_id.rds_for_sqlserver.process.reserved-process.deleted|RDS for MS-SQL|
-|심벌 파일 삭제|event_id.logncrash.symbolfile.delete|Log & Crash Search|
-|심벌 파일 업로드|event_id.logncrash.symbolfile.upload|Log & Crash Search|
-|저장 쿼리 등록|event_id.logncrash.stored_search.save|Log & Crash Search|
-|저장 쿼리 삭제|event_id.logncrash.stored_search.delete|Log & Crash Search|
-|선택 필드 추가|event_id.logncrash.search_field.save|Log & Crash Search|
-|선택 필드 삭제|event_id.logncrash.search_field.delete|Log & Crash Search|
-|크래시 태그 추가|event_id.logncrash.crash.tag.save|Log & Crash Search|
-|크래시 태그 삭제|event_id.logncrash.crash.tag.delete|Log & Crash Search|
-|크래시 태그 적용|event_id.logncrash.crash.tag.assign|Log & Crash Search|
-|크래시 의견 추가|event_id.logncrash.crash.comment.save|Log & Crash Search|
-|크래시 의견 삭제|event_id.logncrash.crash.comment.delete|Log & Crash Search|
-|크래시 상태 변경|event_id.logncrash.crash.state|Log & Crash Search|
-|크래시 이슈 트래커 등록|event_id.logncrash.crash.issue_tracker.save|Log & Crash Search|
-|로그 알람 추가|event_id.logncrash.search.alarm.log.save|Log & Crash Search|
-|로그 알람 삭제|event_id.logncrash.search.alarm.log.delete|Log & Crash Search|
-|로그 알람 수신자 저장|event_id.logncrash.search.alarm.log.member.save|Log & Crash Search|
-|로그 알람 상태 변경|event_id.logncrash.search.alarm.log.state|Log & Crash Search|
-|크래시 알람 저장|event_id.logncrash.search.alarm.crash.save|Log & Crash Search|
-|사용자 알람 저장|event_id.logncrash.search.alarm.affected_user.save|Log & Crash Search|
-|연동 이슈 트래커 설정 저장|event_id.logncrash.issue_tracker.save|Log & Crash Search|
-|로그 보관 기간 저장|event_id.logncrash.retention.save|Log & Crash Search|
-|로그 전송 설정|event_id.logncrash.client.setting|Log & Crash Search|
-|로그 외부 보관 설정|event_id.logncrash.external_archive_config.save|Log & Crash Search|
-|네트워크 인사이트 설정|event_id.logncrash.network_insights.save|Log & Crash Search|
-|프로젝트 생성|event_id.logncrash.project.save|Log & Crash Search|
-|프로젝트 삭제|event_id.logncrash.project.delete|Log & Crash Search|
-|프로젝트 앱키 변경|event_id.logncrash.project.appkey|Log & Crash Search|
-|프로젝트 상태 변경|event_id.logncrash.project.state|Log & Crash Search|
-|로그 인입 제한 변경|event_id.logncrash.limit.save|Log & Crash Search|
 |백업 서버 등록|event_id.backup.client.register|Backup|
 |백업 서버 삭제|event_id.backup.client.delete|Backup|
 |백업 경로 등록|event_id.backup.target.register|Backup|
@@ -461,7 +378,6 @@
 |캐시 재배포|event_id.cdn.cache_purge.common|CDN|
 |특정 파일 캐시 재배포|event_id.cdn.cache_purge.item_type|CDN|
 |전체 파일 캐시 재배포|event_id.cdn.cache_purge.all_type|CDN|
-|AUTH Token 생성|event_id.cdn.auth_token|CDN|
 |서버 대시보드 레이아웃 추가|event_id.system_monitoring.server_dashboard_layout_addition|System Monitoring|
 |서버 대시보드 레이아웃 변경|event_id.system_monitoring.server_dashboard_layout_updating|System Monitoring|
 |서버 대시보드 레이아웃 삭제|event_id.system_monitoring.server_dashboard_layout_deletion|System Monitoring|
@@ -505,155 +421,6 @@
 |사용자 데이터 추가|event_id.certificate_manager.user_data.create|Certificate Manager|
 |사용자 데이터 삭제|event_id.certificate_manager.user_data.delete|Certificate Manager|
 |사용자 데이터 수정|event_id.certificate_manager.user_data.update|Certificate Manager|
-|CSR 생성|event_id.iaas.cluster.certificate_signing_request.create|Kubernetes|
-|CSR 삭제|event_id.iaas.cluster.certificate_signing_request.delete|Kubernetes|
-|CSR 수정|event_id.iaas.cluster.certificate_signing_request.update|Kubernetes|
-|CSR 승인|event_id.iaas.cluster.certificate_signing_request.approval|Kubernetes|
-|클러스터롤바인딩 생성|event_id.iaas.cluster.cluster_role_binding.create|Kubernetes|
-|클러스터롤바인딩 삭제|event_id.iaas.cluster.cluster_role_binding.delete|Kubernetes|
-|클러스터롤바인딩 수정|event_id.iaas.cluster.cluster_role_binding.update|Kubernetes|
-|클러스터롤 생성|event_id.iaas.cluster.cluster_role.create|Kubernetes|
-|클러스터롤 삭제|event_id.iaas.cluster.cluster_role.delete|Kubernetes|
-|클러스터롤 수정|event_id.iaas.cluster.cluster_role.update|Kubernetes|
-|컨피그맵 생성|event_id.iaas.cluster.configmap.create|Kubernetes|
-|컨피그맵 삭제|event_id.iaas.cluster.configmap.delete|Kubernetes|
-|컨피그맵 수정|event_id.iaas.cluster.configmap.update|Kubernetes|
-|크론잡 생성|event_id.iaas.cluster.cronjob.create|Kubernetes|
-|크론잡 삭제|event_id.iaas.cluster.cronjob.delete|Kubernetes|
-|크론잡 수정|event_id.iaas.cluster.cronjob.update|Kubernetes|
-|사용자리소스정의 생성|event_id.iaas.cluster.custom_resource_definition.create|Kubernetes|
-|사용자리소스정의 삭제|event_id.iaas.cluster.custom_resource_definition.delete|Kubernetes|
-|사용자리소스정의 수정|event_id.iaas.cluster.custom_resource_definition.update|Kubernetes|
-|데몬셋 생성|event_id.iaas.cluster.daemon_set.create|Kubernetes|
-|데몬셋 삭제|event_id.iaas.cluster.daemon_set.delete|Kubernetes|
-|데몬셋 수정|event_id.iaas.cluster.daemon_set.update|Kubernetes|
-|디플로이먼트 생성|event_id.iaas.cluster.deployment.create|Kubernetes|
-|디플로이먼트 삭제|event_id.iaas.cluster.deployment.delete|Kubernetes|
-|디플로이먼트 수정|event_id.iaas.cluster.deployment.update|Kubernetes|
-|디플로이먼트 스케일 조정|event_id.iaas.cluster.deployment.update_scale|Kubernetes|
-|엔드포인트 생성|event_id.iaas.cluster.endpoint.create|Kubernetes|
-|엔드포인트 삭제|event_id.iaas.cluster.endpoint.delete|Kubernetes|
-|엔드포인트 수정|event_id.iaas.cluster.endpoint.update|Kubernetes|
-|엔드포인트슬라이스 생성|event_id.iaas.cluster.endpoint_slice.create|Kubernetes|
-|엔드포인트슬라이스 삭제|event_id.iaas.cluster.endpoint_slice.delete|Kubernetes|
-|엔드포인트슬라이스 수정|event_id.iaas.cluster.endpoint_slice.update|Kubernetes|
-|Horizontal Pod Autoscaler 생성|event_id.iaas.cluster.horizontal_pod_autoscaler.create|Kubernetes|
-|Horizontal Pod Autoscaler 삭제|event_id.iaas.cluster.horizontal_pod_autoscaler.delete|Kubernetes|
-|Horizontal Pod Autoscaler 수정|event_id.iaas.cluster.horizontal_pod_autoscaler.update|Kubernetes|
-|인그레스 생성|event_id.iaas.cluster.ingress.create|Kubernetes|
-|인그레스 삭제|event_id.iaas.cluster.ingress.delete|Kubernetes|
-|인그레스 수정|event_id.iaas.cluster.ingress.update|Kubernetes|
-|잡 생성|event_id.iaas.cluster.job.create|Kubernetes|
-|잡 삭제|event_id.iaas.cluster.job.delete|Kubernetes|
-|잡 수정|event_id.iaas.cluster.job.update|Kubernetes|
-|리밋레인지 생성|event_id.iaas.cluster.limit_range.create|Kubernetes|
-|리밋레인지 삭제|event_id.iaas.cluster.limit_range.delete|Kubernetes|
-|리밋레인지 수정|event_id.iaas.cluster.limit_range.update|Kubernetes|
-|Mutating Webhook Configuration 생성|event_id.iaas.cluster.mutating_webhook_configuration.create|Kubernetes|
-|Mutating Webhook Configuration 삭제|event_id.iaas.cluster.mutating_webhook_configuration.delete|Kubernetes|
-|Mutating Webhook Configuration 수정|event_id.iaas.cluster.mutating_webhook_configuration.update|Kubernetes|
-|네임스페이스 생성|event_id.iaas.cluster.namespace.create|Kubernetes|
-|네임스페이스 삭제|event_id.iaas.cluster.namespace.delete|Kubernetes|
-|네임스페이스 수정|event_id.iaas.cluster.namespace.update|Kubernetes|
-|네트워크폴리시 생성|event_id.iaas.cluster.network_policy.create|Kubernetes|
-|네트워크폴리시 삭제|event_id.iaas.cluster.network_policy.delete|Kubernetes|
-|네트워크폴리시 수정|event_id.iaas.cluster.network_policy.update|Kubernetes|
-|퍼시스턴트볼륨클레임 생성|event_id.iaas.cluster.persistent_volume_claim.create|Kubernetes|
-|퍼시스턴트볼륨클레임 삭제|event_id.iaas.cluster.persistent_volume_claim.delete|Kubernetes|
-|퍼시스턴트볼륨클레임 수정|event_id.iaas.cluster.persistent_volume_claim.update|Kubernetes|
-|퍼시스턴트볼륨 생성|event_id.iaas.cluster.persistent_volume.create|Kubernetes|
-|퍼시스턴트볼륨 삭제|event_id.iaas.cluster.persistent_volume.delete|Kubernetes|
-|퍼시스턴트볼륨 수정|event_id.iaas.cluster.persistent_volume.update|Kubernetes|
-|파드 Disruption Budget 생성|event_id.iaas.cluster.pod_disruption_budget.create|Kubernetes|
-|파드 Disruption Budget 삭제|event_id.iaas.cluster.pod_disruption_budget.delete|Kubernetes|
-|파드 Disruption Budget 수정|event_id.iaas.cluster.pod_disruption_budget.update|Kubernetes|
-|파드 생성|event_id.iaas.cluster.pod.create|Kubernetes|
-|파드 삭제|event_id.iaas.cluster.pod.delete|Kubernetes|
-|파드 수정|event_id.iaas.cluster.pod.update|Kubernetes|
-|파드 연결|event_id.iaas.cluster.pod.attach|Kubernetes|
-|파드 축출|event_id.iaas.cluster.pod.evict|Kubernetes|
-|파드 실행|event_id.iaas.cluster.pod.exec|Kubernetes|
-|파드 포트포워딩 설정|event_id.iaas.cluster.pod.port_forward|Kubernetes|
-|파드시큐리티폴리시 생성|event_id.iaas.cluster.pod_security_policy.create|Kubernetes|
-|파드시큐리티폴리시 삭제|event_id.iaas.cluster.pod_security_policy.delete|Kubernetes|
-|파드시큐리티폴리시 수정|event_id.iaas.cluster.pod_security_policy.update|Kubernetes|
-|파드템플릿 생성|event_id.iaas.cluster.pod_template.create|Kubernetes|
-|파드템플릿 삭제|event_id.iaas.cluster.pod_template.delete|Kubernetes|
-|파드템플릿 수정|event_id.iaas.cluster.pod_template.update|Kubernetes|
-|프라이어리티클래스 생성|event_id.iaas.cluster.priority_class.create|Kubernetes|
-|프라이어리티클래스 삭제|event_id.iaas.cluster.priority_class.delete|Kubernetes|
-|프라이어리티클래스 수정|event_id.iaas.cluster.priority_class.update|Kubernetes|
-|레플리카셋 생성|event_id.iaas.cluster.replica_set.create|Kubernetes|
-|레플리카셋 삭제|event_id.iaas.cluster.replica_set.delete|Kubernetes|
-|레플리카셋 수정|event_id.iaas.cluster.replica_set.update|Kubernetes|
-|레플리카셋 스케일 조정|event_id.iaas.cluster.replica_set.update_scale|Kubernetes|
-|레플리케이션컨트롤러 생성|event_id.iaas.cluster.replication_controller.create|Kubernetes|
-|레플리케이션컨트롤러 삭제|event_id.iaas.cluster.replication_controller.delete|Kubernetes|
-|레플리케이션컨트롤러 수정|event_id.iaas.cluster.replication_controller.update|Kubernetes|
-|레플리케이션컨트롤러 스케일 조정|event_id.iaas.cluster.replication_controller.update_scale|Kubernetes|
-|리소스쿼터 생성|event_id.iaas.cluster.resource_quota.create|Kubernetes|
-|리소스쿼터 삭제|event_id.iaas.cluster.resource_quota.delete|Kubernetes|
-|리소스쿼터 수정|event_id.iaas.cluster.resource_quota.update|Kubernetes|
-|롤바인딩 생성|event_id.iaas.cluster.role_binding.create|Kubernetes|
-|롤바인딩 삭제|event_id.iaas.cluster.role_binding.delete|Kubernetes|
-|롤바인딩 수정|event_id.iaas.cluster.role_binding.update|Kubernetes|
-|롤 생성|event_id.iaas.cluster.role.create|Kubernetes|
-|롤 삭제|event_id.iaas.cluster.role.delete|Kubernetes|
-|롤 수정|event_id.iaas.cluster.role.update|Kubernetes|
-|시크릿 생성|event_id.iaas.cluster.secret.create|Kubernetes|
-|시크릿 삭제|event_id.iaas.cluster.secret.delete|Kubernetes|
-|시크릿 수정|event_id.iaas.cluster.secret.update|Kubernetes|
-|서비스어카운트 생성|event_id.iaas.cluster.service_account.create|Kubernetes|
-|서비스어카운트 삭제|event_id.iaas.cluster.service_account.delete|Kubernetes|
-|서비스어카운트 수정|event_id.iaas.cluster.service_account.update|Kubernetes|
-|서비스 생성|event_id.iaas.cluster.service.create|Kubernetes|
-|서비스 삭제|event_id.iaas.cluster.service.delete|Kubernetes|
-|서비스 수정|event_id.iaas.cluster.service.update|Kubernetes|
-|스테이트풀셋 생성|event_id.iaas.cluster.stateful_set.create|Kubernetes|
-|스테이트풀셋 삭제|event_id.iaas.cluster.stateful_set.delete|Kubernetes|
-|스테이트풀셋 수정|event_id.iaas.cluster.stateful_set.update|Kubernetes|
-|스테이트풀셋 스케일 조정|event_id.iaas.cluster.stateful_set.update_scale|Kubernetes|
-|스토리지클래스 생성|event_id.iaas.cluster.storage_class.create|Kubernetes|
-|스토리지클래스 삭제|event_id.iaas.cluster.storage_class.delete|Kubernetes|
-|스토리지클래스 수정|event_id.iaas.cluster.storage_class.update|Kubernetes|
-|Validating Webhook Configuration 생성|event_id.iaas.cluster.validating_webhook_configuration.create|Kubernetes|
-|Validating Webhook Configuration 삭제|event_id.iaas.cluster.validating_webhook_configuration.delete|Kubernetes|
-|Validating Webhook Configuration 수정|event_id.iaas.cluster.validating_webhook_configuration.update|Kubernetes|
-|클러스터 크기 조정|event_id.iaas.cluster.resize|Kubernetes|
-|클러스터 수정|event_id.iaas.cluster.update|Kubernetes|
-|클러스터 업그레이드|event_id.iaas.cluster.upgrade|Kubernetes|
-|얼굴 감지|event_id.face_recognition.face.detect|Face Recognition|
-|얼굴 비교|event_id.face_recognition.face.compare|Face Recognition|
-|얼굴 등록|event_id.face_recognition.face.add|Face Recognition|
-|얼굴 삭제|event_id.face_recognition.face.delete|Face Recognition|
-|얼굴 검증|event_id.face_recognition.face.verify|Face Recognition|
-|얼굴 인식 그룹 생성|event_id.face_recognition.group.create|Face Recognition|
-|얼굴 인식 그룹 목록 조회|event_id.face_recognition.group.list|Face Recognition|
-|얼굴 인식 그룹 세부 정보 조회|event_id.face_recognition.group.get_detail|Face Recognition|
-|얼굴 인식 그룹에 등록된 얼굴 조회|event_id.face_recognition.group.face_list|Face Recognition|
-|얼굴 인식 그룹 삭제|event_id.face_recognition.group.delete|Face Recognition|
-|페이스 아이디로 얼굴 검색|event_id.face_recognition.search_face.byfaceid|Face Recognition|
-|이미지로 얼굴 검색|event_id.face_recognition.search_face.byimage|Face Recognition|
-|파이프라인 생성|event_id.pipeline.pipeline_manage.create|Pipeline|
-|파이프라인 수정|event_id.pipeline.pipeline_manage.update|Pipeline|
-|파이프라인 삭제|event_id.pipeline.pipeline_manage.delete|Pipeline|
-|파이프라인 수동 실행|event_id.pipeline.pipeline_manage.manual_execute|Pipeline|
-|파이프라인 실행 취소|event_id.pipeline.pipeline_manage.execute_cancel|Pipeline|
-|개발 환경 생성|event_id.pipeline.dev_env_config.create|Pipeline|
-|개발 환경 수정|event_id.pipeline.dev_env_config.update|Pipeline|
-|개발 환경 삭제|event_id.pipeline.dev_env_config.delete|Pipeline|
-|소스 저장소 생성|event_id.pipeline.source_repository.create|Pipeline|
-|소스 저장소 수정|event_id.pipeline.source_repository.update|Pipeline|
-|소스 저장소 삭제|event_id.pipeline.source_repository.delete|Pipeline|
-|이미지 저장소 생성|event_id.pipeline.image_registry.create|Pipeline|
-|이미지 저장소 수정|event_id.pipeline.image_registry.update|Pipeline|
-|이미지 저장소 삭제|event_id.pipeline.image_registry.delete|Pipeline|
-|빌드 도구 생성|event_id.pipeline.build_tool.create|Pipeline|
-|빌드 도구 수정|event_id.pipeline.build_tool.update|Pipeline|
-|빌드 도구 삭제|event_id.pipeline.build_tool.delete|Pipeline|
-|배포 대상 생성|event_id.pipeline.deploy_target.create|Pipeline|
-|배포 대상 수정|event_id.pipeline.deploy_target.update|Pipeline|
-|배포 대상 삭제|event_id.pipeline.deploy_target.delete|Pipeline|
 |Android SDK 다운로드|event_id.appguard.sdk_download_aos|NHN AppGuard|
 |iOS SDK 다운로드|event_id.appguard.sdk_download_ios|NHN AppGuard|
 |보고서 다운로드|event_id.appguard.report_download|NHN AppGuard|
@@ -662,79 +429,6 @@
 |블랙리스트 추가|event_id.appguard.blacklist_add|NHN AppGuard|
 |블랙리스트 차단 해제|event_id.appguard.blacklist_delete|NHN AppGuard|
 |정책 수정|event_id.appguard.policy_update|NHN AppGuard|
-|Unity SDK 다운로드|event_id.appguard.sdk_download_unity|NHN AppGuard|
-|URL 생성|event_id.short_url.url_create|ShortURL|
-|URL 수정|event_id.short_url.url_update|ShortURL|
-|URL 활성화|event_id.short_url.url_enable|ShortURL|
-|URL 비활성화|event_id.short_url.url_disable|ShortURL|
-|URL 삭제|event_id.short_url.url_delete|ShortURL|
-|캠페인 생성|event_id.short_url.campaign_create|ShortURL|
-|캠페인 수정|event_id.short_url.campaign_update|ShortURL|
-|캠페인 삭제|event_id.short_url.campaign_delete|ShortURL|
-|도메인 등록|event_id.short_url.domain_register|ShortURL|
-|도메인 갱신|event_id.short_url.domain_renew|ShortURL|
-|도메인 권한 수정|event_id.short_url.domain_update_role|ShortURL|
-|도메인 삭제|event_id.short_url.domain_delete|ShortURL|
-|인증서 등록|event_id.short_url.certificate_register|ShortURL|
-|인증서 갱신|event_id.short_url.certificate_renew|ShortURL|
-|인증서 권한 수정|event_id.short_url.certificate_update_role|ShortURL|
-|인증서 삭제|event_id.short_url.certificate_delete|ShortURL|
-|상품 아이디로 유사 이미지 상품 검색|event_id.ai_fashion.service.searchbyproductid|AI Fashion|
-|패션 아이템 검출|event_id.ai_fashion.service.detect|AI Fashion|
-|이미지로 유사 이미지 상품 검색|event_id.ai_fashion.service.searchbyimage|AI Fashion|
-|서비스 추가|event_id.ai_fashion.service.addservice|AI Fashion|
-|서비스 목록|event_id.ai_fashion.service.listservice|AI Fashion|
-|서비스 삭제|event_id.ai_fashion.service.deleteservice|AI Fashion|
-|패션 아이템 딥 태깅|event_id.ai_fashion.service.tag|AI Fashion|
-|색인 요청|event_id.ai_fashion.maker.index|AI Fashion|
-|서비스 정보 확인|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
-|색인 요청 상태 확인|event_id.ai_fashion.maker.indexstatus|AI Fashion|
-|사업자 등록증 분석 요청|event_id.ai_document_recognizer.business.analyze|Document Recognizer|
-|신용카드 분석 요청|event_id.ai_document_recognizer.credit_card.analyze|Document Recognizer|
-|서비스 이용 신청|event_id.ai_document_recognizer.service_use_request.submit|Document Recognizer|
-|서비스 이용 신청 취소|event_id.ai_document_recognizer.service_use_request.cancel|Document Recognizer|
-|신분증 분석 요청|event_id.ai_document_recognizer.id_card.analyze|Document Recognizer|
-|신분증 진위 확인 요청|event_id.ai_document_recognizer.id_card.authenticity|Document Recognizer|
-|차량 번호판 분석 요청|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|
-|발신 프로필 생성|event_id.kakaotalk.sender.creation|KakaoTalk Bizmessage|
-|발신 프로필 토큰 인증|event_id.kakaotalk.sender.token.certification|KakaoTalk Bizmessage|
-|발신 프로필 삭제|event_id.kakaotalk.sender.deletion|KakaoTalk Bizmessage|
-|발신 프로필 그룹 생성|event_id.kakaotalk.sender.group.creation|KakaoTalk Bizmessage|
-|발신 프로필 그룹 삭제|event_id.kakaotalk.sender.group.deletion|KakaoTalk Bizmessage|
-|그룹에 발신 프로필 추가|event_id.kakaotalk.sender.group.member.addition|KakaoTalk Bizmessage|
-|그룹에 발신 프로필 삭제|event_id.kakaotalk.sender.group.member.deletion|KakaoTalk Bizmessage|
-|알림톡, 친구톡 대체 발송 `SMS` Appkey 저장|event_id.kakaotalk.fallback.appkey.creation|KakaoTalk Bizmessage|
-|알림톡, 친구톡 대체 발송 설정 저장|event_id.kakaotalk.fallback.setting.creation|KakaoTalk Bizmessage|
-|템플릿 생성|event_id.alimtalk.template.creation|KakaoTalk Bizmessage|
-|템플릿 수정|event_id.alimtalk.template.modification|KakaoTalk Bizmessage|
-|템플릿 삭제|event_id.alimtalk.template.deletion|KakaoTalk Bizmessage|
-|템플릿 문의하기|event_id.alimtalk.template.comment|KakaoTalk Bizmessage|
-|첨부 파일을 사용해 템플릿 생성|event_id.alimtalk.template.creation-for-file|KakaoTalk Bizmessage|
-|템플릿 이미지 업로드|event_id.alimtalk.template.image.uploading|KakaoTalk Bizmessage|
-|알림톡 메시지 발송|event_id.alimtalk.message.sending|KakaoTalk Bizmessage|
-|알림톡 인증 메시지 발송|event_id.alimtalk.message.auth.sending|KakaoTalk Bizmessage|
-|알림톡 메시지 발송 취소|event_id.alimtalk.message.sending-cancellation|KakaoTalk Bizmessage|
-|알림톡 메시지 목록 조회|event_id.alimtalk.messages.searching|KakaoTalk Bizmessage|
-|알림톡 인증 메시지 목록 조회|event_id.alimtalk.auth.messages.searching|KakaoTalk Bizmessage|
-|알림톡 대량 수신자 목록 조회|event_id.alimtalk.mass.recipients.searching|KakaoTalk Bizmessage|
-|알림톡 대량 메시지 결과 내보내기|event_id.alimtalk.mass.message.results.export|KakaoTalk Bizmessage|
-|알림톡 대량 메시지 파일 업로드|event_id.alimtalk.mass.message.uploading|KakaoTalk Bizmessage|
-|알림톡 대량 메시지 전송|event_id.alimtalk.mass.message.sending|KakaoTalk Bizmessage|
-|알림톡 대량 메시지 전송 승인|event_id.alimtalk.mass.message.confirm-send-request|KakaoTalk Bizmessage|
-|알림톡 대량 메시지 전송 취소|event_id.alimtalk.mass.message.sending-cancellation|KakaoTalk Bizmessage|
-|알림톡 메시지 결과 내보내기|event_id.alimtalk.message.results.export|KakaoTalk Bizmessage|
-|친구톡 대량 메시지 파일 업로드|event_id.friendtalk.mass.message.uploading|KakaoTalk Bizmessage|
-|친구톡 메시지 발송|event_id.friendtalk.message.sending|KakaoTalk Bizmessage|
-|친구톡 대량 메시지 전송|event_id.friendtalk.mass.message.sending|KakaoTalk Bizmessage|
-|친구톡 대량 메시지 전송 취소|event_id.friendtalk.mass.message.sending-cancellation|KakaoTalk Bizmessage|
-|친구톡 메시지 발송 취소|event_id.friendtalk.message.sending-cancellation|KakaoTalk Bizmessage|
-|친구톡 메시지 목록 조회|event_id.friendtalk.messages.searching|KakaoTalk Bizmessage|
-|친구톡 메시지 결과 내보내기|event_id.friendtalk.message.results.export|KakaoTalk Bizmessage|
-|친구톡 대량 수신자 목록 조회|event_id.friendtalk.mass.recipients.searching|KakaoTalk Bizmessage|
-|친구톡 대량 메시지 결과 내보내기|event_id.friendtalk.mass.message.results.export|KakaoTalk Bizmessage|
-|친구톡 대량 메시지 전송 승인|event_id.friendtalk.mass.message.confirm-send-request|KakaoTalk Bizmessage|
-|친구톡 이미지 업로드|event_id.friendtalk.image.uploading|KakaoTalk Bizmessage|
-|친구톡 이미지 삭제|event_id.friendtalk.image.deletion|KakaoTalk Bizmessage|
 |API Key 생성|event_id.apigw.apikey.create|API Gateway|
 |API Key 수정|event_id.apigw.apikey.update|API Gateway|
 |API Key 삭제|event_id.apigw.apikey.delete|API Gateway|
@@ -772,106 +466,5 @@
 |리소스 응답 생성|event_id.apigw.resource.create_response|API Gateway|
 |스테이지에 도메인 별칭 연결|event_id.apigw.stage.connect_alias_domain|API Gateway|
 |스테이지에 도메인 별칭 연결 해제|event_id.apigw.stage.disconnect_alias_domain|API Gateway|
-|행동 감지 요청|event_id.cheating_detection_behavior.detect|Cheating Detection|
-|음성 감지 요청|event_id.cheating_detection_voice.detect|Cheating Detection|
-|서비스 도메인 등록|event_id.gamestarter.service_domain.create|GameStarter|
-|게임 설정 등록|event_id.gamestarter.game_config.create|GameStarter|
-|게임 설정 수정|event_id.gamestarter.game_config.modify|GameStarter|
-|게임 설정 복사|event_id.gamestarter.game_config.copy|GameStarter|
-|배포 존 등록|event_id.gamestarter.deploy_zone.create|GameStarter|
-|배포 존 수정|event_id.gamestarter.deploy_zone.modify|GameStarter|
-|배포 예약 등록|event_id.gamestarter.deploy.reservation_create|GameStarter|
-|배포 예약 변경|event_id.gamestarter.deploy.reservation_change|GameStarter|
-|배포 예약 취소|event_id.gamestarter.deploy.reservation_cancel|GameStarter|
-|Speech to Text 변환 요청|event_id.speech.stt.convert|Speech to Text|
 |로그 저장/다운로드 설정 삭제|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
 |로그 저장/다운로드 설정|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
-|웹 셸 메일 수신 비활성화|event_id.webshell_treat_detector.mail_send_deactivated|Webshell Threat Detector|
-|웹 셸 메일 수신 활성화|event_id.webshell_treat_detector.mail_send_activated|Webshell Threat Detector|
-|서비스 이용 신청|event_id.ai_word_suggestion.service_use_request.submit|Word Suggestion|
-|서비스 이용 신청 취소|event_id.ai_word_suggestion.service_use_request.cancel|Word Suggestion|
-|검색어 교정 요청|event_id.ai_word_suggestion.correct|Word Suggestion|
-|사전 단어 등록|event_id.ai_word_suggestion.dictionary.add|Word Suggestion|
-|사전 단어 삭제|event_id.ai_word_suggestion.dictionary.delete|Word Suggestion|
-|사전 단어 수정|event_id.ai_word_suggestion.dictionary.update|Word Suggestion|
-|플로우 메타 생성|event_id.dataflow.flow.meta.create|DataFlow|
-|플로우 메타 수정|event_id.dataflow.flow.meta.update|DataFlow|
-|플로우 메타 삭제|event_id.dataflow.flow.meta.delete|DataFlow|
-|플로우 그래프 수정|event_id.dataflow.flow.graph.update|DataFlow|
-|플로우 메타 복사|event_id.dataflow.flow.meta.copy|DataFlow|
-|플로우 시작|event_id.dataflow.flow.start|DataFlow|
-|플로우 중지|event_id.dataflow.flow.stop|DataFlow|
-|템플릿 메타 생성|event_id.dataflow.template.meta.create|DataFlow|
-|템플릿 메타 수정|event_id.dataflow.template.meta.update|DataFlow|
-|템플릿 메타 삭제|event_id.dataflow.template.meta.delete|DataFlow|
-|템플릿 그래프 수정|event_id.dataflow.template.graph.update|DataFlow|
-|템플릿 그래프 복사|event_id.dataflow.template.graph.copy|DataFlow|
-|스케쥴러 저장|event_id.dataflow.scheduler.meta.save|DataFlow|
-|프로젝트 활성화|event_id.dataquery.project_activated|DataQuery|
-|프로젝트 비활성화|event_id.dataquery.project_deactivated|DataQuery|
-|데이터 소스 업데이트 요청|event_id.dataquery.deploy_requested|DataQuery|
-|데이터 소스 추가|event_id.dataquery.datasource_added|DataQuery|
-|데이터 소스 수정|event_id.dataquery.datasource_modified|DataQuery|
-|인증 키 발급|event_id.dataquery.auth_key_issued|DataQuery|
-|Trino 클러스터 켜짐|event_id.dataquery.cluster_up|DataQuery|
-|Trino 클러스터 켜짐|event_id.dataquery.cluster_on|DataQuery|
-|Trino 클러스터 꺼짐|event_id.dataquery.cluster_down|DataQuery|
-|Trino 클러스터 꺼짐|event_id.dataquery.cluster_off|DataQuery|
-|리소스 이용 정지|event_id.dataquery.resource.pause|DataQuery|
-|리소스 그룹 삭제|event_id.resource_watcher.resource_group.delete|Resource Watcher|
-|리소스 태그 수정|event_id.resource_watcher.resource_tag.update|Resource Watcher|
-|알림 삭제|event_id.resource_watcher.alarm.delete|Resource Watcher|
-|리소스 그룹 관계 삭제	|event_id.resource_watcher.resource_group_relation.delete|Resource Watcher|
-|리소스 태그 관계 수정|event_id.resource_watcher.resource_tag_relation.update|Resource Watcher|
-|리소스 태그 관계 추가|event_id.resource_watcher.resource_tag_relation.create|Resource Watcher|
-|리소스 그룹 관계 수정|event_id.resource_watcher.resource_group_relation.update|Resource Watcher|
-|리소스 삭제|event_id.resource_watcher.resource.delete|Resource Watcher|
-|알림 수정|event_id.resource_watcher.alarm.update|Resource Watcher|
-|리소스 태그 삭제|event_id.resource_watcher.resource_tag.delete|Resource Watcher|
-|리소스 그룹 수정|event_id.resource_watcher.resource_group.update|Resource Watcher|
-|알림 생성|event_id.resource_watcher.alarm.create|Resource Watcher|
-|리소스 그룹 관계 추가|event_id.resource_watcher.resource_group_relation.create|Resource Watcher|
-|리소스 그룹 생성|event_id.resource_watcher.resource_group.create|Resource Watcher|
-|리소스 수정|event_id.resource_watcher.resource.update|Resource Watcher|
-|알림 상태 변경|event_id.resource_watcher.alarm.change_status|Resource Watcher|
-|리소스 생성|event_id.resource_watcher.resource.create|Resource Watcher|
-|리소스 태그 관계 삭제|event_id.resource_watcher.resource_tag_relation.delete|Resource Watcher|
-|리소스 태그 생성|event_id.resource_watcher.resource_tag.create|Resource Watcher|
-|앱 생성|event_id.GameTalk.app_create|GameTalk|
-|앱 설정 변경|event_id.GameTalk.app_attributes_modify|GameTalk|
-|인증정보 생성|event_id.GameTalk.app_auth_create|GameTalk|
-|변역 설정 생성|event_id.GameTalk.app_translation_create|GameTalk|
-|자동번역 설정 생성|event_id.GameTalk.app_auto_translation_create|GameTalk|
-|필터 설정 생성|event_id.GameTalk.app_filter_config_create|GameTalk|
-|필터 정보 변경|event_id.GameTalk.app_filter_config_update|GameTalk|
-|필터 정보 삭제|event_id.GameTalk.app_filter_config_delete|GameTalk|
-|비속어 엑셀파일 업로드|event_id.GameTalk.app_filter_banned_word_excel_upload|GameTalk|
-|비속어 엑셀파일 다운로드|event_id.GameTalk.app_filter_banned_word_excel_download|GameTalk|
-|채널 생성|event_id.GameTalk.channel_create|GameTalk|
-|채널 정보 변경|event_id.GameTalk.channel_update|GameTalk|
-|채널 삭제|event_id.GameTalk.channel_delete|GameTalk|
-|공지 생성|event_id.GameTalk.notice_create|GameTalk|
-|공지 변경|event_id.GameTalk.notice_update|GameTalk|
-|채널 태그 생성|event_id.GameTalk.channel_tag_create|GameTalk|
-|채널 태그 변경|event_id.GameTalk.channel_tag_update|GameTalk|
-|채널 태그 삭제|event_id.GameTalk.channel_tag_delete|GameTalk|
-|유저 삭제|event_id.GameTalk.user_delete|GameTalk|
-|유효성 검사 실패 다운로드|event_id.file_crafter.downloadValidationFailResultFile|File-Crafter|
-|Export 요청|event_id.file_crafter.requestExporting|File-Crafter|
-|Export 결과 파일 다운로드 URL 리다이렉트|event_id.file_crafter.redirectExportFileDownloadUrl|File-Crafter|
-|Export 결과 파일 다운로드 URL 조회|event_id.file_crafter.getExportFileDownloadUrl|File-Crafter|
-|Export 요청 카운트|event_id.file_crafter.countExportingRequest|File-Crafter|
-|Export 요청 조회|event_id.file_crafter.getExportFileRequest|File-Crafter|
-|Import 요청 목록 조회|event_id.file_crafter.getImportingRequests|File-Crafter|
-|Import 시작 요청|event_id.file_crafter.requestToStartImporting|File-Crafter|
-|상품 비활성화|event_id.file_crafter.disableProduct|File-Crafter|
-|Export 요청 목록 조회|event_id.file_crafter.getExportingRequests|File-Crafter|
-|스토리지 업로드 재수행 요청|event_id.file_crafter.requestToRetryStorageUploading|File-Crafter|
-|유효성 검사 실패 다운로드 URL 조회|event_id.file_crafter.getValidationFailResultFileDownloadUrl|File-Crafter|
-|Import 요청 카운트|event_id.file_crafter.countImportingRequest|File-Crafter|
-|Import 요청 조회|event_id.file_crafter.getImportingRequest|File-Crafter|
-|유효성 검사 성공 다운로드 URL 조회|event_id.file_crafter.getValidationSuccessResultFileDownloadUrl|File-Crafter|
-|상품 활성화|event_id.file_crafter.enableProduct|File-Crafter|
-|AWS 외부 업로드 유효성 검사|event_id.file_crafter.validateAwsCredentials|File-Crafter|
-|Import 요청|event_id.file_crafter.requestImporting|File-Crafter|
-|유효성 검사 성공 다운로드|event_id.file_crafter.downloadValidationSuccessResultFile|File-Crafter|
