@@ -1,9 +1,16 @@
 ## CloudTrail > Release Notes
 
+### 2023. 01. 31.
+#### More Events
+* Added events related to File-Crafter.
+* Added events related to Default Infrastructure Service.
+
 ### 2022. 12. 27.
 #### More Events
 * Added events related to GameTalk.
 * Added events related to NHN AppGuard.
+* Added events related to DataQuery.
+* Added events related to Word Suggestion.
 
 ### 2022. 12. 13.
 #### More Events
