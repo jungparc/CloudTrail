@@ -148,7 +148,7 @@
 * NHN AppGuard 서비스 관련 이벤트가 추가되었습니다.
 #### 기능 추가
 * 로그 저장/다운로드 설정에서 3회 이상 업로드에 실패했을 때, 내용을 통보받을 수 있도록 이메일 항목을 추가했습니다.
-    * 상세 내용 참고: [링크](/CloudTrail/ko/console-guide/)
+    * 상세 내용 참고: [링크](/Governance%20&%20Audit/CloudTrail/ko/console-guide/)
 
 ### 2021. 04. 27.
 #### 이벤트 추가
@@ -174,7 +174,7 @@
 * System Monitoring 서비스 관련 이벤트가 추가되었습니다.
 #### 기능 추가
 * 로그 저장/다운로드 설정을 제공합니다.
-    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/CloudTrail/ko/console-guide/)
+    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/Governance%20&%20Audit/CloudTrail/ko/console-guide/)
 #### 기능 개선
 * 이름(아이디) 검색 조건에서 **이름이나 아이디 검색**이 **이름 검색**으로 변경되었습니다.
 
@@ -221,12 +221,12 @@
 ### 2019. 10. 29.
 #### 기능 개선
 * CloudTrail 이벤트 조회 시, 이벤트를 발생시킨 사용자 검색 조건이 개선되었습니다.
-    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/CloudTrail/ko/api-guide/)
+    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/Governance%20&%20Audit/CloudTrail/ko/api-guide/)
 
 ### 2019. 09. 24.
 #### 기능 추가
 * Cloud Trail에서 Event 조회 Restful API를 제공합니다.
-    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/CloudTrail/ko/api-guide/)
+    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/Governance%20&%20Audit/CloudTrail/ko/api-guide/)
 #### 기능 개선
 * 검색 조건의 이름(아이디) 에서 기존의 조직 멤버 뿐 아니라 사용자가 설정한 IAM 멤버 조건으로 검색할 수 있습니다.
 

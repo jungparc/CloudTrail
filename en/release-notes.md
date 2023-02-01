@@ -148,7 +148,7 @@
 * Added events related to NHN AppGuard.
 #### More Features
 * Added the email field to receive information after three or more failed upload attempts in Log Save/Download Settings.
-    * See details: [Link](/CloudTrail/en/console-guide/)
+    * See details: [Link](/Governance%20&%20Audit/CloudTrail/en/console-guide/)
 
 ### 2021. 04. 27.
 #### More Events
@@ -174,7 +174,7 @@
 * Added events related to System Monitoring.
 #### More Features
 * 로그 저장/다운로드 설정을 제공합니다.
-    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/CloudTrail/ko/console-guide/)
+    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/Governance%20&%20Audit/CloudTrail/en/console-guide/)
 #### Feature Updates
 * In the name (ID) search conditions, **Search name or ID** has been changed to **Search name**.
 
@@ -221,12 +221,12 @@
 ### 2019. 10. 29.
 #### Feature Updates
 * Updated, for the query of CloudTrail events, the search conditions of users who occurred events.
-    * See manual for more details: [Link](/CloudTrail/en/api-guide/)
+    * See manual for more details: [Link](/Governance%20&%20Audit/CloudTrail/en/api-guide/)
 
 ### 2019. 09. 24.
 #### More Features
 * Restul API is provided for query of events.
-    * See manual for more details: [Link](/CloudTrail/en/api-guide/)
+    * See manual for more details: [Link](/Governance%20&%20Audit/CloudTrail/en/api-guide/)
 #### Feature Updates
 * Search by name (ID) allows not only the search of existing organization members but user-defined IAM members.
 
