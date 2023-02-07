@@ -174,86 +174,86 @@
 |Synchronize DB User|event_id.rds_for_mysql.instance.db_definition.user.sync|RDS for MySQL, RDS for MariaDB|
 |Make and export a DB instance backup|event_id.rds_for_mysql.instance.backup.export|RDS for MySQL, RDS for MariaDB|
 |Export backup to the object storage|event_id.rds_for_mysql.backup.export|RDS for MySQL, RDS for MariaDB|
-|创建密钥库|event_id.skm.keystore.create|Secure Key Manager|
-|删除密钥库|event_id.skm.keystore.delete|Secure Key Manager|
-|更改密钥库|event_id.skm.keystore.update|Secure Key Manager|
-|创建机密数据|event_id.skm.secret.create|Secure Key Manager|
-|立即删除机密数据|event_id.skm.secret.delete|Secure Key Manager|
-|请求删除机密数据|event_id.skm.secret.delete_request|Secure Key Manager|
-|取消请求删除机密数据|event_id.skm.secret.delete_request_cancel|Secure Key Manager|
-|更改机密数据信息|event_id.skm.secret.update|Secure Key Manager|
-|查询机密数据|event_id.skm.secret.get|Secure Key Manager|
-|创建对称密钥|event_id.skm.symmetric.create|Secure Key Manager|
-|立即删除对称密钥|event_id.skm.symmetric.delete|Secure Key Manager|
-|请求删除对称密钥|event_id.skm.symmetric.delete_request|Secure Key Manager|
-|取消请求删除对称密钥|event_id.skm.symmetric.delete_request_cancel|Secure Key Manager|
-|更改对称密钥信息|event_id.skm.symmetric.update|Secure Key Manager|
-|立即旋转对称密钥|event_id.skm.symmetric.rotate|Secure Key Manager|
-|请求删除对称密钥版本|event_id.skm.symmetric_version.delete_request|Secure Key Manager|
-|取消请求删除对称密钥版本|event_id.skm.symmetric_version.delete_request_cancel|Secure Key Manager|
-|立即删除对称密钥版本|event_id.skm.symmetric_version.delete|Secure Key Manager|
-|创建非对称密钥|event_id.skm.asymmetric.create|Secure Key Manager|
-|立即删除非对称密钥|event_id.skm.asymmetric.delete|Secure Key Manager|
-|请求删除非对称密钥|event_id.skm.asymmetric.delete_request|Secure Key Manager|
-|取消请求删除非对称密钥|event_id.skm.asymmetric.delete_request_cancel|Secure Key Manager|
-|更改非对称密钥信息|event_id.skm.asymmetric.update|Secure Key Manager|
-|立即旋转非对称密钥|event_id.skm.asymmetric.rotate|Secure Key Manager|
-|请求删除非对称密钥版本|event_id.skm.asymmetric_version.delete_request|Secure Key Manager|
-|取消请求删除非对称密钥版本|event_id.skm.asymmetric_version.delete_request_cancel|Secure Key Manager|
-|立即删除非对称密钥版本|event_id.skm.asymmetric_version.delete|Secure Key Manager|
-|登录IPv4地址|event_id.skm.ipv4.create|Secure Key Manager|
-|请求删除IPv4地址|event_id.skm.ipv4.delete_request|Secure Key Manager|
-|取消请求删除IPv4地址|event_id.skm.ipv4.delete_request_cancel|Secure Key Manager|
-|更改IPv4地址信息|event_id.skm.ipv4.update|Secure Key Manager|
-|立即删除IPv4地址|event_id.skm.ipv4.delete|Secure Key Manager|
-|下载IPv4地址列表|event_id.skm.ipv4.download_list|Secure Key Manager|
-|批量登录IPv4地址|event_id.skm.ipv4.create_multi|Secure Key Manager|
-|登录MAC地址|event_id.skm.mac.create|Secure Key Manager|
-|请求删除MAC地址|event_id.skm.mac.delete_request|Secure Key Manager|
-|取消请求删除MAC地址|event_id.skm.mac.delete_request_cancel|Secure Key Manager|
-|更改MAC地址信息|event_id.skm.mac.update|Secure Key Manager|
-|立即删除MAC地址|event_id.skm.mac.delete|Secure Key Manager|
-|下载MAC地址列表|event_id.skm.mac.download_list|Secure Key Manager|
-|批量登录MAC地址|event_id.skm.mac.create_multi|Secure Key Manager|
-|登录认证书|event_id.skm.cert.create|Secure Key Manager|
-|请求删除认证书|event_id.skm.cert.delete_request|Secure Key Manager|
-|取消请求删除认证书|event_id.skm.cert.delete_request_cancel|Secure Key Manager|
-|更改认证书|event_id.skm.cert.update|Secure Key Manager|
-|立即删除认证书|event_id.skm.cert.delete|Secure Key Manager|
-|下载认证书|event_id.skm.cert.download|Secure Key Manager|
-|审批流程审批|event_id.skm.approval.approve|Secure Key Manager|
-|拒绝审批流程|event_id.skm.approval.deny|Secure Key Manager|
-|审批流程 审批请求|event_id.skm.approval.approve_request|Secure Key Manager|
-|创建Artifacts|event_id.deploy.artifact_create|Deploy|
-|修改Artifacts|event_id.deploy.artifact_update|Deploy|
-|删除Artifacts|event_id.deploy.artifact_delete|Deploy|
-|创建二进制组|event_id.deploy.binary_group_create|Deploy|
-|删除二进制组|event_id.deploy.binary_group_delete|Deploy|
-|修改二进制组|event_id.deploy.binary_group_update|Deploy|
-|上传二进制|event_id.deploy.binary_upload|Deploy|
-|下载二进制|event_id.deploy.binary_download|Deploy|
-|删除二进制|event_id.deploy.binary_delete|Deploy|
-|修改二进制|event_id.deploy.binary_update|Deploy|
-|创建服务器组|event_id.deploy.server_group_create|Deploy|
-|删除服务器组|event_id.deploy.server_group_delete|Deploy|
-|修改服务器组|event_id.deploy.server_group_update|Deploy|
-|创建资源组|event_id.deploy.resource_group_create|Deploy|
-|删除资源组|event_id.deploy.resource_group_delete|Deploy|
-|创建资源|event_id.deploy.resource_create|Deploy|
-|修改资源|event_id.deploy.resource_update|Deploy|
-|保存资源|event_id.deploy.resource_save|Deploy|
-|下载资源|event_id.deploy.resource_download|Deploy|
-|删除资源|event_id.deploy.resource_delete|Deploy|
-|创建Scenario|event_id.deploy.scenario_create|Deploy|
-|复制Scenario|event_id.deploy.scenario_copy|Deploy|
-|下载Scenario|event_id.deploy.scenario_download|Deploy|
-|上传Scenario|event_id.deploy.scenario_upload|Deploy|
-|修改Scenario|event_id.deploy.scenario_update|Deploy|
-|删除Scenario|event_id.deploy.scenario_delete|Deploy|
-|运行发布|event_id.deploy.deploy_execute|Deploy|
+|Create Keystore|event_id.skm.keystore.create|Secure Key Manager|
+|Delete Keystore|event_id.skm.keystore.delete|Secure Key Manager|
+|Change Keystore Information|event_id.skm.keystore.update|Secure Key Manager|
+|Create Confidential Data|event_id.skm.secret.create|Secure Key Manager|
+|Immediately Delete Confidential Data|event_id.skm.secret.delete|Secure Key Manager|
+|Request for Deleting Confidential Data|event_id.skm.secret.delete_request|Secure Key Manager|
+|Cancel Request for Deleting Confidential Data|event_id.skm.secret.delete_request_cancel|Secure Key Manager|
+|Change Confidential Data Information|event_id.skm.secret.update|Secure Key Manager|
+|Query Confidential Data|event_id.skm.secret.get|Secure Key Manager|
+|Create Symmectric Keys|event_id.skm.symmetric.create|Secure Key Manager|
+|Immediately Delete Symmetric Keys|event_id.skm.symmetric.delete|Secure Key Manager|
+|Request for Deleting Symmetric Keys|event_id.skm.symmetric.delete_request|Secure Key Manager|
+|Cancel Request for Deleting Symmetric Keys|event_id.skm.symmetric.delete_request_cancel|Secure Key Manager|
+|Change Symmectric Key Information|event_id.skm.symmetric.update|Secure Key Manager|
+|Immediately Rotate Symmetric Keys|event_id.skm.symmetric.rotate|Secure Key Manager|
+|Request for Deleting Symmectric Key Version|event_id.skm.symmetric_version.delete_request|Secure Key Manager|
+|Cancel Request for Deleting Symmetric Key Version|event_id.skm.symmetric_version.delete_request_cancel|Secure Key Manager|
+|Immediately Delete Symmetric Key Version|event_id.skm.symmetric_version.delete|Secure Key Manager|
+|Create Asymmetric Keys|event_id.skm.asymmetric.create|Secure Key Manager|
+|Immediately Delete Asymmetric Keys|event_id.skm.asymmetric.delete|Secure Key Manager|
+|Request for Deleting Asymmetric Keys|event_id.skm.asymmetric.delete_request|Secure Key Manager|
+|Cancel Request for Deleting Asymmetric Keys|event_id.skm.asymmetric.delete_request_cancel|Secure Key Manager|
+|Change Asymmetric Keys Information|event_id.skm.asymmetric.update|Secure Key Manager|
+|Immediately Rotate Asymmetric Keys|event_id.skm.asymmetric.rotate|Secure Key Manager|
+|Request for Deleting Asymmetric Key Version|event_id.skm.asymmetric_version.delete_request|Secure Key Manager|
+|Cancel Request for Deleting Asymmetric Key Version|event_id.skm.asymmetric_version.delete_request_cancel|Secure Key Manager|
+|Immediately Delete Asymmetric Keys Version|event_id.skm.asymmetric_version.delete|Secure Key Manager|
+|Register IPv4 Address|event_id.skm.ipv4.create|Secure Key Manager|
+|Request for Deleting IPv4 Address|event_id.skm.ipv4.delete_request|Secure Key Manager|
+|Cancel Request for IPv4 Address|event_id.skm.ipv4.delete_request_cancel|Secure Key Manager|
+|Change IPv4 Address Information|event_id.skm.ipv4.update|Secure Key Manager|
+|Immediately Delete IPv4 Address|event_id.skm.ipv4.delete|Secure Key Manager|
+|Download List of IPv4 Addresses|event_id.skm.ipv4.download_list|Secure Key Manager|
+|Bulk Register IPv4 Addresses|event_id.skm.ipv4.create_multi|Secure Key Manager|
+|Register MAC Address|event_id.skm.mac.create|Secure Key Manager|
+|Request for Deleting MAC Address|event_id.skm.mac.delete_request|Secure Key Manager|
+|Cancel Request for Deleting MAC Address|event_id.skm.mac.delete_request_cancel|Secure Key Manager|
+|Change MAC Address Information|event_id.skm.mac.update|Secure Key Manager|
+|Immediately Delete MAC Address|event_id.skm.mac.delete|Secure Key Manager|
+|Download List of MAC Addresses|event_id.skm.mac.download_list|Secure Key Manager|
+|Bulk Register MAC Addresses|event_id.skm.mac.create_multi|Secure Key Manager|
+|Register Certificate|event_id.skm.cert.create|Secure Key Manager|
+|Request for Deleting Certificate|event_id.skm.cert.delete_request|Secure Key Manager|
+|Cancel Request for Deleting Certificate|event_id.skm.cert.delete_request_cancel|Secure Key Manager|
+|Change Certificate Information|event_id.skm.cert.update|Secure Key Manager|
+|Immediately Delete Certificate|event_id.skm.cert.delete|Secure Key Manager|
+|Download Certificate|event_id.skm.cert.download|Secure Key Manager|
+|Approval Process Approve|event_id.skm.approval.approve|Secure Key Manager|
+|Approval Process Deny|event_id.skm.approval.deny|Secure Key Manager|
+|Approval Process Approve Request|event_id.skm.approval.approve_request|Secure Key Manager|
+|Create Artifact|event_id.deploy.artifact_create|Deploy|
+|Modify Artifact|event_id.deploy.artifact_update|Deploy|
+|Delete Artifact|event_id.deploy.artifact_delete|Deploy|
+|Create Binary Group|event_id.deploy.binary_group_create|Deploy|
+|Delete Binary Group|event_id.deploy.binary_group_delete|Deploy|
+|Modify Binary Group|event_id.deploy.binary_group_update|Deploy|
+|Upload Binary|event_id.deploy.binary_upload|Deploy|
+|Download Binary|event_id.deploy.binary_download|Deploy|
+|Delete Binary|event_id.deploy.binary_delete|Deploy|
+|Modify Binary|event_id.deploy.binary_update|Deploy|
+|Create Server Group|event_id.deploy.server_group_create|Deploy|
+|Delete Server Group|event_id.deploy.server_group_delete|Deploy|
+|Modify Server Group|event_id.deploy.server_group_update|Deploy|
+|Create Resource Group|event_id.deploy.resource_group_create|Deploy|
+|Delete Resource Group|event_id.deploy.resource_group_delete|Deploy|
+|Create Resource|event_id.deploy.resource_create|Deploy|
+|Modify Resource|event_id.deploy.resource_update|Deploy|
+|Save Resource|event_id.deploy.resource_save|Deploy|
+|Download Resource|event_id.deploy.resource_download|Deploy|
+|Delete Resource|event_id.deploy.resource_delete|Deploy|
+|Create Scenario|event_id.deploy.scenario_create|Deploy|
+|Copy Scenario|event_id.deploy.scenario_copy|Deploy|
+|Download Scenario|event_id.deploy.scenario_download|Deploy|
+|Upload Scenario|event_id.deploy.scenario_upload|Deploy|
+|Modify Scenario|event_id.deploy.scenario_update|Deploy|
+|Delete Scenario|event_id.deploy.scenario_delete|Deploy|
+|Execute Deployment|event_id.deploy.deploy_execute|Deploy|
 |Download deployment history|event_id.deploy.deploy_history_download|Deploy|
 |Execute Autoscale Deployment|event_id.deploy.autoscale_deploy_execute|Deploy|
-|IAM 登入|event_id.iam.login|Console|
+|IAM Login|event_id.iam.login|Console|
 |Change Authority for IAM Members|event_id.iam.member.role.update|Console|
 |Add Organization Domain |event_id.org.domain.add|Console|
 |Modify Organization Domain|event_id.org.domain.update|Console|
@@ -265,7 +265,7 @@
 |Invite Organization Member|event_id.org.member.invite|Console|
 |Cancel Organization Member Invitation  |event_id.org.member.invite_cancel|Console|
 |Modify Organization Member  |event_id.org.member.update|Console|
-|Disable Organization Service|event_id.org.product.disable|Console|
+|Disable Organization Service |event_id.org.product.disable|Console|
 |Enable Organization Service|event_id.org.product.enable|Console|
 |Modify Organization Information|event_id.org.update|Console|
 |Access IAM Organization|event_id.iam.org.selected|Console|
@@ -654,14 +654,14 @@
 |Create Deployment Target|event_id.pipeline.deploy_target.create|Pipeline|
 |Modify Deployment Target|event_id.pipeline.deploy_target.update|Pipeline|
 |Delete Deployment Target|event_id.pipeline.deploy_target.delete|Pipeline|
-|Android SDK 다운로드|event_id.appguard.sdk_download_aos|NHN AppGuard|
-|iOS SDK 다운로드|event_id.appguard.sdk_download_ios|NHN AppGuard|
-|보고서 다운로드|event_id.appguard.report_download|NHN AppGuard|
-|보호 작업|event_id.appguard.protection|NHN AppGuard|
-|난독화 신청|event_id.appguard.obfuscation_request|NHN AppGuard|
-|블랙리스트 추가|event_id.appguard.blacklist_add|NHN AppGuard|
-|블랙리스트 차단 해제|event_id.appguard.blacklist_delete|NHN AppGuard|
-|정책 수정|event_id.appguard.policy_update|NHN AppGuard|
+|Android SDK download|event_id.appguard.sdk_download_aos|NHN AppGuard|
+|iOS SDK download|event_id.appguard.sdk_download_ios|NHN AppGuard|
+|Report download|event_id.appguard.report_download|NHN AppGuard|
+|protection|event_id.appguard.protection|NHN AppGuard|
+|Obfuscation application|event_id.appguard.obfuscation_request|NHN AppGuard|
+|Blacklist addition|event_id.appguard.blacklist_add|NHN AppGuard|
+|Blacklist unblock|event_id.appguard.blacklist_delete|NHN AppGuard|
+|policy update|event_id.appguard.policy_update|NHN AppGuard|
 |Unity SDK download|event_id.appguard.sdk_download_unity|NHN AppGuard|
 |Create a URL|event_id.short_url.url_create|ShortURL|
 |Update a URL|event_id.short_url.url_update|ShortURL|
@@ -856,22 +856,49 @@
 |채널 태그 변경|event_id.GameTalk.channel_tag_update|GameTalk|
 |채널 태그 삭제|event_id.GameTalk.channel_tag_delete|GameTalk|
 |유저 삭제|event_id.GameTalk.user_delete|GameTalk|
-|유효성 검사 실패 다운로드|event_id.file_crafter.downloadValidationFailResultFile|File-Crafter|
+|노트북 생성|event_id.easymaker.notebook.create|AI EasyMaker Alpha|
+|노트북 변경|event_id.easymaker.notebook.update|AI EasyMaker Alpha|
+|노트북 삭제|event_id.easymaker.notebook.delete|AI EasyMaker Alpha|
+|노트북 중지|event_id.easymaker.notebook.stop|AI EasyMaker Alpha|
+|노트북 시작|event_id.easymaker.notebook.start|AI EasyMaker Alpha|
+|노트북 인스턴스 타입 변경|event_id.easymaker.notebook.resize|AI EasyMaker Alpha|
+|학습 생성|event_id.easymaker.training.create|AI EasyMaker Alpha|
+|학습 변경|event_id.easymaker.training.update|AI EasyMaker Alpha|
+|학습 중지|event_id.easymaker.training.stop|AI EasyMaker Alpha|
+|학습 삭제|event_id.easymaker.training.delete|AI EasyMaker Alpha|
+|실험 생성|event_id.easymaker.experiment.create|AI EasyMaker Alpha|
+|실험 삭제|event_id.easymaker.experiment.delete|AI EasyMaker Alpha|
+|모델 생성|event_id.easymaker.model.create|AI EasyMaker Alpha|
+|모델 변경|event_id.easymaker.model.update|AI EasyMaker Alpha|
+|모델 삭제|event_id.easymaker.model.delete|AI EasyMaker Alpha|
+|API Gateway 서비스 활성화|event_id.easymaker.enable_apigateway|AI EasyMaker Alpha|
+|엔드포인트 생성|event_id.easymaker.endpoint.create|AI EasyMaker Alpha|
+|엔드포인트 변경|event_id.easymaker.endpoint.update|AI EasyMaker Alpha|
+|엔드포인트 삭제|event_id.easymaker.endpoint.delete|AI EasyMaker Alpha|
+|엔드포인트 스테이지 생성|event_id.easymaker.endpoint_stage.create|AI EasyMaker Alpha|
+|엔드포인트 스테이지 변경|event_id.easymaker.endpoint_stage.update|AI EasyMaker Alpha|
+|엔드포인트 스테이지 삭제|event_id.easymaker.endpoint_stage.delete|AI EasyMaker Alpha|
+|엔드포인트 기본 스테이지 변경|event_id.easymaker.endpoint_stage.update_default_stage|AI EasyMaker Alpha|
+|모델 생성|event_id.easymaker.endpoint_model.create|AI EasyMaker Alpha|
+|모델 변경|event_id.easymaker.endpoint_model.update|AI EasyMaker Alpha|
+|모델 삭제|event_id.easymaker.endpoint_model.delete|AI EasyMaker Alpha|
+|Log&Crash Search 서비스 활성화|event_id.easymaker.enable_logandcrash|AI EasyMaker Alpha|
+|상품 활성화|event_id.file_crafter.enableProduct|File-Crafter|
+|상품 비활성화|event_id.file_crafter.disableProduct|File-Crafter|
 |Export 요청|event_id.file_crafter.requestExporting|File-Crafter|
+|Export 요청 목록 조회|event_id.file_crafter.getExportingRequests|File-Crafter|
+|Export 요청 조회|event_id.file_crafter.getExportFileRequest|File-Crafter|
+|Export 요청 카운트|event_id.file_crafter.countExportingRequest|File-Crafter|
 |Export 결과 파일 다운로드 URL 리다이렉트|event_id.file_crafter.redirectExportFileDownloadUrl|File-Crafter|
 |Export 결과 파일 다운로드 URL 조회|event_id.file_crafter.getExportFileDownloadUrl|File-Crafter|
-|Export 요청 카운트|event_id.file_crafter.countExportingRequest|File-Crafter|
-|Export 요청 조회|event_id.file_crafter.getExportFileRequest|File-Crafter|
-|Import 요청 목록 조회|event_id.file_crafter.getImportingRequests|File-Crafter|
-|Import 시작 요청|event_id.file_crafter.requestToStartImporting|File-Crafter|
-|상품 비활성화|event_id.file_crafter.disableProduct|File-Crafter|
-|Export 요청 목록 조회|event_id.file_crafter.getExportingRequests|File-Crafter|
-|스토리지 업로드 재수행 요청|event_id.file_crafter.requestToRetryStorageUploading|File-Crafter|
-|유효성 검사 실패 다운로드 URL 조회|event_id.file_crafter.getValidationFailResultFileDownloadUrl|File-Crafter|
-|Import 요청 카운트|event_id.file_crafter.countImportingRequest|File-Crafter|
-|Import 요청 조회|event_id.file_crafter.getImportingRequest|File-Crafter|
-|유효성 검사 성공 다운로드 URL 조회|event_id.file_crafter.getValidationSuccessResultFileDownloadUrl|File-Crafter|
-|상품 활성화|event_id.file_crafter.enableProduct|File-Crafter|
-|AWS 외부 업로드 유효성 검사|event_id.file_crafter.validateAwsCredentials|File-Crafter|
 |Import 요청|event_id.file_crafter.requestImporting|File-Crafter|
+|Import 요청 목록 조회|event_id.file_crafter.getImportingRequests|File-Crafter|
+|Import 요청 조회|event_id.file_crafter.getImportingRequest|File-Crafter|
+|Import 요청 카운트|event_id.file_crafter.countImportingRequest|File-Crafter|
+|Import 시작 요청|event_id.file_crafter.requestToStartImporting|File-Crafter|
+|스토리지 업로드 재수행 요청|event_id.file_crafter.requestToRetryStorageUploading|File-Crafter|
 |유효성 검사 성공 다운로드|event_id.file_crafter.downloadValidationSuccessResultFile|File-Crafter|
+|유효성 검사 성공 다운로드 URL 조회|event_id.file_crafter.getValidationSuccessResultFileDownloadUrl|File-Crafter|
+|유효성 검사 실패 다운로드|event_id.file_crafter.downloadValidationFailResultFile|File-Crafter|
+|유효성 검사 실패 다운로드 URL 조회|event_id.file_crafter.getValidationFailResultFileDownloadUrl|File-Crafter|
+|AWS 외부 업로드 유효성 검사|event_id.file_crafter.validateAwsCredentials|File-Crafter|
