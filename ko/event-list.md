@@ -856,49 +856,49 @@
 |채널 태그 변경|event_id.GameTalk.channel_tag_update|GameTalk|
 |채널 태그 삭제|event_id.GameTalk.channel_tag_delete|GameTalk|
 |유저 삭제|event_id.GameTalk.user_delete|GameTalk|
-|노트북 생성|event_id.easymaker.notebook.create|AI EasyMaker Alpha|
-|노트북 변경|event_id.easymaker.notebook.update|AI EasyMaker Alpha|
-|노트북 삭제|event_id.easymaker.notebook.delete|AI EasyMaker Alpha|
-|노트북 중지|event_id.easymaker.notebook.stop|AI EasyMaker Alpha|
-|노트북 시작|event_id.easymaker.notebook.start|AI EasyMaker Alpha|
-|노트북 인스턴스 타입 변경|event_id.easymaker.notebook.resize|AI EasyMaker Alpha|
-|학습 생성|event_id.easymaker.training.create|AI EasyMaker Alpha|
-|학습 변경|event_id.easymaker.training.update|AI EasyMaker Alpha|
-|학습 중지|event_id.easymaker.training.stop|AI EasyMaker Alpha|
-|학습 삭제|event_id.easymaker.training.delete|AI EasyMaker Alpha|
-|실험 생성|event_id.easymaker.experiment.create|AI EasyMaker Alpha|
-|실험 삭제|event_id.easymaker.experiment.delete|AI EasyMaker Alpha|
-|모델 생성|event_id.easymaker.model.create|AI EasyMaker Alpha|
-|모델 변경|event_id.easymaker.model.update|AI EasyMaker Alpha|
-|모델 삭제|event_id.easymaker.model.delete|AI EasyMaker Alpha|
-|API Gateway 서비스 활성화|event_id.easymaker.enable_apigateway|AI EasyMaker Alpha|
-|엔드포인트 생성|event_id.easymaker.endpoint.create|AI EasyMaker Alpha|
-|엔드포인트 변경|event_id.easymaker.endpoint.update|AI EasyMaker Alpha|
-|엔드포인트 삭제|event_id.easymaker.endpoint.delete|AI EasyMaker Alpha|
-|엔드포인트 스테이지 생성|event_id.easymaker.endpoint_stage.create|AI EasyMaker Alpha|
-|엔드포인트 스테이지 변경|event_id.easymaker.endpoint_stage.update|AI EasyMaker Alpha|
-|엔드포인트 스테이지 삭제|event_id.easymaker.endpoint_stage.delete|AI EasyMaker Alpha|
-|엔드포인트 기본 스테이지 변경|event_id.easymaker.endpoint_stage.update_default_stage|AI EasyMaker Alpha|
-|모델 생성|event_id.easymaker.endpoint_model.create|AI EasyMaker Alpha|
-|모델 변경|event_id.easymaker.endpoint_model.update|AI EasyMaker Alpha|
-|모델 삭제|event_id.easymaker.endpoint_model.delete|AI EasyMaker Alpha|
-|Log&Crash Search 서비스 활성화|event_id.easymaker.enable_logandcrash|AI EasyMaker Alpha|
 |상품 활성화|event_id.file_crafter.enableProduct|File-Crafter|
 |상품 비활성화|event_id.file_crafter.disableProduct|File-Crafter|
+|노트북 생성|event_id.easymaker.notebook.create|AI EasyMaker|
 |Export 요청|event_id.file_crafter.requestExporting|File-Crafter|
+|노트북 변경|event_id.easymaker.notebook.update|AI EasyMaker|
+|노트북 삭제|event_id.easymaker.notebook.delete|AI EasyMaker|
 |Export 요청 목록 조회|event_id.file_crafter.getExportingRequests|File-Crafter|
 |Export 요청 조회|event_id.file_crafter.getExportFileRequest|File-Crafter|
+|노트북 중지|event_id.easymaker.notebook.stop|AI EasyMaker|
 |Export 요청 카운트|event_id.file_crafter.countExportingRequest|File-Crafter|
+|노트북 시작|event_id.easymaker.notebook.start|AI EasyMaker|
 |Export 결과 파일 다운로드 URL 리다이렉트|event_id.file_crafter.redirectExportFileDownloadUrl|File-Crafter|
+|노트북 인스턴스 타입 변경|event_id.easymaker.notebook.resize|AI EasyMaker|
 |Export 결과 파일 다운로드 URL 조회|event_id.file_crafter.getExportFileDownloadUrl|File-Crafter|
+|학습 생성|event_id.easymaker.training.create|AI EasyMaker|
+|학습 변경|event_id.easymaker.training.update|AI EasyMaker|
 |Import 요청|event_id.file_crafter.requestImporting|File-Crafter|
 |Import 요청 목록 조회|event_id.file_crafter.getImportingRequests|File-Crafter|
+|학습 중지|event_id.easymaker.training.stop|AI EasyMaker|
+|학습 삭제|event_id.easymaker.training.delete|AI EasyMaker|
 |Import 요청 조회|event_id.file_crafter.getImportingRequest|File-Crafter|
+|실험 생성|event_id.easymaker.experiment.create|AI EasyMaker|
 |Import 요청 카운트|event_id.file_crafter.countImportingRequest|File-Crafter|
 |Import 시작 요청|event_id.file_crafter.requestToStartImporting|File-Crafter|
+|실험 삭제|event_id.easymaker.experiment.delete|AI EasyMaker|
+|모델 생성|event_id.easymaker.model.create|AI EasyMaker|
 |스토리지 업로드 재수행 요청|event_id.file_crafter.requestToRetryStorageUploading|File-Crafter|
+|모델 변경|event_id.easymaker.model.update|AI EasyMaker|
 |유효성 검사 성공 다운로드|event_id.file_crafter.downloadValidationSuccessResultFile|File-Crafter|
+|모델 삭제|event_id.easymaker.model.delete|AI EasyMaker|
 |유효성 검사 성공 다운로드 URL 조회|event_id.file_crafter.getValidationSuccessResultFileDownloadUrl|File-Crafter|
 |유효성 검사 실패 다운로드|event_id.file_crafter.downloadValidationFailResultFile|File-Crafter|
+|API Gateway 서비스 활성화|event_id.easymaker.enable_apigateway|AI EasyMaker|
 |유효성 검사 실패 다운로드 URL 조회|event_id.file_crafter.getValidationFailResultFileDownloadUrl|File-Crafter|
+|엔드포인트 생성|event_id.easymaker.endpoint.create|AI EasyMaker|
+|엔드포인트 변경|event_id.easymaker.endpoint.update|AI EasyMaker|
 |AWS 외부 업로드 유효성 검사|event_id.file_crafter.validateAwsCredentials|File-Crafter|
+|엔드포인트 삭제|event_id.easymaker.endpoint.delete|AI EasyMaker|
+|엔드포인트 스테이지 생성|event_id.easymaker.endpoint_stage.create|AI EasyMaker|
+|엔드포인트 스테이지 변경|event_id.easymaker.endpoint_stage.update|AI EasyMaker|
+|엔드포인트 스테이지 삭제|event_id.easymaker.endpoint_stage.delete|AI EasyMaker|
+|엔드포인트 기본 스테이지 변경|event_id.easymaker.endpoint_stage.update_default_stage|AI EasyMaker|
+|엔드포인트 모델 생성|event_id.easymaker.endpoint_model.create|AI EasyMaker|
+|엔드포인트 모델 변경|event_id.easymaker.endpoint_model.update|AI EasyMaker|
+|엔드포인트 모델 삭제|event_id.easymaker.endpoint_model.delete|AI EasyMaker|
+|Log&Crash Search 서비스 활성화|event_id.easymaker.enable_logandcrash|AI EasyMaker|
