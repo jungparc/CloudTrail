@@ -2,7 +2,7 @@
 
 ### 2023. 02. 28.
 #### More Events
-* Added events related to AI EasyMaker Alpha.
+* Added events related to AI EasyMaker.
 
 ### 2023. 01. 31.
 #### More Events
