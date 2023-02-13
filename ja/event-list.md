@@ -856,9 +856,7 @@
 |채널 태그 변경|event_id.GameTalk.channel_tag_update|GameTalk|
 |채널 태그 삭제|event_id.GameTalk.channel_tag_delete|GameTalk|
 |유저 삭제|event_id.GameTalk.user_delete|GameTalk|
-|bb|event_id.test.test_aa|test|
 |상품 활성화|event_id.file_crafter.enableProduct|File-Crafter|
-|aa|event_id.test.test|test|
 |상품 비활성화|event_id.file_crafter.disableProduct|File-Crafter|
 |ノートパソコンの作成|event_id.easymaker.notebook.create|AI EasyMaker|
 |Export 요청|event_id.file_crafter.requestExporting|File-Crafter|
