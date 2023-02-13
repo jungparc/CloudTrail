@@ -178,7 +178,7 @@
 |키 저장소 삭제|event_id.skm.keystore.delete|Secure Key Manager|
 |키 저장소 정보 변경|event_id.skm.keystore.update|Secure Key Manager|
 |기밀 데이터 생성|event_id.skm.secret.create|Secure Key Manager|
-|기밀 데이터 삭제|event_id.skm.secret.delete|Secure Key Manager|
+|기밀 데이터 즉시 삭제|event_id.skm.secret.delete|Secure Key Manager|
 |기밀 데이터 삭제 요청|event_id.skm.secret.delete_request|Secure Key Manager|
 |기밀 데이터 삭제 요청 취소|event_id.skm.secret.delete_request_cancel|Secure Key Manager|
 |기밀 데이터 정보 변경|event_id.skm.secret.update|Secure Key Manager|
@@ -468,3 +468,22 @@
 |스테이지에 도메인 별칭 연결 해제|event_id.apigw.stage.disconnect_alias_domain|API Gateway|
 |로그 저장/다운로드 설정 삭제|event_id.cloud_trail.delete_log_save_download_config|CloudTrail|
 |로그 저장/다운로드 설정|event_id.cloud_trail.set_log_save_download_config|CloudTrail|
+|리소스 그룹 삭제|event_id.resource_watcher.resource_group.delete|Resource Watcher|
+|리소스 태그 수정|event_id.resource_watcher.resource_tag.update|Resource Watcher|
+|리소스 그룹 생성|event_id.resource_watcher.resource_group.create|Resource Watcher|
+|알림 삭제|event_id.resource_watcher.alarm.delete|Resource Watcher|
+|리소스 수정|event_id.resource_watcher.resource.update|Resource Watcher|
+|리소스 그룹 관계 삭제|event_id.resource_watcher.resource_group_relation.delete|Resource Watcher|
+|리소스 태그 관계 수정|event_id.resource_watcher.resource_tag_relation.update|Resource Watcher|
+|알림 상태 변경|event_id.resource_watcher.alarm.change_status|Resource Watcher|
+|리소스 생성|event_id.resource_watcher.resource.create|Resource Watcher|
+|리소스 태그 관계 추가|event_id.resource_watcher.resource_tag_relation.create|Resource Watcher|
+|리소스 그룹 관계 수정|event_id.resource_watcher.resource_group_relation.update|Resource Watcher|
+|리소스 삭제|event_id.resource_watcher.resource.delete|Resource Watcher|
+|알림 수정|event_id.resource_watcher.alarm.update|Resource Watcher|
+|리소스 태그 삭제|event_id.resource_watcher.resource_tag.delete|Resource Watcher|
+|리소스 그룹 수정|event_id.resource_watcher.resource_group.update|Resource Watcher|
+|리소스 태그 관계 삭제|event_id.resource_watcher.resource_tag_relation.delete|Resource Watcher|
+|알림 생성|event_id.resource_watcher.alarm.create|Resource Watcher|
+|리소스 태그 생성|event_id.resource_watcher.resource_tag.create|Resource Watcher|
+|리소스 그룹 관계 추가|event_id.resource_watcher.resource_group_relation.create|Resource Watcher|
