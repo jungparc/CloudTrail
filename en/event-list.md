@@ -735,6 +735,7 @@
 |Confirm Sending FriendTalk Mass Messages|event_id.friendtalk.mass.message.confirm-send-request|KakaoTalk Bizmessage|
 |Upload Friendtalk Image|event_id.friendtalk.image.uploading|KakaoTalk Bizmessage|
 |Delete Friendtalk Image|event_id.friendtalk.image.deletion|KakaoTalk Bizmessage|
+|Upload Friendtalk bizFormId|event_id.friendtalk.upload.biz-form-id|KakaoTalk Bizmessage|
 |Create API Key|event_id.apigw.apikey.create|API Gateway|
 |Modify API Key|event_id.apigw.apikey.update|API Gateway|
 |Delete API Key|event_id.apigw.apikey.delete|API Gateway|
@@ -867,21 +868,13 @@
 |서버 종료|event_id.gameanvil.instance_action.stop|GameAnvil|
 |오토스케일링 그룹 생성|event_id.gameanvil.autoscale.create|GameAnvil|
 |오토스케일링 그룹 삭제|event_id.gameanvil.autoscale.delete|GameAnvil|
-|오토스케일링 그룹 수정|event_id.gameanvil.autoscale.update|GameAnvil|
+|오토스케일링 그룹 정보 변경|event_id.gameanvil.autoscale.update|GameAnvil|
 |오토스케일링 그룹 시작|event_id.gameanvil.autoscale.start|GameAnvil|
 |오토스케일링 그룹 종료|event_id.gameanvil.autoscale.end|GameAnvil|
-|GATEWAY 노드 추가|event_id.gameanvil.gateway_node.create|GameAnvil|
-|GATEWAY 노드 삭제|event_id.gameanvil.gateway_node.delete|GameAnvil|
 |GATEWAY 노드 RESUME|event_id.gameanvil.gateway_node.resume|GameAnvil|
 |GATEWAY 노드 PAUSE|event_id.gameanvil.gateway_node.pause|GameAnvil|
-|GAME 노드 추가|event_id.gameanvil.game_node.create|GameAnvil|
-|GAME 노드 삭제|event_id.gameanvil.game_node.delete|GameAnvil|
 |GAME 노드 RESUME|event_id.gameanvil.game_node.resume|GameAnvil|
 |GAME 노드 PAUSE|event_id.gameanvil.game_node.pause|GameAnvil|
-|MATCH 노드 추가|event_id.gameanvil.match_node.create|GameAnvil|
-|MATCH 노드 삭제|event_id.gameanvil.match_node.delete|GameAnvil|
-|SUPPORT 노드 추가|event_id.gameanvil.support_node.create|GameAnvil|
-|SUPPORT 노드 삭제|event_id.gameanvil.support_node.delete|GameAnvil|
 |SUPPORT 노드 RESUME|event_id.gameanvil.support_node.resume|GameAnvil|
 |SUPPORT 노드 PAUSE|event_id.gameanvil.support_node.pause|GameAnvil|
 |배포 파일 업로드|event_id.gameanvil.deployfile.upload|GameAnvil|
@@ -899,20 +892,47 @@
 |Safe Pause 강제 종료|event_id.gameanvil.safe_pause.force_stop|GameAnvil|
 |상품 활성화|event_id.file_crafter.enableProduct|File-Crafter|
 |상품 비활성화|event_id.file_crafter.disableProduct|File-Crafter|
+|Create Notebook|event_id.easymaker.notebook.create|AI EasyMaker|
 |Export 요청|event_id.file_crafter.requestExporting|File-Crafter|
+|Change Notebook|event_id.easymaker.notebook.update|AI EasyMaker|
+|Delete Notebook|event_id.easymaker.notebook.delete|AI EasyMaker|
 |Export 요청 목록 조회|event_id.file_crafter.getExportingRequests|File-Crafter|
 |Export 요청 조회|event_id.file_crafter.getExportFileRequest|File-Crafter|
+|Stop Notebook|event_id.easymaker.notebook.stop|AI EasyMaker|
 |Export 요청 카운트|event_id.file_crafter.countExportingRequest|File-Crafter|
+|Start Notebook|event_id.easymaker.notebook.start|AI EasyMaker|
 |Export 결과 파일 다운로드 URL 리다이렉트|event_id.file_crafter.redirectExportFileDownloadUrl|File-Crafter|
+|Change Notebook Instance Flavor|event_id.easymaker.notebook.resize|AI EasyMaker|
 |Export 결과 파일 다운로드 URL 조회|event_id.file_crafter.getExportFileDownloadUrl|File-Crafter|
+|Create Training|event_id.easymaker.training.create|AI EasyMaker|
+|Change Training|event_id.easymaker.training.update|AI EasyMaker|
 |Import 요청|event_id.file_crafter.requestImporting|File-Crafter|
 |Import 요청 목록 조회|event_id.file_crafter.getImportingRequests|File-Crafter|
+|Stop Training|event_id.easymaker.training.stop|AI EasyMaker|
+|Delete Training|event_id.easymaker.training.delete|AI EasyMaker|
 |Import 요청 조회|event_id.file_crafter.getImportingRequest|File-Crafter|
+|Create Experiment|event_id.easymaker.experiment.create|AI EasyMaker|
 |Import 요청 카운트|event_id.file_crafter.countImportingRequest|File-Crafter|
 |Import 시작 요청|event_id.file_crafter.requestToStartImporting|File-Crafter|
+|Delete Experiment|event_id.easymaker.experiment.delete|AI EasyMaker|
+|Create Model|event_id.easymaker.model.create|AI EasyMaker|
 |스토리지 업로드 재수행 요청|event_id.file_crafter.requestToRetryStorageUploading|File-Crafter|
+|Change Model|event_id.easymaker.model.update|AI EasyMaker|
 |유효성 검사 성공 다운로드|event_id.file_crafter.downloadValidationSuccessResultFile|File-Crafter|
+|Delete Model|event_id.easymaker.model.delete|AI EasyMaker|
 |유효성 검사 성공 다운로드 URL 조회|event_id.file_crafter.getValidationSuccessResultFileDownloadUrl|File-Crafter|
 |유효성 검사 실패 다운로드|event_id.file_crafter.downloadValidationFailResultFile|File-Crafter|
+|Enable API Gateway Service|event_id.easymaker.enable_apigateway|AI EasyMaker|
 |유효성 검사 실패 다운로드 URL 조회|event_id.file_crafter.getValidationFailResultFileDownloadUrl|File-Crafter|
+|Create Endpoint|event_id.easymaker.endpoint.create|AI EasyMaker|
+|Change Endpoint|event_id.easymaker.endpoint.update|AI EasyMaker|
 |AWS 외부 업로드 유효성 검사|event_id.file_crafter.validateAwsCredentials|File-Crafter|
+|Delete Endpoint|event_id.easymaker.endpoint.delete|AI EasyMaker|
+|Create Endpoint Stage|event_id.easymaker.endpoint_stage.create|AI EasyMaker|
+|Change Endpoint Stage|event_id.easymaker.endpoint_stage.update|AI EasyMaker|
+|Delete Endpoint Stage|event_id.easymaker.endpoint_stage.delete|AI EasyMaker|
+|Change Endpoint Default Stage|event_id.easymaker.endpoint_stage.update_default_stage|AI EasyMaker|
+|Create Endpoint Model|event_id.easymaker.endpoint_model.create|AI EasyMaker|
+|Change Endpoint Model|event_id.easymaker.endpoint_model.update|AI EasyMaker|
+|Delete Endpoint Model|event_id.easymaker.endpoint_model.delete|AI EasyMaker|
+|Enable Log&Crash Search Service|event_id.easymaker.enable_logandcrash|AI EasyMaker|
