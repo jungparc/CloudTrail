@@ -909,7 +909,6 @@
 |유효성 검사 실패 다운로드|event_id.file_crafter.downloadValidationFailResultFile|File-Crafter|
 |유효성 검사 실패 다운로드 URL 조회|event_id.file_crafter.getValidationFailResultFileDownloadUrl|File-Crafter|
 |AWS 외부 업로드 유효성 검사|event_id.file_crafter.validateAwsCredentials|File-Crafter|
-|学習の削除|event_id.easymaker.training.delete|AI EasyMaker|
 |ノートパソコンの作成|event_id.easymaker.notebook.create|AI EasyMaker|
 |ノートパソコンの変更|event_id.easymaker.notebook.update|AI EasyMaker|
 |ノートパソコンの削除|event_id.easymaker.notebook.delete|AI EasyMaker|
@@ -919,6 +918,7 @@
 |学習の作成|event_id.easymaker.training.create|AI EasyMaker|
 |学習の変更|event_id.easymaker.training.update|AI EasyMaker|
 |学習の停止|event_id.easymaker.training.stop|AI EasyMaker|
+|学習の削除|event_id.easymaker.training.delete|AI EasyMaker|
 |実験の作成|event_id.easymaker.experiment.create|AI EasyMaker|
 |実験の削除|event_id.easymaker.experiment.delete|AI EasyMaker|
 |モデルの作成|event_id.easymaker.model.create|AI EasyMaker|
