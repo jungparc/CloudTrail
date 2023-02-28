@@ -909,7 +909,6 @@
 |유효성 검사 실패 다운로드|event_id.file_crafter.downloadValidationFailResultFile|File-Crafter|
 |유효성 검사 실패 다운로드 URL 조회|event_id.file_crafter.getValidationFailResultFileDownloadUrl|File-Crafter|
 |AWS 외부 업로드 유효성 검사|event_id.file_crafter.validateAwsCredentials|File-Crafter|
-|Delete Training|event_id.easymaker.training.delete|AI EasyMaker|
 |Create Notebook|event_id.easymaker.notebook.create|AI EasyMaker|
 |Change Notebook|event_id.easymaker.notebook.update|AI EasyMaker|
 |Delete Notebook|event_id.easymaker.notebook.delete|AI EasyMaker|
@@ -919,6 +918,7 @@
 |Create Training|event_id.easymaker.training.create|AI EasyMaker|
 |Change Training|event_id.easymaker.training.update|AI EasyMaker|
 |Stop Training|event_id.easymaker.training.stop|AI EasyMaker|
+|Delete Training|event_id.easymaker.training.delete|AI EasyMaker|
 |Create Experiment|event_id.easymaker.experiment.create|AI EasyMaker|
 |Delete Experiment|event_id.easymaker.experiment.delete|AI EasyMaker|
 |Create Model|event_id.easymaker.model.create|AI EasyMaker|
