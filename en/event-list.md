@@ -892,41 +892,41 @@
 |Safe Pause 강제 종료|event_id.gameanvil.safe_pause.force_stop|GameAnvil|
 |상품 활성화|event_id.file_crafter.enableProduct|File-Crafter|
 |상품 비활성화|event_id.file_crafter.disableProduct|File-Crafter|
-|Create Notebook|event_id.easymaker.notebook.create|AI EasyMaker|
 |Export 요청|event_id.file_crafter.requestExporting|File-Crafter|
-|Change Notebook|event_id.easymaker.notebook.update|AI EasyMaker|
-|Delete Notebook|event_id.easymaker.notebook.delete|AI EasyMaker|
 |Export 요청 목록 조회|event_id.file_crafter.getExportingRequests|File-Crafter|
 |Export 요청 조회|event_id.file_crafter.getExportFileRequest|File-Crafter|
-|Stop Notebook|event_id.easymaker.notebook.stop|AI EasyMaker|
 |Export 요청 카운트|event_id.file_crafter.countExportingRequest|File-Crafter|
-|Start Notebook|event_id.easymaker.notebook.start|AI EasyMaker|
 |Export 결과 파일 다운로드 URL 리다이렉트|event_id.file_crafter.redirectExportFileDownloadUrl|File-Crafter|
-|Change Notebook Instance Flavor|event_id.easymaker.notebook.resize|AI EasyMaker|
 |Export 결과 파일 다운로드 URL 조회|event_id.file_crafter.getExportFileDownloadUrl|File-Crafter|
-|Create Training|event_id.easymaker.training.create|AI EasyMaker|
-|Change Training|event_id.easymaker.training.update|AI EasyMaker|
 |Import 요청|event_id.file_crafter.requestImporting|File-Crafter|
 |Import 요청 목록 조회|event_id.file_crafter.getImportingRequests|File-Crafter|
-|Stop Training|event_id.easymaker.training.stop|AI EasyMaker|
-|Delete Training|event_id.easymaker.training.delete|AI EasyMaker|
 |Import 요청 조회|event_id.file_crafter.getImportingRequest|File-Crafter|
-|Create Experiment|event_id.easymaker.experiment.create|AI EasyMaker|
 |Import 요청 카운트|event_id.file_crafter.countImportingRequest|File-Crafter|
 |Import 시작 요청|event_id.file_crafter.requestToStartImporting|File-Crafter|
-|Delete Experiment|event_id.easymaker.experiment.delete|AI EasyMaker|
-|Create Model|event_id.easymaker.model.create|AI EasyMaker|
 |스토리지 업로드 재수행 요청|event_id.file_crafter.requestToRetryStorageUploading|File-Crafter|
-|Change Model|event_id.easymaker.model.update|AI EasyMaker|
 |유효성 검사 성공 다운로드|event_id.file_crafter.downloadValidationSuccessResultFile|File-Crafter|
-|Delete Model|event_id.easymaker.model.delete|AI EasyMaker|
 |유효성 검사 성공 다운로드 URL 조회|event_id.file_crafter.getValidationSuccessResultFileDownloadUrl|File-Crafter|
 |유효성 검사 실패 다운로드|event_id.file_crafter.downloadValidationFailResultFile|File-Crafter|
-|Enable API Gateway Service|event_id.easymaker.enable_apigateway|AI EasyMaker|
 |유효성 검사 실패 다운로드 URL 조회|event_id.file_crafter.getValidationFailResultFileDownloadUrl|File-Crafter|
+|AWS 외부 업로드 유효성 검사|event_id.file_crafter.validateAwsCredentials|File-Crafter|
+|Delete Training|event_id.easymaker.training.delete|AI EasyMaker|
+|Create Notebook|event_id.easymaker.notebook.create|AI EasyMaker|
+|Change Notebook|event_id.easymaker.notebook.update|AI EasyMaker|
+|Delete Notebook|event_id.easymaker.notebook.delete|AI EasyMaker|
+|Stop Notebook|event_id.easymaker.notebook.stop|AI EasyMaker|
+|Start Notebook|event_id.easymaker.notebook.start|AI EasyMaker|
+|Change Notebook Instance Flavor|event_id.easymaker.notebook.resize|AI EasyMaker|
+|Create Training|event_id.easymaker.training.create|AI EasyMaker|
+|Change Training|event_id.easymaker.training.update|AI EasyMaker|
+|Stop Training|event_id.easymaker.training.stop|AI EasyMaker|
+|Create Experiment|event_id.easymaker.experiment.create|AI EasyMaker|
+|Delete Experiment|event_id.easymaker.experiment.delete|AI EasyMaker|
+|Create Model|event_id.easymaker.model.create|AI EasyMaker|
+|Change Model|event_id.easymaker.model.update|AI EasyMaker|
+|Delete Model|event_id.easymaker.model.delete|AI EasyMaker|
+|Enable API Gateway Service|event_id.easymaker.enable_apigateway|AI EasyMaker|
 |Create Endpoint|event_id.easymaker.endpoint.create|AI EasyMaker|
 |Change Endpoint|event_id.easymaker.endpoint.update|AI EasyMaker|
-|AWS 외부 업로드 유효성 검사|event_id.file_crafter.validateAwsCredentials|File-Crafter|
 |Delete Endpoint|event_id.easymaker.endpoint.delete|AI EasyMaker|
 |Create Endpoint Stage|event_id.easymaker.endpoint_stage.create|AI EasyMaker|
 |Change Endpoint Stage|event_id.easymaker.endpoint_stage.update|AI EasyMaker|
