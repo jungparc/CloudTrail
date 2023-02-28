@@ -1,5 +1,14 @@
 ## CloudTrail > Release Notes
 
+### 2023. 02. 28.
+#### More Events
+* Added events related to AI EasyMaker.
+
+### 2023. 02. 14.
+#### More Events
+* Added events related to KakaoTalk Bizmessage.
+* Added events related to GameAnvil.
+
 ### 2023. 01. 31.
 #### More Events
 * Added events related to File-Crafter.
