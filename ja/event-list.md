@@ -892,41 +892,41 @@
 |Safe Pause 강제 종료|event_id.gameanvil.safe_pause.force_stop|GameAnvil|
 |상품 활성화|event_id.file_crafter.enableProduct|File-Crafter|
 |상품 비활성화|event_id.file_crafter.disableProduct|File-Crafter|
-|ノートパソコンの作成|event_id.easymaker.notebook.create|AI EasyMaker|
 |Export 요청|event_id.file_crafter.requestExporting|File-Crafter|
-|ノートパソコンの変更|event_id.easymaker.notebook.update|AI EasyMaker|
-|ノートパソコンの削除|event_id.easymaker.notebook.delete|AI EasyMaker|
 |Export 요청 목록 조회|event_id.file_crafter.getExportingRequests|File-Crafter|
 |Export 요청 조회|event_id.file_crafter.getExportFileRequest|File-Crafter|
-|ノートパソコンの停止|event_id.easymaker.notebook.stop|AI EasyMaker|
 |Export 요청 카운트|event_id.file_crafter.countExportingRequest|File-Crafter|
-|ノートパソコンの起動|event_id.easymaker.notebook.start|AI EasyMaker|
 |Export 결과 파일 다운로드 URL 리다이렉트|event_id.file_crafter.redirectExportFileDownloadUrl|File-Crafter|
-|ノートパソコンインスタンスタイプの変更|event_id.easymaker.notebook.resize|AI EasyMaker|
 |Export 결과 파일 다운로드 URL 조회|event_id.file_crafter.getExportFileDownloadUrl|File-Crafter|
-|学習の作成|event_id.easymaker.training.create|AI EasyMaker|
-|学習の変更|event_id.easymaker.training.update|AI EasyMaker|
 |Import 요청|event_id.file_crafter.requestImporting|File-Crafter|
 |Import 요청 목록 조회|event_id.file_crafter.getImportingRequests|File-Crafter|
-|学習の停止|event_id.easymaker.training.stop|AI EasyMaker|
-|学習の削除|event_id.easymaker.training.delete|AI EasyMaker|
 |Import 요청 조회|event_id.file_crafter.getImportingRequest|File-Crafter|
-|実験の作成|event_id.easymaker.experiment.create|AI EasyMaker|
 |Import 요청 카운트|event_id.file_crafter.countImportingRequest|File-Crafter|
 |Import 시작 요청|event_id.file_crafter.requestToStartImporting|File-Crafter|
-|実験の削除|event_id.easymaker.experiment.delete|AI EasyMaker|
-|モデルの作成|event_id.easymaker.model.create|AI EasyMaker|
 |스토리지 업로드 재수행 요청|event_id.file_crafter.requestToRetryStorageUploading|File-Crafter|
-|モデルの変更|event_id.easymaker.model.update|AI EasyMaker|
 |유효성 검사 성공 다운로드|event_id.file_crafter.downloadValidationSuccessResultFile|File-Crafter|
-|モデルの削除|event_id.easymaker.model.delete|AI EasyMaker|
 |유효성 검사 성공 다운로드 URL 조회|event_id.file_crafter.getValidationSuccessResultFileDownloadUrl|File-Crafter|
 |유효성 검사 실패 다운로드|event_id.file_crafter.downloadValidationFailResultFile|File-Crafter|
-|API Gatewayサービスの有効化|event_id.easymaker.enable_apigateway|AI EasyMaker|
 |유효성 검사 실패 다운로드 URL 조회|event_id.file_crafter.getValidationFailResultFileDownloadUrl|File-Crafter|
+|AWS 외부 업로드 유효성 검사|event_id.file_crafter.validateAwsCredentials|File-Crafter|
+|学習の削除|event_id.easymaker.training.delete|AI EasyMaker|
+|ノートパソコンの作成|event_id.easymaker.notebook.create|AI EasyMaker|
+|ノートパソコンの変更|event_id.easymaker.notebook.update|AI EasyMaker|
+|ノートパソコンの削除|event_id.easymaker.notebook.delete|AI EasyMaker|
+|ノートパソコンの停止|event_id.easymaker.notebook.stop|AI EasyMaker|
+|ノートパソコンの起動|event_id.easymaker.notebook.start|AI EasyMaker|
+|ノートパソコンインスタンスタイプの変更|event_id.easymaker.notebook.resize|AI EasyMaker|
+|学習の作成|event_id.easymaker.training.create|AI EasyMaker|
+|学習の変更|event_id.easymaker.training.update|AI EasyMaker|
+|学習の停止|event_id.easymaker.training.stop|AI EasyMaker|
+|実験の作成|event_id.easymaker.experiment.create|AI EasyMaker|
+|実験の削除|event_id.easymaker.experiment.delete|AI EasyMaker|
+|モデルの作成|event_id.easymaker.model.create|AI EasyMaker|
+|モデルの変更|event_id.easymaker.model.update|AI EasyMaker|
+|モデルの削除|event_id.easymaker.model.delete|AI EasyMaker|
+|API Gatewayサービスの有効化|event_id.easymaker.enable_apigateway|AI EasyMaker|
 |エンドポイントの作成|event_id.easymaker.endpoint.create|AI EasyMaker|
 |エンドポイントの変更|event_id.easymaker.endpoint.update|AI EasyMaker|
-|AWS 외부 업로드 유효성 검사|event_id.file_crafter.validateAwsCredentials|File-Crafter|
 |エンドポイントの削除|event_id.easymaker.endpoint.delete|AI EasyMaker|
 |エンドポイントステージの作成|event_id.easymaker.endpoint_stage.create|AI EasyMaker|
 |エンドポイントステージの変更|event_id.easymaker.endpoint_stage.update|AI EasyMaker|
