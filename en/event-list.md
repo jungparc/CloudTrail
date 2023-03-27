@@ -93,7 +93,9 @@
 |Delete Cluster|event_id.iaas.cluster.delete|Default Infrastructure Service|
 |Change Cluster OWNER|event_id.iaas.cluster.handover|Default Infrastructure Service|
 |Change Autoscaler Settings|event_id.iaas.cluster.update_autoscale|Default Infrastructure Service|
+|Change CNI|event_id.iaas.cluster.cni_update|Default Infrastructure Service|
 |Create Node Group|event_id.iaas.nodegroup.create|Default Infrastructure Service|
+|Modify Node Group|event_id.iaas.nodegroup.update|Default Infrastructure Service|
 |Delete Node Group|event_id.iaas.nodegroup.delete|Default Infrastructure Service|
 |Start Worker Node|event_id.iaas.nodegroup.start_node|Default Infrastructure Service|
 |Stop Worker Node|event_id.iaas.nodegroup.stop_node|Default Infrastructure Service|
@@ -115,6 +117,15 @@
 |Create Project to Allow|event_id.iaas.peering_allow_project.create|Default Infrastructure Service|
 |Change Project to Allow|event_id.iaas.peering_allow_project.update|Default Infrastructure Service|
 |Delete Project to Allow|event_id.iaas.peering_allow_project.delete|Default Infrastructure Service|
+|Create Traffic Mirroring Session|event_id.iaas.traffic_mirroring.session.create|Default Infrastructure Service|
+|Change Traffic Mirroring Session|event_id.iaas.traffic_mirroring.session.update|Default Infrastructure Service|
+|Delete Traffic Mirroring Session|event_id.iaas.traffic_mirroring.session.delete|Default Infrastructure Service|
+|Create Traffic Mirroring Filter Group|event_id.iaas.traffic_mirroring.filter_group.create|Default Infrastructure Service|
+|Change Traffic Mirroring Filter Group|event_id.iaas.traffic_mirroring.filter_group.update|Default Infrastructure Service|
+|Delete Traffic Mirroring Filter Group|event_id.iaas.traffic_mirroring.filter_group.delete|Default Infrastructure Service|
+|Create Traffic Mirroring Filter|event_id.iaas.traffic_mirroring.filter.create|Default Infrastructure Service|
+|Change Traffic Mirroring Filter|event_id.iaas.traffic_mirroring.filter.update|Default Infrastructure Service|
+|Delete Traffic Mirroring Filter|event_id.iaas.traffic_mirroring.filter.delete|Default Infrastructure Service|
 |Create S3 API Credentials|event_id.iaas.s3credential.create|Default Infrastructure Service|
 |Delete S3 API Credentials|event_id.iaas.s3credential.delete|Default Infrastructure Service|
 |Create Subnet Static Route|event_id.iaas.vpc_subnet_route.create|Default Infrastructure Service|
@@ -689,12 +700,20 @@
 |Request indexing|event_id.ai_fashion.maker.index|AI Fashion|
 |Check service information|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
 |Check indexing request status|event_id.ai_fashion.maker.indexstatus|AI Fashion|
-|Request analysis of business registration certificate|event_id.ai_document_recognizer.business.analyze|Document Recognizer|
-|Request analysis of credit card|event_id.ai_document_recognizer.credit_card.analyze|Document Recognizer|
-|Submit a service use request|event_id.ai_document_recognizer.service_use_request.submit|Document Recognizer|
-|Cancel a service use request|event_id.ai_document_recognizer.service_use_request.cancel|Document Recognizer|
-|Request for Analyzing ID Card|event_id.ai_document_recognizer.id_card.analyze|Document Recognizer|
-|Request for ID Verification|event_id.ai_document_recognizer.id_card.authenticity|Document Recognizer|
+|Request analysis of business registration certificate|event_id.ai_document_recognizer.business.analyze|OCR|
+|Request analysis of credit card|event_id.ai_document_recognizer.credit_card.analyze|OCR|
+|Submit a service use request|event_id.ai_document_recognizer.service_use_request.submit|OCR|
+|Cancel a service use request|event_id.ai_document_recognizer.service_use_request.cancel|OCR|
+|Request for Analyzing ID Card|event_id.ai_document_recognizer.id_card.analyze|OCR|
+|Request for ID Verification|event_id.ai_document_recognizer.id_card.authenticity|OCR|
+|General OCR 이미지 분석 요청|event_id.ocr.general_ocr.analyze|OCR|
+|Document OCR 서비스 이용 신청|event_id.ocr.document_ocr.service_use_request.submit|OCR|
+|Document OCR 서비스 이용 신청 취소|event_id.ocr.document_ocr.service_use_request.cancel|OCR|
+|Document OCR 사업자 등록증 분석 요청|event_id.ocr.document_ocr.business.analyze|OCR|
+|Document OCR 신용카드 분석 요청|event_id.ocr.document_ocr.credit_card.analyze|OCR|
+|Document OCR 신분증 분석 요청|event_id.ocr.document_ocr.id_card.analyze|OCR|
+|Document OCR 신분증 진위 확인 요청|event_id.ocr.document_ocr.id_card.authenticity|OCR|
+|Vehicle Plate OCR 차량 번호판 분석 요청|event_id.ocr.vehicle_plate_ocr.analyze|OCR|
 |Request analysis of car license plate|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|
 |Create Sender Profile|event_id.kakaotalk.sender.creation|KakaoTalk Bizmessage|
 |Certify Sender Profile Token|event_id.kakaotalk.sender.token.certification|KakaoTalk Bizmessage|
@@ -857,8 +876,6 @@
 |채널 태그 변경|event_id.GameTalk.channel_tag_update|GameTalk|
 |채널 태그 삭제|event_id.GameTalk.channel_tag_delete|GameTalk|
 |유저 삭제|event_id.GameTalk.user_delete|GameTalk|
-|프로젝트 서비스 활성화|event_id.gameanvil.project.product.enable|GameAnvil|
-|프로젝트 서비스 비활성화|event_id.gameanvil.project.product.disable|GameAnvil|
 |서버 생성|event_id.gameanvil.instance.create|GameAnvil|
 |서버 삭제|event_id.gameanvil.instance.delete|GameAnvil|
 |서버 복사|event_id.gameanvil.instance.copy|GameAnvil|
@@ -870,7 +887,7 @@
 |오토스케일링 그룹 삭제|event_id.gameanvil.autoscale.delete|GameAnvil|
 |오토스케일링 그룹 정보 변경|event_id.gameanvil.autoscale.update|GameAnvil|
 |오토스케일링 그룹 시작|event_id.gameanvil.autoscale.start|GameAnvil|
-|오토스케일링 그룹 종료|event_id.gameanvil.autoscale.end|GameAnvil|
+|오토스케일링 그룹 종료|event_id.gameanvil.autoscale.stop|GameAnvil|
 |GATEWAY 노드 RESUME|event_id.gameanvil.gateway_node.resume|GameAnvil|
 |GATEWAY 노드 PAUSE|event_id.gameanvil.gateway_node.pause|GameAnvil|
 |GAME 노드 RESUME|event_id.gameanvil.game_node.resume|GameAnvil|
@@ -890,7 +907,28 @@
 |Safe Pause 노드 변경|event_id.gameanvil.safe_pause.update|GameAnvil|
 |Safe Pause 노드 삭제|event_id.gameanvil.safe_pause.delete|GameAnvil|
 |Safe Pause 강제 종료|event_id.gameanvil.safe_pause.force_stop|GameAnvil|
+|Standard 상품 선택|event_id.gameanvil.standard.select|GameAnvil|
+|Premium 상품 선택|event_id.gameanvil.premium.select|GameAnvil|
+|수신거부 서비스 공유|event_id.sms.share_block_service|SMS|
+|파일 다운로드|event_id.sms.download_reserved_file|SMS|
+|대량 수신자 파일 다운로드 예약|event_id.sms.reserve_download_mass_message|SMS|
+|대량 발송 취소|event_id.sms.cancel_mass_message|SMS|
+|카테고리 등록|event_id.sms.add_category|SMS|
+|수신거부 서비스 제거|event_id.sms.remove_block_service|SMS|
+|일반 수신자 파일 다운로드 예약|event_id.sms.reserve_download_normal_message|SMS|
+|수신 거부자 파일 다운로드 예약|event_id.sms.reserve_download_block_recipient|SMS|
+|태그 수신자 파일 다운로드 예약|event_id.sms.reserve_download_tag_message|SMS|
+|템플릿 삭제|event_id.sms.remove_template|SMS|
+|본인 인증 요청|event_id.sms.request_self_verification|SMS|
+|발송 설정 수정|event_id.sms.update_send_config|SMS|
+|수신거부 서비스 공유 해지|event_id.sms.cancel_share_block_service|SMS|
+|대량 발송 수신자 파일 업로드|event_id.sms.upload_mass_message_recipient|SMS|
+|발신 번호 인증 요청|event_id.sms.request_sender_number_verification|SMS|
+|카테고리 삭제|event_id.sms.remove_category|SMS|
 |상품 활성화|event_id.file_crafter.enableProduct|File-Crafter|
+|대량 발송 요청|event_id.sms.send_mass_message|SMS|
+|수신거부 서비스 추가|event_id.sms.add_block_service|SMS|
+|템플릿 등록|event_id.sms.add_template|SMS|
 |상품 비활성화|event_id.file_crafter.disableProduct|File-Crafter|
 |Export 요청|event_id.file_crafter.requestExporting|File-Crafter|
 |Export 요청 목록 조회|event_id.file_crafter.getExportingRequests|File-Crafter|

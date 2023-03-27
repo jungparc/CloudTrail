@@ -93,7 +93,9 @@
 |클러스터 삭제|event_id.iaas.cluster.delete|기본 인프라 서비스|
 |클러스터 OWNER 변경|event_id.iaas.cluster.handover|기본 인프라 서비스|
 |오토 스케일러 설정 변경|event_id.iaas.cluster.update_autoscale|기본 인프라 서비스|
+|CNI 변경|event_id.iaas.cluster.cni_update|기본 인프라 서비스|
 |노드 그룹 생성|event_id.iaas.nodegroup.create|기본 인프라 서비스|
+|노드 그룹 수정|event_id.iaas.nodegroup.update|기본 인프라 서비스|
 |노드 그룹 삭제|event_id.iaas.nodegroup.delete|기본 인프라 서비스|
 |워커 노드 시작|event_id.iaas.nodegroup.start_node|기본 인프라 서비스|
 |워커 노드 중지|event_id.iaas.nodegroup.stop_node|기본 인프라 서비스|
@@ -115,6 +117,15 @@
 |허용할 프로젝트 생성|event_id.iaas.peering_allow_project.create|기본 인프라 서비스|
 |허용할 프로젝트 변경|event_id.iaas.peering_allow_project.update|기본 인프라 서비스|
 |허용할 프로젝트 삭제|event_id.iaas.peering_allow_project.delete|기본 인프라 서비스|
+|트래픽 미러링 세션 생성|event_id.iaas.traffic_mirroring.session.create|기본 인프라 서비스|
+|트래픽 미러링 세션 변경|event_id.iaas.traffic_mirroring.session.update|기본 인프라 서비스|
+|트래픽 미러링 세션 삭제|event_id.iaas.traffic_mirroring.session.delete|기본 인프라 서비스|
+|트래픽 미러링 필터 그룹 생성|event_id.iaas.traffic_mirroring.filter_group.create|기본 인프라 서비스|
+|트래픽 미러링 필터 그룹 변경|event_id.iaas.traffic_mirroring.filter_group.update|기본 인프라 서비스|
+|트래픽 미러링 필터 그룹 삭제|event_id.iaas.traffic_mirroring.filter_group.delete|기본 인프라 서비스|
+|트래픽 미러링 필터 생성|event_id.iaas.traffic_mirroring.filter.create|기본 인프라 서비스|
+|트래픽 미러링 필터 변경|event_id.iaas.traffic_mirroring.filter.update|기본 인프라 서비스|
+|트래픽 미러링 필터 삭제|event_id.iaas.traffic_mirroring.filter.delete|기본 인프라 서비스|
 |S3 API 자격 증명 생성|event_id.iaas.s3credential.create|기본 인프라 서비스|
 |S3 API 자격 증명 삭제|event_id.iaas.s3credential.delete|기본 인프라 서비스|
 |서브넷 정적 라우트 생성|event_id.iaas.vpc_subnet_route.create|기본 인프라 서비스|
