@@ -10,6 +10,8 @@
 |Floating IPの削除|event_id.iaas.floating_ip.delete|基本インフラサービス|
 |インスタンスFloating IPの接続解除|event_id.iaas.floating_ip.detach|基本インフラサービス|
 |イメージの作成|event_id.iaas.image.create|基本インフラサービス|
+|イメージID作成|event_id.iaas.image.create_id|基本インフラサービス|
+|イメージのアップロード|event_id.iaas.image.upload|基本インフラサービス|
 |イメージの削除|event_id.iaas.image.delete|基本インフラサービス|
 |イメージ情報の変更|event_id.iaas.image.update|基本インフラサービス|
 |イメージ共有の作成|event_id.iaas.image_member.create|基本インフラサービス|
@@ -645,6 +647,12 @@
 |顔認識グループの削除|event_id.face_recognition.group.delete|Face Recognition|
 |フェイス名で顔検索|event_id.face_recognition.search_face.byfaceid|Face Recognition|
 |画像から顔検索|event_id.face_recognition.search_face.byimage|Face Recognition|
+|スプーフィング検出|event_id.face_recognition.face.spoofing|Face Recognition|
+|顔検出(スプーフィング検出)|event_id.face_recognition.spoofing.face.detect|Face Recognition|
+|顔比較(スプーフィング検出)|event_id.face_recognition.spoofing.face.compare|Face Recognition|
+|顔登録(スプーフィング検出)|event_id.face_recognition.spoofing.face.add|Face Recognition|
+|顔検証(スプーフィング検出)|event_id.face_recognition.spoofing.face.verify|Face Recognition|
+|画像から顔検索(スプーフィング検出)|event_id.face_recognition.spoofing.search_face.byimage|Face Recognition|
 |パイプラインの作成|event_id.pipeline.pipeline_manage.create|Pipeline|
 |パイプラインの修正|event_id.pipeline.pipeline_manage.update|Pipeline|
 |パイプラインの削除|event_id.pipeline.pipeline_manage.delete|Pipeline|
@@ -706,14 +714,14 @@
 |サービス利用申請キャンセル|event_id.ai_document_recognizer.service_use_request.cancel|OCR|
 |身分証分析リクエスト	|event_id.ai_document_recognizer.id_card.analyze|OCR|
 |身分証真偽確認リクエスト|event_id.ai_document_recognizer.id_card.authenticity|OCR|
-|General OCR 이미지 분석 요청|event_id.ocr.general_ocr.analyze|OCR|
-|Document OCR 서비스 이용 신청|event_id.ocr.document_ocr.service_use_request.submit|OCR|
-|Document OCR 서비스 이용 신청 취소|event_id.ocr.document_ocr.service_use_request.cancel|OCR|
-|Document OCR 사업자 등록증 분석 요청|event_id.ocr.document_ocr.business.analyze|OCR|
-|Document OCR 신용카드 분석 요청|event_id.ocr.document_ocr.credit_card.analyze|OCR|
-|Document OCR 신분증 분석 요청|event_id.ocr.document_ocr.id_card.analyze|OCR|
-|Document OCR 신분증 진위 확인 요청|event_id.ocr.document_ocr.id_card.authenticity|OCR|
-|Vehicle Plate OCR 차량 번호판 분석 요청|event_id.ocr.vehicle_plate_ocr.analyze|OCR|
+|General OCRイメージ分析リクエスト|event_id.ocr.general_ocr.analyze|OCR|
+|Document OCRサービス利用申請|event_id.ocr.document_ocr.service_use_request.submit|OCR|
+|Document OCRサービス利用申請キャンセル|event_id.ocr.document_ocr.service_use_request.cancel|OCR|
+|Document OCR事業者登録証の分析リクエスト|event_id.ocr.document_ocr.business.analyze|OCR|
+|Document OCRクレジットカード分析リクエスト|event_id.ocr.document_ocr.credit_card.analyze|OCR|
+|Document OCR身分証の分析リクエスト|event_id.ocr.document_ocr.id_card.analyze|OCR|
+|Document OCR身分証の真偽確認リクエスト|event_id.ocr.document_ocr.id_card.authenticity|OCR|
+|Vehicle Plate OCR ナンバープレート分析リクエスト|event_id.ocr.vehicle_plate_ocr.analyze|OCR|
 |ナンバープレートの分析リクエスト|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|
 |発信プロフィールの作成|event_id.kakaotalk.sender.creation|KakaoTalk Bizmessage|
 |発信プロフィールトークンの認証|event_id.kakaotalk.sender.token.certification|KakaoTalk Bizmessage|
@@ -876,6 +884,33 @@
 |채널 태그 변경|event_id.GameTalk.channel_tag_update|GameTalk|
 |채널 태그 삭제|event_id.GameTalk.channel_tag_delete|GameTalk|
 |유저 삭제|event_id.GameTalk.user_delete|GameTalk|
+|ノートパソコンの作成|event_id.easymaker.notebook.create|AI EasyMaker|
+|ノートパソコンの変更|event_id.easymaker.notebook.update|AI EasyMaker|
+|ノートパソコンの削除|event_id.easymaker.notebook.delete|AI EasyMaker|
+|ノートパソコンの停止|event_id.easymaker.notebook.stop|AI EasyMaker|
+|ノートパソコンの起動|event_id.easymaker.notebook.start|AI EasyMaker|
+|ノートパソコンインスタンスタイプの変更|event_id.easymaker.notebook.resize|AI EasyMaker|
+|学習の作成|event_id.easymaker.training.create|AI EasyMaker|
+|学習の変更|event_id.easymaker.training.update|AI EasyMaker|
+|学習の停止|event_id.easymaker.training.stop|AI EasyMaker|
+|学習の削除|event_id.easymaker.training.delete|AI EasyMaker|
+|実験の作成|event_id.easymaker.experiment.create|AI EasyMaker|
+|実験の削除|event_id.easymaker.experiment.delete|AI EasyMaker|
+|モデルの作成|event_id.easymaker.model.create|AI EasyMaker|
+|モデルの変更|event_id.easymaker.model.update|AI EasyMaker|
+|モデルの削除|event_id.easymaker.model.delete|AI EasyMaker|
+|API Gatewayサービスの有効化|event_id.easymaker.enable_apigateway|AI EasyMaker|
+|エンドポイントの作成|event_id.easymaker.endpoint.create|AI EasyMaker|
+|エンドポイントの変更|event_id.easymaker.endpoint.update|AI EasyMaker|
+|エンドポイントの削除|event_id.easymaker.endpoint.delete|AI EasyMaker|
+|エンドポイントステージの作成|event_id.easymaker.endpoint_stage.create|AI EasyMaker|
+|エンドポイントステージの変更|event_id.easymaker.endpoint_stage.update|AI EasyMaker|
+|エンドポイントステージの削除|event_id.easymaker.endpoint_stage.delete|AI EasyMaker|
+|エンドポイント基本ステージの変更|event_id.easymaker.endpoint_stage.update_default_stage|AI EasyMaker|
+|エンドポイントモデルの作成|event_id.easymaker.endpoint_model.create|AI EasyMaker|
+|エンドポイントモデルの変更|event_id.easymaker.endpoint_model.update|AI EasyMaker|
+|エンドポイントモデルの削除|event_id.easymaker.endpoint_model.delete|AI EasyMaker|
+|Log&Crash Searchサービスの有効化|event_id.easymaker.enable_logandcrash|AI EasyMaker|
 |서버 생성|event_id.gameanvil.instance.create|GameAnvil|
 |서버 삭제|event_id.gameanvil.instance.delete|GameAnvil|
 |서버 복사|event_id.gameanvil.instance.copy|GameAnvil|
@@ -925,10 +960,10 @@
 |대량 발송 수신자 파일 업로드|event_id.sms.upload_mass_message_recipient|SMS|
 |발신 번호 인증 요청|event_id.sms.request_sender_number_verification|SMS|
 |카테고리 삭제|event_id.sms.remove_category|SMS|
-|상품 활성화|event_id.file_crafter.enableProduct|File-Crafter|
 |대량 발송 요청|event_id.sms.send_mass_message|SMS|
 |수신거부 서비스 추가|event_id.sms.add_block_service|SMS|
 |템플릿 등록|event_id.sms.add_template|SMS|
+|상품 활성화|event_id.file_crafter.enableProduct|File-Crafter|
 |상품 비활성화|event_id.file_crafter.disableProduct|File-Crafter|
 |Export 요청|event_id.file_crafter.requestExporting|File-Crafter|
 |Export 요청 목록 조회|event_id.file_crafter.getExportingRequests|File-Crafter|
@@ -947,30 +982,20 @@
 |유효성 검사 실패 다운로드|event_id.file_crafter.downloadValidationFailResultFile|File-Crafter|
 |유효성 검사 실패 다운로드 URL 조회|event_id.file_crafter.getValidationFailResultFileDownloadUrl|File-Crafter|
 |AWS 외부 업로드 유효성 검사|event_id.file_crafter.validateAwsCredentials|File-Crafter|
-|ノートパソコンの作成|event_id.easymaker.notebook.create|AI EasyMaker|
-|ノートパソコンの変更|event_id.easymaker.notebook.update|AI EasyMaker|
-|ノートパソコンの削除|event_id.easymaker.notebook.delete|AI EasyMaker|
-|ノートパソコンの停止|event_id.easymaker.notebook.stop|AI EasyMaker|
-|ノートパソコンの起動|event_id.easymaker.notebook.start|AI EasyMaker|
-|ノートパソコンインスタンスタイプの変更|event_id.easymaker.notebook.resize|AI EasyMaker|
-|学習の作成|event_id.easymaker.training.create|AI EasyMaker|
-|学習の変更|event_id.easymaker.training.update|AI EasyMaker|
-|学習の停止|event_id.easymaker.training.stop|AI EasyMaker|
-|学習の削除|event_id.easymaker.training.delete|AI EasyMaker|
-|実験の作成|event_id.easymaker.experiment.create|AI EasyMaker|
-|実験の削除|event_id.easymaker.experiment.delete|AI EasyMaker|
-|モデルの作成|event_id.easymaker.model.create|AI EasyMaker|
-|モデルの変更|event_id.easymaker.model.update|AI EasyMaker|
-|モデルの削除|event_id.easymaker.model.delete|AI EasyMaker|
-|API Gatewayサービスの有効化|event_id.easymaker.enable_apigateway|AI EasyMaker|
-|エンドポイントの作成|event_id.easymaker.endpoint.create|AI EasyMaker|
-|エンドポイントの変更|event_id.easymaker.endpoint.update|AI EasyMaker|
-|エンドポイントの削除|event_id.easymaker.endpoint.delete|AI EasyMaker|
-|エンドポイントステージの作成|event_id.easymaker.endpoint_stage.create|AI EasyMaker|
-|エンドポイントステージの変更|event_id.easymaker.endpoint_stage.update|AI EasyMaker|
-|エンドポイントステージの削除|event_id.easymaker.endpoint_stage.delete|AI EasyMaker|
-|エンドポイント基本ステージの変更|event_id.easymaker.endpoint_stage.update_default_stage|AI EasyMaker|
-|エンドポイントモデルの作成|event_id.easymaker.endpoint_model.create|AI EasyMaker|
-|エンドポイントモデルの変更|event_id.easymaker.endpoint_model.update|AI EasyMaker|
-|エンドポイントモデルの削除|event_id.easymaker.endpoint_model.delete|AI EasyMaker|
-|Log&Crash Searchサービスの有効化|event_id.easymaker.enable_logandcrash|AI EasyMaker|
+|패킷 캡쳐 종료|event_id.native_firewall.pcap_end|Native Firewall|
+|롤백|event_id.native_firewall.rollback_create|Native Firewall|
+|캡쳐 패킷 삭제|event_id.native_firewall.pcap_delete|Native Firewall|
+|오브젝트 생성|event_id.native_firewall.object_create|Native Firewall|
+|맴버 생성|event_id.native_firewall.member_create|Native Firewall|
+|방화벽 생성|event_id.native_firewall.config_iaas|Native Firewall|
+|백업 삭제|event_id.native_firewall.backup_delete|Native Firewall|
+|패킷 캡쳐 시작|event_id.native_firewall.pcap_start|Native Firewall|
+|acl 세션 설정 변경|event_id.native_firewall.acl_session_modified|Native Firewall|
+|acl 세션 플로우 삭제|event_id.native_firewall.acl_session_flow_deleted_all|Native Firewall|
+|방화벽 인프라 생성|event_id.native_firewall.config_project|Native Firewall|
+|acl 세션 플로우 삭제|event_id.native_firewall.acl_session_flow_deleted|Native Firewall|
+|맴버 삭제|event_id.native_firewall.member_delete|Native Firewall|
+|acl 그룹 조작|event_id.native_firewall.acl_policy_group_control|Native Firewall|
+|acl 정책 생성|event_id.native_firewall.acl_policy_create|Native Firewall|
+|오브젝트 삭제|event_id.native_firewall.object_delete|Native Firewall|
+|acl 정책 삭제|event_id.native_firewall.acl_policy_deleted|Native Firewall|
