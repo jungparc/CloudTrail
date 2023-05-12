@@ -1,15 +1,21 @@
 ## CloudTrail > Release Notes
 
+### 2023. 05. 30.
+#### More Events
+* Added events related to Default Infrastructure Service.
+
 ### 2023. 03. 28.
 #### More Events
+* Added events related to Face Recognition.
 * Added events related to OCR.
+* Added events related to Native Firewall.
 * Added events related to Default Infrastructure Service.
+* Added events related to SMS.
 
 ### 2023. 02. 28.
 #### More Events
 * Added events related to AI EasyMaker.
 * Added events related to GameAnvil.
-* Added events related to SMS.
 
 ### 2023. 02. 14.
 #### More Events
