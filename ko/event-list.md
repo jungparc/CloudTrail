@@ -673,6 +673,9 @@
 |배포 대상 생성|event_id.pipeline.deploy_target.create|Pipeline|
 |배포 대상 수정|event_id.pipeline.deploy_target.update|Pipeline|
 |배포 대상 삭제|event_id.pipeline.deploy_target.delete|Pipeline|
+|차트 저장소 생성|event_id.pipeline.chart_repository.create|Pipeline|
+|차트 저장소 수정|event_id.pipeline.chart_repository.update|Pipeline|
+|차트 저장소 삭제|event_id.pipeline.chart_repository.delete|Pipeline|
 |Android SDK 다운로드|event_id.appguard.sdk_download_aos|NHN AppGuard|
 |iOS SDK 다운로드|event_id.appguard.sdk_download_ios|NHN AppGuard|
 |보고서 다운로드|event_id.appguard.report_download|NHN AppGuard|
@@ -884,6 +887,8 @@
 |채널 태그 변경|event_id.GameTalk.channel_tag_update|GameTalk|
 |채널 태그 삭제|event_id.GameTalk.channel_tag_delete|GameTalk|
 |유저 삭제|event_id.GameTalk.user_delete|GameTalk|
+|알림 메시지 생성|event_id.GameTalk.announcement_create|GameTalk|
+|알림 메시지 수정|event_id.GameTalk.announcement_update|GameTalk|
 |노트북 생성|event_id.easymaker.notebook.create|AI EasyMaker|
 |노트북 변경|event_id.easymaker.notebook.update|AI EasyMaker|
 |노트북 삭제|event_id.easymaker.notebook.delete|AI EasyMaker|
