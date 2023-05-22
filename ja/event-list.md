@@ -673,6 +673,9 @@
 |デプロイ対象の作成|event_id.pipeline.deploy_target.create|Pipeline|
 |デプロイ対象の修正|event_id.pipeline.deploy_target.update|Pipeline|
 |デプロイ対象の削除|event_id.pipeline.deploy_target.delete|Pipeline|
+|チャートリポジトリの作成|event_id.pipeline.chart_repository.create|Pipeline|
+|チャートリポジトリの修正|event_id.pipeline.chart_repository.update|Pipeline|
+|チャートリポジトリの削除|event_id.pipeline.chart_repository.delete|Pipeline|
 |Android SDKダウンロード|event_id.appguard.sdk_download_aos|NHN AppGuard|
 |iOS SDKダウンロード|event_id.appguard.sdk_download_ios|NHN AppGuard|
 |レポートダウンロード|event_id.appguard.report_download|NHN AppGuard|
@@ -884,6 +887,8 @@
 |채널 태그 변경|event_id.GameTalk.channel_tag_update|GameTalk|
 |채널 태그 삭제|event_id.GameTalk.channel_tag_delete|GameTalk|
 |유저 삭제|event_id.GameTalk.user_delete|GameTalk|
+|알림 메시지 생성|event_id.GameTalk.announcement_create|GameTalk|
+|알림 메시지 수정|event_id.GameTalk.announcement_update|GameTalk|
 |ノートパソコンの作成|event_id.easymaker.notebook.create|AI EasyMaker|
 |ノートパソコンの変更|event_id.easymaker.notebook.update|AI EasyMaker|
 |ノートパソコンの削除|event_id.easymaker.notebook.delete|AI EasyMaker|
@@ -990,6 +995,7 @@
 |방화벽 생성|event_id.native_firewall.config_iaas|Native Firewall|
 |백업 삭제|event_id.native_firewall.backup_delete|Native Firewall|
 |패킷 캡쳐 시작|event_id.native_firewall.pcap_start|Native Firewall|
+|bb|event_id.test.test_aa|test|
 |acl 세션 설정 변경|event_id.native_firewall.acl_session_modified|Native Firewall|
 |acl 세션 플로우 삭제|event_id.native_firewall.acl_session_flow_deleted_all|Native Firewall|
 |방화벽 인프라 생성|event_id.native_firewall.config_project|Native Firewall|
@@ -997,5 +1003,6 @@
 |맴버 삭제|event_id.native_firewall.member_delete|Native Firewall|
 |acl 그룹 조작|event_id.native_firewall.acl_policy_group_control|Native Firewall|
 |acl 정책 생성|event_id.native_firewall.acl_policy_create|Native Firewall|
+|aa|event_id.test.test|test|
 |오브젝트 삭제|event_id.native_firewall.object_delete|Native Firewall|
 |acl 정책 삭제|event_id.native_firewall.acl_policy_deleted|Native Firewall|
