@@ -2,6 +2,8 @@
 
 ### 2023. 05. 30.
 #### More Events
+* Added events related to Pipeline.
+* Added events related to GameTalk.
 * Added events related to Default Infrastructure Service.
 
 ### 2023. 03. 28.
