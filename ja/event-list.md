@@ -995,7 +995,6 @@
 |방화벽 생성|event_id.native_firewall.config_iaas|Native Firewall|
 |백업 삭제|event_id.native_firewall.backup_delete|Native Firewall|
 |패킷 캡쳐 시작|event_id.native_firewall.pcap_start|Native Firewall|
-|bb|event_id.test.test_aa|test|
 |acl 세션 설정 변경|event_id.native_firewall.acl_session_modified|Native Firewall|
 |acl 세션 플로우 삭제|event_id.native_firewall.acl_session_flow_deleted_all|Native Firewall|
 |방화벽 인프라 생성|event_id.native_firewall.config_project|Native Firewall|
@@ -1003,6 +1002,5 @@
 |맴버 삭제|event_id.native_firewall.member_delete|Native Firewall|
 |acl 그룹 조작|event_id.native_firewall.acl_policy_group_control|Native Firewall|
 |acl 정책 생성|event_id.native_firewall.acl_policy_create|Native Firewall|
-|aa|event_id.test.test|test|
 |오브젝트 삭제|event_id.native_firewall.object_delete|Native Firewall|
 |acl 정책 삭제|event_id.native_firewall.acl_policy_deleted|Native Firewall|
