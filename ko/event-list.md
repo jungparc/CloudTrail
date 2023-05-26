@@ -10,6 +10,8 @@
 |플로팅 IP 삭제|event_id.iaas.floating_ip.delete|기본 인프라 서비스|
 |인스턴스 플로팅 IP 연결 해제|event_id.iaas.floating_ip.detach|기본 인프라 서비스|
 |이미지 생성|event_id.iaas.image.create|기본 인프라 서비스|
+|이미지 아이디 생성|event_id.iaas.image.create_id|기본 인프라 서비스|
+|이미지 업로드|event_id.iaas.image.upload|기본 인프라 서비스|
 |이미지 삭제|event_id.iaas.image.delete|기본 인프라 서비스|
 |이미지 정보 변경|event_id.iaas.image.update|기본 인프라 서비스|
 |이미지 공유 추가|event_id.iaas.image_member.create|기본 인프라 서비스|
@@ -645,6 +647,12 @@
 |얼굴 인식 그룹 삭제|event_id.face_recognition.group.delete|Face Recognition|
 |페이스 아이디로 얼굴 검색|event_id.face_recognition.search_face.byfaceid|Face Recognition|
 |이미지로 얼굴 검색|event_id.face_recognition.search_face.byimage|Face Recognition|
+|스푸핑 감지|event_id.face_recognition.face.spoofing|Face Recognition|
+|얼굴 감지(스푸핑 감지)|event_id.face_recognition.spoofing.face.detect|Face Recognition|
+|얼굴 비교(스푸핑 감지)|event_id.face_recognition.spoofing.face.compare|Face Recognition|
+|얼굴 등록(스푸핑 감지)|event_id.face_recognition.spoofing.face.add|Face Recognition|
+|얼굴 검증(스푸핑 감지)|event_id.face_recognition.spoofing.face.verify|Face Recognition|
+|이미지로 얼굴 검색(스푸핑 감지)|event_id.face_recognition.spoofing.search_face.byimage|Face Recognition|
 |파이프라인 생성|event_id.pipeline.pipeline_manage.create|Pipeline|
 |파이프라인 수정|event_id.pipeline.pipeline_manage.update|Pipeline|
 |파이프라인 삭제|event_id.pipeline.pipeline_manage.delete|Pipeline|
@@ -665,6 +673,9 @@
 |배포 대상 생성|event_id.pipeline.deploy_target.create|Pipeline|
 |배포 대상 수정|event_id.pipeline.deploy_target.update|Pipeline|
 |배포 대상 삭제|event_id.pipeline.deploy_target.delete|Pipeline|
+|차트 저장소 생성|event_id.pipeline.chart_repository.create|Pipeline|
+|차트 저장소 수정|event_id.pipeline.chart_repository.update|Pipeline|
+|차트 저장소 삭제|event_id.pipeline.chart_repository.delete|Pipeline|
 |Android SDK 다운로드|event_id.appguard.sdk_download_aos|NHN AppGuard|
 |iOS SDK 다운로드|event_id.appguard.sdk_download_ios|NHN AppGuard|
 |보고서 다운로드|event_id.appguard.report_download|NHN AppGuard|
@@ -876,6 +887,35 @@
 |채널 태그 변경|event_id.GameTalk.channel_tag_update|GameTalk|
 |채널 태그 삭제|event_id.GameTalk.channel_tag_delete|GameTalk|
 |유저 삭제|event_id.GameTalk.user_delete|GameTalk|
+|알림 메시지 생성|event_id.GameTalk.announcement_create|GameTalk|
+|알림 메시지 수정|event_id.GameTalk.announcement_update|GameTalk|
+|노트북 생성|event_id.easymaker.notebook.create|AI EasyMaker|
+|노트북 변경|event_id.easymaker.notebook.update|AI EasyMaker|
+|노트북 삭제|event_id.easymaker.notebook.delete|AI EasyMaker|
+|노트북 중지|event_id.easymaker.notebook.stop|AI EasyMaker|
+|노트북 시작|event_id.easymaker.notebook.start|AI EasyMaker|
+|노트북 인스턴스 타입 변경|event_id.easymaker.notebook.resize|AI EasyMaker|
+|학습 생성|event_id.easymaker.training.create|AI EasyMaker|
+|학습 변경|event_id.easymaker.training.update|AI EasyMaker|
+|학습 중지|event_id.easymaker.training.stop|AI EasyMaker|
+|학습 삭제|event_id.easymaker.training.delete|AI EasyMaker|
+|실험 생성|event_id.easymaker.experiment.create|AI EasyMaker|
+|실험 삭제|event_id.easymaker.experiment.delete|AI EasyMaker|
+|모델 생성|event_id.easymaker.model.create|AI EasyMaker|
+|모델 변경|event_id.easymaker.model.update|AI EasyMaker|
+|모델 삭제|event_id.easymaker.model.delete|AI EasyMaker|
+|API Gateway 서비스 활성화|event_id.easymaker.enable_apigateway|AI EasyMaker|
+|엔드포인트 생성|event_id.easymaker.endpoint.create|AI EasyMaker|
+|엔드포인트 변경|event_id.easymaker.endpoint.update|AI EasyMaker|
+|엔드포인트 삭제|event_id.easymaker.endpoint.delete|AI EasyMaker|
+|엔드포인트 스테이지 생성|event_id.easymaker.endpoint_stage.create|AI EasyMaker|
+|엔드포인트 스테이지 변경|event_id.easymaker.endpoint_stage.update|AI EasyMaker|
+|엔드포인트 스테이지 삭제|event_id.easymaker.endpoint_stage.delete|AI EasyMaker|
+|엔드포인트 기본 스테이지 변경|event_id.easymaker.endpoint_stage.update_default_stage|AI EasyMaker|
+|엔드포인트 모델 생성|event_id.easymaker.endpoint_model.create|AI EasyMaker|
+|엔드포인트 모델 변경|event_id.easymaker.endpoint_model.update|AI EasyMaker|
+|엔드포인트 모델 삭제|event_id.easymaker.endpoint_model.delete|AI EasyMaker|
+|Log&Crash Search 서비스 활성화|event_id.easymaker.enable_logandcrash|AI EasyMaker|
 |서버 생성|event_id.gameanvil.instance.create|GameAnvil|
 |서버 삭제|event_id.gameanvil.instance.delete|GameAnvil|
 |서버 복사|event_id.gameanvil.instance.copy|GameAnvil|
@@ -925,10 +965,10 @@
 |대량 발송 수신자 파일 업로드|event_id.sms.upload_mass_message_recipient|SMS|
 |발신 번호 인증 요청|event_id.sms.request_sender_number_verification|SMS|
 |카테고리 삭제|event_id.sms.remove_category|SMS|
-|상품 활성화|event_id.file_crafter.enableProduct|File-Crafter|
 |대량 발송 요청|event_id.sms.send_mass_message|SMS|
 |수신거부 서비스 추가|event_id.sms.add_block_service|SMS|
 |템플릿 등록|event_id.sms.add_template|SMS|
+|상품 활성화|event_id.file_crafter.enableProduct|File-Crafter|
 |상품 비활성화|event_id.file_crafter.disableProduct|File-Crafter|
 |Export 요청|event_id.file_crafter.requestExporting|File-Crafter|
 |Export 요청 목록 조회|event_id.file_crafter.getExportingRequests|File-Crafter|
@@ -947,30 +987,20 @@
 |유효성 검사 실패 다운로드|event_id.file_crafter.downloadValidationFailResultFile|File-Crafter|
 |유효성 검사 실패 다운로드 URL 조회|event_id.file_crafter.getValidationFailResultFileDownloadUrl|File-Crafter|
 |AWS 외부 업로드 유효성 검사|event_id.file_crafter.validateAwsCredentials|File-Crafter|
-|노트북 생성|event_id.easymaker.notebook.create|AI EasyMaker|
-|노트북 변경|event_id.easymaker.notebook.update|AI EasyMaker|
-|노트북 삭제|event_id.easymaker.notebook.delete|AI EasyMaker|
-|노트북 중지|event_id.easymaker.notebook.stop|AI EasyMaker|
-|노트북 시작|event_id.easymaker.notebook.start|AI EasyMaker|
-|노트북 인스턴스 타입 변경|event_id.easymaker.notebook.resize|AI EasyMaker|
-|학습 생성|event_id.easymaker.training.create|AI EasyMaker|
-|학습 변경|event_id.easymaker.training.update|AI EasyMaker|
-|학습 중지|event_id.easymaker.training.stop|AI EasyMaker|
-|학습 삭제|event_id.easymaker.training.delete|AI EasyMaker|
-|실험 생성|event_id.easymaker.experiment.create|AI EasyMaker|
-|실험 삭제|event_id.easymaker.experiment.delete|AI EasyMaker|
-|모델 생성|event_id.easymaker.model.create|AI EasyMaker|
-|모델 변경|event_id.easymaker.model.update|AI EasyMaker|
-|모델 삭제|event_id.easymaker.model.delete|AI EasyMaker|
-|API Gateway 서비스 활성화|event_id.easymaker.enable_apigateway|AI EasyMaker|
-|엔드포인트 생성|event_id.easymaker.endpoint.create|AI EasyMaker|
-|엔드포인트 변경|event_id.easymaker.endpoint.update|AI EasyMaker|
-|엔드포인트 삭제|event_id.easymaker.endpoint.delete|AI EasyMaker|
-|엔드포인트 스테이지 생성|event_id.easymaker.endpoint_stage.create|AI EasyMaker|
-|엔드포인트 스테이지 변경|event_id.easymaker.endpoint_stage.update|AI EasyMaker|
-|엔드포인트 스테이지 삭제|event_id.easymaker.endpoint_stage.delete|AI EasyMaker|
-|엔드포인트 기본 스테이지 변경|event_id.easymaker.endpoint_stage.update_default_stage|AI EasyMaker|
-|엔드포인트 모델 생성|event_id.easymaker.endpoint_model.create|AI EasyMaker|
-|엔드포인트 모델 변경|event_id.easymaker.endpoint_model.update|AI EasyMaker|
-|엔드포인트 모델 삭제|event_id.easymaker.endpoint_model.delete|AI EasyMaker|
-|Log&Crash Search 서비스 활성화|event_id.easymaker.enable_logandcrash|AI EasyMaker|
+|패킷 캡쳐 종료|event_id.native_firewall.pcap_end|Native Firewall|
+|롤백|event_id.native_firewall.rollback_create|Native Firewall|
+|캡쳐 패킷 삭제|event_id.native_firewall.pcap_delete|Native Firewall|
+|오브젝트 생성|event_id.native_firewall.object_create|Native Firewall|
+|맴버 생성|event_id.native_firewall.member_create|Native Firewall|
+|방화벽 생성|event_id.native_firewall.config_iaas|Native Firewall|
+|백업 삭제|event_id.native_firewall.backup_delete|Native Firewall|
+|패킷 캡쳐 시작|event_id.native_firewall.pcap_start|Native Firewall|
+|acl 세션 설정 변경|event_id.native_firewall.acl_session_modified|Native Firewall|
+|acl 세션 플로우 삭제|event_id.native_firewall.acl_session_flow_deleted_all|Native Firewall|
+|방화벽 인프라 생성|event_id.native_firewall.config_project|Native Firewall|
+|acl 세션 플로우 삭제|event_id.native_firewall.acl_session_flow_deleted|Native Firewall|
+|맴버 삭제|event_id.native_firewall.member_delete|Native Firewall|
+|acl 그룹 조작|event_id.native_firewall.acl_policy_group_control|Native Firewall|
+|acl 정책 생성|event_id.native_firewall.acl_policy_create|Native Firewall|
+|오브젝트 삭제|event_id.native_firewall.object_delete|Native Firewall|
+|acl 정책 삭제|event_id.native_firewall.acl_policy_deleted|Native Firewall|

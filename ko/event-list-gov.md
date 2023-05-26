@@ -10,6 +10,8 @@
 |플로팅 IP 삭제|event_id.iaas.floating_ip.delete|기본 인프라 서비스|
 |인스턴스 플로팅 IP 연결 해제|event_id.iaas.floating_ip.detach|기본 인프라 서비스|
 |이미지 생성|event_id.iaas.image.create|기본 인프라 서비스|
+|이미지 아이디 생성|event_id.iaas.image.create_id|기본 인프라 서비스|
+|이미지 업로드|event_id.iaas.image.upload|기본 인프라 서비스|
 |이미지 삭제|event_id.iaas.image.delete|기본 인프라 서비스|
 |이미지 정보 변경|event_id.iaas.image.update|기본 인프라 서비스|
 |이미지 공유 추가|event_id.iaas.image_member.create|기본 인프라 서비스|
@@ -483,7 +485,7 @@
 |리소스 태그 수정|event_id.resource_watcher.resource_tag.update|Resource Watcher|
 |리소스 그룹 생성|event_id.resource_watcher.resource_group.create|Resource Watcher|
 |알림 삭제|event_id.resource_watcher.alarm.delete|Resource Watcher|
-|리소스 그룹 관계 삭제|event_id.resource_watcher.resource_group_relation.delete|Resource Watcher|
+|리소스 그룹 관계 삭제	|event_id.resource_watcher.resource_group_relation.delete|Resource Watcher|
 |리소스 수정|event_id.resource_watcher.resource.update|Resource Watcher|
 |리소스 태그 관계 수정|event_id.resource_watcher.resource_tag_relation.update|Resource Watcher|
 |알림 상태 변경|event_id.resource_watcher.alarm.change_status|Resource Watcher|
