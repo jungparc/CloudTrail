@@ -1,8 +1,9 @@
 ## CloudTrail > Release Notes
 
-### 2023. 06. 27.
-#### More Events
-* Added events related to Email.
+### June 27, 2023
+#### Added Features
+* Added a feature to set up external log tampering alert in the log save/download setting.
+  * For more information, see the [Console User Guide](/CloudTrail/en/console-guide/).
 
 ### 2023. 05. 30.
 #### More Events
