@@ -52,7 +52,7 @@ CloudTrailサービスを選択すると、次のような画面が現れます�
 該当組織内で記録されたユーザーイベントログを外部Object Storageへ保存/ダウンロードできます。
 **ログ保存/ダウンロード設定** ボタンを押した後、ダイアログボックスで使用するかどうかを選択します。
 
-![cloudtrail_06](https://static.toastoven.net/prod_cloudtrail/IMG07_JA.png)
+![cloudtrail_07](https://static.toastoven.net/prod_cloudtrail/IMG07_JA.png)
 
 * 以下では[NHN Cloud Object Storage](/Storage/Object%20Storage/ko/Overview/)を利用したログ保存/ダウンロード方法を説明します。
    * **アクセスキー**、**シークレットキー**は[AWS S3 API](/Storage/Object%20Storage/ko/s3-api-guide/#_1)を利用した**EC2資格証明登録および照会**で確認できます。
