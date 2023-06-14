@@ -1,7 +1,9 @@
 ## CloudTrail > Release Notes
 
 ### June 27, 2023
-#### Added Features
+#### More Events
+* Added events related to Email.
+#### More Features
 * Added a feature to set up external log tampering alert in the log save/download setting.
   * For more information, see the [Console User Guide](/CloudTrail/en/console-guide/).
 
@@ -203,8 +205,8 @@
 * Added events related to Certificate Manager.
 * Added events related to System Monitoring.
 #### More Features
-* 로그 저장/다운로드 설정을 제공합니다.
-    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/CloudTrail/ko/console-guide/)
+* Added Log save/download setting.
+    * For more information, see the [Console User Guide](/CloudTrail/en/console-guide/).
 #### Feature Updates
 * In the name (ID) search conditions, **Search name or ID** has been changed to **Search name**.
 
@@ -262,5 +264,5 @@
 
 ### 2019. 03. 12.
 #### More Features
-* TOAST CloudTrail은 사용자의 TOAST 클라우드 사용 이력을 확인할 수 있는 서비스입니다.
-* 조직 단위로 제공되며, 별도의 활성화나 비활성화 과정 없이 바로 사용할 수 있습니다.
+* CloudTrail allows you to check your cloud usage history.
+* The servise is provided on an organization unit, and available without activation of the service.
