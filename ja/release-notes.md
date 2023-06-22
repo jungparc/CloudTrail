@@ -207,7 +207,7 @@
 * System Monitoring サービス関連イベントを追加しました。
 #### 機能追加
 * Added Log save/download setting.
-    * For more information, see the [Console User Guide](/CloudTrail/en/console-guide/).
+    * For more information, see the [Console User Guide](/CloudTrail/ja/console-guide/).
 #### 機能改善
 * 名前(ID)検索条件で **名前・IDで検索**が **名前検索**に変更されました。
 
