@@ -1,5 +1,9 @@
 ## CloudTrail > Release Notes
 
+### 2023. 07. 25.
+#### More Events
+* Added events related to Security Advisor.
+
 ### 2023. 07. 11.
 #### More Events
 * Added events related to Gamebase.
