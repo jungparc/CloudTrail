@@ -1011,6 +1011,7 @@
 |대체 발송 설정 업데이트|event_id.rcs_bizmessage.update_fallback_setting|RCS Bizmessage|
 |자동 점검 완료|event_id.security_advisor.auto_scan_complete|Security Advisor|
 |설정 변경|event_id.security_advisor.setting_change|Security Advisor|
+|엑셀 다운로드|event_id.security_advisor.excel_download|Security Advisor|
 |선택 점검 요청|event_id.security_advisor.manual_scan_request|Security Advisor|
 |카테고리 등록|event_id.email.add_category|Email|
 |도메인 등록|event_id.email.add_domain|Email|
