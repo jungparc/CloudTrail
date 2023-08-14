@@ -40,6 +40,12 @@
 |NAT 게이트웨이 생성|event_id.iaas.nat_gateway.create|기본 인프라 서비스|
 |NAT 게이트웨이 삭제|event_id.iaas.nat_gateway.delete|기본 인프라 서비스|
 |NAT 게이트웨이 변경|event_id.iaas.nat_gateway.update|기본 인프라 서비스|
+|VPNGW 생성|event_id.iaas.vpngw.create|기본 인프라 서비스|
+|VPNGW 삭제|event_id.iaas.vpngw.delete|기본 인프라 서비스|
+|VPNGW 수정|event_id.iaas.vpngw.update|기본 인프라 서비스|
+|VPN Connection 생성|event_id.iaas.vpn_connection.create|기본 인프라 서비스|
+|VPN Connection 삭제|event_id.iaas.vpn_connection.delete|기본 인프라 서비스|
+|VPN Connection 수정|event_id.iaas.vpn_connection.update|기본 인프라 서비스|
 |키페어 생성|event_id.iaas.keypair.create|기본 인프라 서비스|
 |키페어 삭제|event_id.iaas.keypair.delete|기본 인프라 서비스|
 |로드 밸런서 생성|event_id.iaas.loadbalancer.create|기본 인프라 서비스|
@@ -136,6 +142,43 @@
 |서비스 게이트웨이 변경|event_id.iaas.service_gateway.update|기본 인프라 서비스|
 |서비스 게이트웨이 삭제|event_id.iaas.service_gateway.delete|기본 인프라 서비스|
 |볼륨 복제|event_id.iaas.volume.copy|기본 인프라 서비스|
+|Private DNS Zone 생성|event_id.iaas.privatedns.zone.create|기본 인프라 서비스|
+|Private DNS Zone 수정|event_id.iaas.privatedns.zone.update|기본 인프라 서비스|
+|Private DNS Zone 삭제|event_id.iaas.privatedns.zone.delete|기본 인프라 서비스|
+|Private DNS 레코드 세트 생성|event_id.iaas.privatedns.recordset.create|기본 인프라 서비스|
+|Private DNS 레코드 세트 수정|event_id.iaas.privatedns.recordset.update|기본 인프라 서비스|
+|Private DNS 레코드 세트 삭제|event_id.iaas.privatedns.recordset.delete|기본 인프라 서비스|
+|Private DNS 레코드 세트 대량 생성|event_id.iaas.privatedns.recordset.create_list|기본 인프라 서비스|
+|트랜짓 허브 생성|event_id.iaas.transit_hub.create|기본 인프라 서비스|
+|트랜짓 허브 수정|event_id.iaas.transit_hub.update|기본 인프라 서비스|
+|트랜짓 허브 삭제|event_id.iaas.transit_hub.delete|기본 인프라 서비스|
+|트랜짓 허브 연결 생성|event_id.iaas.transit_hub_attachment.create|기본 인프라 서비스|
+|트랜짓 허브 연결 변경|event_id.iaas.transit_hub_attachment.update|기본 인프라 서비스|
+|트랜짓 허브 연결 삭제|event_id.iaas.transit_hub_attachment.delete|기본 인프라 서비스|
+|트랜짓 허브 허용 목록 생성|event_id.iaas.transit_hub_allow_project.create|기본 인프라 서비스|
+|트랜짓 허브 허용 목록 변경|event_id.iaas.transit_hub_allow_project.update|기본 인프라 서비스|
+|트랜짓 허브 허용 목록 삭제|event_id.iaas.transit_hub_allow_project.delete|기본 인프라 서비스|
+|트랜짓 허브 라우팅 테이블 생성|event_id.iaas.transit_hub_routing_table.create|기본 인프라 서비스|
+|트랜짓 허브 라우팅 테이블 변경|event_id.iaas.transit_hub_routing_table.update|기본 인프라 서비스|
+|트랜짓 허브 라우팅 테이블 삭제|event_id.iaas.transit_hub_routing_table.delete|기본 인프라 서비스|
+|트랜짓 허브 라우팅 연결 생성|event_id.iaas.transit_hub_routing_association.create|기본 인프라 서비스|
+|트랜짓 허브 라우팅 연결 변경|event_id.iaas.transit_hub_routing_association.update|기본 인프라 서비스|
+|트랜짓 허브 라우팅 연결 삭제|event_id.iaas.transit_hub_routing_association.delete|기본 인프라 서비스|
+|트랜짓 허브 라우팅 전파 생성|event_id.iaas.transit_hub_routing_propagation.create|기본 인프라 서비스|
+|트랜짓 허브 라우팅 전파 변경|event_id.iaas.transit_hub_routing_propagation.update|기본 인프라 서비스|
+|트랜짓 허브 라우팅 전파 삭제|event_id.iaas.transit_hub_routing_propagation.delete|기본 인프라 서비스|
+|트랜짓 허브 라우팅 룰 생성|event_id.iaas.transit_hub_routing_rule.create|기본 인프라 서비스|
+|트랜짓 허브 라우팅 룰 변경|event_id.iaas.transit_hub_routing_rule.update|기본 인프라 서비스|
+|트랜짓 허브 라우팅 룰 삭제|event_id.iaas.transit_hub_routing_rule.delete|기본 인프라 서비스|
+|트랜짓 허브 멀티캐스트 도메인 생성|event_id.iaas.transit_hub_multicast_domain.create|기본 인프라 서비스|
+|트랜짓 허브 멀티캐스트 도메인 변경|event_id.iaas.transit_hub_multicast_domain.update|기본 인프라 서비스|
+|트랜짓 허브 멀티캐스트 도메인 삭제|event_id.iaas.transit_hub_multicast_domain.delete|기본 인프라 서비스|
+|트랜짓 허브 멀티캐스트 연결 생성|event_id.iaas.transit_hub_multicast_association.create|기본 인프라 서비스|
+|트랜짓 허브 멀티캐스트 연결 변경|event_id.iaas.transit_hub_multicast_association.update|기본 인프라 서비스|
+|트랜짓 허브 멀티캐스트 연결 삭제|event_id.iaas.transit_hub_multicast_association.delete|기본 인프라 서비스|
+|트랜짓 허브 멀티캐스트 그룹 생성|event_id.iaas.transit_hub_multicast_group.create|기본 인프라 서비스|
+|트랜짓 허브 멀티캐스트 그룹 변경|event_id.iaas.transit_hub_multicast_group.update|기본 인프라 서비스|
+|트랜짓 허브 멀티캐스트 그룹 삭제|event_id.iaas.transit_hub_multicast_group.delete|기본 인프라 서비스|
 |어카운트 메타데이터 등록/수정|event_id.object_storage.account.metadata.update|Object Storage|
 |컨테이너 생성|event_id.object_storage.container.create|Object Storage|
 |컨테이너 삭제|event_id.object_storage.container.delete|Object Storage|
@@ -725,6 +768,7 @@
 |Document OCR 신분증 분석 요청|event_id.ocr.document_ocr.id_card.analyze|OCR|
 |Document OCR 신분증 진위 확인 요청|event_id.ocr.document_ocr.id_card.authenticity|OCR|
 |Vehicle Plate OCR 차량 번호판 분석 요청|event_id.ocr.vehicle_plate_ocr.analyze|OCR|
+|신분증 분석 요청(단독)|event_id.ai_document_recognizer.id_card.analyze_only|OCR|
 |차량 번호판 분석 요청|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|
 |발신 프로필 생성|event_id.kakaotalk.sender.creation|KakaoTalk Bizmessage|
 |발신 프로필 토큰 인증|event_id.kakaotalk.sender.token.certification|KakaoTalk Bizmessage|
