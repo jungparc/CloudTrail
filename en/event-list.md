@@ -40,6 +40,12 @@
 |Create NAT Gateway|event_id.iaas.nat_gateway.create|Default Infrastructure Service|
 |Delete NAT Gateway|event_id.iaas.nat_gateway.delete|Default Infrastructure Service|
 |Change NAT Gateway|event_id.iaas.nat_gateway.update|Default Infrastructure Service|
+|Create VPNGW|event_id.iaas.vpngw.create|Default Infrastructure Service|
+|Delete VPNGW|event_id.iaas.vpngw.delete|Default Infrastructure Service|
+|Update VPNGW|event_id.iaas.vpngw.update|Default Infrastructure Service|
+|Create VPN Connection|event_id.iaas.vpn_connection.create|Default Infrastructure Service|
+|Delete VPN Connection|event_id.iaas.vpn_connection.delete|Default Infrastructure Service|
+|Update VPN Connection|event_id.iaas.vpn_connection.update|Default Infrastructure Service|
 |Create Keypair|event_id.iaas.keypair.create|Default Infrastructure Service|
 |Delete Keypair|event_id.iaas.keypair.delete|Default Infrastructure Service|
 |Create Load Balancer|event_id.iaas.loadbalancer.create|Default Infrastructure Service|
@@ -136,6 +142,43 @@
 |Change Service Gateway|event_id.iaas.service_gateway.update|Default Infrastructure Service|
 |Delete Service Gateway|event_id.iaas.service_gateway.delete|Default Infrastructure Service|
 |Copy Volume|event_id.iaas.volume.copy|Default Infrastructure Service|
+|Create Private DNS Zone|event_id.iaas.privatedns.zone.create|Default Infrastructure Service|
+|Modify Private DNS Zone|event_id.iaas.privatedns.zone.update|Default Infrastructure Service|
+|Delete Private DNS Zone|event_id.iaas.privatedns.zone.delete|Default Infrastructure Service|
+|Create Private DNS Record Set|event_id.iaas.privatedns.recordset.create|Default Infrastructure Service|
+|Modify Private DNS Record Set|event_id.iaas.privatedns.recordset.update|Default Infrastructure Service|
+|Delete Private DNS Record Set|event_id.iaas.privatedns.recordset.delete|Default Infrastructure Service|
+|Bulk Create Private DNS Record Set|event_id.iaas.privatedns.recordset.create_list|Default Infrastructure Service|
+|Create Transit Hub|event_id.iaas.transit_hub.create|Default Infrastructure Service|
+|Modify Transit Hub|event_id.iaas.transit_hub.update|Default Infrastructure Service|
+|Delete Transit Hub|event_id.iaas.transit_hub.delete|Default Infrastructure Service|
+|Create Transit Hub Attachment|event_id.iaas.transit_hub_attachment.create|Default Infrastructure Service|
+|Modify Transit Hub Attachment|event_id.iaas.transit_hub_attachment.update|Default Infrastructure Service|
+|Delete Transit Hub Attachment|event_id.iaas.transit_hub_attachment.delete|Default Infrastructure Service|
+|Create Transit Hub Allow List|event_id.iaas.transit_hub_allow_project.create|Default Infrastructure Service|
+|Modify Transit Hub Allow List|event_id.iaas.transit_hub_allow_project.update|Default Infrastructure Service|
+|Delete Transit Hub Allow List|event_id.iaas.transit_hub_allow_project.delete|Default Infrastructure Service|
+|Create Transit Hub Routing Table|event_id.iaas.transit_hub_routing_table.create|Default Infrastructure Service|
+|Modify Transit Hub Routing Table|event_id.iaas.transit_hub_routing_table.update|Default Infrastructure Service|
+|Delete Transit Hub Routing Table|event_id.iaas.transit_hub_routing_table.delete|Default Infrastructure Service|
+|Create Transit Hub Routing Association|event_id.iaas.transit_hub_routing_association.create|Default Infrastructure Service|
+|Modify Transit Hub Routing Association|event_id.iaas.transit_hub_routing_association.update|Default Infrastructure Service|
+|Delete Transit Hub Routing Association|event_id.iaas.transit_hub_routing_association.delete|Default Infrastructure Service|
+|Create Transit Hub Routing Propagation|event_id.iaas.transit_hub_routing_propagation.create|Default Infrastructure Service|
+|Modify Transit Hub Routing Propagation|event_id.iaas.transit_hub_routing_propagation.update|Default Infrastructure Service|
+|Delete Transit Hub Routing Propagation|event_id.iaas.transit_hub_routing_propagation.delete|Default Infrastructure Service|
+|Create Transit Hub Routing Rule|event_id.iaas.transit_hub_routing_rule.create|Default Infrastructure Service|
+|Modify Transit Hub Routing Rule|event_id.iaas.transit_hub_routing_rule.update|Default Infrastructure Service|
+|Delete Transit Hub Routing Rule|event_id.iaas.transit_hub_routing_rule.delete|Default Infrastructure Service|
+|Create Transit Hub Multicast Domain|event_id.iaas.transit_hub_multicast_domain.create|Default Infrastructure Service|
+|Modify Transit Hub Multicast Domain|event_id.iaas.transit_hub_multicast_domain.update|Default Infrastructure Service|
+|Delete Transit Hub Multicast Domain|event_id.iaas.transit_hub_multicast_domain.delete|Default Infrastructure Service|
+|Create Transit Hub Multicast Association|event_id.iaas.transit_hub_multicast_association.create|Default Infrastructure Service|
+|Modify Transit Hub Multicast Association|event_id.iaas.transit_hub_multicast_association.update|Default Infrastructure Service|
+|Delete Transit Hub Multicast Association|event_id.iaas.transit_hub_multicast_association.delete|Default Infrastructure Service|
+|Create Transit Hub Multicast Group|event_id.iaas.transit_hub_multicast_group.create|Default Infrastructure Service|
+|Modify Transit Hub Multicast Group|event_id.iaas.transit_hub_multicast_group.update|Default Infrastructure Service|
+|Delete Transit Hub Multicast Group|event_id.iaas.transit_hub_multicast_group.delete|Default Infrastructure Service|
 |Register/Modify Account Metadata|event_id.object_storage.account.metadata.update|Object Storage|
 |Create Containers|event_id.object_storage.container.create|Object Storage|
 |Delete Containers|event_id.object_storage.container.delete|Object Storage|
@@ -725,6 +768,7 @@
 |RequestAnalysis of Document OCR ID Card|event_id.ocr.document_ocr.id_card.analyze|OCR|
 |Request to Verify Authenticity of Document OCR ID Card|event_id.ocr.document_ocr.id_card.authenticity|OCR|
 |Request Analysis of Vehicle Plate OCR License Plate|event_id.ocr.vehicle_plate_ocr.analyze|OCR|
+|신분증 분석 요청(단독)|event_id.ai_document_recognizer.id_card.analyze_only|OCR|
 |Request analysis of car license plate|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|
 |Create Sender Profile|event_id.kakaotalk.sender.creation|KakaoTalk Bizmessage|
 |Certify Sender Profile Token|event_id.kakaotalk.sender.token.certification|KakaoTalk Bizmessage|
