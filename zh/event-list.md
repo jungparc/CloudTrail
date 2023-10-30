@@ -526,6 +526,8 @@
 |Change Backup Path|event_id.backup.target.update|Backup|
 |Delete Backup Path|event_id.backup.target.delete|Backup|
 |Apply for Restoration|event_id.backup.restoration.apply|Backup|
+|백업 계획 중지|event_id.backup.target.suspend|Backup|
+|백업 계획 시작|event_id.backup.target.resume|Backup|
 |Change Backup Server Data|event_id.backup.client.update|Backup|
 |Create DNS Zone|event_id.dnsplus.zone.create|DNS Plus|
 |Modify DNS Zone|event_id.dnsplus.zone.update|DNS Plus|
