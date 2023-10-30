@@ -526,6 +526,8 @@
 |백업 경로 변경|event_id.backup.target.update|Backup|
 |백업 경로 삭제|event_id.backup.target.delete|Backup|
 |복구 신청|event_id.backup.restoration.apply|Backup|
+|백업 계획 중지|event_id.backup.target.suspend|Backup|
+|백업 계획 시작|event_id.backup.target.resume|Backup|
 |백업 서버 정보 변경|event_id.backup.client.update|Backup|
 |DNS Zone 생성|event_id.dnsplus.zone.create|DNS Plus|
 |DNS Zone 수정|event_id.dnsplus.zone.update|DNS Plus|
