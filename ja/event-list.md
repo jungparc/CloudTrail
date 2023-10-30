@@ -526,6 +526,8 @@
 |バックアップパス変更|event_id.backup.target.update|Backup|
 |バックアップパス削除|event_id.backup.target.delete|Backup|
 |復旧申請|event_id.backup.restoration.apply|Backup|
+|백업 계획 중지|event_id.backup.target.suspend|Backup|
+|백업 계획 시작|event_id.backup.target.resume|Backup|
 |バックアップサーバー情報の変更|event_id.backup.client.update|Backup|
 |DNS Zone作成|event_id.dnsplus.zone.create|DNS Plus|
 |DNS Zone修正|event_id.dnsplus.zone.update|DNS Plus|
