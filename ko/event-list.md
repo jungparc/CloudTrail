@@ -29,6 +29,10 @@
 |인스턴스 시작 완료|event_id.iaas.instance_action.start_end|기본 인프라 서비스|
 |인스턴스 중지|event_id.iaas.instance_action.stop|기본 인프라 서비스|
 |인스턴스 중지 완료|event_id.iaas.instance_action.stop_end|기본 인프라 서비스|
+|인스턴스 시작|event_id.iaas.instance_action.unshelve|기본 인프라 서비스|
+|인스턴스 시작 완료|event_id.iaas.instance_action.unshelve_end|기본 인프라 서비스|
+|인스턴스 종료|event_id.iaas.instance_action.shelve|기본 인프라 서비스|
+|인스턴스 종료 완료|event_id.iaas.instance_action.shelve_end|기본 인프라 서비스|
 |인스턴스 템플릿 생성|event_id.iaas.instance_template.create|기본 인프라 서비스|
 |인스턴스 템플릿 삭제|event_id.iaas.instance_template.delete|기본 인프라 서비스|
 |인스턴스 템플릿 변경|event_id.iaas.instance_template.update|기본 인프라 서비스|
@@ -189,6 +193,14 @@
 |NAS for AI 볼륨 삭제|event_id.iaas.nas_for_ai.volume.delete|기본 인프라 서비스|
 |NAS for AI 스냅숏 생성|event_id.iaas.nas_for_ai.snapshot.create|기본 인프라 서비스|
 |NAS for AI 스냅숏 삭제|event_id.iaas.nas_for_ai.snapshot.delete|기본 인프라 서비스|
+|템플릿 생성|event_id.iaas.ncs.template.create|기본 인프라 서비스|
+|템플릿 삭제|event_id.iaas.ncs.template.delete|기본 인프라 서비스|
+|템플릿 삭제|event_id.iaas.ncs.template.delete	|기본 인프라 서비스|
+|워크로드 생성|event_id.iaas.ncs.workload.create|기본 인프라 서비스|
+|워크로드 변경|event_id.iaas.ncs.workload.update|기본 인프라 서비스|
+|워크로드 재시작|event_id.iaas.ncs.workload.restart|기본 인프라 서비스|
+|워크로드 중지|event_id.iaas.ncs.workload.stop|기본 인프라 서비스|
+|워크로드 삭제|event_id.iaas.ncs.workload.delete|기본 인프라 서비스|
 |어카운트 메타데이터 등록/수정|event_id.object_storage.account.metadata.update|Object Storage|
 |컨테이너 생성|event_id.object_storage.container.create|Object Storage|
 |컨테이너 삭제|event_id.object_storage.container.delete|Object Storage|
