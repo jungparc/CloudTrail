@@ -1,5 +1,10 @@
 ## CloudTrail > Release Notes
 
+### 2023. 11. 15.
+#### More Events
+* Added events related to OCR.
+* Added events related to Default Infrastructure Service.
+
 ### 2023. 11. 02.
 #### More Events
 * Added events related to OCR.
