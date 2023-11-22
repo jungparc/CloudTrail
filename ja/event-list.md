@@ -184,6 +184,11 @@
 |NASボリュームの削除|event_id.iaas.nas.volume.delete|基本インフラサービス|
 |NASスナップショットの作成|event_id.iaas.nas.snapshot.create|基本インフラサービス|
 |NASスナップショットの削除|event_id.iaas.nas.snapshot.delete|基本インフラサービス|
+|NAS for AIボリュームの作成|event_id.iaas.nas_for_ai.volume.create|基本インフラサービス|
+|NAS for AIボリュームの変更|event_id.iaas.nas_for_ai.volume.update|基本インフラサービス|
+|NAS for AIボリュームの削除|event_id.iaas.nas_for_ai.volume.delete|基本インフラサービス|
+|NAS for AIスナップショットの作成|event_id.iaas.nas_for_ai.snapshot.create|基本インフラサービス|
+|NAS for AIスナップショットの削除|event_id.iaas.nas_for_ai.snapshot.delete|基本インフラサービス|
 |アカウントメタデータの登録/修正|event_id.object_storage.account.metadata.update|Object Storage|
 |コンテナの作成|event_id.object_storage.container.create|Object Storage|
 |コンテナの削除|event_id.object_storage.container.delete|Object Storage|
@@ -808,6 +813,7 @@
 |Document OCR身分証の真偽確認リクエスト|event_id.ocr.document_ocr.id_card.authenticity|OCR|
 |Vehicle Plate OCR ナンバープレート分析リクエスト|event_id.ocr.vehicle_plate_ocr.analyze|OCR|
 |Document OCR 身分証明書分析リクエスト(単独)|event_id.ai_document_recognizer.id_card.analyze_only|OCR|
+|Document OCR事業者登録証休業/廃業照会|event_id.ocr.document_ocr.business.authenticity|OCR|
 |General OCRイメージ分割認識リクエスト|event_id.ocr.general_ocr.cropping_analyze|OCR|
 |ナンバープレートの分析リクエスト|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|
 |発信プロフィールの作成|event_id.kakaotalk.sender.creation|KakaoTalk Bizmessage|
