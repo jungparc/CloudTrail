@@ -29,6 +29,10 @@
 |Start Instance Completed|event_id.iaas.instance_action.start_end|Default Infrastructure Service|
 |Stop Instance|event_id.iaas.instance_action.stop|Default Infrastructure Service|
 |Stop Instance Completed|event_id.iaas.instance_action.stop_end|Default Infrastructure Service|
+|Start Instance|event_id.iaas.instance_action.unshelve|Default Infrastructure Service|
+|Start Instance Completed|event_id.iaas.instance_action.unshelve_end|Default Infrastructure Service|
+|Terminate Instance|event_id.iaas.instance_action.shelve|Default Infrastructure Service|
+|Terminate Instance Completed|event_id.iaas.instance_action.shelve_end|Default Infrastructure Service|
 |Create Instance Template|event_id.iaas.instance_template.create|Default Infrastructure Service|
 |Delete Instance Template|event_id.iaas.instance_template.delete|Default Infrastructure Service|
 |Change Instance Template|event_id.iaas.instance_template.update|Default Infrastructure Service|
@@ -189,6 +193,14 @@
 |Delete NAS for AI Volume|event_id.iaas.nas_for_ai.volume.delete|Default Infrastructure Service|
 |Create NAS for AI Snapshot|event_id.iaas.nas_for_ai.snapshot.create|Default Infrastructure Service|
 |Delete NAS for AI Snapshot|event_id.iaas.nas_for_ai.snapshot.delete|Default Infrastructure Service|
+|Create Template|event_id.iaas.ncs.template.create|Default Infrastructure Service|
+|Delete Template|event_id.iaas.ncs.template.delete|Default Infrastructure Service|
+|Delete Template|event_id.iaas.ncs.template.delete	|Default Infrastructure Service|
+|Create Workload|event_id.iaas.ncs.workload.create|Default Infrastructure Service|
+|Change Workload|event_id.iaas.ncs.workload.update|Default Infrastructure Service|
+|Restart Workload|event_id.iaas.ncs.workload.restart|Default Infrastructure Service|
+|Stop Workload|event_id.iaas.ncs.workload.stop|Default Infrastructure Service|
+|Delete Workload|event_id.iaas.ncs.workload.delete|Default Infrastructure Service|
 |Register/Modify Account Metadata|event_id.object_storage.account.metadata.update|Object Storage|
 |Create Containers|event_id.object_storage.container.create|Object Storage|
 |Delete Containers|event_id.object_storage.container.delete|Object Storage|
