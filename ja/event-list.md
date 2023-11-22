@@ -29,6 +29,10 @@
 |インスタンスの起動完了|event_id.iaas.instance_action.start_end|基本インフラサービス|
 |インスタンスの停止|event_id.iaas.instance_action.stop|基本インフラサービス|
 |インスタンスの停止完了|event_id.iaas.instance_action.stop_end|基本インフラサービス|
+|インスタンスの起動|event_id.iaas.instance_action.unshelve|基本インフラサービス|
+|インスタンスの起動完了|event_id.iaas.instance_action.unshelve_end|基本インフラサービス|
+|インスタンス終了|event_id.iaas.instance_action.shelve|基本インフラサービス|
+|インスタンス終了完了|event_id.iaas.instance_action.shelve_end|基本インフラサービス|
 |インスタンステンプレートの作成|event_id.iaas.instance_template.create|基本インフラサービス|
 |インスタンステンプレートの削除|event_id.iaas.instance_template.delete|基本インフラサービス|
 |インスタンステンプレートの変更|event_id.iaas.instance_template.update|基本インフラサービス|
@@ -189,6 +193,14 @@
 |NAS for AIボリュームの削除|event_id.iaas.nas_for_ai.volume.delete|基本インフラサービス|
 |NAS for AIスナップショットの作成|event_id.iaas.nas_for_ai.snapshot.create|基本インフラサービス|
 |NAS for AIスナップショットの削除|event_id.iaas.nas_for_ai.snapshot.delete|基本インフラサービス|
+|テンプレートの作成|event_id.iaas.ncs.template.create|基本インフラサービス|
+|テンプレートの削除|event_id.iaas.ncs.template.delete|基本インフラサービス|
+|テンプレートの削除|event_id.iaas.ncs.template.delete	|基本インフラサービス|
+|ワークロードの作成|event_id.iaas.ncs.workload.create|基本インフラサービス|
+|ワークロードの変更|event_id.iaas.ncs.workload.update|基本インフラサービス|
+|ワークロード再起動|event_id.iaas.ncs.workload.restart|基本インフラサービス|
+|ワークロード停止|event_id.iaas.ncs.workload.stop|基本インフラサービス|
+|ワークロードの削除|event_id.iaas.ncs.workload.delete|基本インフラサービス|
 |アカウントメタデータの登録/修正|event_id.object_storage.account.metadata.update|Object Storage|
 |コンテナの作成|event_id.object_storage.container.create|Object Storage|
 |コンテナの削除|event_id.object_storage.container.delete|Object Storage|
