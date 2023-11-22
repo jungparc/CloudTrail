@@ -797,12 +797,8 @@
 |インデックスリクエスト状態の確認|event_id.ai_fashion.maker.index|AI Fashion|
 |サービス情報確認|event_id.ai_fashion.maker.serviceinfo|AI Fashion|
 |インデックスリクエスト状態の確認|event_id.ai_fashion.maker.indexstatus|AI Fashion|
-|事業者登録証の分析リクエスト|event_id.ai_document_recognizer.business.analyze|OCR|
-|クレジットカード分析リクエスト|event_id.ai_document_recognizer.credit_card.analyze|OCR|
 |サービス利用申請|event_id.ai_document_recognizer.service_use_request.submit|OCR|
 |サービス利用申請キャンセル|event_id.ai_document_recognizer.service_use_request.cancel|OCR|
-|身分証分析リクエスト	|event_id.ai_document_recognizer.id_card.analyze|OCR|
-|身分証真偽確認リクエスト|event_id.ai_document_recognizer.id_card.authenticity|OCR|
 |General OCRイメージ分析リクエスト|event_id.ocr.general_ocr.analyze|OCR|
 |Document OCRサービス利用申請|event_id.ocr.document_ocr.service_use_request.submit|OCR|
 |Document OCRサービス利用申請キャンセル|event_id.ocr.document_ocr.service_use_request.cancel|OCR|
@@ -812,7 +808,7 @@
 |Document OCR身分証の真偽確認リクエスト|event_id.ocr.document_ocr.id_card.authenticity|OCR|
 |Vehicle Plate OCR ナンバープレート分析リクエスト|event_id.ocr.vehicle_plate_ocr.analyze|OCR|
 |Document OCR 身分証明書分析リクエスト(単独)|event_id.ai_document_recognizer.id_card.analyze_only|OCR|
-|Document OCR事業者登録証休業/廃業照会|event_id.ocr.document_recognizer.business.status|OCR|
+|General OCRイメージ分割認識リクエスト|event_id.ocr.general_ocr.cropping_analyze|OCR|
 |ナンバープレートの分析リクエスト|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|
 |発信プロフィールの作成|event_id.kakaotalk.sender.creation|KakaoTalk Bizmessage|
 |発信プロフィールトークンの認証|event_id.kakaotalk.sender.token.certification|KakaoTalk Bizmessage|
@@ -1051,6 +1047,14 @@
 |Safe Pause 강제 종료|event_id.gameanvil.safe_pause.force_stop|GameAnvil|
 |Standard 상품 선택|event_id.gameanvil.standard.select|GameAnvil|
 |Premium 상품 선택|event_id.gameanvil.premium.select|GameAnvil|
+|GATEWAY 노드 강제 종료|event_id.gameanvil.gateway_node.force_stop|GameAnvil|
+|GAME 노드 강제 종료|event_id.gameanvil.game_node.force_stop|GameAnvil|
+|SUPPORT 노드 강제 종료|event_id.gameanvil.support_node.force_stop|GameAnvil|
+|MATCH 노드 강제 종료|event_id.gameanvil.match_node.force_stop|GameAnvil|
+|GATEWAY 노드 시작|event_id.gameanvil.gateway_node.start_up|GameAnvil|
+|GAME 노드 시작|event_id.gameanvil.game_node.start_up|GameAnvil|
+|SUPPORT 노드 시작|event_id.gameanvil.support_node.start_up|GameAnvil|
+|MATCH 노드 시작|event_id.gameanvil.match_node.start_up|GameAnvil|
 |수신거부 서비스 공유|event_id.sms.share_block_service|SMS|
 |파일 다운로드|event_id.sms.download_reserved_file|SMS|
 |대량 수신자 파일 다운로드 예약|event_id.sms.reserve_download_mass_message|SMS|
