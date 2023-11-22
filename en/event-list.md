@@ -184,6 +184,11 @@
 |Delete NAS Volume|event_id.iaas.nas.volume.delete|Default Infrastructure Service|
 |Create NAS Snapshot|event_id.iaas.nas.snapshot.create|Default Infrastructure Service|
 |Delete NAS Snapshot|event_id.iaas.nas.snapshot.delete|Default Infrastructure Service|
+|Create NAS for AI Volume|event_id.iaas.nas_for_ai.volume.create|Default Infrastructure Service|
+|Change NAS for AI Volume|event_id.iaas.nas_for_ai.volume.update|Default Infrastructure Service|
+|Delete NAS for AI Volume|event_id.iaas.nas_for_ai.volume.delete|Default Infrastructure Service|
+|Create NAS for AI Snapshot|event_id.iaas.nas_for_ai.snapshot.create|Default Infrastructure Service|
+|Delete NAS for AI Snapshot|event_id.iaas.nas_for_ai.snapshot.delete|Default Infrastructure Service|
 |Register/Modify Account Metadata|event_id.object_storage.account.metadata.update|Object Storage|
 |Create Containers|event_id.object_storage.container.create|Object Storage|
 |Delete Containers|event_id.object_storage.container.delete|Object Storage|
@@ -808,6 +813,7 @@
 |Request to Verify Authenticity of Document OCR ID Card|event_id.ocr.document_ocr.id_card.authenticity|OCR|
 |Request Analysis of Vehicle Plate OCR License Plate|event_id.ocr.vehicle_plate_ocr.analyze|OCR|
 |Request ID Card Analysis (only)|event_id.ai_document_recognizer.id_card.analyze_only|OCR|
+|Retrieve Stoppage/Closure of Business Registration Certificate for Document OCR|event_id.ocr.document_ocr.business.authenticity|OCR|
 |Request General OCR Image Segmentation Recognition|event_id.ocr.general_ocr.cropping_analyze|OCR|
 |Request analysis of car license plate|event_id.ai_vehicle_plate_recognizer.analyze|Vehicle Plate Recognizer|
 |Create Sender Profile|event_id.kakaotalk.sender.creation|KakaoTalk Bizmessage|
