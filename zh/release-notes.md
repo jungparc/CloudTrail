@@ -1,5 +1,10 @@
 ## CloudTrail > Release Notes
 
+### 2023. 11. 02.
+#### More Events
+* Added events related to OCR.
+* Added events related to GameAnvil.
+
 ### 2023. 10. 31.
 #### More Events
 * Added events related to AI EasyMaker.
@@ -92,7 +97,6 @@
 
 ### 2022. 11. 29.
 #### More Events
-* Added events related to OCR.
 * Added events related to Console.
 * Added events related to Default Infrastructure Service.
 * Added events related to Object Storage.
@@ -190,7 +194,6 @@
 
 ### 2021. 10. 26.
 #### More Events
-* Added events related to OCR.
 * Added events related to AI Fashion.
 
 ### 2021. 09. 28.
