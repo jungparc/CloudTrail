@@ -4,9 +4,15 @@
 #### More Events
 * Added events related to Console.
 
+### 2024. 01. 16.
+#### More Events
+* Added events related to KakaoTalk Bizmessage.
+* Added events related to Email.
+
 ### 2023. 12. 19.
 #### More Events
 * Added events related to AI EasyMaker.
+* Added events related to Email.
 
 ### 2023. 11. 28.
 #### More Events
