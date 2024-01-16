@@ -1,8 +1,9 @@
 ## CloudTrail > Release Notes
 
-### 2024. 01. 16.
+### 2024. 01. 17.
 #### More Events
 * Added events related to KakaoTalk Bizmessage.
+* Added events related to SMS.
 * Added events related to Email.
 
 ### 2023. 12. 19.
