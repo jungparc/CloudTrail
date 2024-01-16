@@ -389,23 +389,11 @@
 |プロジェクトサービスの有効化|event_id.project.product.enable|コンソール|
 |プロジェクトの修正|event_id.project.update|コンソール|
 |プロジェクト アクセス|event_id.project.selected|コンソール|
-|プロジェクト共通ロールグループ追加|event_id.org.role_group.create|コンソール|
-|プロジェクト共通ロールグループ修正|event_id.org.role_group.update|コンソール|
-|プロジェクト共通ロールグループ削除|event_id.org.role_group.delete|コンソール|
-|プロジェクト共通ロールグループロール追加|event_id.org.role_group.assign.roles|コンソール|
-|プロジェクト共通ロールグループロール削除|event_id.org.role_group.remove.roles|コンソール|
-|ロールグループ追加|event_id.project.role_group.create|コンソール|
-|ロールグループ修正|event_id.project.role_group.update|コンソール|
-|ロールグループ削除|event_id.project.role_group.delete|コンソール|
-|ロールグループロール追加|event_id.project.role_group.assign.roles|コンソール|
-|ロールグループロール削除|event_id.project.role_group.remove.roles|コンソール|
 |IAMプロジェクト アクセス|event_id.iam.project.selected|コンソール|
 |予算追加|event_id.budget.create|コンソール|
 |予算修正|event_id.budget.modify|コンソール|
 |予算削除|event_id.budget.delete|コンソール|
 |ガバナンス設定変更|event_id.governance.change|コンソール|
-|サービスサポートチームを削除する|event_id.supporter.delete|コンソール|
-|サービスサポートチームを招待する|event_id.supporter.add|コンソール|
 |マーケットプレイス申請|event_id.market_place.apply|コンソール|
 |マーケットプレイス申請キャンセル|event_id.market_place.apply-cancel|コンソール|
 |マーケットプレイス解約申請|event_id.market_place.termination-apply|コンソール|
@@ -868,9 +856,6 @@
 |カカともへのメッセージイメージのアップロード|event_id.friendtalk.image.uploading|KakaoTalk Bizmessage|
 |カカともへのメッセージイメージの削除|event_id.friendtalk.image.deletion|KakaoTalk Bizmessage|
 |FriendtalkのbizFormIdをアップロード|event_id.friendtalk.upload.biz-form-id|KakaoTalk Bizmessage|
-|通知トークバルク出荷依頼の照会|event_id.alimtalk.get_mass_message_master_list|KakaoTalk Bizmessage|
-|알림톡 대량 발송 수신자 조회|event_id.alimtalk.get_mass_message_recipient_list|KakaoTalk Bizmessage|
-|친구톡 대량 발송 요청 조회|event_id.friendtalk.get_mass_message_master_list|KakaoTalk Bizmessage|
 |API Key作成|event_id.apigw.apikey.create|API Gateway|
 |API Key修正|event_id.apigw.apikey.update|API Gateway|
 |API Key削除|event_id.apigw.apikey.delete|API Gateway|
