@@ -389,23 +389,11 @@
 |Enable Project Service|event_id.project.product.enable|Console|
 |Modify Project|event_id.project.update|Console|
 |Access Project|event_id.project.selected|Console|
-|공통 권한 그룹 생성|event_id.org.role_group.create|Console|
-|공통 권한 그룹 수정|event_id.org.role_group.update|Console|
-|공통 권한 그룹 삭제|event_id.org.role_group.delete|Console|
-|공통 권한 그룹 권한 추가|event_id.org.role_group.assign.roles|Console|
-|공통 권한 그룹 권한 삭제|event_id.org.role_group.remove.roles|Console|
-|프로젝트 권한 그룹 생성|event_id.project.role_group.create|Console|
-|프로젝트 권한 그룹 수정|event_id.project.role_group.update|Console|
-|프로젝트 권한 그룹 삭제|event_id.project.role_group.delete|Console|
-|프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|Console|
-|프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|Console|
 |Access IAM Project|event_id.iam.project.selected|Console|
 |Add Budget|event_id.budget.create|Console|
 |Modify Budget|event_id.budget.modify|Console|
 |Delete Budget|event_id.budget.delete|Console|
 |Change governance setting|event_id.governance.change|Console|
-|서비스지원팀 삭제|event_id.supporter.delete|Console|
-|서비스지원팀 추가|event_id.supporter.add|Console|
 |Apply for Marketplace|event_id.market_place.apply|Console|
 |Cancel Applying for Marketplace|event_id.market_place.apply-cancel|Console|
 |Apply for Marketplace Cancellation|event_id.market_place.termination-apply|Console|
@@ -1147,27 +1135,44 @@
 |Settings Changed|event_id.security_advisor.setting_change|Security Advisor|
 |Download Excel|event_id.security_advisor.excel_download|Security Advisor|
 |Selected Inspection Requested|event_id.security_advisor.manual_scan_request|Security Advisor|
+|UID 삭제|event_id.email.remove_uid|Email|
+|일반 발송 메일 수신자 목록 조회|event_id.email.get_send_list|Email|
+|대량 발송 요청 수신자 목록 조회|event_id.email.get_mass_receiver_list|Email|
 |카테고리 등록|event_id.email.add_category|Email|
 |도메인 등록|event_id.email.add_domain|Email|
+|파일 다운로드 요청|email_id.email.file_download_request|Email|
+|예약 발송 메일 수신자 목록 조회|event_id.email.get_reservation_list|Email|
 |도메인 삭제|event_id.email.remove_domain|Email|
 |템플릿 삭제|event_id.email.remove_template|Email|
+|대량 발송 요청 수신자 상세 조회|event_id.email.get_mass_receiver_detail|Email|
+|태그 발송 요청 수신자 목록 조회|event_id.email.get_tag_receiver_list|Email|
 |수신거부 사용자 추가|event_id.email.add_block_receiver|Email|
 |카테고리 삭제|event_id.email.remove_category|Email|
+|대량 발송 요청 목록 조회|event_id.email.get_mass_master_list|Email|
 |발송 설정 수정|event_id.email.update_send_config|Email|
 |대량 발송 요청|event_id.email.send_mass_mail|Email|
 |대량 발송 취소|event_id.email.cancel_mass_mail|Email|
 |태그 수신자 파일 다운로드 예약|event_id.email.reserve_download_tag_mail|Email|
 |대량 발송 수신자 파일 업로드|event_id.email.upload_mass_mail_recipient|Email|
+|UID 목록 조회|event_id.email.get_uid|Email|
 |템플릿 등록|event_id.email.add_template|Email|
+|파일 다운로드|email_id.email.file_download|Email|
 |템플릿 수정|event_id.email.modify_template|Email|
 |대량 수신자 파일 다운로드 예약|event_id.email.reserve_download_mass_mail|Email|
 |일반 수신자 파일 다운로드 예약|event_id.email.reserve_download_normal_mail|Email|
 |파일 다운로드|event_id.email.download_reserved_file|Email|
 |Email 상품 비활성화|event_id.email.disble_email_product|Email|
+|태그 발송 요청 목록 조회|event_id.email.get_tag_master_list|Email|
 |카테고리 수정|event_id.email.modify_category|Email|
 |수신거부 사용자 제거|event_id.email.remove_block_receiver|Email|
+|일반 발송 메일 수신자 상세 조회|event_id.email.get_send_detail|Email|
+|수신 거부자 목록 조회|event_id.email.get_block_receiver_list|Email|
 |Email 상품 활성화|event_id.email.enable_email_product|Email|
+|UID 추가(파일)|event_id.email.add_uid|Email|
 |수신 거부자 파일 다운로드 예약|event_id.email.reserve_download_block_recipient|Email|
+|태그 발송 요청 수신자 상세 조회|event_id.email.get_tag_receiver_detail|Email|
+|예약 발송 메일 수신자 상세 조회|event_id.email.get_reservation_detail|Email|
+|수신 거부자 등록(파일)|event_id.email.add_block_receiver_list_file|Email|
 |Update App|event_id.gamebase.app_update|Gamebase|
 |Request for Posture recognition|event_id.pose_estimation.pose|Pose Estimation|
 |Add test device|event_id.gamebase.access_devices_create|Gamebase|
