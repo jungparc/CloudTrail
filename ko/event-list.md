@@ -857,8 +857,6 @@
 |친구톡 이미지 삭제|event_id.friendtalk.image.deletion|KakaoTalk Bizmessage|
 |친구톡 비지니스폼 아이디 업로드|event_id.friendtalk.upload.biz-form-id|KakaoTalk Bizmessage|
 |알림톡 대량 발송 요청 조회|event_id.alimtalk.get_mass_message_master_list|KakaoTalk Bizmessage|
-|알림톡 대량 발송 수신자 조회|event_id.alimtalk.get_mass_message_recipient_list|KakaoTalk Bizmessage|
-|친구톡 대량 발송 요청 조회|event_id.friendtalk.get_mass_message_master_list|KakaoTalk Bizmessage|
 |API Key 생성|event_id.apigw.apikey.create|API Gateway|
 |API Key 수정|event_id.apigw.apikey.update|API Gateway|
 |API Key 삭제|event_id.apigw.apikey.delete|API Gateway|
