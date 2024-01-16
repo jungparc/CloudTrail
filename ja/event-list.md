@@ -389,11 +389,23 @@
 |プロジェクトサービスの有効化|event_id.project.product.enable|コンソール|
 |プロジェクトの修正|event_id.project.update|コンソール|
 |プロジェクト アクセス|event_id.project.selected|コンソール|
+|プロジェクト共通ロールグループ追加|event_id.org.role_group.create|コンソール|
+|プロジェクト共通ロールグループ修正|event_id.org.role_group.update|コンソール|
+|プロジェクト共通ロールグループ削除|event_id.org.role_group.delete|コンソール|
+|プロジェクト共通ロールグループロール追加|event_id.org.role_group.assign.roles|コンソール|
+|プロジェクト共通ロールグループロール削除|event_id.org.role_group.remove.roles|コンソール|
+|ロールグループ追加|event_id.project.role_group.create|コンソール|
+|ロールグループ修正|event_id.project.role_group.update|コンソール|
+|ロールグループ削除|event_id.project.role_group.delete|コンソール|
+|ロールグループロール追加|event_id.project.role_group.assign.roles|コンソール|
+|ロールグループロール削除|event_id.project.role_group.remove.roles|コンソール|
 |IAMプロジェクト アクセス|event_id.iam.project.selected|コンソール|
 |予算追加|event_id.budget.create|コンソール|
 |予算修正|event_id.budget.modify|コンソール|
 |予算削除|event_id.budget.delete|コンソール|
 |ガバナンス設定変更|event_id.governance.change|コンソール|
+|サービスサポートチームを削除する|event_id.supporter.delete|コンソール|
+|サービスサポートチームを招待する|event_id.supporter.add|コンソール|
 |マーケットプレイス申請|event_id.market_place.apply|コンソール|
 |マーケットプレイス申請キャンセル|event_id.market_place.apply-cancel|コンソール|
 |マーケットプレイス解約申請|event_id.market_place.termination-apply|コンソール|
@@ -856,6 +868,14 @@
 |カカともへのメッセージイメージのアップロード|event_id.friendtalk.image.uploading|KakaoTalk Bizmessage|
 |カカともへのメッセージイメージの削除|event_id.friendtalk.image.deletion|KakaoTalk Bizmessage|
 |FriendtalkのbizFormIdをアップロード|event_id.friendtalk.upload.biz-form-id|KakaoTalk Bizmessage|
+|通知トークバルク出荷依頼の照会|event_id.alimtalk.get_mass_message_master_list|KakaoTalk Bizmessage|
+|通知トーク一括送信受信者の検索|event_id.alimtalk.get_mass_message_recipient_list|KakaoTalk Bizmessage|
+|友達トークバルク出荷依頼の照会|event_id.friendtalk.get_mass_message_master_list|KakaoTalk Bizmessage|
+|友達トーク一括送信受信者詳細検索|event_id.friendtalk.get_mass_message_recipient_detail|KakaoTalk Bizmessage|
+|通知トーク一般発送メッセージ詳細照会|event_id.alimtalk.message_searching_detail|KakaoTalk Bizmessage|
+|通知トーク認証送信メッセージ詳細検索|event_id.alimtalk.auth.message_searching_detail|KakaoTalk Bizmessage|
+|友達トーク一般発送メッセージ詳細検索|event_id.friendtalk.message_searching_detail|KakaoTalk Bizmessage|
+|メッセージファイルのダウンロード|event_id.kakaotalk.download.message_export|KakaoTalk Bizmessage|
 |API Key作成|event_id.apigw.apikey.create|API Gateway|
 |API Key修正|event_id.apigw.apikey.update|API Gateway|
 |API Key削除|event_id.apigw.apikey.delete|API Gateway|
@@ -1070,24 +1090,44 @@
 |GAME 노드 시작|event_id.gameanvil.game_node.start_up|GameAnvil|
 |SUPPORT 노드 시작|event_id.gameanvil.support_node.start_up|GameAnvil|
 |MATCH 노드 시작|event_id.gameanvil.match_node.start_up|GameAnvil|
+|일반 발송 SMS 메시지 상세 조회|event_id.sms.get_normal_sms_message_detail|SMS|
 |수신거부 서비스 공유|event_id.sms.share_block_service|SMS|
 |파일 다운로드|event_id.sms.download_reserved_file|SMS|
 |대량 수신자 파일 다운로드 예약|event_id.sms.reserve_download_mass_message|SMS|
 |대량 발송 취소|event_id.sms.cancel_mass_message|SMS|
+|태그 발송 요청 수신자 목록 조회|event_id.sms.get_tag_message_recipient_list|SMS|
 |카테고리 등록|event_id.sms.add_category|SMS|
+|예약 발송 메시지 검색하여 취소 목록 조회|event_id.sms.get_search_cancel_reservation_list|SMS|
+|예약 발송 메시지 검색하여 취소|event_id.sms.search_cancel_reservation_message|SMS|
+|수신 거부자 목록 추가|event_id.sms.add_block_recipient_list|SMS|
+|일반 발송 인증 메시지 상세 조회|event_id.sms.get_normal_auth_message_detail|SMS|
+|일반 발송 MMS 메시지 상세 조회|event_id.sms.get_normal_mms_message_detail|SMS|
 |수신거부 서비스 제거|event_id.sms.remove_block_service|SMS|
 |일반 수신자 파일 다운로드 예약|event_id.sms.reserve_download_normal_message|SMS|
+|수신 거부자 목록 조회|event_id.sms.get_block_recipient_list|SMS|
 |수신 거부자 파일 다운로드 예약|event_id.sms.reserve_download_block_recipient|SMS|
 |태그 수신자 파일 다운로드 예약|event_id.sms.reserve_download_tag_message|SMS|
+|일반 발송 SMS 메시지 목록 조회|event_id.sms.get_normal_sms_message_list|SMS|
+|태그 발송 요청 목록 조회|event_id.sms.get_tag_message_master_list|SMS|
 |템플릿 삭제|event_id.sms.remove_template|SMS|
+|예약 발송 메시지 목록 조회|event_id.sms.get_reservation_message_list|SMS|
 |본인 인증 요청|event_id.sms.request_self_verification|SMS|
+|대량 발송 요청 수신자 목록 조회|event_id.sms.get_mass_message_recipient_list|SMS|
+|대량 발송 요청 수신자 상세 조회|event_id.sms.get_mass_message_recipient_detail|SMS|
 |발송 설정 수정|event_id.sms.update_send_config|SMS|
 |수신거부 서비스 공유 해지|event_id.sms.cancel_share_block_service|SMS|
 |대량 발송 수신자 파일 업로드|event_id.sms.upload_mass_message_recipient|SMS|
+|일반 발송 MMS 메시지 목록 조회|event_id.sms.get_normal_mms_message_list|SMS|
+|일반 발송 인증 메시지 목록 조회|event_id.sms.get_normal_auth_message_list|SMS|
+|대량 발송 요청 목록 조회|event_id.sms.get_mass_message_master_list|SMS|
+|수신 거부자 목록 삭제|event_id.sms.delete_block_recipient_list|SMS|
 |발신 번호 인증 요청|event_id.sms.request_sender_number_verification|SMS|
 |카테고리 삭제|event_id.sms.remove_category|SMS|
 |대량 발송 요청|event_id.sms.send_mass_message|SMS|
+|태그 발송 요청 수신자 상세 조회|event_id.sms.get_tag_message_recipient_detail|SMS|
+|예약 발송 메시지 상세 조회|event_id.sms.get_reservation_message_detail|SMS|
 |수신거부 서비스 추가|event_id.sms.add_block_service|SMS|
+|예약 발송 메시지 취소|event_id.sms.cancel_reservation_message|SMS|
 |템플릿 등록|event_id.sms.add_template|SMS|
 |상품 활성화|event_id.file_crafter.enableProduct|File-Crafter|
 |상품 비활성화|event_id.file_crafter.disableProduct|File-Crafter|
