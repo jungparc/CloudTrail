@@ -389,23 +389,23 @@
 |Enable Project Service|event_id.project.product.enable|Console|
 |Modify Project|event_id.project.update|Console|
 |Access Project|event_id.project.selected|Console|
-|공통 권한 그룹 생성|event_id.org.role_group.create|Console|
-|공통 권한 그룹 수정|event_id.org.role_group.update|Console|
-|공통 권한 그룹 삭제|event_id.org.role_group.delete|Console|
-|공통 권한 그룹 권한 추가|event_id.org.role_group.assign.roles|Console|
-|공통 권한 그룹 권한 삭제|event_id.org.role_group.remove.roles|Console|
-|프로젝트 권한 그룹 생성|event_id.project.role_group.create|Console|
-|프로젝트 권한 그룹 수정|event_id.project.role_group.update|Console|
-|프로젝트 권한 그룹 삭제|event_id.project.role_group.delete|Console|
-|프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|Console|
-|프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|Console|
+|Add Project Common Role Group|event_id.org.role_group.create|Console|
+|Modify Project Common Role Group|event_id.org.role_group.update|Console|
+|Delete Project Common Role Group|event_id.org.role_group.delete|Console|
+|Add Role to Project Common Role Group|event_id.org.role_group.assign.roles|Console|
+|Delete Role from Project Common Role Group|event_id.org.role_group.remove.roles|Console|
+|Add Role Group|event_id.project.role_group.create|Console|
+|Modify Role Group|event_id.project.role_group.update|Console|
+|Delete Role Group|event_id.project.role_group.delete|Console|
+|Add Role to Role Group|event_id.project.role_group.assign.roles|Console|
+|Delete Role from Role Group|event_id.project.role_group.remove.roles|Console|
 |Access IAM Project|event_id.iam.project.selected|Console|
 |Add Budget|event_id.budget.create|Console|
 |Modify Budget|event_id.budget.modify|Console|
 |Delete Budget|event_id.budget.delete|Console|
 |Change governance setting|event_id.governance.change|Console|
-|서비스지원팀 삭제|event_id.supporter.delete|Console|
-|서비스지원팀 추가|event_id.supporter.add|Console|
+|Delete the service support team|event_id.supporter.delete|Console|
+|Invite service support team|event_id.supporter.add|Console|
 |Apply for Marketplace|event_id.market_place.apply|Console|
 |Cancel Applying for Marketplace|event_id.market_place.apply-cancel|Console|
 |Apply for Marketplace Cancellation|event_id.market_place.termination-apply|Console|
