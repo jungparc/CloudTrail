@@ -389,23 +389,11 @@
 |Enable Project Service|event_id.project.product.enable|Console|
 |Modify Project|event_id.project.update|Console|
 |Access Project|event_id.project.selected|Console|
-|Add Project Common Role Group|event_id.org.role_group.create|Console|
-|Modify Project Common Role Group|event_id.org.role_group.update|Console|
-|Delete Project Common Role Group|event_id.org.role_group.delete|Console|
-|Add Role to Project Common Role Group|event_id.org.role_group.assign.roles|Console|
-|Delete Role from Project Common Role Group|event_id.org.role_group.remove.roles|Console|
-|Add Role Group|event_id.project.role_group.create|Console|
-|Modify Role Group|event_id.project.role_group.update|Console|
-|Delete Role Group|event_id.project.role_group.delete|Console|
-|Add Role to Role Group|event_id.project.role_group.assign.roles|Console|
-|Delete Role from Role Group|event_id.project.role_group.remove.roles|Console|
 |Access IAM Project|event_id.iam.project.selected|Console|
 |Add Budget|event_id.budget.create|Console|
 |Modify Budget|event_id.budget.modify|Console|
 |Delete Budget|event_id.budget.delete|Console|
 |Change governance setting|event_id.governance.change|Console|
-|Delete the service support team|event_id.supporter.delete|Console|
-|Invite service support team|event_id.supporter.add|Console|
 |Apply for Marketplace|event_id.market_place.apply|Console|
 |Cancel Applying for Marketplace|event_id.market_place.apply-cancel|Console|
 |Apply for Marketplace Cancellation|event_id.market_place.termination-apply|Console|
@@ -868,9 +856,6 @@
 |Upload Friendtalk Image|event_id.friendtalk.image.uploading|KakaoTalk Bizmessage|
 |Delete Friendtalk Image|event_id.friendtalk.image.deletion|KakaoTalk Bizmessage|
 |Upload Friendtalk bizFormId|event_id.friendtalk.upload.biz-form-id|KakaoTalk Bizmessage|
-|알림톡 대량 발송 요청 조회|event_id.alimtalk.get_mass_message_master_list|KakaoTalk Bizmessage|
-|알림톡 대량 발송 수신자 조회|event_id.alimtalk.get_mass_message_recipient_list|KakaoTalk Bizmessage|
-|친구톡 대량 발송 요청 조회|event_id.friendtalk.get_mass_message_master_list|KakaoTalk Bizmessage|
 |Create API Key|event_id.apigw.apikey.create|API Gateway|
 |Modify API Key|event_id.apigw.apikey.update|API Gateway|
 |Delete API Key|event_id.apigw.apikey.delete|API Gateway|
