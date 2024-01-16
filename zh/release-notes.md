@@ -1,5 +1,9 @@
 ## CloudTrail > Release Notes
 
+### 2024. 01. 24.
+#### More Events
+* Added events related to Console.
+
 ### 2023. 12. 19.
 #### More Events
 * Added events related to AI EasyMaker.
