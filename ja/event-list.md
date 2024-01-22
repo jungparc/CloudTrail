@@ -1209,39 +1209,39 @@
 |예약 발송 메일 수신자 상세 조회|event_id.email.get_reservation_detail|Email|
 |수신 거부자 등록(파일)|event_id.email.add_block_receiver_list_file|Email|
 |Pose Estimation分析要請|event_id.pose_estimation.pose|Pose Estimation|
-|역할 생성|event_id.role.role.create|ROLE|
-|역할 수정|event_id.role.role.update|ROLE|
-|역할 삭제|event_id.role.role.delete|ROLE|
-|역할 태그 생성|event_id.role.role_tag.create|ROLE|
-|역할 태그 삭제|event_id.role.role_tag.delete|ROLE|
-|유저 생성|event_id.role.user.create|ROLE|
-|유저 수정|event_id.role.user.update|ROLE|
-|유저 삭제|event_id.role.user.delete|ROLE|
-|범위 생성|event_id.role.scope.create|ROLE|
-|범위 수정|event_id.role.scope.update|ROLE|
-|범위 삭제|event_id.role.scope.delete|ROLE|
-|리소스 생성|event_id.role.resource.create|ROLE|
-|리소스 수정|event_id.role.resource.update|ROLE|
-|리소스 삭제|event_id.role.resource.delete|ROLE|
-|리소스 역할 연관 관계 추가|event_id.role.resource_authorization.create|ROLE|
-|리소스 역할 연관 관계 삭제|event_id.role.resource_authorization.delete|ROLE|
-|오퍼레이션 생성|event_id.role.operation.create|ROLE|
-|오퍼레이션 수정|event_id.role.operation.update|ROLE|
-|오퍼레이션 삭제|event_id.role.operation.delete|ROLE|
-|역할 연관 관계 생성|event_id.role.role_relation.create|ROLE|
-|역할 연관관계 삭제|event_id.role.role_relation.delete|ROLE|
-|유저에 역할 할당|event_id.role.user_role_relation.create|ROLE|
-|유저에 기존 역할 삭제 후 할당|event_id.role.user_role_relation.update|ROLE|
-|유저에 할당된 역할 삭제|event_id.role.user_role_relation.delete|ROLE|
-|Tenant 서버와 Client SDK 의 Cache 제거|event_id.role.cache_flushtime.update|ROLE|
-|Behavior 실행|event_id.role.execute_behavior|ROLE|
-|조건 속성 생성|event_id.role.attribute.create|ROLE|
-|조건 속성 수정|event_id.role.attribute.update|ROLE|
-|조건 속성 삭제|event_id.role.attribute.delete|ROLE|
-|조건 속성과 연관된 역할 다건 생성|event_id.role.attribute_role_relation.create|ROLE|
-|조건 속성과 연관된 역할 다건 삭제|event_id.role.attribute_role_relation.delete|ROLE|
-|조건 속성 태그 생성|event_id.role.attribute_tag.create|ROLE|
-|조건 속성 태그 삭제|event_id.role.attribute_tag.delete|ROLE|
+|Create Role|event_id.role.role.create|ROLE|
+|Modify Role|event_id.role.role.update|ROLE|
+|Delete Role|event_id.role.role.delete|ROLE|
+|Create Role Tag|event_id.role.role_tag.create|ROLE|
+|Delete Role Tag|event_id.role.role_tag.delete|ROLE|
+|Create User|event_id.role.user.create|ROLE|
+|Modify User|event_id.role.user.update|ROLE|
+|Delete User|event_id.role.user.delete|ROLE|
+|Create Scope|event_id.role.scope.create|ROLE|
+|Modify Scope|event_id.role.scope.update|ROLE|
+|Delete Scope|event_id.role.scope.delete|ROLE|
+|Create Resource|event_id.role.resource.create|ROLE|
+|Modify Resource|event_id.role.resource.update|ROLE|
+|Delete Resource|event_id.role.resource.delete|ROLE|
+|Create Resource-related Role|event_id.role.resource_authorization.create|ROLE|
+|Delete Resource-related Role|event_id.role.resource_authorization.delete|ROLE|
+|Create Operation|event_id.role.operation.create|ROLE|
+|Modify Operation|event_id.role.operation.update|ROLE|
+|Delete Operation|event_id.role.operation.delete|ROLE|
+|Create Related Role|event_id.role.role_relation.create|ROLE|
+|Delete Related Role|event_id.role.role_relation.delete|ROLE|
+|Create User-related Role|event_id.role.user_role_relation.create|ROLE|
+|Modify User-related Role|event_id.role.user_role_relation.update|ROLE|
+|Delete User-related Role|event_id.role.user_role_relation.delete|ROLE|
+|Delete Cache|event_id.role.cache_flushtime.update|ROLE|
+|Bulk Change|event_id.role.execute_behavior|ROLE|
+|Create Condition Attribute|event_id.role.attribute.create|ROLE|
+|Modify Condition Attribute|event_id.role.attribute.update|ROLE|
+|Delete Condition Attribute|event_id.role.attribute.delete|ROLE|
+|Create Condition Attribute-related Role|event_id.role.attribute_role_relation.create|ROLE|
+|Delete Condition Attribute-related Role|event_id.role.attribute_role_relation.delete|ROLE|
+|Create Condition Attribute Tag|event_id.role.attribute_tag.create|ROLE|
+|Delete Condition Attribute Tag|event_id.role.attribute_tag.delete|ROLE|
 |Update App|event_id.gamebase.app_update|Gamebase|
 |Add test device|event_id.gamebase.access_devices_create|Gamebase|
 |Update test device|event_id.gamebase.access_devices_update|Gamebase|
