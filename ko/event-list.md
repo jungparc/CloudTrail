@@ -1214,32 +1214,32 @@
 |역할 삭제|event_id.role.role.delete|ROLE|
 |역할 태그 생성|event_id.role.role_tag.create|ROLE|
 |역할 태그 삭제|event_id.role.role_tag.delete|ROLE|
-|유저 생성|event_id.role.user.create|ROLE|
-|유저 수정|event_id.role.user.update|ROLE|
-|유저 삭제|event_id.role.user.delete|ROLE|
+|사용자 생성|event_id.role.user.create|ROLE|
+|사용자 수정|event_id.role.user.update|ROLE|
+|사용자 삭제|event_id.role.user.delete|ROLE|
 |범위 생성|event_id.role.scope.create|ROLE|
 |범위 수정|event_id.role.scope.update|ROLE|
 |범위 삭제|event_id.role.scope.delete|ROLE|
 |리소스 생성|event_id.role.resource.create|ROLE|
 |리소스 수정|event_id.role.resource.update|ROLE|
 |리소스 삭제|event_id.role.resource.delete|ROLE|
-|리소스 역할 연관 관계 추가|event_id.role.resource_authorization.create|ROLE|
-|리소스 역할 연관 관계 삭제|event_id.role.resource_authorization.delete|ROLE|
+|리소스 연관 역할 생성|event_id.role.resource_authorization.create|ROLE|
+|리소스 연관 역할 삭제|event_id.role.resource_authorization.delete|ROLE|
 |오퍼레이션 생성|event_id.role.operation.create|ROLE|
 |오퍼레이션 수정|event_id.role.operation.update|ROLE|
 |오퍼레이션 삭제|event_id.role.operation.delete|ROLE|
-|역할 연관 관계 생성|event_id.role.role_relation.create|ROLE|
-|역할 연관관계 삭제|event_id.role.role_relation.delete|ROLE|
-|유저에 역할 할당|event_id.role.user_role_relation.create|ROLE|
-|유저에 기존 역할 삭제 후 할당|event_id.role.user_role_relation.update|ROLE|
-|유저에 할당된 역할 삭제|event_id.role.user_role_relation.delete|ROLE|
-|Tenant 서버와 Client SDK 의 Cache 제거|event_id.role.cache_flushtime.update|ROLE|
-|Behavior 실행|event_id.role.execute_behavior|ROLE|
+|연관 역할 생성|event_id.role.role_relation.create|ROLE|
+|연관 역할 삭제|event_id.role.role_relation.delete|ROLE|
+|사용자 연관 역할 생성|event_id.role.user_role_relation.create|ROLE|
+|사용자 연관 역할 수정|event_id.role.user_role_relation.update|ROLE|
+|사용자 연관 역할 삭제|event_id.role.user_role_relation.delete|ROLE|
+|캐시 삭제|event_id.role.cache_flushtime.update|ROLE|
+|일괄 변경|event_id.role.execute_behavior|ROLE|
 |조건 속성 생성|event_id.role.attribute.create|ROLE|
 |조건 속성 수정|event_id.role.attribute.update|ROLE|
 |조건 속성 삭제|event_id.role.attribute.delete|ROLE|
-|조건 속성과 연관된 역할 다건 생성|event_id.role.attribute_role_relation.create|ROLE|
-|조건 속성과 연관된 역할 다건 삭제|event_id.role.attribute_role_relation.delete|ROLE|
+|조건 속성 연관 역할 생성|event_id.role.attribute_role_relation.create|ROLE|
+|조건 속성 연관 역할 삭제|event_id.role.attribute_role_relation.delete|ROLE|
 |조건 속성 태그 생성|event_id.role.attribute_tag.create|ROLE|
 |조건 속성 태그 삭제|event_id.role.attribute_tag.delete|ROLE|
 |앱 수정|event_id.gamebase.app_update|Gamebase|
