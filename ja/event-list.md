@@ -47,8 +47,8 @@
 |NATゲートウェイの削除|event_id.iaas.nat_gateway.delete|
 |NATゲートウェイの変更|event_id.iaas.nat_gateway.update|
 |VPNGW作成|event_id.iaas.vpngw.create|
-|VPNGW削除|event_id.iaas.vpngw.delete|
 |VPN接続の修正|event_id.iaas.vpn_connection.update|
+|VPNGW削除|event_id.iaas.vpngw.delete|
 |VPNGW修正|event_id.iaas.vpngw.update|
 |VPN接続の作成|event_id.iaas.vpn_connection.create|
 |VPN接続の削除|event_id.iaas.vpn_connection.delete|
@@ -225,8 +225,8 @@
 
 | イベント | イベントID |
 | --- | --- |
-||event_id.rds_for_mysql.get_last_query_to_restore|
 |パラメータグループ再設定|event_id.rds_for_mysql.resetParameterGroup|
+||event_id.rds_for_mysql.get_last_query_to_restore|
 |パラメータグループ修正|event_id.rds_for_mysql.modifyParameterGroup|
 |パラメータグループ作成|event_id.rds_for_mysql.createParameterGroup|
 |パラメータグループ削除|event_id.rds_for_mysql.deleteParameterGroup|
@@ -433,13 +433,9 @@
 | イベント | イベントID |
 | --- | --- |
 |IAM ログイン|event_id.iam.login|
-|조직 알림 수신 대상 수정|event_id.org.system_notification.receivers.update|
-|조직 알림 수신 대상 일괄 수정|event_id.org.system_notification.receivers.multiple-update|
 |IAMメンバーの権限変更|event_id.iam.member.role.update|
-|프로젝트 알림 수신 대상 설정|event_id.project.system_notification.receivers.update|
 |組織ドメインの追加|event_id.org.domain.add|
 |組織ドメインの修正|event_id.org.domain.update|
-|프로젝트 알림 수신 대상 일괄 수정|event_id.project.system_notification.receivers.multiple-update|
 |組織内部会員の追加|event_id.org.iam.member.add|
 |組織内部会員パスワードの変更告知メール送信|event_id.org.iam.member.send_mail|
 |組織内部会員情報の修正|event_id.org.iam.member.update|
@@ -491,6 +487,10 @@
 |プロジェクト通知受信グループの作成|event_id.project.alarm_group.create|
 |プロジェクト通知受信グループの修正|event_id.project.alarm_group.update|
 |プロジェクト通知受信グループの削除|event_id.project.alarm_group.delete|
+|조직 알림 수신 대상 수정|event_id.org.system_notification.receivers.update|
+|조직 알림 수신 대상 일괄 수정|event_id.org.system_notification.receivers.multiple-update|
+|프로젝트 알림 수신 대상 설정|event_id.project.system_notification.receivers.update|
+|프로젝트 알림 수신 대상 일괄 수정|event_id.project.system_notification.receivers.multiple-update|
 
 ### Service Monitoring
 
@@ -555,12 +555,12 @@
 
 | イベント | イベントID |
 | --- | --- |
-|ログバックアップ有効化|event_id.rds_for_sqlserver.db_instance.activate_log_backup|
-|バックアップ無効化|event_id.rds_for_sqlserver.db_instance.deactivate_backup|
 |DBインスタンスオブジェクトストレージに差分バックアップ|event_id.rds_for_sqlserver.db_instance.differential_backup_to_obs|
 |バックアップ有効化|event_id.rds_for_sqlserver.db_instance.activate_backup|
 |ログバックアップ無効化|event_id.rds_for_sqlserver.db_instance.deactivate_log_backup|
 |DBインスタンスオブジェクトストレージから復元|event_id.rds_for_sqlserver.db_instance.restore_from_obs|
+|ログバックアップ有効化|event_id.rds_for_sqlserver.db_instance.activate_log_backup|
+|バックアップ無効化|event_id.rds_for_sqlserver.db_instance.deactivate_backup|
 |DBインスタンスの作成|event_id.rds_for_sqlserver.db_instance.create|
 |DBインスタンスの削除|event_id.rds_for_sqlserver.db_instance.delete|
 |DBインスタンスのバックアップ|event_id.rds_for_sqlserver.db_instance.backup|
@@ -860,9 +860,9 @@
 |Validating Webhook Configuration 作成|event_id.iaas.cluster.validating_webhook_configuration.create|
 |Validating Webhook Configuration 削除|event_id.iaas.cluster.validating_webhook_configuration.delete|
 |Validating Webhook Configuration 修正|event_id.iaas.cluster.validating_webhook_configuration.update|
+|クラスターサイズ調整|event_id.iaas.cluster.resize|
 |クラスターアップグレード|event_id.iaas.cluster.upgrade|
 |クラスター修正|event_id.iaas.cluster.update|
-|クラスターサイズ調整|event_id.iaas.cluster.resize|
 
 ### Face Recognition
 
@@ -1119,8 +1119,8 @@
 
 | イベント | イベントID |
 | --- | --- |
-|ログ保存/ダウンロード設定 削除|event_id.cloud_trail.delete_log_save_download_config|
 |ログ保存/ダウンロード設定|event_id.cloud_trail.set_log_save_download_config|
+|ログ保存/ダウンロード設定 削除|event_id.cloud_trail.delete_log_save_download_config|
 
 ### Webshell Threat Detector
 
@@ -1174,13 +1174,6 @@
 
 | イベント | イベントID |
 | --- | --- |
-|通知の作成|event_id.resource_watcher.alarm.create|
-|リソース修正|event_id.resource_watcher.resource.update|
-|リソースグループ関係の削除|event_id.resource_watcher.resource_group_relation.delete|
-|リソースタグ関係の追加|event_id.resource_watcher.resource_tag_relation.create|
-|リソース作成|event_id.resource_watcher.resource.create|
-|リソースグループ修正|event_id.resource_watcher.resource_group.update|
-|リソースタグ削除|event_id.resource_watcher.resource_tag.delete|
 |通知の削除|event_id.resource_watcher.alarm.delete|
 |リソースグループ作成|event_id.resource_watcher.resource_group.create|
 |リソースグループ関係の修正|event_id.resource_watcher.resource_group_relation.update|
@@ -1193,6 +1186,13 @@
 |リソースグループ削除|event_id.resource_watcher.resource_group.delete|
 |リソースタグ作成|event_id.resource_watcher.resource_tag.create|
 |リソースタグ関係の修正|event_id.resource_watcher.resource_tag_relation.update|
+|通知の作成|event_id.resource_watcher.alarm.create|
+|リソース修正|event_id.resource_watcher.resource.update|
+|リソースグループ関係の削除|event_id.resource_watcher.resource_group_relation.delete|
+|リソースタグ関係の追加|event_id.resource_watcher.resource_tag_relation.create|
+|リソース作成|event_id.resource_watcher.resource.create|
+|リソースグループ修正|event_id.resource_watcher.resource_group.update|
+|リソースタグ削除|event_id.resource_watcher.resource_tag.delete|
 
 ### AI EasyMaker
 
@@ -1292,13 +1292,6 @@
 
 | イベント | イベントID |
 | --- | --- |
-|카테고리 삭제|event_id.sms.remove_category|
-|대량 수신자 파일 다운로드 예약|event_id.sms.reserve_download_mass_message|
-|수신거부 서비스 공유|event_id.sms.share_block_service|
-|대량 발송 취소|event_id.sms.cancel_mass_message|
-|수신 거부자 목록 조회|event_id.sms.get_block_recipient_list|
-|일반 발송 인증 메시지 목록 조회|event_id.sms.get_normal_auth_message_list|
-|예약 발송 메시지 상세 조회|event_id.sms.get_reservation_message_detail|
 |태그 발송 요청 수신자 목록 조회|event_id.sms.get_tag_message_recipient_list|
 |발신 번호 인증 요청|event_id.sms.request_sender_number_verification|
 |예약 발송 메시지 검색하여 취소|event_id.sms.search_cancel_reservation_message|
@@ -1331,6 +1324,13 @@
 |대량 발송 요청 수신자 상세 조회|event_id.sms.get_mass_message_recipient_detail|
 |일반 발송 MMS 메시지 목록 조회|event_id.sms.get_normal_mms_message_list|
 |예약 발송 메시지 검색하여 취소 목록 조회|event_id.sms.get_search_cancel_reservation_list|
+|카테고리 삭제|event_id.sms.remove_category|
+|대량 수신자 파일 다운로드 예약|event_id.sms.reserve_download_mass_message|
+|수신거부 서비스 공유|event_id.sms.share_block_service|
+|대량 발송 취소|event_id.sms.cancel_mass_message|
+|수신 거부자 목록 조회|event_id.sms.get_block_recipient_list|
+|일반 발송 인증 메시지 목록 조회|event_id.sms.get_normal_auth_message_list|
+|예약 발송 메시지 상세 조회|event_id.sms.get_reservation_message_detail|
 
 ### File-Crafter
 
@@ -1360,13 +1360,6 @@
 
 | イベント | イベントID |
 | --- | --- |
-|정책 삭제|event_id.network_firewall.group_delete|
-|IP 객체 수정|event_id.network_firewall.ip_object_modify|
-|OBS 정보 검증|event_id.network_firewall.option_obs_valid|
-|정책 엑셀 추가|event_id.network_firewall.group_create_template|
-|IP 객체 삭제|event_id.network_firewall.ip_object_delete|
-|옵션 설정|event_id.network_firewall.option_create|
-|Port 객체 수정|event_id.network_firewall.port_object_modify|
 |인프라 및 방화벽 구성|event_id.network_firewall.config_project_iaas|
 |정책 수정|event_id.network_firewall.group_modify|
 |Nat 추가|event_id.network_firewall.nat_create|
@@ -1380,6 +1373,13 @@
 |Nat 삭제|event_id.network_firewall.nat_delete|
 |Port 객체 삭제|event_id.network_firewall.port_object_delete|
 |인프라 구성|event_id.network_firewall.config_project|
+|정책 삭제|event_id.network_firewall.group_delete|
+|IP 객체 수정|event_id.network_firewall.ip_object_modify|
+|OBS 정보 검증|event_id.network_firewall.option_obs_valid|
+|정책 엑셀 추가|event_id.network_firewall.group_create_template|
+|IP 객체 삭제|event_id.network_firewall.ip_object_delete|
+|옵션 설정|event_id.network_firewall.option_create|
+|Port 객체 수정|event_id.network_firewall.port_object_modify|
 
 ### RCS Bizmessage
 
@@ -1393,27 +1393,15 @@
 
 | イベント | イベントID |
 | --- | --- |
-|Excelダウンロード|event_id.security_advisor.excel_download|
 |選択点検リクエスト|event_id.security_advisor.manual_scan_request|
 |自動点検完了|event_id.security_advisor.auto_scan_complete|
 |設定変更|event_id.security_advisor.setting_change|
+|Excelダウンロード|event_id.security_advisor.excel_download|
 
 ### Email
 
 | イベント | イベントID |
 | --- | --- |
-|수신 거부자 등록(파일)|event_id.email.add_block_receiver_list_file|
-|대량 발송 취소|event_id.email.cancel_mass_mail|
-|대량 발송 요청 수신자 상세 조회|event_id.email.get_mass_receiver_detail|
-|일반 발송 메일 수신자 목록 조회|event_id.email.get_send_list|
-|카테고리 수정|event_id.email.modify_category|
-|템플릿 삭제|event_id.email.remove_template|
-|파일 다운로드 요청|email_id.email.file_download_request|
-|템플릿 등록|event_id.email.add_template|
-|수신 거부자 목록 조회|event_id.email.get_block_receiver_list|
-|예약 발송 메일 수신자 목록 조회|event_id.email.get_reservation_list|
-|태그 발송 요청 수신자 목록 조회|event_id.email.get_tag_receiver_list|
-|카테고리 삭제|event_id.email.remove_category|
 |발송 설정 수정|event_id.email.update_send_config|
 |카테고리 등록|event_id.email.add_category|
 |Email 상품 비활성화|event_id.email.disble_email_product|
@@ -1435,6 +1423,18 @@
 |태그 발송 요청 수신자 상세 조회|event_id.email.get_tag_receiver_detail|
 |수신거부 사용자 제거|event_id.email.remove_block_receiver|
 |대량 발송 요청|event_id.email.send_mass_mail|
+|수신 거부자 등록(파일)|event_id.email.add_block_receiver_list_file|
+|대량 발송 취소|event_id.email.cancel_mass_mail|
+|대량 발송 요청 수신자 상세 조회|event_id.email.get_mass_receiver_detail|
+|일반 발송 메일 수신자 목록 조회|event_id.email.get_send_list|
+|카테고리 수정|event_id.email.modify_category|
+|템플릿 삭제|event_id.email.remove_template|
+|파일 다운로드 요청|email_id.email.file_download_request|
+|템플릿 등록|event_id.email.add_template|
+|수신 거부자 목록 조회|event_id.email.get_block_receiver_list|
+|예약 발송 메일 수신자 목록 조회|event_id.email.get_reservation_list|
+|태그 발송 요청 수신자 목록 조회|event_id.email.get_tag_receiver_list|
+|카테고리 삭제|event_id.email.remove_category|
 
 ### Pose Estimation
 
