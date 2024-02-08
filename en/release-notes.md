@@ -1,8 +1,10 @@
 ## CloudTrail > Release Notes
 
-### 2024. 01. 23.
+### 2024. 02. 27.
 #### More Events
+* Added events related to Console.
 * Added events related to ROLE.
+* Added events related to NHN Container Registry(NCR).
 
 ### 2024. 01. 17.
 #### More Events
@@ -79,7 +81,6 @@
 #### More Events
 * Added events related to RCS Bizmessage.
 * Added events related to Pipeline.
-* Added events related to GameTalk.
 * Added events related to Default Infrastructure Service.
 
 ### 2023. 03. 28.
@@ -108,7 +109,6 @@
 
 ### 2022. 12. 27.
 #### More Events
-* Added events related to GameTalk.
 * Added events related to RDS for MS-SQL.
 * Added events related to NHN AppGuard.
 * Added events related to DataQuery.
@@ -253,7 +253,6 @@
 * Added events related to Log & Crash Search.
 * Added events related to Pipeline.
 * Added events related to ShortURL.
-* Added events related to Cheating Detection.
 * Added events related to NHN AppGuard.
 #### More Features
 * Added the email field to receive information after three or more failed upload attempts in Log Save/Download Settings.
