@@ -225,8 +225,8 @@
 
 | イベント | イベントID |
 | --- | --- |
-|パラメータグループ再設定|event_id.rds_for_mysql.resetParameterGroup|
 ||event_id.rds_for_mysql.get_last_query_to_restore|
+|パラメータグループ再設定|event_id.rds_for_mysql.resetParameterGroup|
 |パラメータグループ修正|event_id.rds_for_mysql.modifyParameterGroup|
 |パラメータグループ作成|event_id.rds_for_mysql.createParameterGroup|
 |パラメータグループ削除|event_id.rds_for_mysql.deleteParameterGroup|
@@ -428,48 +428,14 @@
 |配布履歴のダウンロード|event_id.deploy.deploy_history_download|
 |オートスケール配布実行|event_id.deploy.autoscale_deploy_execute|
 
-### Deploy
-
-| イベント | イベントID |
-| --- | --- |
-|アーティファクト作成|event_id.deploy.artifact_create|
-|アーティファクト修正|event_id.deploy.artifact_update|
-|アーティファクト削除|event_id.deploy.artifact_delete|
-|バイナリグループ作成|event_id.deploy.binary_group_create|
-|バイナリグループ削除|event_id.deploy.binary_group_delete|
-|バイナリグループ修正|event_id.deploy.binary_group_update|
-|バイナリ·アップロード|event_id.deploy.binary_upload|
-|バイナリ·ダウンロード|event_id.deploy.binary_download|
-|バイナリ削除|event_id.deploy.binary_delete|
-|バイナリ修正|event_id.deploy.binary_update|
-|サーバーグループ作成|event_id.deploy.server_group_create|
-|サーバーグループ削除|event_id.deploy.server_group_delete|
-|サーバーグループ修正|event_id.deploy.server_group_update|
-|リソースグループ作成|event_id.deploy.resource_group_create|
-|リソースグループ削除|event_id.deploy.resource_group_delete|
-|リソース作成|event_id.deploy.resource_create|
-|リソース修正|event_id.deploy.resource_update|
-|リソース保存|event_id.deploy.resource_save|
-|リソース·ダウンロード|event_id.deploy.resource_download|
-|リソース削除|event_id.deploy.resource_delete|
-|シナリオ作成|event_id.deploy.scenario_create|
-|シナリオコピー|event_id.deploy.scenario_copy|
-|シナリオダウンロード|event_id.deploy.scenario_download|
-|シナリオ アップロード|event_id.deploy.scenario_upload|
-|シナリオ修正|event_id.deploy.scenario_update|
-|シナリオ削除|event_id.deploy.scenario_delete|
-|配布実行|event_id.deploy.deploy_execute|
-|配布履歴のダウンロード|event_id.deploy.deploy_history_download|
-|オートスケール配布実行|event_id.deploy.autoscale_deploy_execute|
-
 ### コンソール
 
 | イベント | イベントID |
 | --- | --- |
 |IAM ログイン|event_id.iam.login|
 |조직 알림 수신 대상 수정|event_id.org.system_notification.receivers.update|
-|IAMメンバーの権限変更|event_id.iam.member.role.update|
 |조직 알림 수신 대상 일괄 수정|event_id.org.system_notification.receivers.multiple-update|
+|IAMメンバーの権限変更|event_id.iam.member.role.update|
 |프로젝트 알림 수신 대상 설정|event_id.project.system_notification.receivers.update|
 |組織ドメインの追加|event_id.org.domain.add|
 |組織ドメインの修正|event_id.org.domain.update|
@@ -589,12 +555,12 @@
 
 | イベント | イベントID |
 | --- | --- |
+|ログバックアップ有効化|event_id.rds_for_sqlserver.db_instance.activate_log_backup|
+|バックアップ無効化|event_id.rds_for_sqlserver.db_instance.deactivate_backup|
 |DBインスタンスオブジェクトストレージに差分バックアップ|event_id.rds_for_sqlserver.db_instance.differential_backup_to_obs|
 |バックアップ有効化|event_id.rds_for_sqlserver.db_instance.activate_backup|
 |ログバックアップ無効化|event_id.rds_for_sqlserver.db_instance.deactivate_log_backup|
 |DBインスタンスオブジェクトストレージから復元|event_id.rds_for_sqlserver.db_instance.restore_from_obs|
-|ログバックアップ有効化|event_id.rds_for_sqlserver.db_instance.activate_log_backup|
-|バックアップ無効化|event_id.rds_for_sqlserver.db_instance.deactivate_backup|
 |DBインスタンスの作成|event_id.rds_for_sqlserver.db_instance.create|
 |DBインスタンスの削除|event_id.rds_for_sqlserver.db_instance.delete|
 |DBインスタンスのバックアップ|event_id.rds_for_sqlserver.db_instance.backup|
@@ -894,9 +860,9 @@
 |Validating Webhook Configuration 作成|event_id.iaas.cluster.validating_webhook_configuration.create|
 |Validating Webhook Configuration 削除|event_id.iaas.cluster.validating_webhook_configuration.delete|
 |Validating Webhook Configuration 修正|event_id.iaas.cluster.validating_webhook_configuration.update|
+|クラスターアップグレード|event_id.iaas.cluster.upgrade|
 |クラスター修正|event_id.iaas.cluster.update|
 |クラスターサイズ調整|event_id.iaas.cluster.resize|
-|クラスターアップグレード|event_id.iaas.cluster.upgrade|
 
 ### Face Recognition
 
@@ -1129,13 +1095,6 @@
 |요청 제한 정책 키 값 수정|event_id.apigw.request_policy.key.update|
 |요청 제한 정책 키 값 삭제|event_id.apigw.request_policy.key.delete|
 
-### 
-
-| イベント | イベントID |
-| --- | --- |
-|行動検知リクエスト|event_id.cheating_detection_behavior.detect|
-|音声検知リクエスト|event_id.cheating_detection_voice.detect|
-
 ### GameStarter
 
 | イベント | イベントID |
@@ -1215,6 +1174,10 @@
 
 | イベント | イベントID |
 | --- | --- |
+|通知の作成|event_id.resource_watcher.alarm.create|
+|リソース修正|event_id.resource_watcher.resource.update|
+|リソースグループ関係の削除|event_id.resource_watcher.resource_group_relation.delete|
+|リソースタグ関係の追加|event_id.resource_watcher.resource_tag_relation.create|
 |リソース作成|event_id.resource_watcher.resource.create|
 |リソースグループ修正|event_id.resource_watcher.resource_group.update|
 |リソースタグ削除|event_id.resource_watcher.resource_tag.delete|
@@ -1230,39 +1193,6 @@
 |リソースグループ削除|event_id.resource_watcher.resource_group.delete|
 |リソースタグ作成|event_id.resource_watcher.resource_tag.create|
 |リソースタグ関係の修正|event_id.resource_watcher.resource_tag_relation.update|
-|通知の作成|event_id.resource_watcher.alarm.create|
-|リソース修正|event_id.resource_watcher.resource.update|
-|リソースグループ関係の削除|event_id.resource_watcher.resource_group_relation.delete|
-|リソースタグ関係の追加|event_id.resource_watcher.resource_tag_relation.create|
-
-### 
-
-| イベント | イベントID |
-| --- | --- |
-|앱 생성|event_id.GameTalk.app_create|
-|앱 설정 변경|event_id.GameTalk.app_attributes_modify|
-|인증정보 생성|event_id.GameTalk.app_auth_create|
-|변역 설정 생성|event_id.GameTalk.app_translation_create|
-|자동번역 설정 생성|event_id.GameTalk.app_auto_translation_create|
-|필터 설정 생성|event_id.GameTalk.app_filter_config_create|
-|필터 정보 변경|event_id.GameTalk.app_filter_config_update|
-|필터 정보 삭제|event_id.GameTalk.app_filter_config_delete|
-|비속어 엑셀파일 업로드|event_id.GameTalk.app_filter_banned_word_excel_upload|
-|비속어 엑셀파일 다운로드|event_id.GameTalk.app_filter_banned_word_excel_download|
-|채널 생성|event_id.GameTalk.channel_create|
-|채널 정보 변경|event_id.GameTalk.channel_update|
-|채널 삭제|event_id.GameTalk.channel_delete|
-|공지 생성|event_id.GameTalk.notice_create|
-|공지 변경|event_id.GameTalk.notice_update|
-|채널 태그 생성|event_id.GameTalk.channel_tag_create|
-|채널 태그 변경|event_id.GameTalk.channel_tag_update|
-|채널 태그 삭제|event_id.GameTalk.channel_tag_delete|
-|유저 삭제|event_id.GameTalk.user_delete|
-|알림 메시지 생성|event_id.GameTalk.announcement_create|
-|알림 메시지 수정|event_id.GameTalk.announcement_update|
-|관리자 닉네임 생성|event_id.GameTalk.admin_nickname_create|
-|관리자 닉네임 삭제|event_id.GameTalk.admin_nickname_delete|
-|관리자 닉네임 수정|event_id.GameTalk.admin_nickname_update|
 
 ### AI EasyMaker
 
@@ -1362,6 +1292,13 @@
 
 | イベント | イベントID |
 | --- | --- |
+|카테고리 삭제|event_id.sms.remove_category|
+|대량 수신자 파일 다운로드 예약|event_id.sms.reserve_download_mass_message|
+|수신거부 서비스 공유|event_id.sms.share_block_service|
+|대량 발송 취소|event_id.sms.cancel_mass_message|
+|수신 거부자 목록 조회|event_id.sms.get_block_recipient_list|
+|일반 발송 인증 메시지 목록 조회|event_id.sms.get_normal_auth_message_list|
+|예약 발송 메시지 상세 조회|event_id.sms.get_reservation_message_detail|
 |태그 발송 요청 수신자 목록 조회|event_id.sms.get_tag_message_recipient_list|
 |발신 번호 인증 요청|event_id.sms.request_sender_number_verification|
 |예약 발송 메시지 검색하여 취소|event_id.sms.search_cancel_reservation_message|
@@ -1394,13 +1331,6 @@
 |대량 발송 요청 수신자 상세 조회|event_id.sms.get_mass_message_recipient_detail|
 |일반 발송 MMS 메시지 목록 조회|event_id.sms.get_normal_mms_message_list|
 |예약 발송 메시지 검색하여 취소 목록 조회|event_id.sms.get_search_cancel_reservation_list|
-|카테고리 삭제|event_id.sms.remove_category|
-|대량 수신자 파일 다운로드 예약|event_id.sms.reserve_download_mass_message|
-|수신거부 서비스 공유|event_id.sms.share_block_service|
-|대량 발송 취소|event_id.sms.cancel_mass_message|
-|수신 거부자 목록 조회|event_id.sms.get_block_recipient_list|
-|일반 발송 인증 메시지 목록 조회|event_id.sms.get_normal_auth_message_list|
-|예약 발송 메시지 상세 조회|event_id.sms.get_reservation_message_detail|
 
 ### File-Crafter
 
@@ -1430,6 +1360,11 @@
 
 | イベント | イベントID |
 | --- | --- |
+|정책 삭제|event_id.network_firewall.group_delete|
+|IP 객체 수정|event_id.network_firewall.ip_object_modify|
+|OBS 정보 검증|event_id.network_firewall.option_obs_valid|
+|정책 엑셀 추가|event_id.network_firewall.group_create_template|
+|IP 객체 삭제|event_id.network_firewall.ip_object_delete|
 |옵션 설정|event_id.network_firewall.option_create|
 |Port 객체 수정|event_id.network_firewall.port_object_modify|
 |인프라 및 방화벽 구성|event_id.network_firewall.config_project_iaas|
@@ -1445,11 +1380,6 @@
 |Nat 삭제|event_id.network_firewall.nat_delete|
 |Port 객체 삭제|event_id.network_firewall.port_object_delete|
 |인프라 구성|event_id.network_firewall.config_project|
-|정책 삭제|event_id.network_firewall.group_delete|
-|IP 객체 수정|event_id.network_firewall.ip_object_modify|
-|OBS 정보 검증|event_id.network_firewall.option_obs_valid|
-|정책 엑셀 추가|event_id.network_firewall.group_create_template|
-|IP 객체 삭제|event_id.network_firewall.ip_object_delete|
 
 ### RCS Bizmessage
 
@@ -1472,20 +1402,19 @@
 
 | イベント | イベントID |
 | --- | --- |
-|파일 다운로드|email_id.email.file_download|
 |수신 거부자 등록(파일)|event_id.email.add_block_receiver_list_file|
 |대량 발송 취소|event_id.email.cancel_mass_mail|
 |대량 발송 요청 수신자 상세 조회|event_id.email.get_mass_receiver_detail|
 |일반 발송 메일 수신자 목록 조회|event_id.email.get_send_list|
 |카테고리 수정|event_id.email.modify_category|
 |템플릿 삭제|event_id.email.remove_template|
+|파일 다운로드 요청|email_id.email.file_download_request|
 |템플릿 등록|event_id.email.add_template|
 |수신 거부자 목록 조회|event_id.email.get_block_receiver_list|
 |예약 발송 메일 수신자 목록 조회|event_id.email.get_reservation_list|
 |태그 발송 요청 수신자 목록 조회|event_id.email.get_tag_receiver_list|
 |카테고리 삭제|event_id.email.remove_category|
 |발송 설정 수정|event_id.email.update_send_config|
-|파일 다운로드 요청|email_id.email.file_download_request|
 |카테고리 등록|event_id.email.add_category|
 |Email 상품 비활성화|event_id.email.disble_email_product|
 |대량 발송 요청 수신자 목록 조회|event_id.email.get_mass_receiver_list|
@@ -1499,6 +1428,7 @@
 |UID 목록 조회|event_id.email.get_uid|
 |도메인 삭제|event_id.email.remove_domain|
 |대량 발송 수신자 파일 업로드|event_id.email.upload_mass_mail_recipient|
+|파일 다운로드|email_id.email.file_download|
 |도메인 등록|event_id.email.add_domain|
 |Email 상품 활성화|event_id.email.enable_email_product|
 |예약 발송 메일 수신자 상세 조회|event_id.email.get_reservation_detail|
