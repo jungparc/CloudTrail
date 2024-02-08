@@ -47,8 +47,8 @@
 |Delete NAT Gateway|event_id.iaas.nat_gateway.delete|
 |Change NAT Gateway|event_id.iaas.nat_gateway.update|
 |Create VPNGW|event_id.iaas.vpngw.create|
-|Delete VPNGW|event_id.iaas.vpngw.delete|
 |Update VPN Connection|event_id.iaas.vpn_connection.update|
+|Delete VPNGW|event_id.iaas.vpngw.delete|
 |Update VPNGW|event_id.iaas.vpngw.update|
 |Create VPN Connection|event_id.iaas.vpn_connection.create|
 |Delete VPN Connection|event_id.iaas.vpn_connection.delete|
@@ -225,8 +225,8 @@
 
 | Event | Event ID |
 | --- | --- |
-||event_id.rds_for_mysql.get_last_query_to_restore|
 |Reset Parameter Group|event_id.rds_for_mysql.resetParameterGroup|
+||event_id.rds_for_mysql.get_last_query_to_restore|
 |Modify Parameter Group|event_id.rds_for_mysql.modifyParameterGroup|
 |Create Parameter Group|event_id.rds_for_mysql.createParameterGroup|
 |Delete Parameter Group|event_id.rds_for_mysql.deleteParameterGroup|
@@ -433,13 +433,9 @@
 | Event | Event ID |
 | --- | --- |
 |IAM Login|event_id.iam.login|
-|조직 알림 수신 대상 수정|event_id.org.system_notification.receivers.update|
-|조직 알림 수신 대상 일괄 수정|event_id.org.system_notification.receivers.multiple-update|
 |Change Authority for IAM Members|event_id.iam.member.role.update|
-|프로젝트 알림 수신 대상 설정|event_id.project.system_notification.receivers.update|
 |Add Organization Domain |event_id.org.domain.add|
 |Modify Organization Domain|event_id.org.domain.update|
-|프로젝트 알림 수신 대상 일괄 수정|event_id.project.system_notification.receivers.multiple-update|
 |Add Organization Member|event_id.org.iam.member.add|
 |Send Notification Mail to Organization Members to Change Password |event_id.org.iam.member.send_mail|
 |Modify Organization Member Information |event_id.org.iam.member.update|
@@ -491,6 +487,10 @@
 |Create Notification Receiver Group in Project|event_id.project.alarm_group.create|
 |Modify Notification Receiver Group in Project|event_id.project.alarm_group.update|
 |Delete Notification Receiver Group in Project|event_id.project.alarm_group.delete|
+|조직 알림 수신 대상 수정|event_id.org.system_notification.receivers.update|
+|조직 알림 수신 대상 일괄 수정|event_id.org.system_notification.receivers.multiple-update|
+|프로젝트 알림 수신 대상 설정|event_id.project.system_notification.receivers.update|
+|프로젝트 알림 수신 대상 일괄 수정|event_id.project.system_notification.receivers.multiple-update|
 
 ### Service Monitoring
 
@@ -555,12 +555,12 @@
 
 | Event | Event ID |
 | --- | --- |
-|Activate Log Backup|event_id.rds_for_sqlserver.db_instance.activate_log_backup|
-|Deactivate Backup|event_id.rds_for_sqlserver.db_instance.deactivate_backup|
 |Differential Backup to DB Instance Object Storage|event_id.rds_for_sqlserver.db_instance.differential_backup_to_obs|
 |Activate backup|event_id.rds_for_sqlserver.db_instance.activate_backup|
 |Deactivate Log Backup|event_id.rds_for_sqlserver.db_instance.deactivate_log_backup|
 |Restoration from DB Instance Object Storage|event_id.rds_for_sqlserver.db_instance.restore_from_obs|
+|Activate Log Backup|event_id.rds_for_sqlserver.db_instance.activate_log_backup|
+|Deactivate Backup|event_id.rds_for_sqlserver.db_instance.deactivate_backup|
 |Create Database Instance|event_id.rds_for_sqlserver.db_instance.create|
 |Delete Database Instance|event_id.rds_for_sqlserver.db_instance.delete|
 |Back Up Database Instance|event_id.rds_for_sqlserver.db_instance.backup|
@@ -860,9 +860,9 @@
 |Create Validating Webhook Configuration|event_id.iaas.cluster.validating_webhook_configuration.create|
 |Delete Validating Webhook Configuration|event_id.iaas.cluster.validating_webhook_configuration.delete|
 |Update Validating Webhook Configuration|event_id.iaas.cluster.validating_webhook_configuration.update|
+|Resize Cluster|event_id.iaas.cluster.resize|
 |Upgrade Cluster|event_id.iaas.cluster.upgrade|
 |Update Cluster|event_id.iaas.cluster.update|
-|Resize Cluster|event_id.iaas.cluster.resize|
 
 ### Face Recognition
 
@@ -1119,8 +1119,8 @@
 
 | Event | Event ID |
 | --- | --- |
-|Delete log save/download setting|event_id.cloud_trail.delete_log_save_download_config|
 |Log save/download setting|event_id.cloud_trail.set_log_save_download_config|
+|Delete log save/download setting|event_id.cloud_trail.delete_log_save_download_config|
 
 ### Webshell Threat Detector
 
@@ -1174,13 +1174,6 @@
 
 | Event | Event ID |
 | --- | --- |
-|Create Notification|event_id.resource_watcher.alarm.create|
-|Modify Resource|event_id.resource_watcher.resource.update|
-|Delete Resource Group Relation|event_id.resource_watcher.resource_group_relation.delete|
-|Add Resource Group Relation|event_id.resource_watcher.resource_tag_relation.create|
-|Create Resource|event_id.resource_watcher.resource.create|
-|Modify Resource Group|event_id.resource_watcher.resource_group.update|
-|Delete Resource Tag|event_id.resource_watcher.resource_tag.delete|
 |Delete Notification|event_id.resource_watcher.alarm.delete|
 |Create Resource Group|event_id.resource_watcher.resource_group.create|
 |Modify Resource Group Relation|event_id.resource_watcher.resource_group_relation.update|
@@ -1193,6 +1186,13 @@
 |Delete Resource Group|event_id.resource_watcher.resource_group.delete|
 |Create Resource Tag|event_id.resource_watcher.resource_tag.create|
 |Modify Resource Group Relation|event_id.resource_watcher.resource_tag_relation.update|
+|Create Notification|event_id.resource_watcher.alarm.create|
+|Modify Resource|event_id.resource_watcher.resource.update|
+|Delete Resource Group Relation|event_id.resource_watcher.resource_group_relation.delete|
+|Add Resource Group Relation|event_id.resource_watcher.resource_tag_relation.create|
+|Create Resource|event_id.resource_watcher.resource.create|
+|Modify Resource Group|event_id.resource_watcher.resource_group.update|
+|Delete Resource Tag|event_id.resource_watcher.resource_tag.delete|
 
 ### AI EasyMaker
 
@@ -1292,13 +1292,6 @@
 
 | Event | Event ID |
 | --- | --- |
-|카테고리 삭제|event_id.sms.remove_category|
-|대량 수신자 파일 다운로드 예약|event_id.sms.reserve_download_mass_message|
-|수신거부 서비스 공유|event_id.sms.share_block_service|
-|대량 발송 취소|event_id.sms.cancel_mass_message|
-|수신 거부자 목록 조회|event_id.sms.get_block_recipient_list|
-|일반 발송 인증 메시지 목록 조회|event_id.sms.get_normal_auth_message_list|
-|예약 발송 메시지 상세 조회|event_id.sms.get_reservation_message_detail|
 |태그 발송 요청 수신자 목록 조회|event_id.sms.get_tag_message_recipient_list|
 |발신 번호 인증 요청|event_id.sms.request_sender_number_verification|
 |예약 발송 메시지 검색하여 취소|event_id.sms.search_cancel_reservation_message|
@@ -1331,6 +1324,13 @@
 |대량 발송 요청 수신자 상세 조회|event_id.sms.get_mass_message_recipient_detail|
 |일반 발송 MMS 메시지 목록 조회|event_id.sms.get_normal_mms_message_list|
 |예약 발송 메시지 검색하여 취소 목록 조회|event_id.sms.get_search_cancel_reservation_list|
+|카테고리 삭제|event_id.sms.remove_category|
+|대량 수신자 파일 다운로드 예약|event_id.sms.reserve_download_mass_message|
+|수신거부 서비스 공유|event_id.sms.share_block_service|
+|대량 발송 취소|event_id.sms.cancel_mass_message|
+|수신 거부자 목록 조회|event_id.sms.get_block_recipient_list|
+|일반 발송 인증 메시지 목록 조회|event_id.sms.get_normal_auth_message_list|
+|예약 발송 메시지 상세 조회|event_id.sms.get_reservation_message_detail|
 
 ### File-Crafter
 
@@ -1360,13 +1360,6 @@
 
 | Event | Event ID |
 | --- | --- |
-|정책 삭제|event_id.network_firewall.group_delete|
-|IP 객체 수정|event_id.network_firewall.ip_object_modify|
-|OBS 정보 검증|event_id.network_firewall.option_obs_valid|
-|정책 엑셀 추가|event_id.network_firewall.group_create_template|
-|IP 객체 삭제|event_id.network_firewall.ip_object_delete|
-|옵션 설정|event_id.network_firewall.option_create|
-|Port 객체 수정|event_id.network_firewall.port_object_modify|
 |인프라 및 방화벽 구성|event_id.network_firewall.config_project_iaas|
 |정책 수정|event_id.network_firewall.group_modify|
 |Nat 추가|event_id.network_firewall.nat_create|
@@ -1380,6 +1373,13 @@
 |Nat 삭제|event_id.network_firewall.nat_delete|
 |Port 객체 삭제|event_id.network_firewall.port_object_delete|
 |인프라 구성|event_id.network_firewall.config_project|
+|정책 삭제|event_id.network_firewall.group_delete|
+|IP 객체 수정|event_id.network_firewall.ip_object_modify|
+|OBS 정보 검증|event_id.network_firewall.option_obs_valid|
+|정책 엑셀 추가|event_id.network_firewall.group_create_template|
+|IP 객체 삭제|event_id.network_firewall.ip_object_delete|
+|옵션 설정|event_id.network_firewall.option_create|
+|Port 객체 수정|event_id.network_firewall.port_object_modify|
 
 ### RCS Bizmessage
 
@@ -1393,27 +1393,15 @@
 
 | Event | Event ID |
 | --- | --- |
-|Download Excel|event_id.security_advisor.excel_download|
 |Selected Inspection Requested|event_id.security_advisor.manual_scan_request|
 |Auto Inspection Completed|event_id.security_advisor.auto_scan_complete|
 |Settings Changed|event_id.security_advisor.setting_change|
+|Download Excel|event_id.security_advisor.excel_download|
 
 ### Email
 
 | Event | Event ID |
 | --- | --- |
-|수신 거부자 등록(파일)|event_id.email.add_block_receiver_list_file|
-|대량 발송 취소|event_id.email.cancel_mass_mail|
-|대량 발송 요청 수신자 상세 조회|event_id.email.get_mass_receiver_detail|
-|일반 발송 메일 수신자 목록 조회|event_id.email.get_send_list|
-|카테고리 수정|event_id.email.modify_category|
-|템플릿 삭제|event_id.email.remove_template|
-|파일 다운로드 요청|email_id.email.file_download_request|
-|템플릿 등록|event_id.email.add_template|
-|수신 거부자 목록 조회|event_id.email.get_block_receiver_list|
-|예약 발송 메일 수신자 목록 조회|event_id.email.get_reservation_list|
-|태그 발송 요청 수신자 목록 조회|event_id.email.get_tag_receiver_list|
-|카테고리 삭제|event_id.email.remove_category|
 |발송 설정 수정|event_id.email.update_send_config|
 |카테고리 등록|event_id.email.add_category|
 |Email 상품 비활성화|event_id.email.disble_email_product|
@@ -1435,6 +1423,18 @@
 |태그 발송 요청 수신자 상세 조회|event_id.email.get_tag_receiver_detail|
 |수신거부 사용자 제거|event_id.email.remove_block_receiver|
 |대량 발송 요청|event_id.email.send_mass_mail|
+|수신 거부자 등록(파일)|event_id.email.add_block_receiver_list_file|
+|대량 발송 취소|event_id.email.cancel_mass_mail|
+|대량 발송 요청 수신자 상세 조회|event_id.email.get_mass_receiver_detail|
+|일반 발송 메일 수신자 목록 조회|event_id.email.get_send_list|
+|카테고리 수정|event_id.email.modify_category|
+|템플릿 삭제|event_id.email.remove_template|
+|파일 다운로드 요청|email_id.email.file_download_request|
+|템플릿 등록|event_id.email.add_template|
+|수신 거부자 목록 조회|event_id.email.get_block_receiver_list|
+|예약 발송 메일 수신자 목록 조회|event_id.email.get_reservation_list|
+|태그 발송 요청 수신자 목록 조회|event_id.email.get_tag_receiver_list|
+|카테고리 삭제|event_id.email.remove_category|
 
 ### Pose Estimation
 
