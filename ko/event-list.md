@@ -47,8 +47,8 @@
 |NAT 게이트웨이 삭제|event_id.iaas.nat_gateway.delete|
 |NAT 게이트웨이 변경|event_id.iaas.nat_gateway.update|
 |VPNGW 생성|event_id.iaas.vpngw.create|
-|VPN Connection 수정|event_id.iaas.vpn_connection.update|
 |VPNGW 삭제|event_id.iaas.vpngw.delete|
+|VPN Connection 수정|event_id.iaas.vpn_connection.update|
 |VPNGW 수정|event_id.iaas.vpngw.update|
 |VPN Connection 생성|event_id.iaas.vpn_connection.create|
 |VPN Connection 삭제|event_id.iaas.vpn_connection.delete|
@@ -103,18 +103,6 @@
 |VPC 서브넷 삭제|event_id.iaas.vpc_subnet.delete|
 |VPC 서브넷 라우팅 테이블 연결 해제|event_id.iaas.vpc_subnet.detach_routingtable|
 |VPC 서브넷 변경|event_id.iaas.vpc_subnet.update|
-|클러스터 생성|event_id.iaas.cluster.create|
-|클러스터 삭제|event_id.iaas.cluster.delete|
-|클러스터 OWNER 변경|event_id.iaas.cluster.handover|
-|오토 스케일러 설정 변경|event_id.iaas.cluster.update_autoscale|
-|CNI 변경|event_id.iaas.cluster.cni_update|
-|노드 그룹 생성|event_id.iaas.nodegroup.create|
-|노드 그룹 수정|event_id.iaas.nodegroup.update|
-|노드 그룹 삭제|event_id.iaas.nodegroup.delete|
-|워커 노드 시작|event_id.iaas.nodegroup.start_node|
-|워커 노드 중지|event_id.iaas.nodegroup.stop_node|
-|클러스터 업그레이드|event_id.iaas.nodegroup.upgrade|
-|유저 스크립트 변경|event_id.iaas.nodegroup.update_userscript|
 |이미지 복제|event_id.iaas.image.copy|
 |이미지 빌드|event_id.iaas.image_template.build|
 |이미지 빌드 취소|event_id.iaas.image_template.cancel_build|
@@ -203,6 +191,48 @@
 |워크로드 재시작|event_id.iaas.ncs.workload.restart|
 |워크로드 중지|event_id.iaas.ncs.workload.stop|
 |워크로드 삭제|event_id.iaas.ncs.workload.delete|
+|클러스터 생성 시작|event_id.iaas.cluster.create.start|
+|클러스터 생성 완료|event_id.iaas.cluster.create.end|
+|클러스터 생성 실패|event_id.iaas.cluster.create.failed|
+|클러스터 삭제 시작|event_id.iaas.cluster.delete.start|
+|클러스터 삭제 완료|event_id.iaas.cluster.delete.end|
+|클러스터 삭제 실패|event_id.iaas.cluster.delete.failed|
+|클러스터 OWNER 변경 시작|event_id.iaas.cluster.handover.start|
+|클러스터 OWNER 변경 완료|event_id.iaas.cluster.handover.end|
+|클러스터 OWNER 변경 실패|event_id.iaas.cluster.handover.failed|
+|노드 그룹 생성 시작|event_id.iaas.nodegroup.create.start|
+|노드 그룹 생성 완료|event_id.iaas.nodegroup.create.end|
+|노드 그룹 생성 실패|event_id.iaas.nodegroup.create.failed|
+|노드 그룹 삭제 시작|event_id.iaas.nodegroup.delete.start|
+|노드 그룹 삭제 완료|event_id.iaas.nodegroup.delete.end|
+|노드 그룹 삭제 실패|event_id.iaas.nodegroup.delete.failed|
+|클러스터 크기 조정 시작|event_id.iaas.cluster.resize.start|
+|클러스터 크기 조정 완료|event_id.iaas.cluster.resize.end|
+|클러스터 크기 조정 실패|event_id.iaas.cluster.resize.failed|
+|인스턴스 타입 변경 시작|event_id.iaas.nodegroup.update_flavor.start|
+|인스턴스 타입 변경 완료|event_id.iaas.nodegroup.update_flavor.end|
+|인스턴스 타입 변경 실패|event_id.iaas.nodegroup.update_flavor.failed|
+|CNI 변경 시작|event_id.iaas.cluster.cni_update.start|
+|CNI 변경 완료|event_id.iaas.cluster.cni_update.end|
+|CNI 변경 실패|event_id.iaas.cluster.cni_update.failed|
+|노드 그룹 업그레이드 시작|event_id.iaas.nodegroup.upgrade.start|
+|노드 그룹 업그레이드 완료|event_id.iaas.nodegroup.upgrade.end|
+|노드 그룹 업그레이드 실패|event_id.iaas.nodegroup.upgrade.failed|
+|유저 스크립트 변경 시작|event_id.iaas.nodegroup.update_userscript.start|
+|유저 스크립트 변경 완료|event_id.iaas.nodegroup.update_userscript.end|
+|유저 스크립트 변경 실패|event_id.iaas.nodegroup.update_userscript.failed|
+|워커 노드 시작|event_id.iaas.nodegroup.node_action.start_node.start|
+|워커 노드 시작 완료|event_id.iaas.nodegroup.node_action.start_node.end|
+|워커 노드 시작 실패|event_id.iaas.nodegroup.node_action.start_node.failed|
+|워커 노드 중지 시작|event_id.iaas.nodegroup.node_action.stop_node.start|
+|워커 노드 중지 완료|event_id.iaas.nodegroup.node_action.stop_node.end|
+|워커 노드 중지 실패|event_id.iaas.nodegroup.node_action.stop_node.failed|
+|오토 스케일러 설정 변경 시작|event_id.iaas.nodegroup.set_cluster_autoscaler.start|
+|오토 스케일러 설정 변경 완료|event_id.iaas.nodegroup.set_cluster_autoscaler.end|
+|오토 스케일러 설정 변경 실패|event_id.iaas.nodegroup.set_cluster_autoscaler.failed|
+|클러스터 API 엔드포인트 IP 접근 제어 변경 시작|event_id.iaas.cluster.cluster_api_ep_ipacl_update.start|
+|클러스터 API 엔드포인트 IP 접근 제어 변경 완료|event_id.iaas.cluster.cluster_api_ep_ipacl_update.end|
+|클러스터 API 엔드포인트 IP 접근 제어 변경 실패|event_id.iaas.cluster.cluster_api_ep_ipacl_update.failed|
 
 ### Object Storage
 
@@ -225,8 +255,8 @@
 
 | 이벤트 | 이벤트 ID |
 | --- | --- |
-|파라미터 그룹 재설정|event_id.rds_for_mysql.resetParameterGroup|
 ||event_id.rds_for_mysql.get_last_query_to_restore|
+|파라미터 그룹 재설정|event_id.rds_for_mysql.resetParameterGroup|
 |파라미터 그룹 수정|event_id.rds_for_mysql.modifyParameterGroup|
 |파라미터 그룹 생성|event_id.rds_for_mysql.createParameterGroup|
 |파라미터 그룹 삭제|event_id.rds_for_mysql.deleteParameterGroup|
@@ -555,12 +585,12 @@
 
 | 이벤트 | 이벤트 ID |
 | --- | --- |
-|DB 인스턴스 오브젝트 스토리지로 차등 백업|event_id.rds_for_sqlserver.db_instance.differential_backup_to_obs|
-|백업 활성화|event_id.rds_for_sqlserver.db_instance.activate_backup|
-|로그 백업 비활성화|event_id.rds_for_sqlserver.db_instance.deactivate_log_backup|
 |DB 인스턴스 오브젝트 스토리지로부터 복원|event_id.rds_for_sqlserver.db_instance.restore_from_obs|
 |로그 백업 활성화|event_id.rds_for_sqlserver.db_instance.activate_log_backup|
 |백업 비활성화|event_id.rds_for_sqlserver.db_instance.deactivate_backup|
+|DB 인스턴스 오브젝트 스토리지로 차등 백업|event_id.rds_for_sqlserver.db_instance.differential_backup_to_obs|
+|백업 활성화|event_id.rds_for_sqlserver.db_instance.activate_backup|
+|로그 백업 비활성화|event_id.rds_for_sqlserver.db_instance.deactivate_log_backup|
 |DB 인스턴스 생성|event_id.rds_for_sqlserver.db_instance.create|
 |DB 인스턴스 삭제|event_id.rds_for_sqlserver.db_instance.delete|
 |DB 인스턴스 백업|event_id.rds_for_sqlserver.db_instance.backup|
@@ -860,9 +890,8 @@
 |Validating Webhook Configuration 생성|event_id.iaas.cluster.validating_webhook_configuration.create|
 |Validating Webhook Configuration 삭제|event_id.iaas.cluster.validating_webhook_configuration.delete|
 |Validating Webhook Configuration 수정|event_id.iaas.cluster.validating_webhook_configuration.update|
-|클러스터 크기 조정|event_id.iaas.cluster.resize|
-|클러스터 업그레이드|event_id.iaas.cluster.upgrade|
 |클러스터 수정|event_id.iaas.cluster.update|
+|클러스터 업그레이드|event_id.iaas.cluster.upgrade|
 
 ### Face Recognition
 
@@ -982,12 +1011,6 @@
 |Document OCR 신분증 분석 요청(단독)|event_id.ocr.document_ocr.id_card.analyze_stand_alone|
 |Document OCR 사업자등록증 휴/폐업 조회|event_id.ocr.document_ocr.business.authenticity|
 |General OCR 이미지 분할 인식 요청|event_id.ocr.general_ocr.cropping_analyze|
-
-### Vehicle Plate Recognizer
-
-| 이벤트 | 이벤트 ID |
-| --- | --- |
-|차량 번호판 분석 요청|event_id.ai_vehicle_plate_recognizer.analyze|
 
 ### KakaoTalk Bizmessage
 
@@ -1119,15 +1142,15 @@
 
 | 이벤트 | 이벤트 ID |
 | --- | --- |
-|로그 저장/다운로드 설정|event_id.cloud_trail.set_log_save_download_config|
 |로그 저장/다운로드 설정 삭제|event_id.cloud_trail.delete_log_save_download_config|
+|로그 저장/다운로드 설정|event_id.cloud_trail.set_log_save_download_config|
 
 ### Webshell Threat Detector
 
 | 이벤트 | 이벤트 ID |
 | --- | --- |
-|웹 셸 메일 수신 활성화|event_id.webshell_treat_detector.mail_send_activated|
 |웹 셸 메일 수신 비활성화|event_id.webshell_treat_detector.mail_send_deactivated|
+|웹 셸 메일 수신 활성화|event_id.webshell_treat_detector.mail_send_activated|
 
 ### Word Suggestion
 
@@ -1174,14 +1197,6 @@
 
 | 이벤트 | 이벤트 ID |
 | --- | --- |
-|알림 삭제|event_id.resource_watcher.alarm.delete|
-|리소스 그룹 생성|event_id.resource_watcher.resource_group.create|
-|리소스 그룹 관계 수정|event_id.resource_watcher.resource_group_relation.update|
-|리소스 태그 관계 삭제|event_id.resource_watcher.resource_tag_relation.delete|
-|알림 상태 변경|event_id.resource_watcher.alarm.change_status|
-|리소스 삭제|event_id.resource_watcher.resource.delete|
-|리소스 그룹 관계 추가|event_id.resource_watcher.resource_group_relation.create|
-|리소스 태그 수정|event_id.resource_watcher.resource_tag.update|
 |알림 수정|event_id.resource_watcher.alarm.update|
 |리소스 그룹 삭제|event_id.resource_watcher.resource_group.delete|
 |리소스 태그 생성|event_id.resource_watcher.resource_tag.create|
@@ -1193,6 +1208,14 @@
 |리소스 생성|event_id.resource_watcher.resource.create|
 |리소스 그룹 수정|event_id.resource_watcher.resource_group.update|
 |리소스 태그 삭제|event_id.resource_watcher.resource_tag.delete|
+|알림 삭제|event_id.resource_watcher.alarm.delete|
+|리소스 그룹 생성|event_id.resource_watcher.resource_group.create|
+|리소스 그룹 관계 수정|event_id.resource_watcher.resource_group_relation.update|
+|리소스 태그 관계 삭제|event_id.resource_watcher.resource_tag_relation.delete|
+|알림 상태 변경|event_id.resource_watcher.alarm.change_status|
+|리소스 삭제|event_id.resource_watcher.resource.delete|
+|리소스 그룹 관계 추가|event_id.resource_watcher.resource_group_relation.create|
+|리소스 태그 수정|event_id.resource_watcher.resource_tag.update|
 
 ### AI EasyMaker
 
@@ -1292,6 +1315,23 @@
 
 | 이벤트 | 이벤트 ID |
 | --- | --- |
+|일반 발송 SMS 메시지 목록 조회|event_id.sms.get_normal_sms_message_list|
+|태그 발송 요청 수신자 상세 조회|event_id.sms.get_tag_message_recipient_detail|
+|본인 인증 요청|event_id.sms.request_self_verification|
+|태그 수신자 파일 다운로드 예약|event_id.sms.reserve_download_tag_message|
+|수신거부 서비스 추가|event_id.sms.add_block_service|
+|대량 발송 수신자 파일 업로드|event_id.sms.upload_mass_message_recipient|
+|수신거부 서비스 공유 해지|event_id.sms.cancel_share_block_service|
+|대량 발송 요청 수신자 상세 조회|event_id.sms.get_mass_message_recipient_detail|
+|일반 발송 MMS 메시지 목록 조회|event_id.sms.get_normal_mms_message_list|
+|예약 발송 메시지 검색하여 취소 목록 조회|event_id.sms.get_search_cancel_reservation_list|
+|카테고리 삭제|event_id.sms.remove_category|
+|대량 수신자 파일 다운로드 예약|event_id.sms.reserve_download_mass_message|
+|수신거부 서비스 공유|event_id.sms.share_block_service|
+|대량 발송 취소|event_id.sms.cancel_mass_message|
+|수신 거부자 목록 조회|event_id.sms.get_block_recipient_list|
+|일반 발송 인증 메시지 목록 조회|event_id.sms.get_normal_auth_message_list|
+|예약 발송 메시지 상세 조회|event_id.sms.get_reservation_message_detail|
 |태그 발송 요청 수신자 목록 조회|event_id.sms.get_tag_message_recipient_list|
 |발신 번호 인증 요청|event_id.sms.request_sender_number_verification|
 |예약 발송 메시지 검색하여 취소|event_id.sms.search_cancel_reservation_message|
@@ -1314,23 +1354,6 @@
 |템플릿 등록|event_id.sms.add_template|
 |파일 다운로드|event_id.sms.download_reserved_file|
 |일반 발송 인증 메시지 상세 조회|event_id.sms.get_normal_auth_message_detail|
-|일반 발송 SMS 메시지 목록 조회|event_id.sms.get_normal_sms_message_list|
-|태그 발송 요청 수신자 상세 조회|event_id.sms.get_tag_message_recipient_detail|
-|본인 인증 요청|event_id.sms.request_self_verification|
-|태그 수신자 파일 다운로드 예약|event_id.sms.reserve_download_tag_message|
-|수신거부 서비스 추가|event_id.sms.add_block_service|
-|대량 발송 수신자 파일 업로드|event_id.sms.upload_mass_message_recipient|
-|수신거부 서비스 공유 해지|event_id.sms.cancel_share_block_service|
-|대량 발송 요청 수신자 상세 조회|event_id.sms.get_mass_message_recipient_detail|
-|일반 발송 MMS 메시지 목록 조회|event_id.sms.get_normal_mms_message_list|
-|예약 발송 메시지 검색하여 취소 목록 조회|event_id.sms.get_search_cancel_reservation_list|
-|카테고리 삭제|event_id.sms.remove_category|
-|대량 수신자 파일 다운로드 예약|event_id.sms.reserve_download_mass_message|
-|수신거부 서비스 공유|event_id.sms.share_block_service|
-|대량 발송 취소|event_id.sms.cancel_mass_message|
-|수신 거부자 목록 조회|event_id.sms.get_block_recipient_list|
-|일반 발송 인증 메시지 목록 조회|event_id.sms.get_normal_auth_message_list|
-|예약 발송 메시지 상세 조회|event_id.sms.get_reservation_message_detail|
 
 ### File-Crafter
 
@@ -1360,16 +1383,6 @@
 
 | 이벤트 | 이벤트 ID |
 | --- | --- |
-|인프라 및 방화벽 구성|event_id.network_firewall.config_project_iaas|
-|정책 수정|event_id.network_firewall.group_modify|
-|Nat 추가|event_id.network_firewall.nat_create|
-|Port 객체 추가|event_id.network_firewall.port_object_create|
-|방화벽 구성|event_id.network_firewall.config_iaas|
-|정책 엑셀 검증|event_id.network_firewall.group_create_template_verify|
-|IP 인스턴스 객체 추가|event_id.network_firewall.ip_object_instance_create|
-|LNCS 정보 검증|event_id.network_firewall.option_lncs_valid|
-|정책 추가|event_id.network_firewall.group_create|
-|IP 객체 추가|event_id.network_firewall.ip_object_create|
 |Nat 삭제|event_id.network_firewall.nat_delete|
 |Port 객체 삭제|event_id.network_firewall.port_object_delete|
 |인프라 구성|event_id.network_firewall.config_project|
@@ -1380,6 +1393,16 @@
 |IP 객체 삭제|event_id.network_firewall.ip_object_delete|
 |옵션 설정|event_id.network_firewall.option_create|
 |Port 객체 수정|event_id.network_firewall.port_object_modify|
+|인프라 및 방화벽 구성|event_id.network_firewall.config_project_iaas|
+|정책 수정|event_id.network_firewall.group_modify|
+|Nat 추가|event_id.network_firewall.nat_create|
+|Port 객체 추가|event_id.network_firewall.port_object_create|
+|방화벽 구성|event_id.network_firewall.config_iaas|
+|정책 엑셀 검증|event_id.network_firewall.group_create_template_verify|
+|IP 인스턴스 객체 추가|event_id.network_firewall.ip_object_instance_create|
+|LNCS 정보 검증|event_id.network_firewall.option_lncs_valid|
+|정책 추가|event_id.network_firewall.group_create|
+|IP 객체 추가|event_id.network_firewall.ip_object_create|
 
 ### RCS Bizmessage
 
@@ -1393,15 +1416,26 @@
 
 | 이벤트 | 이벤트 ID |
 | --- | --- |
-|선택 점검 요청|event_id.security_advisor.manual_scan_request|
 |자동 점검 완료|event_id.security_advisor.auto_scan_complete|
 |설정 변경|event_id.security_advisor.setting_change|
 |엑셀 다운로드|event_id.security_advisor.excel_download|
+|선택 점검 요청|event_id.security_advisor.manual_scan_request|
 
 ### Email
 
 | 이벤트 | 이벤트 ID |
 | --- | --- |
+|대량 발송 취소|event_id.email.cancel_mass_mail|
+|대량 발송 요청 수신자 상세 조회|event_id.email.get_mass_receiver_detail|
+|일반 발송 메일 수신자 목록 조회|event_id.email.get_send_list|
+|카테고리 수정|event_id.email.modify_category|
+|템플릿 삭제|event_id.email.remove_template|
+|파일 다운로드|email_id.email.file_download|
+|템플릿 등록|event_id.email.add_template|
+|수신 거부자 목록 조회|event_id.email.get_block_receiver_list|
+|예약 발송 메일 수신자 목록 조회|event_id.email.get_reservation_list|
+|태그 발송 요청 수신자 목록 조회|event_id.email.get_tag_receiver_list|
+|카테고리 삭제|event_id.email.remove_category|
 |발송 설정 수정|event_id.email.update_send_config|
 |카테고리 등록|event_id.email.add_category|
 |Email 상품 비활성화|event_id.email.disble_email_product|
@@ -1410,13 +1444,13 @@
 |템플릿 수정|event_id.email.modify_template|
 |UID 삭제|event_id.email.remove_uid|
 |수신거부 사용자 추가|event_id.email.add_block_receiver|
+|파일 다운로드 요청|email_id.email.file_download_request|
 |UID 추가(파일)|event_id.email.add_uid|
 |대량 발송 요청 목록 조회|event_id.email.get_mass_master_list|
 |일반 발송 메일 수신자 상세 조회|event_id.email.get_send_detail|
 |UID 목록 조회|event_id.email.get_uid|
 |도메인 삭제|event_id.email.remove_domain|
 |대량 발송 수신자 파일 업로드|event_id.email.upload_mass_mail_recipient|
-|파일 다운로드|email_id.email.file_download|
 |도메인 등록|event_id.email.add_domain|
 |Email 상품 활성화|event_id.email.enable_email_product|
 |예약 발송 메일 수신자 상세 조회|event_id.email.get_reservation_detail|
@@ -1424,17 +1458,6 @@
 |수신거부 사용자 제거|event_id.email.remove_block_receiver|
 |대량 발송 요청|event_id.email.send_mass_mail|
 |수신 거부자 등록(파일)|event_id.email.add_block_receiver_list_file|
-|대량 발송 취소|event_id.email.cancel_mass_mail|
-|대량 발송 요청 수신자 상세 조회|event_id.email.get_mass_receiver_detail|
-|일반 발송 메일 수신자 목록 조회|event_id.email.get_send_list|
-|카테고리 수정|event_id.email.modify_category|
-|템플릿 삭제|event_id.email.remove_template|
-|파일 다운로드 요청|email_id.email.file_download_request|
-|템플릿 등록|event_id.email.add_template|
-|수신 거부자 목록 조회|event_id.email.get_block_receiver_list|
-|예약 발송 메일 수신자 목록 조회|event_id.email.get_reservation_list|
-|태그 발송 요청 수신자 목록 조회|event_id.email.get_tag_receiver_list|
-|카테고리 삭제|event_id.email.remove_category|
 
 ### Pose Estimation
 
@@ -1466,6 +1489,7 @@
 |오퍼레이션 수정|event_id.role.operation.update|
 |오퍼레이션 삭제|event_id.role.operation.delete|
 |연관 역할 생성|event_id.role.role_relation.create|
+|연관 역할 수정|event_id.role.role_relation.update|
 |연관 역할 삭제|event_id.role.role_relation.delete|
 |사용자 연관 역할 생성|event_id.role.user_role_relation.create|
 |사용자 연관 역할 수정|event_id.role.user_role_relation.update|
@@ -1607,7 +1631,8 @@
 |이미지 정리 정책 추가|event_id.ncr.retention_rule.create|
 |이미지 정리 정책 삭제|event_id.ncr.retention_rule.delete|
 |이미지 정리 정책 실행|event_id.ncr.retention_rule.execute|
-|이미지 정리 정책 변경|event_id.ncr.retention_schedule.update|
+|이미지 정리 정책 변경|event_id.ncr.retention_rule.update|
+|이미지 정리 주기 설정|event_id.ncr.retention_schedule.update|
 |웹훅 생성|event_id.ncr.webhook.create|
 |웹훅 삭제|event_id.ncr.webhook.delete|
 |웹훅 수정|event_id.ncr.webhook.update|
