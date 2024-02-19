@@ -47,8 +47,8 @@
 |NATゲートウェイの削除|event_id.iaas.nat_gateway.delete|
 |NATゲートウェイの変更|event_id.iaas.nat_gateway.update|
 |VPNGW作成|event_id.iaas.vpngw.create|
-|VPN接続の修正|event_id.iaas.vpn_connection.update|
 |VPNGW削除|event_id.iaas.vpngw.delete|
+|VPN接続の修正|event_id.iaas.vpn_connection.update|
 |VPNGW修正|event_id.iaas.vpngw.update|
 |VPN接続の作成|event_id.iaas.vpn_connection.create|
 |VPN接続の削除|event_id.iaas.vpn_connection.delete|
@@ -103,18 +103,6 @@
 |VPCサブネットの削除|event_id.iaas.vpc_subnet.delete|
 |VPCサブネットルーティングテーブルの接続解除|event_id.iaas.vpc_subnet.detach_routingtable|
 |VPCサブネットの変更|event_id.iaas.vpc_subnet.update|
-|クラスター作成|event_id.iaas.cluster.create|
-|クラスター削除|event_id.iaas.cluster.delete|
-|クラスタOWNERの変更|event_id.iaas.cluster.handover|
-|オートスケーラーの設定を変更|event_id.iaas.cluster.update_autoscale|
-|CNI変更|event_id.iaas.cluster.cni_update|
-|ノードグループ作成|event_id.iaas.nodegroup.create|
-|ノードグループの修正|event_id.iaas.nodegroup.update|
-|ノードグループ削除|event_id.iaas.nodegroup.delete|
-|ワーカーノードの起動|event_id.iaas.nodegroup.start_node|
-|ワーカーノードの停止|event_id.iaas.nodegroup.stop_node|
-|クラスターのアップグレード|event_id.iaas.nodegroup.upgrade|
-|ユーザースクリプト変更|event_id.iaas.nodegroup.update_userscript|
 |イメージのコピー|event_id.iaas.image.copy|
 |イメージビルド|event_id.iaas.image_template.build|
 |イメージビルドのキャンセル|event_id.iaas.image_template.cancel_build|
@@ -203,6 +191,48 @@
 |ワークロード再起動|event_id.iaas.ncs.workload.restart|
 |ワークロード停止|event_id.iaas.ncs.workload.stop|
 |ワークロードの削除|event_id.iaas.ncs.workload.delete|
+|クラスター作成起動|event_id.iaas.cluster.create.start|
+|クラスター作成完了|event_id.iaas.cluster.create.end|
+|クラスター作成失敗|event_id.iaas.cluster.create.failed|
+|クラスター削除起動|event_id.iaas.cluster.delete.start|
+|クラスター削除完了|event_id.iaas.cluster.delete.end|
+|クラスター削除失敗|event_id.iaas.cluster.delete.failed|
+|クラスタOWNERの変更起動|event_id.iaas.cluster.handover.start|
+|クラスタOWNERの変更完了|event_id.iaas.cluster.handover.end|
+|クラスタOWNERの変更失敗|event_id.iaas.cluster.handover.failed|
+|ノードグループ作成起動|event_id.iaas.nodegroup.create.start|
+|ノードグループ作成完了|event_id.iaas.nodegroup.create.end|
+|ノードグループ作成失敗|event_id.iaas.nodegroup.create.failed|
+|ノードグループ削除起動|event_id.iaas.nodegroup.delete.start|
+|ノードグループ削除完了|event_id.iaas.nodegroup.delete.end|
+|ノードグループ削除失敗|event_id.iaas.nodegroup.delete.failed|
+|クラスターサイズ調整起動|event_id.iaas.cluster.resize.start|
+|クラスターサイズ調整完了|event_id.iaas.cluster.resize.end|
+|クラスターサイズ調整失敗|event_id.iaas.cluster.resize.failed|
+|インスタンスタイプの変更|event_id.iaas.nodegroup.update_flavor.start|
+|インスタンスタイプの変更完了|event_id.iaas.nodegroup.update_flavor.end|
+|インスタンスタイプの変更失敗|event_id.iaas.nodegroup.update_flavor.failed|
+|CNI変更起動|event_id.iaas.cluster.cni_update.start|
+|CNI変更完了|event_id.iaas.cluster.cni_update.end|
+|CNI変更失敗|event_id.iaas.cluster.cni_update.failed|
+|ノードグループーのアップグレード起動|event_id.iaas.nodegroup.upgrade.start|
+|ノードグループーのアップグレード完了|event_id.iaas.nodegroup.upgrade.end|
+|ノードグループーのアップグレード失敗|event_id.iaas.nodegroup.upgrade.failed|
+|ユーザースクリプト変更起動|event_id.iaas.nodegroup.update_userscript.start|
+|ユーザースクリプト変更完了|event_id.iaas.nodegroup.update_userscript.end|
+|ユーザースクリプト変更失敗|event_id.iaas.nodegroup.update_userscript.failed|
+|ワーカーノードの起動|event_id.iaas.nodegroup.node_action.start_node.start|
+|ワーカーノードの起動完了|event_id.iaas.nodegroup.node_action.start_node.end|
+|ワーカーノードの起動失敗|event_id.iaas.nodegroup.node_action.start_node.failed|
+|ワーカーノードの停止起動|event_id.iaas.nodegroup.node_action.stop_node.start|
+|ワーカーノードの停止完了|event_id.iaas.nodegroup.node_action.stop_node.end|
+|ワーカーノードの停止失敗|event_id.iaas.nodegroup.node_action.stop_node.failed|
+|オートスケーラーの設定を変更起動|event_id.iaas.nodegroup.set_cluster_autoscaler.start|
+|オートスケーラーの設定を変更完了|event_id.iaas.nodegroup.set_cluster_autoscaler.end|
+|オートスケーラーの設定を変更失敗|event_id.iaas.nodegroup.set_cluster_autoscaler.failed|
+|クラスタAPIエンドポイントIPアクセス制御の変更の起動|event_id.iaas.cluster.cluster_api_ep_ipacl_update.start|
+|クラスタAPIエンドポイントIPアクセス制御の変更の完了|event_id.iaas.cluster.cluster_api_ep_ipacl_update.end|
+|クラスタAPIエンドポイントIPアクセス制御の変更の失敗|event_id.iaas.cluster.cluster_api_ep_ipacl_update.failed|
 
 ### Object Storage
 
@@ -555,12 +585,12 @@
 
 | イベント | イベントID |
 | --- | --- |
-|DBインスタンスオブジェクトストレージに差分バックアップ|event_id.rds_for_sqlserver.db_instance.differential_backup_to_obs|
-|バックアップ有効化|event_id.rds_for_sqlserver.db_instance.activate_backup|
-|ログバックアップ無効化|event_id.rds_for_sqlserver.db_instance.deactivate_log_backup|
 |DBインスタンスオブジェクトストレージから復元|event_id.rds_for_sqlserver.db_instance.restore_from_obs|
 |ログバックアップ有効化|event_id.rds_for_sqlserver.db_instance.activate_log_backup|
 |バックアップ無効化|event_id.rds_for_sqlserver.db_instance.deactivate_backup|
+|DBインスタンスオブジェクトストレージに差分バックアップ|event_id.rds_for_sqlserver.db_instance.differential_backup_to_obs|
+|バックアップ有効化|event_id.rds_for_sqlserver.db_instance.activate_backup|
+|ログバックアップ無効化|event_id.rds_for_sqlserver.db_instance.deactivate_log_backup|
 |DBインスタンスの作成|event_id.rds_for_sqlserver.db_instance.create|
 |DBインスタンスの削除|event_id.rds_for_sqlserver.db_instance.delete|
 |DBインスタンスのバックアップ|event_id.rds_for_sqlserver.db_instance.backup|
@@ -860,7 +890,6 @@
 |Validating Webhook Configuration 作成|event_id.iaas.cluster.validating_webhook_configuration.create|
 |Validating Webhook Configuration 削除|event_id.iaas.cluster.validating_webhook_configuration.delete|
 |Validating Webhook Configuration 修正|event_id.iaas.cluster.validating_webhook_configuration.update|
-|クラスターサイズ調整|event_id.iaas.cluster.resize|
 |クラスターアップグレード|event_id.iaas.cluster.upgrade|
 |クラスター修正|event_id.iaas.cluster.update|
 
@@ -982,12 +1011,6 @@
 |Document OCR 身分証明書分析リクエスト(単独)|event_id.ocr.document_ocr.id_card.analyze_stand_alone|
 |Document OCR事業者登録証休業/廃業照会|event_id.ocr.document_ocr.business.authenticity|
 |General OCRイメージ分割認識リクエスト|event_id.ocr.general_ocr.cropping_analyze|
-
-### Vehicle Plate Recognizer
-
-| イベント | イベントID |
-| --- | --- |
-|ナンバープレートの分析リクエスト|event_id.ai_vehicle_plate_recognizer.analyze|
 
 ### KakaoTalk Bizmessage
 
@@ -1119,8 +1142,8 @@
 
 | イベント | イベントID |
 | --- | --- |
-|ログ保存/ダウンロード設定|event_id.cloud_trail.set_log_save_download_config|
 |ログ保存/ダウンロード設定 削除|event_id.cloud_trail.delete_log_save_download_config|
+|ログ保存/ダウンロード設定|event_id.cloud_trail.set_log_save_download_config|
 
 ### Webshell Threat Detector
 
@@ -1174,13 +1197,6 @@
 
 | イベント | イベントID |
 | --- | --- |
-|通知の削除|event_id.resource_watcher.alarm.delete|
-|リソースグループ作成|event_id.resource_watcher.resource_group.create|
-|リソースグループ関係の修正|event_id.resource_watcher.resource_group_relation.update|
-|リソースタグ関係の削除|event_id.resource_watcher.resource_tag_relation.delete|
-|通知の状態変更|event_id.resource_watcher.alarm.change_status|
-|リソース削除|event_id.resource_watcher.resource.delete|
-|リソースグループ関係の追加|event_id.resource_watcher.resource_group_relation.create|
 |リソースタグ修正|event_id.resource_watcher.resource_tag.update|
 |通知の修正|event_id.resource_watcher.alarm.update|
 |リソースグループ削除|event_id.resource_watcher.resource_group.delete|
@@ -1193,6 +1209,13 @@
 |リソース作成|event_id.resource_watcher.resource.create|
 |リソースグループ修正|event_id.resource_watcher.resource_group.update|
 |リソースタグ削除|event_id.resource_watcher.resource_tag.delete|
+|通知の削除|event_id.resource_watcher.alarm.delete|
+|リソースグループ作成|event_id.resource_watcher.resource_group.create|
+|リソースグループ関係の修正|event_id.resource_watcher.resource_group_relation.update|
+|リソースタグ関係の削除|event_id.resource_watcher.resource_tag_relation.delete|
+|通知の状態変更|event_id.resource_watcher.alarm.change_status|
+|リソース削除|event_id.resource_watcher.resource.delete|
+|リソースグループ関係の追加|event_id.resource_watcher.resource_group_relation.create|
 
 ### AI EasyMaker
 
@@ -1292,11 +1315,6 @@
 
 | イベント | イベントID |
 | --- | --- |
-|태그 발송 요청 수신자 목록 조회|event_id.sms.get_tag_message_recipient_list|
-|발신 번호 인증 요청|event_id.sms.request_sender_number_verification|
-|예약 발송 메시지 검색하여 취소|event_id.sms.search_cancel_reservation_message|
-|카테고리 등록|event_id.sms.add_category|
-|수신 거부자 목록 삭제|event_id.sms.delete_block_recipient_list|
 |대량 발송 요청 수신자 목록 조회|event_id.sms.get_mass_message_recipient_list|
 |일반 발송 SMS 메시지 상세 조회|event_id.sms.get_normal_sms_message_detail|
 |태그 발송 요청 목록 조회|event_id.sms.get_tag_message_master_list|
@@ -1331,6 +1349,11 @@
 |수신 거부자 목록 조회|event_id.sms.get_block_recipient_list|
 |일반 발송 인증 메시지 목록 조회|event_id.sms.get_normal_auth_message_list|
 |예약 발송 메시지 상세 조회|event_id.sms.get_reservation_message_detail|
+|태그 발송 요청 수신자 목록 조회|event_id.sms.get_tag_message_recipient_list|
+|발신 번호 인증 요청|event_id.sms.request_sender_number_verification|
+|예약 발송 메시지 검색하여 취소|event_id.sms.search_cancel_reservation_message|
+|카테고리 등록|event_id.sms.add_category|
+|수신 거부자 목록 삭제|event_id.sms.delete_block_recipient_list|
 
 ### File-Crafter
 
@@ -1360,14 +1383,6 @@
 
 | イベント | イベントID |
 | --- | --- |
-|인프라 및 방화벽 구성|event_id.network_firewall.config_project_iaas|
-|정책 수정|event_id.network_firewall.group_modify|
-|Nat 추가|event_id.network_firewall.nat_create|
-|Port 객체 추가|event_id.network_firewall.port_object_create|
-|방화벽 구성|event_id.network_firewall.config_iaas|
-|정책 엑셀 검증|event_id.network_firewall.group_create_template_verify|
-|IP 인스턴스 객체 추가|event_id.network_firewall.ip_object_instance_create|
-|LNCS 정보 검증|event_id.network_firewall.option_lncs_valid|
 |정책 추가|event_id.network_firewall.group_create|
 |IP 객체 추가|event_id.network_firewall.ip_object_create|
 |Nat 삭제|event_id.network_firewall.nat_delete|
@@ -1380,6 +1395,14 @@
 |IP 객체 삭제|event_id.network_firewall.ip_object_delete|
 |옵션 설정|event_id.network_firewall.option_create|
 |Port 객체 수정|event_id.network_firewall.port_object_modify|
+|인프라 및 방화벽 구성|event_id.network_firewall.config_project_iaas|
+|정책 수정|event_id.network_firewall.group_modify|
+|Nat 추가|event_id.network_firewall.nat_create|
+|Port 객체 추가|event_id.network_firewall.port_object_create|
+|방화벽 구성|event_id.network_firewall.config_iaas|
+|정책 엑셀 검증|event_id.network_firewall.group_create_template_verify|
+|IP 인스턴스 객체 추가|event_id.network_firewall.ip_object_instance_create|
+|LNCS 정보 검증|event_id.network_firewall.option_lncs_valid|
 
 ### RCS Bizmessage
 
@@ -1393,33 +1416,15 @@
 
 | イベント | イベントID |
 | --- | --- |
+|Excelダウンロード|event_id.security_advisor.excel_download|
 |選択点検リクエスト|event_id.security_advisor.manual_scan_request|
 |自動点検完了|event_id.security_advisor.auto_scan_complete|
 |設定変更|event_id.security_advisor.setting_change|
-|Excelダウンロード|event_id.security_advisor.excel_download|
 
 ### Email
 
 | イベント | イベントID |
 | --- | --- |
-|발송 설정 수정|event_id.email.update_send_config|
-|카테고리 등록|event_id.email.add_category|
-|Email 상품 비활성화|event_id.email.disble_email_product|
-|대량 발송 요청 수신자 목록 조회|event_id.email.get_mass_receiver_list|
-|태그 발송 요청 목록 조회|event_id.email.get_tag_master_list|
-|템플릿 수정|event_id.email.modify_template|
-|UID 삭제|event_id.email.remove_uid|
-|수신거부 사용자 추가|event_id.email.add_block_receiver|
-|UID 추가(파일)|event_id.email.add_uid|
-|대량 발송 요청 목록 조회|event_id.email.get_mass_master_list|
-|일반 발송 메일 수신자 상세 조회|event_id.email.get_send_detail|
-|UID 목록 조회|event_id.email.get_uid|
-|도메인 삭제|event_id.email.remove_domain|
-|대량 발송 수신자 파일 업로드|event_id.email.upload_mass_mail_recipient|
-|파일 다운로드|email_id.email.file_download|
-|도메인 등록|event_id.email.add_domain|
-|Email 상품 활성화|event_id.email.enable_email_product|
-|예약 발송 메일 수신자 상세 조회|event_id.email.get_reservation_detail|
 |태그 발송 요청 수신자 상세 조회|event_id.email.get_tag_receiver_detail|
 |수신거부 사용자 제거|event_id.email.remove_block_receiver|
 |대량 발송 요청|event_id.email.send_mass_mail|
@@ -1429,12 +1434,30 @@
 |일반 발송 메일 수신자 목록 조회|event_id.email.get_send_list|
 |카테고리 수정|event_id.email.modify_category|
 |템플릿 삭제|event_id.email.remove_template|
-|파일 다운로드 요청|email_id.email.file_download_request|
+|파일 다운로드|email_id.email.file_download|
 |템플릿 등록|event_id.email.add_template|
 |수신 거부자 목록 조회|event_id.email.get_block_receiver_list|
 |예약 발송 메일 수신자 목록 조회|event_id.email.get_reservation_list|
 |태그 발송 요청 수신자 목록 조회|event_id.email.get_tag_receiver_list|
 |카테고리 삭제|event_id.email.remove_category|
+|발송 설정 수정|event_id.email.update_send_config|
+|카테고리 등록|event_id.email.add_category|
+|Email 상품 비활성화|event_id.email.disble_email_product|
+|대량 발송 요청 수신자 목록 조회|event_id.email.get_mass_receiver_list|
+|태그 발송 요청 목록 조회|event_id.email.get_tag_master_list|
+|템플릿 수정|event_id.email.modify_template|
+|UID 삭제|event_id.email.remove_uid|
+|수신거부 사용자 추가|event_id.email.add_block_receiver|
+|파일 다운로드 요청|email_id.email.file_download_request|
+|UID 추가(파일)|event_id.email.add_uid|
+|대량 발송 요청 목록 조회|event_id.email.get_mass_master_list|
+|일반 발송 메일 수신자 상세 조회|event_id.email.get_send_detail|
+|UID 목록 조회|event_id.email.get_uid|
+|도메인 삭제|event_id.email.remove_domain|
+|대량 발송 수신자 파일 업로드|event_id.email.upload_mass_mail_recipient|
+|도메인 등록|event_id.email.add_domain|
+|Email 상품 활성화|event_id.email.enable_email_product|
+|예약 발송 메일 수신자 상세 조회|event_id.email.get_reservation_detail|
 
 ### Pose Estimation
 
@@ -1466,7 +1489,8 @@
 |オペレーションの修正|event_id.role.operation.update|
 |オペレーションの削除|event_id.role.operation.delete|
 |関連ロールの作成|event_id.role.role_relation.create|
-|関連ロール削除|event_id.role.role_relation.delete|
+|関連ロールの修正|event_id.role.role_relation.update|
+|関連ロールの削除|event_id.role.role_relation.delete|
 |ユーザー関連ロールの作成|event_id.role.user_role_relation.create|
 |ユーザー関連ロールの修正|event_id.role.user_role_relation.update|
 |ユーザー関連ロールの削除|event_id.role.user_role_relation.delete|
@@ -1601,22 +1625,23 @@
 |レジストリの作成|event_id.ncr.registry.create|
 |レジストリの削除|event_id.ncr.registry.delete|
 |レジストリの修正|event_id.ncr.registry.update|
-|イメージ保護ポリシーの追加|event_id.ncr.immutable_tag_rule.create|
-|イメージ保護ポリシーの削除|event_id.ncr.immutable_tag_rule.delete|
-|イメージ保護ポリシーの修正|event_id.ncr.immutable_tag_rule.update|
-|イメージ 整理 ポリシーの作成|event_id.ncr.retention_rule.create|
-|イメージ 整理 ポリシーの削除|event_id.ncr.retention_rule.delete|
-|イメージ 整理 ポリシーの実行|event_id.ncr.retention_rule.execute|
-|イメージ 整理 ポリシーの修正|event_id.ncr.retention_schedule.update|
-|Webフックの作成|event_id.ncr.webhook.create|
-|Webフックの削除|event_id.ncr.webhook.delete|
-|Webフックの修正|event_id.ncr.webhook.update|
-|イメージの削除|event_id.ncr.image.delete|
-|アーティファクトの削除|event_id.ncr.artifact.delete|
+|イメージ保護ポリシー追加|event_id.ncr.immutable_tag_rule.create|
+|イメージ保護ポリシー削除|event_id.ncr.immutable_tag_rule.delete|
+|イメージ保護ポリシー修正|event_id.ncr.immutable_tag_rule.update|
+|イメージ整理ポリシー追加|event_id.ncr.retention_rule.create|
+|イメージ整理ポリシー削除|event_id.ncr.retention_rule.delete|
+|イメージ整理ポリシー実行|event_id.ncr.retention_rule.execute|
+|イメージ整理ポリシー修正|event_id.ncr.retention_rule.update|
+|イメージ整理サイクル設定|event_id.ncr.retention_schedule.update|
+|Webフック作成|event_id.ncr.webhook.create|
+|Webフック削除|event_id.ncr.webhook.delete|
+|Webフック修正|event_id.ncr.webhook.update|
+|イメージ削除|event_id.ncr.image.delete|
+|アーティファクト削除|event_id.ncr.artifact.delete|
 |アーティファクトスキャン|event_id.ncr.artifact.scan|
 |アーティファクトスキャン停止|event_id.ncr.artifact.scan_stop|
-|アーティファクトタグの作成|event_id.ncr.tag.create|
-|アーティファクトタグの削除|event_id.ncr.tag.delete|
+|アーティファクトタグ作成|event_id.ncr.tag.create|
+|アーティファクトタグ削除|event_id.ncr.tag.delete|
 |レジストリ複製の作成|event_id.ncr.replication_policy.create|
 |レジストリ複製の削除|event_id.ncr.replication_policy.delete|
 |レジストリ複製の修正|event_id.ncr.replication_policy.update|
