@@ -103,18 +103,6 @@
 |Delete VPC Subnet|event_id.iaas.vpc_subnet.delete|
 |Disconnect Routing Table over VPC Subnet|event_id.iaas.vpc_subnet.detach_routingtable|
 |Change VPC Subnet|event_id.iaas.vpc_subnet.update|
-|Create Cluster|event_id.iaas.cluster.create|
-|Delete Cluster|event_id.iaas.cluster.delete|
-|Change Cluster OWNER|event_id.iaas.cluster.handover|
-|Change Autoscaler Settings|event_id.iaas.cluster.update_autoscale|
-|Change CNI|event_id.iaas.cluster.cni_update|
-|Create Node Group|event_id.iaas.nodegroup.create|
-|Modify Node Group|event_id.iaas.nodegroup.update|
-|Delete Node Group|event_id.iaas.nodegroup.delete|
-|Start Worker Node|event_id.iaas.nodegroup.start_node|
-|Stop Worker Node|event_id.iaas.nodegroup.stop_node|
-|Upgrade Cluster|event_id.iaas.nodegroup.upgrade|
-|Change User Script|event_id.iaas.nodegroup.update_userscript|
 |Copy Image|event_id.iaas.image.copy|
 |Build Image|event_id.iaas.image_template.build|
 |Cancel Image Build|event_id.iaas.image_template.cancel_build|
@@ -203,6 +191,48 @@
 |Restart Workload|event_id.iaas.ncs.workload.restart|
 |Stop Workload|event_id.iaas.ncs.workload.stop|
 |Delete Workload|event_id.iaas.ncs.workload.delete|
+|Create Cluster Started|event_id.iaas.cluster.create.start|
+|Create Cluster Completed|event_id.iaas.cluster.create.end|
+|Create Cluster Failed|event_id.iaas.cluster.create.failed|
+|Delete Cluster Started|event_id.iaas.cluster.delete.start|
+|Delete Cluster Completed|event_id.iaas.cluster.delete.end|
+|Delete Cluster Failed|event_id.iaas.cluster.delete.failed|
+|Change Cluster OWNER Started|event_id.iaas.cluster.handover.start|
+|Change Cluster OWNER Completed|event_id.iaas.cluster.handover.end|
+|Change Cluster OWNER Failed|event_id.iaas.cluster.handover.failed|
+|Create Node Group Started|event_id.iaas.nodegroup.create.start|
+|Create Node Group Completed|event_id.iaas.nodegroup.create.end|
+|Create Node Group Failed|event_id.iaas.nodegroup.create.failed|
+|Delete Node Group Started|event_id.iaas.nodegroup.delete.start|
+|Delete Node Group Completed|event_id.iaas.nodegroup.delete.end|
+|Delete Node Group Failed|event_id.iaas.nodegroup.delete.failed|
+|Resize Cluster Started|event_id.iaas.cluster.resize.start|
+|Resize Cluster Completed|event_id.iaas.cluster.resize.end|
+|Resize Cluster Failed|event_id.iaas.cluster.resize.failed|
+|Change Instance Type Started|event_id.iaas.nodegroup.update_flavor.start|
+|Change Instance Type Completed|event_id.iaas.nodegroup.update_flavor.end|
+|Change Instance Type Failed|event_id.iaas.nodegroup.update_flavor.failed|
+|Change CNI Started|event_id.iaas.cluster.cni_update.start|
+|Change CNI Completed|event_id.iaas.cluster.cni_update.end|
+|Change CNI Failed|event_id.iaas.cluster.cni_update.failed|
+|Upgrade Node Group Started|event_id.iaas.nodegroup.upgrade.start|
+|Upgrade Node Group Completed|event_id.iaas.nodegroup.upgrade.end|
+|Upgrade Node Group Failed|event_id.iaas.nodegroup.upgrade.failed|
+|Change User Script Started|event_id.iaas.nodegroup.update_userscript.start|
+|Change User Script Completed|event_id.iaas.nodegroup.update_userscript.end|
+|Change User Script Failed|event_id.iaas.nodegroup.update_userscript.failed|
+|Start Worker Node Started|event_id.iaas.nodegroup.node_action.start_node.start|
+|Start Worker Node Completed|event_id.iaas.nodegroup.node_action.start_node.end|
+|Start Worker Node Failed|event_id.iaas.nodegroup.node_action.start_node.failed|
+|Stop Worker Node Started|event_id.iaas.nodegroup.node_action.stop_node.start|
+|Stop Worker Node Completed|event_id.iaas.nodegroup.node_action.stop_node.end|
+|Stop Worker Node Failed|event_id.iaas.nodegroup.node_action.stop_node.failed|
+|Change Autoscaler Settings Started|event_id.iaas.nodegroup.set_cluster_autoscaler.start|
+|Change Autoscaler Settings Completed|event_id.iaas.nodegroup.set_cluster_autoscaler.end|
+|Change Autoscaler Settings Failed|event_id.iaas.nodegroup.set_cluster_autoscaler.failed|
+|Update Cluster API endpoint IP ACL Started|event_id.iaas.cluster.cluster_api_ep_ipacl_update.start|
+|Update Cluster API endpoint IP ACL Completed|event_id.iaas.cluster.cluster_api_ep_ipacl_update.end|
+|Update Cluster API endpoint IP ACL Failed|event_id.iaas.cluster.cluster_api_ep_ipacl_update.failed|
 
 ### Object Storage
 
@@ -225,8 +255,8 @@
 
 | Event | Event ID |
 | --- | --- |
-|Reset Parameter Group|event_id.rds_for_mysql.resetParameterGroup|
 ||event_id.rds_for_mysql.get_last_query_to_restore|
+|Reset Parameter Group|event_id.rds_for_mysql.resetParameterGroup|
 |Modify Parameter Group|event_id.rds_for_mysql.modifyParameterGroup|
 |Create Parameter Group|event_id.rds_for_mysql.createParameterGroup|
 |Delete Parameter Group|event_id.rds_for_mysql.deleteParameterGroup|
@@ -555,12 +585,12 @@
 
 | Event | Event ID |
 | --- | --- |
+|Activate Log Backup|event_id.rds_for_sqlserver.db_instance.activate_log_backup|
+|Deactivate Backup|event_id.rds_for_sqlserver.db_instance.deactivate_backup|
 |Differential Backup to DB Instance Object Storage|event_id.rds_for_sqlserver.db_instance.differential_backup_to_obs|
 |Activate backup|event_id.rds_for_sqlserver.db_instance.activate_backup|
 |Deactivate Log Backup|event_id.rds_for_sqlserver.db_instance.deactivate_log_backup|
 |Restoration from DB Instance Object Storage|event_id.rds_for_sqlserver.db_instance.restore_from_obs|
-|Activate Log Backup|event_id.rds_for_sqlserver.db_instance.activate_log_backup|
-|Deactivate Backup|event_id.rds_for_sqlserver.db_instance.deactivate_backup|
 |Create Database Instance|event_id.rds_for_sqlserver.db_instance.create|
 |Delete Database Instance|event_id.rds_for_sqlserver.db_instance.delete|
 |Back Up Database Instance|event_id.rds_for_sqlserver.db_instance.backup|
@@ -860,9 +890,8 @@
 |Create Validating Webhook Configuration|event_id.iaas.cluster.validating_webhook_configuration.create|
 |Delete Validating Webhook Configuration|event_id.iaas.cluster.validating_webhook_configuration.delete|
 |Update Validating Webhook Configuration|event_id.iaas.cluster.validating_webhook_configuration.update|
-|Resize Cluster|event_id.iaas.cluster.resize|
-|Upgrade Cluster|event_id.iaas.cluster.upgrade|
 |Update Cluster|event_id.iaas.cluster.update|
+|Upgrade Cluster|event_id.iaas.cluster.upgrade|
 
 ### Face Recognition
 
@@ -982,12 +1011,6 @@
 |Request ID Card Analysis (only)|event_id.ocr.document_ocr.id_card.analyze_stand_alone|
 |Retrieve Stoppage/Closure of Business Registration Certificate for Document OCR|event_id.ocr.document_ocr.business.authenticity|
 |Request General OCR Image Segmentation Recognition|event_id.ocr.general_ocr.cropping_analyze|
-
-### Vehicle Plate Recognizer
-
-| Event | Event ID |
-| --- | --- |
-|Request analysis of car license plate|event_id.ai_vehicle_plate_recognizer.analyze|
 
 ### KakaoTalk Bizmessage
 
@@ -1126,8 +1149,8 @@
 
 | Event | Event ID |
 | --- | --- |
-|Activate Webshell Mail Reception|event_id.webshell_treat_detector.mail_send_activated|
 |Deactivate Webshell Mail Reception|event_id.webshell_treat_detector.mail_send_deactivated|
+|Activate Webshell Mail Reception|event_id.webshell_treat_detector.mail_send_activated|
 
 ### Word Suggestion
 
@@ -1174,6 +1197,13 @@
 
 | Event | Event ID |
 | --- | --- |
+|Create Notification|event_id.resource_watcher.alarm.create|
+|Modify Resource|event_id.resource_watcher.resource.update|
+|Delete Resource Group Relation|event_id.resource_watcher.resource_group_relation.delete|
+|Add Resource Group Relation|event_id.resource_watcher.resource_tag_relation.create|
+|Create Resource|event_id.resource_watcher.resource.create|
+|Modify Resource Group|event_id.resource_watcher.resource_group.update|
+|Delete Resource Tag|event_id.resource_watcher.resource_tag.delete|
 |Delete Notification|event_id.resource_watcher.alarm.delete|
 |Create Resource Group|event_id.resource_watcher.resource_group.create|
 |Modify Resource Group Relation|event_id.resource_watcher.resource_group_relation.update|
@@ -1186,13 +1216,6 @@
 |Delete Resource Group|event_id.resource_watcher.resource_group.delete|
 |Create Resource Tag|event_id.resource_watcher.resource_tag.create|
 |Modify Resource Group Relation|event_id.resource_watcher.resource_tag_relation.update|
-|Create Notification|event_id.resource_watcher.alarm.create|
-|Modify Resource|event_id.resource_watcher.resource.update|
-|Delete Resource Group Relation|event_id.resource_watcher.resource_group_relation.delete|
-|Add Resource Group Relation|event_id.resource_watcher.resource_tag_relation.create|
-|Create Resource|event_id.resource_watcher.resource.create|
-|Modify Resource Group|event_id.resource_watcher.resource_group.update|
-|Delete Resource Tag|event_id.resource_watcher.resource_tag.delete|
 
 ### AI EasyMaker
 
@@ -1292,19 +1315,6 @@
 
 | Event | Event ID |
 | --- | --- |
-|태그 발송 요청 수신자 목록 조회|event_id.sms.get_tag_message_recipient_list|
-|발신 번호 인증 요청|event_id.sms.request_sender_number_verification|
-|예약 발송 메시지 검색하여 취소|event_id.sms.search_cancel_reservation_message|
-|카테고리 등록|event_id.sms.add_category|
-|수신 거부자 목록 삭제|event_id.sms.delete_block_recipient_list|
-|대량 발송 요청 수신자 목록 조회|event_id.sms.get_mass_message_recipient_list|
-|일반 발송 SMS 메시지 상세 조회|event_id.sms.get_normal_sms_message_detail|
-|태그 발송 요청 목록 조회|event_id.sms.get_tag_message_master_list|
-|템플릿 삭제|event_id.sms.remove_template|
-|일반 수신자 파일 다운로드 예약|event_id.sms.reserve_download_normal_message|
-|수신 거부자 목록 추가|event_id.sms.add_block_recipient_list|
-|발송 설정 수정|event_id.sms.update_send_config|
-|예약 발송 메시지 취소|event_id.sms.cancel_reservation_message|
 |대량 발송 요청 목록 조회|event_id.sms.get_mass_message_master_list|
 |일반 발송 MMS 메시지 상세 조회|event_id.sms.get_normal_mms_message_detail|
 |예약 발송 메시지 목록 조회|event_id.sms.get_reservation_message_list|
@@ -1331,6 +1341,19 @@
 |수신 거부자 목록 조회|event_id.sms.get_block_recipient_list|
 |일반 발송 인증 메시지 목록 조회|event_id.sms.get_normal_auth_message_list|
 |예약 발송 메시지 상세 조회|event_id.sms.get_reservation_message_detail|
+|태그 발송 요청 수신자 목록 조회|event_id.sms.get_tag_message_recipient_list|
+|발신 번호 인증 요청|event_id.sms.request_sender_number_verification|
+|예약 발송 메시지 검색하여 취소|event_id.sms.search_cancel_reservation_message|
+|카테고리 등록|event_id.sms.add_category|
+|수신 거부자 목록 삭제|event_id.sms.delete_block_recipient_list|
+|대량 발송 요청 수신자 목록 조회|event_id.sms.get_mass_message_recipient_list|
+|일반 발송 SMS 메시지 상세 조회|event_id.sms.get_normal_sms_message_detail|
+|태그 발송 요청 목록 조회|event_id.sms.get_tag_message_master_list|
+|템플릿 삭제|event_id.sms.remove_template|
+|일반 수신자 파일 다운로드 예약|event_id.sms.reserve_download_normal_message|
+|수신 거부자 목록 추가|event_id.sms.add_block_recipient_list|
+|발송 설정 수정|event_id.sms.update_send_config|
+|예약 발송 메시지 취소|event_id.sms.cancel_reservation_message|
 
 ### File-Crafter
 
@@ -1360,6 +1383,14 @@
 
 | Event | Event ID |
 | --- | --- |
+|인프라 구성|event_id.network_firewall.config_project|
+|정책 삭제|event_id.network_firewall.group_delete|
+|IP 객체 수정|event_id.network_firewall.ip_object_modify|
+|OBS 정보 검증|event_id.network_firewall.option_obs_valid|
+|정책 엑셀 추가|event_id.network_firewall.group_create_template|
+|IP 객체 삭제|event_id.network_firewall.ip_object_delete|
+|옵션 설정|event_id.network_firewall.option_create|
+|Port 객체 수정|event_id.network_firewall.port_object_modify|
 |인프라 및 방화벽 구성|event_id.network_firewall.config_project_iaas|
 |정책 수정|event_id.network_firewall.group_modify|
 |Nat 추가|event_id.network_firewall.nat_create|
@@ -1372,14 +1403,6 @@
 |IP 객체 추가|event_id.network_firewall.ip_object_create|
 |Nat 삭제|event_id.network_firewall.nat_delete|
 |Port 객체 삭제|event_id.network_firewall.port_object_delete|
-|인프라 구성|event_id.network_firewall.config_project|
-|정책 삭제|event_id.network_firewall.group_delete|
-|IP 객체 수정|event_id.network_firewall.ip_object_modify|
-|OBS 정보 검증|event_id.network_firewall.option_obs_valid|
-|정책 엑셀 추가|event_id.network_firewall.group_create_template|
-|IP 객체 삭제|event_id.network_firewall.ip_object_delete|
-|옵션 설정|event_id.network_firewall.option_create|
-|Port 객체 수정|event_id.network_firewall.port_object_modify|
 
 ### RCS Bizmessage
 
@@ -1402,6 +1425,13 @@
 
 | Event | Event ID |
 | --- | --- |
+|템플릿 삭제|event_id.email.remove_template|
+|파일 다운로드|email_id.email.file_download|
+|템플릿 등록|event_id.email.add_template|
+|수신 거부자 목록 조회|event_id.email.get_block_receiver_list|
+|예약 발송 메일 수신자 목록 조회|event_id.email.get_reservation_list|
+|태그 발송 요청 수신자 목록 조회|event_id.email.get_tag_receiver_list|
+|카테고리 삭제|event_id.email.remove_category|
 |발송 설정 수정|event_id.email.update_send_config|
 |카테고리 등록|event_id.email.add_category|
 |Email 상품 비활성화|event_id.email.disble_email_product|
@@ -1410,13 +1440,13 @@
 |템플릿 수정|event_id.email.modify_template|
 |UID 삭제|event_id.email.remove_uid|
 |수신거부 사용자 추가|event_id.email.add_block_receiver|
+|파일 다운로드 요청|email_id.email.file_download_request|
 |UID 추가(파일)|event_id.email.add_uid|
 |대량 발송 요청 목록 조회|event_id.email.get_mass_master_list|
 |일반 발송 메일 수신자 상세 조회|event_id.email.get_send_detail|
 |UID 목록 조회|event_id.email.get_uid|
 |도메인 삭제|event_id.email.remove_domain|
 |대량 발송 수신자 파일 업로드|event_id.email.upload_mass_mail_recipient|
-|파일 다운로드|email_id.email.file_download|
 |도메인 등록|event_id.email.add_domain|
 |Email 상품 활성화|event_id.email.enable_email_product|
 |예약 발송 메일 수신자 상세 조회|event_id.email.get_reservation_detail|
@@ -1428,13 +1458,6 @@
 |대량 발송 요청 수신자 상세 조회|event_id.email.get_mass_receiver_detail|
 |일반 발송 메일 수신자 목록 조회|event_id.email.get_send_list|
 |카테고리 수정|event_id.email.modify_category|
-|템플릿 삭제|event_id.email.remove_template|
-|파일 다운로드 요청|email_id.email.file_download_request|
-|템플릿 등록|event_id.email.add_template|
-|수신 거부자 목록 조회|event_id.email.get_block_receiver_list|
-|예약 발송 메일 수신자 목록 조회|event_id.email.get_reservation_list|
-|태그 발송 요청 수신자 목록 조회|event_id.email.get_tag_receiver_list|
-|카테고리 삭제|event_id.email.remove_category|
 
 ### Pose Estimation
 
@@ -1466,6 +1489,7 @@
 |Modify Operation|event_id.role.operation.update|
 |Delete Operation|event_id.role.operation.delete|
 |Create Related Role|event_id.role.role_relation.create|
+|Modify Related Role|event_id.role.role_relation.update|
 |Delete Related Role|event_id.role.role_relation.delete|
 |Create User-related Role|event_id.role.user_role_relation.create|
 |Modify User-related Role|event_id.role.user_role_relation.update|
@@ -1607,7 +1631,8 @@
 |Create Image Cleanup Policy|event_id.ncr.retention_rule.create|
 |Delete Image Cleanup Policy|event_id.ncr.retention_rule.delete|
 |Run Image Cleanup Policy|event_id.ncr.retention_rule.execute|
-|Modify Image Cleanup Policy|event_id.ncr.retention_schedule.update|
+|Modify Image Cleanup Policy|event_id.ncr.retention_rule.update|
+|Set Image Cleanup Policy|event_id.ncr.retention_schedule.update|
 |Create Webhook|event_id.ncr.webhook.create|
 |Delete Webhook|event_id.ncr.webhook.delete|
 |Modify Webhook|event_id.ncr.webhook.update|
