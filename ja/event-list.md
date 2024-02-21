@@ -1197,6 +1197,8 @@
 
 | イベント | イベントID |
 | --- | --- |
+|リソース削除|event_id.resource_watcher.resource.delete|
+|リソースグループ関係の追加|event_id.resource_watcher.resource_group_relation.create|
 |リソースタグ修正|event_id.resource_watcher.resource_tag.update|
 |通知の修正|event_id.resource_watcher.alarm.update|
 |リソースグループ削除|event_id.resource_watcher.resource_group.delete|
@@ -1214,8 +1216,6 @@
 |リソースグループ関係の修正|event_id.resource_watcher.resource_group_relation.update|
 |リソースタグ関係の削除|event_id.resource_watcher.resource_tag_relation.delete|
 |通知の状態変更|event_id.resource_watcher.alarm.change_status|
-|リソース削除|event_id.resource_watcher.resource.delete|
-|リソースグループ関係の追加|event_id.resource_watcher.resource_group_relation.create|
 
 ### AI EasyMaker
 
@@ -1383,6 +1383,7 @@
 
 | イベント | イベントID |
 | --- | --- |
+|LNCS 정보 검증|event_id.network_firewall.option_lncs_valid|
 |정책 추가|event_id.network_firewall.group_create|
 |IP 객체 추가|event_id.network_firewall.ip_object_create|
 |Nat 삭제|event_id.network_firewall.nat_delete|
@@ -1402,7 +1403,6 @@
 |방화벽 구성|event_id.network_firewall.config_iaas|
 |정책 엑셀 검증|event_id.network_firewall.group_create_template_verify|
 |IP 인스턴스 객체 추가|event_id.network_firewall.ip_object_instance_create|
-|LNCS 정보 검증|event_id.network_firewall.option_lncs_valid|
 
 ### RCS Bizmessage
 
@@ -1425,6 +1425,8 @@
 
 | イベント | イベントID |
 | --- | --- |
+|Email 상품 활성화|event_id.email.enable_email_product|
+|예약 발송 메일 수신자 상세 조회|event_id.email.get_reservation_detail|
 |태그 발송 요청 수신자 상세 조회|event_id.email.get_tag_receiver_detail|
 |수신거부 사용자 제거|event_id.email.remove_block_receiver|
 |대량 발송 요청|event_id.email.send_mass_mail|
@@ -1456,8 +1458,6 @@
 |도메인 삭제|event_id.email.remove_domain|
 |대량 발송 수신자 파일 업로드|event_id.email.upload_mass_mail_recipient|
 |도메인 등록|event_id.email.add_domain|
-|Email 상품 활성화|event_id.email.enable_email_product|
-|예약 발송 메일 수신자 상세 조회|event_id.email.get_reservation_detail|
 
 ### Pose Estimation
 
