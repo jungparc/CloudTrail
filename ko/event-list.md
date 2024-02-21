@@ -255,8 +255,8 @@
 
 | 이벤트 | 이벤트 ID |
 | --- | --- |
-||event_id.rds_for_mysql.get_last_query_to_restore|
 |파라미터 그룹 재설정|event_id.rds_for_mysql.resetParameterGroup|
+||event_id.rds_for_mysql.get_last_query_to_restore|
 |파라미터 그룹 수정|event_id.rds_for_mysql.modifyParameterGroup|
 |파라미터 그룹 생성|event_id.rds_for_mysql.createParameterGroup|
 |파라미터 그룹 삭제|event_id.rds_for_mysql.deleteParameterGroup|
@@ -890,8 +890,8 @@
 |Validating Webhook Configuration 생성|event_id.iaas.cluster.validating_webhook_configuration.create|
 |Validating Webhook Configuration 삭제|event_id.iaas.cluster.validating_webhook_configuration.delete|
 |Validating Webhook Configuration 수정|event_id.iaas.cluster.validating_webhook_configuration.update|
-|클러스터 수정|event_id.iaas.cluster.update|
 |클러스터 업그레이드|event_id.iaas.cluster.upgrade|
+|클러스터 수정|event_id.iaas.cluster.update|
 
 ### Face Recognition
 
@@ -1149,8 +1149,8 @@
 
 | 이벤트 | 이벤트 ID |
 | --- | --- |
-|웹 셸 메일 수신 비활성화|event_id.webshell_treat_detector.mail_send_deactivated|
 |웹 셸 메일 수신 활성화|event_id.webshell_treat_detector.mail_send_activated|
+|웹 셸 메일 수신 비활성화|event_id.webshell_treat_detector.mail_send_deactivated|
 
 ### Word Suggestion
 
@@ -1197,6 +1197,9 @@
 
 | 이벤트 | 이벤트 ID |
 | --- | --- |
+|리소스 삭제|event_id.resource_watcher.resource.delete|
+|리소스 그룹 관계 추가|event_id.resource_watcher.resource_group_relation.create|
+|리소스 태그 수정|event_id.resource_watcher.resource_tag.update|
 |알림 수정|event_id.resource_watcher.alarm.update|
 |리소스 그룹 삭제|event_id.resource_watcher.resource_group.delete|
 |리소스 태그 생성|event_id.resource_watcher.resource_tag.create|
@@ -1213,9 +1216,6 @@
 |리소스 그룹 관계 수정|event_id.resource_watcher.resource_group_relation.update|
 |리소스 태그 관계 삭제|event_id.resource_watcher.resource_tag_relation.delete|
 |알림 상태 변경|event_id.resource_watcher.alarm.change_status|
-|리소스 삭제|event_id.resource_watcher.resource.delete|
-|리소스 그룹 관계 추가|event_id.resource_watcher.resource_group_relation.create|
-|리소스 태그 수정|event_id.resource_watcher.resource_tag.update|
 
 ### AI EasyMaker
 
@@ -1315,6 +1315,23 @@
 
 | 이벤트 | 이벤트 ID |
 | --- | --- |
+|대량 발송 요청 수신자 목록 조회|event_id.sms.get_mass_message_recipient_list|
+|일반 발송 SMS 메시지 상세 조회|event_id.sms.get_normal_sms_message_detail|
+|태그 발송 요청 목록 조회|event_id.sms.get_tag_message_master_list|
+|템플릿 삭제|event_id.sms.remove_template|
+|일반 수신자 파일 다운로드 예약|event_id.sms.reserve_download_normal_message|
+|수신 거부자 목록 추가|event_id.sms.add_block_recipient_list|
+|발송 설정 수정|event_id.sms.update_send_config|
+|예약 발송 메시지 취소|event_id.sms.cancel_reservation_message|
+|대량 발송 요청 목록 조회|event_id.sms.get_mass_message_master_list|
+|일반 발송 MMS 메시지 상세 조회|event_id.sms.get_normal_mms_message_detail|
+|예약 발송 메시지 목록 조회|event_id.sms.get_reservation_message_list|
+|수신거부 서비스 제거|event_id.sms.remove_block_service|
+|수신 거부자 파일 다운로드 예약|event_id.sms.reserve_download_block_recipient|
+|대량 발송 요청|event_id.sms.send_mass_message|
+|템플릿 등록|event_id.sms.add_template|
+|파일 다운로드|event_id.sms.download_reserved_file|
+|일반 발송 인증 메시지 상세 조회|event_id.sms.get_normal_auth_message_detail|
 |일반 발송 SMS 메시지 목록 조회|event_id.sms.get_normal_sms_message_list|
 |태그 발송 요청 수신자 상세 조회|event_id.sms.get_tag_message_recipient_detail|
 |본인 인증 요청|event_id.sms.request_self_verification|
@@ -1337,23 +1354,6 @@
 |예약 발송 메시지 검색하여 취소|event_id.sms.search_cancel_reservation_message|
 |카테고리 등록|event_id.sms.add_category|
 |수신 거부자 목록 삭제|event_id.sms.delete_block_recipient_list|
-|대량 발송 요청 수신자 목록 조회|event_id.sms.get_mass_message_recipient_list|
-|일반 발송 SMS 메시지 상세 조회|event_id.sms.get_normal_sms_message_detail|
-|태그 발송 요청 목록 조회|event_id.sms.get_tag_message_master_list|
-|템플릿 삭제|event_id.sms.remove_template|
-|일반 수신자 파일 다운로드 예약|event_id.sms.reserve_download_normal_message|
-|수신 거부자 목록 추가|event_id.sms.add_block_recipient_list|
-|발송 설정 수정|event_id.sms.update_send_config|
-|예약 발송 메시지 취소|event_id.sms.cancel_reservation_message|
-|대량 발송 요청 목록 조회|event_id.sms.get_mass_message_master_list|
-|일반 발송 MMS 메시지 상세 조회|event_id.sms.get_normal_mms_message_detail|
-|예약 발송 메시지 목록 조회|event_id.sms.get_reservation_message_list|
-|수신거부 서비스 제거|event_id.sms.remove_block_service|
-|수신 거부자 파일 다운로드 예약|event_id.sms.reserve_download_block_recipient|
-|대량 발송 요청|event_id.sms.send_mass_message|
-|템플릿 등록|event_id.sms.add_template|
-|파일 다운로드|event_id.sms.download_reserved_file|
-|일반 발송 인증 메시지 상세 조회|event_id.sms.get_normal_auth_message_detail|
 
 ### File-Crafter
 
@@ -1383,6 +1383,9 @@
 
 | 이벤트 | 이벤트 ID |
 | --- | --- |
+|LNCS 정보 검증|event_id.network_firewall.option_lncs_valid|
+|정책 추가|event_id.network_firewall.group_create|
+|IP 객체 추가|event_id.network_firewall.ip_object_create|
 |Nat 삭제|event_id.network_firewall.nat_delete|
 |Port 객체 삭제|event_id.network_firewall.port_object_delete|
 |인프라 구성|event_id.network_firewall.config_project|
@@ -1400,9 +1403,6 @@
 |방화벽 구성|event_id.network_firewall.config_iaas|
 |정책 엑셀 검증|event_id.network_firewall.group_create_template_verify|
 |IP 인스턴스 객체 추가|event_id.network_firewall.ip_object_instance_create|
-|LNCS 정보 검증|event_id.network_firewall.option_lncs_valid|
-|정책 추가|event_id.network_firewall.group_create|
-|IP 객체 추가|event_id.network_firewall.ip_object_create|
 
 ### RCS Bizmessage
 
@@ -1416,15 +1416,21 @@
 
 | 이벤트 | 이벤트 ID |
 | --- | --- |
-|자동 점검 완료|event_id.security_advisor.auto_scan_complete|
-|설정 변경|event_id.security_advisor.setting_change|
 |엑셀 다운로드|event_id.security_advisor.excel_download|
 |선택 점검 요청|event_id.security_advisor.manual_scan_request|
+|자동 점검 완료|event_id.security_advisor.auto_scan_complete|
+|설정 변경|event_id.security_advisor.setting_change|
 
 ### Email
 
 | 이벤트 | 이벤트 ID |
 | --- | --- |
+|Email 상품 활성화|event_id.email.enable_email_product|
+|예약 발송 메일 수신자 상세 조회|event_id.email.get_reservation_detail|
+|태그 발송 요청 수신자 상세 조회|event_id.email.get_tag_receiver_detail|
+|수신거부 사용자 제거|event_id.email.remove_block_receiver|
+|대량 발송 요청|event_id.email.send_mass_mail|
+|수신 거부자 등록(파일)|event_id.email.add_block_receiver_list_file|
 |대량 발송 취소|event_id.email.cancel_mass_mail|
 |대량 발송 요청 수신자 상세 조회|event_id.email.get_mass_receiver_detail|
 |일반 발송 메일 수신자 목록 조회|event_id.email.get_send_list|
@@ -1452,12 +1458,6 @@
 |도메인 삭제|event_id.email.remove_domain|
 |대량 발송 수신자 파일 업로드|event_id.email.upload_mass_mail_recipient|
 |도메인 등록|event_id.email.add_domain|
-|Email 상품 활성화|event_id.email.enable_email_product|
-|예약 발송 메일 수신자 상세 조회|event_id.email.get_reservation_detail|
-|태그 발송 요청 수신자 상세 조회|event_id.email.get_tag_receiver_detail|
-|수신거부 사용자 제거|event_id.email.remove_block_receiver|
-|대량 발송 요청|event_id.email.send_mass_mail|
-|수신 거부자 등록(파일)|event_id.email.add_block_receiver_list_file|
 
 ### Pose Estimation
 
