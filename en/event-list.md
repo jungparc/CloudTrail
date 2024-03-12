@@ -486,15 +486,12 @@
 |Approval Process Approve|event_id.skm.approval.approve|
 |Approval Process Deny|event_id.skm.approval.deny|
 |Approval Process Approve Request|event_id.skm.approval.approve_request|
-|API IPv4 주소 목록 가져오기|event_id.skm.api.ipv4.get.list|
 |API IPv4 주소 등록|event_id.skm.api.ipv4.create|
 |API IPv4 주소 삭제 예정|event_id.skm.api.ipv4.delete_request|
 |API IPv4 주소 즉시 삭제|event_id.skm.api.ipv4.delete|
-|API MAC 주소 목록 가져오기|event_id.skm.api.mac.get.list|
 |API MAC 주소 등록|event_id.skm.api.mac.create|
 |API MAC 주소 삭제 예정|event_id.skm.api.mac.delete_request|
 |API MAC 주소 즉시 삭제|event_id.skm.api.mac.delete|
-|API 인증서 리스트 가져오기|event_id.skm.api.certificate.get.list|
 |API 인증서 등록|event_id.skm.api.certificate.create|
 |API 인증서 리스트 삭제 예정|event_id.skm.api.certificate.delete_request|
 |API 인증서 리스트 즉시 삭제|event_id.skm.api.certificate.delete|
@@ -1178,19 +1175,19 @@
 
 | Event | Event ID |
 | --- | --- |
-|플로우 메타 생성|event_id.dataflow.flow.meta.create|
-|플로우 메타 수정|event_id.dataflow.flow.meta.update|
-|플로우 메타 삭제|event_id.dataflow.flow.meta.delete|
-|플로우 그래프 수정|event_id.dataflow.flow.graph.update|
-|플로우 메타 복사|event_id.dataflow.flow.meta.copy|
+|Create Flow Meta|event_id.dataflow.flow.meta.create|
+|Modify Flow Meta|event_id.dataflow.flow.meta.update|
+|Delete Flow Meta|event_id.dataflow.flow.meta.delete|
+|Modify Flow Graph|event_id.dataflow.flow.graph.update|
+|Copy Flow Meta|event_id.dataflow.flow.meta.copy|
 |Start Flow|event_id.dataflow.flow.start|
-|Terminate Flow|event_id.dataflow.flow.stop|
-|템플릿 메타 생성|event_id.dataflow.template.meta.create|
-|템플릿 메타 수정|event_id.dataflow.template.meta.update|
-|템플릿 메타 수정|event_id.dataflow.template.meta.delete|
-|템플릿 그래프 수정|event_id.dataflow.template.graph.update|
-|템플릿 그래프 복사|event_id.dataflow.template.graph.copy|
-|스케쥴러 저장|event_id.dataflow.scheduler.meta.save|
+|End Flow|event_id.dataflow.flow.stop|
+|Create Template Meta|event_id.dataflow.template.meta.create|
+|Modify Template Meta|event_id.dataflow.template.meta.update|
+|Delete Template Meta|event_id.dataflow.template.meta.delete|
+|Modify Template Graph|event_id.dataflow.template.graph.update|
+|Copy Template Graph|event_id.dataflow.template.graph.copy|
+|Save Scheduler|event_id.dataflow.scheduler.meta.save|
 
 ### DataQuery
 
