@@ -486,15 +486,12 @@
 |승인프로세스 승인|event_id.skm.approval.approve|
 |승인프로세스 거절|event_id.skm.approval.deny|
 |승인프로세스 승인 요청|event_id.skm.approval.approve_request|
-|API IPv4 주소 목록 가져오기|event_id.skm.api.ipv4.get.list|
 |API IPv4 주소 등록|event_id.skm.api.ipv4.create|
 |API IPv4 주소 삭제 예정|event_id.skm.api.ipv4.delete_request|
 |API IPv4 주소 즉시 삭제|event_id.skm.api.ipv4.delete|
-|API MAC 주소 목록 가져오기|event_id.skm.api.mac.get.list|
 |API MAC 주소 등록|event_id.skm.api.mac.create|
 |API MAC 주소 삭제 예정|event_id.skm.api.mac.delete_request|
 |API MAC 주소 즉시 삭제|event_id.skm.api.mac.delete|
-|API 인증서 리스트 가져오기|event_id.skm.api.certificate.get.list|
 |API 인증서 등록|event_id.skm.api.certificate.create|
 |API 인증서 리스트 삭제 예정|event_id.skm.api.certificate.delete_request|
 |API 인증서 리스트 즉시 삭제|event_id.skm.api.certificate.delete|
