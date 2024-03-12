@@ -486,15 +486,12 @@
 |承認プロセスを承認|event_id.skm.approval.approve|
 |承認プロセスを拒否|event_id.skm.approval.deny|
 |承認プロセスの承認依頼|event_id.skm.approval.approve_request|
-|API IPv4 주소 목록 가져오기|event_id.skm.api.ipv4.get.list|
 |API IPv4 주소 등록|event_id.skm.api.ipv4.create|
 |API IPv4 주소 삭제 예정|event_id.skm.api.ipv4.delete_request|
 |API IPv4 주소 즉시 삭제|event_id.skm.api.ipv4.delete|
-|API MAC 주소 목록 가져오기|event_id.skm.api.mac.get.list|
 |API MAC 주소 등록|event_id.skm.api.mac.create|
 |API MAC 주소 삭제 예정|event_id.skm.api.mac.delete_request|
 |API MAC 주소 즉시 삭제|event_id.skm.api.mac.delete|
-|API 인증서 리스트 가져오기|event_id.skm.api.certificate.get.list|
 |API 인증서 등록|event_id.skm.api.certificate.create|
 |API 인증서 리스트 삭제 예정|event_id.skm.api.certificate.delete_request|
 |API 인증서 리스트 즉시 삭제|event_id.skm.api.certificate.delete|
@@ -1178,19 +1175,19 @@
 
 | イベント | イベントID |
 | --- | --- |
-|플로우 메타 생성|event_id.dataflow.flow.meta.create|
-|플로우 메타 수정|event_id.dataflow.flow.meta.update|
-|플로우 메타 삭제|event_id.dataflow.flow.meta.delete|
-|플로우 그래프 수정|event_id.dataflow.flow.graph.update|
-|플로우 메타 복사|event_id.dataflow.flow.meta.copy|
+|フローメタの作成|event_id.dataflow.flow.meta.create|
+|フローメタの修正|event_id.dataflow.flow.meta.update|
+|フローメタの削除|event_id.dataflow.flow.meta.delete|
+|フローグラフの修正|event_id.dataflow.flow.graph.update|
+|フローメタのコピー|event_id.dataflow.flow.meta.copy|
 |フローの開始|event_id.dataflow.flow.start|
 |フロー終了|event_id.dataflow.flow.stop|
-|템플릿 메타 생성|event_id.dataflow.template.meta.create|
-|템플릿 메타 수정|event_id.dataflow.template.meta.update|
-|템플릿 메타 수정|event_id.dataflow.template.meta.delete|
-|템플릿 그래프 수정|event_id.dataflow.template.graph.update|
-|템플릿 그래프 복사|event_id.dataflow.template.graph.copy|
-|스케쥴러 저장|event_id.dataflow.scheduler.meta.save|
+|テンプレートメタの作成|event_id.dataflow.template.meta.create|
+|テンプレートメタの修正|event_id.dataflow.template.meta.update|
+|テンプレートメタの削除|event_id.dataflow.template.meta.delete|
+|テンプレートグラフの修正|event_id.dataflow.template.graph.update|
+|テンプレートグラフのコピー|event_id.dataflow.template.graph.copy|
+|スケジューラの保存|event_id.dataflow.scheduler.meta.save|
 
 ### DataQuery
 
