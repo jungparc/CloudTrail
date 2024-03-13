@@ -3,7 +3,7 @@
 ### 2024. 03. 26.
 #### More Events
 * Added events related to Secure Key Manager.
-* Added events related to DataFlow.
+* Modified events related to DataFlow.
 
 ### 2024. 02. 27.
 #### More Events
