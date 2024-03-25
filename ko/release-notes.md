@@ -5,7 +5,7 @@
 * Secure Key Manager 서비스 관련 이벤트가 추가되었습니다.
 * DataFlow 서비스 관련 이벤트가 추가되었습니다.
 #### 기능 개선
-* 이벤트 로그의 request, response 내용 중 password, userAccessKey, userSecretKey, appKey, secretKey, accessKey 값들을 마스킹 처리함.
+* 이벤트 로그의 request, response 내용 중 password, userAccessKey, userSecretKey, appKey, secretKey, accessKey 값 들이 마스킹 처리되어 보여집니다.
 
 ### 2024. 03. 21.
 #### 이벤트 추가
