@@ -4,6 +4,16 @@
 
 | イベント | イベントID |
 | --- | --- |
+|通知の使用有無設定|event_id.cloud_monitoring_organization.alarm_activate|
+|通知の作成|event_id.cloud_monitoring_organization.alarm_create|
+|通知の削除|event_id.cloud_monitoring_organization.alarm_delete|
+|通知の修正|event_id.cloud_monitoring_organization.alarm_modify|
+|ダッシュボードの複製|event_id.cloud_monitoring_organization.dashboard_copy|
+|ダッシュボードの作成|event_id.cloud_monitoring_organization.dashboard_create|
+|ダッシュボードの削除|event_id.cloud_monitoring_organization.dashboard_delete|
+|ダッシュボードの表示設定|event_id.cloud_monitoring_organization.dashboard_exposure|
+|ダッシュボードの修正|event_id.cloud_monitoring_organization.dashboard_modify|
+|指標収集の設定|event_id.cloud_monitoring_organization.service_manage_ment|
 |IAM ログイン|event_id.iam.login|
 |IAMメンバーの権限変更|event_id.iam.member.role.update|
 |組織ドメインの追加|event_id.org.domain.add|
@@ -237,6 +247,15 @@
 |トランジットハブマルチキャストグループの作成|event_id.iaas.transit_hub_multicast_group.create|
 |トランジットハブマルチキャストグループの変更|event_id.iaas.transit_hub_multicast_group.update|
 |トランジットハブマルチキャストグループの削除|event_id.iaas.transit_hub_multicast_group.delete|
+|ブロックストレージのサイズ変更|event_id.iaas.volume.extend|
+|NetworkACL作成|event_id.iaas.networkacl.create|
+|NetworkACL削除|event_id.iaas.networkacl.delete|
+|NetworkACL修正|event_id.iaas.networkacl.update|
+|NetworkACL Rule作成|event_id.iaas.networkacl_rule.create|
+|NetworkACL Rule削除|event_id.iaas.networkacl_rule.delete|
+|NetworkACL Rule修正|event_id.iaas.networkacl_rule.update|
+|NetworkACL Binding作成|event_id.iaas.networkacl_binding.create|
+|NetworkACL Binding削除|event_id.iaas.networkacl_binding.delete|
 |NASボリュームの作成|event_id.iaas.nas.volume.create|
 |NASボリュームの変更|event_id.iaas.nas.volume.update|
 |NASボリュームの削除|event_id.iaas.nas.volume.delete|
@@ -254,6 +273,8 @@
 |ワークロード再起動|event_id.iaas.ncs.workload.restart|
 |ワークロード停止|event_id.iaas.ncs.workload.stop|
 |ワークロードの削除|event_id.iaas.ncs.workload.delete|
+|템플릿 버전 생성|event_id.iaas.ncs.template_version.create|
+|템플릿 버전 삭제|event_id.iaas.ncs.template_version.delete|
 |クラスター作成起動|event_id.iaas.cluster.create.start|
 |クラスター作成完了|event_id.iaas.cluster.create.end|
 |クラスター作成失敗|event_id.iaas.cluster.create.failed|
@@ -296,6 +317,20 @@
 |クラスタAPIエンドポイントIPアクセス制御の変更の起動|event_id.iaas.cluster.cluster_api_ep_ipacl_update.start|
 |クラスタAPIエンドポイントIPアクセス制御の変更の完了|event_id.iaas.cluster.cluster_api_ep_ipacl_update.end|
 |クラスタAPIエンドポイントIPアクセス制御の変更の失敗|event_id.iaas.cluster.cluster_api_ep_ipacl_update.failed|
+|SGW 変更完了|event_id.iaas.cluster.update_sgw.end|
+|SGW 変更失敗|event_id.iaas.cluster.update_sgw.failed|
+|SGW 変更|event_id.iaas.cluster.update_sgw.start|
+|오토힐링 탐지|event_id.iaas.cluster.auto_healing.detected|
+|K8S APISERVERの問題検出|event_id.iaas.cluster.k8s_api_not_working.detected|
+|K8S APISERVERのトラブルシューティング|event_id.iaas.cluster.k8s_api_not_working.resolved|
+|すべてのノード停止問題の検出|event_id.iaas.cluster.all_nodes_not_ready.detected|
+|すべてのノード停止のトラブルシューティング|event_id.iaas.cluster.all_nodes_not_ready.resolved|
+|クラスタ動作可能な移行完了|event_id.iaas.cluster.resume.end|
+|クラスター動作可能遷移失敗|event_id.iaas.cluster.resume.failed|
+|クラスタ動作可能な移行の開始|event_id.iaas.cluster.resume.start|
+|証明書更新の開始|event_id.iaas.cluster.cluster_rotate_certificate.start|
+|証明書の更新に失敗しました|event_id.iaas.cluster.cluster_rotate_certificate.failed|
+|証明書の更新完了|event_id.iaas.cluster.cluster_rotate_certificate.end|
 
 ### Object Storage
 
@@ -387,6 +422,7 @@
 |DBセキュリティグループルールの修正|event_id.rds_for_mysql.modifyDbSecurityGroupRule|
 |DBセキュリティグループルールの作成|event_id.rds_for_mysql.createDbSecurityGroupRule|
 |DBセキュリティグループルールの削除|event_id.rds_for_mysql.deleteDbSecurityGroupRule|
+|DB 인스턴스 운영체제 업그레이드|event_id.rds_for_mysql.instance.os.upgrade|
 
 ### RDS for MariaDB
 
@@ -1670,4 +1706,19 @@
 |イメージキャッシュの作成|event_id.ncr.image_cache.create|
 |イメージキャッシュの削除|event_id.ncr.image_cache.delete|
 |イメージキャッシュの修正|event_id.ncr.image_cache.update|
+
+### Cloud Monitoring
+
+| イベント | イベントID |
+| --- | --- |
+|通知の使用有無設定|event_id.cloud_monitoring_project.alarm_activate|
+|通知の作成|event_id.cloud_monitoring_project.alarm_create|
+|通知の削除|event_id.cloud_monitoring_project.alarm_delete|
+|通知の修正|event_id.cloud_monitoring_project.alarm_modify|
+|ダッシュボードの複製|event_id.cloud_monitoring_project.dashboard_copy|
+|ダッシュボードの作成|event_id.cloud_monitoring_project.dashboard_create|
+|ダッシュボードの削除|event_id.cloud_monitoring_project.dashboard_delete|
+|ダッシュボードの表示設定|event_id.cloud_monitoring_project.dashboard_exposure|
+|ダッシュボードの修正|event_id.cloud_monitoring_project.dashboard_modify|
+|指標収集の設定|event_id.cloud_monitoring_project.service_management|
 
