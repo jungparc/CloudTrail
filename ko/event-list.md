@@ -167,18 +167,6 @@
 |VPC 서브넷 삭제|event_id.iaas.vpc_subnet.delete|
 |VPC 서브넷 라우팅 테이블 연결 해제|event_id.iaas.vpc_subnet.detach_routingtable|
 |VPC 서브넷 변경|event_id.iaas.vpc_subnet.update|
-|클러스터 생성|event_id.iaas.cluster.create|
-|클러스터 삭제|event_id.iaas.cluster.delete|
-|클러스터 OWNER 변경|event_id.iaas.cluster.handover|
-|오토 스케일러 설정 변경|event_id.iaas.cluster.update_autoscale|
-|CNI 변경|event_id.iaas.cluster.cni_update|
-|노드 그룹 생성|event_id.iaas.nodegroup.create|
-|노드 그룹 수정|event_id.iaas.nodegroup.update|
-|노드 그룹 삭제|event_id.iaas.nodegroup.delete|
-|워커 노드 시작|event_id.iaas.nodegroup.start_node|
-|워커 노드 중지|event_id.iaas.nodegroup.stop_node|
-|클러스터 업그레이드|event_id.iaas.nodegroup.upgrade|
-|유저 스크립트 변경|event_id.iaas.nodegroup.update_userscript|
 |이미지 복제|event_id.iaas.image.copy|
 |이미지 빌드|event_id.iaas.image_template.build|
 |이미지 빌드 취소|event_id.iaas.image_template.cancel_build|
@@ -308,17 +296,6 @@
 |클러스터 API 엔드포인트 IP 접근 제어 변경 시작|event_id.iaas.cluster.cluster_api_ep_ipacl_update.start|
 |클러스터 API 엔드포인트 IP 접근 제어 변경 완료|event_id.iaas.cluster.cluster_api_ep_ipacl_update.end|
 |클러스터 API 엔드포인트 IP 접근 제어 변경 실패|event_id.iaas.cluster.cluster_api_ep_ipacl_update.failed|
-|SGW 변경 완료|event_id.iaas.cluster.update_sgw.end|
-|SGW 변경 실패|event_id.iaas.cluster.update_sgw.failed|
-|SGW 변경 시작|event_id.iaas.cluster.update_sgw.start|
-|오토힐링 탐지|event_id.iaas.cluster.auto_healing.detected|
-|K8S APISERVER 문제 탐지|event_id.iaas.cluster.k8s_api_not_working.detected|
-|K8S APISERVER 문제 해결|event_id.iaas.cluster.k8s_api_not_working.resolved|
-|모든 노드 정지 문제 탐지|event_id.iaas.cluster.all_nodes_not_ready.detected|
-|모든 노드 정지 문제 해결|event_id.iaas.cluster.all_nodes_not_ready.resolved|
-|클러스터 동작 가능 전환 완료|event_id.iaas.cluster.resume.end|
-|클러스터 동작 가능 전환 실패|event_id.iaas.cluster.resume.failed|
-|클러스터 동작 가능 전환 시작|event_id.iaas.cluster.resume.start|
 
 ### Object Storage
 
@@ -1301,6 +1278,10 @@
 
 | 이벤트 | 이벤트 ID |
 | --- | --- |
+|오토스케일링 그룹 복구|event_id.gameanvil.autoscale.restore|
+|GameAnvil Config 생성|event_id.gameanvil.config.create|
+|GameAnvil Config 삭제|event_id.gameanvil.config.delete|
+|GameAnvil Config 수정|event_id.gameanvil.config.update|
 |노드 강제 종료|event_id.gameanvil.node.force_stop|
 |노드 중지|event_id.gameanvil.node.pause|
 |노드 복구|event_id.gameanvil.node.restore|
