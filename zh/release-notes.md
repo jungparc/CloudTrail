@@ -1,5 +1,12 @@
 ## CloudTrail > Release Notes
 
+### 2024. 05. 28.
+#### More Events
+* Added events related to Console.
+* Added events related to Default Infrastructure Service.
+* Added events related to RDS for MySQL.
+* Added events related to Cloud Monitoring.
+
 ### 2024. 05. 03.
 #### More Events
 * Added events related to GameAnvil.
