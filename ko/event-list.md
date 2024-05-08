@@ -4,6 +4,16 @@
 
 | 이벤트 | 이벤트 ID |
 | --- | --- |
+|알림 사용 여부 설정|event_id.cloud_monitoring_organization.alarm_activate|
+|알림 생성|event_id.cloud_monitoring_organization.alarm_create|
+|알림 삭제|event_id.cloud_monitoring_organization.alarm_delete|
+|알림 수정|event_id.cloud_monitoring_organization.alarm_modify|
+|대시보드 복제|event_id.cloud_monitoring_organization.dashboard_copy|
+|대시보드 생성|event_id.cloud_monitoring_organization.dashboard_create|
+|대시보드 삭제|event_id.cloud_monitoring_organization.dashboard_delete|
+|지표 수집 설정|event_id.cloud_monitoring_organization.dashboard_exposure|
+|대시보드 수정|event_id.cloud_monitoring_organization.dashboard_modify|
+|지표 수집 설정|event_id.cloud_monitoring_organization.service_manage_ment|
 |IAM 로그인|event_id.iam.login|
 |IAM 멤버 권한 변경|event_id.iam.member.role.update|
 |조직 도메인 추가|event_id.org.domain.add|
@@ -237,6 +247,15 @@
 |트랜짓 허브 멀티캐스트 그룹 생성|event_id.iaas.transit_hub_multicast_group.create|
 |트랜짓 허브 멀티캐스트 그룹 변경|event_id.iaas.transit_hub_multicast_group.update|
 |트랜짓 허브 멀티캐스트 그룹 삭제|event_id.iaas.transit_hub_multicast_group.delete|
+|블록 스토리지 크기 변경|event_id.iaas.volume.extend|
+|NetworkACL생성|event_id.iaas.networkacl.create|
+|NetworkACL삭제|event_id.iaas.networkacl.delete|
+|NetworkACL수정|event_id.iaas.networkacl.update|
+|NetworkACL Rule생성|event_id.iaas.networkacl_rule.create|
+|NetworkACL Rule삭제|event_id.iaas.networkacl_rule.delete|
+|NetworkACL Rule수정|event_id.iaas.networkacl_rule.update|
+|NetworkACL Binding생성|event_id.iaas.networkacl_binding.create|
+|NetworkACL Binding삭제|event_id.iaas.networkacl_binding.delete|
 |NAS 볼륨 생성|event_id.iaas.nas.volume.create|
 |NAS 볼륨 변경|event_id.iaas.nas.volume.update|
 |NAS 볼륨 삭제|event_id.iaas.nas.volume.delete|
@@ -254,6 +273,8 @@
 |워크로드 재시작|event_id.iaas.ncs.workload.restart|
 |워크로드 중지|event_id.iaas.ncs.workload.stop|
 |워크로드 삭제|event_id.iaas.ncs.workload.delete|
+|템플릿 버전 생성|event_id.iaas.ncs.template_version.create|
+|템플릿 버전 삭제|event_id.iaas.ncs.template_version.delete|
 |클러스터 생성 시작|event_id.iaas.cluster.create.start|
 |클러스터 생성 완료|event_id.iaas.cluster.create.end|
 |클러스터 생성 실패|event_id.iaas.cluster.create.failed|
@@ -296,6 +317,20 @@
 |클러스터 API 엔드포인트 IP 접근 제어 변경 시작|event_id.iaas.cluster.cluster_api_ep_ipacl_update.start|
 |클러스터 API 엔드포인트 IP 접근 제어 변경 완료|event_id.iaas.cluster.cluster_api_ep_ipacl_update.end|
 |클러스터 API 엔드포인트 IP 접근 제어 변경 실패|event_id.iaas.cluster.cluster_api_ep_ipacl_update.failed|
+|SGW 변경 완료|event_id.iaas.cluster.update_sgw.end|
+|SGW 변경 실패|event_id.iaas.cluster.update_sgw.failed|
+|SGW 변경 시작|event_id.iaas.cluster.update_sgw.start|
+|오토힐링 탐지|event_id.iaas.cluster.auto_healing.detected|
+|K8S APISERVER 문제 탐지|event_id.iaas.cluster.k8s_api_not_working.detected|
+|K8S APISERVER 문제 해결|event_id.iaas.cluster.k8s_api_not_working.resolved|
+|모든 노드 정지 문제 탐지|event_id.iaas.cluster.all_nodes_not_ready.detected|
+|모든 노드 정지 문제 해결|event_id.iaas.cluster.all_nodes_not_ready.resolved|
+|클러스터 동작 가능 전환 완료|event_id.iaas.cluster.resume.end|
+|클러스터 동작 가능 전환 실패|event_id.iaas.cluster.resume.failed|
+|클러스터 동작 가능 전환 시작|event_id.iaas.cluster.resume.start|
+|인증서 갱신 시작|event_id.iaas.cluster.cluster_rotate_certificate.start|
+|인증서 갱신 실패|event_id.iaas.cluster.cluster_rotate_certificate.failed|
+|인증서 갱신 완료|event_id.iaas.cluster.cluster_rotate_certificate.end|
 
 ### Object Storage
 
@@ -387,6 +422,7 @@
 |DB 보안그룹 규칙 수정|event_id.rds_for_mysql.modifyDbSecurityGroupRule|
 |DB 보안그룹 규칙 생성|event_id.rds_for_mysql.createDbSecurityGroupRule|
 |DB 보안그룹 규칙 삭제|event_id.rds_for_mysql.deleteDbSecurityGroupRule|
+|DB 인스턴스 운영체제 업그레이드|event_id.rds_for_mysql.instance.os.upgrade|
 
 ### RDS for MariaDB
 
@@ -1670,4 +1706,19 @@
 |이미지 캐시 생성|event_id.ncr.image_cache.create|
 |이미지 캐시 삭제|event_id.ncr.image_cache.delete|
 |이미지 캐시 수정|event_id.ncr.image_cache.update|
+
+### Cloud Monitoring
+
+| 이벤트 | 이벤트 ID |
+| --- | --- |
+|알림 사용 여부 설정|event_id.cloud_monitoring_project.alarm_activate|
+|알림 생성|event_id.cloud_monitoring_project.alarm_create|
+|알림 삭제|event_id.cloud_monitoring_project.alarm_delete|
+|알림 수정|event_id.cloud_monitoring_project.alarm_modify|
+|대시보드 복제|event_id.cloud_monitoring_project.dashboard_copy|
+|대시보드 생성|event_id.cloud_monitoring_project.dashboard_create|
+|대시보드 삭제|event_id.cloud_monitoring_project.dashboard_delete|
+|대시보드 노출 설정|event_id.cloud_monitoring_project.dashboard_exposure|
+|대시보드 수정|event_id.cloud_monitoring_project.dashboard_modify|
+|지표 수집 설정|event_id.cloud_monitoring_project.service_management|
 
