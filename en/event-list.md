@@ -4,6 +4,16 @@
 
 | Event | Event ID |
 | --- | --- |
+|Enable Notification|event_id.cloud_monitoring_organization.alarm_activate|
+|Create Notification|event_id.cloud_monitoring_organization.alarm_create|
+|Delete Notification|event_id.cloud_monitoring_organization.alarm_delete|
+|Modify Notification|event_id.cloud_monitoring_organization.alarm_modify|
+|Copy Dashboard|event_id.cloud_monitoring_organization.dashboard_copy|
+|Create Dashboard|event_id.cloud_monitoring_organization.dashboard_create|
+|Delete Dashboard|event_id.cloud_monitoring_organization.dashboard_delete|
+|Display Dashboard|event_id.cloud_monitoring_organization.dashboard_exposure|
+|Modify Dashboard|event_id.cloud_monitoring_organization.dashboard_modify|
+|Enable Metrics Collection|event_id.cloud_monitoring_organization.service_manage_ment|
 |IAM Login|event_id.iam.login|
 |Change Authority for IAM Members|event_id.iam.member.role.update|
 |Add Organization Domain |event_id.org.domain.add|
@@ -237,6 +247,15 @@
 |Create Transit Hub Multicast Group|event_id.iaas.transit_hub_multicast_group.create|
 |Modify Transit Hub Multicast Group|event_id.iaas.transit_hub_multicast_group.update|
 |Delete Transit Hub Multicast Group|event_id.iaas.transit_hub_multicast_group.delete|
+|Change Block Storage Size|event_id.iaas.volume.extend|
+|Create NetworkACL|event_id.iaas.networkacl.create|
+|Delete NetworkACL|event_id.iaas.networkacl.delete|
+|Update NetworkACL|event_id.iaas.networkacl.update|
+|Create NetworkACL Rule|event_id.iaas.networkacl_rule.create|
+|Delete NetworkACL Rule|event_id.iaas.networkacl_rule.delete|
+|Update NetworkACL Rule|event_id.iaas.networkacl_rule.update|
+|Create NetworkACL Binding|event_id.iaas.networkacl_binding.create|
+|Delete NetworkACL Binding|event_id.iaas.networkacl_binding.delete|
 |Create NAS Volume|event_id.iaas.nas.volume.create|
 |Modify NAS Volume|event_id.iaas.nas.volume.update|
 |Delete NAS Volume|event_id.iaas.nas.volume.delete|
@@ -254,6 +273,8 @@
 |Restart Workload|event_id.iaas.ncs.workload.restart|
 |Stop Workload|event_id.iaas.ncs.workload.stop|
 |Delete Workload|event_id.iaas.ncs.workload.delete|
+|Create Template Version|event_id.iaas.ncs.template_version.create|
+|Delete Template Version|event_id.iaas.ncs.template_version.delete|
 |Create Cluster Started|event_id.iaas.cluster.create.start|
 |Create Cluster Completed|event_id.iaas.cluster.create.end|
 |Create Cluster Failed|event_id.iaas.cluster.create.failed|
@@ -296,6 +317,20 @@
 |Update Cluster API endpoint IP ACL Started|event_id.iaas.cluster.cluster_api_ep_ipacl_update.start|
 |Update Cluster API endpoint IP ACL Completed|event_id.iaas.cluster.cluster_api_ep_ipacl_update.end|
 |Update Cluster API endpoint IP ACL Failed|event_id.iaas.cluster.cluster_api_ep_ipacl_update.failed|
+|Change SGW Completed|event_id.iaas.cluster.update_sgw.end|
+|Change SGW Failed|event_id.iaas.cluster.update_sgw.failed|
+|Change SGW Started|event_id.iaas.cluster.update_sgw.start|
+|오토힐링 탐지|event_id.iaas.cluster.auto_healing.detected|
+|Detected K8S APISERVER Issue|event_id.iaas.cluster.k8s_api_not_working.detected|
+|Resolved K8S APISERVER Issue|event_id.iaas.cluster.k8s_api_not_working.resolved|
+|Detected all node stop|event_id.iaas.cluster.all_nodes_not_ready.detected|
+|Resolved all node stop|event_id.iaas.cluster.all_nodes_not_ready.resolved|
+|Change operational state Completed|event_id.iaas.cluster.resume.end|
+|Change operational state Failed|event_id.iaas.cluster.resume.failed|
+|Change operational state Started|event_id.iaas.cluster.resume.start|
+|Rotate Certificate Started|event_id.iaas.cluster.cluster_rotate_certificate.start|
+|Rotate Certificate Failed|event_id.iaas.cluster.cluster_rotate_certificate.failed|
+|Rotate Certificate Completed|event_id.iaas.cluster.cluster_rotate_certificate.end|
 
 ### Object Storage
 
@@ -387,6 +422,7 @@
 |Modify DB Security Group Rule|event_id.rds_for_mysql.modifyDbSecurityGroupRule|
 |Create DB Security Group Rule|event_id.rds_for_mysql.createDbSecurityGroupRule|
 |Delete DB Security Group Rule|event_id.rds_for_mysql.deleteDbSecurityGroupRule|
+|DB 인스턴스 운영체제 업그레이드|event_id.rds_for_mysql.instance.os.upgrade|
 
 ### RDS for MariaDB
 
@@ -1670,4 +1706,19 @@
 |Create Image Cache|event_id.ncr.image_cache.create|
 |Delete Image Cache|event_id.ncr.image_cache.delete|
 |Modify Image Cache|event_id.ncr.image_cache.update|
+
+### Cloud Monitoring
+
+| Event | Event ID |
+| --- | --- |
+|Enable Notification|event_id.cloud_monitoring_project.alarm_activate|
+|Create Notification|event_id.cloud_monitoring_project.alarm_create|
+|Delete Notification|event_id.cloud_monitoring_project.alarm_delete|
+|Modify Notification|event_id.cloud_monitoring_project.alarm_modify|
+|Copy Dashboard|event_id.cloud_monitoring_project.dashboard_copy|
+|Create Dashboard|event_id.cloud_monitoring_project.dashboard_create|
+|Delete Dashboard|event_id.cloud_monitoring_project.dashboard_delete|
+|Display Dashboard|event_id.cloud_monitoring_project.dashboard_exposure|
+|Modify Dashboard|event_id.cloud_monitoring_project.dashboard_modify|
+|Enable Metrics Collection |event_id.cloud_monitoring_project.service_management|
 
