@@ -1,8 +1,8 @@
 ## CloudTrail > Release Notes
 
-### 2024. 04. 13.
+### 2024. 05. 03.
 #### More Events
-* Added events related to Default Infrastructure Service.
+* Added events related to GameAnvil.
 
 ### 2024. 03. 26.
 #### More Events
@@ -184,7 +184,6 @@
 ### 2022. 07. 26.
 #### More Events
 * Added events related to API Gateway.
-* Added events related to Default Infrastructure Service.
 
 ### 2022. 06. 14.
 #### More Events
@@ -261,10 +260,6 @@
 * Added events related to Console.
 * Added events related to EasyCache.
 
-### 2021. 08. 19.
-#### More Events
-* Added events related to Default Infrastructure Service.
-
 ### 2021. 07. 27.
 #### More Events
 * Added events related to Face Recognition.
@@ -332,7 +327,6 @@
 
 ### 2020. 08. 19.
 #### More Events
-* Added events related to Default Infrastructure Service.
 * Added events related to Kubernetes.
 
 ### 2020. 07. 28.
