@@ -12,9 +12,9 @@ Check your key information on top right of the [CONSOLE].
 
 ## User Access Key ID & Secret Access Key
 
-2.0 버전의 API 부터는 사용자 인증이 추가가 되어 사용자의 권한에 따라 인가를 체크합니다.
-따라서 로그인 이후 `GNB` 의 `아이디` > `API 보안` 설정에서 `User Access Key ID 생성` 을 통해 발급 후 
-API 호출시 HTTP HEADER 에 아래처럼 추가해야 합니다.
+2.0 버전의 API부터는 사용자 인증이 추가되어 사용자의 권한에 따라 인가를 체크합니다.
+따라서 User Access Key ID와 Secret Access Key를 추가해야 합니다. User Access Key ID와 Secret Access Key는 콘솔 우측 상단의 계정 영역을 클릭한 뒤 드롭다운 메뉴에서 <b>API 보안 설정</b>을 선택하고, + <b>User Access Key ID 생성</b>을 클릭해 생성할 수 있으며,
+API 호출 시 HTTP HEADER에 아래처럼 추가해야 합니다.
 
 ```
     X-TC-AUTHENTICATION-ID : User Access Key ID
@@ -177,7 +177,7 @@ Read the header at Response Body for more details of the response result.
 | appKey | String | Appkey in which event is incurred |
 | tenantId | String | ID of tenant where event is incurred |
 | eventId | String | ID of event |
-| eventLogUuid | String | 이벤트 로그 일련 번호 (식별키) |
+| eventLogUuid | String | 이벤트 로그 일련 번호(식별 키) |
 | request | String | Request of incurred event |
 | response | String | Response of incurred event |
 | eventTarget | Object | Target of incurred event |
@@ -206,8 +206,8 @@ Read the header at Response Body for more details of the response result.
 
 |Key|	Value|
 |---|---|
-|X-TC-AUTHENTICATION-ID|	[CONSOLE]에서 발급받은 User Access Key ID|
-|X-TC-AUTHENTICATION-SECRET|	[CONSOLE]에서 발급받은 Secret Access Key |
+|X-TC-AUTHENTICATION-ID|	콘솔에서 발급 받은 User Access Key ID|
+|X-TC-AUTHENTICATION-SECRET|	콘솔에서 발급 받은 Secret Access Key |
 
 **[Path Variable]**
 
@@ -329,7 +329,7 @@ Read the header at Response Body for more details of the response result.
 | appKey | String | Appkey in which event is incurred |
 | tenantId | String | ID of tenant where event is incurred |
 | eventId | String | ID of event |
-| eventLogUuid | String | 이벤트 로그 일련 번호 (식별키) |
+| eventLogUuid | String | 이벤트 로그 일련 번호(식별 키) |
 | request | String | Request of incurred event |
 | response | String | Response of incurred event |
 | eventTarget | Object | Target of incurred event |

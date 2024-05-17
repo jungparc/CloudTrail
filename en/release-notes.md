@@ -7,10 +7,10 @@
 * Added events related to RDS for MySQL.
 * Added events related to Cloud Monitoring.
 #### 기능 추가
-* 이벤트 로그 검색 API 2.0 이 추가되었습니다.
+* 이벤트 로그 검색 API 2.0이 추가되었습니다.
 #### 기능 개선
-* 이벤트 로그 검색 API 의 응답에 eventLogUuid 가 추가되었습니다.
-* 이벤트 로그 검색 결과가 조직 거버넌스 > 개인정보 보호 설정 에 의해 일부 필드는 마스킹되도록 변경되었습니다.
+* 이벤트 로그 검색 API의 응답에 eventLogUuid가 추가되었습니다.
+* 이벤트 로그 검색 결과가 조직 거버넌스 > 개인정보 보호 설정에 의해 일부 필드는 마스킹되도록 변경되었습니다.
 
 ### 2024. 05. 03.
 #### More Events
