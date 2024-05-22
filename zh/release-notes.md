@@ -29,18 +29,6 @@
 * Added events related to ROLE.
 * Added events related to NHN Container Registry(NCR).
 
-### 2024. 02. 18.
-#### More Events
-* Added events related to Default Infrastructure Service.
-
-### 2024. 02. 17.
-#### More Events
-* Added events related to Default Infrastructure Service.
-
-### 2024. 02. 16.
-#### More Events
-* Added events related to Default Infrastructure Service.
-
 ### 2024. 02. 15.
 #### More Events
 * Added events related to Default Infrastructure Service.
@@ -298,7 +286,7 @@
 ### 2021. 03. 23.
 #### More Events
 * Added events related to EasyCache.
-* Added events related to Kubernetes.
+* Added events related to Default Infrastructure Service.
 
 ### 2021. 02. 09.
 #### More Events
@@ -331,10 +319,6 @@
 #### More Events
 * Added events related to Backup.
 * Added events related to Default Infrastructure Service.
-
-### 2020. 08. 19.
-#### More Events
-* Added events related to Kubernetes.
 
 ### 2020. 07. 28.
 #### More Features
