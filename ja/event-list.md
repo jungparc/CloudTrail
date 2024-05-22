@@ -4,16 +4,16 @@
 
 | イベント | イベントID |
 | --- | --- |
-|通知の使用有無設定|event_id.cloud_monitoring_organization.alarm_activate|
-|通知の作成|event_id.cloud_monitoring_organization.alarm_create|
-|通知の削除|event_id.cloud_monitoring_organization.alarm_delete|
-|通知の修正|event_id.cloud_monitoring_organization.alarm_modify|
-|ダッシュボードの複製|event_id.cloud_monitoring_organization.dashboard_copy|
-|ダッシュボードの作成|event_id.cloud_monitoring_organization.dashboard_create|
-|ダッシュボードの削除|event_id.cloud_monitoring_organization.dashboard_delete|
-|ダッシュボードの表示設定|event_id.cloud_monitoring_organization.dashboard_exposure|
-|ダッシュボードの修正|event_id.cloud_monitoring_organization.dashboard_modify|
-|指標収集の設定|event_id.cloud_monitoring_organization.service_manage_ment|
+|カスタムダッシュボード通知使用設定|event_id.cloud_monitoring_organization.alarm_activate|
+|カスタムダッシュボード通知作成|event_id.cloud_monitoring_organization.alarm_create|
+|カスタムダッシュボード通知削除|event_id.cloud_monitoring_organization.alarm_delete|
+|カスタムダッシュボード通知修正|event_id.cloud_monitoring_organization.alarm_modify|
+|カスタムダッシュボードの複製|event_id.cloud_monitoring_organization.dashboard_copy|
+|カスタムダッシュボードの作成|event_id.cloud_monitoring_organization.dashboard_create|
+|カスタムダッシュボードの削除|event_id.cloud_monitoring_organization.dashboard_delete|
+|カスタムダッシュボード表示設定|event_id.cloud_monitoring_organization.dashboard_exposure|
+|カスタムダッシュボードの修正|event_id.cloud_monitoring_organization.dashboard_modify|
+|カスタムダッシュボードの指標収集設定|event_id.cloud_monitoring_organization.service_manage_ment|
 |IAM ログイン|event_id.iam.login|
 |IAMメンバーの権限変更|event_id.iam.member.role.update|
 |組織ドメインの追加|event_id.org.domain.add|
@@ -266,71 +266,185 @@
 |NAS for AIボリュームの削除|event_id.iaas.nas_for_ai.volume.delete|
 |NAS for AIスナップショットの作成|event_id.iaas.nas_for_ai.snapshot.create|
 |NAS for AIスナップショットの削除|event_id.iaas.nas_for_ai.snapshot.delete|
-|テンプレートの作成|event_id.iaas.ncs.template.create|
-|テンプレートの削除|event_id.iaas.ncs.template.delete|
-|ワークロードの作成|event_id.iaas.ncs.workload.create|
-|ワークロードの変更|event_id.iaas.ncs.workload.update|
-|ワークロード再起動|event_id.iaas.ncs.workload.restart|
-|ワークロード停止|event_id.iaas.ncs.workload.stop|
-|ワークロードの削除|event_id.iaas.ncs.workload.delete|
-|템플릿 버전 생성|event_id.iaas.ncs.template_version.create|
-|템플릿 버전 삭제|event_id.iaas.ncs.template_version.delete|
-|クラスター作成起動|event_id.iaas.cluster.create.start|
 |クラスター作成完了|event_id.iaas.cluster.create.end|
 |クラスター作成失敗|event_id.iaas.cluster.create.failed|
-|クラスター削除起動|event_id.iaas.cluster.delete.start|
+|クラスター作成起動|event_id.iaas.cluster.create.start|
 |クラスター削除完了|event_id.iaas.cluster.delete.end|
 |クラスター削除失敗|event_id.iaas.cluster.delete.failed|
-|クラスタOWNERの変更起動|event_id.iaas.cluster.handover.start|
+|クラスター削除起動|event_id.iaas.cluster.delete.start|
 |クラスタOWNERの変更完了|event_id.iaas.cluster.handover.end|
 |クラスタOWNERの変更失敗|event_id.iaas.cluster.handover.failed|
-|ノードグループ作成起動|event_id.iaas.nodegroup.create.start|
-|ノードグループ作成完了|event_id.iaas.nodegroup.create.end|
-|ノードグループ作成失敗|event_id.iaas.nodegroup.create.failed|
-|ノードグループ削除起動|event_id.iaas.nodegroup.delete.start|
-|ノードグループ削除完了|event_id.iaas.nodegroup.delete.end|
-|ノードグループ削除失敗|event_id.iaas.nodegroup.delete.failed|
-|クラスターサイズ調整起動|event_id.iaas.cluster.resize.start|
+|クラスタOWNERの変更起動|event_id.iaas.cluster.handover.start|
 |クラスターサイズ調整完了|event_id.iaas.cluster.resize.end|
 |クラスターサイズ調整失敗|event_id.iaas.cluster.resize.failed|
-|インスタンスタイプの変更|event_id.iaas.nodegroup.update_flavor.start|
-|インスタンスタイプの変更完了|event_id.iaas.nodegroup.update_flavor.end|
-|インスタンスタイプの変更失敗|event_id.iaas.nodegroup.update_flavor.failed|
-|CNI変更起動|event_id.iaas.cluster.cni_update.start|
+|クラスターサイズ調整起動|event_id.iaas.cluster.resize.start|
+|クラスタ動作可能な移行完了|event_id.iaas.cluster.resume.end|
+|クラスター動作可能遷移失敗|event_id.iaas.cluster.resume.failed|
+|クラスタ動作可能な移行の開始|event_id.iaas.cluster.resume.start|
 |CNI変更完了|event_id.iaas.cluster.cni_update.end|
 |CNI変更失敗|event_id.iaas.cluster.cni_update.failed|
-|ノードグループーのアップグレード起動|event_id.iaas.nodegroup.upgrade.start|
-|ノードグループーのアップグレード完了|event_id.iaas.nodegroup.upgrade.end|
-|ノードグループーのアップグレード失敗|event_id.iaas.nodegroup.upgrade.failed|
-|ユーザースクリプト変更起動|event_id.iaas.nodegroup.update_userscript.start|
-|ユーザースクリプト変更完了|event_id.iaas.nodegroup.update_userscript.end|
-|ユーザースクリプト変更失敗|event_id.iaas.nodegroup.update_userscript.failed|
-|ワーカーノードの起動|event_id.iaas.nodegroup.node_action.start_node.start|
-|ワーカーノードの起動完了|event_id.iaas.nodegroup.node_action.start_node.end|
-|ワーカーノードの起動失敗|event_id.iaas.nodegroup.node_action.start_node.failed|
-|ワーカーノードの停止起動|event_id.iaas.nodegroup.node_action.stop_node.start|
-|ワーカーノードの停止完了|event_id.iaas.nodegroup.node_action.stop_node.end|
-|ワーカーノードの停止失敗|event_id.iaas.nodegroup.node_action.stop_node.failed|
-|オートスケーラーの設定を変更起動|event_id.iaas.nodegroup.set_cluster_autoscaler.start|
-|オートスケーラーの設定を変更完了|event_id.iaas.nodegroup.set_cluster_autoscaler.end|
-|オートスケーラーの設定を変更失敗|event_id.iaas.nodegroup.set_cluster_autoscaler.failed|
-|クラスタAPIエンドポイントIPアクセス制御の変更の起動|event_id.iaas.cluster.cluster_api_ep_ipacl_update.start|
+|CNI変更起動|event_id.iaas.cluster.cni_update.start|
 |クラスタAPIエンドポイントIPアクセス制御の変更の完了|event_id.iaas.cluster.cluster_api_ep_ipacl_update.end|
 |クラスタAPIエンドポイントIPアクセス制御の変更の失敗|event_id.iaas.cluster.cluster_api_ep_ipacl_update.failed|
+|クラスタAPIエンドポイントIPアクセス制御の変更の起動|event_id.iaas.cluster.cluster_api_ep_ipacl_update.start|
 |SGW 変更完了|event_id.iaas.cluster.update_sgw.end|
 |SGW 変更失敗|event_id.iaas.cluster.update_sgw.failed|
 |SGW 変更|event_id.iaas.cluster.update_sgw.start|
-|오토힐링 탐지|event_id.iaas.cluster.auto_healing.detected|
+|証明書の更新完了|event_id.iaas.cluster.cluster_rotate_certificate.end|
+|証明書の更新に失敗しました|event_id.iaas.cluster.cluster_rotate_certificate.failed|
+|証明書更新の開始|event_id.iaas.cluster.cluster_rotate_certificate.start|
 |K8S APISERVERの問題検出|event_id.iaas.cluster.k8s_api_not_working.detected|
 |K8S APISERVERのトラブルシューティング|event_id.iaas.cluster.k8s_api_not_working.resolved|
 |すべてのノード停止問題の検出|event_id.iaas.cluster.all_nodes_not_ready.detected|
 |すべてのノード停止のトラブルシューティング|event_id.iaas.cluster.all_nodes_not_ready.resolved|
-|クラスタ動作可能な移行完了|event_id.iaas.cluster.resume.end|
-|クラスター動作可能遷移失敗|event_id.iaas.cluster.resume.failed|
-|クラスタ動作可能な移行の開始|event_id.iaas.cluster.resume.start|
-|証明書更新の開始|event_id.iaas.cluster.cluster_rotate_certificate.start|
-|証明書の更新に失敗しました|event_id.iaas.cluster.cluster_rotate_certificate.failed|
-|証明書の更新完了|event_id.iaas.cluster.cluster_rotate_certificate.end|
+|オートヒーリング検出|event_id.iaas.cluster.auto_healing.detected|
+|ノードグループ作成完了|event_id.iaas.nodegroup.create.end|
+|ノードグループ作成失敗|event_id.iaas.nodegroup.create.failed|
+|ノードグループ作成起動|event_id.iaas.nodegroup.create.start|
+|ノードグループ削除完了|event_id.iaas.nodegroup.delete.end|
+|ノードグループ削除失敗|event_id.iaas.nodegroup.delete.failed|
+|ノードグループ削除起動|event_id.iaas.nodegroup.delete.start|
+|ワーカーノードの起動完了|event_id.iaas.nodegroup.node_action.start_node.end|
+|ワーカーノードの起動失敗|event_id.iaas.nodegroup.node_action.start_node.failed|
+|ワーカーノードの起動|event_id.iaas.nodegroup.node_action.start_node.start|
+|ワーカーノードの停止完了|event_id.iaas.nodegroup.node_action.stop_node.end|
+|ワーカーノードの停止失敗|event_id.iaas.nodegroup.node_action.stop_node.failed|
+|ワーカーノードの停止起動|event_id.iaas.nodegroup.node_action.stop_node.start|
+|オートスケーラーの設定を変更完了|event_id.iaas.nodegroup.set_cluster_autoscaler.end|
+|オートスケーラーの設定を変更失敗|event_id.iaas.nodegroup.set_cluster_autoscaler.failed|
+|オートスケーラーの設定を変更起動|event_id.iaas.nodegroup.set_cluster_autoscaler.start|
+|インスタンスタイプの変更完了|event_id.iaas.nodegroup.update_flavor.end|
+|インスタンスタイプの変更失敗|event_id.iaas.nodegroup.update_flavor.failed|
+|インスタンスタイプの変更|event_id.iaas.nodegroup.update_flavor.start|
+|ユーザースクリプト変更完了|event_id.iaas.nodegroup.update_userscript.end|
+|ユーザースクリプト変更失敗|event_id.iaas.nodegroup.update_userscript.failed|
+|ユーザースクリプト変更起動|event_id.iaas.nodegroup.update_userscript.start|
+|ノードグループーのアップグレード完了|event_id.iaas.nodegroup.upgrade.end|
+|ノードグループーのアップグレード失敗|event_id.iaas.nodegroup.upgrade.failed|
+|ノードグループーのアップグレード起動|event_id.iaas.nodegroup.upgrade.start|
+|CSR 承認|event_id.iaas.cluster.certificate_signing_request.approval|
+|CSR 作成|event_id.iaas.cluster.certificate_signing_request.create|
+|CSR 削除|event_id.iaas.cluster.certificate_signing_request.delete|
+|CSR 修正|event_id.iaas.cluster.certificate_signing_request.update|
+|クラスターロール 作成|event_id.iaas.cluster.cluster_role.create|
+|クラスターロール 削除|event_id.iaas.cluster.cluster_role.delete|
+|クラスターロール 修正|event_id.iaas.cluster.cluster_role.update|
+|クラスターロールバインディング 作成|event_id.iaas.cluster.cluster_role_binding.create|
+|クラスターロールバインディング 削除|event_id.iaas.cluster.cluster_role_binding.delete|
+|クラスターロールバインディング 修正|event_id.iaas.cluster.cluster_role_binding.update|
+|コンフィグマップ 作成|event_id.iaas.cluster.configmap.create|
+|コンフィグマップ 削除|event_id.iaas.cluster.configmap.delete|
+|コンフィグマップ 修正|event_id.iaas.cluster.configmap.update|
+|クローンジョブ 作成|event_id.iaas.cluster.cronjob.create|
+|クローンジョブ 削除|event_id.iaas.cluster.cronjob.delete|
+|クロンジョブ 受精|event_id.iaas.cluster.cronjob.update|
+|ユーザーリソース定義 作成|event_id.iaas.cluster.custom_resource_definition.create|
+|ユーザーリソース定義 削除|event_id.iaas.cluster.custom_resource_definition.delete|
+|ユーザーリソース定義 修正|event_id.iaas.cluster.custom_resource_definition.update|
+|Daemon Set 作成|event_id.iaas.cluster.daemon_set.create|
+|Daemon Set 削除|event_id.iaas.cluster.daemon_set.delete|
+|Daemon Set 修正|event_id.iaas.cluster.daemon_set.update|
+|Deployment 作成|event_id.iaas.cluster.deployment.create|
+|Deployment 削除|event_id.iaas.cluster.deployment.delete|
+|Deployment 修正|event_id.iaas.cluster.deployment.update|
+|Deploymentスケール 調整|event_id.iaas.cluster.deployment.update_scale|
+|Endpoint 作成|event_id.iaas.cluster.endpoint.create|
+|Endpoint 削除|event_id.iaas.cluster.endpoint.delete|
+|Endpoint 修正|event_id.iaas.cluster.endpoint.update|
+|Endpoint Slice 作成|event_id.iaas.cluster.endpoint_slice.create|
+|Endpoint Slice 削除|event_id.iaas.cluster.endpoint_slice.delete|
+|Endpoint Slice 修正|event_id.iaas.cluster.endpoint_slice.update|
+|Horizontal Pod Autoscaler 作成|event_id.iaas.cluster.horizontal_pod_autoscaler.create|
+|Horizontal Pod Autoscaler 削除|event_id.iaas.cluster.horizontal_pod_autoscaler.delete|
+|Horizontal Pod Autoscaler 修正|event_id.iaas.cluster.horizontal_pod_autoscaler.update|
+|Ingress 作成|event_id.iaas.cluster.ingress.create|
+|Ingress 削除|event_id.iaas.cluster.ingress.delete|
+|Ingress 修正|event_id.iaas.cluster.ingress.update|
+|Job 作成|event_id.iaas.cluster.job.create|
+|Job 削除|event_id.iaas.cluster.job.delete|
+|Job 受精|event_id.iaas.cluster.job.update|
+|Limit Range 作成|event_id.iaas.cluster.limit_range.create|
+|Limit Range 削除|event_id.iaas.cluster.limit_range.delete|
+|Limit Range 修正|event_id.iaas.cluster.limit_range.update|
+|Mutating Webhook Configuration 作成|event_id.iaas.cluster.mutating_webhook_configuration.create|
+|Mutating Webhook Configuration 削除|event_id.iaas.cluster.mutating_webhook_configuration.delete|
+|Mutating Webhook Configuration 修正|event_id.iaas.cluster.mutating_webhook_configuration.update|
+|ネームスペース 作成|event_id.iaas.cluster.namespace.create|
+|ネームスペース 削除|event_id.iaas.cluster.namespace.delete|
+|ネームスペース 修正|event_id.iaas.cluster.namespace.update|
+|Network Policy 作成|event_id.iaas.cluster.network_policy.create|
+|Network Policy 削除|event_id.iaas.cluster.network_policy.delete|
+|Network Policy 修正|event_id.iaas.cluster.network_policy.update|
+|Persistent Volume 作成|event_id.iaas.cluster.persistent_volume.create|
+|Persistent Volume 削除|event_id.iaas.cluster.persistent_volume.delete|
+|Persistent Volume 修正|event_id.iaas.cluster.persistent_volume.update|
+|Persistent Volume Claim 作成|event_id.iaas.cluster.persistent_volume_claim.create|
+|Persistent Volume Claim 削除|event_id.iaas.cluster.persistent_volume_claim.delete|
+|Persistent Volume Claim 修正|event_id.iaas.cluster.persistent_volume_claim.update|
+|Pod 接続|event_id.iaas.cluster.pod.attach|
+|Pod 作成|event_id.iaas.cluster.pod.create|
+|Pod 削除|event_id.iaas.cluster.pod.delete|
+|Pod 退避|event_id.iaas.cluster.pod.evict|
+|Pod 実行|event_id.iaas.cluster.pod.exec|
+|Podポートフォワーディング 設定|event_id.iaas.cluster.pod.port_forward|
+|Pod 修正|event_id.iaas.cluster.pod.update|
+|Pod Disruption Budget 作成|event_id.iaas.cluster.pod_disruption_budget.create|
+|Pod Disruption Budget 削除|event_id.iaas.cluster.pod_disruption_budget.delete|
+|Pod Disruption Budget 修正|event_id.iaas.cluster.pod_disruption_budget.update|
+|Pod Security Policy 作成|event_id.iaas.cluster.pod_security_policy.create|
+|Pod Security Policy 削除|event_id.iaas.cluster.pod_security_policy.delete|
+|Pod Security Policy 修正|event_id.iaas.cluster.pod_security_policy.update|
+|Pod Template 作成|event_id.iaas.cluster.pod_template.create|
+|Pod Template 削除|event_id.iaas.cluster.pod_template.delete|
+|Pod Template 修正|event_id.iaas.cluster.pod_template.update|
+|Priority Class 作成|event_id.iaas.cluster.priority_class.create|
+|Priority Class 削除|event_id.iaas.cluster.priority_class.delete|
+|Priority Class 修正|event_id.iaas.cluster.priority_class.update|
+|Replication Controller 作成|event_id.iaas.cluster.replication_controller.create|
+|Replication Controller 削除|event_id.iaas.cluster.replication_controller.delete|
+|Replication Controller 修正|event_id.iaas.cluster.replication_controller.update|
+|Replication Controllerスケール調整|event_id.iaas.cluster.replication_controller.update_scale|
+|Replica Set 作成|event_id.iaas.cluster.replica_set.create|
+|Replica Set 削除|event_id.iaas.cluster.replica_set.delete|
+|Replica Set 修正|event_id.iaas.cluster.replica_set.update|
+|Replica Setスケール 調整|event_id.iaas.cluster.replica_set.update_scale|
+|Resource Quota 作成|event_id.iaas.cluster.resource_quota.create|
+|Resource Quota 削除|event_id.iaas.cluster.resource_quota.delete|
+|Resource Quota 修正|event_id.iaas.cluster.resource_quota.update|
+|Role 作成|event_id.iaas.cluster.role.create|
+|Role 削除|event_id.iaas.cluster.role.delete|
+|Role 修正|event_id.iaas.cluster.role.update|
+|RoleBinding 作成|event_id.iaas.cluster.role_binding.create|
+|RoleBinding 削除|event_id.iaas.cluster.role_binding.delete|
+|RoleBinding 修正|event_id.iaas.cluster.role_binding.update|
+|Secret 作成|event_id.iaas.cluster.secret.create|
+|Secret 削除|event_id.iaas.cluster.secret.delete|
+|Secret 修正|event_id.iaas.cluster.secret.update|
+|サービス 作成|event_id.iaas.cluster.service.create|
+|サービス 削除|event_id.iaas.cluster.service.delete|
+|サービス 修正|event_id.iaas.cluster.service.update|
+|Service Account 作成|event_id.iaas.cluster.service_account.create|
+|Service Account 削除|event_id.iaas.cluster.service_account.delete|
+|Service Account 修正|event_id.iaas.cluster.service_account.update|
+|Stateful Set 作成|event_id.iaas.cluster.stateful_set.create|
+|Stateful Set 削除|event_id.iaas.cluster.stateful_set.delete|
+|Stateful Set 修正|event_id.iaas.cluster.stateful_set.update|
+|Stateful Setスケール 調整|event_id.iaas.cluster.stateful_set.update_scale|
+|Storage Class 作成|event_id.iaas.cluster.storage_class.create|
+|Storage Class 削除|event_id.iaas.cluster.storage_class.delete|
+|Storage Class 修正|event_id.iaas.cluster.storage_class.update|
+|Validating Webhook Configuration 作成|event_id.iaas.cluster.validating_webhook_configuration.create|
+|Validating Webhook Configuration 削除|event_id.iaas.cluster.validating_webhook_configuration.delete|
+|Validating Webhook Configuration 修正|event_id.iaas.cluster.validating_webhook_configuration.update|
+|テンプレートの作成|event_id.iaas.ncs.template.create|
+|テンプレートの削除|event_id.iaas.ncs.template.delete|
+|ワークロードの作成|event_id.iaas.ncs.workload.create|
+|ワークロードの削除|event_id.iaas.ncs.workload.delete|
+|ワークロード再起動|event_id.iaas.ncs.workload.restart|
+|ワークロード停止|event_id.iaas.ncs.workload.stop|
+|ワークロードの変更|event_id.iaas.ncs.workload.update|
+|テンプレートバージョンの作成|event_id.iaas.ncs.template_version.create|
+|テンプレートバージョンの削除|event_id.iaas.ncs.template_version.delete|
 
 ### Object Storage
 
@@ -815,127 +929,6 @@
 |ユーザーデータの追加|event_id.certificate_manager.user_data.create|
 |ユーザーデータの削除|event_id.certificate_manager.user_data.delete|
 |ユーザーデータの修正|event_id.certificate_manager.user_data.update|
-
-### Kubernetes
-
-| イベント | イベントID |
-| --- | --- |
-|CSR 作成|event_id.iaas.cluster.certificate_signing_request.create|
-|CSR 削除|event_id.iaas.cluster.certificate_signing_request.delete|
-|CSR 修正|event_id.iaas.cluster.certificate_signing_request.update|
-|CSR 承認|event_id.iaas.cluster.certificate_signing_request.approval|
-|クラスターロールバインディング 作成|event_id.iaas.cluster.cluster_role_binding.create|
-|クラスターロールバインディング 削除|event_id.iaas.cluster.cluster_role_binding.delete|
-|クラスターロールバインディング 修正|event_id.iaas.cluster.cluster_role_binding.update|
-|クラスターロール 作成|event_id.iaas.cluster.cluster_role.create|
-|クラスターロール 削除|event_id.iaas.cluster.cluster_role.delete|
-|クラスターロール 修正|event_id.iaas.cluster.cluster_role.update|
-|コンフィグマップ 作成|event_id.iaas.cluster.configmap.create|
-|コンフィグマップ 削除|event_id.iaas.cluster.configmap.delete|
-|コンフィグマップ 修正|event_id.iaas.cluster.configmap.update|
-|クローンジョブ 作成|event_id.iaas.cluster.cronjob.create|
-|クローンジョブ 削除|event_id.iaas.cluster.cronjob.delete|
-|クロンジョブ 受精|event_id.iaas.cluster.cronjob.update|
-|ユーザーリソース定義 作成|event_id.iaas.cluster.custom_resource_definition.create|
-|ユーザーリソース定義 削除|event_id.iaas.cluster.custom_resource_definition.delete|
-|ユーザーリソース定義 修正|event_id.iaas.cluster.custom_resource_definition.update|
-|Daemon Set 作成|event_id.iaas.cluster.daemon_set.create|
-|Daemon Set 削除|event_id.iaas.cluster.daemon_set.delete|
-|Daemon Set 修正|event_id.iaas.cluster.daemon_set.update|
-|Deployment 作成|event_id.iaas.cluster.deployment.create|
-|Deployment 削除|event_id.iaas.cluster.deployment.delete|
-|Deployment 修正|event_id.iaas.cluster.deployment.update|
-|Deploymentスケール 調整|event_id.iaas.cluster.deployment.update_scale|
-|Endpoint 作成|event_id.iaas.cluster.endpoint.create|
-|Endpoint 削除|event_id.iaas.cluster.endpoint.delete|
-|Endpoint 修正|event_id.iaas.cluster.endpoint.update|
-|Endpoint Slice 作成|event_id.iaas.cluster.endpoint_slice.create|
-|Endpoint Slice 削除|event_id.iaas.cluster.endpoint_slice.delete|
-|Endpoint Slice 修正|event_id.iaas.cluster.endpoint_slice.update|
-|Horizontal Pod Autoscaler 作成|event_id.iaas.cluster.horizontal_pod_autoscaler.create|
-|Horizontal Pod Autoscaler 削除|event_id.iaas.cluster.horizontal_pod_autoscaler.delete|
-|Horizontal Pod Autoscaler 修正|event_id.iaas.cluster.horizontal_pod_autoscaler.update|
-|Ingress 作成|event_id.iaas.cluster.ingress.create|
-|Ingress 削除|event_id.iaas.cluster.ingress.delete|
-|Ingress 修正|event_id.iaas.cluster.ingress.update|
-|Job 作成|event_id.iaas.cluster.job.create|
-|Job 削除|event_id.iaas.cluster.job.delete|
-|Job 受精|event_id.iaas.cluster.job.update|
-|Limit Range 作成|event_id.iaas.cluster.limit_range.create|
-|Limit Range 削除|event_id.iaas.cluster.limit_range.delete|
-|Limit Range 修正|event_id.iaas.cluster.limit_range.update|
-|Mutating Webhook Configuration 作成|event_id.iaas.cluster.mutating_webhook_configuration.create|
-|Mutating Webhook Configuration 削除|event_id.iaas.cluster.mutating_webhook_configuration.delete|
-|Mutating Webhook Configuration 修正|event_id.iaas.cluster.mutating_webhook_configuration.update|
-|ネームスペース 作成|event_id.iaas.cluster.namespace.create|
-|ネームスペース 削除|event_id.iaas.cluster.namespace.delete|
-|ネームスペース 修正|event_id.iaas.cluster.namespace.update|
-|Network Policy 作成|event_id.iaas.cluster.network_policy.create|
-|Network Policy 削除|event_id.iaas.cluster.network_policy.delete|
-|Network Policy 修正|event_id.iaas.cluster.network_policy.update|
-|Persistent Volume Claim 作成|event_id.iaas.cluster.persistent_volume_claim.create|
-|Persistent Volume Claim 削除|event_id.iaas.cluster.persistent_volume_claim.delete|
-|Persistent Volume Claim 修正|event_id.iaas.cluster.persistent_volume_claim.update|
-|Persistent Volume 作成|event_id.iaas.cluster.persistent_volume.create|
-|Persistent Volume 削除|event_id.iaas.cluster.persistent_volume.delete|
-|Persistent Volume 修正|event_id.iaas.cluster.persistent_volume.update|
-|Pod Disruption Budget 作成|event_id.iaas.cluster.pod_disruption_budget.create|
-|Pod Disruption Budget 削除|event_id.iaas.cluster.pod_disruption_budget.delete|
-|Pod Disruption Budget 修正|event_id.iaas.cluster.pod_disruption_budget.update|
-|Pod 作成|event_id.iaas.cluster.pod.create|
-|Pod 削除|event_id.iaas.cluster.pod.delete|
-|Pod 修正|event_id.iaas.cluster.pod.update|
-|Pod 接続|event_id.iaas.cluster.pod.attach|
-|Pod 退避|event_id.iaas.cluster.pod.evict|
-|Pod 実行|event_id.iaas.cluster.pod.exec|
-|Podポートフォワーディング 設定|event_id.iaas.cluster.pod.port_forward|
-|Pod Security Policy 作成|event_id.iaas.cluster.pod_security_policy.create|
-|Pod Security Policy 削除|event_id.iaas.cluster.pod_security_policy.delete|
-|Pod Security Policy 修正|event_id.iaas.cluster.pod_security_policy.update|
-|Pod Template 作成|event_id.iaas.cluster.pod_template.create|
-|Pod Template 削除|event_id.iaas.cluster.pod_template.delete|
-|Pod Template 修正|event_id.iaas.cluster.pod_template.update|
-|Priority Class 作成|event_id.iaas.cluster.priority_class.create|
-|Priority Class 削除|event_id.iaas.cluster.priority_class.delete|
-|Priority Class 修正|event_id.iaas.cluster.priority_class.update|
-|Replica Set 作成|event_id.iaas.cluster.replica_set.create|
-|Replica Set 削除|event_id.iaas.cluster.replica_set.delete|
-|Replica Set 修正|event_id.iaas.cluster.replica_set.update|
-|Replica Setスケール 調整|event_id.iaas.cluster.replica_set.update_scale|
-|Replication Controller 作成|event_id.iaas.cluster.replication_controller.create|
-|Replication Controller 削除|event_id.iaas.cluster.replication_controller.delete|
-|Replication Controller 修正|event_id.iaas.cluster.replication_controller.update|
-|Replication Controllerスケール調整|event_id.iaas.cluster.replication_controller.update_scale|
-|Resource Quota 作成|event_id.iaas.cluster.resource_quota.create|
-|Resource Quota 削除|event_id.iaas.cluster.resource_quota.delete|
-|Resource Quota 修正|event_id.iaas.cluster.resource_quota.update|
-|RoleBinding 作成|event_id.iaas.cluster.role_binding.create|
-|RoleBinding 削除|event_id.iaas.cluster.role_binding.delete|
-|RoleBinding 修正|event_id.iaas.cluster.role_binding.update|
-|Role 作成|event_id.iaas.cluster.role.create|
-|Role 削除|event_id.iaas.cluster.role.delete|
-|Role 修正|event_id.iaas.cluster.role.update|
-|Secret 作成|event_id.iaas.cluster.secret.create|
-|Secret 削除|event_id.iaas.cluster.secret.delete|
-|Secret 修正|event_id.iaas.cluster.secret.update|
-|Service Account 作成|event_id.iaas.cluster.service_account.create|
-|Service Account 削除|event_id.iaas.cluster.service_account.delete|
-|Service Account 修正|event_id.iaas.cluster.service_account.update|
-|サービス 作成|event_id.iaas.cluster.service.create|
-|サービス 削除|event_id.iaas.cluster.service.delete|
-|サービス 修正|event_id.iaas.cluster.service.update|
-|Stateful Set 作成|event_id.iaas.cluster.stateful_set.create|
-|Stateful Set 削除|event_id.iaas.cluster.stateful_set.delete|
-|Stateful Set 修正|event_id.iaas.cluster.stateful_set.update|
-|Stateful Setスケール 調整|event_id.iaas.cluster.stateful_set.update_scale|
-|Storage Class 作成|event_id.iaas.cluster.storage_class.create|
-|Storage Class 削除|event_id.iaas.cluster.storage_class.delete|
-|Storage Class 修正|event_id.iaas.cluster.storage_class.update|
-|Validating Webhook Configuration 作成|event_id.iaas.cluster.validating_webhook_configuration.create|
-|Validating Webhook Configuration 削除|event_id.iaas.cluster.validating_webhook_configuration.delete|
-|Validating Webhook Configuration 修正|event_id.iaas.cluster.validating_webhook_configuration.update|
-|クラスター修正|event_id.iaas.cluster.update|
-|クラスターアップグレード|event_id.iaas.cluster.upgrade|
 
 ### Face Recognition
 
